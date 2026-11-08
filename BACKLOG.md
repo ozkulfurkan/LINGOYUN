@@ -128,7 +128,19 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-24** BULUT — Deneme/entitlement mantığı (saf fonksiyon + test): deneme başlangıcı, kalan gün, süre doldu, abone. Önkoşul: LNG-1.
   - `src/features/subscription/access.ts`: `accessState` → `subscribed` / `trial` (kalan gün, bitmek üzere uyarısı ≤ 2 gün) / `trialEnded` / `notStarted`; `canPlay`. Deneme tam 7×24 saat; abonelik her durumda önce gelir. Saat geri alınarak deneme uzatılamaz (`lastSeenAt`). Deneme bir kez başlar. iOS'ta başlangıç App Store'daki 0 TL ürünün satın alma tarihi, Android'de yerel kayıt (`resolveTrialStart`). Kayıt: `src/storage/trial.ts` (`trial.v1`, cihaz geneli).
 - [ ] **LNG-25** CİHAZ — RevenueCat entegrasyonu, paywall ekranı, satın al / geri yükle, kilit. Önkoşul: LNG-23, LNG-24.
-- [ ] **LNG-26** CİHAZ — Ebeveyn kapısı (satın alma + ayarlar önünde). Önkoşul: LNG-1.
+- [~] **LNG-26** CİHAZ — Ebeveyn kapısı (satın alma + ayarlar önünde). Önkoşul: LNG-1.
+  - ✅ Ana ekranda sağ üstte ayar butonu → ebeveyn kapısı: çarpma işlemi **yazıyla** sorulur ("yedi çarpı sekiz", çarpanlar 3–9, her seferinde rastgele), cevap ekrandaki rakam tuşlarıyla girilir; yanlışta yeni soru. Geçince 1 dakika açık kalır (yalnızca bellekte), Ayarlar adresine doğrudan gidilirse kapıya yönlendirilir. Mantık `src/features/parental-gate/`.
+  - ✅ Yeni **Ayarlar** ekranı (kapının arkasında): ses efektleri ve titreşim anahtarları; profiller arasında geçiş ve iki adımlı onaylı profil silme (ilerlemesiyle birlikte).
+  - Kararlar (gece çalışması): satın alma ekranı (LNG-25) henüz yok; o geldiğinde aynı kapı kullanılacak (`/parent-gate`, geçince `isGateOpen()`). Profil ekleme ayarlara konmadı (onboarding'den).
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. Ana ekranda sağ üstteki kaydırıcı ikonuna dokun → "Ebeveyn kontrolü", yazıyla çarpma sorusu ve rakam tuşları.
+    2. Yanlış sonucu yaz → ekran sallanır, "Olmadı. Yeni bir soru geldi.", soru değişir.
+    3. Doğru sonucu yaz → Ayarlar açılır.
+    4. "Ses efektleri"ni kapat → oyunda ses çıkmaz; "Titreşim"i kapat → titreşim olmaz. Uygulamayı kapatıp aç: ayar kalıcı.
+    5. İki profil varken "Bu profile geç" → ana ekran o profile göre (tema dahil) değişir.
+    6. "Sil: …" → onay sorusu; "Vazgeç" bir şey silmez; "Evet, sil" profili ve ilerlemesini siler.
+    7. 2–7 profilinde de sağ üstte ayar butonu var.
 
 ## Faz 5 — Yetişkin
 

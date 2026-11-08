@@ -148,5 +148,44 @@
     "current": "{{level}}: current level, {{percent}}% learned",
     "locked": "{{level}}: locked",
     "soon": "{{level}}: coming soon"
+  },
+  "gate": {
+    "title": "Grown-ups only",
+    "ask": "To continue, type the answer in digits:",
+    "question": "{{a}} times {{b}}",
+    "wrong": "Not quite. Here is a new one.",
+    "typed": "Typed: {{value}}",
+    "typedEmpty": "No digits typed yet",
+    "digit": "{{d}}",
+    "backspace": "Delete last digit",
+    "cancel": "Cancel",
+    "numbers": {
+      "3": "three",
+      "4": "four",
+      "5": "five",
+      "6": "six",
+      "7": "seven",
+      "8": "eight",
+      "9": "nine"
+    }
+  },
+  "settings": {
+    "open": "Settings (grown-ups)",
+    "title": "Settings",
+    "sound": "Sound effects",
+    "haptics": "Vibration",
+    "profiles": "Profiles",
+    "active": "Current profile",
+    "switchTo": "Switch to this profile",
+    "delete": "Delete",
+    "confirmDelete": "Delete {{nickname}} for good? Their progress is deleted too.",
+    "confirmYes": "Yes, delete",
+    "confirmNo": "Cancel",
+    "close": "Close",
+    "type": {
+      "mini": "Ages 2–7",
+      "kid": "Ages 7–12",
+      "adult": "Adult"
+    }
   }
 }

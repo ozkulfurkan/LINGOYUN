@@ -3,6 +3,8 @@ import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
+import { SettingsIcon } from '@/components/illustrations';
+import { PressScale } from '@/components/PressScale';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { RiverMap } from '@/components/RiverMap';
 import { Screen } from '@/components/Screen';
@@ -16,7 +18,7 @@ import { visibleStreak } from '@/features/progress';
 import { localDay } from '@/features/srs';
 import { loadProgress } from '@/storage/progress';
 import { loadDeck } from '@/storage/srs';
-import { space, useTheme } from '@/theme';
+import { space, stroke, touchTarget, useTheme } from '@/theme';
 
 // Sends unfinished setups to onboarding. Leveled profiles get the river map;
 // mini profiles get their picture games later (LNG-33).
@@ -39,6 +41,9 @@ function MiniHome({ nickname }: { nickname: string }) {
   const { colors } = useTheme();
   return (
     <View style={[styles.mini, { backgroundColor: colors.background }]}>
+      <View style={styles.cornerButton}>
+        <SettingsButton />
+      </View>
       <ThemedText variant="title" color="accentText">
         {t('app.name')}
       </ThemedText>
@@ -96,19 +101,41 @@ function MapHome({ profile, profileType, level }: MapHomeProps) {
         </View>
       }
     >
-      <View>
-        <ThemedText variant="title" accessibilityRole="header">
-          {t('home.hello', { nickname: profile.nickname })}
-        </ThemedText>
-        <ThemedText color="textMuted">
-          {t('home.stats', { gems: data.gems, streak: data.streak })}
-        </ThemedText>
+      <View style={styles.header}>
+        <View style={styles.grow}>
+          <ThemedText variant="title" accessibilityRole="header">
+            {t('home.hello', { nickname: profile.nickname })}
+          </ThemedText>
+          <ThemedText color="textMuted">
+            {t('home.stats', { gems: data.gems, streak: data.streak })}
+          </ThemedText>
+        </View>
+        <SettingsButton />
       </View>
       <RiverMap
         nodes={data.nodes}
         shortLabel={(l) => (profileType === 'kid' ? l.replace(/^L/, '') : l)}
       />
     </Screen>
+  );
+}
+
+/** Opens settings through the parental gate (kids-ux skill). */
+function SettingsButton() {
+  const { t } = useTranslation();
+  const { colors, radii } = useTheme();
+  return (
+    <PressScale
+      accessibilityRole="button"
+      accessibilityLabel={t('settings.open')}
+      onPress={() => router.push('/parent-gate')}
+      style={[
+        styles.settings,
+        { backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radii.sm },
+      ]}
+    >
+      <SettingsIcon />
+    </PressScale>
   );
 }
 
@@ -128,5 +155,25 @@ const styles = StyleSheet.create({
   },
   half: {
     flex: 1,
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: space.md,
+  },
+  grow: {
+    flex: 1,
+  },
+  settings: {
+    width: touchTarget.kid,
+    height: touchTarget.kid,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: stroke.thin,
+  },
+  cornerButton: {
+    position: 'absolute',
+    top: space.xxxl,
+    right: space.xl,
   },
 });
