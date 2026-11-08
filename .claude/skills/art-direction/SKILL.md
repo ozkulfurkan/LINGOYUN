@@ -9,14 +9,15 @@ Hedef: Ekran görüntüsü logosuz paylaşıldığında bile "bu LINGOYUN" dedir
 
 ## 1. Onaylı yönler
 
-| Profil | Tema | Durum |
-|---|---|---|
-| `mini` (2–7), `kid` (7–12) | **C — Oyun Hamuru**, görsel öncelikli | ✅ Onaylı |
-| `adult` | **Sözlük** (açık) + Gece Nehri renkleriyle koyu mod; aynı düzen ve fontlar (Fraunces + Inter Tight) | ✅ Onaylı |
+| Profil                     | Tema                                                                                                | Durum     |
+| -------------------------- | --------------------------------------------------------------------------------------------------- | --------- |
+| `mini` (2–7), `kid` (7–12) | **C — Oyun Hamuru**, görsel öncelikli                                                               | ✅ Onaylı |
+| `adult`                    | **Sözlük** (açık) + Gece Nehri renkleriyle koyu mod; aynı düzen ve fontlar (Fraunces + Inter Tight) | ✅ Onaylı |
 
 `docs/art-direction.md` her şeyin üstündedir. Aşağıdaki A ve B yalnızca çocuk teması için elendi; yetişkin teması için ilham olarak kullanılabilir.
 
 ### Çocuk teması: Oyun Hamuru + görsel öncelik
+
 - **Görsel her ekranın kahramanıdır.** Kelime kartında resim ekranın en büyük öğesi (7–12'de ~190 pt, 2–7'de seçeneklerin kendisi resim). Metin resmin altında.
 - 2–7 yaşta seçenekler **resim kartları**; metin yok, soru karakterin ağzından sesli gelir.
 - 7–12 yaşta soru kartı = büyük resim + kelime; seçenekler metin.
@@ -25,16 +26,19 @@ Hedef: Ekran görüntüsü logosuz paylaşıldığında bile "bu LINGOYUN" dedir
 - Örnekler ve kaynak: `docs/art-direction/c-mini-2-7.png`, `c-kid-7-12.png`, `docs/art-direction/src/`.
 
 ### Aday A — "Kâğıt Nehir"
+
 - Katmanlı **kâğıt kesik** kolaj: elle kesilmiş gibi hafif düzensiz kenarlar, katmanlar arası yumuşak gölge, ince kâğıt dokusu (grain).
 - Palet: krem kâğıt zemin, nehir turkuazı, zerdeçal sarısı, kiremit, mürekkep laciverti.
 - Hareket: parçalar kâğıt gibi hafif sallanarak yerine oturur.
 
 ### Aday B — "Ebru"
+
 - Nehir = su = **ebru**. Ekran geçişleri ve arka planlar ebru desenleriyle akar (Skia shader). Modern, sade çini motifleri rozet ve çerçevelerde.
 - Palet: derin çivit, turkuaz, mercan, safran, altın vurgular; zemin açık fildişi.
 - Hareket: akışkan, dalgalanan geçişler; doğru cevapta renk damlası yayılır.
 
 ### Aday C — "Oyun Hamuru"
+
 - Yumuşak, tombul, **hamur/kil** görünümlü 2.5D şekiller (iç gölge + parlak üst ışık), kalın ve oyuncaklı tipografi.
 - Palet: doygun ama sıcak şeker renkleri; her yaş grubunun kendi ana rengi.
 - Hareket: esneyen-sıkışan (squash & stretch), zıplayan butonlar.
@@ -42,6 +46,7 @@ Hedef: Ekran görüntüsü logosuz paylaşıldığında bile "bu LINGOYUN" dedir
 ## 2. Her yön için geçerli kurallar
 
 **Yasak (jenerik görünüm işaretleri):**
+
 - Sistem fontu ile başlık; Inter/Roboto/SF'yi başlıkta kullanma.
 - Saf `#FFFFFF` zemin veya saf `#000000` metin.
 - Mor-mavi jenerik gradyanlar, "glassmorphism" kartlar, varsayılan gölgeli beyaz kart listeleri.
@@ -49,6 +54,7 @@ Hedef: Ekran görüntüsü logosuz paylaşıldığında bile "bu LINGOYUN" dedir
 - Her şeye aynı `borderRadius`; ortalanmış, simetrik, boş "hero + buton" ekranlar.
 
 **Zorunlu:**
+
 - **Tipografi**: karakterli bir başlık fontu + okunaklı gövde fontu. Türkçe karakterleri (ç ğ ı İ ö ş ü, özellikle `İ` ve `ı`) içerdiği **doğrulanmış** olmalı. Türkçe harfleri doğrulanmış: Baloo 2, DynaPuff, Nunito, Bricolage Grotesque, Rubik, Paytone One, Coiny, Grandstander. Eksik olanlar: Lilita One, Fredoka, Sniglet, Chango, Bagel Fat One, Titan One (`İ` yok). 2–7 yaşta tek katlı "a" ve "g" olan font tercih edilir.
 - **Doku**: en az bir katmanda ince doku (kâğıt, grain, ebru) — düz dijital yüzey yok.
 - **Şekil dili**: tek bir imza şekil seç (ör. düzensiz damla, kesik kâğıt kenarı) ve buton, kart, rozet, maske olarak tekrar kullan.
@@ -71,7 +77,8 @@ Her şey `src/theme` içinden: `colors`, `typography`, `space`, `radii` (imza ş
 ## 5. Kendi işini kontrol et
 
 SVG veya ekran ürettiğinde Chromium/Playwright ile PNG'ye render et ve bak:
+
 - Logoyu kapat: hâlâ LINGOYUN'a mı benziyor, yoksa herhangi bir uygulamaya mı?
 - Gri tonlamada hiyerarşi ve doğru/yanlış ayrımı okunuyor mu?
 - Küçük telefonda (360×640) taşma var mı?
-Yanıt "jenerik" ise yeniden tasarla.
+  Yanıt "jenerik" ise yeniden tasarla.

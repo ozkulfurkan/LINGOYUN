@@ -9,14 +9,14 @@ Bir quiz uygulaması ile bir oyun arasındaki fark buradadır. Her etkileşim **
 
 ## Geri bildirim tablosu
 
-| An | Görsel / hareket | Haptics (expo-haptics) | Ses |
-|---|---|---|---|
-| Butona basma | 0.94'e sıkış, spring ile geri | `selectionAsync` | hafif "tık" |
-| Doğru cevap | şık büyür + parıltı, taş seçenekten skora uçar | `notificationAsync(Success)` | yükselen iki nota |
-| Yanlış cevap | şık yumuşakça sağa-sola sallanır (3 salınım), doğru şık vurgulanır | `impactAsync(Light)` | yumuşak, cezalandırmayan ton |
-| Kombo (3, 5, 10 doğru) | kombo rozeti, ekran kenarında hafif ışık | `impactAsync(Medium)` | perdesi her komboda yükselen nota |
-| Bölüm sonu | yıldız/taş sayımı tek tek, karakter sevinci | sayım başına `selectionAsync` | kutlama |
-| Seviye atlama | tam ekran an (≤ 2,5 sn, dokununca geçilebilir) | `notificationAsync(Success)` | fanfar |
+| An                     | Görsel / hareket                                                   | Haptics (expo-haptics)        | Ses                               |
+| ---------------------- | ------------------------------------------------------------------ | ----------------------------- | --------------------------------- |
+| Butona basma           | 0.94'e sıkış, spring ile geri                                      | `selectionAsync`              | hafif "tık"                       |
+| Doğru cevap            | şık büyür + parıltı, taş seçenekten skora uçar                     | `notificationAsync(Success)`  | yükselen iki nota                 |
+| Yanlış cevap           | şık yumuşakça sağa-sola sallanır (3 salınım), doğru şık vurgulanır | `impactAsync(Light)`          | yumuşak, cezalandırmayan ton      |
+| Kombo (3, 5, 10 doğru) | kombo rozeti, ekran kenarında hafif ışık                           | `impactAsync(Medium)`         | perdesi her komboda yükselen nota |
+| Bölüm sonu             | yıldız/taş sayımı tek tek, karakter sevinci                        | sayım başına `selectionAsync` | kutlama                           |
+| Seviye atlama          | tam ekran an (≤ 2,5 sn, dokununca geçilebilir)                     | `notificationAsync(Success)`  | fanfar                            |
 
 ## Süreler ve hareket
 

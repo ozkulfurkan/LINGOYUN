@@ -4,11 +4,11 @@
 
 ## Üç ayrı kavram
 
-| Kavram | Ne | Örnek |
-|---|---|---|
-| **Arayüz dili** (UI) | Menü, buton, yönerge metinleri | Türk ebeveyn arayüzü Türkçe görür |
-| **Ana dil** (`nativeLang`) | Profilin bildiği dil | `tr` |
-| **Hedef dil** (`targetLang`) | Profilin öğrendiği dil | `en` |
+| Kavram                       | Ne                             | Örnek                             |
+| ---------------------------- | ------------------------------ | --------------------------------- |
+| **Arayüz dili** (UI)         | Menü, buton, yönerge metinleri | Türk ebeveyn arayüzü Türkçe görür |
+| **Ana dil** (`nativeLang`)   | Profilin bildiği dil           | `tr`                              |
+| **Hedef dil** (`targetLang`) | Profilin öğrendiği dil         | `en`                              |
 
 Bir **kurs** = `(nativeLang, targetLang)` çifti. İlk kurs `tr→en`; sorular her iki yönde de sorulur (EN→TR ve TR→EN). İleride `en→tr` (Türkçe öğrenen İngilizce konuşanlar) veya `tr→de` eklenebilir.
 
@@ -43,13 +43,13 @@ Her dil tek bir kayıtla tanımlanır:
 
 ```ts
 type LanguageDef = {
-  code: 'tr' | 'en';            // yeni dil = yeni kod
-  nativeName: string;           // "Türkçe", "English"
-  locale: string;               // 'tr-TR' — büyük/küçük harf ve sıralama
-  ttsVoice: string;             // expo-speech dil kodu
-  direction: 'ltr' | 'rtl';     // ileride Arapça vb.
-  charset: string;              // fontların kapsaması gereken özel harfler: "çğıİöşüÇĞÖŞÜ"
-  normalize: (s: string) => string;      // cevap karşılaştırma için
+  code: 'tr' | 'en'; // yeni dil = yeni kod
+  nativeName: string; // "Türkçe", "English"
+  locale: string; // 'tr-TR' — büyük/küçük harf ve sıralama
+  ttsVoice: string; // expo-speech dil kodu
+  direction: 'ltr' | 'rtl'; // ileride Arapça vb.
+  charset: string; // fontların kapsaması gereken özel harfler: "çğıİöşüÇĞÖŞÜ"
+  normalize: (s: string) => string; // cevap karşılaştırma için
   nearMiss?: (a: string, b: string) => boolean; // ı/i, ş/s gibi "neredeyse doğru"
 };
 ```
