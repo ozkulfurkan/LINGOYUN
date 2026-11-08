@@ -4,7 +4,8 @@
   },
   "home": {
     "comingSoon": "Yakında",
-    "hello": "Merhaba {{nickname}}"
+    "hello": "Merhaba {{nickname}}",
+    "play": "Oyna"
   },
   "common": {
     "continue": "Devam",
@@ -69,17 +70,43 @@
   },
   "placement": {
     "progress": "{{current}} / {{total}}",
+    "dontKnow": "Bilmiyorum",
+    "result": {
+      "eyebrow": "Seviye sonucu",
+      "title": "Buradan başlıyoruz, {{nickname}}!",
+      "start": "Başla"
+    }
+  },
+  "quiz": {
     "progressLabel": "Soru {{current}} / {{total}}",
     "meaningIn": {
       "tr": "Türkçesi ne?",
       "en": "İngilizcesi ne?"
     },
-    "dontKnow": "Bilmiyorum",
     "speak": "Sesli oku",
-    "result": {
-      "eyebrow": "Seviye sonucu",
-      "title": "Buradan başlıyoruz, {{nickname}}!",
-      "start": "Başla"
+    "rightAnswer": "Doğru cevap",
+    "yourAnswer": "Senin cevabın"
+  },
+  "game": {
+    "correct": {
+      "kid": "Aferin!",
+      "adult": "Doğru"
+    },
+    "answerWas": "Doğrusu: {{answer}}",
+    "close": "Oyundan çık",
+    "gemsLabel": "{{n}} taş",
+    "summary": {
+      "eyebrow": "Tur bitti",
+      "finished": "Bitti, {{nickname}}!",
+      "perfect": "Hatasız, {{nickname}}!",
+      "score": "{{correct}} / {{total}} doğru",
+      "xp": "+{{n}} XP",
+      "gems": "+{{n}} taş",
+      "streak": "Seri: {{n}} gün",
+      "freezeUsed": "Serin dondurma hakkıyla korundu",
+      "badges": "Yeni rozet: {{n}}",
+      "again": "Bir tur daha",
+      "done": "Bitir"
     }
   }
 }

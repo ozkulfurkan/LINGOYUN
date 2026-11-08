@@ -56,6 +56,10 @@ Kendi beyanı → başlangıç (yetişkin: A1/A2/B1/B2; 7–12: L1/L3/L6/L8) →
 
 Test yalnızca en az 20 kavramı olan seviyeleri kullanır (`placeableLevels`), çünkü boş bir seviyeyi alttaki kelimelerle sormak kullanıcıyı olduğundan yüksek gösterir. Şu an üst sınır yetişkinde A2, 7–12'de L3; içerik eklendikçe ölçek kendiliğinden genişler. Testte doğru/yanlış gösterilmez, yarıda bırakılan test baştan başlar. İki dilde aynı yazılan kelimeler ("film") sorulmaz.
 
+## Çoktan seçmeli oyun (`src/features/games/multiple-choice`)
+
+Bir tur **10 soru**, iki yön karışık. Sıra: vadesi gelen tekrarlar (en fazla 5), sonra seviyenin yeni kelimeleri (kurs sırasıyla), sonra kalan tekrarlar; seviye bitince en zayıf kelimeler çalışılır. Cevap tekrar kutusuna **hemen** yazılır, turdan çıkınca kaybolmaz. XP, taş ve seri **yalnızca tur bitince** verilir. Çoktan seçmelide "neredeyse doğru" yoktur: doğru → üst kutu, yanlış → kutu 0. Yanlışta doğru cevap gösterilir ve oyuncu "Devam"a basana kadar beklenir.
+
 ## Soru üretici (`src/features/quiz`)
 
 Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer uzunlukta; ikinci bir doğru cevap (eş anlamlı dahil) asla şık olmaz. Aynı kelime arka arkaya sorulmaz. Rastgelelik tohumlanabilir.

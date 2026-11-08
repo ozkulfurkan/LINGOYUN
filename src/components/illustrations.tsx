@@ -247,6 +247,54 @@ export function SpeakerIcon() {
   );
 }
 
+/** Mark on an answered option: a tick for right, a soft cross for a wrong pick. */
+export function AnswerMark({ kind }: { kind: 'right' | 'wrong' }) {
+  const { colors } = useTheme();
+  const ink = kind === 'right' ? colors.onCorrect : colors.onIncorrect;
+  return (
+    <Svg width={24} height={24} viewBox="0 0 24 24" accessible={false}>
+      <Path
+        d={kind === 'right' ? 'M5 13 L 10 18 L 19 7' : 'M7 7 L 17 17 M 17 7 L 7 17'}
+        fill="none"
+        stroke={ink}
+        strokeWidth={3.5}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </Svg>
+  );
+}
+
+/** Cross for leaving a game. */
+export function CloseIcon() {
+  const { colors } = useTheme();
+  return (
+    <Svg width={20} height={20} viewBox="0 0 20 20" accessible={false}>
+      <Path
+        d="M4 4 L 16 16 M 16 4 L 4 16"
+        fill="none"
+        stroke={colors.text}
+        strokeWidth={3}
+        strokeLinecap="round"
+      />
+    </Svg>
+  );
+}
+
+/** Clay gem, the reward currency. */
+export function GemIcon() {
+  const tones = useTones();
+  return (
+    <Svg width={28} height={28} viewBox="0 0 28 28" accessible={false}>
+      <Defs>
+        <ClayGradient id="gem" tone={tones.lemon} />
+      </Defs>
+      <Circle cx={14} cy={14} r={13} fill="url(#gem)" />
+      <Ellipse cx={10} cy={9} rx={4} ry={2.5} fill={tones.highlight} opacity={0.7} />
+    </Svg>
+  );
+}
+
 /** Clay medal for the level result. */
 export function LevelMedal() {
   const tones = useTones();

@@ -19,6 +19,9 @@ export const stroke = {
 /** Scale of a pressed control (game-feel skill). */
 export const pressedScale = 0.94;
 
+/** Opacity of answers that no longer matter once a question is decided. */
+export const dimmedOpacity = 0.55;
+
 /** Minimum touch target per profile type (kids-ux skill). */
 export const touchTarget = {
   mini: 64,

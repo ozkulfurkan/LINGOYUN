@@ -64,7 +64,7 @@ function translationsOf(prompt: string): string[] {
 }
 
 async function answerCorrectly() {
-  const prompt = screen.getByTestId('placement-prompt').props.children as string;
+  const prompt = screen.getByTestId('quiz-prompt').props.children as string;
   const label = translationsOf(prompt).find((text) => screen.queryByLabelText(text));
   if (!label) throw new Error(`no option for "${prompt}"`);
   await press(label);
@@ -131,7 +131,7 @@ describe('placement test', () => {
   it('reads each question aloud for kids, in the language of the prompt', async () => {
     seedProfile('kid');
     await startTest('Çok iyi biliyorum');
-    const prompt = screen.getByTestId('placement-prompt').props.children as string;
+    const prompt = screen.getByTestId('quiz-prompt').props.children as string;
     expect(Speech.speak).toHaveBeenCalledTimes(1);
     const [text, options] = (Speech.speak as jest.Mock).mock.calls[0];
     expect(text).toBe(prompt);

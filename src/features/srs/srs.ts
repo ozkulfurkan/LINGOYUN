@@ -95,6 +95,11 @@ export function masteryOf(deck: Deck, conceptIds: readonly string[], minBox = 3)
   return learned / conceptIds.length;
 }
 
+/** Number of words learned so far: cards that reached at least `minBox`. */
+export function learnedCount(deck: Deck, minBox = 3): number {
+  return Object.values(deck).filter((c) => c.box >= minBox).length;
+}
+
 /** Rebuilds a deck from stored JSON, dropping malformed cards. */
 export function parseDeck(data: unknown): Deck {
   if (typeof data !== 'object' || data === null || Array.isArray(data)) return {};

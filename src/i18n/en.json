@@ -4,7 +4,8 @@
   },
   "home": {
     "comingSoon": "Coming soon",
-    "hello": "Hello {{nickname}}"
+    "hello": "Hello {{nickname}}",
+    "play": "Play"
   },
   "common": {
     "continue": "Continue",
@@ -69,17 +70,43 @@
   },
   "placement": {
     "progress": "{{current}} / {{total}}",
+    "dontKnow": "I don't know",
+    "result": {
+      "eyebrow": "Your level",
+      "title": "This is where we start, {{nickname}}!",
+      "start": "Start"
+    }
+  },
+  "quiz": {
     "progressLabel": "Question {{current}} of {{total}}",
     "meaningIn": {
       "tr": "What is it in Turkish?",
       "en": "What is it in English?"
     },
-    "dontKnow": "I don't know",
     "speak": "Read aloud",
-    "result": {
-      "eyebrow": "Your level",
-      "title": "This is where we start, {{nickname}}!",
-      "start": "Start"
+    "rightAnswer": "Right answer",
+    "yourAnswer": "Your answer"
+  },
+  "game": {
+    "correct": {
+      "kid": "Well done!",
+      "adult": "Correct"
+    },
+    "answerWas": "The answer: {{answer}}",
+    "close": "Leave the game",
+    "gemsLabel": "{{n}} gems",
+    "summary": {
+      "eyebrow": "Round over",
+      "finished": "Done, {{nickname}}!",
+      "perfect": "Perfect, {{nickname}}!",
+      "score": "{{correct}} of {{total}} right",
+      "xp": "+{{n}} XP",
+      "gems": "+{{n}} gems",
+      "streak": "Streak days: {{n}}",
+      "freezeUsed": "A freeze kept your streak safe",
+      "badges": "New badges: {{n}}",
+      "again": "One more round",
+      "done": "Finish"
     }
   }
 }

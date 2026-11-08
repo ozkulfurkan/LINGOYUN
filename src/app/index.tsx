@@ -1,7 +1,8 @@
-import { Redirect } from 'expo-router';
+import { Redirect, router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
+import { PrimaryButton } from '@/components/PrimaryButton';
 import { ThemedText } from '@/components/ThemedText';
 import { onboardingStep } from '@/features/onboarding/flow';
 import { getActiveProfile, useProfiles } from '@/features/profiles';
@@ -14,6 +15,7 @@ export default function HomeScreen() {
   const { colors } = useTheme();
   const state = useProfiles();
   const step = onboardingStep(state);
+  const profile = getActiveProfile(state);
 
   if (step === 'createProfile') return <Redirect href="/onboarding" />;
   if (step === 'selfAssessment') return <Redirect href="/onboarding/level" />;
@@ -23,10 +25,16 @@ export default function HomeScreen() {
       <ThemedText variant="title" color="accentText">
         {t('app.name')}
       </ThemedText>
-      <ThemedText>
-        {t('home.hello', { nickname: getActiveProfile(state)?.nickname ?? '' })}
-      </ThemedText>
-      <ThemedText color="textMuted">{t('home.comingSoon')}</ThemedText>
+      <ThemedText>{t('home.hello', { nickname: profile?.nickname ?? '' })}</ThemedText>
+      {/* mini profiles get their own picture games (LNG-33). */}
+      {profile?.type === 'mini' ? (
+        <ThemedText color="textMuted">{t('home.comingSoon')}</ThemedText>
+      ) : (
+        <PrimaryButton
+          label={t('home.play')}
+          onPress={() => router.push('/play/multiple-choice')}
+        />
+      )}
     </View>
   );
 }
