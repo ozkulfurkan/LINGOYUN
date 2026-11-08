@@ -10,11 +10,11 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-0** BULUT — Proje rehberi, backlog, agent'lar ve tasarım skill'leri.
 - [ ] **LNG-1** BULUT — Expo projesi (TypeScript strict, Expo Router), ESLint + Prettier, jest-expo, klasör yapısı, `npm run lint/test` script'leri.
   - Kabul: boş ana ekran açılıyor; `tsc`, `lint`, `test` temiz.
-- [ ] **LNG-2** BULUT — Tema sistemi (`src/theme`): `kids` (Oyun Hamuru) ve `adult` temaları, profil tipine göre seçim; renk, tipografi (DynaPuff + Baloo 2), aralık, köşe, gölge, hareket token'ları. Font glif kontrol script'i (`scripts/check-font-glyphs`). Adult teması LNG-39 gelene kadar geçici token'larla. Önkoşul: LNG-1, LNG-4.
+- [ ] **LNG-2** BULUT — Tema sistemi (`src/theme`): `kids` (Oyun Hamuru, DynaPuff + Baloo 2) ve `adult` (Sözlük açık + Gece Nehri koyu, Fraunces + Inter Tight) temaları; profil tipine ve sistem moduna göre seçim; renk, tipografi, aralık, köşe, gölge, hareket token'ları. Font glif kontrol script'i (`scripts/check-font-glyphs`). Önkoşul: LNG-1, LNG-4, LNG-39.
 - [ ] **LNG-3** FURKAN — EAS hesabı, bundle id (`com.<...>.lingoyun`), Apple Developer ve Google Play hesapları, Sentry projesi.
 - [x] **LNG-4** FURKAN — Çocuk teması onayı: C — Oyun Hamuru, görsel öncelikli. Yetişkin teması ayrı (LNG-39).
 - [ ] **LNG-38** BULUT — Çok dil altyapısı: dil kaydı (`src/features/languages`), kurs tanımı (`tr-en`), arayüz i18n (`expo-localization` + `i18next`, `src/i18n/{tr,en}.json`), eksik çeviri anahtarı testi. `docs/languages.md`'ye uygun. Önkoşul: LNG-1.
-- [ ] **LNG-39** FURKAN — Yetişkin teması seçimi: 3 aday hazır (`docs/art-direction.md`): 1 Sözlük, 2 Gece Nehri, 3 Ebru Sade.
+- [x] **LNG-39** FURKAN — Yetişkin teması: Sözlük (açık) + Gece Nehri renkleriyle koyu mod.
 
 ## Faz 1 — Çekirdek mantık (UI'sız, tamamen testli)
 

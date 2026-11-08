@@ -2,7 +2,17 @@
 
 **Durum:**
 - Çocuk profilleri (2–7, 7–12): **C — Oyun Hamuru**, görsel öncelikli ✅ (Furkan, LNG-4)
-- Yetişkin profili: ayrı, yetişkinlere yönelik tema — 3 aday hazır, seçim bekliyor (LNG-39)
+- Yetişkin profili: **1 — Sözlük** (açık mod) + **Gece Nehri renkleriyle koyu mod** ✅ (Furkan, LNG-39)
+
+## Onaylı yetişkin teması
+
+![Sözlük açık ve koyu](art-direction/adult-sozluk-modlar.png)
+
+- Düzen ve fontlar iki modda aynı: **Fraunces** (başlık, örnek cümle, italik) + **Inter Tight** (arayüz). Yalnızca renk token'ları değişir.
+- Açık mod: kâğıt `#F4EFE4`, mürekkep `#16130F`, vurgu vermilyon `#D9481F`, fosforlu kalem `#F7C9A8`.
+- Koyu mod: gece `#0B121C` (üstte `#14263A` ışıması), metin `#E6EDF3`, vurgu nehir turkuazı `#3DD6C6` (hafif parlama), seri amber `#F2B33D`.
+- Koyu modda ilerleme çubuğu **akan nehir çizgisi**; açık modda bölümlü çizgi.
+- Mod seçimi: sistem ayarını izler, ayarlardan elle değiştirilebilir. Çocuk teması tek mod (açık).
 
 ## Onaylı çocuk teması
 

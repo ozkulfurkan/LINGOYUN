@@ -12,7 +12,7 @@ Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları
 | 7–12 yaş | `kid` | Seviye 1–10, sıfırdan A2'ye | Var |
 | Yetişkin | `adult` | A1–C1 (alt bölümlü) | Var |
 
-- **Temalar:** Çocuk profilleri (`mini`, `kid`) **Oyun Hamuru** temasını kullanır, görseller ön planda. Yetişkin profili (`adult`) ayrı, yetişkinlere yönelik bir tema kullanır (seçim bekliyor, LNG-39). Tema profil tipinden seçilir; bileşenler yalnızca aktif temanın token'larını okur.
+- **Temalar:** Çocuk profilleri (`mini`, `kid`) **Oyun Hamuru** temasını kullanır, görseller ön planda. Yetişkin profili (`adult`) **Sözlük** temasını kullanır: açık mod + Gece Nehri renkleriyle koyu mod (sistem ayarını izler). Tema profil tipinden seçilir; bileşenler yalnızca aktif temanın token'larını okur.
 - **Karakterler (2–7 modu):** Zeynep, Nehir, Kerem — üç çocuk karakter. Görünüşleri `docs/characters.md` içinde tanımlanır; tutarlılık zorunlu.
 - **Abonelik:** Tek aile aboneliği (tüm profiller). **7 gün ücretsiz, kartsız**; sonra aylık veya yıllık paket.
 - **Mağaza kategorisi:** Eğitim (Kids kategorisi DEĞİL). Satın alma ve ayarlar **ebeveyn kapısı** arkasında.

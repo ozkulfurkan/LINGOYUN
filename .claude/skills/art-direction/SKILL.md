@@ -12,7 +12,7 @@ Hedef: Ekran görüntüsü logosuz paylaşıldığında bile "bu LINGOYUN" dedir
 | Profil | Tema | Durum |
 |---|---|---|
 | `mini` (2–7), `kid` (7–12) | **C — Oyun Hamuru**, görsel öncelikli | ✅ Onaylı |
-| `adult` | Yetişkinlere yönelik ayrı tema | ⏳ Seçim bekliyor (LNG-39) — tahmin etme, aday hazırla |
+| `adult` | **Sözlük** (açık) + Gece Nehri renkleriyle koyu mod; aynı düzen ve fontlar (Fraunces + Inter Tight) | ✅ Onaylı |
 
 `docs/art-direction.md` her şeyin üstündedir. Aşağıdaki A ve B yalnızca çocuk teması için elendi; yetişkin teması için ilham olarak kullanılabilir.
 
