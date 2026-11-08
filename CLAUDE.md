@@ -79,7 +79,7 @@ __tests__/               # ekran testleri; mantık testleri ilgili dosyanın yan
 - Mantık içeren her yeni kod için test yaz; mantığı `features/*/` içinde saf fonksiyonlara ayır.
 - Renk, yazı, aralık, köşe, gölge ve animasyon süreleri `src/theme` içinden gelir; doğrudan değer yazma.
 - **Görsel dil standart olmayacak.** UI veya grafik işinden önce `.claude/skills/art-direction` skill'ini oku; oyun hissi için `game-feel`, çocuk ekranları için `kids-ux`.
-- **Çok dil:** `docs/languages.md` kurallarına uy. Kodda `'tr'`/`'en'` sabiti yok (registry ve kurs kullan); arayüz metni kodda yazılmaz (`src/i18n`); büyük/küçük harf dönüşümü dilin `locale`'i ile.
+- **Çok dil:** `docs/languages.md` kurallarına uy. Kodda `'tr'`/`'en'` sabiti yok (registry ve kurs kullan); arayüz metni kodda yazılmaz (`src/i18n`); büyük/küçük harf dönüşümü dil kaydındaki `toLower`/`toUpper` ile (`toLocaleUpperCase` değil).
 - İçerik JSON'ları şema doğrulamasından geçmeli (test olarak).
 - **Fontlar** desteklenen tüm dillerin özel harflerini kapsamalı (ör. Türkçe `ğ ş İ ı`); font eklemeden önce kontrol et.
 - `Platform.OS` farkı olan yerlerde iki platformu da ele al ve yorumla açıkla.

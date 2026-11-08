@@ -1,13 +1,15 @@
+import { useTranslation } from 'react-i18next';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { colors, fontSize, space } from '@/theme';
 
-// Placeholder home screen. UI strings move to src/i18n in LNG-38.
+// Placeholder home screen until onboarding (LNG-16).
 export default function HomeScreen() {
+  const { t } = useTranslation();
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>LINGOYUN</Text>
-      <Text style={styles.subtitle}>Yakında</Text>
+      <Text style={styles.title}>{t('app.name')}</Text>
+      <Text style={styles.subtitle}>{t('home.comingSoon')}</Text>
     </View>
   );
 }

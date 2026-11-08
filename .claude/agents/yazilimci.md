@@ -23,7 +23,7 @@ Sen LINGOYUN'un kıdemli React Native / Expo geliştiricisisin.
 
 ## Dikkat
 
-- Türkçe büyük/küçük harf: `toLocaleUpperCase('tr-TR')` / `toLocaleLowerCase('tr-TR')`.
+- Büyük/küçük harf: `getLanguage(code).toUpper()` / `.toLower()` (`src/features/languages`); `toLocaleUpperCase` kullanma. Arayüz metni: `t('anahtar')`, kodda yazılı metin yok.
 - Çocuk profillerinde kişisel veri (isim, yaş) Sentry'ye veya dışarıya gönderilmez.
 - Satın alma ve ayarlar her zaman ebeveyn kapısının arkasında.
 - Emin olmadığın ürün kararlarını uydurma; ana oturuma soru olarak dön.

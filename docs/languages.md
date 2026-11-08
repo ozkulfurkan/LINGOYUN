@@ -37,28 +37,41 @@ src/content/
 - Cümleler birebir çevrilmez; her dilde **kabul edilen cevaplar listesi** tutulur (`accepted: []`).
 - Bir kavramın bir dilde metni yoksa o kavram o kursta kullanılamaz. Bunu içerik doğrulama testi yakalar.
 
-## Dil kaydı (`src/features/languages/registry.ts`)
+## Dil kaydı (`src/features/languages/`)
 
-Her dil tek bir kayıtla tanımlanır:
+Her dil tek bir kayıtla tanımlanır (`types.ts`, `registry.ts`):
 
 ```ts
 type LanguageDef = {
-  code: 'tr' | 'en'; // yeni dil = yeni kod
+  code: LanguageCode; // LANGUAGE_CODES içinde; yeni dil = yeni kod
   nativeName: string; // "Türkçe", "English"
-  locale: string; // 'tr-TR' — büyük/küçük harf ve sıralama
+  locale: string; // 'tr-TR' — sıralama, sayı biçimi
   ttsVoice: string; // expo-speech dil kodu
   direction: 'ltr' | 'rtl'; // ileride Arapça vb.
   charset: string; // fontların kapsaması gereken özel harfler: "çğıİöşüÇĞÖŞÜ"
-  normalize: (s: string) => string; // cevap karşılaştırma için
-  nearMiss?: (a: string, b: string) => boolean; // ı/i, ş/s gibi "neredeyse doğru"
+  toLower: (s: string) => string; // dile doğru büyük/küçük harf (cihaz ayarına güvenmez)
+  toUpper: (s: string) => string;
+  foldMap: Record<string, string>; // klavyede özel harf yoksa: ş → s, ı → i
 };
 ```
+
+- `normalize.ts`: `normalizeAnswer` (küçük harf, noktalama ve fazla boşluk yok), `foldAnswer`, `isNearMiss` ("kisi" ↔ "kişi" → neredeyse doğru).
+- `courses.ts`: `CourseDef` (`tr-en`), seviye ölçekleri profil tipine göre: `kid` L1–L10, `adult` A1–C1.
+- Arayüz dili: `src/i18n/pickUiLanguage.ts` — cihazın tercih ettiği ilk desteklenen dil; hiçbiri desteklenmiyorsa **İngilizce**.
+
+## Yeni dil ekleme kontrol listesi
+
+1. `LANGUAGE_CODES`'a kodu ekle, `registry.ts`'e `LanguageDef` yaz (büyük/küçük harf kuralları, `foldMap`, `charset`).
+2. `src/i18n/<kod>.json` — testler eksik anahtarı yakalar.
+3. `src/content/languages/<kod>/` — kelime ve cümleler; içerik testi eksik çeviriyi yakalar.
+4. Kurs(lar)ı `courses.ts`'e ekle.
+5. Fontlar yeni `charset`'i kapsıyor mu? (`scripts/check-font-glyphs`)
 
 ## Kurallar
 
 - **Kodda dil sabit yazılmaz.** `'tr'` / `'en'` karşılaştırması yerine registry ve kurs kullanılır.
 - **Arayüz metinleri kodda yazılmaz.** `src/i18n/{tr,en}.json` + `expo-localization` + `i18next`. Eksik anahtarı test yakalar.
-- **Büyük/küçük harf** her zaman dilin `locale`'i ile (`toLocaleUpperCase(lang.locale)`). Türkçede `i → İ`, `ı → I`.
+- **Büyük/küçük harf** her zaman dil kaydındaki `toLower` / `toUpper` ile; `toLocaleUpperCase` kullanma (cihazın ICU verisine bağlı). Türkçede `i → İ`, `ı → I`.
 - **Fontlar** desteklenen tüm dillerin `charset`'ini kapsamalı. Bunu bir test doğrular (`scripts/check-font-glyphs`). Örnek: Lilita One ve Fredoka'da `ğ ş İ` yok, bu yüzden elendiler.
 - **Sağdan sola** diller için düzen `I18nManager` ile çevrilir; şimdilik yalnızca alan bırakılıyor.
 - Profil ilerlemesi ve seviye tespiti **kurs başına** tutulur: `progress[courseId]`.
