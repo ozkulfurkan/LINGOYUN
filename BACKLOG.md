@@ -80,7 +80,19 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     7. 8 kelimeyi bitir → özet ekranı (XP, taş, seri). "Bir tur daha" yeni tur başlatır.
     8. Uzun kelimelerde (ör. "watermelon") kutular iki satıra sığıyor mu, küçük telefonda taşma var mı?
     9. Yetişkin profilinde koyu moda al: kutular ve harfler okunur kalır.
-- [ ] **LNG-20** CİHAZ — Oyun: Cümle kurma (kelime blokları sürükle-bırak). Önkoşul: LNG-7.
+- [~] **LNG-20** CİHAZ — Oyun: Cümle kurma (kelime blokları sürükle-bırak). Önkoşul: LNG-7.
+  - ✅ Ana ekranda "Cümle kurma" (7–12 ve yetişkin). Türkçe cümle gösterilir, İngilizcesi kelime bloklarından kurulur: blok sürüklenir ya da dokunulur. Cevap alanının yakınına bırakılan blok yerine oturur. 6 cümlelik tur, tekrar kutularına ve XP/taş/seriye bağlı. Mantık `src/features/games/sentence-builder/`, sürükleme `src/components/DraggableBlock.tsx`.
+  - Kararlar (gece çalışması, Furkan'a sorulmadan): sürükleme React Native'in kendi PanResponder'ı ile (yeni yerel paket yok → yeni derleme gerekmez; gesture-handler package.json'da değil). Yetişkine 2 şaşırtmaca kelime + "Kontrol et"; çocukta şaşırtmaca yok, cümle tamamlanınca otomatik kontrol. Eşdeğer söylenişler (`alt`) doğru sayılır. Yanlışta doğru başlangıç kalır; 2 yanlıştan sonra sıradaki kelime parlar; 1 yanlıştan sonra "Göster". Puan harf dizmeyle aynı.
+  - Derleme: yeni yerel paket yok; Metro'yu `--clear` ile yeniden başlat.
+  - Cihazda nasıl test edilir:
+    1. 7–12 profiliyle "Cümle kurma" → Türkçe cümle okunur; altında kesikli çizgili boş alan ve karışık kelimeler.
+    2. Bir kelimeyi **parmakla sürükleyip** boş alana bırak → yerine oturur. Alanın biraz dışına bırak → yine oturur. Uzağa bırak → yaylanarak geri döner.
+    3. Kelimelere dokunarak da ekle; cümledeki bir kelimeye dokununca geri çıkar.
+    4. Cümleyi doğru kur → alan yeşillenir, "Aferin!", İngilizce cümle sesli okunur, telefon titrer.
+    5. Yanlış sırayla kur → "Tekrar dene!", doğru başlangıç kalır, "Göster" çıkar. İki yanlıştan sonra sıradaki kelime sarı çerçeveyle parlar.
+    6. Yetişkin profilinde: 2 fazla kelime var, cümle dolunca "Kontrol et"e basman gerekir.
+    7. 6 cümleyi bitir → özet ekranı.
+    8. Sürüklerken ekran kayıyor mu, blok parmağı takip ediyor mu (iOS ve Android)? Uzun cümlede bloklar iki satıra sığıyor mu?
 - [ ] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
 - [ ] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
 

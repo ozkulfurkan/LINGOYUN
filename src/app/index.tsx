@@ -40,6 +40,10 @@ export default function HomeScreen() {
             label={t('home.playLetters')}
             onPress={() => router.push('/play/letter-order')}
           />
+          <SecondaryButton
+            label={t('home.playSentences')}
+            onPress={() => router.push('/play/sentence-builder')}
+          />
         </>
       )}
     </View>

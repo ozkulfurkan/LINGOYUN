@@ -6,7 +6,8 @@
     "comingSoon": "Coming soon",
     "hello": "Hello {{nickname}}",
     "play": "Play",
-    "playLetters": "Spell it"
+    "playLetters": "Spell it",
+    "playSentences": "Build a sentence"
   },
   "common": {
     "continue": "Continue",
@@ -123,5 +124,20 @@
     "show": "Show me",
     "answerIs": "Answer: {{answer}}",
     "hintLabel": "Hint: this letter comes next"
+  },
+  "sentences": {
+    "build": {
+      "en": "Build the English sentence",
+      "tr": "Build the Turkish sentence"
+    },
+    "dropHere": "Drag or tap the words here",
+    "block": "Word {{word}}",
+    "placed": "Word {{n}}: {{word}}. Tap to take out",
+    "check": "Check",
+    "tryAgain": "Try again!",
+    "gotIt": "You got it!",
+    "show": "Show me",
+    "answerIs": "Answer: {{answer}}",
+    "hintLabel": "Hint: this word comes next"
   }
 }
