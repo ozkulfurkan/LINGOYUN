@@ -1,7 +1,8 @@
-import * as Haptics from 'expo-haptics';
 import { Redirect, router } from 'expo-router';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+
+import { playFeedback } from '@/lib/feedback';
 import { StyleSheet, View } from 'react-native';
 
 import { LevelMedal } from '@/components/illustrations';
@@ -19,8 +20,7 @@ export default function PlacementResultScreen() {
   const level = profile?.courses[profile.courseId]?.level;
 
   useEffect(() => {
-    // Some devices have no haptics; the screen must still work.
-    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(() => undefined);
+    playFeedback('complete');
   }, []);
 
   if (!profile || !level) return <Redirect href="/" />;

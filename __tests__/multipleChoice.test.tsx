@@ -178,6 +178,28 @@ describe('multiple choice game', () => {
     expect(after).toEqual(expect.arrayContaining(firstRound));
   });
 
+  it('celebrates three right answers in a row', async () => {
+    seedProfile('kid', 'L1');
+    await openGame();
+    for (let i = 0; i < 2; i++) {
+      await press(rightOption());
+      expect(screen.getByText('Aferin!')).toBeTruthy();
+      await press('Devam');
+    }
+    await press(rightOption());
+    expect(screen.getByText('Aferin! 3 doğru üst üste!')).toBeTruthy();
+  });
+
+  it('throws confetti for a perfect round', async () => {
+    seedProfile('kid', 'L1');
+    await openGame();
+    for (let i = 0; i < 10; i++) {
+      await press(rightOption());
+      await press('Devam');
+    }
+    expect(screen.getByTestId('confetti')).toBeTruthy();
+  });
+
   it('adds up gems as answers are right', async () => {
     seedProfile('kid', 'L1');
     await openGame();

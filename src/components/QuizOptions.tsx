@@ -5,6 +5,7 @@ import type { QuizOption } from '@/features/quiz/types';
 import { dimmedOpacity, space, stroke, touchTarget, useTheme } from '@/theme';
 
 import { AnswerMark } from './illustrations';
+import { Bounce, Shake } from './Motion';
 import { PressScale } from './PressScale';
 import { ThemedText } from './ThemedText';
 
@@ -52,39 +53,45 @@ export function QuizOptions({ options, questionKey, onPick, reveal }: Props) {
             ? t('quiz.yourAnswer')
             : undefined;
         return (
-          <PressScale
+          <Shake
             key={`${questionKey}:${option.conceptId}`}
-            accessibilityRole="button"
-            accessibilityLabel={option.text}
-            accessibilityHint={state}
-            accessibilityState={{ disabled: reveal !== undefined }}
-            disabled={reveal !== undefined}
-            onPress={() => onPick(index)}
-            style={[
-              styles.option,
-              compact ? styles.optionCompact : styles.optionWide,
-              {
-                backgroundColor: background,
-                borderColor: colors.border,
-                borderRadius: radii.md,
-                boxShadow: shadow ?? undefined,
-                opacity: reveal && !isCorrect && !isWrongPick ? dimmedOpacity : 1,
-              },
-            ]}
+            trigger={isWrongPick}
+            style={compact ? styles.optionCompact : styles.optionWide}
           >
-            <ThemedText
-              variant="option"
-              color={isCorrect ? 'onCorrect' : isWrongPick ? 'onIncorrect' : 'text'}
-              style={styles.text}
-            >
-              {option.text}
-            </ThemedText>
-            {isCorrect || isWrongPick ? (
-              <View style={styles.mark}>
-                <AnswerMark kind={isCorrect ? 'right' : 'wrong'} />
-              </View>
-            ) : null}
-          </PressScale>
+            <Bounce trigger={isCorrect && reveal !== undefined}>
+              <PressScale
+                accessibilityRole="button"
+                accessibilityLabel={option.text}
+                accessibilityHint={state}
+                accessibilityState={{ disabled: reveal !== undefined }}
+                disabled={reveal !== undefined}
+                onPress={() => onPick(index)}
+                style={[
+                  styles.option,
+                  {
+                    backgroundColor: background,
+                    borderColor: colors.border,
+                    borderRadius: radii.md,
+                    boxShadow: shadow ?? undefined,
+                    opacity: reveal && !isCorrect && !isWrongPick ? dimmedOpacity : 1,
+                  },
+                ]}
+              >
+                <ThemedText
+                  variant="option"
+                  color={isCorrect ? 'onCorrect' : isWrongPick ? 'onIncorrect' : 'text'}
+                  style={styles.text}
+                >
+                  {option.text}
+                </ThemedText>
+                {isCorrect || isWrongPick ? (
+                  <View style={styles.mark}>
+                    <AnswerMark kind={isCorrect ? 'right' : 'wrong'} />
+                  </View>
+                ) : null}
+              </PressScale>
+            </Bounce>
+          </Shake>
         );
       })}
     </View>

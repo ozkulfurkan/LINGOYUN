@@ -111,7 +111,8 @@
       "again": "Bir tur daha",
       "done": "Bitir",
       "levelUp": "Yeni seviye açıldı: {{level}}!"
-    }
+    },
+    "combo": "{{n}} doğru üst üste!"
   },
   "letters": {
     "build": {

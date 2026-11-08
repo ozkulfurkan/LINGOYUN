@@ -111,7 +111,8 @@
       "again": "One more round",
       "done": "Finish",
       "levelUp": "New level unlocked: {{level}}!"
-    }
+    },
+    "combo": "{{n}} in a row!"
   },
   "letters": {
     "build": {
