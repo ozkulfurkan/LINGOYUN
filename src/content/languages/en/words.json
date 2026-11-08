@@ -1,0 +1,7 @@
+{
+  "fruit.apple": { "text": "apple", "article": "an" },
+  "fruit.pear": { "text": "pear", "article": "a" },
+  "fruit.cherry": { "text": "cherry", "article": "a" },
+  "fruit.grapes": { "text": "grapes", "alt": ["grape"] },
+  "emotion.reluctant": { "text": "reluctant", "alt": ["unwilling"] }
+}

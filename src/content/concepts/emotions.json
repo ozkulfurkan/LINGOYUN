@@ -1,0 +1,15 @@
+[
+  {
+    "id": "emotion.reluctant",
+    "topic": "emotions",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "emotion.reluctant_leave",
+    "topic": "emotions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  }
+]

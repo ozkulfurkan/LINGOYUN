@@ -1,0 +1,7 @@
+{
+  "fruit.apple": { "text": "elma" },
+  "fruit.pear": { "text": "armut" },
+  "fruit.cherry": { "text": "kiraz" },
+  "fruit.grapes": { "text": "üzüm" },
+  "emotion.reluctant": { "text": "isteksiz", "alt": ["gönülsüz"] }
+}

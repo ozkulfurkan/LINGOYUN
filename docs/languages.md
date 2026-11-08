@@ -18,20 +18,30 @@ Kelimeler dile göre değil **kavrama** göre tutulur. Resim, konu ve ses dosyas
 
 ```
 src/content/
-  concepts/                    # dilden bağımsız
-    fruits.json                # [{ "id": "fruit.apple", "topic": "fruits", "image": "fruit.apple", "kind": "noun", "tags": ["concrete"] }]
+  concepts/                    # dilden bağımsız, konu başına bir dosya
+    fruits.json                # [{ "id": "fruit.apple", "topic": "fruits", "kind": "word",
+                               #    "ageGroups": ["mini","kid","adult"], "image": "fruit.apple", "tags": ["noun"] }]
   languages/
     en/
-      words.json               # { "fruit.apple": { "text": "apple", "alt": [], "article": "an" } }
-      sentences.json
-      audio/                   # fruit.apple.m4a
+      words.json               # { "fruit.apple": { "text": "apple", "article": "an", "alt": [] } }
+      sentences.json           # kind = "sentence" olan kavramlar
     tr/
-      words.json               # { "fruit.apple": { "text": "elma", "alt": [] } }
+      words.json               # { "fruit.apple": { "text": "elma" } }
       sentences.json
-      audio/
   courses/
-    tr-en.json                 # hedef dil için sıralı üniteler ve seviyeler: kavram id'leri
+    tr-en.json                 # { "id": "tr-en", "units": [{ "id": "kid.l1.fruits", "profileType": "kid",
+                               #    "level": "L1", "concepts": ["fruit.apple", ...] }] }
+  bundle.ts                    # bütün dosyaları içe aktarır (yeni dosya = buraya bir satır)
+  validate.ts                  # içerik doğrulayıcı — validate.test.ts her `npm test`te çalıştırır
+  query.ts                     # getEntry, unitsFor, conceptsOf
 ```
+
+- Kavram türleri (`kind`): `word`, `phrase`, `idiom`, `sentence`.
+- `ageGroups`: kavramı görebilecek profil tipleri. `mini` içeren her kavramın **resmi olmalı**.
+- `alt`: doğru kabul edilen diğer cevaplar (eş anlamlı, farklı söyleyiş).
+- `review: true`: çeviri henüz bir insan tarafından kontrol edilmedi — uyarı verir, hata vermez.
+- **Ünite**: `mini` üniteleri tema dünyasıdır (seviye yok); `kid` ve `adult` üniteleri kursun bir seviyesine aittir.
+- Doğrulayıcının yakaladıkları: tekrar eden id, bozuk id, eksik çeviri, bilinmeyen kavram, yanlış dosyadaki cümle, boş/fazla boşluklu metin, yaş grubuna uymayan kavram, geçersiz seviye, boş ünite.
 
 - **Seviye kursa aittir**, kavrama değil. Bir kelime İngilizcede kolay, Almancada zor olabilir.
 - Cümleler birebir çevrilmez; her dilde **kabul edilen cevaplar listesi** tutulur (`accepted: []`).

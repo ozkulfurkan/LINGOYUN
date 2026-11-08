@@ -1,0 +1,22 @@
+{
+  "id": "tr-en",
+  "units": [
+    {
+      "id": "mini.fruits",
+      "profileType": "mini",
+      "concepts": ["fruit.apple", "fruit.pear", "fruit.cherry", "fruit.grapes"]
+    },
+    {
+      "id": "kid.l1.fruits",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": ["fruit.apple", "fruit.pear", "fruit.cherry", "fruit.grapes"]
+    },
+    {
+      "id": "adult.b1.emotions",
+      "profileType": "adult",
+      "level": "B1",
+      "concepts": ["emotion.reluctant", "emotion.reluctant_leave"]
+    }
+  ]
+}
