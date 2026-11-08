@@ -98,6 +98,12 @@ function MapHome({ profile, profileType, level }: MapHomeProps) {
               />
             </View>
           </View>
+          {profileType === 'adult' ? (
+            <SecondaryButton
+              label={t('home.playTyping')}
+              onPress={() => router.push('/play/free-typing')}
+            />
+          ) : null}
         </View>
       }
     >

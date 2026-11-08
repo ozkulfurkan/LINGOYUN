@@ -144,7 +144,19 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 5 — Yetişkin
 
-- [ ] **LNG-27** CİHAZ — Serbest yazma oyunu (cümle çevirisi). Önkoşul: LNG-8.
+- [~] **LNG-27** CİHAZ — Serbest yazma oyunu (cümle çevirisi). Önkoşul: LNG-8.
+  - ✅ Yetişkin ana ekranında "Yazarak çevir": Türkçe kelime ya da cümle gösterilir, İngilizcesi klavyeyle yazılır. LNG-8 cevap kontrolü: doğru / neredeyse doğru (özel harf) / yazım hatası / yanlış; eş anlamlılar ve a/an/the kabul; içerikte bilinen başka bir kelime asla yazım hatası sayılmaz. "Bilmiyorum" butonu. 8 maddelik tur, tekrar kutuları, XP/taş/seri, seviye atlama. Mantık `src/features/games/free-typing/`.
+  - Kararlar (gece çalışması): yalnızca yetişkin (7–12 için klavyeyle cümle yazmak ağır). Yön her zaman Türkçe → İngilizce (üretim pratiği). Puan: doğru = tam, neredeyse/yazım hatası = `hard` (kutuda kalır, 5 XP), yanlış/bilmiyorum = `again`. Doğru yazılış her durumda gösterilir ve sesli okunur.
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. Yetişkin profiliyle "Yazarak çevir" → Türkçe kelime/cümle, altında klavye açık bir yazı kutusu.
+    2. Doğru yaz (büyük harf, nokta önemsiz) → kutu yeşil, "Doğru", İngilizce sesli okunur.
+    3. Bir harf eksik yaz (ör. "watermelom") → "Küçük bir yazım hatası. Doğrusu: watermelon".
+    4. Saçma bir şey yaz → kutu sallanır, "Doğrusu: …".
+    5. "Bilmiyorum" → cevap gösterilir.
+    6. Cümlelerde kutu çok satırlı; klavyedeki "Bitti" tuşu kontrol eder.
+    7. Klavye açıkken alttaki butonlar klavyenin üstünde kalıyor mu (iOS ve Android)?
+    8. 7–12 profilinde bu buton görünmez.
 - [ ] **LNG-28** CİHAZ — Deyimler ve yanıltıcı benzer kelimeler modu.
 - [ ] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
 - [ ] **LNG-40** BULUT + FURKAN — Yetişkin içeriğini kolayca genişletme (Furkan'ın isteği: yetişkin içeriği LNG-15'teki listeyle sınırlı kalmayacak). Furkan kod ve birden çok JSON dosyasıyla uğraşmadan yeni kelime, cümle ve deyim ekleyebilmeli; tek bir kaynak dosya + komut, içeriği doğru yerlere dağıtır ve doğrular. Önkoşul: LNG-15.

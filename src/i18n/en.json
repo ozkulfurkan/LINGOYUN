@@ -8,7 +8,8 @@
     "play": "Play",
     "playLetters": "Spell it",
     "playSentences": "Build a sentence",
-    "stats": "{{gems}} gems · {{streak}}-day streak"
+    "stats": "{{gems}} gems · {{streak}}-day streak",
+    "playTyping": "Type the translation"
   },
   "common": {
     "continue": "Continue",
@@ -187,5 +188,15 @@
       "kid": "Ages 7–12",
       "adult": "Adult"
     }
+  },
+  "typing": {
+    "hintWord": "Type it in {{language}}",
+    "hintSentence": "Write the sentence in {{language}}",
+    "inputLabel": "Your answer",
+    "placeholder": "Type here",
+    "check": "Check",
+    "dontKnow": "I don't know",
+    "nearMiss": "Almost! Mind the special letters: {{answer}}",
+    "typo": "A small typo. It's: {{answer}}"
   }
 }
