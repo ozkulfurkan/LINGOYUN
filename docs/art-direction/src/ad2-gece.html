@@ -1,0 +1,48 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="FONTS/space-grotesk/500.css"><link rel="stylesheet" href="FONTS/space-grotesk/700.css"><link rel="stylesheet" href="FONTS/jetbrains-mono/400.css"><link rel="stylesheet" href="FONTS/jetbrains-mono/600.css"><link rel="stylesheet" href="FONTS/inter-tight/400.css">
+<style>
+:root{--bg:#0B121C;--bg2:#111B28;--line:#22324A;--txt:#E6EDF3;--mute:#7D8EA3;--teal:#3DD6C6;--amber:#F2B33D}
+*{box-sizing:border-box;margin:0}
+body{width:390px;height:844px;overflow:hidden;background:radial-gradient(120% 60% at 50% 0%,#14263A,var(--bg) 60%);color:var(--txt);font-family:"Space Grotesk";position:relative}
+.tag{position:absolute;top:14px;left:0;right:0;text-align:center;font:600 10px "JetBrains Mono";letter-spacing:3px;color:var(--mute)}
+.top{display:flex;justify-content:space-between;align-items:center;padding:52px 22px 0;font:400 12px "JetBrains Mono";color:var(--mute)}
+.x{width:36px;height:36px;border:1px solid var(--line);border-radius:12px;display:grid;place-items:center;color:var(--txt)}
+.streak{display:flex;align-items:center;gap:6px;color:var(--amber)}
+.river{display:block;margin-top:8px}
+.meta{display:flex;gap:8px;padding:6px 22px 0}
+.chip{font:600 11px "JetBrains Mono";letter-spacing:1px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;color:var(--mute)}
+.chip.lv{color:var(--teal);border-color:rgba(61,214,198,.4)}
+.word{display:flex;align-items:center;justify-content:space-between;padding:16px 22px 0;font:700 52px/1 "Space Grotesk";letter-spacing:-1.5px}
+.spk{width:48px;height:48px;border-radius:50%;background:rgba(61,214,198,.12);border:1px solid rgba(61,214,198,.4);display:grid;place-items:center}
+.ipa{padding:8px 22px 0;font:400 14px "Inter Tight";color:var(--mute)}
+.ex{margin:18px 22px 0;padding:14px 16px;background:var(--bg2);border:1px solid var(--line);border-radius:14px;font:400 16px/1.45 "Inter Tight";color:#C6D2DE}
+.ex b{color:var(--teal);font-weight:400;border-bottom:1px dashed var(--teal)}
+.q{padding:22px 22px 10px;font:600 11px "JetBrains Mono";letter-spacing:1.5px;color:var(--mute)}
+.opts{display:grid;gap:10px;padding:0 22px}
+.o{display:flex;align-items:center;gap:14px;height:54px;padding:0 16px;border:1px solid var(--line);border-radius:14px;background:rgba(17,27,40,.7);font:500 18px "Space Grotesk"}
+.o kbd{font:600 11px "JetBrains Mono";color:var(--mute);border:1px solid var(--line);border-radius:6px;padding:3px 7px}
+.o.ok{border-color:var(--teal);background:rgba(61,214,198,.1);box-shadow:0 0 0 4px rgba(61,214,198,.08),0 0 30px rgba(61,214,198,.18)}
+.o.ok kbd{color:var(--bg);background:var(--teal);border-color:var(--teal)}
+.o.ok:after{content:"";margin-left:auto;width:22px;height:22px;border-radius:50%;background:var(--teal) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'><path d='M6 11l3.5 3.5L16 8' stroke='%230B121C' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>")}
+.sheet{position:absolute;left:0;right:0;bottom:0;padding:18px 22px 30px;background:var(--bg2);border-top:1px solid var(--line);border-radius:22px 22px 0 0}
+.sheet h4{font:700 18px "Space Grotesk";color:var(--teal)}
+.sheet p{margin-top:4px;font:400 14px "Inter Tight";color:#AEBBC9}
+.sheet .row{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+.srs{font:400 12px "JetBrains Mono";color:var(--mute)}
+.srs i{display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--line);margin-right:3px}.srs i.on{background:var(--teal)}
+.btn{background:var(--teal);color:var(--bg);font:700 16px "Space Grotesk";padding:14px 26px;border-radius:14px}
+</style></head><body>
+<div class="tag">YETİŞKİN 2 — GECE NEHRİ</div>
+<div class="top"><div class="x">✕</div><span>08 / 15</span><span class="streak"><svg width="12" height="16" viewBox="0 0 12 16"><path d="M6 0C7 4 12 6 12 10a6 6 0 01-12 0c0-2 1-4 3-5 0 2 1 3 2 3C5 5 5 2 6 0z" fill="#F2B33D"/></svg>12</span></div>
+<svg class="river" width="390" height="40" viewBox="0 0 390 40"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#3DD6C6" stop-opacity=".2"/><stop offset="1" stop-color="#3DD6C6"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="3"/></filter></defs>
+<path d="M0 20 C40 6 70 34 110 20 S180 6 220 20 S300 34 340 20 S380 10 390 16" stroke="#22324A" stroke-width="3" fill="none"/>
+<path d="M0 20 C40 6 70 34 110 20 S180 6 220 20" stroke="url(#g)" stroke-width="6" fill="none" filter="url(#glow)"/>
+<path d="M0 20 C40 6 70 34 110 20 S180 6 220 20" stroke="url(#g)" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="220" cy="20" r="5" fill="#3DD6C6"/></svg>
+<div class="meta"><span class="chip lv">B1</span><span class="chip">DUYGULAR</span><span class="chip">SIFAT</span></div>
+<div class="word">reluctant<div class="spk"><svg width="20" height="18" viewBox="0 0 26 24"><path d="M2 8h6l7-6v20l-7-6H2z" fill="#3DD6C6"/><path d="M19 6c3 3 3 9 0 12" stroke="#3DD6C6" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg></div></div>
+<div class="ipa">/rɪˈlʌktənt/</div>
+<div class="ex">She was <b>reluctant</b> to leave the party early.</div>
+<div class="q">// TÜRKÇE KARŞILIĞI</div>
+<div class="opts"><div class="o ok"><kbd>1</kbd>isteksiz</div><div class="o"><kbd>2</kbd>dikkatli</div><div class="o"><kbd>3</kbd>kararlı</div><div class="o"><kbd>4</kbd>utangaç</div></div>
+<div class="sheet"><h4>Doğru — isteksiz, gönülsüz</h4><p>“reluctant to do something” kalıbıyla kullanılır.</p><div class="row"><span class="srs"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i> 3 gün sonra</span><div class="btn">Devam</div></div></div>
+</body></html>

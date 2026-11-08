@@ -14,7 +14,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [ ] **LNG-3** FURKAN — EAS hesabı, bundle id (`com.<...>.lingoyun`), Apple Developer ve Google Play hesapları, Sentry projesi.
 - [x] **LNG-4** FURKAN — Çocuk teması onayı: C — Oyun Hamuru, görsel öncelikli. Yetişkin teması ayrı (LNG-39).
 - [ ] **LNG-38** BULUT — Çok dil altyapısı: dil kaydı (`src/features/languages`), kurs tanımı (`tr-en`), arayüz i18n (`expo-localization` + `i18next`, `src/i18n/{tr,en}.json`), eksik çeviri anahtarı testi. `docs/languages.md`'ye uygun. Önkoşul: LNG-1.
-- [ ] **LNG-39** FURKAN — Yetişkin teması: grafiker 3 aday ekran hazırlar, Furkan seçer.
+- [ ] **LNG-39** FURKAN — Yetişkin teması seçimi: 3 aday hazır (`docs/art-direction.md`): 1 Sözlük, 2 Gece Nehri, 3 Ebru Sade.
 
 ## Faz 1 — Çekirdek mantık (UI'sız, tamamen testli)
 
