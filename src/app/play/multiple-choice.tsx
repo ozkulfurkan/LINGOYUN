@@ -21,7 +21,9 @@ import {
   advance,
   currentPick,
   currentQuestion,
+  dailyReviewConcepts,
   expressionConcepts,
+  REVIEW_ROUND_LIMIT,
   isFinished,
   pickOption,
   roundGrades,
@@ -61,6 +63,7 @@ export default function MultipleChoiceScreen() {
       profileType={profile.type}
       level={level}
       expressions={mode === 'expressions' && profile.type === 'adult'}
+      review={mode === 'review'}
       onPlayAgain={() => setRoundNumber((n) => n + 1)}
     />
   );
@@ -74,6 +77,8 @@ type GameProps = {
   level: string;
   /** Idioms and false friends instead of the level's words (LNG-28). */
   expressions?: boolean;
+  /** Today's due reviews from every level instead of the level's words (LNG-29). */
+  review?: boolean;
   onPlayAgain: () => void;
 };
 
@@ -84,25 +89,33 @@ function Game({
   profileType,
   level,
   expressions = false,
+  review = false,
   onPlayAgain,
 }: GameProps) {
   const { t } = useTranslation();
   const [today] = useState(() => localDay(new Date()));
-  const [round, setRound] = useState<RoundState>(() =>
-    startRound({
+  const [round, setRound] = useState<RoundState>(() => {
+    const deck = loadDeck(profileId, courseId);
+    const levelWords = unitsFor(content, courseId, profileType, level).flatMap((u) => u.concepts);
+    const due = dailyReviewConcepts(content, deck, today).slice(0, REVIEW_ROUND_LIMIT);
+    return startRound({
       bundle: content,
       courseId,
-      deck: loadDeck(profileId, courseId),
+      deck,
       today,
       // Expressions mode: idioms and false friends, asked English → Turkish
       // so the false friend's look-alike can be offered as the trap.
+      // Review mode: only today's due words; the level fills in wrong options.
       levelConcepts: expressions
         ? expressionConcepts(content, courseId)
-        : unitsFor(content, courseId, profileType, level).flatMap((u) => u.concepts),
+        : review
+          ? due
+          : levelWords,
       directions: expressions ? 'targetToNative' : 'mixed',
+      distractorIds: review ? [...due, ...levelWords] : undefined,
       rng: seededRng(Date.now()),
-    }),
-  );
+    });
+  });
   const [gems, setGems] = useState(() => loadProgress(profileId).gems);
   const [reward, setReward] = useState<SessionReward | null>(null);
   const [newLevel, setNewLevel] = useState<string | null>(null);

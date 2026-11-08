@@ -10,7 +10,11 @@
     "playSentences": "Build a sentence",
     "stats": "{{gems}} gems · {{streak}}-day streak",
     "playTyping": "Type the translation",
-    "playExpressions": "Idioms and traps"
+    "playExpressions": "Idioms and traps",
+    "reviewsDue_one": "{{count}} word to review today",
+    "reviewsDue_other": "{{count}} words to review today",
+    "noReviews": "No reviews today. Great!",
+    "review": "Review"
   },
   "common": {
     "continue": "Continue",

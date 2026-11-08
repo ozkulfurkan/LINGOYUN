@@ -10,7 +10,11 @@
     "playSentences": "Cümle kurma",
     "stats": "{{gems}} taş · {{streak}} günlük seri",
     "playTyping": "Yazarak çevir",
-    "playExpressions": "Deyimler ve tuzaklar"
+    "playExpressions": "Deyimler ve tuzaklar",
+    "noReviews": "Bugün tekrar yok, harika!",
+    "review": "Tekrar et",
+    "reviewsDue_one": "Bugün {{count}} kelime tekrar bekliyor",
+    "reviewsDue_other": "Bugün {{count}} kelime tekrar bekliyor"
   },
   "common": {
     "continue": "Devam",
