@@ -1,16 +1,17 @@
 import { isLanguageCode, type LanguageCode } from '@/features/languages';
 
-/** UI language used when none of the device languages is supported. */
+/** UI language used when the phone's language is not supported. */
 export const FALLBACK_UI_LANGUAGE: LanguageCode = 'en';
 
 /**
- * Picks the UI language from the device's preferred languages, in order.
+ * Picks the UI language from the phone's primary language only (the first
+ * entry of the device's preferred languages): if that language is supported
+ * the app opens in it, otherwise in English. Secondary device languages are
+ * ignored on purpose. Supporting a new language (registry + i18n file) makes
+ * it selectable here automatically.
  * Accepts BCP 47 tags ("tr-TR", "en-GB") or bare codes ("tr").
  */
 export function pickUiLanguage(preferred: readonly (string | null | undefined)[]): LanguageCode {
-  for (const tag of preferred) {
-    const code = tag?.split(/[-_]/)[0]?.toLowerCase();
-    if (code && isLanguageCode(code)) return code;
-  }
-  return FALLBACK_UI_LANGUAGE;
+  const code = preferred[0]?.split(/[-_]/)[0]?.toLowerCase();
+  return code && isLanguageCode(code) ? code : FALLBACK_UI_LANGUAGE;
 }

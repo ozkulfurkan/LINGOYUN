@@ -57,7 +57,7 @@ type LanguageDef = {
 
 - `normalize.ts`: `normalizeAnswer` (küçük harf, noktalama ve fazla boşluk yok), `foldAnswer`, `isNearMiss` ("kisi" ↔ "kişi" → neredeyse doğru).
 - `courses.ts`: `CourseDef` (`tr-en`), seviye ölçekleri profil tipine göre: `kid` L1–L10, `adult` A1–C1.
-- Arayüz dili: `src/i18n/pickUiLanguage.ts` — cihazın tercih ettiği ilk desteklenen dil; hiçbiri desteklenmiyorsa **İngilizce**.
+- Arayüz dili (`src/i18n/pickUiLanguage.ts`): **telefonun ana dili** destekleniyorsa o dil, değilse **İngilizce**. Telefonun ikinci/üçüncü dilleri dikkate alınmaz. Yeni dil eklenince o dildeki telefonlarda uygulama kendiliğinden o dilde açılır (Furkan'ın kararı).
 
 ## Yeni dil ekleme kontrol listesi
 

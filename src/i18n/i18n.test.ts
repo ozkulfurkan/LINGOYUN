@@ -30,16 +30,19 @@ describe('UI strings', () => {
 });
 
 describe('pickUiLanguage', () => {
-  it('uses the first supported device language', () => {
+  it('uses the phone language when it is supported', () => {
     expect(pickUiLanguage(['tr-TR', 'en-US'])).toBe('tr');
-    expect(pickUiLanguage(['de-DE', 'en-GB', 'tr-TR'])).toBe('en');
+    expect(pickUiLanguage(['en-GB', 'tr-TR'])).toBe('en');
     expect(pickUiLanguage(['TR'])).toBe('tr');
     expect(pickUiLanguage(['tr_TR'])).toBe('tr');
   });
 
-  it('falls back when nothing is supported', () => {
-    expect(pickUiLanguage(['de-DE', 'fr-FR'])).toBe(FALLBACK_UI_LANGUAGE);
-    expect(pickUiLanguage([])).toBe(FALLBACK_UI_LANGUAGE);
-    expect(pickUiLanguage([null, undefined, ''])).toBe(FALLBACK_UI_LANGUAGE);
+  it('falls back to English otherwise, ignoring secondary languages', () => {
+    expect(FALLBACK_UI_LANGUAGE).toBe('en');
+    expect(pickUiLanguage(['de-DE', 'tr-TR'])).toBe('en');
+    expect(pickUiLanguage(['fr-FR'])).toBe('en');
+    expect(pickUiLanguage([])).toBe('en');
+    expect(pickUiLanguage([null])).toBe('en');
+    expect(pickUiLanguage([''])).toBe('en');
   });
 });
