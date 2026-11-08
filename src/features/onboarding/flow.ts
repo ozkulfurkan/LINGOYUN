@@ -30,8 +30,9 @@ export function defaultCourseId(uiLanguage: string): CourseId {
 }
 
 /**
- * Records the level a self-assessment points to. Provisional: the placement
- * test (LNG-17) refines it.
+ * Records the level a self-assessment points to. "none" is final: that learner
+ * skips the test and starts at the lowest level. Other answers are provisional
+ * until the placement test (LNG-17) refines them.
  */
 export function applySelfAssessment(
   state: ProfilesState,

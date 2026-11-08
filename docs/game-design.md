@@ -52,6 +52,8 @@ Rozet kimlikleri kayda geçer; asla yeniden adlandırılmaz.
 
 Kendi beyanı → başlangıç (yetişkin: A1/A2/B1/B2; 7–12: L1/L3/L6/L8) → 5 blok × 4 soru → blokta 3–4 doğru yukarı, 2 aynı, 0–1 aşağı → sonuç: 3/4 ile geçilen en yüksek seviye. 1000 sanal oyuncu simülasyonunda ±1 seviye isabeti %99.
 
+"Hiç bilmiyorum" diyen kullanıcı teste girmez, doğrudan en alt seviyeden başlar (Furkan'ın kararı).
+
 ## Soru üretici (`src/features/quiz`)
 
 Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer uzunlukta; ikinci bir doğru cevap (eş anlamlı dahil) asla şık olmaz. Aynı kelime arka arkaya sorulmaz. Rastgelelik tohumlanabilir.

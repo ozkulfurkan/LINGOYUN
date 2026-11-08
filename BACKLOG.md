@@ -102,6 +102,6 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - Profil sınırı (LNG-6): aile başına en fazla **3** profil, takma ad en fazla 20 karakter (Furkan'ın kararı, `src/features/profiles/profiles.ts`).
 - Cihazda doğrulanacak (LNG-6): profiller uygulama kapatılıp açılınca duruyor mu (MMKV); ilk derlemede kontrol edilecek.
 - Seviye tespiti simülasyonu (LNG-10, 1000 sanal oyuncu): yetişkin %70 tam / %99 ±1 / %1 fazla yüksek; 7–12 %69 / %99 / %0,6. `src/features/placement/placement.test.ts`.
-- Açık soru (LNG-17'de sorulacak): "Hiç bilmiyorum" diyen kullanıcı testi atlayıp doğrudan en alt seviyeden başlasın mı?
+- Karar (Furkan, LNG-17): kendi beyanında "Hiç bilmiyorum" diyen kullanıcı seviye testine girmez, doğrudan en alt seviyeden başlar (7–12: L1, yetişkin: A1). Diğer üç seçenek teste girer.
 - İçerik kontrolü (LNG-14, LNG-15): çeviriler henüz bir insan tarafından gözden geçirilmedi ve `review: true` işareti de konmadı. En riskli kısım deyimlerin Türkçe karşılıkları (`docs/content/adult-words.md`). Yayından önce kontrol edilmeli.
 - Font bulgusu: Lilita One ve Fredoka'da `ğ ş İ Ğ Ş` yok; Titan One'da `İ` yok. Çocuk teması DynaPuff + Baloo 2'ye geçirildi.
