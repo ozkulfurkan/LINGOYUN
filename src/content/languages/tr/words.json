@@ -239,9 +239,8 @@
     "text": "yumurta"
   },
   "food.rice": {
-    "text": "pirinç",
-    "alt": ["pilav"],
-    "review": true
+    "text": "pilav",
+    "alt": ["pirinç"]
   },
   "food.pasta": {
     "text": "makarna"
@@ -263,8 +262,7 @@
   },
   "food.cake": {
     "text": "pasta",
-    "alt": ["kek"],
-    "review": true
+    "alt": ["kek"]
   },
   "food.cookie": {
     "text": "kurabiye"
@@ -576,8 +574,7 @@
   },
   "clothes.coat": {
     "text": "mont",
-    "alt": ["palto"],
-    "review": true
+    "alt": ["palto"]
   },
   "clothes.jacket": {
     "text": "ceket"
@@ -654,8 +651,7 @@
   },
   "home.sofa": {
     "text": "kanepe",
-    "alt": ["koltuk"],
-    "review": true
+    "alt": ["koltuk"]
   },
   "home.lamp": {
     "text": "lamba"
@@ -733,8 +729,7 @@
   },
   "home.crayon": {
     "text": "boya kalemi",
-    "alt": ["pastel boya"],
-    "review": true
+    "alt": ["pastel boya"]
   },
   "home.scissors": {
     "text": "makas"
@@ -761,8 +756,7 @@
   },
   "toy.blocks": {
     "text": "oyuncak küpler",
-    "alt": ["küpler", "bloklar"],
-    "review": true
+    "alt": ["küpler", "bloklar"]
   },
   "toy.puzzle": {
     "text": "yapboz",
@@ -785,8 +779,7 @@
   },
   "toy.bubbles": {
     "text": "baloncuk",
-    "alt": ["köpük baloncukları"],
-    "review": true
+    "alt": ["köpük baloncukları"]
   },
   "toy.slide": {
     "text": "kaydırak"
@@ -841,7 +834,7 @@
   },
   "nature.grass": {
     "text": "çimen",
-    "review": true
+    "alt": ["ot"]
   },
   "nature.forest": {
     "text": "orman"

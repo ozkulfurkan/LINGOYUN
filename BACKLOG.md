@@ -13,9 +13,10 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-2** BULUT — Tema sistemi (`src/theme`): `kids` (Oyun Hamuru, DynaPuff + Baloo 2) ve `adult` (Sözlük açık + Gece Nehri koyu, Fraunces + Inter Tight) temaları; profil tipine ve sistem moduna göre seçim; renk, tipografi, aralık, köşe, gölge, hareket token'ları. Font glif kontrol script'i (`src/theme/fonts.test.ts`, `npm test` içinde). Önkoşul: LNG-1, LNG-4, LNG-39.
 - [~] **LNG-3** FURKAN — EAS hesabı, bundle id, Apple Developer ve Google Play hesapları, Sentry projesi.
   - ✅ Bundle id `com.ozkulfurkan.lingoyun`, EAS projesi `@ozkulfurkan/lingoyun` (`3fa95618-…`), `eas.json` (development / preview / production + Play gönderim profilleri), Sentry bağlantısı (DSN yoksa kapalı; kişisel veri, ekran görüntüsü, kullanıcı bilgisi gönderilmez).
-  - Kalan (Furkan): expo.dev → lingoyun → Environment variables'a `EXPO_PUBLIC_SENTRY_DSN` ve `SENTRY_AUTH_TOKEN`; Apple Developer üyeliği.
+  - ✅ Apple Developer üyeliği var (Furkan).
+  - Kalan (Furkan): expo.dev → lingoyun → Environment variables'a `EXPO_PUBLIC_SENTRY_DSN` ve `SENTRY_AUTH_TOKEN`; ilk Android ve iOS geliştirici derlemelerini cihazda açmak.
   - Cihazda nasıl test edilir (Android): bilgisayarda `npx eas-cli@latest build --profile development --platform android` → çıkan APK'yı telefona kur → uygulama açılıyor, "LINGOYUN / Yakında" görünüyor, Türkçe telefonda "Yakında", İngilizce telefonda "Coming soon".
-  - iOS: Apple üyeliği onaylanınca `--platform ios`.
+  - Cihazda nasıl test edilir (iOS): `npx eas-cli@latest device:create` → çıkan bağlantıyı iPhone'da aç, profili yükle → iPhone'da Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu'nu aç → `npx eas-cli@latest build --profile development --platform ios` (Apple ID ile giriş ister; sertifikaları EAS oluşturur) → derleme bitince gelen bağlantıdan kur → aynı kontroller.
 - [x] **LNG-4** FURKAN — Çocuk teması onayı: C — Oyun Hamuru, görsel öncelikli. Yetişkin teması ayrı (LNG-39).
 - [x] **LNG-38** BULUT — Çok dil altyapısı: dil kaydı (`src/features/languages`), kurs tanımı (`tr-en`), arayüz i18n (`expo-localization` + `i18next`, `src/i18n/{tr,en}.json`), eksik çeviri anahtarı testi. `docs/languages.md`'ye uygun. Önkoşul: LNG-1.
 - [x] **LNG-39** FURKAN — Yetişkin teması: Sözlük (açık) + Gece Nehri renkleriyle koyu mod.
@@ -33,7 +34,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 ## Faz 2 — İçerik
 
 - [x] **LNG-12** BULUT — 2–7 yaş 300 kelime taslağı (6 tema × 50), EN + TR, resimlenebilir somut kelimeler. Furkan onayına sunulur.
-- [ ] **LNG-13** FURKAN — LNG-12 listesinin onayı: `docs/content/mini-words.md` (8 çeviri 🔍 kontrol bekliyor).
+- [x] **LNG-13** FURKAN — LNG-12 listesinin onayı (`docs/content/mini-words.md`). Kararlar: rice → pilav, cake → pasta, coat → mont, sofa → kanepe, crayon → boya kalemi, blocks → oyuncak küpler, bubbles → baloncuk, grass → çimen (ot da kabul).
 - [ ] **LNG-14** BULUT — 7–12 yaş Seviye 1–3 içeriği (~250 kelime + 60 basit cümle).
 - [ ] **LNG-15** BULUT — Yetişkin A1–A2 içeriği (~600 kelime + 150 cümle + 30 deyim).
 

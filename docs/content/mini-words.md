@@ -1,29 +1,25 @@
-# 2–7 yaş: 300 kelime (LNG-12 taslağı)
+# 2–7 yaş: 300 kelime
 
-Kaynak: `src/content/` (bu belge oradan üretildi). **Onay: LNG-13.**
+Kaynak: `src/content/` (bu belge oradan üretildi). Furkan onayladı (LNG-13).
 
-İşaretler: 🔍 = çevirisi kontrol edilecek (`review`), ⚠️ = İngilizcede iki anlamı var. _Eşler_ sütunundakiler de doğru kabul edilir.
+İşaret: ⚠️ = İngilizcede iki anlamı var (soru üretici ikisini aynı soruda göstermez). _Eşler_ sütunundakiler de doğru kabul edilir.
 
-## Kontrol etmeni istediklerim
+## Furkan'ın kararları
 
-| Kelime    | Seçtiğim           | Alternatif         | Soru                                                                                               |
-| --------- | ------------------ | ------------------ | -------------------------------------------------------------------------------------------------- |
-| rice      | pirinç             | pilav              | Resim çiğ pirinç mi, pilav mı olsun?                                                               |
-| cake      | pasta              | kek                | Türkçede "pasta" = cake; İngilizce "pasta" ise makarna. Çocuk için kafa karıştırabilir. Kalsın mı? |
-| coat      | mont               | palto              | Çocuklar için "mont" daha yaygın diye seçtim.                                                      |
-| sofa      | kanepe             | koltuk             | Evde çoğunlukla "koltuk" deniyor; ana çeviri koltuk mu olsun?                                      |
-| crayon    | boya kalemi        | pastel boya        | Hangisi?                                                                                           |
-| blocks    | oyuncak küpler     | küpler, bloklar    | Çocuklar genelde "lego" diyor ama marka adı; uygun karşılık?                                       |
-| bubbles   | baloncuk           | köpük baloncukları | —                                                                                                  |
-| grass     | çimen              | —                  | "ot" da eklensin mi?                                                                               |
-| orange ⚠️ | portakal / turuncu | —                  | İki ayrı kavram; soru üretici ikisini aynı soruda göstermez.                                       |
+| Kelime  | Karar                       |
+| ------- | --------------------------- |
+| rice    | **pilav** (pirinç de kabul) |
+| cake    | **pasta**                   |
+| coat    | **mont**                    |
+| sofa    | **kanepe**                  |
+| crayon  | **boya kalemi**             |
+| blocks  | **oyuncak küpler**          |
+| bubbles | **baloncuk**                |
+| grass   | **çimen** (ot da kabul)     |
 
-## Bilerek eklemediklerim
+## Bilerek eklenmeyenler
 
-- **domuz**: kültürel hassasiyet nedeniyle yerine **eşek**.
-- **bıçak**: 2–7 yaş için uygun değil.
-- **tuz**, **ceviz**, **şeker (sugar)**: soyut ya da "candy = şeker" ile çakışıyor.
-- Ayrıca 3. dünyaya 12 **zıt kavram** ekledim (büyük/küçük, sıcak/soğuk, mutlu/üzgün…): renkler, şekiller ve 1–20 sayıları 38 kelimede kalıyordu.
+- **domuz** (kültürel hassasiyet; yerine **eşek**), **bıçak** (yaşa uygun değil), **tuz**, **ceviz**, **şeker/sugar** ("candy = şeker" ile çakışır).
 
 ## 1. Hayvanlar (50)
 
@@ -89,7 +85,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). **Onay: LNG-13.**
 | 3   | cherry     | kiraz          |                  |
 | 4   | grapes     | üzüm           | grape            |
 | 5   | banana     | muz            |                  |
-| 6   | orange     | portakal ⚠️    |                  |
+| 6   | orange ⚠️  | portakal       |                  |
 | 7   | strawberry | çilek          |                  |
 | 8   | watermelon | karpuz         |                  |
 | 9   | lemon      | limon          |                  |
@@ -112,14 +108,14 @@ Kaynak: `src/content/` (bu belge oradan üretildi). **Onay: LNG-13.**
 | 26  | bread      | ekmek          |                  |
 | 27  | cheese     | peynir         |                  |
 | 28  | egg        | yumurta        |                  |
-| 29  | rice       | pirinç 🔍      | pilav            |
+| 29  | rice       | pilav          | pirinç           |
 | 30  | pasta      | makarna        |                  |
 | 31  | soup       | çorba          |                  |
 | 32  | meat       | et             |                  |
 | 33  | salad      | salata         |                  |
 | 34  | sandwich   | sandviç        |                  |
 | 35  | pizza      | pizza          |                  |
-| 36  | cake       | pasta 🔍       | kek              |
+| 36  | cake       | pasta          | kek              |
 | 37  | cookie     | kurabiye       | biscuit          |
 | 38  | candy      | şeker          | sweets           |
 | 39  | ice cream  | dondurma       |                  |
@@ -143,7 +139,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). **Onay: LNG-13.**
 | 2   | blue      | mavi       |                 |
 | 3   | yellow    | sarı       |                 |
 | 4   | green     | yeşil      |                 |
-| 5   | orange    | turuncu ⚠️ |                 |
+| 5   | orange ⚠️ | turuncu    |                 |
 | 6   | purple    | mor        |                 |
 | 7   | pink      | pembe      |                 |
 | 8   | brown     | kahverengi |                 |
@@ -225,7 +221,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). **Onay: LNG-13.**
 | 29  | shorts   | şort         |               |
 | 30  | skirt    | etek         |               |
 | 31  | dress    | elbise       |               |
-| 32  | coat     | mont 🔍      | palto         |
+| 32  | coat     | mont         | palto         |
 | 33  | jacket   | ceket        |               |
 | 34  | sweater  | kazak        | jumper        |
 | 35  | pajamas  | pijama       | pyjamas       |
@@ -247,58 +243,58 @@ Kaynak: `src/content/` (bu belge oradan üretildi). **Onay: LNG-13.**
 
 ## 5. Ev ve oyuncaklar (50)
 
-| #   | English    | Türkçe            | Eşler                                   |
-| --- | ---------- | ----------------- | --------------------------------------- |
-| 1   | house      | ev                | home                                    |
-| 2   | door       | kapı              |                                         |
-| 3   | window     | pencere           |                                         |
-| 4   | table      | masa              |                                         |
-| 5   | chair      | sandalye          |                                         |
-| 6   | bed        | yatak             |                                         |
-| 7   | sofa       | kanepe 🔍         | couch, koltuk                           |
-| 8   | lamp       | lamba             |                                         |
-| 9   | clock      | saat              |                                         |
-| 10  | mirror     | ayna              |                                         |
-| 11  | bathtub    | küvet             | bath                                    |
-| 12  | toilet     | tuvalet           |                                         |
-| 13  | sink       | lavabo            |                                         |
-| 14  | fridge     | buzdolabı         | refrigerator                            |
-| 15  | oven       | fırın             |                                         |
-| 16  | cup        | fincan            | mug, kupa                               |
-| 17  | glass      | bardak            |                                         |
-| 18  | plate      | tabak             |                                         |
-| 19  | bowl       | kase              |                                         |
-| 20  | spoon      | kaşık             |                                         |
-| 21  | fork       | çatal             |                                         |
-| 22  | pillow     | yastık            |                                         |
-| 23  | blanket    | battaniye         |                                         |
-| 24  | towel      | havlu             |                                         |
-| 25  | soap       | sabun             |                                         |
-| 26  | toothbrush | diş fırçası       |                                         |
-| 27  | key        | anahtar           |                                         |
-| 28  | phone      | telefon           | telephone                               |
-| 29  | television | televizyon        | TV                                      |
-| 30  | book       | kitap             |                                         |
-| 31  | pencil     | kurşun kalem      | kalem                                   |
-| 32  | crayon     | boya kalemi 🔍    | crayons, pastel boya                    |
-| 33  | scissors   | makas             |                                         |
-| 34  | box        | kutu              |                                         |
-| 35  | ball       | top               |                                         |
-| 36  | doll       | oyuncak bebek     | bebek                                   |
-| 37  | teddy bear | oyuncak ayı       | teddy, ayıcık                           |
-| 38  | toy car    | oyuncak araba     |                                         |
-| 39  | toy train  | oyuncak tren      |                                         |
-| 40  | blocks     | oyuncak küpler 🔍 | building blocks, block, küpler, bloklar |
-| 41  | puzzle     | yapboz            | jigsaw, puzzle                          |
-| 42  | kite       | uçurtma           |                                         |
-| 43  | balloon    | balon             |                                         |
-| 44  | drum       | davul             |                                         |
-| 45  | robot      | robot             |                                         |
-| 46  | yo-yo      | yoyo              |                                         |
-| 47  | bubbles    | baloncuk 🔍       | bubble, köpük baloncukları              |
-| 48  | slide      | kaydırak          |                                         |
-| 49  | swing      | salıncak          |                                         |
-| 50  | jump rope  | atlama ipi        | skipping rope, ip                       |
+| #   | English    | Türkçe         | Eşler                                   |
+| --- | ---------- | -------------- | --------------------------------------- |
+| 1   | house      | ev             | home                                    |
+| 2   | door       | kapı           |                                         |
+| 3   | window     | pencere        |                                         |
+| 4   | table      | masa           |                                         |
+| 5   | chair      | sandalye       |                                         |
+| 6   | bed        | yatak          |                                         |
+| 7   | sofa       | kanepe         | couch, koltuk                           |
+| 8   | lamp       | lamba          |                                         |
+| 9   | clock      | saat           |                                         |
+| 10  | mirror     | ayna           |                                         |
+| 11  | bathtub    | küvet          | bath                                    |
+| 12  | toilet     | tuvalet        |                                         |
+| 13  | sink       | lavabo         |                                         |
+| 14  | fridge     | buzdolabı      | refrigerator                            |
+| 15  | oven       | fırın          |                                         |
+| 16  | cup        | fincan         | mug, kupa                               |
+| 17  | glass      | bardak         |                                         |
+| 18  | plate      | tabak          |                                         |
+| 19  | bowl       | kase           |                                         |
+| 20  | spoon      | kaşık          |                                         |
+| 21  | fork       | çatal          |                                         |
+| 22  | pillow     | yastık         |                                         |
+| 23  | blanket    | battaniye      |                                         |
+| 24  | towel      | havlu          |                                         |
+| 25  | soap       | sabun          |                                         |
+| 26  | toothbrush | diş fırçası    |                                         |
+| 27  | key        | anahtar        |                                         |
+| 28  | phone      | telefon        | telephone                               |
+| 29  | television | televizyon     | TV                                      |
+| 30  | book       | kitap          |                                         |
+| 31  | pencil     | kurşun kalem   | kalem                                   |
+| 32  | crayon     | boya kalemi    | crayons, pastel boya                    |
+| 33  | scissors   | makas          |                                         |
+| 34  | box        | kutu           |                                         |
+| 35  | ball       | top            |                                         |
+| 36  | doll       | oyuncak bebek  | bebek                                   |
+| 37  | teddy bear | oyuncak ayı    | teddy, ayıcık                           |
+| 38  | toy car    | oyuncak araba  |                                         |
+| 39  | toy train  | oyuncak tren   |                                         |
+| 40  | blocks     | oyuncak küpler | building blocks, block, küpler, bloklar |
+| 41  | puzzle     | yapboz         | jigsaw, puzzle                          |
+| 42  | kite       | uçurtma        |                                         |
+| 43  | balloon    | balon          |                                         |
+| 44  | drum       | davul          |                                         |
+| 45  | robot      | robot          |                                         |
+| 46  | yo-yo      | yoyo           |                                         |
+| 47  | bubbles    | baloncuk       | bubble, köpük baloncukları              |
+| 48  | slide      | kaydırak       |                                         |
+| 49  | swing      | salıncak       |                                         |
+| 50  | jump rope  | atlama ipi     | skipping rope, ip                       |
 
 ## 6. Doğa ve taşıtlar (50)
 
@@ -317,7 +313,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). **Onay: LNG-13.**
 | 11  | tree            | ağaç              |                      |
 | 12  | flower          | çiçek             |                      |
 | 13  | leaf            | yaprak            |                      |
-| 14  | grass           | çimen 🔍          |                      |
+| 14  | grass           | çimen             | ot                   |
 | 15  | forest          | orman             | woods                |
 | 16  | mountain        | dağ               |                      |
 | 17  | volcano         | yanardağ          | volkan               |
