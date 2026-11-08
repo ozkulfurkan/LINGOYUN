@@ -1,0 +1,121 @@
+[
+  {
+    "id": "leisure.film",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.music",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.song",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.concert",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.theater",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.football",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.sport",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.game",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.hobby",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.newspaper",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.magazine",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.story",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.party",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.gift",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.birthday",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.wedding",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure.picnic",
+    "topic": "leisure",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  }
+]

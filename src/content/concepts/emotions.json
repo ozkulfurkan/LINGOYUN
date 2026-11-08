@@ -11,5 +11,61 @@
     "topic": "emotions",
     "kind": "sentence",
     "ageGroups": ["adult"]
+  },
+  {
+    "id": "feeling.angry",
+    "topic": "feeling",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "feeling.afraid",
+    "topic": "feeling",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "feeling.worried",
+    "topic": "feeling",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "feeling.surprised",
+    "topic": "feeling",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "feeling.bored",
+    "topic": "feeling",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "feeling.excited",
+    "topic": "feeling",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "feeling.lonely",
+    "topic": "feeling",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "feeling.calm",
+    "topic": "feeling",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
   }
 ]

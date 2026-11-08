@@ -1,0 +1,191 @@
+[
+  {
+    "id": "function.and",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "function.but",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "function.or",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "function.because",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "function.very",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.a_little",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.every",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "position.under",
+    "topic": "position",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "position.behind",
+    "topic": "position",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "position.next_to",
+    "topic": "position",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "position.in_front_of",
+    "topic": "position",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "function.again",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.maybe",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.together",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.alone",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.really",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.almost",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.well",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "function.if",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "function.so",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "function.then",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "function.before",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "function.after",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "function.without",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "position.between",
+    "topic": "position",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "function.during",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  },
+  {
+    "id": "function.until",
+    "topic": "function",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["preposition"]
+  }
+]

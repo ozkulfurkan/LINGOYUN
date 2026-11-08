@@ -9,15 +9,24 @@ import descriptions from './concepts/descriptions.json';
 import emotions from './concepts/emotions.json';
 import family from './concepts/family.json';
 import food from './concepts/food.json';
+import functionWords from './concepts/function_words.json';
 import greetings from './concepts/greetings.json';
+import health from './concepts/health.json';
 import home from './concepts/home.json';
+import idioms from './concepts/idioms.json';
+import leisure from './concepts/leisure.json';
+import money from './concepts/money.json';
 import nature from './concepts/nature.json';
+import people from './concepts/people.json';
 import places from './concepts/places.json';
 import pronouns from './concepts/pronouns.json';
 import questions from './concepts/questions.json';
 import school from './concepts/school.json';
 import sentences from './concepts/sentences.json';
+import technology from './concepts/technology.json';
 import time from './concepts/time.json';
+import travel from './concepts/travel.json';
+import work from './concepts/work.json';
 import trEn from './courses/tr-en.json';
 import enSentences from './languages/en/sentences.json';
 import enWords from './languages/en/words.json';
@@ -45,6 +54,15 @@ export const content: ContentBundle = {
     ...descriptions,
     ...places,
     ...questions,
+    ...people,
+    ...work,
+    ...money,
+    ...travel,
+    ...health,
+    ...technology,
+    ...leisure,
+    ...functionWords,
+    ...idioms,
     ...sentences,
   ] as Concept[],
   languages: {

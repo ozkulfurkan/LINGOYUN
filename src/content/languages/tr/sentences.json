@@ -243,5 +243,640 @@
       "Teyzem mutfakta anneme yardım ediyor.",
       "Halam mutfakta anneme yardım ediyor."
     ]
+  },
+  "sentence.a1_i_student": {
+    "text": "Ben öğrenciyim.",
+    "alt": ["Öğrenciyim."]
+  },
+  "sentence.a1_she_doctor": {
+    "text": "O bir doktor.",
+    "alt": ["O doktor."]
+  },
+  "sentence.a1_he_engineer": {
+    "text": "O bir mühendis.",
+    "alt": ["O mühendis."]
+  },
+  "sentence.a1_we_friends": {
+    "text": "Biz arkadaşız.",
+    "alt": ["Arkadaşız."]
+  },
+  "sentence.a1_they_parents": {
+    "text": "Onlar benim annem ve babam.",
+    "alt": ["Onlar annem ve babam.", "Onlar benim ebeveynlerim."]
+  },
+  "sentence.a1_where_from": {
+    "text": "Nerelisin?",
+    "alt": ["Nerelisiniz?", "Sen nerelisin?", "Siz nerelisiniz?"]
+  },
+  "sentence.a1_how_old": {
+    "text": "Kaç yaşındasın?",
+    "alt": ["Kaç yaşındasınız?"]
+  },
+  "sentence.a1_live_city": {
+    "text": "Büyük bir şehirde yaşıyorum.",
+    "alt": ["Büyük bir şehirde oturuyorum.", "Ben büyük bir şehirde yaşıyorum."]
+  },
+  "sentence.a1_wife_hospital": {
+    "text": "Eşim bir hastanede çalışıyor.",
+    "alt": [
+      "Karım bir hastanede çalışıyor.",
+      "Eşim hastanede çalışıyor.",
+      "Karım hastanede çalışıyor."
+    ]
+  },
+  "sentence.a1_husband_driver": {
+    "text": "Kocam bir şoför.",
+    "alt": ["Eşim bir şoför.", "Kocam şoför.", "Eşim şoför."]
+  },
+  "sentence.a1_son_school": {
+    "text": "Oğlum okula gidiyor.",
+    "alt": ["Oğlum okula gider."]
+  },
+  "sentence.a1_daughter_reads": {
+    "text": "Kızım her gün kitap okuyor.",
+    "alt": ["Kızım her gün bir kitap okuyor.", "Kızım her gün kitap okur."]
+  },
+  "sentence.a1_two_brothers": {
+    "text": "İki erkek kardeşim var.",
+    "alt": ["İki kardeşim var."]
+  },
+  "sentence.a1_have_children": {
+    "text": "Çocuğun var mı?",
+    "alt": ["Çocukların var mı?", "Çocuğunuz var mı?", "Çocuklarınız var mı?"]
+  },
+  "sentence.a1_little_english": {
+    "text": "Biraz İngilizce konuşuyorum.",
+    "alt": ["Biraz İngilizce biliyorum.", "Biraz İngilizce konuşurum."]
+  },
+  "sentence.a1_not_understand": {
+    "text": "Anlamıyorum.",
+    "alt": ["Anlamadım."]
+  },
+  "sentence.a1_can_help": {
+    "text": "Bana yardım edebilir misin?",
+    "alt": ["Bana yardım edebilir misiniz?", "Yardım edebilir misin?", "Yardım edebilir misiniz?"]
+  },
+  "sentence.a1_what_time": {
+    "text": "Saat kaç?"
+  },
+  "sentence.a1_seven_oclock": {
+    "text": "Saat yedi."
+  },
+  "sentence.a1_work_morning": {
+    "text": "Sabah işe gidiyorum.",
+    "alt": ["Sabahları işe giderim.", "Sabah işe giderim.", "Sabahları işe gidiyorum."]
+  },
+  "sentence.a1_breakfast_home": {
+    "text": "Evde kahvaltı yapıyorum.",
+    "alt": ["Kahvaltıyı evde yapıyorum.", "Evde kahvaltı ederim.", "Evde kahvaltı yaparım."]
+  },
+  "sentence.a1_coffee_milk": {
+    "text": "Sütlü kahve istiyorum.",
+    "alt": ["Sütlü bir kahve istiyorum."]
+  },
+  "sentence.a1_glass_water": {
+    "text": "Bir bardak su, lütfen.",
+    "alt": ["Bir bardak su lütfen."]
+  },
+  "sentence.a1_ticket_price": {
+    "text": "Bilet ne kadar?",
+    "alt": ["Bilet kaç para?"]
+  },
+  "sentence.a1_bag_expensive": {
+    "text": "Bu çanta çok pahalı."
+  },
+  "sentence.a1_shoes_cheap": {
+    "text": "Bu ayakkabılar ucuz."
+  },
+  "sentence.a1_buy_phone": {
+    "text": "Yeni bir telefon almak istiyorum.",
+    "alt": ["Yeni bir telefon satın almak istiyorum."]
+  },
+  "sentence.a1_where_station": {
+    "text": "İstasyon nerede?"
+  },
+  "sentence.a1_bank_near": {
+    "text": "Banka otele yakın.",
+    "alt": ["Banka otelin yakınında."]
+  },
+  "sentence.a1_museum_left": {
+    "text": "Müze solda.",
+    "alt": ["Müze sol tarafta."]
+  },
+  "sentence.a1_restaurant_right": {
+    "text": "Restoran sağda.",
+    "alt": ["Restoran sağ tarafta."]
+  },
+  "sentence.a1_work_bus": {
+    "text": "İşe otobüsle gidiyorum.",
+    "alt": ["İşe otobüsle giderim.", "İşe otobüs ile gidiyorum."]
+  },
+  "sentence.a1_train_late": {
+    "text": "Tren geç kaldı.",
+    "alt": ["Tren gecikti.", "Tren geç."]
+  },
+  "sentence.a1_hot_today": {
+    "text": "Bugün hava sıcak.",
+    "alt": ["Bugün sıcak."]
+  },
+  "sentence.a1_rain_today": {
+    "text": "Bugün yağmur yağıyor."
+  },
+  "sentence.a1_weather_good": {
+    "text": "Hava çok güzel.",
+    "alt": ["Hava çok iyi."]
+  },
+  "sentence.a1_busy_today": {
+    "text": "Bugün meşgulüm.",
+    "alt": ["Bugün yoğunum."]
+  },
+  "sentence.a1_dinner_seven": {
+    "text": "Saat yedide akşam yemeği yiyoruz.",
+    "alt": [
+      "Yedide akşam yemeği yiyoruz.",
+      "Akşam yemeğini yedide yiyoruz.",
+      "Akşam yemeğini saat yedide yiyoruz."
+    ]
+  },
+  "sentence.a1_lunch_office": {
+    "text": "Öğle yemeğini ofiste yiyor.",
+    "alt": ["Ofiste öğle yemeği yiyor.", "O öğle yemeğini ofiste yiyor."]
+  },
+  "sentence.a1_mother_cooks": {
+    "text": "Annem her gün yemek yapıyor.",
+    "alt": ["Annem her gün yemek pişiriyor.", "Annem her gün yemek yapar."]
+  },
+  "sentence.a1_father_tv": {
+    "text": "Babam akşam televizyon izliyor.",
+    "alt": [
+      "Babam akşamları televizyon izler.",
+      "Babam akşam televizyon seyrediyor.",
+      "Babam akşamları televizyon izliyor."
+    ]
+  },
+  "sentence.a1_not_like_tea": {
+    "text": "Çay sevmiyorum.",
+    "alt": ["Çay sevmem.", "Çayı sevmiyorum."]
+  },
+  "sentence.a1_like_fish": {
+    "text": "Balık sever misin?",
+    "alt": ["Balık sever misiniz?", "Balık seviyor musun?", "Balık seviyor musunuz?"]
+  },
+  "sentence.a1_what_want": {
+    "text": "Ne istiyorsun?",
+    "alt": ["Ne istiyorsunuz?"]
+  },
+  "sentence.a1_what_job": {
+    "text": "İşin ne?",
+    "alt": ["Mesleğin ne?", "İşiniz ne?", "Mesleğiniz ne?"]
+  },
+  "sentence.a1_where_work": {
+    "text": "Nerede çalışıyorsun?",
+    "alt": ["Nerede çalışıyorsunuz?"]
+  },
+  "sentence.a1_work_office": {
+    "text": "Bir ofiste çalışıyorum.",
+    "alt": ["Ofiste çalışıyorum."]
+  },
+  "sentence.a1_learn_english": {
+    "text": "İngilizce öğreniyoruz.",
+    "alt": ["Biz İngilizce öğreniyoruz."]
+  },
+  "sentence.a1_know_answer": {
+    "text": "Cevabı biliyorum.",
+    "alt": ["Yanıtı biliyorum."]
+  },
+  "sentence.a1_question_easy": {
+    "text": "Bu soru kolay."
+  },
+  "sentence.a1_that_correct": {
+    "text": "Bu doğru.",
+    "alt": ["Doğru."]
+  },
+  "sentence.a1_book_table": {
+    "text": "Kitap masanın üstünde.",
+    "alt": ["Kitap masada.", "Kitap masanın üzerinde."]
+  },
+  "sentence.a1_cat_under_bed": {
+    "text": "Kedi yatağın altında."
+  },
+  "sentence.a1_car_behind_house": {
+    "text": "Araba evin arkasında."
+  },
+  "sentence.a1_hotel_next_bank": {
+    "text": "Otel bankanın yanında."
+  },
+  "sentence.a1_small_apartment": {
+    "text": "Küçük bir dairede yaşıyoruz.",
+    "alt": ["Küçük bir dairede oturuyoruz."]
+  },
+  "sentence.a1_room_clean": {
+    "text": "Odam temiz."
+  },
+  "sentence.a1_kitchen_windows": {
+    "text": "Mutfağın iki penceresi var.",
+    "alt": ["Mutfakta iki pencere var."]
+  },
+  "sentence.a1_today_tuesday": {
+    "text": "Bugün salı."
+  },
+  "sentence.a1_holiday_july": {
+    "text": "Tatilim temmuzda."
+  },
+  "sentence.a1_always_late": {
+    "text": "O her zaman geç kalır.",
+    "alt": ["Her zaman geç kalır.", "O hep geç kalır.", "Hep geç kalıyor."]
+  },
+  "sentence.a1_sometimes_walk": {
+    "text": "Bazen işe yürüyerek gidiyorum.",
+    "alt": ["Bazen işe yürüyerek giderim.", "Bazen işe yürürüm."]
+  },
+  "sentence.a1_never_coffee_night": {
+    "text": "Geceleri asla kahve içmem.",
+    "alt": ["Gece asla kahve içmem.", "Geceleri hiç kahve içmem."]
+  },
+  "sentence.a1_grandfather_old": {
+    "text": "Büyükbabam çok yaşlı.",
+    "alt": ["Dedem çok yaşlı."]
+  },
+  "sentence.a1_man_tall": {
+    "text": "O adam uzun boylu.",
+    "alt": ["Şu adam uzun boylu.", "O adam uzun."]
+  },
+  "sentence.a1_woman_neighbor": {
+    "text": "O kadın benim komşum.",
+    "alt": ["O kadın komşum.", "Şu kadın benim komşum.", "Şu kadın komşum."]
+  },
+  "sentence.a1_open_books": {
+    "text": "Lütfen kitaplarınızı açın.",
+    "alt": ["Lütfen kitaplarını aç."]
+  },
+  "sentence.a1_sorry_late": {
+    "text": "Özür dilerim, geç kaldım.",
+    "alt": ["Pardon, geç kaldım.", "Üzgünüm, geç kaldım."]
+  },
+  "sentence.a1_thanks_help": {
+    "text": "Yardımın için teşekkür ederim.",
+    "alt": [
+      "Yardımınız için teşekkür ederim.",
+      "Yardımın için teşekkürler.",
+      "Yardımınız için teşekkürler."
+    ]
+  },
+  "sentence.a1_see_tomorrow": {
+    "text": "Yarın görüşürüz."
+  },
+  "sentence.a2_cinema_yesterday": {
+    "text": "Dün sinemaya gittim.",
+    "alt": ["Ben dün sinemaya gittim."]
+  },
+  "sentence.a2_visit_uncle": {
+    "text": "Geçen hafta amcamı ziyaret ettik.",
+    "alt": ["Geçen hafta dayımı ziyaret ettik."]
+  },
+  "sentence.a2_bought_dress": {
+    "text": "Yeni bir elbise aldı.",
+    "alt": ["O yeni bir elbise aldı.", "Yeni bir elbise satın aldı."]
+  },
+  "sentence.a2_see_film": {
+    "text": "Filmi gördün mü?",
+    "alt": ["Filmi izledin mi?", "Filmi gördünüz mü?", "Filmi izlediniz mi?"]
+  },
+  "sentence.a2_forgot_password": {
+    "text": "Şifremi unuttum.",
+    "alt": ["Parolamı unuttum."]
+  },
+  "sentence.a2_lost_wallet": {
+    "text": "Cüzdanını otobüste kaybetti.",
+    "alt": ["O cüzdanını otobüste kaybetti."]
+  },
+  "sentence.a2_ate_fish": {
+    "text": "Bir restoranda balık yedik.",
+    "alt": ["Restoranda balık yedik."]
+  },
+  "sentence.a2_she_called": {
+    "text": "Dün gece beni aradı.",
+    "alt": ["O dün gece beni aradı."]
+  },
+  "sentence.a2_train_left": {
+    "text": "Tren on dakika önce kalktı.",
+    "alt": ["Tren on dakika önce gitti.", "Tren on dakika önce ayrıldı."]
+  },
+  "sentence.a2_not_sleep_well": {
+    "text": "İyi uyumadım.",
+    "alt": ["İyi uyuyamadım."]
+  },
+  "sentence.a2_tired_yesterday": {
+    "text": "Dün çok yorgundum."
+  },
+  "sentence.a2_home_sunday": {
+    "text": "Pazar günü evdeydiler.",
+    "alt": ["Onlar pazar günü evdeydi.", "Pazar günü evdeydi."]
+  },
+  "sentence.a2_meeting_long": {
+    "text": "Toplantı çok uzundu.",
+    "alt": ["Toplantı çok uzun sürdü."]
+  },
+  "sentence.a2_weather_bad": {
+    "text": "Geçen hafta hava kötüydü."
+  },
+  "sentence.a2_where_holiday": {
+    "text": "Tatilde nereye gittin?",
+    "alt": ["Tatilde nereye gittiniz?", "Tatile nereye gittin?", "Tatile nereye gittiniz?"]
+  },
+  "sentence.a2_how_trip": {
+    "text": "Gezin nasıldı?",
+    "alt": ["Geziniz nasıldı?", "Yolculuğun nasıldı?", "Yolculuğunuz nasıldı?"]
+  },
+  "sentence.a2_travel_summer": {
+    "text": "Gelecek yaz seyahat edeceğiz.",
+    "alt": ["Önümüzdeki yaz seyahat edeceğiz."]
+  },
+  "sentence.a2_call_tomorrow": {
+    "text": "Seni yarın arayacağım.",
+    "alt": ["Yarın seni arayacağım.", "Sizi yarın arayacağım.", "Yarın sizi arayacağım."]
+  },
+  "sentence.a2_rain_tomorrow": {
+    "text": "Yarın yağmur yağacak."
+  },
+  "sentence.a2_new_job": {
+    "text": "Gelecek ay yeni bir işe başlayacak.",
+    "alt": ["Önümüzdeki ay yeni bir işe başlayacak."]
+  },
+  "sentence.a2_buy_house": {
+    "text": "Bir ev alacaklar.",
+    "alt": ["Ev alacaklar.", "Onlar bir ev alacaklar.", "Bir ev satın alacaklar."]
+  },
+  "sentence.a2_this_evening": {
+    "text": "Bu akşam ne yapıyorsun?",
+    "alt": ["Bu akşam ne yapıyorsunuz?", "Bu akşam ne yapacaksın?", "Bu akşam ne yapacaksınız?"]
+  },
+  "sentence.a2_meeting_nine": {
+    "text": "Toplantı saat dokuzda başlayacak.",
+    "alt": ["Toplantı dokuzda başlayacak."]
+  },
+  "sentence.a2_not_forget": {
+    "text": "Bu günü unutmayacağım."
+  },
+  "sentence.a2_hotel_bigger": {
+    "text": "Bu otel o otelden daha büyük.",
+    "alt": [
+      "Bu otel şu otelden daha büyük.",
+      "Bu otel o otelden büyük.",
+      "Bu otel şu otelden büyük."
+    ]
+  },
+  "sentence.a2_train_cheaper": {
+    "text": "Tren uçaktan daha ucuz.",
+    "alt": ["Tren uçaktan ucuz."]
+  },
+  "sentence.a2_book_interesting": {
+    "text": "Bu kitap o filmden daha ilginç.",
+    "alt": ["Bu kitap şu filmden daha ilginç."]
+  },
+  "sentence.a2_best_restaurant": {
+    "text": "Bu, şehirdeki en iyi restoran.",
+    "alt": ["Bu şehirdeki en iyi restoran.", "Şehirdeki en iyi restoran bu."]
+  },
+  "sentence.a2_most_expensive": {
+    "text": "Bu, şehirdeki en pahalı otel.",
+    "alt": ["Bu şehirdeki en pahalı otel.", "Şehirdeki en pahalı otel bu."]
+  },
+  "sentence.a2_brother_older": {
+    "text": "Ağabeyim benden büyük.",
+    "alt": [
+      "Ağabeyim benden daha büyük.",
+      "Abim benden büyük.",
+      "Abim benden daha büyük.",
+      "Erkek kardeşim benden büyük.",
+      "Erkek kardeşim benden daha büyük."
+    ]
+  },
+  "sentence.a2_can_drive": {
+    "text": "Araba sürebilirim.",
+    "alt": ["Araba kullanabilirim.", "Araba kullanmayı biliyorum."]
+  },
+  "sentence.a2_pay_card": {
+    "text": "Kredi kartıyla ödeyebilir miyim?",
+    "alt": ["Kredi kartı ile ödeyebilir miyim?"]
+  },
+  "sentence.a2_must_rest": {
+    "text": "Bugün dinlenmelisin.",
+    "alt": ["Bugün dinlenmelisiniz.", "Bugün dinlenmen lazım.", "Bugün dinlenmeniz lazım."]
+  },
+  "sentence.a2_should_doctor": {
+    "text": "Doktora görünmelisin.",
+    "alt": [
+      "Doktora gitmelisin.",
+      "Doktora görünmelisiniz.",
+      "Doktora gitmelisiniz.",
+      "Bir doktora görünmelisin.",
+      "Bir doktora görünmelisiniz."
+    ]
+  },
+  "sentence.a2_work_saturday": {
+    "text": "Cumartesi çalışmak zorundayım.",
+    "alt": [
+      "Cumartesi çalışmam gerekiyor.",
+      "Cumartesi çalışmalıyım.",
+      "Cumartesi günü çalışmak zorundayım."
+    ]
+  },
+  "sentence.a2_cannot_party": {
+    "text": "Partiye gelemem.",
+    "alt": ["Partiye gelemiyorum.", "Partiye gelemeyeceğim."]
+  },
+  "sentence.a2_explain_word": {
+    "text": "Bu kelimeyi açıklayabilir misin?",
+    "alt": [
+      "Bu kelimeyi açıklayabilir misiniz?",
+      "Bu sözcüğü açıklayabilir misin?",
+      "Bu sözcüğü açıklayabilir misiniz?"
+    ]
+  },
+  "sentence.a2_table_two": {
+    "text": "İki kişilik bir masa istiyorum.",
+    "alt": ["İki kişilik masa istiyorum.", "İki kişilik bir masa rica ediyorum."]
+  },
+  "sentence.a2_may_open": {
+    "text": "Pencereyi açabilir miyim?"
+  },
+  "sentence.a2_headache": {
+    "text": "Başım ağrıyor.",
+    "alt": ["Baş ağrım var."]
+  },
+  "sentence.a2_son_fever": {
+    "text": "Oğlumun ateşi var."
+  },
+  "sentence.a2_dentist": {
+    "text": "Diş hekimiyle randevum var.",
+    "alt": ["Dişçiyle randevum var.", "Diş hekiminden randevum var.", "Dişçiden randevum var."]
+  },
+  "sentence.a2_medicine": {
+    "text": "Bu ilacı akşam yemeğinden sonra al.",
+    "alt": [
+      "Bu ilacı akşam yemeğinden sonra alın.",
+      "Bu ilacı akşam yemeğinden sonra iç.",
+      "Bu ilacı akşam yemeğinden sonra için."
+    ]
+  },
+  "sentence.a2_stomach": {
+    "text": "Midem ağrıyor.",
+    "alt": ["Karnım ağrıyor."]
+  },
+  "sentence.a2_fresh_fruit": {
+    "text": "Taze meyve çok sağlıklı."
+  },
+  "sentence.a2_meet_manager": {
+    "text": "Müdürümle toplantım var.",
+    "alt": ["Yöneticimle toplantım var."]
+  },
+  "sentence.a2_company_office": {
+    "text": "Şirketimizin yeni bir ofisi var.",
+    "alt": ["Şirketimizin yeni ofisi var."]
+  },
+  "sentence.a2_colleague_report": {
+    "text": "İş arkadaşım raporda bana yardım etti.",
+    "alt": [
+      "Meslektaşım raporda bana yardım etti.",
+      "İş arkadaşım rapor konusunda bana yardım etti."
+    ]
+  },
+  "sentence.a2_send_email": {
+    "text": "Lütfen bana bir e-posta gönder.",
+    "alt": [
+      "Lütfen bana bir e-posta gönderin.",
+      "Lütfen bana e-posta gönder.",
+      "Lütfen bana e-posta gönderin.",
+      "Lütfen bana e-posta at."
+    ]
+  },
+  "sentence.a2_salary_good": {
+    "text": "Maaş iyi ama iş zor.",
+    "alt": ["Maaş iyi fakat iş zor."]
+  },
+  "sentence.a2_interview_friday": {
+    "text": "Cuma günü iş görüşmesi var.",
+    "alt": ["Cuma iş görüşmesi var.", "Cuma günü iş mülakatı var."]
+  },
+  "sentence.a2_try_jacket": {
+    "text": "Bu ceketi deneyebilir miyim?"
+  },
+  "sentence.a2_what_size": {
+    "text": "Hangi bedeni istiyorsun?",
+    "alt": ["Hangi bedeni istiyorsunuz?", "Kaç beden istiyorsun?", "Kaç beden istiyorsunuz?"]
+  },
+  "sentence.a2_discount": {
+    "text": "İndirim var mı?"
+  },
+  "sentence.a2_the_bill": {
+    "text": "Hesabı alabilir miyiz, lütfen?",
+    "alt": ["Hesabı alabilir miyiz lütfen?", "Hesap lütfen."]
+  },
+  "sentence.a2_enough_money": {
+    "text": "Yeterli param yok.",
+    "alt": ["Yeterince param yok."]
+  },
+  "sentence.a2_soup_delicious": {
+    "text": "Bu çorba çok lezzetli.",
+    "alt": ["Bu çorba lezzetli.", "Bu çorba çok güzel."]
+  },
+  "sentence.a2_too_salty": {
+    "text": "Yemek çok tuzlu.",
+    "alt": ["Yemek fazla tuzlu."]
+  },
+  "sentence.a2_gift_wife": {
+    "text": "Eşim için bir hediye aldım.",
+    "alt": ["Karım için bir hediye aldım.", "Eşime bir hediye aldım.", "Karıma bir hediye aldım."]
+  },
+  "sentence.a2_sold_car": {
+    "text": "Eski arabalarını sattılar.",
+    "alt": ["Onlar eski arabalarını sattılar."]
+  },
+  "sentence.a2_reservation": {
+    "text": "Bu otelde rezervasyonum var."
+  },
+  "sentence.a2_flight_eight": {
+    "text": "Uçuşumuz sabah sekizde kalkıyor.",
+    "alt": ["Uçağımız sabah sekizde kalkıyor.", "Uçuşumuz sabah saat sekizde kalkıyor."]
+  },
+  "sentence.a2_suitcase_heavy": {
+    "text": "Bavulum çok ağır.",
+    "alt": ["Valizim çok ağır."]
+  },
+  "sentence.a2_turn_left": {
+    "text": "Köşeden sola dön.",
+    "alt": ["Köşeden sola dönün.", "Köşede sola dön.", "Köşede sola dönün."]
+  },
+  "sentence.a2_nearest_stop": {
+    "text": "En yakın otobüs durağı nerede?"
+  },
+  "sentence.a2_i_am_lost": {
+    "text": "Kayboldum. Bana yardım edebilir misin?",
+    "alt": ["Kayboldum. Bana yardım edebilir misiniz?"]
+  },
+  "sentence.a2_why_angry": {
+    "text": "Neden kızgınsın?",
+    "alt": ["Neden kızgınsınız?", "Niye kızgınsın?", "Neden sinirlisin?", "Neden sinirlisiniz?"]
+  },
+  "sentence.a2_afraid_dogs": {
+    "text": "Kızım köpeklerden korkuyor.",
+    "alt": ["Kızım köpeklerden korkar."]
+  },
+  "sentence.a2_bored_home": {
+    "text": "Evde sıkılıyorum.",
+    "alt": ["Evde canım sıkılıyor."]
+  },
+  "sentence.a2_excited_wedding": {
+    "text": "Düğün için heyecanlıyız.",
+    "alt": ["Düğün konusunda heyecanlıyız."]
+  },
+  "sentence.a2_kind_neighbor": {
+    "text": "Komşumuz çok nazik biri.",
+    "alt": [
+      "Komşumuz çok nazik bir insan.",
+      "Komşumuz çok kibar biri.",
+      "Komşumuz çok kibar bir insan."
+    ]
+  },
+  "sentence.a2_think_boring": {
+    "text": "Bence bu film sıkıcı.",
+    "alt": ["Bu filmin sıkıcı olduğunu düşünüyorum."]
+  },
+  "sentence.a2_agree_you": {
+    "text": "Sana katılıyorum.",
+    "alt": ["Size katılıyorum.", "Seninle aynı fikirdeyim.", "Sizinle aynı fikirdeyim."]
+  },
+  "sentence.a2_speaking_phone": {
+    "text": "Şu anda telefonda konuşuyor.",
+    "alt": [
+      "Şimdi telefonda konuşuyor.",
+      "O şimdi telefonda konuşuyor.",
+      "O şu anda telefonda konuşuyor."
+    ]
+  },
+  "sentence.a2_wash_before_dinner": {
+    "text": "Akşam yemeğinden önce ellerimi yıkarım.",
+    "alt": ["Akşam yemeğinden önce ellerimi yıkıyorum."]
+  },
+  "sentence.a2_if_rains": {
+    "text": "Yağmur yağarsa evde kalacağız.",
+    "alt": ["Eğer yağmur yağarsa evde kalacağız."]
+  },
+  "sentence.a2_stayed_sick": {
+    "text": "Hasta olduğum için evde kaldım.",
+    "alt": ["Evde kaldım çünkü hastaydım.", "Hastaydım, bu yüzden evde kaldım."]
+  },
+  "sentence.a2_cold_so_home": {
+    "text": "Hava soğuktu, bu yüzden eve gittik.",
+    "alt": ["Hava soğuktu, o yüzden eve gittik."]
+  },
+  "sentence.a2_film_weekend": {
+    "text": "Her hafta sonu film izliyoruz.",
+    "alt": ["Her hafta sonu bir film izliyoruz.", "Her hafta sonu film izleriz."]
+  },
+  "sentence.a2_photos_beach": {
+    "text": "Plajda çok fotoğraf çektim.",
+    "alt": ["Plajda birçok fotoğraf çektim.", "Sahilde çok fotoğraf çektim."]
   }
 }

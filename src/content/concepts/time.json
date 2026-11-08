@@ -229,5 +229,159 @@
     "kind": "word",
     "ageGroups": ["kid", "adult"],
     "tags": ["noun"]
+  },
+  {
+    "id": "time.time",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.hour",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.minute",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.afternoon",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.noon",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.now",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.later",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.early",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.late",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.always",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.sometimes",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.never",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.weekend",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.last",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "time.next",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "time.ago",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.soon",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.already",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.yet",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.still",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.usually",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.often",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
   }
 ]

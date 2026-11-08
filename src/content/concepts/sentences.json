@@ -358,5 +358,905 @@
     "topic": "sentence",
     "kind": "sentence",
     "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.a1_i_student",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_she_doctor",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_he_engineer",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_we_friends",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_they_parents",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_where_from",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_how_old",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_live_city",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_wife_hospital",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_husband_driver",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_son_school",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_daughter_reads",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_two_brothers",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_have_children",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_little_english",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_not_understand",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_can_help",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_what_time",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_seven_oclock",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_work_morning",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_breakfast_home",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_coffee_milk",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_glass_water",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_ticket_price",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_bag_expensive",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_shoes_cheap",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_buy_phone",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_where_station",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_bank_near",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_museum_left",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_restaurant_right",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_work_bus",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_train_late",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_hot_today",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_rain_today",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_weather_good",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_busy_today",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_dinner_seven",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_lunch_office",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_mother_cooks",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_father_tv",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_not_like_tea",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_like_fish",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_what_want",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_what_job",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_where_work",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_work_office",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_learn_english",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_know_answer",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_question_easy",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_that_correct",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_book_table",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_cat_under_bed",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_car_behind_house",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_hotel_next_bank",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_small_apartment",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_room_clean",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_kitchen_windows",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_today_tuesday",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_holiday_july",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_always_late",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_sometimes_walk",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_never_coffee_night",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_grandfather_old",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_man_tall",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_woman_neighbor",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_open_books",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_sorry_late",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_thanks_help",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a1_see_tomorrow",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_cinema_yesterday",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_visit_uncle",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_bought_dress",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_see_film",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_forgot_password",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_lost_wallet",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_ate_fish",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_she_called",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_train_left",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_not_sleep_well",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_tired_yesterday",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_home_sunday",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_meeting_long",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_weather_bad",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_where_holiday",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_how_trip",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_travel_summer",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_call_tomorrow",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_rain_tomorrow",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_new_job",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_buy_house",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_this_evening",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_meeting_nine",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_not_forget",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_hotel_bigger",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_train_cheaper",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_book_interesting",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_best_restaurant",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_most_expensive",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_brother_older",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_can_drive",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_pay_card",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_must_rest",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_should_doctor",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_work_saturday",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_cannot_party",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_explain_word",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_table_two",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_may_open",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_headache",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_son_fever",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_dentist",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_medicine",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_stomach",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_fresh_fruit",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_meet_manager",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_company_office",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_colleague_report",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_send_email",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_salary_good",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_interview_friday",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_try_jacket",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_what_size",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_discount",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_the_bill",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_enough_money",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_soup_delicious",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_too_salty",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_gift_wife",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_sold_car",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_reservation",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_flight_eight",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_suitcase_heavy",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_turn_left",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_nearest_stop",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_i_am_lost",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_why_angry",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_afraid_dogs",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_bored_home",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_excited_wedding",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_kind_neighbor",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_think_boring",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_agree_you",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_speaking_phone",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_wash_before_dinner",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_if_rains",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_stayed_sick",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_cold_so_home",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_film_weekend",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "sentence.a2_photos_beach",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
   }
 ]

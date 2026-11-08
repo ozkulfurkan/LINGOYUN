@@ -110,5 +110,47 @@
     "kind": "word",
     "ageGroups": ["kid", "adult"],
     "tags": ["noun"]
+  },
+  {
+    "id": "family.family",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.son",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.daughter",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.husband",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.wife",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.parents",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
   }
 ]

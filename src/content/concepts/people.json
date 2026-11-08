@@ -1,0 +1,142 @@
+[
+  {
+    "id": "person.man",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "person.woman",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "person.person",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "person.people",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "person.neighbor",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "person.kind",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.funny",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.clever",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.lazy",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.shy",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.friendly",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.honest",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.brave",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.rude",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.serious",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.married",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.single",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.thin",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "person.guest",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "person.beard",
+    "topic": "person",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  }
+]

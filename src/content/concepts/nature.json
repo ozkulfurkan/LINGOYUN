@@ -348,5 +348,82 @@
     "kind": "word",
     "ageGroups": ["mini", "kid", "adult"],
     "image": "vehicle.traffic_light"
+  },
+  {
+    "id": "nature.weather",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.storm",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.fog",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.temperature",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.degree",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.environment",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.world",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.north",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.south",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.east",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "nature.west",
+    "topic": "nature",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
   }
 ]

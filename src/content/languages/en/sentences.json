@@ -181,5 +181,497 @@
   },
   "sentence.l3_aunt_helps": {
     "text": "My aunt helps my mother in the kitchen."
+  },
+  "sentence.a1_i_student": {
+    "text": "I am a student.",
+    "alt": ["I'm a student."]
+  },
+  "sentence.a1_she_doctor": {
+    "text": "She is a doctor.",
+    "alt": ["She's a doctor."]
+  },
+  "sentence.a1_he_engineer": {
+    "text": "He is an engineer.",
+    "alt": ["He's an engineer."]
+  },
+  "sentence.a1_we_friends": {
+    "text": "We are friends.",
+    "alt": ["We're friends."]
+  },
+  "sentence.a1_they_parents": {
+    "text": "They are my parents.",
+    "alt": ["They're my parents."]
+  },
+  "sentence.a1_where_from": {
+    "text": "Where are you from?"
+  },
+  "sentence.a1_how_old": {
+    "text": "How old are you?"
+  },
+  "sentence.a1_live_city": {
+    "text": "I live in a big city."
+  },
+  "sentence.a1_wife_hospital": {
+    "text": "My wife works in a hospital."
+  },
+  "sentence.a1_husband_driver": {
+    "text": "My husband is a driver.",
+    "alt": ["My husband's a driver."]
+  },
+  "sentence.a1_son_school": {
+    "text": "My son goes to school."
+  },
+  "sentence.a1_daughter_reads": {
+    "text": "My daughter reads a book every day."
+  },
+  "sentence.a1_two_brothers": {
+    "text": "I have two brothers."
+  },
+  "sentence.a1_have_children": {
+    "text": "Do you have children?"
+  },
+  "sentence.a1_little_english": {
+    "text": "I speak a little English."
+  },
+  "sentence.a1_not_understand": {
+    "text": "I do not understand.",
+    "alt": ["I don't understand."]
+  },
+  "sentence.a1_can_help": {
+    "text": "Can you help me?"
+  },
+  "sentence.a1_what_time": {
+    "text": "What time is it?"
+  },
+  "sentence.a1_seven_oclock": {
+    "text": "It is seven o'clock.",
+    "alt": ["It's seven o'clock."]
+  },
+  "sentence.a1_work_morning": {
+    "text": "I go to work in the morning."
+  },
+  "sentence.a1_breakfast_home": {
+    "text": "I eat breakfast at home."
+  },
+  "sentence.a1_coffee_milk": {
+    "text": "I want coffee with milk."
+  },
+  "sentence.a1_glass_water": {
+    "text": "A glass of water, please."
+  },
+  "sentence.a1_ticket_price": {
+    "text": "How much is the ticket?"
+  },
+  "sentence.a1_bag_expensive": {
+    "text": "This bag is very expensive."
+  },
+  "sentence.a1_shoes_cheap": {
+    "text": "These shoes are cheap."
+  },
+  "sentence.a1_buy_phone": {
+    "text": "I want to buy a new phone."
+  },
+  "sentence.a1_where_station": {
+    "text": "Where is the station?"
+  },
+  "sentence.a1_bank_near": {
+    "text": "The bank is near the hotel."
+  },
+  "sentence.a1_museum_left": {
+    "text": "The museum is on the left."
+  },
+  "sentence.a1_restaurant_right": {
+    "text": "The restaurant is on the right."
+  },
+  "sentence.a1_work_bus": {
+    "text": "I go to work by bus."
+  },
+  "sentence.a1_train_late": {
+    "text": "The train is late."
+  },
+  "sentence.a1_hot_today": {
+    "text": "It is hot today.",
+    "alt": ["It's hot today."]
+  },
+  "sentence.a1_rain_today": {
+    "text": "It is raining today.",
+    "alt": ["It's raining today."]
+  },
+  "sentence.a1_weather_good": {
+    "text": "The weather is very good."
+  },
+  "sentence.a1_busy_today": {
+    "text": "I am busy today.",
+    "alt": ["I'm busy today."]
+  },
+  "sentence.a1_dinner_seven": {
+    "text": "We eat dinner at seven."
+  },
+  "sentence.a1_lunch_office": {
+    "text": "She eats lunch in the office."
+  },
+  "sentence.a1_mother_cooks": {
+    "text": "My mother cooks every day."
+  },
+  "sentence.a1_father_tv": {
+    "text": "My father watches television in the evening."
+  },
+  "sentence.a1_not_like_tea": {
+    "text": "I do not like tea.",
+    "alt": ["I don't like tea."]
+  },
+  "sentence.a1_like_fish": {
+    "text": "Do you like fish?"
+  },
+  "sentence.a1_what_want": {
+    "text": "What do you want?"
+  },
+  "sentence.a1_what_job": {
+    "text": "What is your job?",
+    "alt": ["What's your job?"]
+  },
+  "sentence.a1_where_work": {
+    "text": "Where do you work?"
+  },
+  "sentence.a1_work_office": {
+    "text": "I work in an office."
+  },
+  "sentence.a1_learn_english": {
+    "text": "We are learning English.",
+    "alt": ["We're learning English."]
+  },
+  "sentence.a1_know_answer": {
+    "text": "I know the answer."
+  },
+  "sentence.a1_question_easy": {
+    "text": "This question is easy."
+  },
+  "sentence.a1_that_correct": {
+    "text": "That is correct.",
+    "alt": ["That's correct."]
+  },
+  "sentence.a1_book_table": {
+    "text": "The book is on the table."
+  },
+  "sentence.a1_cat_under_bed": {
+    "text": "The cat is under the bed."
+  },
+  "sentence.a1_car_behind_house": {
+    "text": "The car is behind the house."
+  },
+  "sentence.a1_hotel_next_bank": {
+    "text": "The hotel is next to the bank."
+  },
+  "sentence.a1_small_apartment": {
+    "text": "We live in a small apartment."
+  },
+  "sentence.a1_room_clean": {
+    "text": "My room is clean."
+  },
+  "sentence.a1_kitchen_windows": {
+    "text": "The kitchen has two windows."
+  },
+  "sentence.a1_today_tuesday": {
+    "text": "Today is Tuesday."
+  },
+  "sentence.a1_holiday_july": {
+    "text": "My holiday is in July."
+  },
+  "sentence.a1_always_late": {
+    "text": "He is always late.",
+    "alt": ["He's always late."]
+  },
+  "sentence.a1_sometimes_walk": {
+    "text": "Sometimes I walk to work."
+  },
+  "sentence.a1_never_coffee_night": {
+    "text": "I never drink coffee at night."
+  },
+  "sentence.a1_grandfather_old": {
+    "text": "My grandfather is very old."
+  },
+  "sentence.a1_man_tall": {
+    "text": "That man is tall."
+  },
+  "sentence.a1_woman_neighbor": {
+    "text": "That woman is my neighbor.",
+    "alt": ["That woman is my neighbour."]
+  },
+  "sentence.a1_open_books": {
+    "text": "Please open your books."
+  },
+  "sentence.a1_sorry_late": {
+    "text": "Sorry, I am late.",
+    "alt": ["Sorry, I'm late."]
+  },
+  "sentence.a1_thanks_help": {
+    "text": "Thank you for your help.",
+    "alt": ["Thanks for your help."]
+  },
+  "sentence.a1_see_tomorrow": {
+    "text": "See you tomorrow."
+  },
+  "sentence.a2_cinema_yesterday": {
+    "text": "I went to the cinema yesterday."
+  },
+  "sentence.a2_visit_uncle": {
+    "text": "We visited my uncle last week."
+  },
+  "sentence.a2_bought_dress": {
+    "text": "She bought a new dress."
+  },
+  "sentence.a2_see_film": {
+    "text": "Did you see the film?",
+    "alt": ["Did you see the movie?"]
+  },
+  "sentence.a2_forgot_password": {
+    "text": "I forgot my password."
+  },
+  "sentence.a2_lost_wallet": {
+    "text": "He lost his wallet on the bus."
+  },
+  "sentence.a2_ate_fish": {
+    "text": "We ate fish at a restaurant."
+  },
+  "sentence.a2_she_called": {
+    "text": "She called me last night."
+  },
+  "sentence.a2_train_left": {
+    "text": "The train left ten minutes ago."
+  },
+  "sentence.a2_not_sleep_well": {
+    "text": "I did not sleep well.",
+    "alt": ["I didn't sleep well."]
+  },
+  "sentence.a2_tired_yesterday": {
+    "text": "I was very tired yesterday."
+  },
+  "sentence.a2_home_sunday": {
+    "text": "They were at home on Sunday."
+  },
+  "sentence.a2_meeting_long": {
+    "text": "The meeting was very long."
+  },
+  "sentence.a2_weather_bad": {
+    "text": "The weather was bad last week."
+  },
+  "sentence.a2_where_holiday": {
+    "text": "Where did you go on holiday?",
+    "alt": ["Where did you go on vacation?"]
+  },
+  "sentence.a2_how_trip": {
+    "text": "How was your trip?"
+  },
+  "sentence.a2_travel_summer": {
+    "text": "We are going to travel next summer.",
+    "alt": ["We're going to travel next summer."]
+  },
+  "sentence.a2_call_tomorrow": {
+    "text": "I will call you tomorrow.",
+    "alt": ["I'll call you tomorrow."]
+  },
+  "sentence.a2_rain_tomorrow": {
+    "text": "It will rain tomorrow.",
+    "alt": ["It'll rain tomorrow."]
+  },
+  "sentence.a2_new_job": {
+    "text": "She will start a new job next month.",
+    "alt": ["She'll start a new job next month."]
+  },
+  "sentence.a2_buy_house": {
+    "text": "They are going to buy a house.",
+    "alt": ["They're going to buy a house."]
+  },
+  "sentence.a2_this_evening": {
+    "text": "What are you doing this evening?"
+  },
+  "sentence.a2_meeting_nine": {
+    "text": "The meeting will start at nine."
+  },
+  "sentence.a2_not_forget": {
+    "text": "I will not forget this day.",
+    "alt": ["I won't forget this day."]
+  },
+  "sentence.a2_hotel_bigger": {
+    "text": "This hotel is bigger than that hotel."
+  },
+  "sentence.a2_train_cheaper": {
+    "text": "The train is cheaper than the plane."
+  },
+  "sentence.a2_book_interesting": {
+    "text": "This book is more interesting than that film.",
+    "alt": ["This book is more interesting than that movie."]
+  },
+  "sentence.a2_best_restaurant": {
+    "text": "This is the best restaurant in the city."
+  },
+  "sentence.a2_most_expensive": {
+    "text": "This is the most expensive hotel in the city."
+  },
+  "sentence.a2_brother_older": {
+    "text": "My brother is older than me."
+  },
+  "sentence.a2_can_drive": {
+    "text": "I can drive a car."
+  },
+  "sentence.a2_pay_card": {
+    "text": "Can I pay by credit card?"
+  },
+  "sentence.a2_must_rest": {
+    "text": "You must rest today."
+  },
+  "sentence.a2_should_doctor": {
+    "text": "You should see a doctor."
+  },
+  "sentence.a2_work_saturday": {
+    "text": "I have to work on Saturday."
+  },
+  "sentence.a2_cannot_party": {
+    "text": "I cannot come to the party.",
+    "alt": ["I can't come to the party."]
+  },
+  "sentence.a2_explain_word": {
+    "text": "Could you explain this word?"
+  },
+  "sentence.a2_table_two": {
+    "text": "I would like a table for two.",
+    "alt": ["I'd like a table for two."]
+  },
+  "sentence.a2_may_open": {
+    "text": "May I open the window?"
+  },
+  "sentence.a2_headache": {
+    "text": "I have a headache.",
+    "alt": ["I've got a headache."]
+  },
+  "sentence.a2_son_fever": {
+    "text": "My son has a fever."
+  },
+  "sentence.a2_dentist": {
+    "text": "I have an appointment with the dentist."
+  },
+  "sentence.a2_medicine": {
+    "text": "Take this medicine after dinner."
+  },
+  "sentence.a2_stomach": {
+    "text": "My stomach hurts."
+  },
+  "sentence.a2_fresh_fruit": {
+    "text": "Fresh fruit is very healthy."
+  },
+  "sentence.a2_meet_manager": {
+    "text": "I have a meeting with my manager."
+  },
+  "sentence.a2_company_office": {
+    "text": "Our company has a new office."
+  },
+  "sentence.a2_colleague_report": {
+    "text": "My colleague helped me with the report."
+  },
+  "sentence.a2_send_email": {
+    "text": "Please send me an email.",
+    "alt": ["Please send me an e-mail."]
+  },
+  "sentence.a2_salary_good": {
+    "text": "The salary is good but the work is difficult."
+  },
+  "sentence.a2_interview_friday": {
+    "text": "She has a job interview on Friday."
+  },
+  "sentence.a2_try_jacket": {
+    "text": "Can I try on this jacket?"
+  },
+  "sentence.a2_what_size": {
+    "text": "What size do you want?"
+  },
+  "sentence.a2_discount": {
+    "text": "Is there a discount?"
+  },
+  "sentence.a2_the_bill": {
+    "text": "Can we have the bill, please?"
+  },
+  "sentence.a2_enough_money": {
+    "text": "I do not have enough money.",
+    "alt": ["I don't have enough money."]
+  },
+  "sentence.a2_soup_delicious": {
+    "text": "This soup is delicious."
+  },
+  "sentence.a2_too_salty": {
+    "text": "The food is too salty."
+  },
+  "sentence.a2_gift_wife": {
+    "text": "I bought a gift for my wife."
+  },
+  "sentence.a2_sold_car": {
+    "text": "They sold their old car."
+  },
+  "sentence.a2_reservation": {
+    "text": "I have a reservation at this hotel."
+  },
+  "sentence.a2_flight_eight": {
+    "text": "Our flight leaves at eight in the morning."
+  },
+  "sentence.a2_suitcase_heavy": {
+    "text": "My suitcase is very heavy."
+  },
+  "sentence.a2_turn_left": {
+    "text": "Turn left at the corner."
+  },
+  "sentence.a2_nearest_stop": {
+    "text": "Where is the nearest bus stop?"
+  },
+  "sentence.a2_i_am_lost": {
+    "text": "I am lost. Can you help me?",
+    "alt": ["I'm lost. Can you help me?"]
+  },
+  "sentence.a2_why_angry": {
+    "text": "Why are you angry?"
+  },
+  "sentence.a2_afraid_dogs": {
+    "text": "My daughter is afraid of dogs."
+  },
+  "sentence.a2_bored_home": {
+    "text": "I am bored at home.",
+    "alt": ["I'm bored at home."]
+  },
+  "sentence.a2_excited_wedding": {
+    "text": "We are excited about the wedding.",
+    "alt": ["We're excited about the wedding."]
+  },
+  "sentence.a2_kind_neighbor": {
+    "text": "Our neighbor is a very kind person.",
+    "alt": ["Our neighbour is a very kind person."]
+  },
+  "sentence.a2_think_boring": {
+    "text": "I think this film is boring.",
+    "alt": ["I think this movie is boring."]
+  },
+  "sentence.a2_agree_you": {
+    "text": "I agree with you."
+  },
+  "sentence.a2_speaking_phone": {
+    "text": "She is speaking on the phone now.",
+    "alt": ["She's speaking on the phone now."]
+  },
+  "sentence.a2_wash_before_dinner": {
+    "text": "I wash my hands before dinner."
+  },
+  "sentence.a2_if_rains": {
+    "text": "If it rains, we will stay at home.",
+    "alt": ["If it rains, we'll stay at home."]
+  },
+  "sentence.a2_stayed_sick": {
+    "text": "I stayed at home because I was sick."
+  },
+  "sentence.a2_cold_so_home": {
+    "text": "It was cold, so we went home."
+  },
+  "sentence.a2_film_weekend": {
+    "text": "We watch a film every weekend.",
+    "alt": ["We watch a movie every weekend."]
+  },
+  "sentence.a2_photos_beach": {
+    "text": "I took many photos at the beach."
   }
 }

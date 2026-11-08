@@ -348,5 +348,96 @@
     "kind": "word",
     "ageGroups": ["mini", "kid", "adult"],
     "image": "opposite.slow"
+  },
+  {
+    "id": "number.zero",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.thirty",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.forty",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.fifty",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.sixty",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.seventy",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.eighty",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.ninety",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.hundred",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.thousand",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.first",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.second",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "number.third",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
   }
 ]

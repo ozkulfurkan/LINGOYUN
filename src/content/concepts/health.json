@@ -1,0 +1,128 @@
+[
+  {
+    "id": "health.pain",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.fever",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.cough",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.headache",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.flu",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.medicine",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.dentist",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.appointment",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.accident",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.blood",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.stomach",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.emergency",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.prescription",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.exercise",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.sick",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "health.healthy",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "health.hurt",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "health.rest",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  }
+]

@@ -166,5 +166,488 @@
     "kind": "word",
     "ageGroups": ["kid", "adult"],
     "tags": ["verb"]
+  },
+  {
+    "id": "action.do",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.make",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.have",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.want",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.know",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.live",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.work",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.learn",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.buy",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.say",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.understand",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.start",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.finish",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.cook",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.drive",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.call",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.ask",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.watch",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.wait",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.try_on",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.clean",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.stay",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.wake_up",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.get_up",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.stand",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.stop",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.carry",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.bring",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.send",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.receive",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.find",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.lose",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.forget",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.remember",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.think",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.believe",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.hope",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.feel",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.try",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.use",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.change",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.choose",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.decide",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.agree",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.explain",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.teach",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.meet",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.invite",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.visit",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.show",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.tell",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.hear",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.laugh",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.smile",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.cry",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.dance",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.win",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.earn",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.break",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.fix",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.build",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.grow",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.fall",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.throw",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.catch",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.pull",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.push",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.wear",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.prepare",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
   }
 ]

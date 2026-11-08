@@ -82,5 +82,89 @@
     "kind": "word",
     "ageGroups": ["kid", "adult"],
     "tags": ["noun"]
+  },
+  {
+    "id": "place.restaurant",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.hotel",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.bank",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.market",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.airport",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.station",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.country",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.office",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.museum",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.pharmacy",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.supermarket",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.cinema",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
   }
 ]

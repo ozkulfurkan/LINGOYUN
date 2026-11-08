@@ -40,5 +40,26 @@
     "kind": "word",
     "ageGroups": ["kid", "adult"],
     "tags": ["adverb"]
+  },
+  {
+    "id": "question.how_much",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "question.how_many",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "question.which",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["pronoun"]
   }
 ]

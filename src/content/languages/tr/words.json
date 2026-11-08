@@ -1383,5 +1383,1449 @@
   },
   "question.how": {
     "text": "nasıl"
+  },
+  "greeting.good_afternoon": {
+    "text": "iyi günler",
+    "alt": ["tünaydın"]
+  },
+  "greeting.good_evening": {
+    "text": "iyi akşamlar"
+  },
+  "greeting.good_night": {
+    "text": "iyi geceler"
+  },
+  "greeting.welcome": {
+    "text": "hoş geldin",
+    "alt": ["hoş geldiniz"]
+  },
+  "greeting.excuse_me": {
+    "text": "affedersiniz",
+    "alt": ["affedersin"]
+  },
+  "greeting.nice_to_meet_you": {
+    "text": "memnun oldum",
+    "alt": ["tanıştığımıza memnun oldum"]
+  },
+  "greeting.see_you": {
+    "text": "sonra görüşürüz",
+    "alt": ["görüşürüz"]
+  },
+  "greeting.you_are_welcome": {
+    "text": "rica ederim",
+    "alt": ["bir şey değil"]
+  },
+  "person.man": {
+    "text": "adam",
+    "alt": ["erkek"]
+  },
+  "person.woman": {
+    "text": "kadın"
+  },
+  "person.person": {
+    "text": "kişi",
+    "alt": ["insan"]
+  },
+  "person.people": {
+    "text": "insanlar",
+    "alt": ["kişiler"]
+  },
+  "family.family": {
+    "text": "aile"
+  },
+  "family.son": {
+    "text": "oğul",
+    "alt": ["erkek evlat"]
+  },
+  "family.daughter": {
+    "text": "kız evlat",
+    "alt": ["kız"]
+  },
+  "family.husband": {
+    "text": "koca",
+    "alt": ["eş"]
+  },
+  "family.wife": {
+    "text": "karı",
+    "alt": ["eş"]
+  },
+  "family.parents": {
+    "text": "anne baba",
+    "alt": ["ebeveyn", "anne ve baba"]
+  },
+  "person.neighbor": {
+    "text": "komşu"
+  },
+  "pronoun.it": {
+    "text": "o"
+  },
+  "pronoun.his": {
+    "text": "onun"
+  },
+  "pronoun.her": {
+    "text": "onun"
+  },
+  "pronoun.our": {
+    "text": "bizim"
+  },
+  "pronoun.their": {
+    "text": "onların"
+  },
+  "pronoun.that": {
+    "text": "şu",
+    "alt": ["o"]
+  },
+  "pronoun.these": {
+    "text": "bunlar"
+  },
+  "pronoun.those": {
+    "text": "şunlar",
+    "alt": ["onlar"]
+  },
+  "number.zero": {
+    "text": "sıfır"
+  },
+  "number.thirty": {
+    "text": "otuz"
+  },
+  "number.forty": {
+    "text": "kırk"
+  },
+  "number.fifty": {
+    "text": "elli"
+  },
+  "number.sixty": {
+    "text": "altmış"
+  },
+  "number.seventy": {
+    "text": "yetmiş"
+  },
+  "number.eighty": {
+    "text": "seksen"
+  },
+  "number.ninety": {
+    "text": "doksan"
+  },
+  "number.hundred": {
+    "text": "yüz"
+  },
+  "number.thousand": {
+    "text": "bin"
+  },
+  "number.first": {
+    "text": "birinci",
+    "alt": ["ilk"]
+  },
+  "number.second": {
+    "text": "ikinci"
+  },
+  "number.third": {
+    "text": "üçüncü"
+  },
+  "time.time": {
+    "text": "zaman",
+    "alt": ["vakit"]
+  },
+  "time.hour": {
+    "text": "saat"
+  },
+  "time.minute": {
+    "text": "dakika"
+  },
+  "time.afternoon": {
+    "text": "öğleden sonra"
+  },
+  "time.noon": {
+    "text": "öğle",
+    "alt": ["öğlen"]
+  },
+  "time.now": {
+    "text": "şimdi"
+  },
+  "time.later": {
+    "text": "sonra",
+    "alt": ["daha sonra"]
+  },
+  "time.early": {
+    "text": "erken"
+  },
+  "time.late": {
+    "text": "geç"
+  },
+  "time.always": {
+    "text": "her zaman",
+    "alt": ["hep"]
+  },
+  "time.sometimes": {
+    "text": "bazen"
+  },
+  "time.never": {
+    "text": "asla",
+    "alt": ["hiçbir zaman", "hiç"]
+  },
+  "home.apartment": {
+    "text": "daire",
+    "alt": ["apartman dairesi"]
+  },
+  "home.living_room": {
+    "text": "oturma odası",
+    "alt": ["salon"]
+  },
+  "home.computer": {
+    "text": "bilgisayar"
+  },
+  "home.knife": {
+    "text": "bıçak"
+  },
+  "home.bottle": {
+    "text": "şişe"
+  },
+  "drink.coffee": {
+    "text": "kahve"
+  },
+  "food.sugar": {
+    "text": "şeker"
+  },
+  "food.salt": {
+    "text": "tuz"
+  },
+  "food.breakfast": {
+    "text": "kahvaltı"
+  },
+  "food.lunch": {
+    "text": "öğle yemeği"
+  },
+  "food.dinner": {
+    "text": "akşam yemeği"
+  },
+  "food.food": {
+    "text": "yiyecek",
+    "alt": ["yemek"]
+  },
+  "fruit.fruit": {
+    "text": "meyve"
+  },
+  "vegetable.vegetable": {
+    "text": "sebze"
+  },
+  "place.restaurant": {
+    "text": "restoran",
+    "alt": ["lokanta"]
+  },
+  "place.hotel": {
+    "text": "otel"
+  },
+  "place.bank": {
+    "text": "banka"
+  },
+  "place.market": {
+    "text": "market",
+    "alt": ["pazar"]
+  },
+  "place.airport": {
+    "text": "havalimanı",
+    "alt": ["havaalanı"]
+  },
+  "place.station": {
+    "text": "istasyon",
+    "alt": ["gar"]
+  },
+  "place.country": {
+    "text": "ülke"
+  },
+  "place.office": {
+    "text": "ofis",
+    "alt": ["büro"]
+  },
+  "place.museum": {
+    "text": "müze"
+  },
+  "place.pharmacy": {
+    "text": "eczane"
+  },
+  "work.job": {
+    "text": "iş",
+    "alt": ["meslek"]
+  },
+  "work.doctor": {
+    "text": "doktor",
+    "alt": ["hekim"]
+  },
+  "work.nurse": {
+    "text": "hemşire"
+  },
+  "work.engineer": {
+    "text": "mühendis"
+  },
+  "work.driver": {
+    "text": "şoför",
+    "alt": ["sürücü"]
+  },
+  "work.waiter": {
+    "text": "garson"
+  },
+  "school.language": {
+    "text": "dil"
+  },
+  "school.english": {
+    "text": "İngilizce"
+  },
+  "school.word": {
+    "text": "kelime",
+    "alt": ["sözcük"]
+  },
+  "school.question": {
+    "text": "soru"
+  },
+  "school.answer": {
+    "text": "cevap",
+    "alt": ["yanıt"]
+  },
+  "school.page": {
+    "text": "sayfa"
+  },
+  "travel.ticket": {
+    "text": "bilet"
+  },
+  "travel.passport": {
+    "text": "pasaport"
+  },
+  "travel.holiday": {
+    "text": "tatil"
+  },
+  "travel.map": {
+    "text": "harita"
+  },
+  "travel.left": {
+    "text": "sol"
+  },
+  "travel.right": {
+    "text": "sağ"
+  },
+  "travel.straight": {
+    "text": "düz",
+    "alt": ["dümdüz", "doğru"]
+  },
+  "travel.here": {
+    "text": "burada",
+    "alt": ["burası"]
+  },
+  "travel.there": {
+    "text": "orada",
+    "alt": ["orası"]
+  },
+  "travel.near": {
+    "text": "yakın"
+  },
+  "travel.far": {
+    "text": "uzak"
+  },
+  "quality.expensive": {
+    "text": "pahalı"
+  },
+  "quality.cheap": {
+    "text": "ucuz"
+  },
+  "quality.busy": {
+    "text": "meşgul",
+    "alt": ["yoğun"]
+  },
+  "quality.correct": {
+    "text": "doğru"
+  },
+  "quality.wrong": {
+    "text": "yanlış"
+  },
+  "action.do": {
+    "text": "yapmak"
+  },
+  "action.make": {
+    "text": "yapmak"
+  },
+  "action.have": {
+    "text": "sahip olmak"
+  },
+  "action.want": {
+    "text": "istemek"
+  },
+  "action.know": {
+    "text": "bilmek"
+  },
+  "action.live": {
+    "text": "yaşamak",
+    "alt": ["oturmak"]
+  },
+  "action.work": {
+    "text": "çalışmak"
+  },
+  "action.learn": {
+    "text": "öğrenmek"
+  },
+  "action.buy": {
+    "text": "satın almak",
+    "alt": ["almak"]
+  },
+  "action.say": {
+    "text": "söylemek",
+    "alt": ["demek"]
+  },
+  "action.understand": {
+    "text": "anlamak"
+  },
+  "action.start": {
+    "text": "başlamak"
+  },
+  "action.finish": {
+    "text": "bitirmek"
+  },
+  "action.cook": {
+    "text": "yemek pişirmek",
+    "alt": ["yemek yapmak", "pişirmek"]
+  },
+  "action.drive": {
+    "text": "araba sürmek",
+    "alt": ["sürmek", "araba kullanmak"]
+  },
+  "action.call": {
+    "text": "aramak",
+    "alt": ["telefon etmek"]
+  },
+  "action.ask": {
+    "text": "sormak"
+  },
+  "action.watch": {
+    "text": "izlemek",
+    "alt": ["seyretmek"]
+  },
+  "action.wait": {
+    "text": "beklemek"
+  },
+  "question.how_much": {
+    "text": "ne kadar",
+    "alt": ["kaç para"]
+  },
+  "question.how_many": {
+    "text": "kaç",
+    "alt": ["kaç tane"]
+  },
+  "question.which": {
+    "text": "hangi"
+  },
+  "function.and": {
+    "text": "ve"
+  },
+  "function.but": {
+    "text": "ama",
+    "alt": ["fakat", "ancak"]
+  },
+  "function.or": {
+    "text": "veya",
+    "alt": ["ya da"]
+  },
+  "function.because": {
+    "text": "çünkü"
+  },
+  "function.very": {
+    "text": "çok"
+  },
+  "function.a_little": {
+    "text": "biraz",
+    "alt": ["azıcık"]
+  },
+  "function.every": {
+    "text": "her"
+  },
+  "position.under": {
+    "text": "altında"
+  },
+  "position.behind": {
+    "text": "arkasında"
+  },
+  "position.next_to": {
+    "text": "yanında"
+  },
+  "position.in_front_of": {
+    "text": "önünde"
+  },
+  "nature.weather": {
+    "text": "hava",
+    "alt": ["hava durumu"]
+  },
+  "idiom.take_care": {
+    "text": "kendine iyi bak",
+    "alt": ["kendinize iyi bakın"]
+  },
+  "idiom.of_course": {
+    "text": "tabii ki",
+    "alt": ["tabii", "elbette"]
+  },
+  "idiom.no_problem": {
+    "text": "sorun değil",
+    "alt": ["problem değil"]
+  },
+  "idiom.good_luck": {
+    "text": "iyi şanslar",
+    "alt": ["bol şans"]
+  },
+  "idiom.have_a_nice_day": {
+    "text": "iyi günler"
+  },
+  "idiom.come_on": {
+    "text": "hadi",
+    "alt": ["haydi"]
+  },
+  "idiom.never_mind": {
+    "text": "boş ver",
+    "alt": ["önemli değil"]
+  },
+  "idiom.get_well_soon": {
+    "text": "geçmiş olsun",
+    "alt": ["çabuk iyileş"]
+  },
+  "idiom.congratulations": {
+    "text": "tebrikler",
+    "alt": ["tebrik ederim", "kutlarım"]
+  },
+  "idiom.wait_a_minute": {
+    "text": "bir dakika",
+    "alt": ["bir dakika bekle"]
+  },
+  "work.company": {
+    "text": "şirket",
+    "alt": ["firma"]
+  },
+  "work.manager": {
+    "text": "müdür",
+    "alt": ["yönetici"]
+  },
+  "work.boss": {
+    "text": "patron"
+  },
+  "work.colleague": {
+    "text": "iş arkadaşı",
+    "alt": ["meslektaş"]
+  },
+  "work.employee": {
+    "text": "çalışan",
+    "alt": ["işçi"]
+  },
+  "work.meeting": {
+    "text": "toplantı"
+  },
+  "work.salary": {
+    "text": "maaş"
+  },
+  "work.interview": {
+    "text": "iş görüşmesi",
+    "alt": ["mülakat", "görüşme"]
+  },
+  "work.experience": {
+    "text": "deneyim",
+    "alt": ["tecrübe"]
+  },
+  "work.project": {
+    "text": "proje"
+  },
+  "work.report": {
+    "text": "rapor"
+  },
+  "work.customer": {
+    "text": "müşteri"
+  },
+  "work.factory": {
+    "text": "fabrika"
+  },
+  "work.lawyer": {
+    "text": "avukat"
+  },
+  "work.police_officer": {
+    "text": "polis memuru",
+    "alt": ["polis"]
+  },
+  "work.farmer": {
+    "text": "çiftçi"
+  },
+  "work.chef": {
+    "text": "aşçı"
+  },
+  "work.artist": {
+    "text": "sanatçı"
+  },
+  "money.money": {
+    "text": "para"
+  },
+  "money.price": {
+    "text": "fiyat"
+  },
+  "money.credit_card": {
+    "text": "kredi kartı"
+  },
+  "money.cash": {
+    "text": "nakit"
+  },
+  "money.receipt": {
+    "text": "fiş",
+    "alt": ["makbuz"]
+  },
+  "money.bill": {
+    "text": "hesap",
+    "alt": ["fatura"]
+  },
+  "money.discount": {
+    "text": "indirim"
+  },
+  "money.size": {
+    "text": "beden",
+    "alt": ["boyut"]
+  },
+  "money.wallet": {
+    "text": "cüzdan"
+  },
+  "money.coin": {
+    "text": "madeni para"
+  },
+  "place.supermarket": {
+    "text": "süpermarket"
+  },
+  "money.pay": {
+    "text": "ödemek"
+  },
+  "money.spend": {
+    "text": "harcamak"
+  },
+  "money.save": {
+    "text": "biriktirmek"
+  },
+  "money.sell": {
+    "text": "satmak"
+  },
+  "money.borrow": {
+    "text": "ödünç almak",
+    "alt": ["borç almak"]
+  },
+  "money.lend": {
+    "text": "ödünç vermek",
+    "alt": ["borç vermek"]
+  },
+  "money.cost": {
+    "text": "tutmak",
+    "alt": ["mal olmak"]
+  },
+  "action.try_on": {
+    "text": "denemek",
+    "alt": ["üzerinde denemek"]
+  },
+  "travel.suitcase": {
+    "text": "bavul",
+    "alt": ["valiz"]
+  },
+  "travel.flight": {
+    "text": "uçuş"
+  },
+  "travel.reservation": {
+    "text": "rezervasyon"
+  },
+  "travel.tourist": {
+    "text": "turist"
+  },
+  "travel.trip": {
+    "text": "gezi",
+    "alt": ["yolculuk"]
+  },
+  "travel.bus_stop": {
+    "text": "otobüs durağı",
+    "alt": ["durak"]
+  },
+  "travel.border": {
+    "text": "sınır"
+  },
+  "travel.abroad": {
+    "text": "yurt dışı",
+    "alt": ["yurt dışında"]
+  },
+  "travel.guide": {
+    "text": "rehber"
+  },
+  "travel.traffic": {
+    "text": "trafik"
+  },
+  "travel.bridge": {
+    "text": "köprü"
+  },
+  "travel.corner": {
+    "text": "köşe"
+  },
+  "travel.town_square": {
+    "text": "meydan"
+  },
+  "travel.visa": {
+    "text": "vize"
+  },
+  "place.cinema": {
+    "text": "sinema"
+  },
+  "travel.arrive": {
+    "text": "varmak",
+    "alt": ["ulaşmak"]
+  },
+  "travel.leave": {
+    "text": "ayrılmak",
+    "alt": ["çıkmak", "gitmek"]
+  },
+  "travel.travel": {
+    "text": "seyahat etmek",
+    "alt": ["gezmek", "yolculuk etmek"]
+  },
+  "travel.rent": {
+    "text": "kiralamak"
+  },
+  "travel.turn": {
+    "text": "dönmek"
+  },
+  "travel.lost": {
+    "text": "kayıp",
+    "alt": ["kaybolmuş"]
+  },
+  "health.pain": {
+    "text": "ağrı",
+    "alt": ["acı"]
+  },
+  "health.fever": {
+    "text": "ateş",
+    "alt": ["yüksek ateş"]
+  },
+  "health.cough": {
+    "text": "öksürük"
+  },
+  "health.headache": {
+    "text": "baş ağrısı"
+  },
+  "health.flu": {
+    "text": "grip"
+  },
+  "health.medicine": {
+    "text": "ilaç"
+  },
+  "health.dentist": {
+    "text": "diş hekimi",
+    "alt": ["dişçi"]
+  },
+  "health.appointment": {
+    "text": "randevu"
+  },
+  "health.accident": {
+    "text": "kaza"
+  },
+  "health.blood": {
+    "text": "kan"
+  },
+  "health.stomach": {
+    "text": "mide",
+    "alt": ["karın"]
+  },
+  "health.emergency": {
+    "text": "acil durum"
+  },
+  "health.prescription": {
+    "text": "reçete"
+  },
+  "health.exercise": {
+    "text": "egzersiz",
+    "alt": ["spor"]
+  },
+  "health.sick": {
+    "text": "hasta"
+  },
+  "health.healthy": {
+    "text": "sağlıklı"
+  },
+  "health.hurt": {
+    "text": "ağrımak",
+    "alt": ["acımak", "incinmek"]
+  },
+  "health.rest": {
+    "text": "dinlenmek"
+  },
+  "home.stairs": {
+    "text": "merdiven"
+  },
+  "home.elevator": {
+    "text": "asansör"
+  },
+  "home.balcony": {
+    "text": "balkon"
+  },
+  "home.roof": {
+    "text": "çatı"
+  },
+  "home.wall": {
+    "text": "duvar"
+  },
+  "home.floor": {
+    "text": "kat",
+    "alt": ["zemin"]
+  },
+  "home.carpet": {
+    "text": "halı"
+  },
+  "home.curtain": {
+    "text": "perde"
+  },
+  "home.shelf": {
+    "text": "raf"
+  },
+  "home.wardrobe": {
+    "text": "gardırop",
+    "alt": ["dolap"]
+  },
+  "home.furniture": {
+    "text": "mobilya"
+  },
+  "home.washing_machine": {
+    "text": "çamaşır makinesi"
+  },
+  "home.dishwasher": {
+    "text": "bulaşık makinesi"
+  },
+  "home.shower": {
+    "text": "duş"
+  },
+  "home.trash": {
+    "text": "çöp"
+  },
+  "home.rent": {
+    "text": "kira"
+  },
+  "action.clean": {
+    "text": "temizlemek"
+  },
+  "action.stay": {
+    "text": "kalmak"
+  },
+  "feeling.angry": {
+    "text": "kızgın",
+    "alt": ["sinirli"]
+  },
+  "feeling.afraid": {
+    "text": "korkmuş"
+  },
+  "feeling.worried": {
+    "text": "endişeli",
+    "alt": ["kaygılı"]
+  },
+  "feeling.surprised": {
+    "text": "şaşırmış"
+  },
+  "feeling.bored": {
+    "text": "canı sıkkın",
+    "alt": ["sıkılmış"]
+  },
+  "feeling.excited": {
+    "text": "heyecanlı"
+  },
+  "feeling.lonely": {
+    "text": "yalnız"
+  },
+  "feeling.calm": {
+    "text": "sakin"
+  },
+  "person.kind": {
+    "text": "nazik",
+    "alt": ["kibar"]
+  },
+  "person.funny": {
+    "text": "komik"
+  },
+  "person.clever": {
+    "text": "zeki",
+    "alt": ["akıllı"]
+  },
+  "person.lazy": {
+    "text": "tembel"
+  },
+  "person.shy": {
+    "text": "utangaç",
+    "alt": ["çekingen"]
+  },
+  "person.friendly": {
+    "text": "cana yakın",
+    "alt": ["arkadaş canlısı"]
+  },
+  "person.honest": {
+    "text": "dürüst"
+  },
+  "person.brave": {
+    "text": "cesur"
+  },
+  "person.rude": {
+    "text": "kaba"
+  },
+  "person.serious": {
+    "text": "ciddi"
+  },
+  "person.married": {
+    "text": "evli"
+  },
+  "person.single": {
+    "text": "bekâr",
+    "alt": ["bekar"]
+  },
+  "person.thin": {
+    "text": "zayıf",
+    "alt": ["ince"]
+  },
+  "person.guest": {
+    "text": "misafir",
+    "alt": ["konuk"]
+  },
+  "person.beard": {
+    "text": "sakal"
+  },
+  "quality.important": {
+    "text": "önemli"
+  },
+  "quality.interesting": {
+    "text": "ilginç"
+  },
+  "quality.boring": {
+    "text": "sıkıcı"
+  },
+  "quality.dangerous": {
+    "text": "tehlikeli"
+  },
+  "quality.safe": {
+    "text": "güvenli"
+  },
+  "quality.possible": {
+    "text": "mümkün",
+    "alt": ["olası"]
+  },
+  "quality.different": {
+    "text": "farklı"
+  },
+  "quality.same": {
+    "text": "aynı"
+  },
+  "quality.empty": {
+    "text": "boş"
+  },
+  "quality.full": {
+    "text": "dolu"
+  },
+  "quality.heavy": {
+    "text": "ağır"
+  },
+  "quality.light": {
+    "text": "hafif"
+  },
+  "quality.wide": {
+    "text": "geniş"
+  },
+  "quality.narrow": {
+    "text": "dar"
+  },
+  "quality.dark": {
+    "text": "karanlık",
+    "alt": ["koyu"]
+  },
+  "quality.quiet": {
+    "text": "sessiz",
+    "alt": ["sakin"]
+  },
+  "quality.noisy": {
+    "text": "gürültülü"
+  },
+  "quality.sweet": {
+    "text": "tatlı"
+  },
+  "quality.salty": {
+    "text": "tuzlu"
+  },
+  "quality.delicious": {
+    "text": "lezzetli"
+  },
+  "quality.fresh": {
+    "text": "taze"
+  },
+  "quality.soft": {
+    "text": "yumuşak"
+  },
+  "quality.hard": {
+    "text": "sert"
+  },
+  "quality.wet": {
+    "text": "ıslak"
+  },
+  "quality.dry": {
+    "text": "kuru"
+  },
+  "quality.ugly": {
+    "text": "çirkin"
+  },
+  "quality.rich": {
+    "text": "zengin"
+  },
+  "quality.poor": {
+    "text": "fakir",
+    "alt": ["yoksul"]
+  },
+  "quality.famous": {
+    "text": "ünlü",
+    "alt": ["meşhur"]
+  },
+  "quality.free": {
+    "text": "ücretsiz",
+    "alt": ["bedava"]
+  },
+  "quality.nice": {
+    "text": "hoş",
+    "alt": ["güzel"]
+  },
+  "quality.enough": {
+    "text": "yeterli",
+    "alt": ["yeterince"]
+  },
+  "action.wake_up": {
+    "text": "uyanmak"
+  },
+  "action.get_up": {
+    "text": "kalkmak"
+  },
+  "action.stand": {
+    "text": "ayakta durmak"
+  },
+  "action.stop": {
+    "text": "durmak"
+  },
+  "action.carry": {
+    "text": "taşımak"
+  },
+  "action.bring": {
+    "text": "getirmek"
+  },
+  "action.send": {
+    "text": "göndermek",
+    "alt": ["yollamak"]
+  },
+  "action.receive": {
+    "text": "teslim almak",
+    "alt": ["almak"]
+  },
+  "action.find": {
+    "text": "bulmak"
+  },
+  "action.lose": {
+    "text": "kaybetmek"
+  },
+  "action.forget": {
+    "text": "unutmak"
+  },
+  "action.remember": {
+    "text": "hatırlamak"
+  },
+  "action.think": {
+    "text": "düşünmek"
+  },
+  "action.believe": {
+    "text": "inanmak"
+  },
+  "action.hope": {
+    "text": "ummak",
+    "alt": ["umut etmek"]
+  },
+  "action.feel": {
+    "text": "hissetmek"
+  },
+  "action.try": {
+    "text": "denemek",
+    "alt": ["çalışmak"]
+  },
+  "action.use": {
+    "text": "kullanmak"
+  },
+  "action.change": {
+    "text": "değiştirmek"
+  },
+  "action.choose": {
+    "text": "seçmek"
+  },
+  "action.decide": {
+    "text": "karar vermek"
+  },
+  "action.agree": {
+    "text": "katılmak",
+    "alt": ["aynı fikirde olmak"]
+  },
+  "action.explain": {
+    "text": "açıklamak"
+  },
+  "action.teach": {
+    "text": "öğretmek"
+  },
+  "action.meet": {
+    "text": "tanışmak",
+    "alt": ["buluşmak"]
+  },
+  "action.invite": {
+    "text": "davet etmek"
+  },
+  "action.visit": {
+    "text": "ziyaret etmek"
+  },
+  "action.show": {
+    "text": "göstermek"
+  },
+  "action.tell": {
+    "text": "anlatmak",
+    "alt": ["söylemek"]
+  },
+  "action.hear": {
+    "text": "duymak"
+  },
+  "action.laugh": {
+    "text": "gülmek"
+  },
+  "action.smile": {
+    "text": "gülümsemek"
+  },
+  "action.cry": {
+    "text": "ağlamak"
+  },
+  "action.dance": {
+    "text": "dans etmek"
+  },
+  "action.win": {
+    "text": "kazanmak"
+  },
+  "action.earn": {
+    "text": "para kazanmak",
+    "alt": ["kazanmak"]
+  },
+  "action.break": {
+    "text": "kırmak"
+  },
+  "action.fix": {
+    "text": "tamir etmek",
+    "alt": ["onarmak"]
+  },
+  "action.build": {
+    "text": "inşa etmek"
+  },
+  "action.grow": {
+    "text": "büyümek"
+  },
+  "action.fall": {
+    "text": "düşmek"
+  },
+  "action.throw": {
+    "text": "atmak"
+  },
+  "action.catch": {
+    "text": "yakalamak"
+  },
+  "action.pull": {
+    "text": "çekmek"
+  },
+  "action.push": {
+    "text": "itmek"
+  },
+  "action.wear": {
+    "text": "giymek"
+  },
+  "action.prepare": {
+    "text": "hazırlamak"
+  },
+  "tech.internet": {
+    "text": "internet"
+  },
+  "tech.website": {
+    "text": "web sitesi"
+  },
+  "tech.password": {
+    "text": "şifre",
+    "alt": ["parola"]
+  },
+  "tech.message": {
+    "text": "mesaj"
+  },
+  "tech.email": {
+    "text": "e-posta"
+  },
+  "tech.photo": {
+    "text": "fotoğraf"
+  },
+  "tech.video": {
+    "text": "video"
+  },
+  "tech.camera": {
+    "text": "fotoğraf makinesi",
+    "alt": ["kamera"]
+  },
+  "tech.laptop": {
+    "text": "dizüstü bilgisayar"
+  },
+  "tech.app": {
+    "text": "uygulama"
+  },
+  "tech.battery": {
+    "text": "pil",
+    "alt": ["batarya"]
+  },
+  "tech.screen": {
+    "text": "ekran"
+  },
+  "tech.keyboard": {
+    "text": "klavye"
+  },
+  "tech.charger": {
+    "text": "şarj aleti",
+    "alt": ["şarj cihazı"]
+  },
+  "tech.download": {
+    "text": "indirmek"
+  },
+  "leisure.film": {
+    "text": "film"
+  },
+  "leisure.music": {
+    "text": "müzik"
+  },
+  "leisure.song": {
+    "text": "şarkı"
+  },
+  "leisure.concert": {
+    "text": "konser"
+  },
+  "leisure.theater": {
+    "text": "tiyatro"
+  },
+  "leisure.football": {
+    "text": "futbol"
+  },
+  "leisure.sport": {
+    "text": "spor"
+  },
+  "leisure.game": {
+    "text": "oyun"
+  },
+  "leisure.hobby": {
+    "text": "hobi"
+  },
+  "leisure.newspaper": {
+    "text": "gazete"
+  },
+  "leisure.magazine": {
+    "text": "dergi"
+  },
+  "leisure.story": {
+    "text": "hikâye",
+    "alt": ["hikaye", "öykü"]
+  },
+  "leisure.party": {
+    "text": "parti"
+  },
+  "leisure.gift": {
+    "text": "hediye"
+  },
+  "leisure.birthday": {
+    "text": "doğum günü"
+  },
+  "leisure.wedding": {
+    "text": "düğün"
+  },
+  "leisure.picnic": {
+    "text": "piknik"
+  },
+  "nature.storm": {
+    "text": "fırtına"
+  },
+  "nature.fog": {
+    "text": "sis"
+  },
+  "nature.temperature": {
+    "text": "sıcaklık"
+  },
+  "nature.degree": {
+    "text": "derece"
+  },
+  "nature.environment": {
+    "text": "çevre"
+  },
+  "nature.world": {
+    "text": "dünya"
+  },
+  "nature.north": {
+    "text": "kuzey"
+  },
+  "nature.south": {
+    "text": "güney"
+  },
+  "nature.east": {
+    "text": "doğu"
+  },
+  "nature.west": {
+    "text": "batı"
+  },
+  "time.weekend": {
+    "text": "hafta sonu"
+  },
+  "time.last": {
+    "text": "geçen",
+    "alt": ["son"]
+  },
+  "time.next": {
+    "text": "gelecek",
+    "alt": ["önümüzdeki", "sonraki"]
+  },
+  "time.ago": {
+    "text": "önce"
+  },
+  "time.soon": {
+    "text": "yakında",
+    "alt": ["birazdan"]
+  },
+  "time.already": {
+    "text": "zaten",
+    "alt": ["çoktan"]
+  },
+  "time.yet": {
+    "text": "henüz"
+  },
+  "time.still": {
+    "text": "hâlâ",
+    "alt": ["hala"]
+  },
+  "time.usually": {
+    "text": "genellikle",
+    "alt": ["genelde", "çoğunlukla"]
+  },
+  "time.often": {
+    "text": "sık sık",
+    "alt": ["sık"]
+  },
+  "function.again": {
+    "text": "tekrar",
+    "alt": ["yine"]
+  },
+  "function.maybe": {
+    "text": "belki"
+  },
+  "function.together": {
+    "text": "birlikte",
+    "alt": ["beraber"]
+  },
+  "function.alone": {
+    "text": "yalnız",
+    "alt": ["tek başına"]
+  },
+  "function.really": {
+    "text": "gerçekten"
+  },
+  "function.almost": {
+    "text": "neredeyse"
+  },
+  "function.well": {
+    "text": "iyi"
+  },
+  "function.if": {
+    "text": "eğer"
+  },
+  "function.so": {
+    "text": "bu yüzden",
+    "alt": ["o yüzden", "bu nedenle"]
+  },
+  "function.then": {
+    "text": "sonra",
+    "alt": ["o zaman"]
+  },
+  "function.before": {
+    "text": "önce",
+    "alt": ["-den önce"]
+  },
+  "function.after": {
+    "text": "sonra",
+    "alt": ["-den sonra"]
+  },
+  "function.without": {
+    "text": "olmadan",
+    "alt": ["-sız"]
+  },
+  "position.between": {
+    "text": "arasında"
+  },
+  "function.during": {
+    "text": "sırasında",
+    "alt": ["boyunca"]
+  },
+  "function.until": {
+    "text": "-e kadar",
+    "alt": ["kadar"]
+  },
+  "idiom.piece_of_cake": {
+    "text": "çocuk oyuncağı",
+    "alt": ["çok kolay"]
+  },
+  "idiom.blue_moon": {
+    "text": "kırk yılda bir"
+  },
+  "idiom.two_birds": {
+    "text": "bir taşla iki kuş vurmak"
+  },
+  "idiom.break_the_ice": {
+    "text": "buzları eritmek",
+    "alt": ["buzları kırmak"]
+  },
+  "idiom.arm_and_leg": {
+    "text": "dünyanın parasına mal olmak",
+    "alt": ["çok pahalı olmak"]
+  },
+  "idiom.hot_water": {
+    "text": "başı dertte olmak",
+    "alt": ["başı belada olmak"]
+  },
+  "idiom.keep_an_eye": {
+    "text": "göz kulak olmak"
+  },
+  "idiom.by_heart": {
+    "text": "ezberlemek",
+    "alt": ["ezbere öğrenmek"]
+  },
+  "idiom.on_time": {
+    "text": "zamanında",
+    "alt": ["tam zamanında"]
+  },
+  "idiom.change_mind": {
+    "text": "fikrini değiştirmek"
+  },
+  "idiom.feel_at_home": {
+    "text": "kendini evinde hissetmek"
+  },
+  "idiom.pay_attention": {
+    "text": "dikkat etmek"
+  },
+  "idiom.take_it_easy": {
+    "text": "sakin ol",
+    "alt": ["rahat ol", "kafana takma"]
+  },
+  "idiom.time_flies": {
+    "text": "zaman su gibi akıyor",
+    "alt": ["zaman çabuk geçiyor"]
+  },
+  "idiom.better_late": {
+    "text": "geç olsun, güç olmasın"
+  },
+  "idiom.practice_perfect": {
+    "text": "işleyen demir pas tutmaz"
+  },
+  "idiom.easy_come": {
+    "text": "haydan gelen huya gider"
+  },
+  "idiom.early_bird": {
+    "text": "erken kalkan yol alır"
+  },
+  "idiom.no_pain": {
+    "text": "emek olmadan yemek olmaz"
+  },
+  "idiom.all_ears": {
+    "text": "can kulağıyla dinlemek"
   }
 }

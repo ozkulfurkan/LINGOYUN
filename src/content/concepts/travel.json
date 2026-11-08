@@ -1,0 +1,219 @@
+[
+  {
+    "id": "travel.ticket",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.passport",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.holiday",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.map",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.left",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.right",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.straight",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "travel.here",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "travel.there",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "travel.near",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "travel.far",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "travel.suitcase",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.flight",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.reservation",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.tourist",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.trip",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.bus_stop",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.border",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.abroad",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.guide",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.traffic",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.bridge",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.corner",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.town_square",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.visa",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.arrive",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "travel.leave",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "travel.travel",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "travel.rent",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "travel.turn",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "travel.lost",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  }
+]

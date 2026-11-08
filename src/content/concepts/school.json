@@ -68,5 +68,47 @@
     "kind": "word",
     "ageGroups": ["kid", "adult"],
     "tags": ["noun"]
+  },
+  {
+    "id": "school.language",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.english",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.word",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.question",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.answer",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.page",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
   }
 ]

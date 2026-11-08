@@ -54,5 +54,61 @@
     "kind": "word",
     "ageGroups": ["kid", "adult"],
     "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.good_afternoon",
+    "topic": "greeting",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.good_evening",
+    "topic": "greeting",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.good_night",
+    "topic": "greeting",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.welcome",
+    "topic": "greeting",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.excuse_me",
+    "topic": "greeting",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.nice_to_meet_you",
+    "topic": "greeting",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.see_you",
+    "topic": "greeting",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.you_are_welcome",
+    "topic": "greeting",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
   }
 ]

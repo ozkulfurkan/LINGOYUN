@@ -1,0 +1,121 @@
+[
+  {
+    "id": "money.money",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.price",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.credit_card",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.cash",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.receipt",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.bill",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.discount",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.size",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.wallet",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.coin",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "money.pay",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "money.spend",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "money.save",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "money.sell",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "money.borrow",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "money.lend",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "money.cost",
+    "topic": "money",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  }
+]

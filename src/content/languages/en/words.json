@@ -1385,5 +1385,1333 @@
   },
   "question.how": {
     "text": "how"
+  },
+  "greeting.good_afternoon": {
+    "text": "good afternoon"
+  },
+  "greeting.good_evening": {
+    "text": "good evening"
+  },
+  "greeting.good_night": {
+    "text": "good night"
+  },
+  "greeting.welcome": {
+    "text": "welcome"
+  },
+  "greeting.excuse_me": {
+    "text": "excuse me"
+  },
+  "greeting.nice_to_meet_you": {
+    "text": "nice to meet you"
+  },
+  "greeting.see_you": {
+    "text": "see you later",
+    "alt": ["see you"]
+  },
+  "greeting.you_are_welcome": {
+    "text": "you're welcome",
+    "alt": ["you are welcome"]
+  },
+  "person.man": {
+    "text": "man"
+  },
+  "person.woman": {
+    "text": "woman"
+  },
+  "person.person": {
+    "text": "person"
+  },
+  "person.people": {
+    "text": "people"
+  },
+  "family.family": {
+    "text": "family"
+  },
+  "family.son": {
+    "text": "son"
+  },
+  "family.daughter": {
+    "text": "daughter"
+  },
+  "family.husband": {
+    "text": "husband"
+  },
+  "family.wife": {
+    "text": "wife"
+  },
+  "family.parents": {
+    "text": "parents"
+  },
+  "person.neighbor": {
+    "text": "neighbor",
+    "alt": ["neighbour"]
+  },
+  "pronoun.it": {
+    "text": "it"
+  },
+  "pronoun.his": {
+    "text": "his"
+  },
+  "pronoun.her": {
+    "text": "her"
+  },
+  "pronoun.our": {
+    "text": "our"
+  },
+  "pronoun.their": {
+    "text": "their"
+  },
+  "pronoun.that": {
+    "text": "that"
+  },
+  "pronoun.these": {
+    "text": "these"
+  },
+  "pronoun.those": {
+    "text": "those"
+  },
+  "number.zero": {
+    "text": "zero"
+  },
+  "number.thirty": {
+    "text": "thirty"
+  },
+  "number.forty": {
+    "text": "forty"
+  },
+  "number.fifty": {
+    "text": "fifty"
+  },
+  "number.sixty": {
+    "text": "sixty"
+  },
+  "number.seventy": {
+    "text": "seventy"
+  },
+  "number.eighty": {
+    "text": "eighty"
+  },
+  "number.ninety": {
+    "text": "ninety"
+  },
+  "number.hundred": {
+    "text": "hundred",
+    "alt": ["one hundred"]
+  },
+  "number.thousand": {
+    "text": "thousand",
+    "alt": ["one thousand"]
+  },
+  "number.first": {
+    "text": "first"
+  },
+  "number.second": {
+    "text": "second"
+  },
+  "number.third": {
+    "text": "third"
+  },
+  "time.time": {
+    "text": "time"
+  },
+  "time.hour": {
+    "text": "hour"
+  },
+  "time.minute": {
+    "text": "minute"
+  },
+  "time.afternoon": {
+    "text": "afternoon"
+  },
+  "time.noon": {
+    "text": "noon"
+  },
+  "time.now": {
+    "text": "now"
+  },
+  "time.later": {
+    "text": "later"
+  },
+  "time.early": {
+    "text": "early"
+  },
+  "time.late": {
+    "text": "late"
+  },
+  "time.always": {
+    "text": "always"
+  },
+  "time.sometimes": {
+    "text": "sometimes"
+  },
+  "time.never": {
+    "text": "never"
+  },
+  "home.apartment": {
+    "text": "apartment",
+    "alt": ["flat"]
+  },
+  "home.living_room": {
+    "text": "living room"
+  },
+  "home.computer": {
+    "text": "computer"
+  },
+  "home.knife": {
+    "text": "knife"
+  },
+  "home.bottle": {
+    "text": "bottle"
+  },
+  "drink.coffee": {
+    "text": "coffee"
+  },
+  "food.sugar": {
+    "text": "sugar"
+  },
+  "food.salt": {
+    "text": "salt"
+  },
+  "food.breakfast": {
+    "text": "breakfast"
+  },
+  "food.lunch": {
+    "text": "lunch"
+  },
+  "food.dinner": {
+    "text": "dinner",
+    "alt": ["supper"]
+  },
+  "food.food": {
+    "text": "food"
+  },
+  "fruit.fruit": {
+    "text": "fruit"
+  },
+  "vegetable.vegetable": {
+    "text": "vegetable"
+  },
+  "place.restaurant": {
+    "text": "restaurant"
+  },
+  "place.hotel": {
+    "text": "hotel"
+  },
+  "place.bank": {
+    "text": "bank"
+  },
+  "place.market": {
+    "text": "market"
+  },
+  "place.airport": {
+    "text": "airport"
+  },
+  "place.station": {
+    "text": "station"
+  },
+  "place.country": {
+    "text": "country"
+  },
+  "place.office": {
+    "text": "office"
+  },
+  "place.museum": {
+    "text": "museum"
+  },
+  "place.pharmacy": {
+    "text": "pharmacy",
+    "alt": ["chemist's"]
+  },
+  "work.job": {
+    "text": "job"
+  },
+  "work.doctor": {
+    "text": "doctor"
+  },
+  "work.nurse": {
+    "text": "nurse"
+  },
+  "work.engineer": {
+    "text": "engineer"
+  },
+  "work.driver": {
+    "text": "driver"
+  },
+  "work.waiter": {
+    "text": "waiter"
+  },
+  "school.language": {
+    "text": "language"
+  },
+  "school.english": {
+    "text": "English"
+  },
+  "school.word": {
+    "text": "word"
+  },
+  "school.question": {
+    "text": "question"
+  },
+  "school.answer": {
+    "text": "answer"
+  },
+  "school.page": {
+    "text": "page"
+  },
+  "travel.ticket": {
+    "text": "ticket"
+  },
+  "travel.passport": {
+    "text": "passport"
+  },
+  "travel.holiday": {
+    "text": "holiday",
+    "alt": ["vacation"]
+  },
+  "travel.map": {
+    "text": "map"
+  },
+  "travel.left": {
+    "text": "left"
+  },
+  "travel.right": {
+    "text": "right"
+  },
+  "travel.straight": {
+    "text": "straight"
+  },
+  "travel.here": {
+    "text": "here"
+  },
+  "travel.there": {
+    "text": "there"
+  },
+  "travel.near": {
+    "text": "near",
+    "alt": ["close"]
+  },
+  "travel.far": {
+    "text": "far"
+  },
+  "quality.expensive": {
+    "text": "expensive"
+  },
+  "quality.cheap": {
+    "text": "cheap"
+  },
+  "quality.busy": {
+    "text": "busy"
+  },
+  "quality.correct": {
+    "text": "correct"
+  },
+  "quality.wrong": {
+    "text": "wrong"
+  },
+  "action.do": {
+    "text": "do"
+  },
+  "action.make": {
+    "text": "make"
+  },
+  "action.have": {
+    "text": "have"
+  },
+  "action.want": {
+    "text": "want"
+  },
+  "action.know": {
+    "text": "know"
+  },
+  "action.live": {
+    "text": "live"
+  },
+  "action.work": {
+    "text": "work"
+  },
+  "action.learn": {
+    "text": "learn"
+  },
+  "action.buy": {
+    "text": "buy"
+  },
+  "action.say": {
+    "text": "say"
+  },
+  "action.understand": {
+    "text": "understand"
+  },
+  "action.start": {
+    "text": "start",
+    "alt": ["begin"]
+  },
+  "action.finish": {
+    "text": "finish",
+    "alt": ["end"]
+  },
+  "action.cook": {
+    "text": "cook"
+  },
+  "action.drive": {
+    "text": "drive"
+  },
+  "action.call": {
+    "text": "call"
+  },
+  "action.ask": {
+    "text": "ask"
+  },
+  "action.watch": {
+    "text": "watch"
+  },
+  "action.wait": {
+    "text": "wait"
+  },
+  "question.how_much": {
+    "text": "how much"
+  },
+  "question.how_many": {
+    "text": "how many"
+  },
+  "question.which": {
+    "text": "which"
+  },
+  "function.and": {
+    "text": "and"
+  },
+  "function.but": {
+    "text": "but"
+  },
+  "function.or": {
+    "text": "or"
+  },
+  "function.because": {
+    "text": "because"
+  },
+  "function.very": {
+    "text": "very"
+  },
+  "function.a_little": {
+    "text": "a little"
+  },
+  "function.every": {
+    "text": "every"
+  },
+  "position.under": {
+    "text": "under"
+  },
+  "position.behind": {
+    "text": "behind"
+  },
+  "position.next_to": {
+    "text": "next to"
+  },
+  "position.in_front_of": {
+    "text": "in front of"
+  },
+  "nature.weather": {
+    "text": "weather"
+  },
+  "idiom.take_care": {
+    "text": "take care"
+  },
+  "idiom.of_course": {
+    "text": "of course"
+  },
+  "idiom.no_problem": {
+    "text": "no problem"
+  },
+  "idiom.good_luck": {
+    "text": "good luck"
+  },
+  "idiom.have_a_nice_day": {
+    "text": "have a nice day"
+  },
+  "idiom.come_on": {
+    "text": "come on"
+  },
+  "idiom.never_mind": {
+    "text": "never mind"
+  },
+  "idiom.get_well_soon": {
+    "text": "get well soon"
+  },
+  "idiom.congratulations": {
+    "text": "congratulations"
+  },
+  "idiom.wait_a_minute": {
+    "text": "wait a minute",
+    "alt": ["just a minute"]
+  },
+  "work.company": {
+    "text": "company"
+  },
+  "work.manager": {
+    "text": "manager"
+  },
+  "work.boss": {
+    "text": "boss"
+  },
+  "work.colleague": {
+    "text": "colleague"
+  },
+  "work.employee": {
+    "text": "employee"
+  },
+  "work.meeting": {
+    "text": "meeting"
+  },
+  "work.salary": {
+    "text": "salary"
+  },
+  "work.interview": {
+    "text": "interview"
+  },
+  "work.experience": {
+    "text": "experience"
+  },
+  "work.project": {
+    "text": "project"
+  },
+  "work.report": {
+    "text": "report"
+  },
+  "work.customer": {
+    "text": "customer"
+  },
+  "work.factory": {
+    "text": "factory"
+  },
+  "work.lawyer": {
+    "text": "lawyer"
+  },
+  "work.police_officer": {
+    "text": "police officer"
+  },
+  "work.farmer": {
+    "text": "farmer"
+  },
+  "work.chef": {
+    "text": "chef",
+    "alt": ["cook"]
+  },
+  "work.artist": {
+    "text": "artist"
+  },
+  "money.money": {
+    "text": "money"
+  },
+  "money.price": {
+    "text": "price"
+  },
+  "money.credit_card": {
+    "text": "credit card"
+  },
+  "money.cash": {
+    "text": "cash"
+  },
+  "money.receipt": {
+    "text": "receipt"
+  },
+  "money.bill": {
+    "text": "bill"
+  },
+  "money.discount": {
+    "text": "discount"
+  },
+  "money.size": {
+    "text": "size"
+  },
+  "money.wallet": {
+    "text": "wallet"
+  },
+  "money.coin": {
+    "text": "coin"
+  },
+  "place.supermarket": {
+    "text": "supermarket"
+  },
+  "money.pay": {
+    "text": "pay"
+  },
+  "money.spend": {
+    "text": "spend"
+  },
+  "money.save": {
+    "text": "save"
+  },
+  "money.sell": {
+    "text": "sell"
+  },
+  "money.borrow": {
+    "text": "borrow"
+  },
+  "money.lend": {
+    "text": "lend"
+  },
+  "money.cost": {
+    "text": "cost"
+  },
+  "action.try_on": {
+    "text": "try on"
+  },
+  "travel.suitcase": {
+    "text": "suitcase"
+  },
+  "travel.flight": {
+    "text": "flight"
+  },
+  "travel.reservation": {
+    "text": "reservation",
+    "alt": ["booking"]
+  },
+  "travel.tourist": {
+    "text": "tourist"
+  },
+  "travel.trip": {
+    "text": "trip"
+  },
+  "travel.bus_stop": {
+    "text": "bus stop"
+  },
+  "travel.border": {
+    "text": "border"
+  },
+  "travel.abroad": {
+    "text": "abroad"
+  },
+  "travel.guide": {
+    "text": "guide"
+  },
+  "travel.traffic": {
+    "text": "traffic"
+  },
+  "travel.bridge": {
+    "text": "bridge"
+  },
+  "travel.corner": {
+    "text": "corner"
+  },
+  "travel.town_square": {
+    "text": "square"
+  },
+  "travel.visa": {
+    "text": "visa"
+  },
+  "place.cinema": {
+    "text": "cinema",
+    "alt": ["movie theater"]
+  },
+  "travel.arrive": {
+    "text": "arrive"
+  },
+  "travel.leave": {
+    "text": "leave"
+  },
+  "travel.travel": {
+    "text": "travel"
+  },
+  "travel.rent": {
+    "text": "rent"
+  },
+  "travel.turn": {
+    "text": "turn"
+  },
+  "travel.lost": {
+    "text": "lost"
+  },
+  "health.pain": {
+    "text": "pain"
+  },
+  "health.fever": {
+    "text": "fever"
+  },
+  "health.cough": {
+    "text": "cough"
+  },
+  "health.headache": {
+    "text": "headache"
+  },
+  "health.flu": {
+    "text": "flu"
+  },
+  "health.medicine": {
+    "text": "medicine"
+  },
+  "health.dentist": {
+    "text": "dentist"
+  },
+  "health.appointment": {
+    "text": "appointment"
+  },
+  "health.accident": {
+    "text": "accident"
+  },
+  "health.blood": {
+    "text": "blood"
+  },
+  "health.stomach": {
+    "text": "stomach"
+  },
+  "health.emergency": {
+    "text": "emergency"
+  },
+  "health.prescription": {
+    "text": "prescription"
+  },
+  "health.exercise": {
+    "text": "exercise"
+  },
+  "health.sick": {
+    "text": "sick",
+    "alt": ["ill"]
+  },
+  "health.healthy": {
+    "text": "healthy"
+  },
+  "health.hurt": {
+    "text": "hurt"
+  },
+  "health.rest": {
+    "text": "rest"
+  },
+  "home.stairs": {
+    "text": "stairs"
+  },
+  "home.elevator": {
+    "text": "elevator",
+    "alt": ["lift"]
+  },
+  "home.balcony": {
+    "text": "balcony"
+  },
+  "home.roof": {
+    "text": "roof"
+  },
+  "home.wall": {
+    "text": "wall"
+  },
+  "home.floor": {
+    "text": "floor"
+  },
+  "home.carpet": {
+    "text": "carpet"
+  },
+  "home.curtain": {
+    "text": "curtain"
+  },
+  "home.shelf": {
+    "text": "shelf"
+  },
+  "home.wardrobe": {
+    "text": "wardrobe"
+  },
+  "home.furniture": {
+    "text": "furniture"
+  },
+  "home.washing_machine": {
+    "text": "washing machine"
+  },
+  "home.dishwasher": {
+    "text": "dishwasher"
+  },
+  "home.shower": {
+    "text": "shower"
+  },
+  "home.trash": {
+    "text": "trash",
+    "alt": ["rubbish", "garbage"]
+  },
+  "home.rent": {
+    "text": "rent"
+  },
+  "action.clean": {
+    "text": "clean"
+  },
+  "action.stay": {
+    "text": "stay"
+  },
+  "feeling.angry": {
+    "text": "angry"
+  },
+  "feeling.afraid": {
+    "text": "afraid",
+    "alt": ["scared"]
+  },
+  "feeling.worried": {
+    "text": "worried"
+  },
+  "feeling.surprised": {
+    "text": "surprised"
+  },
+  "feeling.bored": {
+    "text": "bored"
+  },
+  "feeling.excited": {
+    "text": "excited"
+  },
+  "feeling.lonely": {
+    "text": "lonely"
+  },
+  "feeling.calm": {
+    "text": "calm"
+  },
+  "person.kind": {
+    "text": "kind"
+  },
+  "person.funny": {
+    "text": "funny"
+  },
+  "person.clever": {
+    "text": "clever",
+    "alt": ["smart"]
+  },
+  "person.lazy": {
+    "text": "lazy"
+  },
+  "person.shy": {
+    "text": "shy"
+  },
+  "person.friendly": {
+    "text": "friendly"
+  },
+  "person.honest": {
+    "text": "honest"
+  },
+  "person.brave": {
+    "text": "brave"
+  },
+  "person.rude": {
+    "text": "rude"
+  },
+  "person.serious": {
+    "text": "serious"
+  },
+  "person.married": {
+    "text": "married"
+  },
+  "person.single": {
+    "text": "single"
+  },
+  "person.thin": {
+    "text": "thin",
+    "alt": ["slim"]
+  },
+  "person.guest": {
+    "text": "guest"
+  },
+  "person.beard": {
+    "text": "beard"
+  },
+  "quality.important": {
+    "text": "important"
+  },
+  "quality.interesting": {
+    "text": "interesting"
+  },
+  "quality.boring": {
+    "text": "boring"
+  },
+  "quality.dangerous": {
+    "text": "dangerous"
+  },
+  "quality.safe": {
+    "text": "safe"
+  },
+  "quality.possible": {
+    "text": "possible"
+  },
+  "quality.different": {
+    "text": "different"
+  },
+  "quality.same": {
+    "text": "same"
+  },
+  "quality.empty": {
+    "text": "empty"
+  },
+  "quality.full": {
+    "text": "full"
+  },
+  "quality.heavy": {
+    "text": "heavy"
+  },
+  "quality.light": {
+    "text": "light"
+  },
+  "quality.wide": {
+    "text": "wide"
+  },
+  "quality.narrow": {
+    "text": "narrow"
+  },
+  "quality.dark": {
+    "text": "dark"
+  },
+  "quality.quiet": {
+    "text": "quiet"
+  },
+  "quality.noisy": {
+    "text": "noisy"
+  },
+  "quality.sweet": {
+    "text": "sweet"
+  },
+  "quality.salty": {
+    "text": "salty"
+  },
+  "quality.delicious": {
+    "text": "delicious"
+  },
+  "quality.fresh": {
+    "text": "fresh"
+  },
+  "quality.soft": {
+    "text": "soft"
+  },
+  "quality.hard": {
+    "text": "hard"
+  },
+  "quality.wet": {
+    "text": "wet"
+  },
+  "quality.dry": {
+    "text": "dry"
+  },
+  "quality.ugly": {
+    "text": "ugly"
+  },
+  "quality.rich": {
+    "text": "rich"
+  },
+  "quality.poor": {
+    "text": "poor"
+  },
+  "quality.famous": {
+    "text": "famous"
+  },
+  "quality.free": {
+    "text": "free"
+  },
+  "quality.nice": {
+    "text": "nice"
+  },
+  "quality.enough": {
+    "text": "enough"
+  },
+  "action.wake_up": {
+    "text": "wake up"
+  },
+  "action.get_up": {
+    "text": "get up"
+  },
+  "action.stand": {
+    "text": "stand"
+  },
+  "action.stop": {
+    "text": "stop"
+  },
+  "action.carry": {
+    "text": "carry"
+  },
+  "action.bring": {
+    "text": "bring"
+  },
+  "action.send": {
+    "text": "send"
+  },
+  "action.receive": {
+    "text": "receive"
+  },
+  "action.find": {
+    "text": "find"
+  },
+  "action.lose": {
+    "text": "lose"
+  },
+  "action.forget": {
+    "text": "forget"
+  },
+  "action.remember": {
+    "text": "remember"
+  },
+  "action.think": {
+    "text": "think"
+  },
+  "action.believe": {
+    "text": "believe"
+  },
+  "action.hope": {
+    "text": "hope"
+  },
+  "action.feel": {
+    "text": "feel"
+  },
+  "action.try": {
+    "text": "try"
+  },
+  "action.use": {
+    "text": "use"
+  },
+  "action.change": {
+    "text": "change"
+  },
+  "action.choose": {
+    "text": "choose"
+  },
+  "action.decide": {
+    "text": "decide"
+  },
+  "action.agree": {
+    "text": "agree"
+  },
+  "action.explain": {
+    "text": "explain"
+  },
+  "action.teach": {
+    "text": "teach"
+  },
+  "action.meet": {
+    "text": "meet"
+  },
+  "action.invite": {
+    "text": "invite"
+  },
+  "action.visit": {
+    "text": "visit"
+  },
+  "action.show": {
+    "text": "show"
+  },
+  "action.tell": {
+    "text": "tell"
+  },
+  "action.hear": {
+    "text": "hear"
+  },
+  "action.laugh": {
+    "text": "laugh"
+  },
+  "action.smile": {
+    "text": "smile"
+  },
+  "action.cry": {
+    "text": "cry"
+  },
+  "action.dance": {
+    "text": "dance"
+  },
+  "action.win": {
+    "text": "win"
+  },
+  "action.earn": {
+    "text": "earn"
+  },
+  "action.break": {
+    "text": "break"
+  },
+  "action.fix": {
+    "text": "fix",
+    "alt": ["repair"]
+  },
+  "action.build": {
+    "text": "build"
+  },
+  "action.grow": {
+    "text": "grow"
+  },
+  "action.fall": {
+    "text": "fall"
+  },
+  "action.throw": {
+    "text": "throw"
+  },
+  "action.catch": {
+    "text": "catch"
+  },
+  "action.pull": {
+    "text": "pull"
+  },
+  "action.push": {
+    "text": "push"
+  },
+  "action.wear": {
+    "text": "wear"
+  },
+  "action.prepare": {
+    "text": "prepare"
+  },
+  "tech.internet": {
+    "text": "internet"
+  },
+  "tech.website": {
+    "text": "website"
+  },
+  "tech.password": {
+    "text": "password"
+  },
+  "tech.message": {
+    "text": "message"
+  },
+  "tech.email": {
+    "text": "email",
+    "alt": ["e-mail"]
+  },
+  "tech.photo": {
+    "text": "photo",
+    "alt": ["photograph"]
+  },
+  "tech.video": {
+    "text": "video"
+  },
+  "tech.camera": {
+    "text": "camera"
+  },
+  "tech.laptop": {
+    "text": "laptop"
+  },
+  "tech.app": {
+    "text": "app",
+    "alt": ["application"]
+  },
+  "tech.battery": {
+    "text": "battery"
+  },
+  "tech.screen": {
+    "text": "screen"
+  },
+  "tech.keyboard": {
+    "text": "keyboard"
+  },
+  "tech.charger": {
+    "text": "charger"
+  },
+  "tech.download": {
+    "text": "download"
+  },
+  "leisure.film": {
+    "text": "film",
+    "alt": ["movie"]
+  },
+  "leisure.music": {
+    "text": "music"
+  },
+  "leisure.song": {
+    "text": "song"
+  },
+  "leisure.concert": {
+    "text": "concert"
+  },
+  "leisure.theater": {
+    "text": "theater",
+    "alt": ["theatre"]
+  },
+  "leisure.football": {
+    "text": "football",
+    "alt": ["soccer"]
+  },
+  "leisure.sport": {
+    "text": "sport"
+  },
+  "leisure.game": {
+    "text": "game"
+  },
+  "leisure.hobby": {
+    "text": "hobby"
+  },
+  "leisure.newspaper": {
+    "text": "newspaper"
+  },
+  "leisure.magazine": {
+    "text": "magazine"
+  },
+  "leisure.story": {
+    "text": "story"
+  },
+  "leisure.party": {
+    "text": "party"
+  },
+  "leisure.gift": {
+    "text": "gift",
+    "alt": ["present"]
+  },
+  "leisure.birthday": {
+    "text": "birthday"
+  },
+  "leisure.wedding": {
+    "text": "wedding"
+  },
+  "leisure.picnic": {
+    "text": "picnic"
+  },
+  "nature.storm": {
+    "text": "storm"
+  },
+  "nature.fog": {
+    "text": "fog"
+  },
+  "nature.temperature": {
+    "text": "temperature"
+  },
+  "nature.degree": {
+    "text": "degree"
+  },
+  "nature.environment": {
+    "text": "environment"
+  },
+  "nature.world": {
+    "text": "world"
+  },
+  "nature.north": {
+    "text": "north"
+  },
+  "nature.south": {
+    "text": "south"
+  },
+  "nature.east": {
+    "text": "east"
+  },
+  "nature.west": {
+    "text": "west"
+  },
+  "time.weekend": {
+    "text": "weekend"
+  },
+  "time.last": {
+    "text": "last"
+  },
+  "time.next": {
+    "text": "next"
+  },
+  "time.ago": {
+    "text": "ago"
+  },
+  "time.soon": {
+    "text": "soon"
+  },
+  "time.already": {
+    "text": "already"
+  },
+  "time.yet": {
+    "text": "yet"
+  },
+  "time.still": {
+    "text": "still"
+  },
+  "time.usually": {
+    "text": "usually"
+  },
+  "time.often": {
+    "text": "often"
+  },
+  "function.again": {
+    "text": "again"
+  },
+  "function.maybe": {
+    "text": "maybe",
+    "alt": ["perhaps"]
+  },
+  "function.together": {
+    "text": "together"
+  },
+  "function.alone": {
+    "text": "alone"
+  },
+  "function.really": {
+    "text": "really"
+  },
+  "function.almost": {
+    "text": "almost"
+  },
+  "function.well": {
+    "text": "well"
+  },
+  "function.if": {
+    "text": "if"
+  },
+  "function.so": {
+    "text": "so"
+  },
+  "function.then": {
+    "text": "then"
+  },
+  "function.before": {
+    "text": "before"
+  },
+  "function.after": {
+    "text": "after"
+  },
+  "function.without": {
+    "text": "without"
+  },
+  "position.between": {
+    "text": "between"
+  },
+  "function.during": {
+    "text": "during"
+  },
+  "function.until": {
+    "text": "until"
+  },
+  "idiom.piece_of_cake": {
+    "text": "a piece of cake",
+    "alt": ["piece of cake"]
+  },
+  "idiom.blue_moon": {
+    "text": "once in a blue moon"
+  },
+  "idiom.two_birds": {
+    "text": "kill two birds with one stone"
+  },
+  "idiom.break_the_ice": {
+    "text": "break the ice"
+  },
+  "idiom.arm_and_leg": {
+    "text": "cost an arm and a leg"
+  },
+  "idiom.hot_water": {
+    "text": "be in hot water"
+  },
+  "idiom.keep_an_eye": {
+    "text": "keep an eye on"
+  },
+  "idiom.by_heart": {
+    "text": "learn by heart"
+  },
+  "idiom.on_time": {
+    "text": "on time"
+  },
+  "idiom.change_mind": {
+    "text": "change your mind"
+  },
+  "idiom.feel_at_home": {
+    "text": "feel at home"
+  },
+  "idiom.pay_attention": {
+    "text": "pay attention"
+  },
+  "idiom.take_it_easy": {
+    "text": "take it easy"
+  },
+  "idiom.time_flies": {
+    "text": "time flies"
+  },
+  "idiom.better_late": {
+    "text": "better late than never"
+  },
+  "idiom.practice_perfect": {
+    "text": "practice makes perfect"
+  },
+  "idiom.easy_come": {
+    "text": "easy come, easy go"
+  },
+  "idiom.early_bird": {
+    "text": "the early bird catches the worm"
+  },
+  "idiom.no_pain": {
+    "text": "no pain, no gain"
+  },
+  "idiom.all_ears": {
+    "text": "be all ears"
   }
 }

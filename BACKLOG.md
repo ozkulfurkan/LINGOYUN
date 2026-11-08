@@ -36,7 +36,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-12** BULUT — 2–7 yaş 300 kelime taslağı (6 tema × 50), EN + TR, resimlenebilir somut kelimeler. Furkan onayına sunulur.
 - [x] **LNG-13** FURKAN — LNG-12 listesinin onayı (`docs/content/mini-words.md`). Kararlar: rice → pilav, cake → pasta, coat → mont, sofa → kanepe, crayon → boya kalemi, blocks → oyuncak küpler, bubbles → baloncuk, grass → çimen (ot da kabul).
 - [x] **LNG-14** BULUT — 7–12 yaş Seviye 1–3 içeriği (~250 kelime + 60 basit cümle). Liste: `docs/content/kid-words.md`.
-- [ ] **LNG-15** BULUT — Yetişkin A1–A2 içeriği (~600 kelime + 150 cümle + 30 deyim).
+- [x] **LNG-15** BULUT — Yetişkin A1–A2 içeriği (685 kelime + 150 cümle + 30 deyim). Liste: `docs/content/adult-words.md`.
 
 ## Faz 3 — 7–12 yaş, ilk oynanabilir sürüm
 
@@ -87,4 +87,5 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - Cihazda doğrulanacak (LNG-6): profiller uygulama kapatılıp açılınca duruyor mu (MMKV); ilk derlemede kontrol edilecek.
 - Seviye tespiti simülasyonu (LNG-10, 1000 sanal oyuncu): yetişkin %70 tam / %99 ±1 / %1 fazla yüksek; 7–12 %69 / %99 / %0,6. `src/features/placement/placement.test.ts`.
 - Açık soru (LNG-17'de sorulacak): "Hiç bilmiyorum" diyen kullanıcı testi atlayıp doğrudan en alt seviyeden başlasın mı?
+- İçerik kontrolü (LNG-14, LNG-15): çeviriler henüz bir insan tarafından gözden geçirilmedi ve `review: true` işareti de konmadı. En riskli kısım deyimlerin Türkçe karşılıkları (`docs/content/adult-words.md`). Yayından önce kontrol edilmeli.
 - Font bulgusu: Lilita One ve Fredoka'da `ğ ş İ Ğ Ş` yok; Titan One'da `İ` yok. Çocuk teması DynaPuff + Baloo 2'ye geçirildi.
