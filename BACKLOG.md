@@ -23,7 +23,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 ## Faz 1 — Çekirdek mantık (UI'sız, tamamen testli)
 
 - [x] **LNG-5** BULUT — Kavram tabanlı içerik şeması (`docs/languages.md`): `concepts/`, `languages/<kod>/words.json`, `courses/tr-en.json` + doğrulayıcı + test (eksik çeviri, tekrar eden id, kursta olmayan kavram). Önkoşul: LNG-38.
-- [ ] **LNG-6** BULUT — Profiller: `mini | kid | adult`, `nativeLang` + `targetLang` (kurs), oluşturma/silme/seçme, ilerleme kurs başına, MMKV'de saklama. Önkoşul: LNG-38.
+- [x] **LNG-6** BULUT — Profiller: `mini | kid | adult`, `nativeLang` + `targetLang` (kurs), oluşturma/silme/seçme, ilerleme kurs başına, MMKV'de saklama. Önkoşul: LNG-38.
 - [ ] **LNG-7** BULUT — Soru üretici: yön seçimi, aynı konu/seviyeden mantıklı yanlış şıklar, tekrar etmeyen sıra. Önkoşul: LNG-5.
 - [ ] **LNG-8** BULUT — Cevap kontrolü: dil başına normalizer (registry'den), büyük/küçük harf (locale ile), TR karakter toleransı (ı/i, ş/s → "neredeyse doğru"), noktalama, eş anlamlılar. Önkoşul: LNG-5.
 - [ ] **LNG-9** BULUT — Aralıklı tekrar (Leitner, 5 kutu: 0/1/3/7/14 gün). Önkoşul: LNG-5.
@@ -82,4 +82,6 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - Cihazda doğrulanacak (LNG-38): Hermes'te `\p{P}` düzenli ifadesi ve `String.normalize` çalışıyor mu? İlk cihaz derlemesinde, Türkçe ve İngilizce telefonda arayüz dilinin doğru seçildiği de kontrol edilecek.
 - Cihazda doğrulanacak (LNG-2): fontlar açılışta yükleniyor mu (Türkçe harfler doğru fontla mı), kil gölgeleri (`boxShadow` inset) iOS ve Android'de görünüyor mu, yetişkin profilinde sistem koyu moduna geçince tema değişiyor mu.
 - Kontrast bulgusu (LNG-2): örnek ekranlardaki bazı renkler WCAG altında kaldı ve ayarlandı — çocuk butonu `#FF6B8B → #E64570`, doğru cevap yazısı beyaz → koyu yeşil `#174536`, silik metin `#8A6A62 → #765850`; yetişkin vurgu `#D9481F → #C2401A`, silik metin `#7A7266 → #6A6255`. `src/theme/themes.test.ts` her temayı denetler.
+- Profil sınırı (LNG-6): aile başına en fazla 6 profil, takma ad en fazla 20 karakter (`src/features/profiles/profiles.ts`). Furkan onayı bekliyor.
+- Cihazda doğrulanacak (LNG-6): profiller uygulama kapatılıp açılınca duruyor mu (MMKV); ilk derlemede kontrol edilecek.
 - Font bulgusu: Lilita One ve Fredoka'da `ğ ş İ Ğ Ş` yok; Titan One'da `İ` yok. Çocuk teması DynaPuff + Baloo 2'ye geçirildi.

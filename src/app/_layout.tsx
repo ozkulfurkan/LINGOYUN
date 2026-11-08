@@ -7,6 +7,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 
+import { useActiveProfile } from '@/features/profiles';
 import { buildSentryOptions } from '@/lib/monitoring';
 import { FONT_ASSETS, ThemeProvider, useTheme } from '@/theme';
 
@@ -36,6 +37,7 @@ function ThemedStack() {
 
 function RootLayout() {
   const [fontsLoaded, fontError] = useFonts(FONT_ASSETS);
+  const activeProfile = useActiveProfile();
   const ready = fontsLoaded || fontError !== null;
 
   useEffect(() => {
@@ -44,9 +46,9 @@ function RootLayout() {
 
   if (!ready) return null;
 
-  // No profile exists yet (onboarding is LNG-16), so the kids theme is used.
+  // Before any profile exists (first launch), the kids theme is used.
   return (
-    <ThemeProvider profileType={null}>
+    <ThemeProvider profileType={activeProfile?.type ?? null}>
       <ThemedStack />
     </ThemeProvider>
   );
