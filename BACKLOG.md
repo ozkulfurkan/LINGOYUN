@@ -40,19 +40,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 3 — 7–12 yaş, ilk oynanabilir sürüm
 
-- [~] **LNG-16** CİHAZ — Onboarding: profil oluştur → yaş grubu → (kid/adult) kendi beyanı. Önkoşul: LNG-6, LNG-2.
-  - ✅ Takma ad → yaş grubu → kendi beyanı → ana ekran. Yarıda kapatılırsa kaldığı yerden açılır. Kendi beyanı şimdilik geçici seviye yazar; LNG-17'de test bunu netleştirecek.
-  - Önce yeni derleme gerekir (yeni yerel paketler: Reanimated, Worklets, SVG, Haptics): `npx eas-cli@latest build --profile development --platform android` (iOS için `--platform ios`).
-  - Cihazda nasıl test edilir:
-    1. Uygulamayı ilk kez aç → "Kim öğrenecek?" ve nehir çizimi görünür, Türkçe harfler doğru fontla çıkar.
-    2. Takma ad kutusuna dokun → klavye açılınca kutu ve "Devam" görünür kalır (özellikle Android'de bak).
-    3. Ad yazmadan "Devam" → uyarı çıkar. Ad yaz, "Devam" → yaş grubu ekranı.
-    4. Kartlara ve butonlara bas → hafifçe sıkışıp geri esner, telefon hafifçe titrer. Seçili kartta çerçeve ve onay işareti görünür.
-    5. "2–7 yaş" → "Devam" → doğrudan ana ekran, "Merhaba <ad>".
-    6. Uygulamayı silip yeniden kur, "7–12 yaş" seç → seviye ekranı. Burada uygulamayı tamamen kapatıp aç → yine seviye ekranı açılır. Seç, "Devam" → ana ekran.
-    7. Yeniden kur, "Yetişkin" seç → seviye ekranı Sözlük temasıyla açılır; "BAŞLANGIÇ NOKTASI" başlığındaki harfler doğru. Telefonu koyu moda al → Gece Nehri renkleri gelir.
-    8. Ayarlardan "hareketi azalt"ı aç → butonlar sıkışmaz, yalnızca soluklaşır.
-    9. Telefon dilini İngilizce yap → metinler İngilizce gelir, çocuk ekranında metin taşmaz. Küçük ekranlı telefonda listeler kayar, "Devam" altta kalır.
+- [x] **LNG-16** CİHAZ — Onboarding: profil oluştur → yaş grubu → (kid/adult) kendi beyanı. iPhone'da test edildi (Furkan); Android denemesi LNG-3'teki ilk Android derlemesiyle yapılacak. Önkoşul: LNG-6, LNG-2.
 - [ ] **LNG-17** CİHAZ — Seviye tespit ekranları (20 soru, ilerleme çubuğu, "Bilmiyorum", sesli okuma) + sonuç ekranı. Önkoşul: LNG-10, LNG-16.
 - [ ] **LNG-18** CİHAZ — Oyun: Çoktan seçmeli (EN→TR / TR→EN). Önkoşul: LNG-7.
 - [ ] **LNG-19** CİHAZ — Oyun: Harf dizme. Önkoşul: LNG-7.
