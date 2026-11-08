@@ -27,7 +27,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-7** BULUT — Soru üretici: yön seçimi, aynı konu/seviyeden mantıklı yanlış şıklar, tekrar etmeyen sıra. Önkoşul: LNG-5.
 - [x] **LNG-8** BULUT — Cevap kontrolü: dil başına normalizer (registry'den), büyük/küçük harf (locale ile), TR karakter toleransı (ı/i, ş/s → "neredeyse doğru"), noktalama, eş anlamlılar. Önkoşul: LNG-5.
 - [x] **LNG-9** BULUT — Aralıklı tekrar (Leitner, 5 kutu: 0/1/3/7/14 gün). Önkoşul: LNG-5.
-- [ ] **LNG-10** BULUT — Seviye tespit algoritması (CLAUDE.md'deki kurallar) + kapsamlı test. Önkoşul: LNG-7.
+- [x] **LNG-10** BULUT — Seviye tespit algoritması (CLAUDE.md'deki kurallar) + kapsamlı test. Önkoşul: LNG-7.
 - [ ] **LNG-11** BULUT — İlerleme: XP, günlük seri, taş (ödül birimi), rozetler. Önkoşul: LNG-6.
 
 ## Faz 2 — İçerik
@@ -84,4 +84,6 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - Kontrast bulgusu (LNG-2): örnek ekranlardaki bazı renkler WCAG altında kaldı ve ayarlandı — çocuk butonu `#FF6B8B → #E64570`, doğru cevap yazısı beyaz → koyu yeşil `#174536`, silik metin `#8A6A62 → #765850`; yetişkin vurgu `#D9481F → #C2401A`, silik metin `#7A7266 → #6A6255`. `src/theme/themes.test.ts` her temayı denetler.
 - Profil sınırı (LNG-6): aile başına en fazla **3** profil, takma ad en fazla 20 karakter (Furkan'ın kararı, `src/features/profiles/profiles.ts`).
 - Cihazda doğrulanacak (LNG-6): profiller uygulama kapatılıp açılınca duruyor mu (MMKV); ilk derlemede kontrol edilecek.
+- Seviye tespiti simülasyonu (LNG-10, 1000 sanal oyuncu): yetişkin %70 tam / %99 ±1 / %1 fazla yüksek; 7–12 %69 / %99 / %0,6. `src/features/placement/placement.test.ts`.
+- Açık soru (LNG-17'de sorulacak): "Hiç bilmiyorum" diyen kullanıcı testi atlayıp doğrudan en alt seviyeden başlasın mı?
 - Font bulgusu: Lilita One ve Fredoka'da `ğ ş İ Ğ Ş` yok; Titan One'da `İ` yok. Çocuk teması DynaPuff + Baloo 2'ye geçirildi.
