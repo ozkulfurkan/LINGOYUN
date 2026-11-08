@@ -65,13 +65,13 @@ type LanguageDef = {
 2. `src/i18n/<kod>.json` — testler eksik anahtarı yakalar.
 3. `src/content/languages/<kod>/` — kelime ve cümleler; içerik testi eksik çeviriyi yakalar.
 4. Kurs(lar)ı `courses.ts`'e ekle.
-5. Fontlar yeni `charset`'i kapsıyor mu? (`scripts/check-font-glyphs`)
+5. Fontlar yeni `charset`'i kapsıyor mu? (`src/theme/fonts.test.ts`, `npm test` içinde)
 
 ## Kurallar
 
 - **Kodda dil sabit yazılmaz.** `'tr'` / `'en'` karşılaştırması yerine registry ve kurs kullanılır.
 - **Arayüz metinleri kodda yazılmaz.** `src/i18n/{tr,en}.json` + `expo-localization` + `i18next`. Eksik anahtarı test yakalar.
 - **Büyük/küçük harf** her zaman dil kaydındaki `toLower` / `toUpper` ile; `toLocaleUpperCase` kullanma (cihazın ICU verisine bağlı). Türkçede `i → İ`, `ı → I`.
-- **Fontlar** desteklenen tüm dillerin `charset`'ini kapsamalı. Bunu bir test doğrular (`scripts/check-font-glyphs`). Örnek: Lilita One ve Fredoka'da `ğ ş İ` yok, bu yüzden elendiler.
+- **Fontlar** desteklenen tüm dillerin `charset`'ini kapsamalı. Bunu bir test doğrular (`src/theme/fonts.test.ts`, `npm test` içinde). Örnek: Lilita One ve Fredoka'da `ğ ş İ` yok, bu yüzden elendiler.
 - **Sağdan sola** diller için düzen `I18nManager` ile çevrilir; şimdilik yalnızca alan bırakılıyor.
 - Profil ilerlemesi ve seviye tespiti **kurs başına** tutulur: `progress[courseId]`.

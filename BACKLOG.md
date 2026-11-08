@@ -10,7 +10,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-0** BULUT — Proje rehberi, backlog, agent'lar ve tasarım skill'leri.
 - [x] **LNG-1** BULUT — Expo projesi (TypeScript strict, Expo Router), ESLint + Prettier, jest-expo, klasör yapısı, `npm run lint/test` script'leri.
   - Kabul: boş ana ekran açılıyor; `tsc`, `lint`, `test` temiz.
-- [ ] **LNG-2** BULUT — Tema sistemi (`src/theme`): `kids` (Oyun Hamuru, DynaPuff + Baloo 2) ve `adult` (Sözlük açık + Gece Nehri koyu, Fraunces + Inter Tight) temaları; profil tipine ve sistem moduna göre seçim; renk, tipografi, aralık, köşe, gölge, hareket token'ları. Font glif kontrol script'i (`scripts/check-font-glyphs`). Önkoşul: LNG-1, LNG-4, LNG-39.
+- [x] **LNG-2** BULUT — Tema sistemi (`src/theme`): `kids` (Oyun Hamuru, DynaPuff + Baloo 2) ve `adult` (Sözlük açık + Gece Nehri koyu, Fraunces + Inter Tight) temaları; profil tipine ve sistem moduna göre seçim; renk, tipografi, aralık, köşe, gölge, hareket token'ları. Font glif kontrol script'i (`src/theme/fonts.test.ts`, `npm test` içinde). Önkoşul: LNG-1, LNG-4, LNG-39.
 - [ ] **LNG-3** FURKAN — EAS hesabı, bundle id (`com.<...>.lingoyun`), Apple Developer ve Google Play hesapları, Sentry projesi.
 - [x] **LNG-4** FURKAN — Çocuk teması onayı: C — Oyun Hamuru, görsel öncelikli. Yetişkin teması ayrı (LNG-39).
 - [x] **LNG-38** BULUT — Çok dil altyapısı: dil kaydı (`src/features/languages`), kurs tanımı (`tr-en`), arayüz i18n (`expo-localization` + `i18next`, `src/i18n/{tr,en}.json`), eksik çeviri anahtarı testi. `docs/languages.md`'ye uygun. Önkoşul: LNG-1.
@@ -76,4 +76,6 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 - Commit öneki `LNG` olarak seçildi; değiştirmek istersen söyle.
 - Cihazda doğrulanacak (LNG-38): Hermes'te `\p{P}` düzenli ifadesi ve `String.normalize` çalışıyor mu? İlk cihaz derlemesinde, Türkçe ve İngilizce telefonda arayüz dilinin doğru seçildiği de kontrol edilecek.
+- Cihazda doğrulanacak (LNG-2): fontlar açılışta yükleniyor mu (Türkçe harfler doğru fontla mı), kil gölgeleri (`boxShadow` inset) iOS ve Android'de görünüyor mu, yetişkin profilinde sistem koyu moduna geçince tema değişiyor mu.
+- Kontrast bulgusu (LNG-2): örnek ekranlardaki bazı renkler WCAG altında kaldı ve ayarlandı — çocuk butonu `#FF6B8B → #E64570`, doğru cevap yazısı beyaz → koyu yeşil `#174536`, silik metin `#8A6A62 → #765850`; yetişkin vurgu `#D9481F → #C2401A`, silik metin `#7A7266 → #6A6255`. `src/theme/themes.test.ts` her temayı denetler.
 - Font bulgusu: Lilita One ve Fredoka'da `ğ ş İ Ğ Ş` yok; Titan One'da `İ` yok. Çocuk teması DynaPuff + Baloo 2'ye geçirildi.

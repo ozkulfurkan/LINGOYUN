@@ -81,7 +81,8 @@ __tests__/               # ekran testleri; mantık testleri ilgili dosyanın yan
 - **Görsel dil standart olmayacak.** UI veya grafik işinden önce `.claude/skills/art-direction` skill'ini oku; oyun hissi için `game-feel`, çocuk ekranları için `kids-ux`.
 - **Çok dil:** `docs/languages.md` kurallarına uy. Kodda `'tr'`/`'en'` sabiti yok (registry ve kurs kullan); arayüz metni kodda yazılmaz (`src/i18n`); büyük/küçük harf dönüşümü dil kaydındaki `toLower`/`toUpper` ile (`toLocaleUpperCase` değil).
 - İçerik JSON'ları şema doğrulamasından geçmeli (test olarak).
-- **Fontlar** desteklenen tüm dillerin özel harflerini kapsamalı (ör. Türkçe `ğ ş İ ı`); font eklemeden önce kontrol et.
+- **Fontlar** desteklenen tüm dillerin özel harflerini kapsamalı (ör. Türkçe `ğ ş İ ı`); `src/theme/fonts.test.ts` denetler. Yeni font = `src/theme/fonts.ts`'e ekle.
+- **Tema:** bileşenler `useTheme()` ile token okur; `fontWeight` kullanma (ağırlık font dosyasıyla seçilir). Renk çiftleri WCAG AA'yı geçmeli (`src/theme/themes.test.ts`).
 - `Platform.OS` farkı olan yerlerde iki platformu da ele al ve yorumla açıkla.
 - Yeni paket: önce Expo uyumluluğunu kontrol et, `npx expo install` kullan. Bulut ortamında api.expo.dev kapalıysa `EXPO_OFFLINE=1 npx expo install` (SDK'nın kendi sürüm listesini kullanır).
 - `AGENTS.md` Expo'nun kendi rehberidir; Expo API'lerinde hafızana değil, SDK sürümüne uygun dokümana güven.

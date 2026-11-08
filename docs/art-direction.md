@@ -13,6 +13,7 @@
 - Açık mod: kâğıt `#F4EFE4`, mürekkep `#16130F`, vurgu vermilyon `#D9481F`, fosforlu kalem `#F7C9A8`.
 - Koyu mod: gece `#0B121C` (üstte `#14263A` ışıması), metin `#E6EDF3`, vurgu nehir turkuazı `#3DD6C6` (hafif parlama), seri amber `#F2B33D`.
 - Koyu modda ilerleme çubuğu **akan nehir çizgisi**; açık modda bölümlü çizgi.
+- Koddaki vurgu `#C2401A`, silik metin `#6A6255` (WCAG AA için örneklerden biraz koyu).
 - Mod seçimi: sistem ayarını izler, ayarlardan elle değiştirilebilir. Çocuk teması tek mod (açık).
 
 ## Onaylı çocuk teması
@@ -24,6 +25,7 @@
 - Görsel öncelik: 2–7'de seçenekler resim kartı, soru Zeynep'in sesinden; 7–12'de soru kartının en büyük öğesi resim.
 - Fontlar: **DynaPuff** (başlık) + **Baloo 2** (gövde). İlk örnekteki Lilita One ve Fredoka'da `ğ ş İ` olmadığı için değiştirildi.
 - Kaynak HTML/SVG: `art-direction/src/`.
+- Koddaki renkler (`src/theme/themes.ts`) okunabilirlik için örneklerden biraz koyu: buton `#E64570`, doğru cevap yazısı koyu yeşil `#174536`, silik metin `#765850`.
 
 ## Yetişkin teması adayları (LNG-39)
 
