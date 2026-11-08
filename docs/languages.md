@@ -62,9 +62,11 @@ type LanguageDef = {
   toLower: (s: string) => string; // dile doğru büyük/küçük harf (cihaz ayarına güvenmez)
   toUpper: (s: string) => string;
   foldMap: Record<string, string>; // klavyede özel harf yoksa: ş → s, ı → i
+  articles: string[]; // cevapta yazılsa da yazılmasa da olur: en → a, an, the
 };
 ```
 
+- Cevap kontrolü (`src/features/answer-check`): `correct` / `nearMiss` (yalnız özel harf farkı) / `typo` (5+ harfte 1, 9+ harfte 2 hata; içerikte bilinen başka bir kelime asla typo sayılmaz) / `wrong`. Puan verip vermemek oyunun kararı.
 - `normalize.ts`: `normalizeAnswer` (küçük harf, noktalama ve fazla boşluk yok), `foldAnswer`, `isNearMiss` ("kisi" ↔ "kişi" → neredeyse doğru).
 - `courses.ts`: `CourseDef` (`tr-en`), seviye ölçekleri profil tipine göre: `kid` L1–L10, `adult` A1–C1.
 - Arayüz dili (`src/i18n/pickUiLanguage.ts`): **telefonun ana dili** destekleniyorsa o dil, değilse **İngilizce**. Telefonun ikinci/üçüncü dilleri dikkate alınmaz. Yeni dil eklenince o dildeki telefonlarda uygulama kendiliğinden o dilde açılır (Furkan'ın kararı).

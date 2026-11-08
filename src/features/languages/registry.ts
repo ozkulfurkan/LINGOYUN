@@ -16,6 +16,7 @@ const TURKISH: LanguageDef = {
   toLower: turkishLower,
   toUpper: turkishUpper,
   foldMap: { ç: 'c', ğ: 'g', ı: 'i', ö: 'o', ş: 's', ü: 'u' },
+  articles: [],
 };
 
 const ENGLISH: LanguageDef = {
@@ -28,6 +29,7 @@ const ENGLISH: LanguageDef = {
   toLower: (s) => s.toLowerCase(),
   toUpper: (s) => s.toUpperCase(),
   foldMap: {},
+  articles: ['a', 'an', 'the'],
 };
 
 export const LANGUAGES: Readonly<Record<LanguageCode, LanguageDef>> = {
