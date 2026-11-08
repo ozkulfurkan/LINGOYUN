@@ -6,11 +6,11 @@ Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları
 
 ## Ürün özeti
 
-| Grup | Profil tipi | Seviye | Seviye testi |
-|---|---|---|---|
-| 2–7 yaş | `mini` | 6 tema dünyası, 300 kelime, resim + ses | **Yok** |
-| 7–12 yaş | `kid` | Seviye 1–10, sıfırdan A2'ye | Var |
-| Yetişkin | `adult` | A1–C1 (alt bölümlü) | Var |
+| Grup     | Profil tipi | Seviye                                  | Seviye testi |
+| -------- | ----------- | --------------------------------------- | ------------ |
+| 2–7 yaş  | `mini`      | 6 tema dünyası, 300 kelime, resim + ses | **Yok**      |
+| 7–12 yaş | `kid`       | Seviye 1–10, sıfırdan A2'ye             | Var          |
+| Yetişkin | `adult`     | A1–C1 (alt bölümlü)                     | Var          |
 
 - **Temalar:** Çocuk profilleri (`mini`, `kid`) **Oyun Hamuru** temasını kullanır, görseller ön planda. Yetişkin profili (`adult`) **Sözlük** temasını kullanır: açık mod + Gece Nehri renkleriyle koyu mod (sistem ayarını izler). Tema profil tipinden seçilir; bileşenler yalnızca aktif temanın token'larını okur.
 - **Karakterler (2–7 modu):** Zeynep, Nehir, Kerem — üç çocuk karakter. Görünüşleri `docs/characters.md` içinde tanımlanır; tutarlılık zorunlu.
@@ -32,7 +32,7 @@ Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları
 ## Teknoloji yığını
 
 - React Native + **Expo** (en güncel kararlı SDK), **TypeScript strict**, development build (Expo Go değil)
-- Navigasyon: **Expo Router** (`app/`)
+- Navigasyon: **Expo Router** (`src/app/`)
 - Animasyon: **react-native-reanimated** (UI thread) + **react-native-gesture-handler**
 - Özel grafik / efekt: **@shopify/react-native-skia**
 - Karakter animasyonu: **Rive** (`rive-react-native`) — durum makineli (idle / sevinç / üzgün / konuşma)
@@ -46,8 +46,8 @@ Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları
 ## Klasör yapısı
 
 ```
-app/                     # Expo Router ekranları
 src/
+  app/                   # Expo Router ekranları — YALNIZCA ekran ve _layout dosyaları (test veya yardımcı dosya koyma: her dosya bir rota olur)
   components/            # Ortak UI bileşenleri
   features/
     languages/           # dil kaydı (registry), normalizer'lar, kurs tanımları
@@ -69,7 +69,8 @@ assets/
   characters/            # Rive dosyaları
   illustrations/         # SVG / PNG
   audio/en, audio/tr
-docs/                    # art-direction.md, characters.md, game-design.md
+docs/                    # art-direction.md, characters.md, game-design.md, languages.md
+__tests__/               # ekran testleri; mantık testleri ilgili dosyanın yanında (*.test.ts)
 ```
 
 ## Kurallar
@@ -82,19 +83,20 @@ docs/                    # art-direction.md, characters.md, game-design.md
 - İçerik JSON'ları şema doğrulamasından geçmeli (test olarak).
 - **Fontlar** desteklenen tüm dillerin özel harflerini kapsamalı (ör. Türkçe `ğ ş İ ı`); font eklemeden önce kontrol et.
 - `Platform.OS` farkı olan yerlerde iki platformu da ele al ve yorumla açıkla.
-- Yeni paket: önce Expo uyumluluğunu kontrol et, `npx expo install` kullan.
+- Yeni paket: önce Expo uyumluluğunu kontrol et, `npx expo install` kullan. Bulut ortamında api.expo.dev kapalıysa `EXPO_OFFLINE=1 npx expo install` (SDK'nın kendi sürüm listesini kullanır).
+- `AGENTS.md` Expo'nun kendi rehberidir; Expo API'lerinde hafızana değil, SDK sürümüne uygun dokümana güven.
 - Commit formatı: `LNG-<no>: kısa açıklama`. Küçük, odaklı commit'ler.
 - Ses, dokunma hissi, animasyon akıcılığı, satın alma simülatörde/bulutta doğrulanamaz → iş bitince kullanıcıya **gerçek cihazda nasıl test edeceğini** madde madde yaz.
 - Emin olmadığın bir şeyde tahmin etme; kullanıcıya sor.
 
 ## Agent'lar (`.claude/agents/`)
 
-| Agent | Ne zaman |
-|---|---|
-| `yazilimci` | Uygulama kodu, altyapı, abonelik, depolama, ekranlar |
-| `grafiker` | Görsel dil, illüstrasyon (SVG/Skia), karakter tasarım dokümanı, ikon, mağaza görselleri |
-| `oyun-muhendisi` | Oyun türleri, zorluk eğrisi, seviye tespiti, aralıklı tekrar, ödül ekonomisi, içerik |
-| `testci` | Test yazma, hata avı, kabul kriteri kontrolü, cihaz test listeleri |
+| Agent            | Ne zaman                                                                                |
+| ---------------- | --------------------------------------------------------------------------------------- |
+| `yazilimci`      | Uygulama kodu, altyapı, abonelik, depolama, ekranlar                                    |
+| `grafiker`       | Görsel dil, illüstrasyon (SVG/Skia), karakter tasarım dokümanı, ikon, mağaza görselleri |
+| `oyun-muhendisi` | Oyun türleri, zorluk eğrisi, seviye tespiti, aralıklı tekrar, ödül ekonomisi, içerik    |
+| `testci`         | Test yazma, hata avı, kabul kriteri kontrolü, cihaz test listeleri                      |
 
 ## İş takibi — BACKLOG.md
 
