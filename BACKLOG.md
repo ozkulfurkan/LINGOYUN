@@ -12,7 +12,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Kabul: boş ana ekran açılıyor; `tsc`, `lint`, `test` temiz.
 - [ ] **LNG-2** BULUT — Tema sistemi (`src/theme`): renk, tipografi (Türkçe karakter destekli fontlar), aralık, köşe, gölge, hareket token'ları. `art-direction` skill'ine uygun. Önkoşul: LNG-1, LNG-4.
 - [ ] **LNG-3** FURKAN — EAS hesabı, bundle id (`com.<...>.lingoyun`), Apple Developer ve Google Play hesapları, Sentry projesi.
-- [ ] **LNG-4** FURKAN — Sanat yönü onayı: `docs/art-direction.md` içindeki 3 yön önerisinden biri seçilir (grafiker agent hazırlar). Önkoşul: LNG-0.
+- [ ] **LNG-4** FURKAN — Sanat yönü onayı: `docs/art-direction.md` içindeki 3 yönden biri seçilir. Örnek ekranlar hazır (`docs/art-direction/`).
 
 ## Faz 1 — Çekirdek mantık (UI'sız, tamamen testli)
 
