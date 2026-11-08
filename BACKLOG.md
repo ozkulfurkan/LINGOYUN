@@ -194,7 +194,11 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-35** BULUT — Gizlilik politikası taslağı (KVKK, COPPA, GDPR-K), mağaza metinleri TR + EN.
   - Gizlilik politikası TR/EN: `docs/privacy/tr.html`, `docs/privacy/index.html` (hesap/reklam/izleme yok; profiller ve ilerleme cihazda; yalnız kişisel veri içermeyen Sentry çökme raporları ve RevenueCat abonelik doğrulaması çıkar; COPPA, GDPR madde 8, KVKK hakları). Mağaza metinleri `store/listings.json` (App Store + Play, TR/EN; karakter sınırları `store/listings.test.ts`). App Store gizlilik etiketleri `store/privacy-labels.md`, Play veri güvenliği + Aileler `store/data-safety.md`.
   - Furkan dolduracak (`store/README.md`): geliştirici adı, iletişim e-postası, yürürlük tarihi, GitHub Pages'i açıp gizlilik adresini metne yazmak. Gönderimden önce (LNG-37): iOS gizlilik manifesti ve Play'in Families SDK listesi kontrolü.
-- [ ] **LNG-36** BULUT — Mağaza ekran görüntüleri ve uygulama ikonu (grafiker agent).
+- [~] **LNG-36** BULUT — Mağaza ekran görüntüleri ve uygulama ikonu (grafiker agent).
+  - ✅ Uygulama ikonu: nehri geçen üç hamur basamak taşı (limon, ahududu, gök mavisi) — bir dilden öbürüne geçiş; yazı yok, 29 px'de de okunur. Kaynak `assets/source/glyph.svg`, bütün boyutlar `scripts/generate-icons.mjs` ile (iOS 1024, Android uyarlanabilir + Android 13 tek renkli, açılış ekranı, favicon, Play 512). Açılış ekranı hamur rengi zeminle (`expo-splash-screen`).
+  - ✅ Mağaza ekran görüntüsü çerçeveleme: `scripts/frame-screenshots.mjs` (App Store 1290×2796, Play 1080×1920; başlıklar `store/listings.json`'dan, DynaPuff). Başlık sınırı testte.
+  - Kalan (cihaz): 6 ekran görüntüsünü TR ve EN telefonda almak — liste ve adımlar `store/README.md`. Play "feature graphic" (1024×500) henüz yok.
+  - Cihazda nasıl test edilir: yeni derlemede ana ekrandaki ikon ve açılış ekranı yeni görselle mi; Android'de uzun basınca uyarlanabilir ikon dairede kesilmeden görünüyor mu; Android 13'te temalı ikon açıkken tek renkli ikon okunuyor mu.
 - [ ] **LNG-37** FURKAN — TestFlight + Play iç test, gönderim.
 
 ---

@@ -40,3 +40,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Raw phone screenshots for scripts/frame-screenshots.mjs
+store/screenshots/raw/
