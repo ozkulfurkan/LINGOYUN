@@ -15,7 +15,10 @@ const useSharedValue = (initial) => {
 
 module.exports = {
   __esModule: true,
-  default: { createAnimatedComponent: (component) => component },
+  default: {
+    createAnimatedComponent: (component) => component,
+    View: require('react-native').View,
+  },
   useSharedValue,
   useAnimatedStyle: (updater) => updater(),
   useReducedMotion: () => false,

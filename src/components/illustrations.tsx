@@ -22,7 +22,8 @@ type Tone = { face: string; shade: string };
 function useTones() {
   const { colors } = useTheme();
   return {
-    highlight: colors.surface,
+    // Light in every theme, unlike `surface`, which is dark in the dark theme.
+    highlight: colors.onSurfaceInverse,
     shadow: colors.text,
     berry: { face: colors.accent, shade: colors.accentShade },
     mint: { face: colors.correct, shade: colors.correctShade },
@@ -222,6 +223,51 @@ export function CheckMark() {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
+    </Svg>
+  );
+}
+
+/** Speaker symbol for the read-aloud button. */
+export function SpeakerIcon() {
+  const { colors } = useTheme();
+  return (
+    <Svg width={28} height={28} viewBox="0 0 28 28" accessible={false}>
+      <Path
+        d="M4 11 C 4 10 5 9 6 9 L 10 9 L 15 4 C 16 3 17 4 17 5 L 17 23 C 17 24 16 25 15 24 L 10 19 L 6 19 C 5 19 4 18 4 17 Z"
+        fill={colors.onInfo}
+      />
+      <Path
+        d="M21 10 C 23 12 23 16 21 18"
+        fill="none"
+        stroke={colors.onInfo}
+        strokeWidth={3}
+        strokeLinecap="round"
+      />
+    </Svg>
+  );
+}
+
+/** Clay medal for the level result. */
+export function LevelMedal() {
+  const tones = useTones();
+  return (
+    <Svg width={132} height={148} viewBox="0 0 132 148" accessible={false}>
+      <Defs>
+        <ClayGradient id="medal" tone={tones.lemon} />
+      </Defs>
+      <Path d="M44 6 L 66 52 L 42 60 L 22 18 Z" fill={tones.berry.face} />
+      <Path d="M88 6 L 66 52 L 90 60 L 110 18 Z" fill={tones.sky.face} />
+      <Ellipse cx={66} cy={141} rx={42} ry={6} fill={tones.shadow} opacity={0.15} />
+      <Circle cx={66} cy={88} r={50} fill="url(#medal)" />
+      <Circle cx={66} cy={88} r={37} fill={tones.lemon.shade} opacity={0.35} />
+      <Path
+        d="M66 62 L 74 79 L 92 81 L 79 94 L 83 112 L 66 103 L 49 112 L 53 94 L 40 81 L 58 79 Z"
+        fill={tones.highlight}
+        stroke={tones.highlight}
+        strokeWidth={5}
+        strokeLinejoin="round"
+      />
+      <Ellipse cx={42} cy={58} rx={11} ry={6} fill={tones.highlight} opacity={0.7} />
     </Svg>
   );
 }

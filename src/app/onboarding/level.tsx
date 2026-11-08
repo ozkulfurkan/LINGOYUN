@@ -7,9 +7,10 @@ import { LevelMeter } from '@/components/illustrations';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { Screen } from '@/components/Screen';
 import { ThemedText } from '@/components/ThemedText';
+import { content } from '@/content/bundle';
 import { findCourse } from '@/features/languages';
-import { applySelfAssessment } from '@/features/onboarding/flow';
-import { SELF_ASSESSMENTS, type SelfAssessment } from '@/features/placement';
+import { startAtLowestLevel } from '@/features/onboarding/flow';
+import { placeableLevels, SELF_ASSESSMENTS, type SelfAssessment } from '@/features/placement';
 import { profilesStore, useActiveProfile } from '@/features/profiles';
 
 export default function SelfAssessmentScreen() {
@@ -25,7 +26,14 @@ export default function SelfAssessmentScreen() {
 
   const submit = () => {
     if (!self) return;
-    const result = profilesStore.update((state) => applySelfAssessment(state, profile.id, self));
+    // Someone who knows nothing skips the test (Furkan's decision), as does
+    // anyone when the course has no content to test yet.
+    const canTest = placeableLevels(content, profile.courseId, profileType).length > 0;
+    if (self !== 'none' && canTest) {
+      router.push({ pathname: '/placement', params: { self } });
+      return;
+    }
+    const result = profilesStore.update((state) => startAtLowestLevel(state, profile.id));
     if (result.ok) router.replace('/');
   };
 

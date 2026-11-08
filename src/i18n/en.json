@@ -63,5 +63,23 @@
         "good": "I can speak comfortably"
       }
     }
+  },
+  "levels": {
+    "numbered": "Level {{number}}"
+  },
+  "placement": {
+    "progress": "{{current}} / {{total}}",
+    "progressLabel": "Question {{current}} of {{total}}",
+    "meaningIn": {
+      "tr": "What is it in Turkish?",
+      "en": "What is it in English?"
+    },
+    "dontKnow": "I don't know",
+    "speak": "Read aloud",
+    "result": {
+      "eyebrow": "Your level",
+      "title": "This is where we start, {{nickname}}!",
+      "start": "Start"
+    }
   }
 }

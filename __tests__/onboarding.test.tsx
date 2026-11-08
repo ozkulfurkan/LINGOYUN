@@ -7,14 +7,21 @@ import HomeScreen from '@/app/index';
 import AgeGroupScreen from '@/app/onboarding/age';
 import NicknameScreen from '@/app/onboarding/index';
 import SelfAssessmentScreen from '@/app/onboarding/level';
+import PlacementScreen from '@/app/placement/index';
 import { addProfile, deleteProfile, profilesStore, type ProfileType } from '@/features/profiles';
 import i18n from '@/i18n';
+
+jest.mock('expo-speech', () => ({
+  speak: jest.fn(),
+  stop: jest.fn(() => Promise.resolve()),
+}));
 
 const ROUTES = {
   index: HomeScreen,
   'onboarding/index': NicknameScreen,
   'onboarding/age': AgeGroupScreen,
   'onboarding/level': SelfAssessmentScreen,
+  'placement/index': PlacementScreen,
 };
 
 const activeProfile = () => {
@@ -97,9 +104,9 @@ describe('onboarding', () => {
   });
 
   it.each([
-    [/^7–12 yaş/, 'Çok iyi biliyorum', 'kid', 'L8'],
-    [/^Yetişkin/, 'Hiç bilmiyorum', 'adult', 'A1'],
-  ])('%s goes through self-assessment', async (ageLabel, answer, type, level) => {
+    [/^7–12 yaş/, 'Çok iyi biliyorum', 'kid'],
+    [/^Yetişkin/, 'Rahatça konuşabiliyorum', 'adult'],
+  ])('%s goes through self-assessment into the test', async (ageLabel, answer, type) => {
     await renderRouter(ROUTES);
     await createProfile('Deniz');
     await press(ageLabel);
@@ -107,14 +114,13 @@ describe('onboarding', () => {
 
     expect(screen.getByText('Ne kadar İngilizce biliyorsun?')).toBeTruthy();
     expect(activeProfile()?.type).toBe(type);
-    expect(levelOf()).toBeNull();
     expect(screen.queryByLabelText('Devam')).toBeNull();
 
     await press(answer);
     await press('Devam');
 
-    expect(levelOf()).toBe(level);
-    expect(screen.getByText('Merhaba Deniz')).toBeTruthy();
+    expect(screen.getByLabelText('Bilmiyorum')).toBeTruthy();
+    expect(levelOf()).toBeNull();
   });
 
   it('resumes at self-assessment if the app closed before it', async () => {

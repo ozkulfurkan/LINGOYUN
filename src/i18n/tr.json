@@ -63,5 +63,23 @@
         "good": "Rahatça konuşabiliyorum"
       }
     }
+  },
+  "levels": {
+    "numbered": "Seviye {{number}}"
+  },
+  "placement": {
+    "progress": "{{current}} / {{total}}",
+    "progressLabel": "Soru {{current}} / {{total}}",
+    "meaningIn": {
+      "tr": "Türkçesi ne?",
+      "en": "İngilizcesi ne?"
+    },
+    "dontKnow": "Bilmiyorum",
+    "speak": "Sesli oku",
+    "result": {
+      "eyebrow": "Seviye sonucu",
+      "title": "Buradan başlıyoruz, {{nickname}}!",
+      "start": "Başla"
+    }
   }
 }

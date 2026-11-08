@@ -1,6 +1,6 @@
 import { addProfile, EMPTY_STATE, type ProfilesState, type ProfileType } from '@/features/profiles';
 
-import { applySelfAssessment, defaultCourseId, onboardingStep, toUiUpper } from './flow';
+import { defaultCourseId, onboardingStep, startAtLowestLevel, toUiUpper } from './flow';
 
 function withProfile(type: ProfileType): ProfilesState {
   const result = addProfile(
@@ -28,34 +28,28 @@ describe('onboardingStep', () => {
   it.each(['kid', 'adult'] as const)('asks %s for self-assessment until a level is set', (type) => {
     const state = withProfile(type);
     expect(onboardingStep(state)).toBe('selfAssessment');
-    const placed = applySelfAssessment(state, 'p1', 'none');
+    const placed = startAtLowestLevel(state, 'p1');
     if (!placed.ok) throw new Error(placed.error);
     expect(onboardingStep(placed.value)).toBe('done');
   });
 });
 
-describe('applySelfAssessment', () => {
+describe('startAtLowestLevel', () => {
   it.each([
-    ['adult', 'none', 'A1'],
-    ['adult', 'some', 'A2'],
-    ['adult', 'mid', 'B1'],
-    ['adult', 'good', 'B2'],
-    ['kid', 'none', 'L1'],
-    ['kid', 'some', 'L3'],
-    ['kid', 'mid', 'L6'],
-    ['kid', 'good', 'L8'],
-  ] as const)('%s + %s starts at %s', (type, self, level) => {
-    const result = applySelfAssessment(withProfile(type), 'p1', self);
+    ['adult', 'A1'],
+    ['kid', 'L1'],
+  ] as const)('puts %s at %s', (type, level) => {
+    const result = startAtLowestLevel(withProfile(type), 'p1');
     if (!result.ok) throw new Error(result.error);
     expect(levelOf(result.value)).toBe(level);
   });
 
   it('refuses mini profiles and unknown ids', () => {
-    expect(applySelfAssessment(withProfile('mini'), 'p1', 'mid')).toEqual({
+    expect(startAtLowestLevel(withProfile('mini'), 'p1')).toEqual({
       ok: false,
       error: 'levelNotAllowed',
     });
-    expect(applySelfAssessment(withProfile('kid'), 'nope', 'mid')).toEqual({
+    expect(startAtLowestLevel(withProfile('kid'), 'nope')).toEqual({
       ok: false,
       error: 'unknownProfile',
     });
