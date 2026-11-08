@@ -1,12 +1,14 @@
 import type { ConfigContext, ExpoConfig } from 'expo/config';
 
-// Store identifiers (bundleIdentifier / package) are set in LNG-3 once the
-// Apple Developer and Google Play accounts exist. Until then the app runs as a
-// development build only.
+// Store identity (LNG-3). Never change BUNDLE_ID once the app is in a store.
+const BUNDLE_ID = 'com.ozkulfurkan.lingoyun';
+const EAS_PROJECT_ID = '3fa95618-9566-4b1b-bd92-6b7d09a0c320';
+
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: 'LINGOYUN',
   slug: 'lingoyun',
+  owner: 'ozkulfurkan',
   scheme: 'lingoyun',
   version: '0.1.0',
   orientation: 'portrait',
@@ -15,9 +17,11 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   // system light/dark setting, so the native UI style must be automatic.
   userInterfaceStyle: 'automatic',
   ios: {
+    bundleIdentifier: BUNDLE_ID,
     supportsTablet: true,
   },
   android: {
+    package: BUNDLE_ID,
     adaptiveIcon: {
       backgroundColor: '#FFE6CF',
       foregroundImage: './assets/android-icon-foreground.png',
@@ -26,8 +30,16 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
     predictiveBackGestureEnabled: false,
   },
-  plugins: ['expo-router'],
+  plugins: [
+    'expo-router',
+    // Uploads source maps on EAS builds; the token comes from SENTRY_AUTH_TOKEN.
+    ['@sentry/react-native/expo', { organization: 'ozkulfurkan', project: 'lingoyun' }],
+  ],
   experiments: {
     typedRoutes: true,
+  },
+  extra: {
+    ...config.extra,
+    eas: { projectId: EAS_PROJECT_ID },
   },
 });
