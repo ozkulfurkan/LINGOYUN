@@ -157,7 +157,16 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     6. Cümlelerde kutu çok satırlı; klavyedeki "Bitti" tuşu kontrol eder.
     7. Klavye açıkken alttaki butonlar klavyenin üstünde kalıyor mu (iOS ve Android)?
     8. 7–12 profilinde bu buton görünmez.
-- [ ] **LNG-28** CİHAZ — Deyimler ve yanıltıcı benzer kelimeler modu.
+- [~] **LNG-28** CİHAZ — Deyimler ve yanıltıcı benzer kelimeler modu.
+  - ✅ Yetişkin ana ekranında "Deyimler ve tuzaklar": çoktan seçmeli oyun, kursun bütün deyimleri (30) ve yanıltıcı benzer kelimeleri (15) İngilizce → Türkçe sorar; her yanıltıcı kelimede "tuzak" şık (ör. magazine → **mağaza**) her zaman seçeneklerdedir, cevaptan sonra kısa açıklama gösterilir.
+  - ✅ İçerik: 15 yanıltıcı benzer kelime (`src/content/concepts/false_friends.json`, A2 ünitesi) — sympathetic, actual, sensible, pathetic, fabric, library, magazine, agenda, pension, smoking, parole, nervous, realize, recipe, billion. İçerik şemasına `trap` ve `note` alanları eklendi (doğrulayıcı: tuzak doğru cevaplardan biri olamaz).
+  - Kararlar (gece çalışması, **Furkan kontrol etmeli**): liste ve açıklamalar benim; "pathetic → patetik" ve "realize → gerçekleştirmek" `review: true` (ince anlam farkı). Yanıltıcı kelimeler A2'ye kondu (A2 seviye atlaması için öğrenilmesi gereken kelime sayısı biraz arttı). Bu mod seviyeden bağımsız: bütün deyimler açık.
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. Yetişkin profiliyle "Deyimler ve tuzaklar" → İngilizce deyim/kelime, Türkçe şıklar.
+    2. "magazine", "library" gibi bir soru gelince şıklarda tuzak (mağaza, kitapçı) var mı?
+    3. Cevapladıktan sonra geri bildirim kutusunda açıklama ikinci satırda görünüyor mu, uzun açıklama taşmadan sığıyor mu?
+    4. Normal "Oyna" turunda da A2 seviyesindeysen yanıltıcı kelimeler çıkabilir; Türkçe → İngilizce sorulduğunda açıklama yine görünmeli.
 - [ ] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
 - [ ] **LNG-40** BULUT + FURKAN — Yetişkin içeriğini kolayca genişletme (Furkan'ın isteği: yetişkin içeriği LNG-15'teki listeyle sınırlı kalmayacak). Furkan kod ve birden çok JSON dosyasıyla uğraşmadan yeni kelime, cümle ve deyim ekleyebilmeli; tek bir kaynak dosya + komut, içeriği doğru yerlere dağıtır ve doğrular. Önkoşul: LNG-15.
   - Sorulacak: düzenleme biçimi ne olsun (Excel/Google Sheets'ten CSV mi, düz metin mi)?

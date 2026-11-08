@@ -2713,5 +2713,50 @@
   },
   "idiom.all_ears": {
     "text": "be all ears"
+  },
+  "false_friend.sympathetic": {
+    "text": "sympathetic"
+  },
+  "false_friend.actual": {
+    "text": "actual"
+  },
+  "false_friend.sensible": {
+    "text": "sensible"
+  },
+  "false_friend.pathetic": {
+    "text": "pathetic"
+  },
+  "false_friend.fabric": {
+    "text": "fabric"
+  },
+  "false_friend.library": {
+    "text": "library"
+  },
+  "false_friend.magazine": {
+    "text": "magazine"
+  },
+  "false_friend.agenda": {
+    "text": "agenda"
+  },
+  "false_friend.pension": {
+    "text": "pension"
+  },
+  "false_friend.smoking": {
+    "text": "smoking"
+  },
+  "false_friend.parole": {
+    "text": "parole"
+  },
+  "false_friend.nervous": {
+    "text": "nervous"
+  },
+  "false_friend.realize": {
+    "text": "realize"
+  },
+  "false_friend.recipe": {
+    "text": "recipe"
+  },
+  "false_friend.billion": {
+    "text": "billion"
   }
 }

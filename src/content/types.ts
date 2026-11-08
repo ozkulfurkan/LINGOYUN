@@ -26,6 +26,13 @@ export type Entry = {
   article?: string;
   /** Translation still needs a human check (content is not invented). */
   review?: boolean;
+  /**
+   * A look-alike word that is NOT the meaning (false friend), e.g. "mağaza"
+   * for "magazine". Always offered as a wrong option.
+   */
+  trap?: string;
+  /** Short explanation shown after answering, in this language. */
+  note?: string;
 };
 
 export type LanguageContent = {

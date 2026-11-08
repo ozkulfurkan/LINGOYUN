@@ -9,7 +9,8 @@
     "playLetters": "Harf dizme",
     "playSentences": "Cümle kurma",
     "stats": "{{gems}} taş · {{streak}} günlük seri",
-    "playTyping": "Yazarak çevir"
+    "playTyping": "Yazarak çevir",
+    "playExpressions": "Deyimler ve tuzaklar"
   },
   "common": {
     "continue": "Devam",
