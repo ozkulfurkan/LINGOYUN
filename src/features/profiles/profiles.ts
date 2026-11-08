@@ -9,7 +9,7 @@ import {
 } from './types';
 
 /** One family subscription covers up to this many profiles. */
-export const MAX_PROFILES = 6;
+export const MAX_PROFILES = 3;
 export const NICKNAME_MAX_LENGTH = 20;
 
 export const EMPTY_STATE: ProfilesState = { profiles: [], activeId: null };
