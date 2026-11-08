@@ -47,6 +47,8 @@ export function buildQuestion({
   const lang = getLanguage(answerLang);
   const norm = (s: string) => normalizeAnswer(lang, s);
   const correctTexts = new Set([answerEntry.text, ...(answerEntry.alt ?? [])].map(norm));
+  const promptNorm = (s: string) => normalizeAnswer(getLanguage(promptLang), s);
+  const promptTexts = new Set([promptEntry.text, ...(promptEntry.alt ?? [])].map(promptNorm));
 
   type Candidate = { concept: Concept; text: string; score: number };
   const candidates: Candidate[] = [];
@@ -60,6 +62,10 @@ export function buildQuestion({
     // Skip any option whose text (or one of its alternatives) is also a correct answer.
     const otherTexts = [entry.text, ...(entry.alt ?? [])].map(norm);
     if (otherTexts.some((t) => correctTexts.has(t))) continue;
+    // Homonyms: "orange" (fruit) asked → "turuncu" (colour, also "orange") would be correct too.
+    const otherPrompt = getEntry(bundle, promptLang, id);
+    const otherPromptTexts = otherPrompt ? [otherPrompt.text, ...(otherPrompt.alt ?? [])] : [];
+    if (otherPromptTexts.map(promptNorm).some((t) => promptTexts.has(t))) continue;
     candidates.push({
       concept: other,
       text: entry.text,

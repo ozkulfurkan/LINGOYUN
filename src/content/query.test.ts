@@ -17,19 +17,33 @@ describe('content queries', () => {
   });
 
   it('lists units by profile type and level', () => {
-    expect(unitsFor(content, 'tr-en', 'mini').map((u) => u.id)).toEqual(['mini.fruits']);
+    expect(unitsFor(content, 'tr-en', 'mini').map((u) => u.id)).toEqual([
+      'mini.animals',
+      'mini.food',
+      'mini.colors',
+      'mini.body',
+      'mini.home',
+      'mini.nature',
+    ]);
     expect(unitsFor(content, 'tr-en', 'kid', 'L1').map((u) => u.id)).toEqual(['kid.l1.fruits']);
     expect(unitsFor(content, 'tr-en', 'kid', 'L2')).toEqual([]);
     expect(unitsFor(content, 'tr-en', 'adult', 'B1')).toHaveLength(1);
   });
 
   it('resolves a unit to concepts in order', () => {
-    const [unit] = unitsFor(content, 'tr-en', 'mini');
-    expect(conceptsOf(content, unit).map((c) => c.id)).toEqual([
-      'fruit.apple',
-      'fruit.pear',
-      'fruit.cherry',
-      'fruit.grapes',
-    ]);
+    const food = unitsFor(content, 'tr-en', 'mini').find((u) => u.id === 'mini.food')!;
+    expect(
+      conceptsOf(content, food)
+        .slice(0, 4)
+        .map((c) => c.id),
+    ).toEqual(['fruit.apple', 'fruit.pear', 'fruit.cherry', 'fruit.grapes']);
+  });
+
+  it('has 300 picture words in six worlds of 50 for mini', () => {
+    const worlds = unitsFor(content, 'tr-en', 'mini');
+    expect(worlds.map((u) => u.concepts.length)).toEqual([50, 50, 50, 50, 50, 50]);
+    const all = worlds.flatMap((u) => conceptsOf(content, u));
+    expect(new Set(all.map((c) => c.id)).size).toBe(300);
+    expect(all.every((c) => c.image && c.kind === 'word')).toBe(true);
   });
 });

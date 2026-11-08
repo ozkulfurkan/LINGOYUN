@@ -62,6 +62,20 @@ export function validateContent(bundle: ContentBundle): ContentIssue[] {
     }
   }
 
+  // Same text for two concepts in one language (homonyms such as "orange"):
+  // allowed, but worth a look; the quiz generator keeps them apart.
+  for (const code of LANGUAGE_CODES) {
+    const lang = bundle.languages[code];
+    if (!lang) continue;
+    const byText = new Map<string, string>();
+    for (const [id, entry] of [...Object.entries(lang.words), ...Object.entries(lang.sentences)]) {
+      const key = entry.text.toLowerCase();
+      const other = byText.get(key);
+      if (other) warn(`languages/${code} › ${id}`, `same text as ${other}: "${entry.text}"`);
+      else byText.set(key, id);
+    }
+  }
+
   // Courses
   const courseIds = new Set<string>();
   for (const course of bundle.courses) {

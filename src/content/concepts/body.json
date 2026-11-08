@@ -1,0 +1,352 @@
+[
+  {
+    "id": "body.head",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.head"
+  },
+  {
+    "id": "body.hair",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.hair"
+  },
+  {
+    "id": "body.face",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.face"
+  },
+  {
+    "id": "body.eye",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.eye"
+  },
+  {
+    "id": "body.ear",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.ear"
+  },
+  {
+    "id": "body.nose",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.nose"
+  },
+  {
+    "id": "body.mouth",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.mouth"
+  },
+  {
+    "id": "body.tooth",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.tooth"
+  },
+  {
+    "id": "body.tongue",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.tongue"
+  },
+  {
+    "id": "body.lips",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.lips"
+  },
+  {
+    "id": "body.cheek",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.cheek"
+  },
+  {
+    "id": "body.chin",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.chin"
+  },
+  {
+    "id": "body.eyebrow",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.eyebrow"
+  },
+  {
+    "id": "body.neck",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.neck"
+  },
+  {
+    "id": "body.shoulder",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.shoulder"
+  },
+  {
+    "id": "body.arm",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.arm"
+  },
+  {
+    "id": "body.elbow",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.elbow"
+  },
+  {
+    "id": "body.hand",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.hand"
+  },
+  {
+    "id": "body.finger",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.finger"
+  },
+  {
+    "id": "body.tummy",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.tummy"
+  },
+  {
+    "id": "body.back",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.back"
+  },
+  {
+    "id": "body.leg",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.leg"
+  },
+  {
+    "id": "body.knee",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.knee"
+  },
+  {
+    "id": "body.foot",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.foot"
+  },
+  {
+    "id": "body.toe",
+    "topic": "body",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "body.toe"
+  },
+  {
+    "id": "clothes.shirt",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.shirt"
+  },
+  {
+    "id": "clothes.tshirt",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.tshirt"
+  },
+  {
+    "id": "clothes.pants",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.pants"
+  },
+  {
+    "id": "clothes.shorts",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.shorts"
+  },
+  {
+    "id": "clothes.skirt",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.skirt"
+  },
+  {
+    "id": "clothes.dress",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.dress"
+  },
+  {
+    "id": "clothes.coat",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.coat"
+  },
+  {
+    "id": "clothes.jacket",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.jacket"
+  },
+  {
+    "id": "clothes.sweater",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.sweater"
+  },
+  {
+    "id": "clothes.pajamas",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.pajamas"
+  },
+  {
+    "id": "clothes.swimsuit",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.swimsuit"
+  },
+  {
+    "id": "clothes.raincoat",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.raincoat"
+  },
+  {
+    "id": "clothes.shoes",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.shoes"
+  },
+  {
+    "id": "clothes.boots",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.boots"
+  },
+  {
+    "id": "clothes.slippers",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.slippers"
+  },
+  {
+    "id": "clothes.socks",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.socks"
+  },
+  {
+    "id": "clothes.hat",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.hat"
+  },
+  {
+    "id": "clothes.scarf",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.scarf"
+  },
+  {
+    "id": "clothes.gloves",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.gloves"
+  },
+  {
+    "id": "clothes.belt",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.belt"
+  },
+  {
+    "id": "clothes.glasses",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.glasses"
+  },
+  {
+    "id": "clothes.bag",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.bag"
+  },
+  {
+    "id": "clothes.umbrella",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.umbrella"
+  },
+  {
+    "id": "clothes.button",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.button"
+  },
+  {
+    "id": "clothes.zipper",
+    "topic": "clothes",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "clothes.zipper"
+  }
+]

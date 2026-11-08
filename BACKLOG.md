@@ -32,8 +32,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 2 — İçerik
 
-- [ ] **LNG-12** BULUT — 2–7 yaş 300 kelime taslağı (6 tema × 50), EN + TR, resimlenebilir somut kelimeler. Furkan onayına sunulur.
-- [ ] **LNG-13** FURKAN — LNG-12 listesinin onayı.
+- [x] **LNG-12** BULUT — 2–7 yaş 300 kelime taslağı (6 tema × 50), EN + TR, resimlenebilir somut kelimeler. Furkan onayına sunulur.
+- [ ] **LNG-13** FURKAN — LNG-12 listesinin onayı: `docs/content/mini-words.md` (8 çeviri 🔍 kontrol bekliyor).
 - [ ] **LNG-14** BULUT — 7–12 yaş Seviye 1–3 içeriği (~250 kelime + 60 basit cümle).
 - [ ] **LNG-15** BULUT — Yetişkin A1–A2 içeriği (~600 kelime + 150 cümle + 30 deyim).
 

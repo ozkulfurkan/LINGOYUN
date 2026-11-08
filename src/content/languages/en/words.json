@@ -1,7 +1,977 @@
 {
-  "fruit.apple": { "text": "apple", "article": "an" },
-  "fruit.pear": { "text": "pear", "article": "a" },
-  "fruit.cherry": { "text": "cherry", "article": "a" },
-  "fruit.grapes": { "text": "grapes", "alt": ["grape"] },
-  "emotion.reluctant": { "text": "reluctant", "alt": ["unwilling"] }
+  "animal.cat": {
+    "text": "cat"
+  },
+  "animal.dog": {
+    "text": "dog"
+  },
+  "animal.bird": {
+    "text": "bird"
+  },
+  "animal.fish": {
+    "text": "fish"
+  },
+  "animal.horse": {
+    "text": "horse"
+  },
+  "animal.cow": {
+    "text": "cow"
+  },
+  "animal.sheep": {
+    "text": "sheep"
+  },
+  "animal.goat": {
+    "text": "goat"
+  },
+  "animal.chicken": {
+    "text": "chicken"
+  },
+  "animal.rooster": {
+    "text": "rooster"
+  },
+  "animal.duck": {
+    "text": "duck"
+  },
+  "animal.donkey": {
+    "text": "donkey"
+  },
+  "animal.rabbit": {
+    "text": "rabbit",
+    "alt": ["bunny"]
+  },
+  "animal.mouse": {
+    "text": "mouse"
+  },
+  "animal.lion": {
+    "text": "lion"
+  },
+  "animal.tiger": {
+    "text": "tiger"
+  },
+  "animal.elephant": {
+    "text": "elephant"
+  },
+  "animal.monkey": {
+    "text": "monkey"
+  },
+  "animal.giraffe": {
+    "text": "giraffe"
+  },
+  "animal.zebra": {
+    "text": "zebra"
+  },
+  "animal.bear": {
+    "text": "bear"
+  },
+  "animal.wolf": {
+    "text": "wolf"
+  },
+  "animal.fox": {
+    "text": "fox"
+  },
+  "animal.snake": {
+    "text": "snake"
+  },
+  "animal.frog": {
+    "text": "frog"
+  },
+  "animal.turtle": {
+    "text": "turtle",
+    "alt": ["tortoise"]
+  },
+  "animal.bee": {
+    "text": "bee"
+  },
+  "animal.butterfly": {
+    "text": "butterfly"
+  },
+  "animal.ant": {
+    "text": "ant"
+  },
+  "animal.spider": {
+    "text": "spider"
+  },
+  "animal.owl": {
+    "text": "owl"
+  },
+  "animal.penguin": {
+    "text": "penguin"
+  },
+  "animal.dolphin": {
+    "text": "dolphin"
+  },
+  "animal.whale": {
+    "text": "whale"
+  },
+  "animal.shark": {
+    "text": "shark"
+  },
+  "animal.crab": {
+    "text": "crab"
+  },
+  "animal.octopus": {
+    "text": "octopus"
+  },
+  "animal.camel": {
+    "text": "camel"
+  },
+  "animal.kangaroo": {
+    "text": "kangaroo"
+  },
+  "animal.panda": {
+    "text": "panda"
+  },
+  "animal.squirrel": {
+    "text": "squirrel"
+  },
+  "animal.hedgehog": {
+    "text": "hedgehog"
+  },
+  "animal.deer": {
+    "text": "deer"
+  },
+  "animal.snail": {
+    "text": "snail"
+  },
+  "animal.ladybug": {
+    "text": "ladybug",
+    "alt": ["ladybird"]
+  },
+  "animal.parrot": {
+    "text": "parrot"
+  },
+  "animal.eagle": {
+    "text": "eagle"
+  },
+  "animal.crocodile": {
+    "text": "crocodile"
+  },
+  "animal.hippo": {
+    "text": "hippo",
+    "alt": ["hippopotamus"]
+  },
+  "animal.worm": {
+    "text": "worm"
+  },
+  "fruit.apple": {
+    "text": "apple"
+  },
+  "fruit.pear": {
+    "text": "pear"
+  },
+  "fruit.cherry": {
+    "text": "cherry"
+  },
+  "fruit.grapes": {
+    "text": "grapes",
+    "alt": ["grape"]
+  },
+  "fruit.banana": {
+    "text": "banana"
+  },
+  "fruit.orange": {
+    "text": "orange"
+  },
+  "fruit.strawberry": {
+    "text": "strawberry"
+  },
+  "fruit.watermelon": {
+    "text": "watermelon"
+  },
+  "fruit.lemon": {
+    "text": "lemon"
+  },
+  "fruit.peach": {
+    "text": "peach"
+  },
+  "fruit.apricot": {
+    "text": "apricot"
+  },
+  "fruit.fig": {
+    "text": "fig"
+  },
+  "fruit.plum": {
+    "text": "plum"
+  },
+  "fruit.pineapple": {
+    "text": "pineapple"
+  },
+  "fruit.hazelnut": {
+    "text": "hazelnut"
+  },
+  "vegetable.carrot": {
+    "text": "carrot"
+  },
+  "vegetable.tomato": {
+    "text": "tomato"
+  },
+  "vegetable.potato": {
+    "text": "potato"
+  },
+  "vegetable.cucumber": {
+    "text": "cucumber",
+    "alt": ["cucumbers"]
+  },
+  "vegetable.onion": {
+    "text": "onion"
+  },
+  "vegetable.pepper": {
+    "text": "pepper"
+  },
+  "vegetable.corn": {
+    "text": "corn"
+  },
+  "vegetable.peas": {
+    "text": "peas"
+  },
+  "vegetable.mushroom": {
+    "text": "mushroom"
+  },
+  "vegetable.pumpkin": {
+    "text": "pumpkin"
+  },
+  "food.bread": {
+    "text": "bread"
+  },
+  "food.cheese": {
+    "text": "cheese"
+  },
+  "food.egg": {
+    "text": "egg"
+  },
+  "food.rice": {
+    "text": "rice"
+  },
+  "food.pasta": {
+    "text": "pasta"
+  },
+  "food.soup": {
+    "text": "soup"
+  },
+  "food.meat": {
+    "text": "meat"
+  },
+  "food.salad": {
+    "text": "salad"
+  },
+  "food.sandwich": {
+    "text": "sandwich"
+  },
+  "food.pizza": {
+    "text": "pizza"
+  },
+  "food.cake": {
+    "text": "cake"
+  },
+  "food.cookie": {
+    "text": "cookie",
+    "alt": ["biscuit"]
+  },
+  "food.candy": {
+    "text": "candy",
+    "alt": ["sweets"]
+  },
+  "food.ice_cream": {
+    "text": "ice cream"
+  },
+  "food.chocolate": {
+    "text": "chocolate"
+  },
+  "food.honey": {
+    "text": "honey"
+  },
+  "food.yogurt": {
+    "text": "yogurt",
+    "alt": ["yoghurt"]
+  },
+  "food.butter": {
+    "text": "butter"
+  },
+  "food.jam": {
+    "text": "jam"
+  },
+  "food.olive": {
+    "text": "olive"
+  },
+  "food.popcorn": {
+    "text": "popcorn"
+  },
+  "drink.milk": {
+    "text": "milk"
+  },
+  "drink.water": {
+    "text": "water"
+  },
+  "drink.juice": {
+    "text": "juice"
+  },
+  "drink.tea": {
+    "text": "tea"
+  },
+  "color.red": {
+    "text": "red"
+  },
+  "color.blue": {
+    "text": "blue"
+  },
+  "color.yellow": {
+    "text": "yellow"
+  },
+  "color.green": {
+    "text": "green"
+  },
+  "color.orange": {
+    "text": "orange"
+  },
+  "color.purple": {
+    "text": "purple"
+  },
+  "color.pink": {
+    "text": "pink"
+  },
+  "color.brown": {
+    "text": "brown"
+  },
+  "color.black": {
+    "text": "black"
+  },
+  "color.white": {
+    "text": "white"
+  },
+  "color.gray": {
+    "text": "gray",
+    "alt": ["grey"]
+  },
+  "shape.circle": {
+    "text": "circle",
+    "alt": ["round"]
+  },
+  "shape.square": {
+    "text": "square"
+  },
+  "shape.triangle": {
+    "text": "triangle"
+  },
+  "shape.star": {
+    "text": "star"
+  },
+  "shape.heart": {
+    "text": "heart"
+  },
+  "shape.rectangle": {
+    "text": "rectangle"
+  },
+  "shape.oval": {
+    "text": "oval"
+  },
+  "number.one": {
+    "text": "one",
+    "alt": ["1"]
+  },
+  "number.two": {
+    "text": "two",
+    "alt": ["2"]
+  },
+  "number.three": {
+    "text": "three",
+    "alt": ["3"]
+  },
+  "number.four": {
+    "text": "four",
+    "alt": ["4"]
+  },
+  "number.five": {
+    "text": "five",
+    "alt": ["5"]
+  },
+  "number.six": {
+    "text": "six",
+    "alt": ["6"]
+  },
+  "number.seven": {
+    "text": "seven",
+    "alt": ["7"]
+  },
+  "number.eight": {
+    "text": "eight",
+    "alt": ["8"]
+  },
+  "number.nine": {
+    "text": "nine",
+    "alt": ["9"]
+  },
+  "number.ten": {
+    "text": "ten",
+    "alt": ["10"]
+  },
+  "number.eleven": {
+    "text": "eleven",
+    "alt": ["11"]
+  },
+  "number.twelve": {
+    "text": "twelve",
+    "alt": ["12"]
+  },
+  "number.thirteen": {
+    "text": "thirteen",
+    "alt": ["13"]
+  },
+  "number.fourteen": {
+    "text": "fourteen",
+    "alt": ["14"]
+  },
+  "number.fifteen": {
+    "text": "fifteen",
+    "alt": ["15"]
+  },
+  "number.sixteen": {
+    "text": "sixteen",
+    "alt": ["16"]
+  },
+  "number.seventeen": {
+    "text": "seventeen",
+    "alt": ["17"]
+  },
+  "number.eighteen": {
+    "text": "eighteen",
+    "alt": ["18"]
+  },
+  "number.nineteen": {
+    "text": "nineteen",
+    "alt": ["19"]
+  },
+  "number.twenty": {
+    "text": "twenty",
+    "alt": ["20"]
+  },
+  "opposite.big": {
+    "text": "big",
+    "alt": ["large"]
+  },
+  "opposite.small": {
+    "text": "small",
+    "alt": ["little"]
+  },
+  "opposite.long": {
+    "text": "long"
+  },
+  "opposite.short": {
+    "text": "short"
+  },
+  "opposite.hot": {
+    "text": "hot"
+  },
+  "opposite.cold": {
+    "text": "cold"
+  },
+  "opposite.up": {
+    "text": "up"
+  },
+  "opposite.down": {
+    "text": "down"
+  },
+  "opposite.happy": {
+    "text": "happy"
+  },
+  "opposite.sad": {
+    "text": "sad"
+  },
+  "opposite.fast": {
+    "text": "fast"
+  },
+  "opposite.slow": {
+    "text": "slow"
+  },
+  "body.head": {
+    "text": "head"
+  },
+  "body.hair": {
+    "text": "hair"
+  },
+  "body.face": {
+    "text": "face"
+  },
+  "body.eye": {
+    "text": "eye"
+  },
+  "body.ear": {
+    "text": "ear"
+  },
+  "body.nose": {
+    "text": "nose"
+  },
+  "body.mouth": {
+    "text": "mouth"
+  },
+  "body.tooth": {
+    "text": "tooth",
+    "alt": ["teeth"]
+  },
+  "body.tongue": {
+    "text": "tongue"
+  },
+  "body.lips": {
+    "text": "lips",
+    "alt": ["lip"]
+  },
+  "body.cheek": {
+    "text": "cheek"
+  },
+  "body.chin": {
+    "text": "chin"
+  },
+  "body.eyebrow": {
+    "text": "eyebrow"
+  },
+  "body.neck": {
+    "text": "neck"
+  },
+  "body.shoulder": {
+    "text": "shoulder"
+  },
+  "body.arm": {
+    "text": "arm"
+  },
+  "body.elbow": {
+    "text": "elbow"
+  },
+  "body.hand": {
+    "text": "hand"
+  },
+  "body.finger": {
+    "text": "finger"
+  },
+  "body.tummy": {
+    "text": "tummy",
+    "alt": ["belly"]
+  },
+  "body.back": {
+    "text": "back"
+  },
+  "body.leg": {
+    "text": "leg"
+  },
+  "body.knee": {
+    "text": "knee"
+  },
+  "body.foot": {
+    "text": "foot",
+    "alt": ["feet"]
+  },
+  "body.toe": {
+    "text": "toe"
+  },
+  "clothes.shirt": {
+    "text": "shirt"
+  },
+  "clothes.tshirt": {
+    "text": "T-shirt",
+    "alt": ["tee"]
+  },
+  "clothes.pants": {
+    "text": "pants",
+    "alt": ["trousers"]
+  },
+  "clothes.shorts": {
+    "text": "shorts"
+  },
+  "clothes.skirt": {
+    "text": "skirt"
+  },
+  "clothes.dress": {
+    "text": "dress"
+  },
+  "clothes.coat": {
+    "text": "coat"
+  },
+  "clothes.jacket": {
+    "text": "jacket"
+  },
+  "clothes.sweater": {
+    "text": "sweater",
+    "alt": ["jumper"]
+  },
+  "clothes.pajamas": {
+    "text": "pajamas",
+    "alt": ["pyjamas"]
+  },
+  "clothes.swimsuit": {
+    "text": "swimsuit"
+  },
+  "clothes.raincoat": {
+    "text": "raincoat"
+  },
+  "clothes.shoes": {
+    "text": "shoes",
+    "alt": ["shoe"]
+  },
+  "clothes.boots": {
+    "text": "boots",
+    "alt": ["boot"]
+  },
+  "clothes.slippers": {
+    "text": "slippers",
+    "alt": ["slipper"]
+  },
+  "clothes.socks": {
+    "text": "socks",
+    "alt": ["sock"]
+  },
+  "clothes.hat": {
+    "text": "hat"
+  },
+  "clothes.scarf": {
+    "text": "scarf"
+  },
+  "clothes.gloves": {
+    "text": "gloves",
+    "alt": ["glove"]
+  },
+  "clothes.belt": {
+    "text": "belt"
+  },
+  "clothes.glasses": {
+    "text": "glasses"
+  },
+  "clothes.bag": {
+    "text": "bag"
+  },
+  "clothes.umbrella": {
+    "text": "umbrella"
+  },
+  "clothes.button": {
+    "text": "button"
+  },
+  "clothes.zipper": {
+    "text": "zipper",
+    "alt": ["zip"]
+  },
+  "home.house": {
+    "text": "house",
+    "alt": ["home"]
+  },
+  "home.door": {
+    "text": "door"
+  },
+  "home.window": {
+    "text": "window"
+  },
+  "home.table": {
+    "text": "table"
+  },
+  "home.chair": {
+    "text": "chair"
+  },
+  "home.bed": {
+    "text": "bed"
+  },
+  "home.sofa": {
+    "text": "sofa",
+    "alt": ["couch"]
+  },
+  "home.lamp": {
+    "text": "lamp"
+  },
+  "home.clock": {
+    "text": "clock"
+  },
+  "home.mirror": {
+    "text": "mirror"
+  },
+  "home.bathtub": {
+    "text": "bathtub",
+    "alt": ["bath"]
+  },
+  "home.toilet": {
+    "text": "toilet"
+  },
+  "home.sink": {
+    "text": "sink"
+  },
+  "home.fridge": {
+    "text": "fridge",
+    "alt": ["refrigerator"]
+  },
+  "home.oven": {
+    "text": "oven"
+  },
+  "home.cup": {
+    "text": "cup",
+    "alt": ["mug"]
+  },
+  "home.glass": {
+    "text": "glass"
+  },
+  "home.plate": {
+    "text": "plate"
+  },
+  "home.bowl": {
+    "text": "bowl"
+  },
+  "home.spoon": {
+    "text": "spoon"
+  },
+  "home.fork": {
+    "text": "fork"
+  },
+  "home.pillow": {
+    "text": "pillow"
+  },
+  "home.blanket": {
+    "text": "blanket"
+  },
+  "home.towel": {
+    "text": "towel"
+  },
+  "home.soap": {
+    "text": "soap"
+  },
+  "home.toothbrush": {
+    "text": "toothbrush"
+  },
+  "home.key": {
+    "text": "key"
+  },
+  "home.phone": {
+    "text": "phone",
+    "alt": ["telephone"]
+  },
+  "home.television": {
+    "text": "television",
+    "alt": ["TV"]
+  },
+  "home.book": {
+    "text": "book"
+  },
+  "home.pencil": {
+    "text": "pencil"
+  },
+  "home.crayon": {
+    "text": "crayon",
+    "alt": ["crayons"]
+  },
+  "home.scissors": {
+    "text": "scissors"
+  },
+  "home.box": {
+    "text": "box"
+  },
+  "toy.ball": {
+    "text": "ball"
+  },
+  "toy.doll": {
+    "text": "doll"
+  },
+  "toy.teddy_bear": {
+    "text": "teddy bear",
+    "alt": ["teddy"]
+  },
+  "toy.toy_car": {
+    "text": "toy car"
+  },
+  "toy.toy_train": {
+    "text": "toy train"
+  },
+  "toy.blocks": {
+    "text": "blocks",
+    "alt": ["building blocks", "block"]
+  },
+  "toy.puzzle": {
+    "text": "puzzle",
+    "alt": ["jigsaw"]
+  },
+  "toy.kite": {
+    "text": "kite"
+  },
+  "toy.balloon": {
+    "text": "balloon"
+  },
+  "toy.drum": {
+    "text": "drum"
+  },
+  "toy.robot": {
+    "text": "robot"
+  },
+  "toy.yoyo": {
+    "text": "yo-yo"
+  },
+  "toy.bubbles": {
+    "text": "bubbles",
+    "alt": ["bubble"]
+  },
+  "toy.slide": {
+    "text": "slide"
+  },
+  "toy.swing": {
+    "text": "swing"
+  },
+  "toy.jump_rope": {
+    "text": "jump rope",
+    "alt": ["skipping rope"]
+  },
+  "nature.sun": {
+    "text": "sun"
+  },
+  "nature.moon": {
+    "text": "moon"
+  },
+  "nature.cloud": {
+    "text": "cloud"
+  },
+  "nature.rain": {
+    "text": "rain"
+  },
+  "nature.snow": {
+    "text": "snow"
+  },
+  "nature.ice": {
+    "text": "ice"
+  },
+  "nature.wind": {
+    "text": "wind"
+  },
+  "nature.lightning": {
+    "text": "lightning"
+  },
+  "nature.rainbow": {
+    "text": "rainbow"
+  },
+  "nature.sky": {
+    "text": "sky"
+  },
+  "nature.tree": {
+    "text": "tree"
+  },
+  "nature.flower": {
+    "text": "flower"
+  },
+  "nature.leaf": {
+    "text": "leaf"
+  },
+  "nature.grass": {
+    "text": "grass"
+  },
+  "nature.forest": {
+    "text": "forest",
+    "alt": ["woods"]
+  },
+  "nature.mountain": {
+    "text": "mountain"
+  },
+  "nature.volcano": {
+    "text": "volcano"
+  },
+  "nature.river": {
+    "text": "river"
+  },
+  "nature.lake": {
+    "text": "lake"
+  },
+  "nature.sea": {
+    "text": "sea"
+  },
+  "nature.island": {
+    "text": "island"
+  },
+  "nature.beach": {
+    "text": "beach"
+  },
+  "nature.sand": {
+    "text": "sand"
+  },
+  "nature.rock": {
+    "text": "rock",
+    "alt": ["stone"]
+  },
+  "nature.fire": {
+    "text": "fire"
+  },
+  "vehicle.car": {
+    "text": "car"
+  },
+  "vehicle.bus": {
+    "text": "bus"
+  },
+  "vehicle.truck": {
+    "text": "truck",
+    "alt": ["lorry"]
+  },
+  "vehicle.train": {
+    "text": "train"
+  },
+  "vehicle.plane": {
+    "text": "plane",
+    "alt": ["airplane", "aeroplane"]
+  },
+  "vehicle.helicopter": {
+    "text": "helicopter"
+  },
+  "vehicle.boat": {
+    "text": "boat"
+  },
+  "vehicle.ship": {
+    "text": "ship"
+  },
+  "vehicle.bicycle": {
+    "text": "bicycle",
+    "alt": ["bike"]
+  },
+  "vehicle.motorcycle": {
+    "text": "motorcycle",
+    "alt": ["motorbike"]
+  },
+  "vehicle.taxi": {
+    "text": "taxi",
+    "alt": ["cab"]
+  },
+  "vehicle.ambulance": {
+    "text": "ambulance"
+  },
+  "vehicle.fire_truck": {
+    "text": "fire truck",
+    "alt": ["fire engine"]
+  },
+  "vehicle.police_car": {
+    "text": "police car"
+  },
+  "vehicle.tractor": {
+    "text": "tractor"
+  },
+  "vehicle.rocket": {
+    "text": "rocket"
+  },
+  "vehicle.submarine": {
+    "text": "submarine"
+  },
+  "vehicle.tram": {
+    "text": "tram"
+  },
+  "vehicle.subway": {
+    "text": "subway",
+    "alt": ["underground", "metro"]
+  },
+  "vehicle.hot_air_balloon": {
+    "text": "hot air balloon"
+  },
+  "vehicle.sled": {
+    "text": "sled",
+    "alt": ["sledge"]
+  },
+  "vehicle.skateboard": {
+    "text": "skateboard"
+  },
+  "vehicle.wheel": {
+    "text": "wheel"
+  },
+  "vehicle.road": {
+    "text": "road"
+  },
+  "vehicle.traffic_light": {
+    "text": "traffic light",
+    "alt": ["traffic lights"]
+  },
+  "emotion.reluctant": {
+    "text": "reluctant",
+    "alt": ["unwilling"]
+  }
 }

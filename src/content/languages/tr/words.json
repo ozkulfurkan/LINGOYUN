@@ -1,7 +1,965 @@
 {
-  "fruit.apple": { "text": "elma" },
-  "fruit.pear": { "text": "armut" },
-  "fruit.cherry": { "text": "kiraz" },
-  "fruit.grapes": { "text": "üzüm" },
-  "emotion.reluctant": { "text": "isteksiz", "alt": ["gönülsüz"] }
+  "animal.cat": {
+    "text": "kedi"
+  },
+  "animal.dog": {
+    "text": "köpek"
+  },
+  "animal.bird": {
+    "text": "kuş"
+  },
+  "animal.fish": {
+    "text": "balık"
+  },
+  "animal.horse": {
+    "text": "at"
+  },
+  "animal.cow": {
+    "text": "inek"
+  },
+  "animal.sheep": {
+    "text": "koyun"
+  },
+  "animal.goat": {
+    "text": "keçi"
+  },
+  "animal.chicken": {
+    "text": "tavuk"
+  },
+  "animal.rooster": {
+    "text": "horoz"
+  },
+  "animal.duck": {
+    "text": "ördek"
+  },
+  "animal.donkey": {
+    "text": "eşek"
+  },
+  "animal.rabbit": {
+    "text": "tavşan"
+  },
+  "animal.mouse": {
+    "text": "fare"
+  },
+  "animal.lion": {
+    "text": "aslan"
+  },
+  "animal.tiger": {
+    "text": "kaplan"
+  },
+  "animal.elephant": {
+    "text": "fil"
+  },
+  "animal.monkey": {
+    "text": "maymun"
+  },
+  "animal.giraffe": {
+    "text": "zürafa"
+  },
+  "animal.zebra": {
+    "text": "zebra"
+  },
+  "animal.bear": {
+    "text": "ayı"
+  },
+  "animal.wolf": {
+    "text": "kurt"
+  },
+  "animal.fox": {
+    "text": "tilki"
+  },
+  "animal.snake": {
+    "text": "yılan"
+  },
+  "animal.frog": {
+    "text": "kurbağa"
+  },
+  "animal.turtle": {
+    "text": "kaplumbağa"
+  },
+  "animal.bee": {
+    "text": "arı"
+  },
+  "animal.butterfly": {
+    "text": "kelebek"
+  },
+  "animal.ant": {
+    "text": "karınca"
+  },
+  "animal.spider": {
+    "text": "örümcek"
+  },
+  "animal.owl": {
+    "text": "baykuş"
+  },
+  "animal.penguin": {
+    "text": "penguen"
+  },
+  "animal.dolphin": {
+    "text": "yunus"
+  },
+  "animal.whale": {
+    "text": "balina"
+  },
+  "animal.shark": {
+    "text": "köpek balığı",
+    "alt": ["köpekbalığı"]
+  },
+  "animal.crab": {
+    "text": "yengeç"
+  },
+  "animal.octopus": {
+    "text": "ahtapot"
+  },
+  "animal.camel": {
+    "text": "deve"
+  },
+  "animal.kangaroo": {
+    "text": "kanguru"
+  },
+  "animal.panda": {
+    "text": "panda"
+  },
+  "animal.squirrel": {
+    "text": "sincap"
+  },
+  "animal.hedgehog": {
+    "text": "kirpi"
+  },
+  "animal.deer": {
+    "text": "geyik"
+  },
+  "animal.snail": {
+    "text": "salyangoz"
+  },
+  "animal.ladybug": {
+    "text": "uğur böceği",
+    "alt": ["uğurböceği"]
+  },
+  "animal.parrot": {
+    "text": "papağan"
+  },
+  "animal.eagle": {
+    "text": "kartal"
+  },
+  "animal.crocodile": {
+    "text": "timsah"
+  },
+  "animal.hippo": {
+    "text": "su aygırı",
+    "alt": ["hipopotam"]
+  },
+  "animal.worm": {
+    "text": "solucan"
+  },
+  "fruit.apple": {
+    "text": "elma"
+  },
+  "fruit.pear": {
+    "text": "armut"
+  },
+  "fruit.cherry": {
+    "text": "kiraz"
+  },
+  "fruit.grapes": {
+    "text": "üzüm"
+  },
+  "fruit.banana": {
+    "text": "muz"
+  },
+  "fruit.orange": {
+    "text": "portakal"
+  },
+  "fruit.strawberry": {
+    "text": "çilek"
+  },
+  "fruit.watermelon": {
+    "text": "karpuz"
+  },
+  "fruit.lemon": {
+    "text": "limon"
+  },
+  "fruit.peach": {
+    "text": "şeftali"
+  },
+  "fruit.apricot": {
+    "text": "kayısı"
+  },
+  "fruit.fig": {
+    "text": "incir"
+  },
+  "fruit.plum": {
+    "text": "erik"
+  },
+  "fruit.pineapple": {
+    "text": "ananas"
+  },
+  "fruit.hazelnut": {
+    "text": "fındık"
+  },
+  "vegetable.carrot": {
+    "text": "havuç"
+  },
+  "vegetable.tomato": {
+    "text": "domates"
+  },
+  "vegetable.potato": {
+    "text": "patates"
+  },
+  "vegetable.cucumber": {
+    "text": "salatalık",
+    "alt": ["hıyar"]
+  },
+  "vegetable.onion": {
+    "text": "soğan"
+  },
+  "vegetable.pepper": {
+    "text": "biber"
+  },
+  "vegetable.corn": {
+    "text": "mısır"
+  },
+  "vegetable.peas": {
+    "text": "bezelye"
+  },
+  "vegetable.mushroom": {
+    "text": "mantar"
+  },
+  "vegetable.pumpkin": {
+    "text": "balkabağı",
+    "alt": ["bal kabağı"]
+  },
+  "food.bread": {
+    "text": "ekmek"
+  },
+  "food.cheese": {
+    "text": "peynir"
+  },
+  "food.egg": {
+    "text": "yumurta"
+  },
+  "food.rice": {
+    "text": "pirinç",
+    "alt": ["pilav"],
+    "review": true
+  },
+  "food.pasta": {
+    "text": "makarna"
+  },
+  "food.soup": {
+    "text": "çorba"
+  },
+  "food.meat": {
+    "text": "et"
+  },
+  "food.salad": {
+    "text": "salata"
+  },
+  "food.sandwich": {
+    "text": "sandviç"
+  },
+  "food.pizza": {
+    "text": "pizza"
+  },
+  "food.cake": {
+    "text": "pasta",
+    "alt": ["kek"],
+    "review": true
+  },
+  "food.cookie": {
+    "text": "kurabiye"
+  },
+  "food.candy": {
+    "text": "şeker"
+  },
+  "food.ice_cream": {
+    "text": "dondurma"
+  },
+  "food.chocolate": {
+    "text": "çikolata"
+  },
+  "food.honey": {
+    "text": "bal"
+  },
+  "food.yogurt": {
+    "text": "yoğurt"
+  },
+  "food.butter": {
+    "text": "tereyağı"
+  },
+  "food.jam": {
+    "text": "reçel"
+  },
+  "food.olive": {
+    "text": "zeytin"
+  },
+  "food.popcorn": {
+    "text": "patlamış mısır"
+  },
+  "drink.milk": {
+    "text": "süt"
+  },
+  "drink.water": {
+    "text": "su"
+  },
+  "drink.juice": {
+    "text": "meyve suyu"
+  },
+  "drink.tea": {
+    "text": "çay"
+  },
+  "color.red": {
+    "text": "kırmızı"
+  },
+  "color.blue": {
+    "text": "mavi"
+  },
+  "color.yellow": {
+    "text": "sarı"
+  },
+  "color.green": {
+    "text": "yeşil"
+  },
+  "color.orange": {
+    "text": "turuncu"
+  },
+  "color.purple": {
+    "text": "mor"
+  },
+  "color.pink": {
+    "text": "pembe"
+  },
+  "color.brown": {
+    "text": "kahverengi"
+  },
+  "color.black": {
+    "text": "siyah"
+  },
+  "color.white": {
+    "text": "beyaz"
+  },
+  "color.gray": {
+    "text": "gri"
+  },
+  "shape.circle": {
+    "text": "daire",
+    "alt": ["yuvarlak"]
+  },
+  "shape.square": {
+    "text": "kare"
+  },
+  "shape.triangle": {
+    "text": "üçgen"
+  },
+  "shape.star": {
+    "text": "yıldız"
+  },
+  "shape.heart": {
+    "text": "kalp"
+  },
+  "shape.rectangle": {
+    "text": "dikdörtgen"
+  },
+  "shape.oval": {
+    "text": "oval"
+  },
+  "number.one": {
+    "text": "bir",
+    "alt": ["1"]
+  },
+  "number.two": {
+    "text": "iki",
+    "alt": ["2"]
+  },
+  "number.three": {
+    "text": "üç",
+    "alt": ["3"]
+  },
+  "number.four": {
+    "text": "dört",
+    "alt": ["4"]
+  },
+  "number.five": {
+    "text": "beş",
+    "alt": ["5"]
+  },
+  "number.six": {
+    "text": "altı",
+    "alt": ["6"]
+  },
+  "number.seven": {
+    "text": "yedi",
+    "alt": ["7"]
+  },
+  "number.eight": {
+    "text": "sekiz",
+    "alt": ["8"]
+  },
+  "number.nine": {
+    "text": "dokuz",
+    "alt": ["9"]
+  },
+  "number.ten": {
+    "text": "on",
+    "alt": ["10"]
+  },
+  "number.eleven": {
+    "text": "on bir",
+    "alt": ["11", "onbir"]
+  },
+  "number.twelve": {
+    "text": "on iki",
+    "alt": ["12", "oniki"]
+  },
+  "number.thirteen": {
+    "text": "on üç",
+    "alt": ["13", "onüç"]
+  },
+  "number.fourteen": {
+    "text": "on dört",
+    "alt": ["14", "ondört"]
+  },
+  "number.fifteen": {
+    "text": "on beş",
+    "alt": ["15", "onbeş"]
+  },
+  "number.sixteen": {
+    "text": "on altı",
+    "alt": ["16", "onaltı"]
+  },
+  "number.seventeen": {
+    "text": "on yedi",
+    "alt": ["17", "onyedi"]
+  },
+  "number.eighteen": {
+    "text": "on sekiz",
+    "alt": ["18", "onsekiz"]
+  },
+  "number.nineteen": {
+    "text": "on dokuz",
+    "alt": ["19", "ondokuz"]
+  },
+  "number.twenty": {
+    "text": "yirmi",
+    "alt": ["20"]
+  },
+  "opposite.big": {
+    "text": "büyük"
+  },
+  "opposite.small": {
+    "text": "küçük"
+  },
+  "opposite.long": {
+    "text": "uzun"
+  },
+  "opposite.short": {
+    "text": "kısa"
+  },
+  "opposite.hot": {
+    "text": "sıcak"
+  },
+  "opposite.cold": {
+    "text": "soğuk"
+  },
+  "opposite.up": {
+    "text": "yukarı"
+  },
+  "opposite.down": {
+    "text": "aşağı"
+  },
+  "opposite.happy": {
+    "text": "mutlu"
+  },
+  "opposite.sad": {
+    "text": "üzgün"
+  },
+  "opposite.fast": {
+    "text": "hızlı"
+  },
+  "opposite.slow": {
+    "text": "yavaş"
+  },
+  "body.head": {
+    "text": "baş",
+    "alt": ["kafa"]
+  },
+  "body.hair": {
+    "text": "saç"
+  },
+  "body.face": {
+    "text": "yüz"
+  },
+  "body.eye": {
+    "text": "göz"
+  },
+  "body.ear": {
+    "text": "kulak"
+  },
+  "body.nose": {
+    "text": "burun"
+  },
+  "body.mouth": {
+    "text": "ağız"
+  },
+  "body.tooth": {
+    "text": "diş"
+  },
+  "body.tongue": {
+    "text": "dil"
+  },
+  "body.lips": {
+    "text": "dudak",
+    "alt": ["dudaklar"]
+  },
+  "body.cheek": {
+    "text": "yanak"
+  },
+  "body.chin": {
+    "text": "çene"
+  },
+  "body.eyebrow": {
+    "text": "kaş"
+  },
+  "body.neck": {
+    "text": "boyun"
+  },
+  "body.shoulder": {
+    "text": "omuz"
+  },
+  "body.arm": {
+    "text": "kol"
+  },
+  "body.elbow": {
+    "text": "dirsek"
+  },
+  "body.hand": {
+    "text": "el"
+  },
+  "body.finger": {
+    "text": "parmak"
+  },
+  "body.tummy": {
+    "text": "karın"
+  },
+  "body.back": {
+    "text": "sırt"
+  },
+  "body.leg": {
+    "text": "bacak"
+  },
+  "body.knee": {
+    "text": "diz"
+  },
+  "body.foot": {
+    "text": "ayak"
+  },
+  "body.toe": {
+    "text": "ayak parmağı"
+  },
+  "clothes.shirt": {
+    "text": "gömlek"
+  },
+  "clothes.tshirt": {
+    "text": "tişört"
+  },
+  "clothes.pants": {
+    "text": "pantolon"
+  },
+  "clothes.shorts": {
+    "text": "şort"
+  },
+  "clothes.skirt": {
+    "text": "etek"
+  },
+  "clothes.dress": {
+    "text": "elbise"
+  },
+  "clothes.coat": {
+    "text": "mont",
+    "alt": ["palto"],
+    "review": true
+  },
+  "clothes.jacket": {
+    "text": "ceket"
+  },
+  "clothes.sweater": {
+    "text": "kazak"
+  },
+  "clothes.pajamas": {
+    "text": "pijama"
+  },
+  "clothes.swimsuit": {
+    "text": "mayo"
+  },
+  "clothes.raincoat": {
+    "text": "yağmurluk"
+  },
+  "clothes.shoes": {
+    "text": "ayakkabı"
+  },
+  "clothes.boots": {
+    "text": "çizme",
+    "alt": ["bot"]
+  },
+  "clothes.slippers": {
+    "text": "terlik"
+  },
+  "clothes.socks": {
+    "text": "çorap"
+  },
+  "clothes.hat": {
+    "text": "şapka"
+  },
+  "clothes.scarf": {
+    "text": "atkı"
+  },
+  "clothes.gloves": {
+    "text": "eldiven"
+  },
+  "clothes.belt": {
+    "text": "kemer"
+  },
+  "clothes.glasses": {
+    "text": "gözlük"
+  },
+  "clothes.bag": {
+    "text": "çanta"
+  },
+  "clothes.umbrella": {
+    "text": "şemsiye"
+  },
+  "clothes.button": {
+    "text": "düğme"
+  },
+  "clothes.zipper": {
+    "text": "fermuar"
+  },
+  "home.house": {
+    "text": "ev"
+  },
+  "home.door": {
+    "text": "kapı"
+  },
+  "home.window": {
+    "text": "pencere"
+  },
+  "home.table": {
+    "text": "masa"
+  },
+  "home.chair": {
+    "text": "sandalye"
+  },
+  "home.bed": {
+    "text": "yatak"
+  },
+  "home.sofa": {
+    "text": "kanepe",
+    "alt": ["koltuk"],
+    "review": true
+  },
+  "home.lamp": {
+    "text": "lamba"
+  },
+  "home.clock": {
+    "text": "saat"
+  },
+  "home.mirror": {
+    "text": "ayna"
+  },
+  "home.bathtub": {
+    "text": "küvet"
+  },
+  "home.toilet": {
+    "text": "tuvalet"
+  },
+  "home.sink": {
+    "text": "lavabo"
+  },
+  "home.fridge": {
+    "text": "buzdolabı"
+  },
+  "home.oven": {
+    "text": "fırın"
+  },
+  "home.cup": {
+    "text": "fincan",
+    "alt": ["kupa"]
+  },
+  "home.glass": {
+    "text": "bardak"
+  },
+  "home.plate": {
+    "text": "tabak"
+  },
+  "home.bowl": {
+    "text": "kase"
+  },
+  "home.spoon": {
+    "text": "kaşık"
+  },
+  "home.fork": {
+    "text": "çatal"
+  },
+  "home.pillow": {
+    "text": "yastık"
+  },
+  "home.blanket": {
+    "text": "battaniye"
+  },
+  "home.towel": {
+    "text": "havlu"
+  },
+  "home.soap": {
+    "text": "sabun"
+  },
+  "home.toothbrush": {
+    "text": "diş fırçası"
+  },
+  "home.key": {
+    "text": "anahtar"
+  },
+  "home.phone": {
+    "text": "telefon"
+  },
+  "home.television": {
+    "text": "televizyon"
+  },
+  "home.book": {
+    "text": "kitap"
+  },
+  "home.pencil": {
+    "text": "kurşun kalem",
+    "alt": ["kalem"]
+  },
+  "home.crayon": {
+    "text": "boya kalemi",
+    "alt": ["pastel boya"],
+    "review": true
+  },
+  "home.scissors": {
+    "text": "makas"
+  },
+  "home.box": {
+    "text": "kutu"
+  },
+  "toy.ball": {
+    "text": "top"
+  },
+  "toy.doll": {
+    "text": "oyuncak bebek",
+    "alt": ["bebek"]
+  },
+  "toy.teddy_bear": {
+    "text": "oyuncak ayı",
+    "alt": ["ayıcık"]
+  },
+  "toy.toy_car": {
+    "text": "oyuncak araba"
+  },
+  "toy.toy_train": {
+    "text": "oyuncak tren"
+  },
+  "toy.blocks": {
+    "text": "oyuncak küpler",
+    "alt": ["küpler", "bloklar"],
+    "review": true
+  },
+  "toy.puzzle": {
+    "text": "yapboz",
+    "alt": ["puzzle"]
+  },
+  "toy.kite": {
+    "text": "uçurtma"
+  },
+  "toy.balloon": {
+    "text": "balon"
+  },
+  "toy.drum": {
+    "text": "davul"
+  },
+  "toy.robot": {
+    "text": "robot"
+  },
+  "toy.yoyo": {
+    "text": "yoyo"
+  },
+  "toy.bubbles": {
+    "text": "baloncuk",
+    "alt": ["köpük baloncukları"],
+    "review": true
+  },
+  "toy.slide": {
+    "text": "kaydırak"
+  },
+  "toy.swing": {
+    "text": "salıncak"
+  },
+  "toy.jump_rope": {
+    "text": "atlama ipi",
+    "alt": ["ip"]
+  },
+  "nature.sun": {
+    "text": "güneş"
+  },
+  "nature.moon": {
+    "text": "ay"
+  },
+  "nature.cloud": {
+    "text": "bulut"
+  },
+  "nature.rain": {
+    "text": "yağmur"
+  },
+  "nature.snow": {
+    "text": "kar"
+  },
+  "nature.ice": {
+    "text": "buz"
+  },
+  "nature.wind": {
+    "text": "rüzgâr",
+    "alt": ["rüzgar"]
+  },
+  "nature.lightning": {
+    "text": "şimşek"
+  },
+  "nature.rainbow": {
+    "text": "gökkuşağı"
+  },
+  "nature.sky": {
+    "text": "gökyüzü",
+    "alt": ["gök"]
+  },
+  "nature.tree": {
+    "text": "ağaç"
+  },
+  "nature.flower": {
+    "text": "çiçek"
+  },
+  "nature.leaf": {
+    "text": "yaprak"
+  },
+  "nature.grass": {
+    "text": "çimen",
+    "review": true
+  },
+  "nature.forest": {
+    "text": "orman"
+  },
+  "nature.mountain": {
+    "text": "dağ"
+  },
+  "nature.volcano": {
+    "text": "yanardağ",
+    "alt": ["volkan"]
+  },
+  "nature.river": {
+    "text": "nehir",
+    "alt": ["ırmak"]
+  },
+  "nature.lake": {
+    "text": "göl"
+  },
+  "nature.sea": {
+    "text": "deniz"
+  },
+  "nature.island": {
+    "text": "ada"
+  },
+  "nature.beach": {
+    "text": "plaj",
+    "alt": ["kumsal"]
+  },
+  "nature.sand": {
+    "text": "kum"
+  },
+  "nature.rock": {
+    "text": "kaya",
+    "alt": ["taş"]
+  },
+  "nature.fire": {
+    "text": "ateş"
+  },
+  "vehicle.car": {
+    "text": "araba"
+  },
+  "vehicle.bus": {
+    "text": "otobüs"
+  },
+  "vehicle.truck": {
+    "text": "kamyon"
+  },
+  "vehicle.train": {
+    "text": "tren"
+  },
+  "vehicle.plane": {
+    "text": "uçak"
+  },
+  "vehicle.helicopter": {
+    "text": "helikopter"
+  },
+  "vehicle.boat": {
+    "text": "tekne",
+    "alt": ["kayık"]
+  },
+  "vehicle.ship": {
+    "text": "gemi"
+  },
+  "vehicle.bicycle": {
+    "text": "bisiklet"
+  },
+  "vehicle.motorcycle": {
+    "text": "motosiklet",
+    "alt": ["motor"]
+  },
+  "vehicle.taxi": {
+    "text": "taksi"
+  },
+  "vehicle.ambulance": {
+    "text": "ambulans"
+  },
+  "vehicle.fire_truck": {
+    "text": "itfaiye aracı",
+    "alt": ["itfaiye"]
+  },
+  "vehicle.police_car": {
+    "text": "polis arabası"
+  },
+  "vehicle.tractor": {
+    "text": "traktör"
+  },
+  "vehicle.rocket": {
+    "text": "roket"
+  },
+  "vehicle.submarine": {
+    "text": "denizaltı"
+  },
+  "vehicle.tram": {
+    "text": "tramvay"
+  },
+  "vehicle.subway": {
+    "text": "metro"
+  },
+  "vehicle.hot_air_balloon": {
+    "text": "sıcak hava balonu"
+  },
+  "vehicle.sled": {
+    "text": "kızak"
+  },
+  "vehicle.skateboard": {
+    "text": "kaykay"
+  },
+  "vehicle.wheel": {
+    "text": "tekerlek"
+  },
+  "vehicle.road": {
+    "text": "yol"
+  },
+  "vehicle.traffic_light": {
+    "text": "trafik ışığı"
+  },
+  "emotion.reluctant": {
+    "text": "isteksiz",
+    "alt": ["gönülsüz"]
+  }
 }

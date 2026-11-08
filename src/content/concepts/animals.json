@@ -1,0 +1,352 @@
+[
+  {
+    "id": "animal.cat",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.cat"
+  },
+  {
+    "id": "animal.dog",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.dog"
+  },
+  {
+    "id": "animal.bird",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.bird"
+  },
+  {
+    "id": "animal.fish",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.fish"
+  },
+  {
+    "id": "animal.horse",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.horse"
+  },
+  {
+    "id": "animal.cow",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.cow"
+  },
+  {
+    "id": "animal.sheep",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.sheep"
+  },
+  {
+    "id": "animal.goat",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.goat"
+  },
+  {
+    "id": "animal.chicken",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.chicken"
+  },
+  {
+    "id": "animal.rooster",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.rooster"
+  },
+  {
+    "id": "animal.duck",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.duck"
+  },
+  {
+    "id": "animal.donkey",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.donkey"
+  },
+  {
+    "id": "animal.rabbit",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.rabbit"
+  },
+  {
+    "id": "animal.mouse",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.mouse"
+  },
+  {
+    "id": "animal.lion",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.lion"
+  },
+  {
+    "id": "animal.tiger",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.tiger"
+  },
+  {
+    "id": "animal.elephant",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.elephant"
+  },
+  {
+    "id": "animal.monkey",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.monkey"
+  },
+  {
+    "id": "animal.giraffe",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.giraffe"
+  },
+  {
+    "id": "animal.zebra",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.zebra"
+  },
+  {
+    "id": "animal.bear",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.bear"
+  },
+  {
+    "id": "animal.wolf",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.wolf"
+  },
+  {
+    "id": "animal.fox",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.fox"
+  },
+  {
+    "id": "animal.snake",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.snake"
+  },
+  {
+    "id": "animal.frog",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.frog"
+  },
+  {
+    "id": "animal.turtle",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.turtle"
+  },
+  {
+    "id": "animal.bee",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.bee"
+  },
+  {
+    "id": "animal.butterfly",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.butterfly"
+  },
+  {
+    "id": "animal.ant",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.ant"
+  },
+  {
+    "id": "animal.spider",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.spider"
+  },
+  {
+    "id": "animal.owl",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.owl"
+  },
+  {
+    "id": "animal.penguin",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.penguin"
+  },
+  {
+    "id": "animal.dolphin",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.dolphin"
+  },
+  {
+    "id": "animal.whale",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.whale"
+  },
+  {
+    "id": "animal.shark",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.shark"
+  },
+  {
+    "id": "animal.crab",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.crab"
+  },
+  {
+    "id": "animal.octopus",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.octopus"
+  },
+  {
+    "id": "animal.camel",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.camel"
+  },
+  {
+    "id": "animal.kangaroo",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.kangaroo"
+  },
+  {
+    "id": "animal.panda",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.panda"
+  },
+  {
+    "id": "animal.squirrel",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.squirrel"
+  },
+  {
+    "id": "animal.hedgehog",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.hedgehog"
+  },
+  {
+    "id": "animal.deer",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.deer"
+  },
+  {
+    "id": "animal.snail",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.snail"
+  },
+  {
+    "id": "animal.ladybug",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.ladybug"
+  },
+  {
+    "id": "animal.parrot",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.parrot"
+  },
+  {
+    "id": "animal.eagle",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.eagle"
+  },
+  {
+    "id": "animal.crocodile",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.crocodile"
+  },
+  {
+    "id": "animal.hippo",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.hippo"
+  },
+  {
+    "id": "animal.worm",
+    "topic": "animal",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "animal.worm"
+  }
+]

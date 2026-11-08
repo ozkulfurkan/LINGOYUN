@@ -15,6 +15,9 @@ const words: [id: string, topic: string, en: Entry, tr: Entry][] = [
   ['emotion.reluctant', 'emotions', { text: 'reluctant' }, { text: 'isteksiz', alt: ['gönülsüz'] }],
   ['emotion.unwilling', 'emotions', { text: 'unwilling' }, { text: 'gönülsüz' }],
   ['emotion.happy', 'emotions', { text: 'happy' }, { text: 'mutlu' }],
+  // Homonym: English "orange" is both the fruit and the colour.
+  ['fruit.orange', 'fruits', { text: 'orange' }, { text: 'portakal' }],
+  ['color.orange', 'fruits', { text: 'orange' }, { text: 'turuncu' }],
 ];
 
 function makeBundle(): ContentBundle {
@@ -108,6 +111,15 @@ describe('buildQuestion', () => {
     }
   });
 
+  it('never offers the other meaning of a homonym', () => {
+    for (let seed = 1; seed <= 50; seed++) {
+      expect(question('fruit.orange', seed).options.map((o) => o.text)).not.toContain('turuncu');
+      // TR → EN: "portakal" asked; "orange" is the answer, the colour can't appear as a second "orange".
+      const q = question('fruit.orange', seed, 'nativeToTarget');
+      expect(q.options.filter((o) => o.text === 'orange')).toHaveLength(1);
+    }
+  });
+
   it('has unique options and a valid correct index', () => {
     for (let seed = 1; seed <= 50; seed++) {
       for (const id of ['fruit.pear', 'animal.cat', 'emotion.happy']) {
@@ -176,7 +188,9 @@ describe('buildQuestion', () => {
 });
 
 describe('generateQuiz', () => {
-  const fruits = allIds.filter((id) => id.startsWith('fruit.') && id !== 'fruit.apple_red');
+  const fruits = allIds.filter(
+    (id) => id.startsWith('fruit.') && !['fruit.apple_red', 'fruit.orange'].includes(id),
+  );
 
   it('asks each concept once when the pool is large enough', () => {
     const quiz = generateQuiz({

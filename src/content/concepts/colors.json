@@ -1,0 +1,352 @@
+[
+  {
+    "id": "color.red",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.red"
+  },
+  {
+    "id": "color.blue",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.blue"
+  },
+  {
+    "id": "color.yellow",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.yellow"
+  },
+  {
+    "id": "color.green",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.green"
+  },
+  {
+    "id": "color.orange",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.orange"
+  },
+  {
+    "id": "color.purple",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.purple"
+  },
+  {
+    "id": "color.pink",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.pink"
+  },
+  {
+    "id": "color.brown",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.brown"
+  },
+  {
+    "id": "color.black",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.black"
+  },
+  {
+    "id": "color.white",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.white"
+  },
+  {
+    "id": "color.gray",
+    "topic": "color",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "color.gray"
+  },
+  {
+    "id": "shape.circle",
+    "topic": "shape",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "shape.circle"
+  },
+  {
+    "id": "shape.square",
+    "topic": "shape",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "shape.square"
+  },
+  {
+    "id": "shape.triangle",
+    "topic": "shape",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "shape.triangle"
+  },
+  {
+    "id": "shape.star",
+    "topic": "shape",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "shape.star"
+  },
+  {
+    "id": "shape.heart",
+    "topic": "shape",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "shape.heart"
+  },
+  {
+    "id": "shape.rectangle",
+    "topic": "shape",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "shape.rectangle"
+  },
+  {
+    "id": "shape.oval",
+    "topic": "shape",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "shape.oval"
+  },
+  {
+    "id": "number.one",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.one"
+  },
+  {
+    "id": "number.two",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.two"
+  },
+  {
+    "id": "number.three",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.three"
+  },
+  {
+    "id": "number.four",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.four"
+  },
+  {
+    "id": "number.five",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.five"
+  },
+  {
+    "id": "number.six",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.six"
+  },
+  {
+    "id": "number.seven",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.seven"
+  },
+  {
+    "id": "number.eight",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.eight"
+  },
+  {
+    "id": "number.nine",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.nine"
+  },
+  {
+    "id": "number.ten",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.ten"
+  },
+  {
+    "id": "number.eleven",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.eleven"
+  },
+  {
+    "id": "number.twelve",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.twelve"
+  },
+  {
+    "id": "number.thirteen",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.thirteen"
+  },
+  {
+    "id": "number.fourteen",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.fourteen"
+  },
+  {
+    "id": "number.fifteen",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.fifteen"
+  },
+  {
+    "id": "number.sixteen",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.sixteen"
+  },
+  {
+    "id": "number.seventeen",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.seventeen"
+  },
+  {
+    "id": "number.eighteen",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.eighteen"
+  },
+  {
+    "id": "number.nineteen",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.nineteen"
+  },
+  {
+    "id": "number.twenty",
+    "topic": "number",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "number.twenty"
+  },
+  {
+    "id": "opposite.big",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.big"
+  },
+  {
+    "id": "opposite.small",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.small"
+  },
+  {
+    "id": "opposite.long",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.long"
+  },
+  {
+    "id": "opposite.short",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.short"
+  },
+  {
+    "id": "opposite.hot",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.hot"
+  },
+  {
+    "id": "opposite.cold",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.cold"
+  },
+  {
+    "id": "opposite.up",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.up"
+  },
+  {
+    "id": "opposite.down",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.down"
+  },
+  {
+    "id": "opposite.happy",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.happy"
+  },
+  {
+    "id": "opposite.sad",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.sad"
+  },
+  {
+    "id": "opposite.fast",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.fast"
+  },
+  {
+    "id": "opposite.slow",
+    "topic": "opposite",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "opposite.slow"
+  }
+]

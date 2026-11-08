@@ -1,0 +1,352 @@
+[
+  {
+    "id": "fruit.apple",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.apple"
+  },
+  {
+    "id": "fruit.pear",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.pear"
+  },
+  {
+    "id": "fruit.cherry",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.cherry"
+  },
+  {
+    "id": "fruit.grapes",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.grapes"
+  },
+  {
+    "id": "fruit.banana",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.banana"
+  },
+  {
+    "id": "fruit.orange",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.orange"
+  },
+  {
+    "id": "fruit.strawberry",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.strawberry"
+  },
+  {
+    "id": "fruit.watermelon",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.watermelon"
+  },
+  {
+    "id": "fruit.lemon",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.lemon"
+  },
+  {
+    "id": "fruit.peach",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.peach"
+  },
+  {
+    "id": "fruit.apricot",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.apricot"
+  },
+  {
+    "id": "fruit.fig",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.fig"
+  },
+  {
+    "id": "fruit.plum",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.plum"
+  },
+  {
+    "id": "fruit.pineapple",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.pineapple"
+  },
+  {
+    "id": "fruit.hazelnut",
+    "topic": "fruit",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "fruit.hazelnut"
+  },
+  {
+    "id": "vegetable.carrot",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.carrot"
+  },
+  {
+    "id": "vegetable.tomato",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.tomato"
+  },
+  {
+    "id": "vegetable.potato",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.potato"
+  },
+  {
+    "id": "vegetable.cucumber",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.cucumber"
+  },
+  {
+    "id": "vegetable.onion",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.onion"
+  },
+  {
+    "id": "vegetable.pepper",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.pepper"
+  },
+  {
+    "id": "vegetable.corn",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.corn"
+  },
+  {
+    "id": "vegetable.peas",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.peas"
+  },
+  {
+    "id": "vegetable.mushroom",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.mushroom"
+  },
+  {
+    "id": "vegetable.pumpkin",
+    "topic": "vegetable",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "vegetable.pumpkin"
+  },
+  {
+    "id": "food.bread",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.bread"
+  },
+  {
+    "id": "food.cheese",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.cheese"
+  },
+  {
+    "id": "food.egg",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.egg"
+  },
+  {
+    "id": "food.rice",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.rice"
+  },
+  {
+    "id": "food.pasta",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.pasta"
+  },
+  {
+    "id": "food.soup",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.soup"
+  },
+  {
+    "id": "food.meat",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.meat"
+  },
+  {
+    "id": "food.salad",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.salad"
+  },
+  {
+    "id": "food.sandwich",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.sandwich"
+  },
+  {
+    "id": "food.pizza",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.pizza"
+  },
+  {
+    "id": "food.cake",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.cake"
+  },
+  {
+    "id": "food.cookie",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.cookie"
+  },
+  {
+    "id": "food.candy",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.candy"
+  },
+  {
+    "id": "food.ice_cream",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.ice_cream"
+  },
+  {
+    "id": "food.chocolate",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.chocolate"
+  },
+  {
+    "id": "food.honey",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.honey"
+  },
+  {
+    "id": "food.yogurt",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.yogurt"
+  },
+  {
+    "id": "food.butter",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.butter"
+  },
+  {
+    "id": "food.jam",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.jam"
+  },
+  {
+    "id": "food.olive",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.olive"
+  },
+  {
+    "id": "food.popcorn",
+    "topic": "food",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "food.popcorn"
+  },
+  {
+    "id": "drink.milk",
+    "topic": "drink",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "drink.milk"
+  },
+  {
+    "id": "drink.water",
+    "topic": "drink",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "drink.water"
+  },
+  {
+    "id": "drink.juice",
+    "topic": "drink",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "drink.juice"
+  },
+  {
+    "id": "drink.tea",
+    "topic": "drink",
+    "kind": "word",
+    "ageGroups": ["mini", "kid", "adult"],
+    "image": "drink.tea"
+  }
+]
