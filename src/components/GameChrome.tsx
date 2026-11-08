@@ -65,13 +65,22 @@ export function GameFeedback({ text }: { text: string }) {
 type SummaryProps = {
   nickname: string;
   reward: SessionReward;
+  /** Level just unlocked by this round, if any. */
+  newLevel?: string | null;
   correct: number;
   total: number;
   onPlayAgain: () => void;
 };
 
 /** End-of-round screen shared by every game. */
-export function RoundSummary({ nickname, reward, correct, total, onPlayAgain }: SummaryProps) {
+export function RoundSummary({
+  nickname,
+  reward,
+  newLevel = null,
+  correct,
+  total,
+  onPlayAgain,
+}: SummaryProps) {
   const { t } = useTranslation();
   return (
     <Screen
@@ -95,6 +104,7 @@ export function RoundSummary({ nickname, reward, correct, total, onPlayAgain }: 
           ? t('game.summary.perfect', { nickname })
           : t('game.summary.finished', { nickname })}
       </ThemedText>
+      {newLevel ? <Stat text={t('game.summary.levelUp', { level: newLevel })} /> : null}
       <Stat text={t('game.summary.score', { correct, total })} />
       <Stat text={t('game.summary.xp', { n: reward.xp })} />
       <Stat text={t('game.summary.gems', { n: reward.gems })} />

@@ -22,14 +22,15 @@ import {
   startRound,
   type Round as RoundState,
 } from '@/features/games/multiple-choice/round';
+import { finishRound } from '@/features/games/finishRound';
 import type { CourseId } from '@/features/languages';
 import { useActiveProfile } from '@/features/profiles';
-import { completeSession, type SessionReward } from '@/features/progress';
+import type { SessionReward } from '@/features/progress';
 import { seededRng } from '@/features/quiz/rng';
-import { learnedCount, localDay, recordAnswer } from '@/features/srs';
+import { localDay, recordAnswer } from '@/features/srs';
 import { speak } from '@/lib/speech';
 import { useReadAloud } from '@/lib/useReadAloud';
-import { loadProgress, saveProgress } from '@/storage/progress';
+import { loadProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
 import { space } from '@/theme';
 
@@ -79,6 +80,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
   );
   const [gems, setGems] = useState(() => loadProgress(profileId).gems);
   const [reward, setReward] = useState<SessionReward | null>(null);
+  const [newLevel, setNewLevel] = useState<string | null>(null);
 
   const question = currentQuestion(round);
   const pick = currentPick(round);
@@ -90,6 +92,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
       <RoundSummary
         nickname={nickname}
         reward={reward}
+        newLevel={newLevel}
         correct={grades.filter((g) => g === 'good').length}
         total={grades.length}
         onPlayAgain={onPlayAgain}
@@ -121,14 +124,17 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
     const next = advance(round);
     setRound(next);
     if (!isFinished(next)) return;
-    // Rewards only for a finished round (docs/game-design.md).
-    const result = completeSession(loadProgress(profileId), {
+    // Rewards (and a possible level-up) only for a finished round (docs/game-design.md).
+    const finished = finishRound({
+      profileId,
+      courseId,
+      profileType,
+      level,
       grades: roundGrades(next),
       today,
-      wordsLearned: learnedCount(loadDeck(profileId, courseId)),
     });
-    saveProgress(profileId, result.progress);
-    setReward(result.reward);
+    setNewLevel(finished.newLevel);
+    setReward(finished.reward);
   };
 
   const right = pick === question.correctIndex;
