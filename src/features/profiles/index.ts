@@ -1,6 +1,7 @@
 import { loadProfiles, saveProfiles } from '@/storage/profiles';
+import { removeDecks } from '@/storage/srs';
 
-import { getActiveProfile } from './profiles';
+import { getActiveProfile, removeProfile } from './profiles';
 import { createProfilesStore, useProfilesState } from './store';
 import type { Profile, ProfilesState } from './types';
 
@@ -17,4 +18,10 @@ export function useProfiles(): ProfilesState {
 
 export function useActiveProfile(): Profile | null {
   return getActiveProfile(useProfiles());
+}
+
+/** Deletes a profile and everything stored for it on the device. */
+export function deleteProfile(id: string): void {
+  profilesStore.update((state) => ({ ok: true, value: removeProfile(state, id) }));
+  removeDecks(id);
 }
