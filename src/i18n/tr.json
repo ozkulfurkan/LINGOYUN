@@ -5,7 +5,8 @@
   "home": {
     "comingSoon": "Yakında",
     "hello": "Merhaba {{nickname}}",
-    "play": "Oyna"
+    "play": "Oyna",
+    "playLetters": "Harf dizme"
   },
   "common": {
     "continue": "Devam",
@@ -108,5 +109,19 @@
       "again": "Bir tur daha",
       "done": "Bitir"
     }
+  },
+  "letters": {
+    "build": {
+      "en": "İngilizcesini harflerle diz",
+      "tr": "Türkçesini harflerle diz"
+    },
+    "tile": "{{letter}} harfi",
+    "slot": "{{n}}. kutu: {{letter}}",
+    "slotEmpty": "{{n}}. kutu boş",
+    "tryAgain": "Tekrar dene!",
+    "gotIt": "Buldun!",
+    "show": "Göster",
+    "answerIs": "Cevap: {{answer}}",
+    "hintLabel": "İpucu: bu harf sıradaki"
   }
 }

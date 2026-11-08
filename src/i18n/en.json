@@ -5,7 +5,8 @@
   "home": {
     "comingSoon": "Coming soon",
     "hello": "Hello {{nickname}}",
-    "play": "Play"
+    "play": "Play",
+    "playLetters": "Spell it"
   },
   "common": {
     "continue": "Continue",
@@ -108,5 +109,19 @@
       "again": "One more round",
       "done": "Finish"
     }
+  },
+  "letters": {
+    "build": {
+      "en": "Spell it in English",
+      "tr": "Spell it in Turkish"
+    },
+    "tile": "Letter {{letter}}",
+    "slot": "Box {{n}}: {{letter}}",
+    "slotEmpty": "Box {{n}} is empty",
+    "tryAgain": "Try again!",
+    "gotIt": "You got it!",
+    "show": "Show me",
+    "answerIs": "Answer: {{answer}}",
+    "hintLabel": "Hint: this letter comes next"
   }
 }
