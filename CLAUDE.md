@@ -1,6 +1,6 @@
 # LINGOYUN — proje rehberi (Claude için)
 
-iOS ve Android için İngilizce ⇄ Türkçe çeviri oyunu. Üç yaş grubu, tek aile aboneliği.
+iOS ve Android için İngilizce ⇄ Türkçe çeviri oyunu. Üç yaş grubu, tek aile aboneliği. İleride başka diller eklenecek: mimari çok dilli (`docs/languages.md`).
 
 Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları **İngilizce**.
 
@@ -12,6 +12,7 @@ Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları
 | 7–12 yaş | `kid` | Seviye 1–10, sıfırdan A2'ye | Var |
 | Yetişkin | `adult` | A1–C1 (alt bölümlü) | Var |
 
+- **Temalar:** Çocuk profilleri (`mini`, `kid`) **Oyun Hamuru** temasını kullanır, görseller ön planda. Yetişkin profili (`adult`) ayrı, yetişkinlere yönelik bir tema kullanır (seçim bekliyor, LNG-39). Tema profil tipinden seçilir; bileşenler yalnızca aktif temanın token'larını okur.
 - **Karakterler (2–7 modu):** Zeynep, Nehir, Kerem — üç çocuk karakter. Görünüşleri `docs/characters.md` içinde tanımlanır; tutarlılık zorunlu.
 - **Abonelik:** Tek aile aboneliği (tüm profiller). **7 gün ücretsiz, kartsız**; sonra aylık veya yıllık paket.
 - **Mağaza kategorisi:** Eğitim (Kids kategorisi DEĞİL). Satın alma ve ayarlar **ebeveyn kapısı** arkasında.
@@ -49,6 +50,7 @@ app/                     # Expo Router ekranları
 src/
   components/            # Ortak UI bileşenleri
   features/
+    languages/           # dil kaydı (registry), normalizer'lar, kurs tanımları
     profiles/            # profil oluşturma, profil tipleri
     placement/           # seviye tespiti algoritması
     quiz/                # soru üretici, yanlış şık seçimi, yön (EN→TR / TR→EN)
@@ -58,8 +60,9 @@ src/
     games/               # oyun türleri (her biri kendi klasöründe)
     subscription/        # deneme + entitlement mantığı, paywall
     parental-gate/
-  content/               # kelime / cümle JSON paketleri + şema + doğrulayıcı
-  theme/                 # renk, tipografi, aralık, gölge, hareket (tek kaynak)
+  content/               # concepts/ (dilden bağımsız), languages/<kod>/, courses/ + şema + doğrulayıcı
+  i18n/                  # arayüz metinleri: tr.json, en.json
+  theme/                 # kids/ (Oyun Hamuru) ve adult/ temaları; token'lar tek kaynak
   storage/               # MMKV sarmalayıcıları
   lib/
 assets/
@@ -75,7 +78,9 @@ docs/                    # art-direction.md, characters.md, game-design.md
 - Mantık içeren her yeni kod için test yaz; mantığı `features/*/` içinde saf fonksiyonlara ayır.
 - Renk, yazı, aralık, köşe, gölge ve animasyon süreleri `src/theme` içinden gelir; doğrudan değer yazma.
 - **Görsel dil standart olmayacak.** UI veya grafik işinden önce `.claude/skills/art-direction` skill'ini oku; oyun hissi için `game-feel`, çocuk ekranları için `kids-ux`.
-- İçerik JSON'ları şema doğrulamasından geçmeli (test olarak). Türkçe karakterler (ç ğ ı İ ö ş ü) her yerde doğru olmalı; büyük/küçük harf dönüşümünde `toLocaleUpperCase('tr-TR')` kullan.
+- **Çok dil:** `docs/languages.md` kurallarına uy. Kodda `'tr'`/`'en'` sabiti yok (registry ve kurs kullan); arayüz metni kodda yazılmaz (`src/i18n`); büyük/küçük harf dönüşümü dilin `locale`'i ile.
+- İçerik JSON'ları şema doğrulamasından geçmeli (test olarak).
+- **Fontlar** desteklenen tüm dillerin özel harflerini kapsamalı (ör. Türkçe `ğ ş İ ı`); font eklemeden önce kontrol et.
 - `Platform.OS` farkı olan yerlerde iki platformu da ele al ve yorumla açıkla.
 - Yeni paket: önce Expo uyumluluğunu kontrol et, `npx expo install` kullan.
 - Commit formatı: `LNG-<no>: kısa açıklama`. Küçük, odaklı commit'ler.

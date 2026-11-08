@@ -10,16 +10,18 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-0** BULUT — Proje rehberi, backlog, agent'lar ve tasarım skill'leri.
 - [ ] **LNG-1** BULUT — Expo projesi (TypeScript strict, Expo Router), ESLint + Prettier, jest-expo, klasör yapısı, `npm run lint/test` script'leri.
   - Kabul: boş ana ekran açılıyor; `tsc`, `lint`, `test` temiz.
-- [ ] **LNG-2** BULUT — Tema sistemi (`src/theme`): renk, tipografi (Türkçe karakter destekli fontlar), aralık, köşe, gölge, hareket token'ları. `art-direction` skill'ine uygun. Önkoşul: LNG-1, LNG-4.
+- [ ] **LNG-2** BULUT — Tema sistemi (`src/theme`): `kids` (Oyun Hamuru) ve `adult` temaları, profil tipine göre seçim; renk, tipografi (DynaPuff + Baloo 2), aralık, köşe, gölge, hareket token'ları. Font glif kontrol script'i (`scripts/check-font-glyphs`). Adult teması LNG-39 gelene kadar geçici token'larla. Önkoşul: LNG-1, LNG-4.
 - [ ] **LNG-3** FURKAN — EAS hesabı, bundle id (`com.<...>.lingoyun`), Apple Developer ve Google Play hesapları, Sentry projesi.
-- [ ] **LNG-4** FURKAN — Sanat yönü onayı: `docs/art-direction.md` içindeki 3 yönden biri seçilir. Örnek ekranlar hazır (`docs/art-direction/`).
+- [x] **LNG-4** FURKAN — Çocuk teması onayı: C — Oyun Hamuru, görsel öncelikli. Yetişkin teması ayrı (LNG-39).
+- [ ] **LNG-38** BULUT — Çok dil altyapısı: dil kaydı (`src/features/languages`), kurs tanımı (`tr-en`), arayüz i18n (`expo-localization` + `i18next`, `src/i18n/{tr,en}.json`), eksik çeviri anahtarı testi. `docs/languages.md`'ye uygun. Önkoşul: LNG-1.
+- [ ] **LNG-39** FURKAN — Yetişkin teması: grafiker 3 aday ekran hazırlar, Furkan seçer.
 
 ## Faz 1 — Çekirdek mantık (UI'sız, tamamen testli)
 
-- [ ] **LNG-5** BULUT — İçerik şeması (`src/content/schema.ts`) + doğrulayıcı + test: `{ id, en, tr, level, topic, ageGroups[], image?, audioEn?, audioTr?, altEn[], altTr[] }`.
-- [ ] **LNG-6** BULUT — Profiller: `mini | kid | adult`, oluşturma/silme/seçme, MMKV'de saklama. Önkoşul: LNG-1.
+- [ ] **LNG-5** BULUT — Kavram tabanlı içerik şeması (`docs/languages.md`): `concepts/`, `languages/<kod>/words.json`, `courses/tr-en.json` + doğrulayıcı + test (eksik çeviri, tekrar eden id, kursta olmayan kavram). Önkoşul: LNG-38.
+- [ ] **LNG-6** BULUT — Profiller: `mini | kid | adult`, `nativeLang` + `targetLang` (kurs), oluşturma/silme/seçme, ilerleme kurs başına, MMKV'de saklama. Önkoşul: LNG-38.
 - [ ] **LNG-7** BULUT — Soru üretici: yön seçimi, aynı konu/seviyeden mantıklı yanlış şıklar, tekrar etmeyen sıra. Önkoşul: LNG-5.
-- [ ] **LNG-8** BULUT — Cevap kontrolü: büyük/küçük harf, TR karakter toleransı (ı/i, ş/s yazım hatası uyarısı), noktalama, eş anlamlılar. Önkoşul: LNG-5.
+- [ ] **LNG-8** BULUT — Cevap kontrolü: dil başına normalizer (registry'den), büyük/küçük harf (locale ile), TR karakter toleransı (ı/i, ş/s → "neredeyse doğru"), noktalama, eş anlamlılar. Önkoşul: LNG-5.
 - [ ] **LNG-9** BULUT — Aralıklı tekrar (Leitner, 5 kutu: 0/1/3/7/14 gün). Önkoşul: LNG-5.
 - [ ] **LNG-10** BULUT — Seviye tespit algoritması (CLAUDE.md'deki kurallar) + kapsamlı test. Önkoşul: LNG-7.
 - [ ] **LNG-11** BULUT — İlerleme: XP, günlük seri, taş (ödül birimi), rozetler. Önkoşul: LNG-6.
@@ -73,3 +75,4 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 ## Notlar / bulgular
 
 - Commit öneki `LNG` olarak seçildi; değiştirmek istersen söyle.
+- Font bulgusu: Lilita One ve Fredoka'da `ğ ş İ Ğ Ş` yok; Titan One'da `İ` yok. Çocuk teması DynaPuff + Baloo 2'ye geçirildi.

@@ -1,6 +1,20 @@
 # Sanat yönü
 
-**Durum:** Seçim bekliyor (LNG-4). Furkan seçince bu satır "Onaylı yön: X" olarak güncellenir; `.claude/skills/art-direction` onaylı yönü esas alır.
+**Durum:**
+- Çocuk profilleri (2–7, 7–12): **C — Oyun Hamuru**, görsel öncelikli ✅ (Furkan, LNG-4)
+- Yetişkin profili: ayrı, yetişkinlere yönelik tema — seçim bekliyor (LNG-39)
+
+## Onaylı çocuk teması
+
+| 2–7 yaş | 7–12 yaş |
+|---|---|
+| ![2–7](art-direction/c-mini-2-7.png) | ![7–12](art-direction/c-kid-7-12.png) |
+
+- Görsel öncelik: 2–7'de seçenekler resim kartı, soru Zeynep'in sesinden; 7–12'de soru kartının en büyük öğesi resim.
+- Fontlar: **DynaPuff** (başlık) + **Baloo 2** (gövde). İlk örnekteki Lilita One ve Fredoka'da `ğ ş İ` olmadığı için değiştirildi.
+- Kaynak HTML/SVG: `art-direction/src/`.
+
+## İlk karşılaştırma (üç yön)
 
 Üç yön de aynı ekranla gösterildi: 7–12 yaş, çoktan seçmeli soru, doğru cevap anı, Nehir karakteri.
 
