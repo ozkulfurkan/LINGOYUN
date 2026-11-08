@@ -2,5 +2,246 @@
   "emotion.reluctant_leave": {
     "text": "Partiden erken ayrılmaya isteksizdi.",
     "alt": ["Partiden erken ayrılmak istemiyordu.", "Partiden erken ayrılmaya gönülsüzdü."]
+  },
+  "sentence.l1_this_cat": {
+    "text": "Bu bir kedi.",
+    "alt": ["Bu kedi."]
+  },
+  "sentence.l1_dog_big": {
+    "text": "Köpek büyük."
+  },
+  "sentence.l1_apple_red": {
+    "text": "Elma kırmızı."
+  },
+  "sentence.l1_i_happy": {
+    "text": "Ben mutluyum.",
+    "alt": ["Mutluyum."]
+  },
+  "sentence.l1_you_friend": {
+    "text": "Sen benim arkadaşımsın.",
+    "alt": ["Sen arkadaşımsın.", "Arkadaşımsın."]
+  },
+  "sentence.l1_she_sister": {
+    "text": "O benim kız kardeşim.",
+    "alt": ["O kız kardeşim.", "O benim ablam.", "O ablam."]
+  },
+  "sentence.l1_he_brother": {
+    "text": "O benim erkek kardeşim.",
+    "alt": ["O erkek kardeşim.", "O benim ağabeyim.", "O ağabeyim.", "O benim abim.", "O abim."]
+  },
+  "sentence.l1_this_mother": {
+    "text": "Bu benim annem.",
+    "alt": ["Bu annem."]
+  },
+  "sentence.l1_this_father": {
+    "text": "Bu benim babam.",
+    "alt": ["Bu babam."]
+  },
+  "sentence.l1_cat_small": {
+    "text": "Kedi küçük."
+  },
+  "sentence.l1_ball_blue": {
+    "text": "Top mavi."
+  },
+  "sentence.l1_bear_brown": {
+    "text": "Ayı kahverengi."
+  },
+  "sentence.l1_this_book": {
+    "text": "Bu benim kitabım.",
+    "alt": ["Bu kitabım."]
+  },
+  "sentence.l1_milk_white": {
+    "text": "Süt beyaz."
+  },
+  "sentence.l1_water_cold": {
+    "text": "Su soğuk."
+  },
+  "sentence.l1_house_big": {
+    "text": "Ev büyük."
+  },
+  "sentence.l1_bag_black": {
+    "text": "Çantam siyah.",
+    "alt": ["Benim çantam siyah."]
+  },
+  "sentence.l1_thanks_teacher": {
+    "text": "Teşekkür ederim, öğretmenim.",
+    "alt": ["Teşekkürler, öğretmenim.", "Sağ ol, öğretmenim."]
+  },
+  "sentence.l1_morning_friend": {
+    "text": "Günaydın, arkadaşım."
+  },
+  "sentence.l1_baby_happy": {
+    "text": "Bebek mutlu."
+  },
+  "sentence.l2_eat_bread": {
+    "text": "Ben ekmek yerim.",
+    "alt": ["Ekmek yerim.", "Ben ekmek yiyorum.", "Ekmek yiyorum."]
+  },
+  "sentence.l2_drink_milk": {
+    "text": "Ben süt içerim.",
+    "alt": ["Süt içerim.", "Ben süt içiyorum.", "Süt içiyorum."]
+  },
+  "sentence.l2_she_reads": {
+    "text": "O kitap okur.",
+    "alt": ["Kitap okur.", "O kitap okuyor.", "Kitap okuyor.", "O bir kitap okuyor."]
+  },
+  "sentence.l2_he_plays": {
+    "text": "O topla oynar.",
+    "alt": ["Topla oynar.", "O topla oynuyor.", "Topla oynuyor."]
+  },
+  "sentence.l2_go_school": {
+    "text": "Biz okula gideriz.",
+    "alt": ["Okula gideriz.", "Biz okula gidiyoruz.", "Okula gidiyoruz."]
+  },
+  "sentence.l2_like_chocolate": {
+    "text": "Ben çikolata severim.",
+    "alt": [
+      "Çikolata severim.",
+      "Ben çikolatayı severim.",
+      "Çikolatayı severim.",
+      "Çikolata seviyorum.",
+      "Çikolatayı seviyorum."
+    ]
+  },
+  "sentence.l2_hungry": {
+    "text": "Ben açım.",
+    "alt": ["Açım.", "Acıktım.", "Ben acıktım."]
+  },
+  "sentence.l2_tired": {
+    "text": "Ben yorgunum.",
+    "alt": ["Yorgunum."]
+  },
+  "sentence.l2_shoes_new": {
+    "text": "Ayakkabılarım yeni.",
+    "alt": ["Benim ayakkabılarım yeni."]
+  },
+  "sentence.l2_soup_hot": {
+    "text": "Çorba sıcak."
+  },
+  "sentence.l2_monday_good": {
+    "text": "Pazartesi iyi bir gün.",
+    "alt": ["Pazartesi iyi bir gündür."]
+  },
+  "sentence.l2_she_sits": {
+    "text": "O sandalyede oturur.",
+    "alt": ["Sandalyede oturur.", "O sandalyede oturuyor.", "Sandalyede oturuyor."]
+  },
+  "sentence.l2_key_table": {
+    "text": "Anahtar masanın üstünde.",
+    "alt": ["Anahtar masada.", "Anahtar masanın üzerinde."]
+  },
+  "sentence.l2_phone_bag": {
+    "text": "Telefon çantamda.",
+    "alt": ["Telefon benim çantamda.", "Telefon çantamın içinde."]
+  },
+  "sentence.l2_write_notebook": {
+    "text": "Defterime yazarım.",
+    "alt": ["Ben defterime yazarım.", "Defterime yazıyorum.", "Ben defterime yazıyorum."]
+  },
+  "sentence.l2_baby_sleeps": {
+    "text": "Bebek yatakta uyur.",
+    "alt": ["Bebek yatakta uyuyor."]
+  },
+  "sentence.l2_not_tired": {
+    "text": "Ben yorgun değilim.",
+    "alt": ["Yorgun değilim."]
+  },
+  "sentence.l2_glass_clean": {
+    "text": "Bu bardak temiz."
+  },
+  "sentence.l2_teacher_sees": {
+    "text": "Öğretmen öğrenciyi görür.",
+    "alt": ["Öğretmen öğrenciyi görüyor."]
+  },
+  "sentence.l2_they_come": {
+    "text": "Onlar sınıfa gelir.",
+    "alt": [
+      "Sınıfa gelirler.",
+      "Onlar sınıfa gelirler.",
+      "Sınıfa geliyorlar.",
+      "Onlar sınıfa geliyorlar."
+    ]
+  },
+  "sentence.l3_cold_today": {
+    "text": "Bugün hava soğuk.",
+    "alt": ["Bugün soğuk.", "Hava bugün soğuk."]
+  },
+  "sentence.l3_tomorrow_monday": {
+    "text": "Yarın pazartesi."
+  },
+  "sentence.l3_where_library": {
+    "text": "Kütüphane nerede?"
+  },
+  "sentence.l3_what_name": {
+    "text": "Adın ne?",
+    "alt": ["Senin adın ne?", "İsmin ne?", "Senin ismin ne?"]
+  },
+  "sentence.l3_who_boy": {
+    "text": "Bu çocuk kim?",
+    "alt": ["Bu erkek çocuk kim?", "Bu oğlan kim?"]
+  },
+  "sentence.l3_when_lesson": {
+    "text": "Ders ne zaman?"
+  },
+  "sentence.l3_why_sad": {
+    "text": "Neden üzgünsün?",
+    "alt": ["Niçin üzgünsün?", "Niye üzgünsün?", "Sen neden üzgünsün?"]
+  },
+  "sentence.l3_how_you": {
+    "text": "Nasılsın?",
+    "alt": ["Sen nasılsın?", "Nasılsınız?"]
+  },
+  "sentence.l3_grandmother_garden": {
+    "text": "Büyükannem bahçede.",
+    "alt": ["Anneannem bahçede.", "Babaannem bahçede.", "Ninem bahçede."]
+  },
+  "sentence.l3_grandfather_walks": {
+    "text": "Dedem parkta yürür.",
+    "alt": ["Dedem parkta yürüyor.", "Büyükbabam parkta yürür.", "Büyükbabam parkta yürüyor."]
+  },
+  "sentence.l3_swim_summer": {
+    "text": "Yazın yüzeriz.",
+    "alt": ["Biz yazın yüzeriz.", "Yazın yüzüyoruz.", "Biz yazın yüzüyoruz."]
+  },
+  "sentence.l3_snows_winter": {
+    "text": "Kışın kar yağar."
+  },
+  "sentence.l3_open_window": {
+    "text": "Lütfen pencereyi aç.",
+    "alt": ["Lütfen pencereyi açın.", "Pencereyi aç lütfen."]
+  },
+  "sentence.l3_close_door": {
+    "text": "Lütfen kapıyı kapat.",
+    "alt": ["Lütfen kapıyı kapatın.", "Kapıyı kapat lütfen."]
+  },
+  "sentence.l3_listen_teacher": {
+    "text": "Öğretmeni dinle.",
+    "alt": ["Öğretmeni dinleyin."]
+  },
+  "sentence.l3_sings_morning": {
+    "text": "O sabahları şarkı söyler.",
+    "alt": ["Sabahları şarkı söyler.", "O sabah şarkı söyler.", "Sabah şarkı söyler."]
+  },
+  "sentence.l3_lesson_easy": {
+    "text": "Bu ders kolay."
+  },
+  "sentence.l3_homework_difficult": {
+    "text": "Ödev zor."
+  },
+  "sentence.l3_wash_hands": {
+    "text": "Ellerimi banyoda yıkarım.",
+    "alt": [
+      "Ben ellerimi banyoda yıkarım.",
+      "Ellerimi banyoda yıkıyorum.",
+      "Ben ellerimi banyoda yıkıyorum."
+    ]
+  },
+  "sentence.l3_aunt_helps": {
+    "text": "Teyzem mutfakta anneme yardım eder.",
+    "alt": [
+      "Halam mutfakta anneme yardım eder.",
+      "Teyzem mutfakta anneme yardım ediyor.",
+      "Halam mutfakta anneme yardım ediyor."
+    ]
   }
 }

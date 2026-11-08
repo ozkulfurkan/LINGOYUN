@@ -1,0 +1,65 @@
+[
+  {
+    "id": "pronoun.i",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "pronoun.you",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "pronoun.he",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "pronoun.she",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "pronoun.my",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "pronoun.this",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "pronoun.we",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "pronoun.they",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "pronoun.your",
+    "topic": "pronoun",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "school.pen",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.school",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.classroom",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.desk",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.notebook",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.eraser",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.ruler",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.lesson",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.homework",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "school.student",
+    "topic": "school",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  }
+]

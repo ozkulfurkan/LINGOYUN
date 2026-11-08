@@ -1,0 +1,114 @@
+[
+  {
+    "id": "family.mother",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.father",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.brother",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.sister",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.baby",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.boy",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.girl",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.friend",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.teacher",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.grandmother",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.grandfather",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.uncle",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.aunt",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.cousin",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.child",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "family.name",
+    "topic": "family",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  }
+]

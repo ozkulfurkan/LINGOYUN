@@ -1,0 +1,170 @@
+[
+  {
+    "id": "action.eat",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.drink",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.go",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.come",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.see",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.like",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.read",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.write",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.run",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.sit",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.play",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.sleep",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.open",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.close",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.give",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.take",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.walk",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.swim",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.sing",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.draw",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.listen",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.speak",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.help",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "action.wash",
+    "topic": "action",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["verb"]
+  }
+]

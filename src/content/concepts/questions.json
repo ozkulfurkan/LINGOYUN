@@ -1,0 +1,44 @@
+[
+  {
+    "id": "question.what",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "question.who",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["pronoun"]
+  },
+  {
+    "id": "question.where",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "question.when",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "question.why",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "question.how",
+    "topic": "question",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adverb"]
+  }
+]

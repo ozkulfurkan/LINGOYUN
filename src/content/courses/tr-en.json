@@ -338,10 +338,558 @@
       ]
     },
     {
+      "id": "kid.l1.greetings",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "greeting.hello",
+        "greeting.goodbye",
+        "greeting.yes",
+        "greeting.no",
+        "greeting.please",
+        "greeting.thank_you",
+        "greeting.sorry",
+        "greeting.good_morning"
+      ]
+    },
+    {
+      "id": "kid.l1.numbers",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "number.one",
+        "number.two",
+        "number.three",
+        "number.four",
+        "number.five",
+        "number.six",
+        "number.seven",
+        "number.eight",
+        "number.nine",
+        "number.ten"
+      ]
+    },
+    {
+      "id": "kid.l1.colors",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "color.red",
+        "color.blue",
+        "color.yellow",
+        "color.green",
+        "color.orange",
+        "color.purple",
+        "color.pink",
+        "color.brown",
+        "color.black",
+        "color.white",
+        "color.gray"
+      ]
+    },
+    {
+      "id": "kid.l1.family",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "family.mother",
+        "family.father",
+        "family.brother",
+        "family.sister",
+        "family.baby",
+        "family.boy",
+        "family.girl",
+        "family.friend",
+        "family.teacher"
+      ]
+    },
+    {
+      "id": "kid.l1.me_and_you",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "pronoun.i",
+        "pronoun.you",
+        "pronoun.he",
+        "pronoun.she",
+        "pronoun.my",
+        "pronoun.this"
+      ]
+    },
+    {
+      "id": "kid.l1.animals",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "animal.cat",
+        "animal.dog",
+        "animal.bird",
+        "animal.fish",
+        "animal.horse",
+        "animal.cow",
+        "animal.sheep",
+        "animal.chicken",
+        "animal.duck",
+        "animal.rabbit",
+        "animal.mouse",
+        "animal.bear"
+      ]
+    },
+    {
       "id": "kid.l1.fruits",
       "profileType": "kid",
       "level": "L1",
-      "concepts": ["fruit.apple", "fruit.pear", "fruit.cherry", "fruit.grapes"]
+      "concepts": [
+        "fruit.apple",
+        "fruit.pear",
+        "fruit.cherry",
+        "fruit.grapes",
+        "fruit.banana",
+        "fruit.orange",
+        "fruit.strawberry",
+        "fruit.watermelon"
+      ]
+    },
+    {
+      "id": "kid.l1.food",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "food.bread",
+        "food.cheese",
+        "food.egg",
+        "food.cake",
+        "drink.milk",
+        "drink.water"
+      ]
+    },
+    {
+      "id": "kid.l1.things",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "home.book",
+        "home.pencil",
+        "school.pen",
+        "clothes.bag",
+        "toy.ball",
+        "home.house",
+        "home.door",
+        "home.table",
+        "home.chair",
+        "school.school"
+      ]
+    },
+    {
+      "id": "kid.l1.body",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": ["body.head", "body.eye", "body.ear", "body.nose", "body.mouth", "body.hand"]
+    },
+    {
+      "id": "kid.l1.describe",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "opposite.big",
+        "opposite.small",
+        "opposite.happy",
+        "opposite.sad",
+        "opposite.hot",
+        "opposite.cold"
+      ]
+    },
+    {
+      "id": "kid.l1.sentences_1",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "sentence.l1_this_cat",
+        "sentence.l1_dog_big",
+        "sentence.l1_apple_red",
+        "sentence.l1_i_happy",
+        "sentence.l1_you_friend",
+        "sentence.l1_she_sister",
+        "sentence.l1_he_brother",
+        "sentence.l1_this_mother",
+        "sentence.l1_this_father",
+        "sentence.l1_cat_small"
+      ]
+    },
+    {
+      "id": "kid.l1.sentences_2",
+      "profileType": "kid",
+      "level": "L1",
+      "concepts": [
+        "sentence.l1_ball_blue",
+        "sentence.l1_bear_brown",
+        "sentence.l1_this_book",
+        "sentence.l1_milk_white",
+        "sentence.l1_water_cold",
+        "sentence.l1_house_big",
+        "sentence.l1_bag_black",
+        "sentence.l1_thanks_teacher",
+        "sentence.l1_morning_friend",
+        "sentence.l1_baby_happy"
+      ]
+    },
+    {
+      "id": "kid.l2.numbers",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "number.eleven",
+        "number.twelve",
+        "number.thirteen",
+        "number.fourteen",
+        "number.fifteen",
+        "number.sixteen",
+        "number.seventeen",
+        "number.eighteen",
+        "number.nineteen",
+        "number.twenty"
+      ]
+    },
+    {
+      "id": "kid.l2.body",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "body.hair",
+        "body.face",
+        "body.tooth",
+        "body.neck",
+        "body.shoulder",
+        "body.arm",
+        "body.leg",
+        "body.foot",
+        "body.finger",
+        "body.knee"
+      ]
+    },
+    {
+      "id": "kid.l2.clothes",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "clothes.shirt",
+        "clothes.tshirt",
+        "clothes.pants",
+        "clothes.skirt",
+        "clothes.dress",
+        "clothes.coat",
+        "clothes.shoes",
+        "clothes.socks",
+        "clothes.hat",
+        "clothes.glasses"
+      ]
+    },
+    {
+      "id": "kid.l2.home",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "home.bed",
+        "home.window",
+        "home.lamp",
+        "home.clock",
+        "home.cup",
+        "home.glass",
+        "home.plate",
+        "home.spoon",
+        "home.fork",
+        "home.key",
+        "home.phone",
+        "home.television"
+      ]
+    },
+    {
+      "id": "kid.l2.school",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "school.classroom",
+        "school.desk",
+        "school.notebook",
+        "school.eraser",
+        "school.ruler",
+        "school.lesson",
+        "school.homework",
+        "school.student"
+      ]
+    },
+    {
+      "id": "kid.l2.food",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "food.rice",
+        "food.soup",
+        "food.meat",
+        "food.salad",
+        "food.ice_cream",
+        "food.chocolate",
+        "drink.juice",
+        "drink.tea"
+      ]
+    },
+    {
+      "id": "kid.l2.days",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "day.monday",
+        "day.tuesday",
+        "day.wednesday",
+        "day.thursday",
+        "day.friday",
+        "day.saturday",
+        "day.sunday",
+        "time.day"
+      ]
+    },
+    {
+      "id": "kid.l2.actions",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "action.eat",
+        "action.drink",
+        "action.go",
+        "action.come",
+        "action.see",
+        "action.like",
+        "action.read",
+        "action.write",
+        "action.run",
+        "action.sit",
+        "action.play",
+        "action.sleep"
+      ]
+    },
+    {
+      "id": "kid.l2.describe",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "quality.new",
+        "quality.old",
+        "quality.good",
+        "quality.bad",
+        "quality.hungry",
+        "quality.thirsty",
+        "quality.tired",
+        "quality.clean"
+      ]
+    },
+    {
+      "id": "kid.l2.we_and_they",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": ["pronoun.we", "pronoun.they"]
+    },
+    {
+      "id": "kid.l2.sentences_1",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "sentence.l2_eat_bread",
+        "sentence.l2_drink_milk",
+        "sentence.l2_she_reads",
+        "sentence.l2_he_plays",
+        "sentence.l2_go_school",
+        "sentence.l2_like_chocolate",
+        "sentence.l2_hungry",
+        "sentence.l2_tired",
+        "sentence.l2_shoes_new",
+        "sentence.l2_soup_hot"
+      ]
+    },
+    {
+      "id": "kid.l2.sentences_2",
+      "profileType": "kid",
+      "level": "L2",
+      "concepts": [
+        "sentence.l2_monday_good",
+        "sentence.l2_she_sits",
+        "sentence.l2_key_table",
+        "sentence.l2_phone_bag",
+        "sentence.l2_write_notebook",
+        "sentence.l2_baby_sleeps",
+        "sentence.l2_not_tired",
+        "sentence.l2_glass_clean",
+        "sentence.l2_teacher_sees",
+        "sentence.l2_they_come"
+      ]
+    },
+    {
+      "id": "kid.l3.family",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "family.grandmother",
+        "family.grandfather",
+        "family.uncle",
+        "family.aunt",
+        "family.cousin",
+        "family.child",
+        "family.name",
+        "pronoun.your"
+      ]
+    },
+    {
+      "id": "kid.l3.months",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "month.january",
+        "month.february",
+        "month.march",
+        "month.april",
+        "month.may",
+        "month.june",
+        "month.july",
+        "month.august",
+        "month.september",
+        "month.october",
+        "month.november",
+        "month.december"
+      ]
+    },
+    {
+      "id": "kid.l3.weather",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "season.spring",
+        "season.summer",
+        "season.autumn",
+        "season.winter",
+        "nature.sun",
+        "nature.rain",
+        "nature.snow",
+        "nature.wind",
+        "nature.cloud"
+      ]
+    },
+    {
+      "id": "kid.l3.places",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "place.park",
+        "place.hospital",
+        "place.store",
+        "place.library",
+        "place.street",
+        "place.city",
+        "place.village",
+        "place.garden",
+        "place.room",
+        "place.kitchen",
+        "place.bathroom",
+        "place.bedroom"
+      ]
+    },
+    {
+      "id": "kid.l3.time",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "time.today",
+        "time.tomorrow",
+        "time.yesterday",
+        "time.morning",
+        "time.evening",
+        "time.night",
+        "time.week",
+        "time.month",
+        "time.year"
+      ]
+    },
+    {
+      "id": "kid.l3.actions",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "action.open",
+        "action.close",
+        "action.give",
+        "action.take",
+        "action.walk",
+        "action.swim",
+        "action.sing",
+        "action.draw",
+        "action.listen",
+        "action.speak",
+        "action.help",
+        "action.wash"
+      ]
+    },
+    {
+      "id": "kid.l3.describe",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "quality.beautiful",
+        "quality.easy",
+        "quality.difficult",
+        "quality.strong",
+        "quality.young",
+        "quality.dirty",
+        "quality.tall",
+        "opposite.long",
+        "opposite.short",
+        "opposite.fast",
+        "opposite.slow"
+      ]
+    },
+    {
+      "id": "kid.l3.questions",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "question.what",
+        "question.who",
+        "question.where",
+        "question.when",
+        "question.why",
+        "question.how"
+      ]
+    },
+    {
+      "id": "kid.l3.sentences_1",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "sentence.l3_cold_today",
+        "sentence.l3_tomorrow_monday",
+        "sentence.l3_where_library",
+        "sentence.l3_what_name",
+        "sentence.l3_who_boy",
+        "sentence.l3_when_lesson",
+        "sentence.l3_why_sad",
+        "sentence.l3_how_you",
+        "sentence.l3_grandmother_garden",
+        "sentence.l3_grandfather_walks"
+      ]
+    },
+    {
+      "id": "kid.l3.sentences_2",
+      "profileType": "kid",
+      "level": "L3",
+      "concepts": [
+        "sentence.l3_swim_summer",
+        "sentence.l3_snows_winter",
+        "sentence.l3_open_window",
+        "sentence.l3_close_door",
+        "sentence.l3_listen_teacher",
+        "sentence.l3_sings_morning",
+        "sentence.l3_lesson_easy",
+        "sentence.l3_homework_difficult",
+        "sentence.l3_wash_hands",
+        "sentence.l3_aunt_helps"
+      ]
     },
     {
       "id": "adult.b1.emotions",

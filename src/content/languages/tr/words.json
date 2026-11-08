@@ -954,5 +954,434 @@
   "emotion.reluctant": {
     "text": "isteksiz",
     "alt": ["gönülsüz"]
+  },
+  "greeting.hello": {
+    "text": "merhaba",
+    "alt": ["selam"]
+  },
+  "greeting.goodbye": {
+    "text": "hoşça kal",
+    "alt": ["güle güle", "görüşürüz"]
+  },
+  "greeting.yes": {
+    "text": "evet"
+  },
+  "greeting.no": {
+    "text": "hayır"
+  },
+  "greeting.please": {
+    "text": "lütfen"
+  },
+  "greeting.thank_you": {
+    "text": "teşekkür ederim",
+    "alt": ["teşekkürler", "sağ ol"]
+  },
+  "greeting.sorry": {
+    "text": "özür dilerim",
+    "alt": ["pardon"]
+  },
+  "greeting.good_morning": {
+    "text": "günaydın"
+  },
+  "family.mother": {
+    "text": "anne"
+  },
+  "family.father": {
+    "text": "baba"
+  },
+  "family.brother": {
+    "text": "erkek kardeş",
+    "alt": ["ağabey", "abi"]
+  },
+  "family.sister": {
+    "text": "kız kardeş",
+    "alt": ["abla"]
+  },
+  "family.baby": {
+    "text": "bebek"
+  },
+  "family.boy": {
+    "text": "erkek çocuk",
+    "alt": ["oğlan"]
+  },
+  "family.girl": {
+    "text": "kız",
+    "alt": ["kız çocuk"]
+  },
+  "family.friend": {
+    "text": "arkadaş",
+    "alt": ["dost"]
+  },
+  "family.teacher": {
+    "text": "öğretmen"
+  },
+  "pronoun.i": {
+    "text": "ben"
+  },
+  "pronoun.you": {
+    "text": "sen",
+    "alt": ["siz"]
+  },
+  "pronoun.he": {
+    "text": "o"
+  },
+  "pronoun.she": {
+    "text": "o"
+  },
+  "pronoun.my": {
+    "text": "benim"
+  },
+  "pronoun.this": {
+    "text": "bu"
+  },
+  "school.pen": {
+    "text": "tükenmez kalem",
+    "alt": ["kalem"]
+  },
+  "school.school": {
+    "text": "okul"
+  },
+  "school.classroom": {
+    "text": "sınıf"
+  },
+  "school.desk": {
+    "text": "sıra",
+    "alt": ["okul sırası"]
+  },
+  "school.notebook": {
+    "text": "defter"
+  },
+  "school.eraser": {
+    "text": "silgi"
+  },
+  "school.ruler": {
+    "text": "cetvel"
+  },
+  "school.lesson": {
+    "text": "ders"
+  },
+  "school.homework": {
+    "text": "ödev",
+    "alt": ["ev ödevi"]
+  },
+  "school.student": {
+    "text": "öğrenci"
+  },
+  "day.monday": {
+    "text": "pazartesi"
+  },
+  "day.tuesday": {
+    "text": "salı"
+  },
+  "day.wednesday": {
+    "text": "çarşamba"
+  },
+  "day.thursday": {
+    "text": "perşembe"
+  },
+  "day.friday": {
+    "text": "cuma"
+  },
+  "day.saturday": {
+    "text": "cumartesi"
+  },
+  "day.sunday": {
+    "text": "pazar"
+  },
+  "time.day": {
+    "text": "gün"
+  },
+  "action.eat": {
+    "text": "yemek"
+  },
+  "action.drink": {
+    "text": "içmek"
+  },
+  "action.go": {
+    "text": "gitmek"
+  },
+  "action.come": {
+    "text": "gelmek"
+  },
+  "action.see": {
+    "text": "görmek"
+  },
+  "action.like": {
+    "text": "sevmek",
+    "alt": ["beğenmek", "hoşlanmak"]
+  },
+  "action.read": {
+    "text": "okumak"
+  },
+  "action.write": {
+    "text": "yazmak"
+  },
+  "action.run": {
+    "text": "koşmak"
+  },
+  "action.sit": {
+    "text": "oturmak"
+  },
+  "action.play": {
+    "text": "oynamak"
+  },
+  "action.sleep": {
+    "text": "uyumak"
+  },
+  "quality.new": {
+    "text": "yeni"
+  },
+  "quality.old": {
+    "text": "eski",
+    "alt": ["yaşlı"]
+  },
+  "quality.good": {
+    "text": "iyi"
+  },
+  "quality.bad": {
+    "text": "kötü"
+  },
+  "quality.hungry": {
+    "text": "aç"
+  },
+  "quality.thirsty": {
+    "text": "susamış",
+    "alt": ["susuz"]
+  },
+  "quality.tired": {
+    "text": "yorgun"
+  },
+  "quality.clean": {
+    "text": "temiz"
+  },
+  "pronoun.we": {
+    "text": "biz"
+  },
+  "pronoun.they": {
+    "text": "onlar"
+  },
+  "family.grandmother": {
+    "text": "büyükanne",
+    "alt": ["anneanne", "babaanne", "nine"]
+  },
+  "family.grandfather": {
+    "text": "büyükbaba",
+    "alt": ["dede"]
+  },
+  "family.uncle": {
+    "text": "amca",
+    "alt": ["dayı"]
+  },
+  "family.aunt": {
+    "text": "teyze",
+    "alt": ["hala"]
+  },
+  "family.cousin": {
+    "text": "kuzen"
+  },
+  "family.child": {
+    "text": "çocuk"
+  },
+  "family.name": {
+    "text": "isim",
+    "alt": ["ad"]
+  },
+  "pronoun.your": {
+    "text": "senin",
+    "alt": ["sizin"]
+  },
+  "month.january": {
+    "text": "ocak"
+  },
+  "month.february": {
+    "text": "şubat"
+  },
+  "month.march": {
+    "text": "mart"
+  },
+  "month.april": {
+    "text": "nisan"
+  },
+  "month.may": {
+    "text": "mayıs"
+  },
+  "month.june": {
+    "text": "haziran"
+  },
+  "month.july": {
+    "text": "temmuz"
+  },
+  "month.august": {
+    "text": "ağustos"
+  },
+  "month.september": {
+    "text": "eylül"
+  },
+  "month.october": {
+    "text": "ekim"
+  },
+  "month.november": {
+    "text": "kasım"
+  },
+  "month.december": {
+    "text": "aralık"
+  },
+  "season.spring": {
+    "text": "ilkbahar",
+    "alt": ["bahar"]
+  },
+  "season.summer": {
+    "text": "yaz"
+  },
+  "season.autumn": {
+    "text": "sonbahar"
+  },
+  "season.winter": {
+    "text": "kış"
+  },
+  "place.park": {
+    "text": "park"
+  },
+  "place.hospital": {
+    "text": "hastane"
+  },
+  "place.store": {
+    "text": "mağaza",
+    "alt": ["dükkân", "dükkan"]
+  },
+  "place.library": {
+    "text": "kütüphane"
+  },
+  "place.street": {
+    "text": "sokak",
+    "alt": ["cadde"]
+  },
+  "place.city": {
+    "text": "şehir",
+    "alt": ["kent"]
+  },
+  "place.village": {
+    "text": "köy"
+  },
+  "place.garden": {
+    "text": "bahçe"
+  },
+  "place.room": {
+    "text": "oda"
+  },
+  "place.kitchen": {
+    "text": "mutfak"
+  },
+  "place.bathroom": {
+    "text": "banyo"
+  },
+  "place.bedroom": {
+    "text": "yatak odası"
+  },
+  "time.today": {
+    "text": "bugün"
+  },
+  "time.tomorrow": {
+    "text": "yarın"
+  },
+  "time.yesterday": {
+    "text": "dün"
+  },
+  "time.morning": {
+    "text": "sabah"
+  },
+  "time.evening": {
+    "text": "akşam"
+  },
+  "time.night": {
+    "text": "gece"
+  },
+  "time.week": {
+    "text": "hafta"
+  },
+  "time.month": {
+    "text": "ay"
+  },
+  "time.year": {
+    "text": "yıl",
+    "alt": ["sene"]
+  },
+  "action.open": {
+    "text": "açmak"
+  },
+  "action.close": {
+    "text": "kapatmak"
+  },
+  "action.give": {
+    "text": "vermek"
+  },
+  "action.take": {
+    "text": "almak"
+  },
+  "action.walk": {
+    "text": "yürümek"
+  },
+  "action.swim": {
+    "text": "yüzmek"
+  },
+  "action.sing": {
+    "text": "şarkı söylemek"
+  },
+  "action.draw": {
+    "text": "çizmek",
+    "alt": ["resim yapmak"]
+  },
+  "action.listen": {
+    "text": "dinlemek"
+  },
+  "action.speak": {
+    "text": "konuşmak"
+  },
+  "action.help": {
+    "text": "yardım etmek"
+  },
+  "action.wash": {
+    "text": "yıkamak"
+  },
+  "quality.beautiful": {
+    "text": "güzel"
+  },
+  "quality.easy": {
+    "text": "kolay"
+  },
+  "quality.difficult": {
+    "text": "zor"
+  },
+  "quality.strong": {
+    "text": "güçlü"
+  },
+  "quality.young": {
+    "text": "genç"
+  },
+  "quality.dirty": {
+    "text": "kirli"
+  },
+  "quality.tall": {
+    "text": "uzun boylu",
+    "alt": ["uzun"]
+  },
+  "question.what": {
+    "text": "ne"
+  },
+  "question.who": {
+    "text": "kim"
+  },
+  "question.where": {
+    "text": "nerede"
+  },
+  "question.when": {
+    "text": "ne zaman"
+  },
+  "question.why": {
+    "text": "neden",
+    "alt": ["niçin", "niye"]
+  },
+  "question.how": {
+    "text": "nasıl"
   }
 }

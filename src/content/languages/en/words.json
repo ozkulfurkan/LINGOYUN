@@ -973,5 +973,417 @@
   "emotion.reluctant": {
     "text": "reluctant",
     "alt": ["unwilling"]
+  },
+  "greeting.hello": {
+    "text": "hello",
+    "alt": ["hi"]
+  },
+  "greeting.goodbye": {
+    "text": "goodbye",
+    "alt": ["bye"]
+  },
+  "greeting.yes": {
+    "text": "yes"
+  },
+  "greeting.no": {
+    "text": "no"
+  },
+  "greeting.please": {
+    "text": "please"
+  },
+  "greeting.thank_you": {
+    "text": "thank you",
+    "alt": ["thanks"]
+  },
+  "greeting.sorry": {
+    "text": "sorry"
+  },
+  "greeting.good_morning": {
+    "text": "good morning"
+  },
+  "family.mother": {
+    "text": "mother",
+    "alt": ["mom", "mum"]
+  },
+  "family.father": {
+    "text": "father",
+    "alt": ["dad"]
+  },
+  "family.brother": {
+    "text": "brother"
+  },
+  "family.sister": {
+    "text": "sister"
+  },
+  "family.baby": {
+    "text": "baby"
+  },
+  "family.boy": {
+    "text": "boy"
+  },
+  "family.girl": {
+    "text": "girl"
+  },
+  "family.friend": {
+    "text": "friend"
+  },
+  "family.teacher": {
+    "text": "teacher"
+  },
+  "pronoun.i": {
+    "text": "I"
+  },
+  "pronoun.you": {
+    "text": "you"
+  },
+  "pronoun.he": {
+    "text": "he"
+  },
+  "pronoun.she": {
+    "text": "she"
+  },
+  "pronoun.my": {
+    "text": "my"
+  },
+  "pronoun.this": {
+    "text": "this"
+  },
+  "school.pen": {
+    "text": "pen"
+  },
+  "school.school": {
+    "text": "school"
+  },
+  "school.classroom": {
+    "text": "classroom"
+  },
+  "school.desk": {
+    "text": "desk"
+  },
+  "school.notebook": {
+    "text": "notebook"
+  },
+  "school.eraser": {
+    "text": "eraser",
+    "alt": ["rubber"]
+  },
+  "school.ruler": {
+    "text": "ruler"
+  },
+  "school.lesson": {
+    "text": "lesson"
+  },
+  "school.homework": {
+    "text": "homework"
+  },
+  "school.student": {
+    "text": "student"
+  },
+  "day.monday": {
+    "text": "Monday"
+  },
+  "day.tuesday": {
+    "text": "Tuesday"
+  },
+  "day.wednesday": {
+    "text": "Wednesday"
+  },
+  "day.thursday": {
+    "text": "Thursday"
+  },
+  "day.friday": {
+    "text": "Friday"
+  },
+  "day.saturday": {
+    "text": "Saturday"
+  },
+  "day.sunday": {
+    "text": "Sunday"
+  },
+  "time.day": {
+    "text": "day"
+  },
+  "action.eat": {
+    "text": "eat"
+  },
+  "action.drink": {
+    "text": "drink"
+  },
+  "action.go": {
+    "text": "go"
+  },
+  "action.come": {
+    "text": "come"
+  },
+  "action.see": {
+    "text": "see"
+  },
+  "action.like": {
+    "text": "like"
+  },
+  "action.read": {
+    "text": "read"
+  },
+  "action.write": {
+    "text": "write"
+  },
+  "action.run": {
+    "text": "run"
+  },
+  "action.sit": {
+    "text": "sit"
+  },
+  "action.play": {
+    "text": "play"
+  },
+  "action.sleep": {
+    "text": "sleep"
+  },
+  "quality.new": {
+    "text": "new"
+  },
+  "quality.old": {
+    "text": "old"
+  },
+  "quality.good": {
+    "text": "good"
+  },
+  "quality.bad": {
+    "text": "bad"
+  },
+  "quality.hungry": {
+    "text": "hungry"
+  },
+  "quality.thirsty": {
+    "text": "thirsty"
+  },
+  "quality.tired": {
+    "text": "tired"
+  },
+  "quality.clean": {
+    "text": "clean"
+  },
+  "pronoun.we": {
+    "text": "we"
+  },
+  "pronoun.they": {
+    "text": "they"
+  },
+  "family.grandmother": {
+    "text": "grandmother",
+    "alt": ["grandma"]
+  },
+  "family.grandfather": {
+    "text": "grandfather",
+    "alt": ["grandpa"]
+  },
+  "family.uncle": {
+    "text": "uncle"
+  },
+  "family.aunt": {
+    "text": "aunt"
+  },
+  "family.cousin": {
+    "text": "cousin"
+  },
+  "family.child": {
+    "text": "child"
+  },
+  "family.name": {
+    "text": "name"
+  },
+  "pronoun.your": {
+    "text": "your"
+  },
+  "month.january": {
+    "text": "January"
+  },
+  "month.february": {
+    "text": "February"
+  },
+  "month.march": {
+    "text": "March"
+  },
+  "month.april": {
+    "text": "April"
+  },
+  "month.may": {
+    "text": "May"
+  },
+  "month.june": {
+    "text": "June"
+  },
+  "month.july": {
+    "text": "July"
+  },
+  "month.august": {
+    "text": "August"
+  },
+  "month.september": {
+    "text": "September"
+  },
+  "month.october": {
+    "text": "October"
+  },
+  "month.november": {
+    "text": "November"
+  },
+  "month.december": {
+    "text": "December"
+  },
+  "season.spring": {
+    "text": "spring"
+  },
+  "season.summer": {
+    "text": "summer"
+  },
+  "season.autumn": {
+    "text": "autumn",
+    "alt": ["fall"]
+  },
+  "season.winter": {
+    "text": "winter"
+  },
+  "place.park": {
+    "text": "park"
+  },
+  "place.hospital": {
+    "text": "hospital"
+  },
+  "place.store": {
+    "text": "store",
+    "alt": ["shop"]
+  },
+  "place.library": {
+    "text": "library"
+  },
+  "place.street": {
+    "text": "street"
+  },
+  "place.city": {
+    "text": "city"
+  },
+  "place.village": {
+    "text": "village"
+  },
+  "place.garden": {
+    "text": "garden"
+  },
+  "place.room": {
+    "text": "room"
+  },
+  "place.kitchen": {
+    "text": "kitchen"
+  },
+  "place.bathroom": {
+    "text": "bathroom"
+  },
+  "place.bedroom": {
+    "text": "bedroom"
+  },
+  "time.today": {
+    "text": "today"
+  },
+  "time.tomorrow": {
+    "text": "tomorrow"
+  },
+  "time.yesterday": {
+    "text": "yesterday"
+  },
+  "time.morning": {
+    "text": "morning"
+  },
+  "time.evening": {
+    "text": "evening"
+  },
+  "time.night": {
+    "text": "night"
+  },
+  "time.week": {
+    "text": "week"
+  },
+  "time.month": {
+    "text": "month"
+  },
+  "time.year": {
+    "text": "year"
+  },
+  "action.open": {
+    "text": "open"
+  },
+  "action.close": {
+    "text": "close"
+  },
+  "action.give": {
+    "text": "give"
+  },
+  "action.take": {
+    "text": "take"
+  },
+  "action.walk": {
+    "text": "walk"
+  },
+  "action.swim": {
+    "text": "swim"
+  },
+  "action.sing": {
+    "text": "sing"
+  },
+  "action.draw": {
+    "text": "draw"
+  },
+  "action.listen": {
+    "text": "listen"
+  },
+  "action.speak": {
+    "text": "speak",
+    "alt": ["talk"]
+  },
+  "action.help": {
+    "text": "help"
+  },
+  "action.wash": {
+    "text": "wash"
+  },
+  "quality.beautiful": {
+    "text": "beautiful",
+    "alt": ["pretty"]
+  },
+  "quality.easy": {
+    "text": "easy"
+  },
+  "quality.difficult": {
+    "text": "difficult",
+    "alt": ["hard"]
+  },
+  "quality.strong": {
+    "text": "strong"
+  },
+  "quality.young": {
+    "text": "young"
+  },
+  "quality.dirty": {
+    "text": "dirty"
+  },
+  "quality.tall": {
+    "text": "tall"
+  },
+  "question.what": {
+    "text": "what"
+  },
+  "question.who": {
+    "text": "who"
+  },
+  "question.where": {
+    "text": "where"
+  },
+  "question.when": {
+    "text": "when"
+  },
+  "question.why": {
+    "text": "why"
+  },
+  "question.how": {
+    "text": "how"
   }
 }

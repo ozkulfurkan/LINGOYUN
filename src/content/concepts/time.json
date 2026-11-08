@@ -1,0 +1,233 @@
+[
+  {
+    "id": "day.monday",
+    "topic": "day",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "day.tuesday",
+    "topic": "day",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "day.wednesday",
+    "topic": "day",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "day.thursday",
+    "topic": "day",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "day.friday",
+    "topic": "day",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "day.saturday",
+    "topic": "day",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "day.sunday",
+    "topic": "day",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.day",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.january",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.february",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.march",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.april",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.may",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.june",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.july",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.august",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.september",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.october",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.november",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "month.december",
+    "topic": "month",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "season.spring",
+    "topic": "season",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "season.summer",
+    "topic": "season",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "season.autumn",
+    "topic": "season",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "season.winter",
+    "topic": "season",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.today",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.tomorrow",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.yesterday",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.morning",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.evening",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.night",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.week",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.month",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.year",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "place.park",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.hospital",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.store",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.library",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.street",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.city",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.village",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.garden",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.room",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.kitchen",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.bathroom",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "place.bedroom",
+    "topic": "place",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["noun"]
+  }
+]

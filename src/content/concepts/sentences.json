@@ -1,0 +1,362 @@
+[
+  {
+    "id": "sentence.l1_this_cat",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_dog_big",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_apple_red",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_i_happy",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_you_friend",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_she_sister",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_he_brother",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_this_mother",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_this_father",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_cat_small",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_ball_blue",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_bear_brown",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_this_book",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_milk_white",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_water_cold",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_house_big",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_bag_black",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_thanks_teacher",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_morning_friend",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l1_baby_happy",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_eat_bread",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_drink_milk",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_she_reads",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_he_plays",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_go_school",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_like_chocolate",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_hungry",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_tired",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_shoes_new",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_soup_hot",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_monday_good",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_she_sits",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_key_table",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_phone_bag",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_write_notebook",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_baby_sleeps",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_not_tired",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_glass_clean",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_teacher_sees",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l2_they_come",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_cold_today",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_tomorrow_monday",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_where_library",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_what_name",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_who_boy",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_when_lesson",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_why_sad",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_how_you",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_grandmother_garden",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_grandfather_walks",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_swim_summer",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_snows_winter",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_open_window",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_close_door",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_listen_teacher",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_sings_morning",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_lesson_easy",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_homework_difficult",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_wash_hands",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  },
+  {
+    "id": "sentence.l3_aunt_helps",
+    "topic": "sentence",
+    "kind": "sentence",
+    "ageGroups": ["kid", "adult"]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "quality.new",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.old",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.good",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.bad",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.hungry",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.thirsty",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.tired",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.clean",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.beautiful",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.easy",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.difficult",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.strong",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.young",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.dirty",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "quality.tall",
+    "topic": "quality",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["adjective"]
+  }
+]

@@ -25,8 +25,8 @@ describe('content queries', () => {
       'mini.home',
       'mini.nature',
     ]);
-    expect(unitsFor(content, 'tr-en', 'kid', 'L1').map((u) => u.id)).toEqual(['kid.l1.fruits']);
-    expect(unitsFor(content, 'tr-en', 'kid', 'L2')).toEqual([]);
+    expect(unitsFor(content, 'tr-en', 'kid', 'L1').map((u) => u.id)).toContain('kid.l1.fruits');
+    expect(unitsFor(content, 'tr-en', 'kid', 'L4')).toEqual([]);
     expect(unitsFor(content, 'tr-en', 'adult', 'B1')).toHaveLength(1);
   });
 

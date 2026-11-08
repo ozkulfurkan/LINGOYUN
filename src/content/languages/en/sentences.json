@@ -1,3 +1,185 @@
 {
-  "emotion.reluctant_leave": { "text": "She was reluctant to leave the party early." }
+  "emotion.reluctant_leave": {
+    "text": "She was reluctant to leave the party early."
+  },
+  "sentence.l1_this_cat": {
+    "text": "This is a cat."
+  },
+  "sentence.l1_dog_big": {
+    "text": "The dog is big."
+  },
+  "sentence.l1_apple_red": {
+    "text": "The apple is red."
+  },
+  "sentence.l1_i_happy": {
+    "text": "I am happy."
+  },
+  "sentence.l1_you_friend": {
+    "text": "You are my friend."
+  },
+  "sentence.l1_she_sister": {
+    "text": "She is my sister."
+  },
+  "sentence.l1_he_brother": {
+    "text": "He is my brother."
+  },
+  "sentence.l1_this_mother": {
+    "text": "This is my mother."
+  },
+  "sentence.l1_this_father": {
+    "text": "This is my father."
+  },
+  "sentence.l1_cat_small": {
+    "text": "The cat is small."
+  },
+  "sentence.l1_ball_blue": {
+    "text": "The ball is blue."
+  },
+  "sentence.l1_bear_brown": {
+    "text": "The bear is brown."
+  },
+  "sentence.l1_this_book": {
+    "text": "This is my book."
+  },
+  "sentence.l1_milk_white": {
+    "text": "The milk is white."
+  },
+  "sentence.l1_water_cold": {
+    "text": "The water is cold."
+  },
+  "sentence.l1_house_big": {
+    "text": "The house is big."
+  },
+  "sentence.l1_bag_black": {
+    "text": "My bag is black."
+  },
+  "sentence.l1_thanks_teacher": {
+    "text": "Thank you, teacher."
+  },
+  "sentence.l1_morning_friend": {
+    "text": "Good morning, my friend."
+  },
+  "sentence.l1_baby_happy": {
+    "text": "The baby is happy."
+  },
+  "sentence.l2_eat_bread": {
+    "text": "I eat bread."
+  },
+  "sentence.l2_drink_milk": {
+    "text": "I drink milk."
+  },
+  "sentence.l2_she_reads": {
+    "text": "She reads a book."
+  },
+  "sentence.l2_he_plays": {
+    "text": "He plays with the ball."
+  },
+  "sentence.l2_go_school": {
+    "text": "We go to school."
+  },
+  "sentence.l2_like_chocolate": {
+    "text": "I like chocolate."
+  },
+  "sentence.l2_hungry": {
+    "text": "I am hungry."
+  },
+  "sentence.l2_tired": {
+    "text": "I am tired."
+  },
+  "sentence.l2_shoes_new": {
+    "text": "My shoes are new."
+  },
+  "sentence.l2_soup_hot": {
+    "text": "The soup is hot."
+  },
+  "sentence.l2_monday_good": {
+    "text": "Monday is a good day."
+  },
+  "sentence.l2_she_sits": {
+    "text": "She sits on the chair."
+  },
+  "sentence.l2_key_table": {
+    "text": "The key is on the table."
+  },
+  "sentence.l2_phone_bag": {
+    "text": "The phone is in my bag."
+  },
+  "sentence.l2_write_notebook": {
+    "text": "I write in my notebook."
+  },
+  "sentence.l2_baby_sleeps": {
+    "text": "The baby sleeps in the bed."
+  },
+  "sentence.l2_not_tired": {
+    "text": "I am not tired."
+  },
+  "sentence.l2_glass_clean": {
+    "text": "This glass is clean."
+  },
+  "sentence.l2_teacher_sees": {
+    "text": "The teacher sees the student."
+  },
+  "sentence.l2_they_come": {
+    "text": "They come to the classroom."
+  },
+  "sentence.l3_cold_today": {
+    "text": "It is cold today."
+  },
+  "sentence.l3_tomorrow_monday": {
+    "text": "Tomorrow is Monday."
+  },
+  "sentence.l3_where_library": {
+    "text": "Where is the library?"
+  },
+  "sentence.l3_what_name": {
+    "text": "What is your name?"
+  },
+  "sentence.l3_who_boy": {
+    "text": "Who is this boy?"
+  },
+  "sentence.l3_when_lesson": {
+    "text": "When is the lesson?"
+  },
+  "sentence.l3_why_sad": {
+    "text": "Why are you sad?"
+  },
+  "sentence.l3_how_you": {
+    "text": "How are you?"
+  },
+  "sentence.l3_grandmother_garden": {
+    "text": "My grandmother is in the garden."
+  },
+  "sentence.l3_grandfather_walks": {
+    "text": "My grandfather walks in the park."
+  },
+  "sentence.l3_swim_summer": {
+    "text": "We swim in summer."
+  },
+  "sentence.l3_snows_winter": {
+    "text": "It snows in winter."
+  },
+  "sentence.l3_open_window": {
+    "text": "Please open the window."
+  },
+  "sentence.l3_close_door": {
+    "text": "Please close the door."
+  },
+  "sentence.l3_listen_teacher": {
+    "text": "Listen to the teacher."
+  },
+  "sentence.l3_sings_morning": {
+    "text": "She sings in the morning."
+  },
+  "sentence.l3_lesson_easy": {
+    "text": "This lesson is easy."
+  },
+  "sentence.l3_homework_difficult": {
+    "text": "The homework is difficult."
+  },
+  "sentence.l3_wash_hands": {
+    "text": "I wash my hands in the bathroom."
+  },
+  "sentence.l3_aunt_helps": {
+    "text": "My aunt helps my mother in the kitchen."
+  }
 }

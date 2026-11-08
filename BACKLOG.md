@@ -35,7 +35,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 - [x] **LNG-12** BULUT — 2–7 yaş 300 kelime taslağı (6 tema × 50), EN + TR, resimlenebilir somut kelimeler. Furkan onayına sunulur.
 - [x] **LNG-13** FURKAN — LNG-12 listesinin onayı (`docs/content/mini-words.md`). Kararlar: rice → pilav, cake → pasta, coat → mont, sofa → kanepe, crayon → boya kalemi, blocks → oyuncak küpler, bubbles → baloncuk, grass → çimen (ot da kabul).
-- [ ] **LNG-14** BULUT — 7–12 yaş Seviye 1–3 içeriği (~250 kelime + 60 basit cümle).
+- [x] **LNG-14** BULUT — 7–12 yaş Seviye 1–3 içeriği (~250 kelime + 60 basit cümle). Liste: `docs/content/kid-words.md`.
 - [ ] **LNG-15** BULUT — Yetişkin A1–A2 içeriği (~600 kelime + 150 cümle + 30 deyim).
 
 ## Faz 3 — 7–12 yaş, ilk oynanabilir sürüm

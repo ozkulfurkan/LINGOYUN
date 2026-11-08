@@ -1,0 +1,58 @@
+[
+  {
+    "id": "greeting.hello",
+    "topic": "greeting",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.goodbye",
+    "topic": "greeting",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.yes",
+    "topic": "greeting",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.no",
+    "topic": "greeting",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.please",
+    "topic": "greeting",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.thank_you",
+    "topic": "greeting",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.sorry",
+    "topic": "greeting",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greeting.good_morning",
+    "topic": "greeting",
+    "kind": "word",
+    "ageGroups": ["kid", "adult"],
+    "tags": ["interjection"]
+  }
+]
