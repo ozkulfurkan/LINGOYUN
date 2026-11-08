@@ -3,6 +3,65 @@
     "name": "LINGOYUN"
   },
   "home": {
-    "comingSoon": "Coming soon"
+    "comingSoon": "Coming soon",
+    "hello": "Hello {{nickname}}"
+  },
+  "common": {
+    "continue": "Continue",
+    "selected": "Selected"
+  },
+  "languages": {
+    "tr": "Turkish",
+    "en": "English"
+  },
+  "profileErrors": {
+    "nicknameEmpty": "Write a nickname first.",
+    "nicknameTooLong": "A nickname can have at most {{max}} letters.",
+    "nicknameTaken": "This nickname is taken, try another one.",
+    "limitReached": "You can create at most {{limit}} profiles.",
+    "unknownCourse": "Something went wrong, please try again.",
+    "unknownProfile": "Something went wrong, please try again.",
+    "levelNotAllowed": "Something went wrong, please try again."
+  },
+  "onboarding": {
+    "nickname": {
+      "title": "Who is learning?",
+      "body": "Write a nickname. No real name needed, and it stays on this phone.",
+      "label": "Nickname",
+      "placeholder": "For example, Deniz"
+    },
+    "age": {
+      "title": "Which one fits {{nickname}}?",
+      "body": "Games and words are chosen to match.",
+      "mini": {
+        "title": "Ages 2–7",
+        "body": "Plays with pictures and sounds, no reading needed."
+      },
+      "kid": {
+        "title": "Ages 7–12",
+        "body": "Starts from zero with games, step by step."
+      },
+      "adult": {
+        "title": "Adult",
+        "body": "From beginner to advanced."
+      }
+    },
+    "level": {
+      "eyebrow": "Starting point",
+      "title": "How much {{language}} do you know?",
+      "body": "There is no wrong answer, pick the closest one.",
+      "kid": {
+        "none": "Nothing yet",
+        "some": "I know a few words",
+        "mid": "I can make simple sentences",
+        "good": "I know it very well"
+      },
+      "adult": {
+        "none": "Nothing yet",
+        "some": "A few words and phrases",
+        "mid": "I understand everyday conversations",
+        "good": "I can speak comfortably"
+      }
+    }
   }
 }

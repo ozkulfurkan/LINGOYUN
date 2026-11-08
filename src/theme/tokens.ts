@@ -10,6 +10,15 @@ export const space = {
   xxxl: 48,
 } as const;
 
+/** Border widths shared by every theme (in dp). */
+export const stroke = {
+  thin: 1,
+  thick: 3,
+} as const;
+
+/** Scale of a pressed control (game-feel skill). */
+export const pressedScale = 0.94;
+
 /** Minimum touch target per profile type (kids-ux skill). */
 export const touchTarget = {
   mini: 64,

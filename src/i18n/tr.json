@@ -3,6 +3,65 @@
     "name": "LINGOYUN"
   },
   "home": {
-    "comingSoon": "Yakında"
+    "comingSoon": "Yakında",
+    "hello": "Merhaba {{nickname}}"
+  },
+  "common": {
+    "continue": "Devam",
+    "selected": "Seçili"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "İngilizce"
+  },
+  "profileErrors": {
+    "nicknameEmpty": "Önce bir takma ad yaz.",
+    "nicknameTooLong": "Takma ad en fazla {{max}} harf olabilir.",
+    "nicknameTaken": "Bu takma ad kullanılıyor, başka bir tane dene.",
+    "limitReached": "En fazla {{limit}} profil oluşturulabilir.",
+    "unknownCourse": "Bir şeyler ters gitti, tekrar dene.",
+    "unknownProfile": "Bir şeyler ters gitti, tekrar dene.",
+    "levelNotAllowed": "Bir şeyler ters gitti, tekrar dene."
+  },
+  "onboarding": {
+    "nickname": {
+      "title": "Kim öğrenecek?",
+      "body": "Bir takma ad yaz. Gerçek ad gerekmez, bu ad yalnızca bu telefonda kalır.",
+      "label": "Takma ad",
+      "placeholder": "Örneğin Deniz"
+    },
+    "age": {
+      "title": "{{nickname}} için hangisi?",
+      "body": "Oyunlar ve kelimeler buna göre seçilir.",
+      "mini": {
+        "title": "2–7 yaş",
+        "body": "Resimler ve seslerle oynar, okuma gerekmez."
+      },
+      "kid": {
+        "title": "7–12 yaş",
+        "body": "Oyunlarla sıfırdan başlar, adım adım ilerler."
+      },
+      "adult": {
+        "title": "Yetişkin",
+        "body": "Başlangıçtan ileri seviyeye kadar."
+      }
+    },
+    "level": {
+      "eyebrow": "Başlangıç noktası",
+      "title": "Ne kadar {{language}} biliyorsun?",
+      "body": "Doğru cevap yok, sana en yakın olanı seç.",
+      "kid": {
+        "none": "Hiç bilmiyorum",
+        "some": "Birkaç kelime biliyorum",
+        "mid": "Basit cümleler kurabiliyorum",
+        "good": "Çok iyi biliyorum"
+      },
+      "adult": {
+        "none": "Hiç bilmiyorum",
+        "some": "Birkaç kelime ve kalıp biliyorum",
+        "mid": "Günlük konuşmaları anlıyorum",
+        "good": "Rahatça konuşabiliyorum"
+      }
+    }
   }
 }

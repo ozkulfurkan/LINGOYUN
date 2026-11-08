@@ -40,7 +40,19 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 3 — 7–12 yaş, ilk oynanabilir sürüm
 
-- [ ] **LNG-16** CİHAZ — Onboarding: profil oluştur → yaş grubu → (kid/adult) kendi beyanı. Önkoşul: LNG-6, LNG-2.
+- [~] **LNG-16** CİHAZ — Onboarding: profil oluştur → yaş grubu → (kid/adult) kendi beyanı. Önkoşul: LNG-6, LNG-2.
+  - ✅ Takma ad → yaş grubu → kendi beyanı → ana ekran. Yarıda kapatılırsa kaldığı yerden açılır. Kendi beyanı şimdilik geçici seviye yazar; LNG-17'de test bunu netleştirecek.
+  - Önce yeni derleme gerekir (yeni yerel paketler: Reanimated, Worklets, SVG, Haptics): `npx eas-cli@latest build --profile development --platform android` (iOS için `--platform ios`).
+  - Cihazda nasıl test edilir:
+    1. Uygulamayı ilk kez aç → "Kim öğrenecek?" ve nehir çizimi görünür, Türkçe harfler doğru fontla çıkar.
+    2. Takma ad kutusuna dokun → klavye açılınca kutu ve "Devam" görünür kalır (özellikle Android'de bak).
+    3. Ad yazmadan "Devam" → uyarı çıkar. Ad yaz, "Devam" → yaş grubu ekranı.
+    4. Kartlara ve butonlara bas → hafifçe sıkışıp geri esner, telefon hafifçe titrer. Seçili kartta çerçeve ve onay işareti görünür.
+    5. "2–7 yaş" → "Devam" → doğrudan ana ekran, "Merhaba <ad>".
+    6. Uygulamayı silip yeniden kur, "7–12 yaş" seç → seviye ekranı. Burada uygulamayı tamamen kapatıp aç → yine seviye ekranı açılır. Seç, "Devam" → ana ekran.
+    7. Yeniden kur, "Yetişkin" seç → seviye ekranı Sözlük temasıyla açılır; "BAŞLANGIÇ NOKTASI" başlığındaki harfler doğru. Telefonu koyu moda al → Gece Nehri renkleri gelir.
+    8. Ayarlardan "hareketi azalt"ı aç → butonlar sıkışmaz, yalnızca soluklaşır.
+    9. Telefon dilini İngilizce yap → metinler İngilizce gelir, çocuk ekranında metin taşmaz. Küçük ekranlı telefonda listeler kayar, "Devam" altta kalır.
 - [ ] **LNG-17** CİHAZ — Seviye tespit ekranları (20 soru, ilerleme çubuğu, "Bilmiyorum", sesli okuma) + sonuç ekranı. Önkoşul: LNG-10, LNG-16.
 - [ ] **LNG-18** CİHAZ — Oyun: Çoktan seçmeli (EN→TR / TR→EN). Önkoşul: LNG-7.
 - [ ] **LNG-19** CİHAZ — Oyun: Harf dizme. Önkoşul: LNG-7.
@@ -60,6 +72,10 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [ ] **LNG-27** CİHAZ — Serbest yazma oyunu (cümle çevirisi). Önkoşul: LNG-8.
 - [ ] **LNG-28** CİHAZ — Deyimler ve yanıltıcı benzer kelimeler modu.
 - [ ] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
+- [ ] **LNG-40** BULUT + FURKAN — Yetişkin içeriğini kolayca genişletme (Furkan'ın isteği: yetişkin içeriği LNG-15'teki listeyle sınırlı kalmayacak). Furkan kod ve birden çok JSON dosyasıyla uğraşmadan yeni kelime, cümle ve deyim ekleyebilmeli; tek bir kaynak dosya + komut, içeriği doğru yerlere dağıtır ve doğrular. Önkoşul: LNG-15.
+  - Sorulacak: düzenleme biçimi ne olsun (Excel/Google Sheets'ten CSV mi, düz metin mi)?
+  - Yapılacak: `src/content/adultContent.test.ts`'teki sabit sayı sınırları (en fazla 700 kelime, tam 150 cümle, tam 30 deyim) gevşetilmeli, yoksa yeni içerik testi kırar. Taban sınırlar kalır.
+  - Çıkış noktası: LNG-15'te kullanılan satır biçimi `id|en|enAlts|tr|trAlts` (tek kullanımlık script'ti, repoda yok).
 
 ## Faz 6 — 2–7 yaş (Zeynep, Nehir, Kerem)
 
