@@ -2924,8 +2924,8 @@
     "text": "ana yemek"
   },
   "restaurant.starter": {
-    "text": "başlangıç",
-    "alt": ["başlangıç yemeği", "meze"]
+    "text": "başlangıç (yemek)",
+    "alt": ["başlangıç", "başlangıç yemeği", "meze"]
   },
   "restaurant.napkin": {
     "text": "peçete"

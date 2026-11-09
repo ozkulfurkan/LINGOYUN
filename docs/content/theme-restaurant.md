@@ -44,28 +44,28 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-41). Parantez içindekile
 
 ## A2 (20 kelime, 10 cümle)
 
-| English                               | Türkçe                             |
-| ------------------------------------- | ---------------------------------- |
-| waiter (waitress, server)             | garson                             |
-| bill (check, invoice)                 | hesap (fatura)                     |
-| reservation (booking)                 | rezervasyon                        |
-| delicious (tasty)                     | lezzetli                           |
-| salty                                 | tuzlu                              |
-| water                                 | su                                 |
-| table                                 | masa                               |
-| soup                                  | çorba                              |
-| menu                                  | menü (yemek listesi)               |
-| dessert (sweet)                       | tatlı                              |
-| main course (main dish, main, entree) | ana yemek                          |
-| appetizer (starter, appetiser)        | başlangıç (başlangıç yemeği, meze) |
-| napkin (serviette)                    | peçete                             |
-| tip (gratuity)                        | bahşiş                             |
-| sauce                                 | sos                                |
-| order (place an order)                | sipariş vermek (ısmarlamak)        |
-| vegetarian                            | vejetaryen (etyemez)               |
-| spicy (hot)                           | acı (baharatlı)                    |
-| grilled                               | ızgara                             |
-| fried                                 | kızartma (kızarmış)                |
+| English                               | Türkçe                                                |
+| ------------------------------------- | ----------------------------------------------------- |
+| waiter (waitress, server)             | garson                                                |
+| bill (check, invoice)                 | hesap (fatura)                                        |
+| reservation (booking)                 | rezervasyon                                           |
+| delicious (tasty)                     | lezzetli                                              |
+| salty                                 | tuzlu                                                 |
+| water                                 | su                                                    |
+| table                                 | masa                                                  |
+| soup                                  | çorba                                                 |
+| menu                                  | menü (yemek listesi)                                  |
+| dessert (sweet)                       | tatlı                                                 |
+| main course (main dish, main, entree) | ana yemek                                             |
+| appetizer (starter, appetiser)        | başlangıç (yemek) (başlangıç, başlangıç yemeği, meze) |
+| napkin (serviette)                    | peçete                                                |
+| tip (gratuity)                        | bahşiş                                                |
+| sauce                                 | sos                                                   |
+| order (place an order)                | sipariş vermek (ısmarlamak)                           |
+| vegetarian                            | vejetaryen (etyemez)                                  |
+| spicy (hot)                           | acı (baharatlı)                                       |
+| grilled                               | ızgara                                                |
+| fried                                 | kızartma (kızarmış)                                   |
 
 ### Cümleler
 
