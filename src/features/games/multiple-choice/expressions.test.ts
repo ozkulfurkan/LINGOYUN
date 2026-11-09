@@ -11,7 +11,7 @@ describe('expressions mode', () => {
   it('collects every idiom and false friend of the adult course', () => {
     const kinds = pool.map((id) => content.concepts.find((c) => c.id === id)!);
     expect(kinds.filter((c) => c.kind === 'idiom')).toHaveLength(30);
-    expect(kinds.filter((c) => c.tags?.includes('false-friend')).length).toBeGreaterThanOrEqual(15);
+    expect(kinds.filter((c) => c.tags?.includes('false-friend')).length).toBeGreaterThanOrEqual(14);
     expect(kinds.every((c) => c.kind === 'idiom' || c.tags?.includes('false-friend'))).toBe(true);
   });
 

@@ -66,7 +66,7 @@ describe('restaurant theme screen', () => {
     await renderRouter(ROUTES);
     await press('Durum: Restoranda');
     expect(screen.getByText('Restoranda')).toBeTruthy();
-    for (const tier of ['A2', 'B1', 'B2', 'C1']) {
+    for (const tier of ['A1', 'A2', 'B1', 'B2', 'C1']) {
       expect(screen.getByLabelText(`${tier} Kelimeler`)).toBeTruthy();
       expect(screen.getByLabelText(`${tier} Cümleler`)).toBeTruthy();
     }

@@ -1936,10 +1936,7 @@
       "concepts": [
         "idiom.piece_of_cake",
         "idiom.blue_moon",
-        "idiom.two_birds",
         "idiom.break_the_ice",
-        "idiom.arm_and_leg",
-        "idiom.hot_water",
         "idiom.keep_an_eye",
         "idiom.by_heart",
         "idiom.on_time",
@@ -1958,7 +1955,6 @@
         "idiom.better_late",
         "idiom.practice_perfect",
         "idiom.easy_come",
-        "idiom.early_bird",
         "idiom.no_pain",
         "idiom.all_ears"
       ]
@@ -2106,25 +2102,75 @@
       "concepts": ["emotion.reluctant", "emotion.reluctant_leave"]
     },
     {
+      "id": "adult.b1.idioms",
+      "profileType": "adult",
+      "level": "B1",
+      "concepts": ["idiom.hot_water", "idiom.arm_and_leg", "idiom.two_birds", "idiom.early_bird"]
+    },
+    {
+      "id": "adult.b1.false_friends",
+      "profileType": "adult",
+      "level": "B1",
+      "concepts": [
+        "false_friend.parole",
+        "false_friend.pathetic",
+        "false_friend.sympathetic",
+        "false_friend.sensible",
+        "false_friend.realize",
+        "false_friend.pension"
+      ]
+    },
+    {
       "id": "adult.a2.false_friends",
       "profileType": "adult",
       "level": "A2",
       "concepts": [
-        "false_friend.sympathetic",
         "false_friend.actual",
-        "false_friend.sensible",
-        "false_friend.pathetic",
         "false_friend.fabric",
-        "false_friend.library",
         "false_friend.magazine",
         "false_friend.agenda",
-        "false_friend.pension",
         "false_friend.smoking",
-        "false_friend.parole",
         "false_friend.nervous",
-        "false_friend.realize",
         "false_friend.recipe",
         "false_friend.billion"
+      ]
+    },
+    {
+      "id": "adult.a1.restaurant",
+      "profileType": "adult",
+      "level": "A1",
+      "theme": "restaurant",
+      "concepts": [
+        "place.restaurant",
+        "food.food",
+        "food.breakfast",
+        "food.lunch",
+        "food.dinner",
+        "food.bread",
+        "food.meat",
+        "food.salad",
+        "food.rice",
+        "animal.fish",
+        "animal.chicken",
+        "drink.coffee",
+        "drink.tea",
+        "drink.juice",
+        "home.plate",
+        "home.fork",
+        "home.spoon",
+        "home.glass",
+        "quality.hungry",
+        "quality.thirsty",
+        "restaurant.a1_table_two",
+        "restaurant.a1_very_hungry",
+        "restaurant.a1_water_me",
+        "restaurant.a1_soup_bread",
+        "restaurant.a1_fish_today",
+        "restaurant.a1_tea_price",
+        "restaurant.a1_food_good",
+        "restaurant.a1_where_restaurant",
+        "restaurant.a1_meat_cold",
+        "restaurant.a1_two_coffees"
       ]
     },
     {

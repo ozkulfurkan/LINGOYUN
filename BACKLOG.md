@@ -157,17 +157,17 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Sorulacak: düzenleme biçimi ne olsun (Excel/Google Sheets'ten CSV mi, düz metin mi)?
   - Yapılacak: `src/content/adultContent.test.ts`'teki sabit sayı sınırları (en fazla 700 kelime, tam 150 cümle, tam 30 deyim) gevşetilmeli, yoksa yeni içerik testi kırar. Taban sınırlar kalır.
   - Çıkış noktası: LNG-15'te kullanılan satır biçimi `id|en|enAlts|tr|trAlts` (tek kullanımlık script'ti, repoda yok).
-- [~] **LNG-41** CİHAZ — Durum temalı içerik denemesi: "Restoranda", A2 → C1 dört zorlukta (Furkan'ın isteği). Yetişkin ana ekranında "Durum: Restoranda" → zorluk seç → kelime veya cümle oyunu. Liste: `docs/content/theme-restaurant.md`. Çeviri denetimi: `docs/content/reviews/`.
+- [~] **LNG-41** CİHAZ — Durum temalı içerik denemesi: "Restoranda", A1 → C1 beş zorlukta (Furkan'ın isteği). Yetişkin ana ekranında "Durum: Restoranda" → zorluk seç → kelime veya cümle oyunu. Liste: `docs/content/theme-restaurant.md`. Çeviri denetimi: `docs/content/reviews/`.
   - ✅ Tema üniteleri seviye merdiveninin dışında: seviye testi ve seviye atlama onları saymıyor, mevcut oyunlar etkilenmiyor. Toplu üretimde bu ayrım kaldırılacak.
   - ✅ Cümle kurma artık 26 kelimeye kadar kabul ediyor (önceden 9).
   - Derleme: yeni yerel paket yok, son derleme yeterli. Metro'yu `--clear` ile yeniden başlat.
   - Cihazda nasıl test edilir:
-    1. Yetişkin profilinde ana ekranda "Durum: Restoranda"ya bas → dört zorluk görünür (A2, B1, B2, C1).
+    1. Yetişkin profilinde ana ekranda "Durum: Restoranda"ya bas → beş zorluk görünür (A1, A2, B1, B2, C1).
     2. Her zorlukta "Kelimeler"i oyna: sorular restoran kelimeleri, şıklar aynı zorluktan gelir.
     3. Her zorlukta "Cümleler"i oyna: Türkçe cümleyi bloklarla kur. **Özellikle C1'de** (~23 kelime) bloklar ekrana sığıyor mu, ekran kayıyor mu, sürükleme ve dokunma rahat mı? Küçük ekranda da bak.
     4. Uzun Türkçe cümleler soru kartında taşıyor mu, okunaklı mı?
     5. İçerik ve zorluk artışı istediğin gibi mi? Biçimi beğenirsen LNG-42'ye geçilir.
-- [ ] **LNG-42** BULUT + FURKAN — Durum temalarıyla içerik üretimi (10 kat): evde, iş yerinde, yol sorarken, pastanede, restoranda, okulda ve diğerleri. Zorluğa göre A2 → C1. Önkoşul: LNG-41 onayı, LNG-40. Her parti `ceviri-editoru` agent'ından geçer. Tema üniteleri seviye merdivenine bağlanır, seviye atlama kuralı buna göre yeniden kurulur.
+- [ ] **LNG-42** BULUT + FURKAN — Durum temalarıyla içerik üretimi (10 kat): evde, iş yerinde, yol sorarken, pastanede, restoranda, okulda ve diğerleri. Zorluğa göre A1 → C1: A1 de temalara taşınacak (Furkan'ın kararı). Önkoşul: LNG-41 onayı, LNG-40. Her parti `ceviri-editoru` agent'ından geçer. Tema üniteleri seviye merdivenine bağlanır, seviye atlama kuralı buna göre yeniden kurulur.
 
 ## Faz 6 — 2–7 yaş (Zeynep, Nehir, Kerem)
 
@@ -204,7 +204,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - Karar (Furkan, LNG-17): kendi beyanında "Hiç bilmiyorum" diyen kullanıcı seviye testine girmez, doğrudan en alt seviyeden başlar (7–12: L1, yetişkin: A1). Diğer üç seçenek teste girer.
 - Karar (Furkan, LNG-41): içerik, durum temalarına göre yeniden kurulacak ve 10 katına çıkacak. Zorluklara göre A2 → C1 yayılacak. A1 şimdilik olduğu gibi kalıyor (Furkan onaylamalı: A1 de temalara taşınsın mı?). 7–12 yaşın payı henüz belirlenmedi.
 - Çeviri denetimi (LNG-41, `ceviri-editoru`): rapor `docs/content/reviews/`. Anlamı tamamen yanlış çeviri çıkmadı; HATA ve DÜZELT önerileri uygulandı. Bu, yapay zekâ denetimidir; yayından önce bir insan editöre göstermek yine önerilir, `review: true` işaretleri bu yüzden duruyor.
-- Açık sorular (Furkan, çeviri denetiminden): `family.wife` için ana metin "karı" kalsın mı, "eş" mi olsun? `false_friend.library` yanıltıcı kelime listesinde kalsın mı? `restaurant.starter` için "meze" kabul edilsin mi? İngilizce varsayılanı ABD mi, İngiltere mi? Seviyesinin üstünde görünen A2 deyimleri ve yanıltıcı kelimeler taşınsın mı?
+- Kararlar (Furkan, çeviri denetiminden): `family.wife` ana metni "eş". `false_friend.library` listeden çıkarıldı. `restaurant.starter` ana metni "başlangıç", "meze" de kabul. İngilizce varsayılanı ABD. Ağır A2 deyimleri (4) ve yanıltıcı kelimeler (6) B1'e taşındı; B1 henüz oynanabilir sayılmıyor, ama "Deyimler ve tuzaklar" modunda çıkmaya devam ediyorlar.
+- Açık sorular (Furkan, çeviri denetiminden): `money.bill` ana metni `check` olsun mu, yoksa kavram "hesap" ve "fatura" diye ikiye mi ayrılsın? `restaurant.starter` Türkçesi "başlangıç (yemek)" diye netleştirilsin mi? Rapor: `docs/content/reviews/decisions-batch.md`.
 - Karar (Furkan): kelimenin "öğrenildi" sayılması için farklı günlerde doğru bilinmesi şartı yok; 3 doğru yeterli.
 - Seviye testi üst sınırı (LNG-17): içerik olmadığı için test şimdilik yetişkini en fazla A2, çocuğu en fazla L3 olarak yerleştirir. İleri seviye bir kullanıcı da A2'den başlar. B1+ ve L4+ içeriği eklenince sınır kendiliğinden kalkar (seviye başına en az 20 kavram).
 - İçerik kontrolü (LNG-14, LNG-15): çeviriler henüz bir insan tarafından gözden geçirilmedi ve `review: true` işareti de konmadı. En riskli kısım deyimlerin Türkçe karşılıkları (`docs/content/adult-words.md`). Yayından önce kontrol edilmeli.

@@ -35,13 +35,6 @@
     "tags": ["false-friend"]
   },
   {
-    "id": "false_friend.library",
-    "topic": "false_friend",
-    "kind": "word",
-    "ageGroups": ["adult"],
-    "tags": ["false-friend"]
-  },
-  {
     "id": "false_friend.magazine",
     "topic": "false_friend",
     "kind": "word",

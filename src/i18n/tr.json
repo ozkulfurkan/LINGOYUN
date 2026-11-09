@@ -213,6 +213,7 @@
     "words": "Kelimeler",
     "sentences": "Cümleler",
     "tier": {
+      "A1": "Çok kısa cümleler",
       "A2": "Kısa cümleler",
       "B1": "Orta uzunlukta cümleler",
       "B2": "Uzun cümleler",

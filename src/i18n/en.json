@@ -213,6 +213,7 @@
     "words": "Words",
     "sentences": "Sentences",
     "tier": {
+      "A1": "Very short sentences",
       "A2": "Short sentences",
       "B1": "Medium sentences",
       "B2": "Long sentences",

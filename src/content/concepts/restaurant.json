@@ -555,5 +555,65 @@
     "topic": "restaurant",
     "kind": "sentence",
     "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_table_two",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_very_hungry",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_water_me",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_soup_bread",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_fish_today",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_tea_price",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_food_good",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_where_restaurant",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_meat_cold",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a1_two_coffees",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
   }
 ]

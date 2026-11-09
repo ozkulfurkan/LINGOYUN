@@ -64,7 +64,7 @@ describe('daily review', () => {
     const id = seed();
     // Two missed words from a higher level, one word not due yet.
     let deck: Deck = recordAnswer({}, 'false_friend.magazine', 'again', today());
-    deck = recordAnswer(deck, 'false_friend.library', 'again', today());
+    deck = recordAnswer(deck, 'false_friend.fabric', 'again', today());
     deck = recordAnswer(deck, 'fruit.apple', 'good', today());
     saveDeck(id, 'tr-en', deck);
 
@@ -85,7 +85,7 @@ describe('daily review', () => {
     }
     const asked = [...prompts].map((p) => p.toLowerCase());
     for (const p of asked) {
-      expect(['magazine', 'dergi', 'library', 'kütüphane']).toContain(p);
+      expect(['magazine', 'dergi', 'fabric', 'kumaş']).toContain(p);
     }
     expect(screen.getByText(/Deniz!$/)).toBeTruthy();
   });

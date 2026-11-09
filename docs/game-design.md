@@ -66,6 +66,7 @@ Bir tur **10 soru**, iki yön karışık. Sıra: vadesi gelen tekrarlar (en fazl
 
 | Zorluk | Cümle uzunluğu               |
 | ------ | ---------------------------- |
+| A1     | ~5 kelime                    |
 | A2     | ~8 kelime                    |
 | B1     | ~11 kelime (mevcudun 2 katı) |
 | B2     | ~17 kelime (3 katı)          |

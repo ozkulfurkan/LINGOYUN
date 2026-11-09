@@ -52,7 +52,8 @@ describe('adult levels A1-A2', () => {
     expect(words.length).toBeGreaterThanOrEqual(600);
     expect(words.length).toBeLessThanOrEqual(700);
     expect(all.filter((c) => c.kind === 'sentence')).toHaveLength(150);
-    expect(all.filter((c) => c.kind === 'idiom')).toHaveLength(30);
+    // Four of the original thirty idioms moved up to B1.
+    expect(all.filter((c) => c.kind === 'idiom')).toHaveLength(26);
   });
 
   it.each(LEVELS)('%s has words, sentences and idioms', (level) => {

@@ -13,7 +13,7 @@ import { space, stroke, useTheme } from '@/theme';
 // Themes with their own title and description in src/i18n.
 const THEMES = ['restaurant'] as const;
 // Difficulties with their own description in src/i18n.
-const TIERS = ['A2', 'B1', 'B2', 'C1'] as const;
+const TIERS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const;
 
 /** One real-life situation: the learner picks a difficulty and a game. */
 export default function ThemeScreen() {

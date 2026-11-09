@@ -6,8 +6,9 @@ import { seededRng } from '@/features/quiz/rng';
 import { content } from './bundle';
 import { getEntry, themeConcepts, themeUnits, unitsFor } from './query';
 
-// Average sentence length per difficulty: the shortest current sentences × 1, 2, 3, 4.
+// Average sentence length per difficulty, growing up to four times the A2 length.
 const TIERS = [
+  { level: 'A1', min: 4, max: 6 },
   { level: 'A2', min: 7, max: 9 },
   { level: 'B1', min: 10, max: 13 },
   { level: 'B2', min: 15, max: 19 },
@@ -18,7 +19,7 @@ const concepts = (level: string, kind: 'vocabulary' | 'sentence') =>
 const wordCount = (id: string) => getEntry(content, 'en', id)!.text.split(/\s+/).length;
 
 describe('restaurant theme', () => {
-  it('has all four difficulties, easiest first', () => {
+  it('has all five difficulties, easiest first', () => {
     expect(themeUnits(content, 'tr-en', 'adult', 'restaurant').map((u) => u.level)).toEqual(
       TIERS.map((t) => t.level),
     );

@@ -27,7 +27,7 @@ describe('content queries', () => {
     ]);
     expect(unitsFor(content, 'tr-en', 'kid', 'L1').map((u) => u.id)).toContain('kid.l1.fruits');
     expect(unitsFor(content, 'tr-en', 'kid', 'L4')).toEqual([]);
-    expect(unitsFor(content, 'tr-en', 'adult', 'B1')).toHaveLength(1);
+    expect(unitsFor(content, 'tr-en', 'adult', 'B1')).toHaveLength(3);
   });
 
   it('resolves a unit to concepts in order', () => {

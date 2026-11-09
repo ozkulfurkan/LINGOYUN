@@ -47,6 +47,8 @@ src/content/
 - Cümleler birebir çevrilmez; her dilde **kabul edilen cevaplar listesi** tutulur (`accepted: []`).
 - Bir kavramın bir dilde metni yoksa o kavram o kursta kullanılamaz. Bunu içerik doğrulama testi yakalar.
 
+- **İngilizce varsayılanı ABD yazımı ve söz varlığıdır** (`vacation`, `movie`, `fall`, `soccer`); İngiltere biçimi `alt` içinde kabul edilir (Furkan'ın kararı).
+
 ## Dil kaydı (`src/features/languages/`)
 
 Her dil tek bir kayıtla tanımlanır (`types.ts`, `registry.ts`):

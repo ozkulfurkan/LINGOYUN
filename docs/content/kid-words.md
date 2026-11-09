@@ -1,6 +1,6 @@
 # 7–12 yaş: Seviye 1–3 içeriği
 
-Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de doğru kabul edilir. Çeviri denetimi: `docs/content/reviews/existing-content.md`.
+Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de doğru kabul edilir. Çeviri denetimi: `docs/content/reviews/`.
 
 ## Seviye 1 (92 kelime, 0 deyim, 20 cümle)
 
@@ -389,7 +389,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 | ------------- | ---------------- |
 | spring        | ilkbahar (bahar) |
 | summer        | yaz              |
-| autumn (fall) | sonbahar         |
+| fall (autumn) | sonbahar         |
 | winter        | kış              |
 | sun           | güneş            |
 | rain          | yağmur           |

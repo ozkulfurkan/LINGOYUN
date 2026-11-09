@@ -420,8 +420,8 @@
     "text": "Today is Tuesday."
   },
   "sentence.a1_holiday_july": {
-    "text": "My holiday is in July.",
-    "alt": ["My vacation is in July."]
+    "text": "My vacation is in July.",
+    "alt": ["My holiday is in July."]
   },
   "sentence.a1_always_late": {
     "text": "He is always late.",
@@ -461,8 +461,14 @@
     "text": "See you tomorrow."
   },
   "sentence.a2_cinema_yesterday": {
-    "text": "I went to the cinema yesterday.",
-    "alt": ["Yesterday I went to the cinema.", "I went to the movies yesterday."]
+    "text": "I went to the movies yesterday.",
+    "alt": [
+      "I went to the cinema yesterday.",
+      "Yesterday I went to the cinema.",
+      "Yesterday I went to the movies.",
+      "I went to the movie theater yesterday.",
+      "Yesterday I went to the movie theater."
+    ]
   },
   "sentence.a2_visit_uncle": {
     "text": "We visited my uncle last week.",
@@ -473,9 +479,9 @@
     "alt": ["He bought a new dress."]
   },
   "sentence.a2_see_film": {
-    "text": "Did you see the film?",
+    "text": "Did you see the movie?",
     "alt": [
-      "Did you see the movie?",
+      "Did you see the film?",
       "Did you watch the film?",
       "Did you watch the movie?",
       "Have you seen the film?",
@@ -521,8 +527,13 @@
     "alt": ["Last week the weather was bad."]
   },
   "sentence.a2_where_holiday": {
-    "text": "Where did you go on holiday?",
-    "alt": ["Where did you go on vacation?"]
+    "text": "Where did you go on vacation?",
+    "alt": [
+      "Where did you go on holiday?",
+      "Where did you go for vacation?",
+      "Where did you go on your vacation?",
+      "Where did you go on your holiday?"
+    ]
   },
   "sentence.a2_how_trip": {
     "text": "How was your trip?"
@@ -601,8 +612,8 @@
     "text": "The train is cheaper than the plane."
   },
   "sentence.a2_book_interesting": {
-    "text": "This book is more interesting than that film.",
-    "alt": ["This book is more interesting than that movie."]
+    "text": "This book is more interesting than that movie.",
+    "alt": ["This book is more interesting than that film."]
   },
   "sentence.a2_best_restaurant": {
     "text": "This is the best restaurant in the city."
@@ -701,12 +712,18 @@
     "text": "Is there a discount?"
   },
   "sentence.a2_the_bill": {
-    "text": "Can we have the bill, please?",
+    "text": "Can we have the check, please?",
     "alt": [
+      "Can we have the bill, please?",
       "Can we please have the bill?",
       "Please can we have the bill?",
-      "Can we have the check, please?",
-      "Can we get the bill, please?"
+      "Can we get the bill, please?",
+      "Can we please have the check?",
+      "Please can we have the check?",
+      "Can we get the check, please?",
+      "Could we have the check, please?",
+      "Could we have the bill, please?",
+      "Could we get the check, please?"
     ]
   },
   "sentence.a2_enough_money": {
@@ -772,8 +789,14 @@
     "alt": ["Our neighbour is a very kind person."]
   },
   "sentence.a2_think_boring": {
-    "text": "I think this film is boring.",
-    "alt": ["I think this movie is boring."]
+    "text": "I think this movie is boring.",
+    "alt": [
+      "I think this film is boring.",
+      "This movie is boring, I think.",
+      "This film is boring, I think.",
+      "I think that this movie is boring.",
+      "I think that this film is boring."
+    ]
   },
   "sentence.a2_agree_you": {
     "text": "I agree with you."
@@ -818,11 +841,15 @@
     "text": "It was cold, so we went home."
   },
   "sentence.a2_film_weekend": {
-    "text": "We watch a film every weekend.",
+    "text": "We watch a movie every weekend.",
     "alt": [
-      "We watch a movie every weekend.",
+      "We watch a film every weekend.",
       "Every weekend we watch a film.",
-      "Every weekend we watch a movie."
+      "Every weekend we watch a movie.",
+      "We watch movies every weekend.",
+      "We watch films every weekend.",
+      "Every weekend we watch movies.",
+      "Every weekend we watch films."
     ]
   },
   "sentence.a2_photos_beach": {
@@ -906,12 +933,15 @@
     ]
   },
   "restaurant.a2_bill_card": {
-    "text": "Can we have the bill and pay by card?",
+    "text": "Can we have the check and pay by card?",
     "alt": [
+      "Can we have the bill and pay by card?",
       "Can we get the bill and pay by card?",
       "Could we have the bill and pay by card?",
-      "Can we have the check and pay by card?",
-      "Can we have the bill and pay with a card?"
+      "Can we have the bill and pay with a card?",
+      "Can we get the check and pay by card?",
+      "Could we have the check and pay by card?",
+      "Can we have the check and pay with a card?"
     ]
   },
   "restaurant.a2_reservation_eight": {
@@ -1015,12 +1045,14 @@
     ]
   },
   "restaurant.b1_take_away": {
-    "text": "Can we get the rest of our food to take away?",
+    "text": "Can we get the rest of our food to go?",
     "alt": [
-      "Can we get the rest of our food to go?",
+      "Can we get the rest of our food to take away?",
       "Can we have the rest of our food to take away?",
       "Can we take the rest of our food away?",
-      "Could we get the rest of our food to take away?"
+      "Could we get the rest of our food to take away?",
+      "Can we have the rest of our food to go?",
+      "Could we get the rest of our food to go?"
     ]
   },
   "restaurant.b1_service_slow": {
@@ -1169,8 +1201,10 @@
     ]
   },
   "restaurant.c1_should_persist": {
-    "text": "Should the problem with your booking persist, please contact our manager, who will gladly arrange an alternative table at no additional cost.",
+    "text": "Should the problem with your reservation persist, please contact our manager, who will gladly arrange an alternative table at no additional cost.",
     "alt": [
+      "Should the problem with your booking persist, please contact our manager, who will gladly arrange an alternative table at no additional cost.",
+      "Please contact our manager, who will gladly arrange an alternative table at no additional cost, should the problem with your reservation persist.",
       "Please contact our manager, who will gladly arrange an alternative table at no additional cost, should the problem with your booking persist.",
       "If the problem with your booking persists, please contact our manager, who will gladly arrange an alternative table at no additional cost.",
       "If the problem with your reservation persists, please contact our manager, who will gladly arrange an alternative table at no additional cost."
@@ -1192,5 +1226,72 @@
       "I doubt that the new owners will manage to keep the place open much longer, given the number of complaints about the service.",
       "Given the number of complaints about the service, I doubt the new owners will manage to keep the place open much longer."
     ]
+  },
+  "restaurant.a1_table_two": {
+    "text": "A table for two, please.",
+    "alt": ["Please, a table for two.", "A table for two people, please."]
+  },
+  "restaurant.a1_very_hungry": {
+    "text": "I am very hungry today.",
+    "alt": [
+      "I'm very hungry today.",
+      "Today I am very hungry.",
+      "Today I'm very hungry.",
+      "I am really hungry today.",
+      "I'm really hungry today.",
+      "I am so hungry today.",
+      "I'm so hungry today."
+    ]
+  },
+  "restaurant.a1_water_me": {
+    "text": "Water for me, please.",
+    "alt": ["Please, water for me.", "For me, water, please."]
+  },
+  "restaurant.a1_soup_bread": {
+    "text": "I would like soup and bread.",
+    "alt": [
+      "I would like bread and soup.",
+      "I'd like soup and bread.",
+      "I'd like bread and soup.",
+      "I want soup and bread.",
+      "I want bread and soup."
+    ]
+  },
+  "restaurant.a1_fish_today": {
+    "text": "Do you have fish today?",
+    "alt": [
+      "Is there fish today?",
+      "Today do you have fish?",
+      "Do you have any fish today?",
+      "Is there any fish today?",
+      "Have you got fish today?",
+      "Have you got any fish today?"
+    ]
+  },
+  "restaurant.a1_tea_price": {
+    "text": "How much is the tea?",
+    "alt": [
+      "How much is this tea?",
+      "How much does the tea cost?",
+      "How much does this tea cost?",
+      "How much is tea?",
+      "How much does tea cost?"
+    ]
+  },
+  "restaurant.a1_food_good": {
+    "text": "The food is very good.",
+    "alt": ["The food is really good.", "The food is very nice."]
+  },
+  "restaurant.a1_where_restaurant": {
+    "text": "Where is the restaurant?",
+    "alt": ["Where's the restaurant?"]
+  },
+  "restaurant.a1_meat_cold": {
+    "text": "This meat is cold.",
+    "alt": ["The meat is cold."]
+  },
+  "restaurant.a1_two_coffees": {
+    "text": "We would like two coffees.",
+    "alt": ["We'd like two coffees.", "We want two coffees."]
   }
 }

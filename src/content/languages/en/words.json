@@ -1249,8 +1249,8 @@
     "text": "summer"
   },
   "season.autumn": {
-    "text": "autumn",
-    "alt": ["fall"]
+    "text": "fall",
+    "alt": ["autumn"]
   },
   "season.winter": {
     "text": "winter"
@@ -1453,7 +1453,8 @@
     "text": "husband"
   },
   "family.wife": {
-    "text": "wife"
+    "text": "wife",
+    "alt": ["husband", "spouse"]
   },
   "family.parents": {
     "text": "parents"
@@ -1690,8 +1691,8 @@
     "text": "passport"
   },
   "travel.holiday": {
-    "text": "holiday",
-    "alt": ["vacation"]
+    "text": "vacation",
+    "alt": ["holiday"]
   },
   "travel.map": {
     "text": "map"
@@ -2038,8 +2039,8 @@
     "text": "visa"
   },
   "place.cinema": {
-    "text": "cinema",
-    "alt": ["movie theater"]
+    "text": "movie theater",
+    "alt": ["cinema", "movies", "movie theatre"]
   },
   "travel.arrive": {
     "text": "arrive"
@@ -2533,8 +2534,8 @@
     "text": "download"
   },
   "leisure.film": {
-    "text": "film",
-    "alt": ["movie"]
+    "text": "movie",
+    "alt": ["film"]
   },
   "leisure.music": {
     "text": "music"
@@ -2550,8 +2551,8 @@
     "alt": ["theatre"]
   },
   "leisure.football": {
-    "text": "football",
-    "alt": ["soccer"]
+    "text": "soccer",
+    "alt": ["football"]
   },
   "leisure.sport": {
     "text": "sport"
@@ -2788,9 +2789,6 @@
     "text": "fabric",
     "alt": ["cloth", "material"]
   },
-  "false_friend.library": {
-    "text": "library"
-  },
   "false_friend.magazine": {
     "text": "magazine"
   },
@@ -2832,8 +2830,8 @@
     "alt": ["main dish", "main", "entree"]
   },
   "restaurant.starter": {
-    "text": "starter",
-    "alt": ["appetizer"]
+    "text": "appetizer",
+    "alt": ["starter", "appetiser"]
   },
   "restaurant.napkin": {
     "text": "napkin",
@@ -2877,12 +2875,12 @@
     "text": "side dish"
   },
   "restaurant.takeaway": {
-    "text": "takeaway",
-    "alt": ["takeout", "take away", "take out"]
+    "text": "takeout",
+    "alt": ["takeaway", "take away", "take out"]
   },
   "restaurant.cutlery": {
-    "text": "cutlery",
-    "alt": ["silverware", "flatware"]
+    "text": "silverware",
+    "alt": ["cutlery", "flatware"]
   },
   "restaurant.recipe": {
     "text": "recipe"

@@ -1,6 +1,6 @@
-# Yetişkin: A1–A2 içeriği
+# Yetişkin: A1–B1 içeriği
 
-Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de doğru kabul edilir. Çeviri denetimi: `docs/content/reviews/existing-content.md`.
+Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de doğru kabul edilir. Çeviri denetimi: `docs/content/reviews/`.
 
 ## A1 (377 kelime, 10 deyim, 70 cümle)
 
@@ -27,31 +27,31 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 
 ### people
 
-| English               | Türkçe                               |
-| --------------------- | ------------------------------------ |
-| mother (mom, mum)     | anne                                 |
-| father (dad)          | baba                                 |
-| brother               | erkek kardeş (ağabey, abi)           |
-| sister                | kız kardeş (abla)                    |
-| baby                  | bebek                                |
-| child                 | çocuk                                |
-| boy                   | erkek çocuk (oğlan)                  |
-| girl                  | kız (kız çocuk)                      |
-| friend                | arkadaş (dost)                       |
-| name                  | isim (ad)                            |
-| grandmother (grandma) | büyükanne (anneanne, babaanne, nine) |
-| grandfather (grandpa) | büyükbaba (dede)                     |
-| man                   | adam (erkek)                         |
-| woman                 | kadın                                |
-| person                | kişi (insan)                         |
-| people                | insanlar (kişiler)                   |
-| family                | aile                                 |
-| son                   | oğul (erkek evlat)                   |
-| daughter              | kız evlat (kız)                      |
-| husband               | koca (eş)                            |
-| wife                  | karı (eş)                            |
-| parents               | anne baba (ebeveyn, anne ve baba)    |
-| neighbor (neighbour)  | komşu                                |
+| English                | Türkçe                               |
+| ---------------------- | ------------------------------------ |
+| mother (mom, mum)      | anne                                 |
+| father (dad)           | baba                                 |
+| brother                | erkek kardeş (ağabey, abi)           |
+| sister                 | kız kardeş (abla)                    |
+| baby                   | bebek                                |
+| child                  | çocuk                                |
+| boy                    | erkek çocuk (oğlan)                  |
+| girl                   | kız (kız çocuk)                      |
+| friend                 | arkadaş (dost)                       |
+| name                   | isim (ad)                            |
+| grandmother (grandma)  | büyükanne (anneanne, babaanne, nine) |
+| grandfather (grandpa)  | büyükbaba (dede)                     |
+| man                    | adam (erkek)                         |
+| woman                  | kadın                                |
+| person                 | kişi (insan)                         |
+| people                 | insanlar (kişiler)                   |
+| family                 | aile                                 |
+| son                    | oğul (erkek evlat)                   |
+| daughter               | kız evlat (kız)                      |
+| husband                | koca (eş)                            |
+| wife (husband, spouse) | eş (karı, hanım)                     |
+| parents                | anne baba (ebeveyn, anne ve baba)    |
+| neighbor (neighbour)   | komşu                                |
 
 ### pronouns
 
@@ -165,7 +165,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 | December      | aralık           |
 | spring        | ilkbahar (bahar) |
 | summer        | yaz              |
-| autumn (fall) | sonbahar         |
+| fall (autumn) | sonbahar         |
 | winter        | kış              |
 
 ### colors
@@ -310,7 +310,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 | road                        | yol                 |
 | ticket                      | bilet               |
 | passport                    | pasaport            |
-| holiday (vacation)          | tatil               |
+| vacation (holiday)          | tatil               |
 | map                         | harita              |
 | left                        | sol                 |
 | right                       | sağ                 |
@@ -574,7 +574,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 | My room is clean.                                                                    | Odam temiz.                                                     |
 | The kitchen has two windows.                                                         | Mutfağın iki penceresi var. (Mutfakta iki pencere var.)         |
 | Today is Tuesday.                                                                    | Bugün salı.                                                     |
-| My holiday is in July. (My vacation is in July.)                                     | Tatilim temmuzda.                                               |
+| My vacation is in July. (My holiday is in July.)                                     | Tatilim temmuzda.                                               |
 
 ### sentences_7
 
@@ -591,7 +591,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 | Thank you for your help. (Thanks for your help.)                                 | Yardımın için teşekkür ederim. (Yardımınız için teşekkür ederim., Yardımın için teşekkürler., Yardımınız için teşekkürler.) |
 | See you tomorrow.                                                                | Yarın görüşürüz.                                                                                                            |
 
-## A2 (323 kelime, 20 deyim, 80 cümle)
+## A2 (316 kelime, 16 deyim, 80 cümle)
 
 ### work
 
@@ -642,33 +642,33 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 
 ### travel
 
-| English                        | Türkçe                                 |
-| ------------------------------ | -------------------------------------- |
-| ship                           | gemi                                   |
-| subway (underground, metro)    | metro                                  |
-| motorcycle (motorbike)         | motosiklet (motor)                     |
-| traffic light (traffic lights) | trafik ışığı                           |
-| suitcase                       | bavul (valiz)                          |
-| flight                         | uçuş                                   |
-| reservation (booking)          | rezervasyon                            |
-| tourist                        | turist                                 |
-| trip                           | gezi (yolculuk)                        |
-| bus stop                       | otobüs durağı (durak)                  |
-| border                         | sınır                                  |
-| abroad                         | yurt dışı (yurt dışında)               |
-| guide                          | rehber                                 |
-| traffic                        | trafik                                 |
-| bridge                         | köprü                                  |
-| corner                         | köşe                                   |
-| square                         | meydan                                 |
-| visa                           | vize                                   |
-| cinema (movie theater)         | sinema                                 |
-| arrive                         | varmak (ulaşmak)                       |
-| leave                          | ayrılmak (çıkmak, gitmek)              |
-| travel                         | seyahat etmek (gezmek, yolculuk etmek) |
-| rent                           | kiralamak                              |
-| turn                           | dönmek                                 |
-| lost                           | kayıp (kaybolmuş)                      |
+| English                                       | Türkçe                                 |
+| --------------------------------------------- | -------------------------------------- |
+| ship                                          | gemi                                   |
+| subway (underground, metro)                   | metro                                  |
+| motorcycle (motorbike)                        | motosiklet (motor)                     |
+| traffic light (traffic lights)                | trafik ışığı                           |
+| suitcase                                      | bavul (valiz)                          |
+| flight                                        | uçuş                                   |
+| reservation (booking)                         | rezervasyon                            |
+| tourist                                       | turist                                 |
+| trip                                          | gezi (yolculuk)                        |
+| bus stop                                      | otobüs durağı (durak)                  |
+| border                                        | sınır                                  |
+| abroad                                        | yurt dışı (yurt dışında)               |
+| guide                                         | rehber                                 |
+| traffic                                       | trafik                                 |
+| bridge                                        | köprü                                  |
+| corner                                        | köşe                                   |
+| square                                        | meydan                                 |
+| visa                                          | vize                                   |
+| movie theater (cinema, movies, movie theatre) | sinema                                 |
+| arrive                                        | varmak (ulaşmak)                       |
+| leave                                         | ayrılmak (çıkmak, gitmek)              |
+| travel                                        | seyahat etmek (gezmek, yolculuk etmek) |
+| rent                                          | kiralamak                              |
+| turn                                          | dönmek                                 |
+| lost                                          | kayıp (kaybolmuş)                      |
 
 ### health
 
@@ -892,12 +892,12 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 
 | English           | Türkçe                |
 | ----------------- | --------------------- |
-| film (movie)      | film                  |
+| movie (film)      | film                  |
 | music             | müzik                 |
 | song              | şarkı                 |
 | concert           | konser                |
 | theater (theatre) | tiyatro               |
-| football (soccer) | futbol                |
+| soccer (football) | futbol                |
 | sport             | spor                  |
 | game              | oyun                  |
 | hobby             | hobi                  |
@@ -968,48 +968,44 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 
 ### idioms_1
 
-| English                              | Türkçe                                         |
-| ------------------------------------ | ---------------------------------------------- |
-| a piece of cake (piece of cake)      | çocuk oyuncağı (çok kolay)                     |
-| once in a blue moon                  | kırk yılda bir                                 |
-| kill two birds with one stone        | bir taşla iki kuş vurmak                       |
-| break the ice                        | buzları eritmek (buzları kırmak)               |
-| cost an arm and a leg                | dünyanın parasına mal olmak (çok pahalı olmak) |
-| be in hot water (in hot water)       | başı dertte olmak (başı belada olmak)          |
-| keep an eye on (keep an eye)         | göz kulak olmak                                |
-| learn by heart (memorize, memorise)  | ezberlemek (ezbere öğrenmek)                   |
-| on time                              | zamanında (tam zamanında)                      |
-| change your mind (change one's mind) | fikrini değiştirmek                            |
+| English                              | Türkçe                           |
+| ------------------------------------ | -------------------------------- |
+| a piece of cake (piece of cake)      | çocuk oyuncağı (çok kolay)       |
+| once in a blue moon                  | kırk yılda bir                   |
+| break the ice                        | buzları eritmek (buzları kırmak) |
+| keep an eye on (keep an eye)         | göz kulak olmak                  |
+| learn by heart (memorize, memorise)  | ezberlemek (ezbere öğrenmek)     |
+| on time                              | zamanında (tam zamanında)        |
+| change your mind (change one's mind) | fikrini değiştirmek              |
 
 ### idioms_2
 
-| English                         | Türkçe                                                                     |
-| ------------------------------- | -------------------------------------------------------------------------- |
-| feel at home                    | kendini evinde hissetmek                                                   |
-| pay attention                   | dikkat etmek                                                               |
-| take it easy                    | sakin ol (rahat ol, kafana takma)                                          |
-| time flies                      | zaman su gibi akıyor (zaman çabuk geçiyor)                                 |
-| better late than never          | geç olsun, güç olmasın                                                     |
-| practice makes perfect          | pratik yapan ustalaşır (işleyen demir pas tutmaz, pratik mükemmelleştirir) |
-| easy come, easy go              | haydan gelen huya gider                                                    |
-| the early bird catches the worm | erken kalkan yol alır                                                      |
-| no pain, no gain                | emek olmadan yemek olmaz                                                   |
-| be all ears (all ears)          | can kulağıyla dinlemek                                                     |
+| English                | Türkçe                                                                     |
+| ---------------------- | -------------------------------------------------------------------------- |
+| feel at home           | kendini evinde hissetmek                                                   |
+| pay attention          | dikkat etmek                                                               |
+| take it easy           | sakin ol (rahat ol, kafana takma)                                          |
+| time flies             | zaman su gibi akıyor (zaman çabuk geçiyor)                                 |
+| better late than never | geç olsun, güç olmasın                                                     |
+| practice makes perfect | pratik yapan ustalaşır (işleyen demir pas tutmaz, pratik mükemmelleştirir) |
+| easy come, easy go     | haydan gelen huya gider                                                    |
+| no pain, no gain       | emek olmadan yemek olmaz                                                   |
+| be all ears (all ears) | can kulağıyla dinlemek                                                     |
 
 ### sentences_1
 
-| English                                                                                                                                              | Türkçe                                                                                 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| I went to the cinema yesterday. (Yesterday I went to the cinema., I went to the movies yesterday.)                                                   | Dün sinemaya gittim. (Ben dün sinemaya gittim.)                                        |
-| We visited my uncle last week. (Last week we visited my uncle., We visited our uncle last week.)                                                     | Geçen hafta amcamı ziyaret ettik. (Geçen hafta dayımı ziyaret ettik.)                  |
-| She bought a new dress. (He bought a new dress.)                                                                                                     | Yeni bir elbise aldı. (O yeni bir elbise aldı., Yeni bir elbise satın aldı.)           |
-| Did you see the film? (Did you see the movie?, Did you watch the film?, Did you watch the movie?, Have you seen the film?, Have you seen the movie?) | Filmi gördün mü? (Filmi izledin mi?, Filmi gördünüz mü?, Filmi izlediniz mi?)          |
-| I forgot my password.                                                                                                                                | Şifremi unuttum. (Parolamı unuttum.)                                                   |
-| He lost his wallet on the bus. (On the bus he lost his wallet., She lost her wallet on the bus.)                                                     | Cüzdanını otobüste kaybetti. (O cüzdanını otobüste kaybetti.)                          |
-| We ate fish at a restaurant. (We ate fish in a restaurant.)                                                                                          | Bir restoranda balık yedik. (Restoranda balık yedik.)                                  |
-| She called me last night. (Last night she called me., He called me last night.)                                                                      | Dün gece beni aradı. (O dün gece beni aradı.)                                          |
-| The train left ten minutes ago. (Ten minutes ago the train left.)                                                                                    | Tren on dakika önce kalktı. (Tren on dakika önce gitti., Tren on dakika önce ayrıldı.) |
-| I did not sleep well. (I didn't sleep well.)                                                                                                         | İyi uyumadım. (İyi uyuyamadım.)                                                        |
+| English                                                                                                                                                                                                             | Türkçe                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| I went to the movies yesterday. (I went to the cinema yesterday., Yesterday I went to the cinema., Yesterday I went to the movies., I went to the movie theater yesterday., Yesterday I went to the movie theater.) | Dün sinemaya gittim. (Ben dün sinemaya gittim.)                                        |
+| We visited my uncle last week. (Last week we visited my uncle., We visited our uncle last week.)                                                                                                                    | Geçen hafta amcamı ziyaret ettik. (Geçen hafta dayımı ziyaret ettik.)                  |
+| She bought a new dress. (He bought a new dress.)                                                                                                                                                                    | Yeni bir elbise aldı. (O yeni bir elbise aldı., Yeni bir elbise satın aldı.)           |
+| Did you see the movie? (Did you see the film?, Did you watch the film?, Did you watch the movie?, Have you seen the film?, Have you seen the movie?)                                                                | Filmi gördün mü? (Filmi izledin mi?, Filmi gördünüz mü?, Filmi izlediniz mi?)          |
+| I forgot my password.                                                                                                                                                                                               | Şifremi unuttum. (Parolamı unuttum.)                                                   |
+| He lost his wallet on the bus. (On the bus he lost his wallet., She lost her wallet on the bus.)                                                                                                                    | Cüzdanını otobüste kaybetti. (O cüzdanını otobüste kaybetti.)                          |
+| We ate fish at a restaurant. (We ate fish in a restaurant.)                                                                                                                                                         | Bir restoranda balık yedik. (Restoranda balık yedik.)                                  |
+| She called me last night. (Last night she called me., He called me last night.)                                                                                                                                     | Dün gece beni aradı. (O dün gece beni aradı.)                                          |
+| The train left ten minutes ago. (Ten minutes ago the train left.)                                                                                                                                                   | Tren on dakika önce kalktı. (Tren on dakika önce gitti., Tren on dakika önce ayrıldı.) |
+| I did not sleep well. (I didn't sleep well.)                                                                                                                                                                        | İyi uyumadım. (İyi uyuyamadım.)                                                        |
 
 ### sentences_2
 
@@ -1019,7 +1015,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 | They were at home on Sunday. (On Sunday they were at home., They were home on Sunday.)                                                                                                                                                                                                                                                                                                                      | Pazar günü evdeydiler. (Onlar pazar günü evdeydi., Pazar günü evdeydi.)                           |
 | The meeting was very long.                                                                                                                                                                                                                                                                                                                                                                                  | Toplantı çok uzundu. (Toplantı çok uzun sürdü.)                                                   |
 | The weather was bad last week. (Last week the weather was bad.)                                                                                                                                                                                                                                                                                                                                             | Geçen hafta hava kötüydü.                                                                         |
-| Where did you go on holiday? (Where did you go on vacation?)                                                                                                                                                                                                                                                                                                                                                | Tatilde nereye gittin? (Tatilde nereye gittiniz?, Tatile nereye gittin?, Tatile nereye gittiniz?) |
+| Where did you go on vacation? (Where did you go on holiday?, Where did you go for vacation?, Where did you go on your vacation?, Where did you go on your holiday?)                                                                                                                                                                                                                                         | Tatilde nereye gittin? (Tatilde nereye gittiniz?, Tatile nereye gittin?, Tatile nereye gittiniz?) |
 | How was your trip?                                                                                                                                                                                                                                                                                                                                                                                          | Gezin nasıldı? (Geziniz nasıldı?, Yolculuğun nasıldı?, Yolculuğunuz nasıldı?)                     |
 | We are going to travel next summer. (We're going to travel next summer., Next summer we are going to travel., Next summer we're going to travel., We will travel next summer., We'll travel next summer.)                                                                                                                                                                                                   | Gelecek yaz seyahat edeceğiz. (Önümüzdeki yaz seyahat edeceğiz.)                                  |
 | I will call you tomorrow. (I'll call you tomorrow., Tomorrow I will call you., Tomorrow I'll call you., I am going to call you tomorrow., I'm going to call you tomorrow.)                                                                                                                                                                                                                                  | Seni yarın arayacağım. (Yarın seni arayacağım., Sizi yarın arayacağım., Yarın sizi arayacağım.)   |
@@ -1036,7 +1032,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 | I will not forget this day. (I won't forget this day., I am not going to forget this day., I'm not going to forget this day.)          | Bu günü unutmayacağım.                                                                                                                                             |
 | This hotel is bigger than that hotel.                                                                                                  | Bu otel o otelden daha büyük. (Bu otel şu otelden daha büyük., Bu otel o otelden büyük., Bu otel şu otelden büyük.)                                                |
 | The train is cheaper than the plane.                                                                                                   | Tren uçaktan daha ucuz. (Tren uçaktan ucuz.)                                                                                                                       |
-| This book is more interesting than that film. (This book is more interesting than that movie.)                                         | Bu kitap o filmden daha ilginç. (Bu kitap şu filmden daha ilginç.)                                                                                                 |
+| This book is more interesting than that movie. (This book is more interesting than that film.)                                         | Bu kitap o filmden daha ilginç. (Bu kitap şu filmden daha ilginç.)                                                                                                 |
 | This is the best restaurant in the city.                                                                                               | Bu, şehirdeki en iyi restoran. (Bu şehirdeki en iyi restoran., Şehirdeki en iyi restoran bu.)                                                                      |
 | This is the most expensive hotel in the city.                                                                                          | Bu, şehirdeki en pahalı otel. (Bu şehirdeki en pahalı otel., Şehirdeki en pahalı otel bu.)                                                                         |
 | My brother is older than me.                                                                                                           | Ağabeyim benden büyük. (Ağabeyim benden daha büyük., Abim benden büyük., Abim benden daha büyük., Erkek kardeşim benden büyük., Erkek kardeşim benden daha büyük.) |
@@ -1073,18 +1069,18 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 
 ### sentences_6
 
-| English                                                                                                                                                  | Türkçe                                                                                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| She has a job interview on Friday. (On Friday she has a job interview., He has a job interview on Friday.)                                               | Cuma günü iş görüşmesi var. (Cuma iş görüşmesi var., Cuma günü iş mülakatı var.)                              |
-| Can I try on this jacket? (Can I try this jacket on?, May I try on this jacket?, May I try this jacket on?)                                              | Bu ceketi deneyebilir miyim?                                                                                  |
-| What size do you want?                                                                                                                                   | Hangi bedeni istiyorsun? (Hangi bedeni istiyorsunuz?, Kaç beden istiyorsun?, Kaç beden istiyorsunuz?)         |
-| Is there a discount?                                                                                                                                     | İndirim var mı?                                                                                               |
-| Can we have the bill, please? (Can we please have the bill?, Please can we have the bill?, Can we have the check, please?, Can we get the bill, please?) | Hesabı alabilir miyiz, lütfen? (Hesabı alabilir miyiz lütfen?, Hesap lütfen.)                                 |
-| I do not have enough money. (I don't have enough money.)                                                                                                 | Yeterli param yok. (Yeterince param yok.)                                                                     |
-| This soup is delicious. (This soup is tasty., This soup is very tasty.)                                                                                  | Bu çorba lezzetli. (Bu çorba çok güzel., Bu çorba çok lezzetli.)                                              |
-| The food is too salty. (The food is very salty.)                                                                                                         | Yemek çok tuzlu. (Yemek fazla tuzlu.)                                                                         |
-| I bought a gift for my wife. (I bought a gift for my husband., I bought a present for my wife.)                                                          | Eşim için bir hediye aldım. (Karım için bir hediye aldım., Eşime bir hediye aldım., Karıma bir hediye aldım.) |
-| They sold their old car.                                                                                                                                 | Eski arabalarını sattılar. (Onlar eski arabalarını sattılar.)                                                 |
+| English                                                                                                                                                                                                                                                                                                                                                   | Türkçe                                                                                                        |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| She has a job interview on Friday. (On Friday she has a job interview., He has a job interview on Friday.)                                                                                                                                                                                                                                                | Cuma günü iş görüşmesi var. (Cuma iş görüşmesi var., Cuma günü iş mülakatı var.)                              |
+| Can I try on this jacket? (Can I try this jacket on?, May I try on this jacket?, May I try this jacket on?)                                                                                                                                                                                                                                               | Bu ceketi deneyebilir miyim?                                                                                  |
+| What size do you want?                                                                                                                                                                                                                                                                                                                                    | Hangi bedeni istiyorsun? (Hangi bedeni istiyorsunuz?, Kaç beden istiyorsun?, Kaç beden istiyorsunuz?)         |
+| Is there a discount?                                                                                                                                                                                                                                                                                                                                      | İndirim var mı?                                                                                               |
+| Can we have the check, please? (Can we have the bill, please?, Can we please have the bill?, Please can we have the bill?, Can we get the bill, please?, Can we please have the check?, Please can we have the check?, Can we get the check, please?, Could we have the check, please?, Could we have the bill, please?, Could we get the check, please?) | Hesabı alabilir miyiz, lütfen? (Hesabı alabilir miyiz lütfen?, Hesap lütfen.)                                 |
+| I do not have enough money. (I don't have enough money.)                                                                                                                                                                                                                                                                                                  | Yeterli param yok. (Yeterince param yok.)                                                                     |
+| This soup is delicious. (This soup is tasty., This soup is very tasty.)                                                                                                                                                                                                                                                                                   | Bu çorba lezzetli. (Bu çorba çok güzel., Bu çorba çok lezzetli.)                                              |
+| The food is too salty. (The food is very salty.)                                                                                                                                                                                                                                                                                                          | Yemek çok tuzlu. (Yemek fazla tuzlu.)                                                                         |
+| I bought a gift for my wife. (I bought a gift for my husband., I bought a present for my wife.)                                                                                                                                                                                                                                                           | Eşim için bir hediye aldım. (Karım için bir hediye aldım., Eşime bir hediye aldım., Karıma bir hediye aldım.) |
+| They sold their old car.                                                                                                                                                                                                                                                                                                                                  | Eski arabalarını sattılar. (Onlar eski arabalarını sattılar.)                                                 |
 
 ### sentences_7
 
@@ -1106,32 +1102,54 @@ Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de do�
 | English                                                                                                                                                                                                                                                                                          | Türkçe                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | Our neighbor is a very kind person. (Our neighbour is a very kind person.)                                                                                                                                                                                                                       | Komşumuz çok nazik biri. (Komşumuz çok nazik bir insan., Komşumuz çok kibar biri., Komşumuz çok kibar bir insan.)       |
-| I think this film is boring. (I think this movie is boring.)                                                                                                                                                                                                                                     | Bence bu film sıkıcı. (Bu filmin sıkıcı olduğunu düşünüyorum.)                                                          |
+| I think this movie is boring. (I think this film is boring., This movie is boring, I think., This film is boring, I think., I think that this movie is boring., I think that this film is boring.)                                                                                               | Bence bu film sıkıcı. (Bu filmin sıkıcı olduğunu düşünüyorum.)                                                          |
 | I agree with you.                                                                                                                                                                                                                                                                                | Sana katılıyorum. (Size katılıyorum., Seninle aynı fikirdeyim., Sizinle aynı fikirdeyim.)                               |
 | She is speaking on the phone now. (She's speaking on the phone now., Now she is speaking on the phone., Now she's speaking on the phone., She is now speaking on the phone., She's now speaking on the phone., He is speaking on the phone now., He's speaking on the phone now.)                | Şu anda telefonda konuşuyor. (Şimdi telefonda konuşuyor., O şimdi telefonda konuşuyor., O şu anda telefonda konuşuyor.) |
 | I wash my hands before dinner. (Before dinner I wash my hands.)                                                                                                                                                                                                                                  | Akşam yemeğinden önce ellerimi yıkarım. (Akşam yemeğinden önce ellerimi yıkıyorum.)                                     |
 | If it rains, we will stay at home. (If it rains, we'll stay at home., We will stay at home if it rains., We'll stay at home if it rains., If it rains, we will stay home., If it rains, we'll stay home., If it rains, we are going to stay at home., If it rains, we're going to stay at home.) | Yağmur yağarsa evde kalacağız. (Eğer yağmur yağarsa evde kalacağız.)                                                    |
 | I stayed at home because I was sick. (Because I was sick I stayed at home., I stayed home because I was sick., I stayed at home because I was ill.)                                                                                                                                              | Hasta olduğum için evde kaldım. (Evde kaldım çünkü hastaydım., Hastaydım, bu yüzden evde kaldım.)                       |
 | It was cold, so we went home.                                                                                                                                                                                                                                                                    | Hava soğuktu, bu yüzden eve gittik. (Hava soğuktu, o yüzden eve gittik.)                                                |
-| We watch a film every weekend. (We watch a movie every weekend., Every weekend we watch a film., Every weekend we watch a movie.)                                                                                                                                                                | Her hafta sonu film izliyoruz. (Her hafta sonu bir film izliyoruz., Her hafta sonu film izleriz.)                       |
+| We watch a movie every weekend. (We watch a film every weekend., Every weekend we watch a film., Every weekend we watch a movie., We watch movies every weekend., We watch films every weekend., Every weekend we watch movies., Every weekend we watch films.)                                  | Her hafta sonu film izliyoruz. (Her hafta sonu bir film izliyoruz., Her hafta sonu film izleriz.)                       |
 | I took many photos at the beach. (At the beach I took many photos., I took a lot of photos at the beach.)                                                                                                                                                                                        | Plajda çok fotoğraf çektim. (Plajda birçok fotoğraf çektim., Sahilde çok fotoğraf çektim.)                              |
+
+### false_friends
+
+| English                  | Türkçe                       |
+| ------------------------ | ---------------------------- |
+| actual (real)            | gerçek (asıl)                |
+| fabric (cloth, material) | kumaş                        |
+| magazine                 | dergi                        |
+| agenda                   | gündem                       |
+| smoking                  | sigara içme (sigara içmek)   |
+| nervous (tense, anxious) | gergin (tedirgin, heyecanlı) |
+| recipe                   | yemek tarifi (tarif)         |
+| billion                  | milyar                       |
+
+## B1 (7 kelime, 4 deyim, 1 cümle)
+
+### emotions
+
+| English                                                                                                                                                                                                                                                              | Türkçe                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| reluctant (unwilling)                                                                                                                                                                                                                                                | isteksiz (gönülsüz)                                                                                               |
+| She was reluctant to leave the party early. (He was reluctant to leave the party early., She did not want to leave the party early., She didn't want to leave the party early., He did not want to leave the party early., He didn't want to leave the party early.) | Partiden erken ayrılmak istemiyordu. (Partiden erken ayrılmaya gönülsüzdü., Partiden erken ayrılmaya isteksizdi.) |
+
+### idioms
+
+| English                         | Türkçe                                         |
+| ------------------------------- | ---------------------------------------------- |
+| be in hot water (in hot water)  | başı dertte olmak (başı belada olmak)          |
+| cost an arm and a leg           | dünyanın parasına mal olmak (çok pahalı olmak) |
+| kill two birds with one stone   | bir taşla iki kuş vurmak                       |
+| the early bird catches the worm | erken kalkan yol alır                          |
 
 ### false_friends
 
 | English                        | Türkçe                         |
 | ------------------------------ | ------------------------------ |
-| sympathetic (understanding)    | anlayışlı (duygudaş)           |
-| actual (real)                  | gerçek (asıl)                  |
-| sensible (reasonable, logical) | mantıklı (makul, akıllıca)     |
-| pathetic (pitiful)             | acınası (zavallı, acınacak)    |
-| fabric (cloth, material)       | kumaş                          |
-| library                        | kütüphane                      |
-| magazine                       | dergi                          |
-| agenda                         | gündem                         |
-| pension                        | emekli maaşı (emeklilik maaşı) |
-| smoking                        | sigara içme (sigara içmek)     |
 | parole                         | şartlı tahliye                 |
-| nervous (tense, anxious)       | gergin (tedirgin, heyecanlı)   |
+| pathetic (pitiful)             | acınası (zavallı, acınacak)    |
+| sympathetic (understanding)    | anlayışlı (duygudaş)           |
+| sensible (reasonable, logical) | mantıklı (makul, akıllıca)     |
 | realize (realise, notice)      | fark etmek (anlamak)           |
-| recipe                         | yemek tarifi (tarif)           |
-| billion                        | milyar                         |
+| pension                        | emekli maaşı (emeklilik maaşı) |

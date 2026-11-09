@@ -1080,5 +1080,40 @@
     "alt": [
       "Servisle ilgili şikayetlerin sayısı düşünülürse, yeni sahiplerin burayı çok daha uzun süre açık tutabileceğinden şüpheliyim."
     ]
+  },
+  "restaurant.a1_table_two": {
+    "text": "İki kişilik bir masa, lütfen.",
+    "alt": ["İki kişilik masa, lütfen."]
+  },
+  "restaurant.a1_very_hungry": {
+    "text": "Bugün çok açım."
+  },
+  "restaurant.a1_water_me": {
+    "text": "Bana su, lütfen.",
+    "alt": ["Ben su alayım, lütfen."]
+  },
+  "restaurant.a1_soup_bread": {
+    "text": "Çorba ve ekmek istiyorum.",
+    "alt": ["Ekmek ve çorba istiyorum."]
+  },
+  "restaurant.a1_fish_today": {
+    "text": "Bugün balık var mı?"
+  },
+  "restaurant.a1_tea_price": {
+    "text": "Çay ne kadar?",
+    "alt": ["Çay kaç para?"]
+  },
+  "restaurant.a1_food_good": {
+    "text": "Yemek çok güzel.",
+    "alt": ["Yemek çok iyi."]
+  },
+  "restaurant.a1_where_restaurant": {
+    "text": "Restoran nerede?"
+  },
+  "restaurant.a1_meat_cold": {
+    "text": "Bu et soğuk."
+  },
+  "restaurant.a1_two_coffees": {
+    "text": "İki kahve istiyoruz."
   }
 }

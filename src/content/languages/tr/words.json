@@ -1446,8 +1446,8 @@
     "alt": ["eş"]
   },
   "family.wife": {
-    "text": "karı",
-    "alt": ["eş"]
+    "text": "eş",
+    "alt": ["karı", "hanım"]
   },
   "family.parents": {
     "text": "anne baba",
@@ -2862,11 +2862,6 @@
     "trap": "fabrika",
     "note": "«Fabrika» İngilizcede «factory» olur."
   },
-  "false_friend.library": {
-    "text": "kütüphane",
-    "trap": "kitapçı",
-    "note": "«Kitapçı» İngilizcede «bookshop» ya da «bookstore» olur."
-  },
   "false_friend.magazine": {
     "text": "dergi",
     "trap": "mağaza",
@@ -2929,8 +2924,8 @@
     "text": "ana yemek"
   },
   "restaurant.starter": {
-    "text": "başlangıç yemeği",
-    "alt": ["başlangıç", "meze"]
+    "text": "başlangıç",
+    "alt": ["başlangıç yemeği", "meze"]
   },
   "restaurant.napkin": {
     "text": "peçete"
