@@ -10,6 +10,8 @@ const LIMITS = {
   playTitle: 30,
   shortDescription: 80,
   description: 4000,
+  // Our own limit so captions fit on two lines of the framed screenshots.
+  caption: 40,
 };
 
 describe.each(Object.entries(listings))('%s listing', (_locale, listing) => {
@@ -39,6 +41,13 @@ describe.each(Object.entries(listings))('%s listing', (_locale, listing) => {
   it('fits the Play Store limits', () => {
     expect(listing.play.title.length).toBeLessThanOrEqual(LIMITS.playTitle);
     expect(listing.play.shortDescription.length).toBeLessThanOrEqual(LIMITS.shortDescription);
+  });
+
+  it('has a short caption for each of the six screenshots', () => {
+    expect(listing.screenshotCaptions).toHaveLength(6);
+    for (const caption of listing.screenshotCaptions) {
+      expect(caption.length).toBeLessThanOrEqual(LIMITS.caption);
+    }
   });
 
   it('promises only what the app does', () => {
