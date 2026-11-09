@@ -167,7 +167,14 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     2. "magazine", "library" gibi bir soru gelince şıklarda tuzak (mağaza, kitapçı) var mı?
     3. Cevapladıktan sonra geri bildirim kutusunda açıklama ikinci satırda görünüyor mu, uzun açıklama taşmadan sığıyor mu?
     4. Normal "Oyna" turunda da A2 seviyesindeysen yanıltıcı kelimeler çıkabilir; Türkçe → İngilizce sorulduğunda açıklama yine görünmeli.
-- [ ] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
+- [~] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
+  - ✅ Haritada (7–12 ve yetişkin) tekrar kartı: "Bugün N kelime tekrar bekliyor" + "Tekrar et"; yoksa "Bugün tekrar yok, harika!". "Tekrar et" yalnızca bugün vadesi gelen kelimeleri (bütün seviyelerden, en çok geciken önce, en fazla 10) çoktan seçmeliyle sorar; şıklar az ise mevcut seviyeden tamamlanır. Mantık `dailyReviewConcepts` (`src/features/games/multiple-choice/round.ts`).
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. Birkaç kelimeyi yanlış cevapla, ana ekrana dön → "Bugün N kelime tekrar bekliyor".
+    2. "Tekrar et" → yalnızca o kelimeler sorulur (soru sayısı N, en fazla 10).
+    3. Hepsini doğru cevapla, ana ekrana dön → sayı azalır ya da "Bugün tekrar yok, harika!".
+    4. Ertesi gün aç → bir gün önce doğru cevapladığın yeni kelimeler (1 günlük kutu) tekrar listesinde.
 - [ ] **LNG-40** BULUT + FURKAN — Yetişkin içeriğini kolayca genişletme (Furkan'ın isteği: yetişkin içeriği LNG-15'teki listeyle sınırlı kalmayacak). Furkan kod ve birden çok JSON dosyasıyla uğraşmadan yeni kelime, cümle ve deyim ekleyebilmeli; tek bir kaynak dosya + komut, içeriği doğru yerlere dağıtır ve doğrular. Önkoşul: LNG-15.
   - Sorulacak: düzenleme biçimi ne olsun (Excel/Google Sheets'ten CSV mi, düz metin mi)?
   - Yapılacak: `src/content/adultContent.test.ts`'teki sabit sayı sınırları (en fazla 700 kelime, tam 150 cümle, tam 30 deyim) gevşetilmeli, yoksa yeni içerik testi kırar. Taban sınırlar kalır.

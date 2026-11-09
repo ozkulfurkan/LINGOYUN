@@ -11,6 +11,7 @@ import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
 import { content } from '@/content/bundle';
+import { dailyReviewConcepts } from '@/features/games/multiple-choice/round';
 import { levelNodes } from '@/features/map';
 import { onboardingStep } from '@/features/onboarding/flow';
 import { getActiveProfile, useProfiles, type Profile } from '@/features/profiles';
@@ -61,16 +62,13 @@ function MapHome({ profile, profileType, level }: MapHomeProps) {
   // changed the deck, the level or the streak.
   const read = useCallback(() => {
     const progress = loadProgress(profile.id);
+    const deck = loadDeck(profile.id, profile.courseId);
+    const today = localDay(new Date());
     return {
-      nodes: levelNodes(
-        content,
-        profile.courseId,
-        profileType,
-        loadDeck(profile.id, profile.courseId),
-        level,
-      ),
+      nodes: levelNodes(content, profile.courseId, profileType, deck, level),
       gems: progress.gems,
-      streak: visibleStreak(progress.streak, localDay(new Date())),
+      streak: visibleStreak(progress.streak, today),
+      reviews: dailyReviewConcepts(content, deck, today).length,
     };
   }, [profile.id, profile.courseId, profileType, level]);
   const [data, setData] = useState(read);
@@ -128,11 +126,41 @@ function MapHome({ profile, profileType, level }: MapHomeProps) {
         </View>
         <SettingsButton />
       </View>
+      <ReviewCard count={data.reviews} />
       <RiverMap
         nodes={data.nodes}
         shortLabel={(l) => (profileType === 'kid' ? l.replace(/^L/, '') : l)}
       />
     </Screen>
+  );
+}
+
+/** Today's spaced-repetition reviews (LNG-29). */
+function ReviewCard({ count }: { count: number }) {
+  const { t } = useTranslation();
+  const { colors, radii, elevation } = useTheme();
+  return (
+    <View
+      style={[
+        styles.review,
+        {
+          backgroundColor: colors.surface,
+          borderColor: colors.border,
+          borderRadius: radii.md,
+          boxShadow: elevation.surface ?? undefined,
+        },
+      ]}
+    >
+      <ThemedText variant="option">
+        {count > 0 ? t('home.reviewsDue', { count }) : t('home.noReviews')}
+      </ThemedText>
+      {count > 0 ? (
+        <SecondaryButton
+          label={t('home.review')}
+          onPress={() => router.push('/play/multiple-choice?mode=review')}
+        />
+      ) : null}
+    </View>
   );
 }
 
@@ -185,6 +213,11 @@ const styles = StyleSheet.create({
     height: touchTarget.kid,
     alignItems: 'center',
     justifyContent: 'center',
+    borderWidth: stroke.thin,
+  },
+  review: {
+    gap: space.sm,
+    padding: space.lg,
     borderWidth: stroke.thin,
   },
   cornerButton: {

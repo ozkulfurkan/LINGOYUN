@@ -44,6 +44,8 @@ type StartInput = {
   levelConcepts: readonly string[];
   /** Question directions; mixed by default. */
   directions?: Direction | 'mixed';
+  /** Where wrong options come from; the level's concepts by default. */
+  distractorIds?: readonly string[];
   rng: Rng;
 };
 
@@ -63,6 +65,7 @@ export function startRound({
   today,
   levelConcepts,
   directions = 'mixed',
+  distractorIds = levelConcepts,
   rng,
 }: StartInput): Round {
   const questions: Question[] = [];
@@ -74,7 +77,7 @@ export function startRound({
       conceptId,
       direction:
         directions !== 'mixed' ? directions : rng() < 0.5 ? 'targetToNative' : 'nativeToTarget',
-      distractorIds: levelConcepts,
+      distractorIds,
       rng,
     });
     if (question) questions.push(question);
@@ -130,4 +133,18 @@ export function expressionConcepts(bundle: ContentBundle, courseId: CourseId): s
       }),
     ),
   ];
+}
+
+/** At most this many reviews in one daily review round. */
+export const REVIEW_ROUND_LIMIT = ROUND_LENGTH;
+
+/**
+ * Today's reviews across every level, most overdue first (daily review,
+ * LNG-29). Only concepts that still exist in the content are kept.
+ */
+export function dailyReviewConcepts(bundle: ContentBundle, deck: Deck, today: number): string[] {
+  const known = new Set(bundle.concepts.map((c) => c.id));
+  return dueCards(deck, today)
+    .map((c) => c.conceptId)
+    .filter((id) => known.has(id));
 }
