@@ -63,3 +63,12 @@ Bir tur **10 soru**, iki yön karışık. Sıra: vadesi gelen tekrarlar (en fazl
 ## Soru üretici (`src/features/quiz`)
 
 Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer uzunlukta; ikinci bir doğru cevap (eş anlamlı dahil) asla şık olmaz. Aynı kelime arka arkaya sorulmaz. Rastgelelik tohumlanabilir.
+
+## Harf dizme (`src/features/games/letter-order`)
+
+- Ana dildeki kelime gösterilir, hedef dildeki karşılığı karışık harf taşlarından dizilir. Boşluk, tire ve kesme işareti sabit kutudadır. Harfler küçük harfle (dilin kurallarıyla).
+- Yalnızca kelime ve kalıplar; 2–10 harf (cümle ve deyim yok). Taşlar hiçbir zaman doğru sırada başlamaz.
+- Kutular dolunca otomatik kontrol. Yanlışta doğru yerdeki harfler kalır, yanlışlar geri döner.
+- 2 yanlış denemeden sonra sıradaki doğru harf parlar (kids-ux). 1 yanlıştan sonra "Göster" belirir.
+- Puan: ilk denemede doğru → `good` (+1 taş), denemeyle doğru → `hard`, "Göster" → `again`.
+- Tur 8 kelime; kelime seçimi çoktan seçmeliyle aynı (önce vadesi gelen tekrarlar, sonra yeni kelimeler).

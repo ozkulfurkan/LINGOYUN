@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
 import { PrimaryButton } from '@/components/PrimaryButton';
+import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
 import { onboardingStep } from '@/features/onboarding/flow';
 import { getActiveProfile, useProfiles } from '@/features/profiles';
@@ -30,10 +31,16 @@ export default function HomeScreen() {
       {profile?.type === 'mini' ? (
         <ThemedText color="textMuted">{t('home.comingSoon')}</ThemedText>
       ) : (
-        <PrimaryButton
-          label={t('home.play')}
-          onPress={() => router.push('/play/multiple-choice')}
-        />
+        <>
+          <PrimaryButton
+            label={t('home.play')}
+            onPress={() => router.push('/play/multiple-choice')}
+          />
+          <SecondaryButton
+            label={t('home.playLetters')}
+            onPress={() => router.push('/play/letter-order')}
+          />
+        </>
       )}
     </View>
   );

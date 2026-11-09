@@ -66,7 +66,20 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     6. Turun ortasında çarpıya bas → ana ekran. Tekrar "Oyna": yanıtladığın kelimeler kayıtlı, ama XP verilmemiş olmalı.
     7. Uygulamayı kapatıp aç, yeni tur oyna: taş sayısı kaldığı yerden devam eder.
     8. Yetişkin profilinde koyu moda al: renkler ve işaretler okunur kalır.
-- [ ] **LNG-19** CİHAZ — Oyun: Harf dizme. Önkoşul: LNG-7.
+- [~] **LNG-19** CİHAZ — Oyun: Harf dizme. Önkoşul: LNG-7.
+  - ✅ Ana ekranda "Harf dizme" (7–12 ve yetişkin). Türkçe kelime gösterilir, İngilizcesi karışık harflerden dizilir; boşluk ve tire sabit. 8 kelimelik tur, tekrar kutularına ve XP/taş/seriye bağlı, tur özetiyle. Mantık `src/features/games/letter-order/`, kurallar `docs/game-design.md`.
+  - Kararlar (Furkan'a sorulmadan, gece çalışması): kutular dolunca otomatik kontrol; yanlışta doğru yerdeki harfler kalır; 2 yanlıştan sonra sıradaki harf parlar; 1 yanlıştan sonra "Göster" çıkar. İlk denemede doğru = tam puan, denemeyle doğru = kutuda kalır, "Göster" = yanlış. Harfler küçük harf. 2–10 harfli kelimeler (cümle ve deyim yok).
+  - Derleme: yeni yerel paket yok; Metro'yu `--clear` ile yeniden başlatman yeterli.
+  - Cihazda nasıl test edilir:
+    1. 7–12 profiliyle ana ekranda "Harf dizme"ye bas → Türkçe kelime görünür ve sesli okunur; altında boş kutular ve karışık harfler.
+    2. Harflere sırayla dokun → ilk boş kutuya gider; dolu kutuya dokununca harf geri döner.
+    3. Doğru dizince kutular yeşillenir, "Aferin!" yazar, İngilizce kelime okunur, telefon titrer, taş artar.
+    4. Yanlış dizince "Tekrar dene!" çıkar, yanlış yerdeki harfler geri döner, doğrular kalır, "Göster" butonu belirir.
+    5. İki kez yanlış dizince sıradaki doğru harf sarı çerçeveyle parlar.
+    6. "Göster" → cevap kutulara dolar, "Cevap: …" yazar.
+    7. 8 kelimeyi bitir → özet ekranı (XP, taş, seri). "Bir tur daha" yeni tur başlatır.
+    8. Uzun kelimelerde (ör. "watermelon") kutular iki satıra sığıyor mu, küçük telefonda taşma var mı?
+    9. Yetişkin profilinde koyu moda al: kutular ve harfler okunur kalır.
 - [ ] **LNG-20** CİHAZ — Oyun: Cümle kurma (kelime blokları sürükle-bırak). Önkoşul: LNG-7.
 - [ ] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
 - [ ] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
