@@ -73,6 +73,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [~] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
   - ✅ 7–12 ve yetişkin profillerinde ana ekran artık nehir haritası: seviyeler nehir boyunca taşlar (tamamlanan yeşil ve tikli, şu anki büyük ve öğrenme halkalı, kilitliler silik, içeriği henüz yazılmamışlar kesikli çizgili). Üstte taş ve seri; altta üç oyun butonu. Taslak görsel: `docs/art-direction/river-map-preview.png`.
   - ✅ Seviye ilerlemesi: şu anki seviyenin kelimelerinin %80'i tekrar kutusu 3+'ya ulaşınca tur sonunda bir sonraki seviye açılır (+10 taş, "Seviye atlama" rozeti, özet ekranında "Yeni seviye açıldı"). Üç oyun ortak `src/features/games/finishRound.ts`'i kullanıyor.
+  - Düzeltme: bir seviyeye geçmek (ve haritada açık görünmesi) için seviye testiyle aynı ölçüt: en az 20 kavram (`MIN_LEVEL_CONCEPTS`). Önceden 1 kavram yetiyordu ve B1'deki 2 örnek kavram yüzünden A2'yi bitiren yetişkin neredeyse boş bir B1'e geçerdi.
   - Kararlar (gece çalışması): Skia yerine kurulu olan `react-native-svg` (Skia yeni yerel paket ve yeni derleme isterdi). Eşik %80 (`LEVEL_DONE_MASTERY`). Tamamlanan seviyeler tekrar oynanmıyor (kelimeleri aralıklı tekrarla zaten geri geliyor). 2–7 yaş ana ekranı değişmedi (LNG-33).
   - Derleme: yeni yerel paket yok.
   - Cihazda nasıl test edilir:

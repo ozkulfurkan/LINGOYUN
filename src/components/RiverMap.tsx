@@ -58,7 +58,7 @@ export function RiverMap({ nodes, shortLabel }: Props) {
           const { x, y } = points[i];
           const current = node.state === 'current';
           const done = node.state === 'done';
-          const empty = node.conceptCount === 0;
+          const empty = !node.playable;
           const r = current ? STOP * 1.15 : STOP;
           const fill = done ? colors.correct : current ? colors.accent : colors.surfaceShade;
           const ink = done ? colors.onCorrect : current ? colors.onAccent : colors.textMuted;
@@ -136,7 +136,7 @@ export function RiverMap({ nodes, shortLabel }: Props) {
 type T = ReturnType<typeof useTranslation>['t'];
 
 function stopLabel(t: T, node: LevelNode): string {
-  if (node.conceptCount === 0) return t('map.soon', { level: node.level });
+  if (!node.playable) return t('map.soon', { level: node.level });
   if (node.state === 'done') return t('map.done', { level: node.level });
   if (node.state === 'locked') return t('map.locked', { level: node.level });
   return t('map.current', { level: node.level, percent: Math.round(node.mastery * 100) });

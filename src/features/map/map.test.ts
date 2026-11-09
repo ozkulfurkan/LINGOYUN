@@ -1,6 +1,8 @@
 import { content } from '@/content/bundle';
 import { recordAnswer, type Deck } from '@/features/srs';
 
+import { MIN_LEVEL_CONCEPTS } from '@/features/placement/session';
+
 import { LEVEL_DONE_MASTERY, levelConcepts, levelNodes, levelUpTarget, riverLayout } from './map';
 
 /** A deck where the given concepts sit in box `box`. */
@@ -50,6 +52,18 @@ describe('levelUpTarget', () => {
     expect(levelUpTarget(content, 'tr-en', 'kid', deckWith(notEnough, 3), 'L1')).toBeNull();
     // Box 2 is not "learned" yet.
     expect(levelUpTarget(content, 'tr-en', 'kid', deckWith(L1, 2), 'L1')).toBeNull();
+  });
+
+  it('does not move up to a level with only a few sample concepts', () => {
+    // B1 holds two early sample concepts: far below what a level needs.
+    const b1 = levelConcepts(content, 'tr-en', 'adult', 'B1');
+    expect(b1.length).toBeGreaterThan(0);
+    expect(b1.length).toBeLessThan(MIN_LEVEL_CONCEPTS);
+    const a2 = levelConcepts(content, 'tr-en', 'adult', 'A2');
+    expect(levelUpTarget(content, 'tr-en', 'adult', deckWith(a2, 3), 'A2')).toBeNull();
+    const nodes = levelNodes(content, 'tr-en', 'adult', {}, 'A2');
+    expect(nodes.find((n) => n.level === 'B1')?.playable).toBe(false);
+    expect(nodes.find((n) => n.level === 'A2')?.playable).toBe(true);
   });
 
   it('does not move to a level without content or past the top', () => {
