@@ -9,7 +9,8 @@
     "playLetters": "Spell it",
     "playSentences": "Build a sentence",
     "stats": "{{gems}} gems · {{streak}}-day streak",
-    "playTyping": "Type the translation"
+    "playTyping": "Type the translation",
+    "playExpressions": "Idioms and traps"
   },
   "common": {
     "continue": "Continue",

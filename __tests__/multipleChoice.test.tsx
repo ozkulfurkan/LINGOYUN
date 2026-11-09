@@ -28,6 +28,10 @@ const ROUTES = {
   'play/multiple-choice': MultipleChoiceScreen,
 };
 
+const FALSE_FRIENDS = Object.keys(content.languages.en.words).filter((k) =>
+  k.startsWith('false_friend.'),
+);
+
 function seedProfile(type: ProfileType, level?: string): string {
   const added = profilesStore.update((s, d) =>
     addProfile(s, { nickname: 'Deniz', type, courseId: 'tr-en' }, d),
@@ -176,6 +180,29 @@ describe('multiple choice game', () => {
     const after = Object.keys(loadDeck(id, 'tr-en'));
     expect(after).toHaveLength(11);
     expect(after).toEqual(expect.arrayContaining(firstRound));
+  });
+
+  it('practises idioms and false friends for adults, explaining the traps', async () => {
+    seedProfile('adult', 'A1');
+    await renderRouter(ROUTES);
+    await press('Deyimler ve tuzaklar');
+    let sawNote = false;
+    for (let i = 0; i < 10; i++) {
+      const prompt = currentPrompt();
+      const id = FALSE_FRIENDS.find((k) => content.languages.en.words[k].text === prompt);
+      await press(rightOption());
+      if (id) {
+        expect(
+          screen.getByText(new RegExp(content.languages.tr.words[id].note!.slice(0, 12))),
+        ).toBeTruthy();
+        sawNote = true;
+      }
+      await press('Devam');
+    }
+    // Ten questions out of 45 expressions: at least one false friend is very likely,
+    // but the test only needs the round to finish when none came up.
+    expect(screen.getByText(/Deniz!$/)).toBeTruthy();
+    if (!sawNote) console.warn('no false friend came up in this round');
   });
 
   it('celebrates three right answers in a row', async () => {

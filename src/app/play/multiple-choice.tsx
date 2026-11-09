@@ -1,4 +1,4 @@
-import { Redirect } from 'expo-router';
+import { Redirect, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
@@ -21,6 +21,7 @@ import {
   advance,
   currentPick,
   currentQuestion,
+  expressionConcepts,
   isFinished,
   pickOption,
   roundGrades,
@@ -46,6 +47,7 @@ type LeveledType = 'kid' | 'adult';
 export default function MultipleChoiceScreen() {
   const profile = useActiveProfile();
   const level = profile?.courses[profile.courseId]?.level;
+  const { mode } = useLocalSearchParams<{ mode?: string }>();
   // Each new round starts from what is stored, so it picks up the last answers.
   const [roundNumber, setRoundNumber] = useState(0);
 
@@ -58,6 +60,7 @@ export default function MultipleChoiceScreen() {
       courseId={profile.courseId}
       profileType={profile.type}
       level={level}
+      expressions={mode === 'expressions' && profile.type === 'adult'}
       onPlayAgain={() => setRoundNumber((n) => n + 1)}
     />
   );
@@ -69,10 +72,20 @@ type GameProps = {
   courseId: CourseId;
   profileType: LeveledType;
   level: string;
+  /** Idioms and false friends instead of the level's words (LNG-28). */
+  expressions?: boolean;
   onPlayAgain: () => void;
 };
 
-function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }: GameProps) {
+function Game({
+  profileId,
+  nickname,
+  courseId,
+  profileType,
+  level,
+  expressions = false,
+  onPlayAgain,
+}: GameProps) {
   const { t } = useTranslation();
   const [today] = useState(() => localDay(new Date()));
   const [round, setRound] = useState<RoundState>(() =>
@@ -81,7 +94,12 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
       courseId,
       deck: loadDeck(profileId, courseId),
       today,
-      levelConcepts: unitsFor(content, courseId, profileType, level).flatMap((u) => u.concepts),
+      // Expressions mode: idioms and false friends, asked English → Turkish
+      // so the false friend's look-alike can be offered as the trap.
+      levelConcepts: expressions
+        ? expressionConcepts(content, courseId)
+        : unitsFor(content, courseId, profileType, level).flatMap((u) => u.concepts),
+      directions: expressions ? 'targetToNative' : 'mixed',
       rng: seededRng(Date.now()),
     }),
   );
@@ -154,11 +172,12 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
         pick === null ? undefined : (
           <View style={styles.footer}>
             <GameFeedback
-              text={
+              text={withNote(
                 right
                   ? withCombo(t(`game.correct.${profileType}`), comboRun, t)
-                  : t('game.answerWas', { answer: correctText })
-              }
+                  : t('game.answerWas', { answer: correctText }),
+                question.note,
+              )}
             />
             <PrimaryButton label={t('common.continue')} onPress={onContinue} />
           </View>
@@ -205,3 +224,8 @@ const styles = StyleSheet.create({
     gap: space.md,
   },
 });
+
+/** Adds a false friend's explanation under the verdict. */
+function withNote(text: string, note: string | undefined): string {
+  return note ? `${text}\n${note}` : text;
+}
