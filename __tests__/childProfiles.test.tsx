@@ -147,12 +147,18 @@ describe("who's playing", () => {
     expect(screen.queryByLabelText('Profil değiştir')).toBeNull();
   });
 
-  it('switches profiles from the corner button', async () => {
+  it('switches profiles from settings, not from the home screen', async () => {
     seed('Furkan', 'adult', 'A1');
     seed('Ece', 'mini');
     await renderRouter(ROUTES);
     await press('Furkan');
+    expect(screen.queryByLabelText('Profil değiştir')).toBeNull();
+
+    markGatePassed();
+    await renderRouter(ROUTES, { initialUrl: '/settings' });
     await press('Profil değiştir');
     expect(screen.getByText('Kim oynuyor?')).toBeTruthy();
+    await press('Ece');
+    expect(active()?.nickname).toBe('Ece');
   });
 });

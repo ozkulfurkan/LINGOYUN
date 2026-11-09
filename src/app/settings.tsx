@@ -72,6 +72,15 @@ function SettingsBody() {
       {state.profiles.map((p) => (
         <ProfileRow key={p.id} profile={p} active={p.id === state.activeId} />
       ))}
+      {state.profiles.length > 1 ? (
+        <SecondaryButton
+          label={t('who.switch')}
+          onPress={() => {
+            closeGate();
+            router.push('/who');
+          }}
+        />
+      ) : null}
       {canAddProfile(state) ? (
         <PrimaryButton label={t('settings.addChild')} onPress={() => router.push('/child-new')} />
       ) : (
