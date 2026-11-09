@@ -4,23 +4,6 @@
 
 @words
 place.restaurant # restaurant = restoran
-food.food # food = yiyecek
-food.breakfast # breakfast = kahvaltı
-food.lunch # lunch = öğle yemeği
-food.dinner # dinner = akşam yemeği
-food.bread # bread = ekmek
-food.meat # meat = et
-food.salad # salad = salata
-food.rice # rice = pilav
-animal.fish # fish = balık
-animal.chicken # chicken = tavuk
-drink.coffee # coffee = kahve
-drink.tea # tea = çay
-drink.juice # juice = meyve suyu
-home.plate # plate = tabak
-home.fork # fork = çatal
-home.spoon # spoon = kaşık
-home.glass # glass = bardak
 quality.hungry # hungry = aç
 quality.thirsty # thirsty = susamış
 work.waiter # waiter = garson
@@ -28,9 +11,6 @@ money.bill # bill = hesap
 travel.reservation # reservation = rezervasyon
 quality.delicious # delicious = lezzetli
 quality.salty # salty = tuzlu
-drink.water # water = su
-home.table # table = masa
-food.soup # soup = çorba
 restaurant.menu # menu = menü
 restaurant.dessert # dessert = tatlı
 restaurant.main_course # main course = ana yemek

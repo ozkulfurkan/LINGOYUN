@@ -1,0 +1,24 @@
+@theme kid.toys
+@title kid_toys
+@band L2
+
+@words
+toy.ball # ball = top
+toy.doll # doll = oyuncak bebek
+toy.teddy_bear # teddy bear = oyuncak ayı
+toy.toy_car # toy car = oyuncak araba
+toy.toy_train # toy train = oyuncak tren
+toy.blocks # blocks = oyuncak küpler
+toy.puzzle # puzzle = yapboz
+toy.kite # kite = uçurtma
+toy.balloon # balloon = balon
+toy.drum # drum = davul
+toy.robot # robot = robot
+toy.yoyo # yo-yo = yoyo
+toy.bubbles # bubbles = baloncuk
+toy.slide # slide = kaydırak
+toy.swing # swing = salıncak
+toy.jump_rope # jump rope = atlama ipi
+
+@sentences 1
+sentence.l2_he_plays # He plays with the ball. = O topla oynar.

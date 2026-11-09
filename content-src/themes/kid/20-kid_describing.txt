@@ -1,0 +1,36 @@
+@theme kid.describing
+@title kid_describing
+@band L3
+
+@words
+quality.new # new = yeni
+quality.old # old = eski
+quality.good # good = iyi
+quality.bad # bad = kötü
+quality.hungry # hungry = aç
+quality.thirsty # thirsty = susamış
+quality.tired # tired = yorgun
+quality.clean # clean = temiz
+quality.beautiful # beautiful = güzel
+quality.easy # easy = kolay
+quality.difficult # difficult = zor
+quality.strong # strong = güçlü
+quality.young # young = genç
+quality.dirty # dirty = kirli
+quality.tall # tall = uzun boylu
+opposite.big # big = büyük
+opposite.small # small = küçük
+opposite.happy # happy = mutlu
+opposite.sad # sad = üzgün
+opposite.hot # hot = sıcak
+opposite.cold # cold = soğuk
+opposite.long # long = uzun
+opposite.short # short = kısa
+opposite.fast # fast = hızlı
+opposite.slow # slow = yavaş
+
+@sentences 1
+sentence.l1_i_happy # I am happy. = Ben mutluyum.
+sentence.l2_hungry # I am hungry. = Ben açım.
+sentence.l2_tired # I am tired. = Ben yorgunum.
+sentence.l2_not_tired # I am not tired. = Ben yorgun değilim.

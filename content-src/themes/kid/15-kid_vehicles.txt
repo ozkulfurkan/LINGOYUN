@@ -1,0 +1,30 @@
+@theme kid.vehicles
+@title kid_vehicles
+@band L2
+
+@words
+vehicle.car # car = araba
+vehicle.bus # bus = otobüs
+vehicle.truck # truck = kamyon
+vehicle.train # train = tren
+vehicle.plane # plane = uçak
+vehicle.helicopter # helicopter = helikopter
+vehicle.boat # boat = tekne
+vehicle.ship # ship = gemi
+vehicle.bicycle # bicycle = bisiklet
+vehicle.motorcycle # motorcycle = motosiklet
+vehicle.taxi # taxi = taksi
+vehicle.ambulance # ambulance = ambulans
+vehicle.fire_truck # fire truck = itfaiye aracı
+vehicle.police_car # police car = polis arabası
+vehicle.tractor # tractor = traktör
+vehicle.rocket # rocket = roket
+vehicle.submarine # submarine = denizaltı
+vehicle.tram # tram = tramvay
+vehicle.subway # subway = metro
+vehicle.hot_air_balloon # hot air balloon = sıcak hava balonu
+vehicle.sled # sled = kızak
+vehicle.skateboard # skateboard = kaykay
+vehicle.wheel # wheel = tekerlek
+vehicle.road # road = yol
+vehicle.traffic_light # traffic light = trafik ışığı

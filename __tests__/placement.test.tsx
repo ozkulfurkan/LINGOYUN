@@ -113,7 +113,7 @@ describe('placement test', () => {
     for (let i = 0; i < 20; i++) await answerCorrectly();
 
     expect(levelOf()).toBe('L3');
-    expect(screen.getByText(/temadan başlıyorsun: Aile ve aylar$/)).toBeTruthy();
+    expect(screen.getByText(/temadan başlıyorsun: Aylar ve hava$/)).toBeTruthy();
 
     await press('Başla');
     expect(screen.getByText('Merhaba Deniz')).toBeTruthy();

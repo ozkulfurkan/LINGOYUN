@@ -1,0 +1,31 @@
+@theme kid.pets_farm
+@title kid_pets_farm
+@band L1
+
+@words
+animal.cat # cat = kedi
+animal.dog # dog = köpek
+animal.bird # bird = kuş
+animal.fish # fish = balık
+animal.horse # horse = at
+animal.cow # cow = inek
+animal.sheep # sheep = koyun
+animal.chicken # chicken = tavuk
+animal.duck # duck = ördek
+animal.rabbit # rabbit = tavşan
+animal.mouse # mouse = fare
+animal.goat # goat = keçi
+animal.rooster # rooster = horoz
+animal.donkey # donkey = eşek
+animal.bee # bee = arı
+animal.butterfly # butterfly = kelebek
+animal.ant # ant = karınca
+animal.spider # spider = örümcek
+animal.snail # snail = salyangoz
+animal.ladybug # ladybug = uğur böceği
+animal.worm # worm = solucan
+animal.frog # frog = kurbağa
+
+@sentences 1
+sentence.l1_dog_big # The dog is big. = Köpek büyük.
+sentence.l1_cat_small # The cat is small. = Kedi küçük.

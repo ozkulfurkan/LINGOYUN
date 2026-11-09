@@ -1,0 +1,30 @@
+@theme kid.body
+@title kid_body
+@band L2
+
+@words
+body.head # head = baş
+body.eye # eye = göz
+body.ear # ear = kulak
+body.nose # nose = burun
+body.mouth # mouth = ağız
+body.hand # hand = el
+body.hair # hair = saç
+body.face # face = yüz
+body.tooth # tooth = diş
+body.neck # neck = boyun
+body.shoulder # shoulder = omuz
+body.arm # arm = kol
+body.leg # leg = bacak
+body.foot # foot = ayak
+body.finger # finger = parmak
+body.knee # knee = diz
+body.tongue # tongue = dil
+body.lips # lips = dudak
+body.cheek # cheek = yanak
+body.chin # chin = çene
+body.eyebrow # eyebrow = kaş
+body.elbow # elbow = dirsek
+body.tummy # tummy = karın
+body.back # back = sırt
+body.toe # toe = ayak parmağı

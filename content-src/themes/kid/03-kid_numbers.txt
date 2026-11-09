@@ -1,0 +1,25 @@
+@theme kid.numbers
+@title kid_numbers
+@band L1
+
+@words
+number.one # one = bir
+number.two # two = iki
+number.three # three = üç
+number.four # four = dört
+number.five # five = beş
+number.six # six = altı
+number.seven # seven = yedi
+number.eight # eight = sekiz
+number.nine # nine = dokuz
+number.ten # ten = on
+number.eleven # eleven = on bir
+number.twelve # twelve = on iki
+number.thirteen # thirteen = on üç
+number.fourteen # fourteen = on dört
+number.fifteen # fifteen = on beş
+number.sixteen # sixteen = on altı
+number.seventeen # seventeen = on yedi
+number.eighteen # eighteen = on sekiz
+number.nineteen # nineteen = on dokuz
+number.twenty # twenty = yirmi

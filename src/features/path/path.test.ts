@@ -39,7 +39,13 @@ import {
 const adult = pathOf(content, 'tr-en', 'adult');
 const kid = pathOf(content, 'tr-en', 'kid');
 const scale = findCourse('tr-en')!.levels;
-const restaurant = adult.find((t) => t.title === 'restaurant')!;
+// A complete theme (40 words, sentences at every difficulty) so these tests do
+// not depend on how far content writing has got: the words of the first
+// adult themes with the restaurant's sentences.
+const restaurant = {
+  ...adult.find((t) => t.title === 'restaurant')!,
+  words: [...new Set(adult.slice(0, 3).flatMap((t) => t.words))].slice(0, 40),
+};
 
 const build = (overrides: Partial<Parameters<typeof buildStep>[0]> = {}) =>
   buildStep({
@@ -99,7 +105,12 @@ describe('buildStep', () => {
   });
 
   it('spells the typed words with letter tiles for kids', () => {
-    const items = build({ theme: kid[2], profileType: 'kid', stepIndex: 0 });
+    const items = build({
+      theme: kid[2],
+      profileType: 'kid',
+      stepIndex: 0,
+      extraSentences: kid.flatMap((t) => t.sentences['1'] ?? []),
+    });
     expect(count(items, 'typing')).toBe(0);
     expect(count(items, 'letters')).toBeGreaterThan(0);
     expect(items).toHaveLength(QUESTIONS_PER_STEP);
@@ -179,7 +190,7 @@ describe('buildStep', () => {
     ] as const) {
       for (const theme of path) {
         const band = path.filter((t) => t.band === theme.band);
-        const extra = band.flatMap((t) => t.sentences['1'] ?? []);
+        const extra = band.flatMap((t) => themeSentences(t, 1));
         for (const stepIndex of [0, EXAM_STEP]) {
           const items = build({ theme, stepIndex, profileType, extraSentences: extra });
           expect({ theme: theme.id, stepIndex, n: items.length }).toEqual({

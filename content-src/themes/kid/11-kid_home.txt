@@ -1,0 +1,45 @@
+@theme kid.home
+@title kid_home
+@band L2
+
+@words
+home.house # house = ev
+home.door # door = kapı
+home.table # table = masa
+home.chair # chair = sandalye
+home.bed # bed = yatak
+home.window # window = pencere
+home.lamp # lamp = lamba
+home.clock # clock = saat
+home.cup # cup = fincan
+home.glass # glass = bardak
+home.plate # plate = tabak
+home.spoon # spoon = kaşık
+home.fork # fork = çatal
+home.key # key = anahtar
+home.phone # phone = telefon
+home.television # television = televizyon
+home.sofa # sofa = kanepe
+home.mirror # mirror = ayna
+home.bathtub # bathtub = küvet
+home.toilet # toilet = tuvalet
+home.sink # sink = lavabo
+home.fridge # fridge = buzdolabı
+home.oven # oven = fırın
+home.bowl # bowl = kase
+home.pillow # pillow = yastık
+home.blanket # blanket = battaniye
+home.towel # towel = havlu
+home.soap # soap = sabun
+home.toothbrush # toothbrush = diş fırçası
+home.box # box = kutu
+place.room # room = oda
+place.kitchen # kitchen = mutfak
+place.bathroom # bathroom = banyo
+place.bedroom # bedroom = yatak odası
+place.garden # garden = bahçe
+
+@sentences 1
+sentence.l1_house_big # The house is big. = Ev büyük.
+sentence.l2_key_table # The key is on the table. = Anahtar masanın üstünde.
+sentence.l3_wash_hands # I wash my hands in the bathroom. = Ellerimi banyoda yıkarım.

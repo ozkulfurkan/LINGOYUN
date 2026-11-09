@@ -16,7 +16,6 @@ work.doctor # doctor = doktor
 work.nurse # nurse = hemşire
 work.engineer # engineer = mühendis
 work.driver # driver = şoför
-work.waiter # waiter = garson
 school.language # language = dil
 school.english # English = İngilizce
 school.word # word = kelime

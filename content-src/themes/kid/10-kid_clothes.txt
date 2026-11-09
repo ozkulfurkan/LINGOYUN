@@ -1,0 +1,34 @@
+@theme kid.clothes
+@title kid_clothes
+@band L2
+
+@words
+clothes.shirt # shirt = gömlek
+clothes.tshirt # T-shirt = tişört
+clothes.pants # pants = pantolon
+clothes.skirt # skirt = etek
+clothes.dress # dress = elbise
+clothes.coat # coat = mont
+clothes.shoes # shoes = ayakkabı
+clothes.socks # socks = çorap
+clothes.hat # hat = şapka
+clothes.glasses # glasses = gözlük
+clothes.bag # bag = çanta
+clothes.shorts # shorts = şort
+clothes.jacket # jacket = ceket
+clothes.sweater # sweater = kazak
+clothes.pajamas # pajamas = pijama
+clothes.swimsuit # swimsuit = mayo
+clothes.raincoat # raincoat = yağmurluk
+clothes.boots # boots = çizme
+clothes.slippers # slippers = terlik
+clothes.scarf # scarf = atkı
+clothes.gloves # gloves = eldiven
+clothes.belt # belt = kemer
+clothes.umbrella # umbrella = şemsiye
+clothes.button # button = düğme
+clothes.zipper # zipper = fermuar
+
+@sentences 1
+sentence.l2_shoes_new # My shoes are new. = Ayakkabılarım yeni.
+sentence.l2_phone_bag # The phone is in my bag. = Telefon çantamda.

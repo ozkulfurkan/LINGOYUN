@@ -129,6 +129,8 @@ export function validateContent(bundle: ContentBundle): ContentIssue[] {
     for (const profileType of ['kid', 'adult'] as const) {
       const scale = def.levels[profileType];
       let lastBand = 0;
+      // Each concept is taught in one theme of a path, so steps never repeat it.
+      const taughtIn = new Map<string, string>();
       for (const theme of course.paths?.[profileType] ?? []) {
         const where = `courses/${course.id} › paths.${profileType} › ${theme.id}`;
         if (themeIds.has(theme.id)) error(where, 'duplicate theme id');
@@ -146,6 +148,9 @@ export function validateContent(bundle: ContentBundle): ContentIssue[] {
           warn(where, 'few easy sentences: steps borrow from other themes of the band');
         }
         const check = (id: string, wantSentence: boolean) => {
+          const other = taughtIn.get(id);
+          if (other && other !== theme.id) error(where, `${id} is already taught in ${other}`);
+          taughtIn.set(id, theme.id);
           const concept = concepts.get(id);
           if (!concept) return error(where, `unknown concept ${id}`);
           if ((concept.kind === 'sentence') !== wantSentence) {

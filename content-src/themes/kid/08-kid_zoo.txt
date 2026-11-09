@@ -1,0 +1,33 @@
+@theme kid.zoo
+@title kid_zoo
+@band L1
+
+@words
+animal.bear # bear = ayı
+animal.lion # lion = aslan
+animal.tiger # tiger = kaplan
+animal.elephant # elephant = fil
+animal.monkey # monkey = maymun
+animal.giraffe # giraffe = zürafa
+animal.zebra # zebra = zebra
+animal.wolf # wolf = kurt
+animal.fox # fox = tilki
+animal.snake # snake = yılan
+animal.turtle # turtle = kaplumbağa
+animal.owl # owl = baykuş
+animal.penguin # penguin = penguen
+animal.dolphin # dolphin = yunus
+animal.whale # whale = balina
+animal.shark # shark = köpek balığı
+animal.crab # crab = yengeç
+animal.octopus # octopus = ahtapot
+animal.camel # camel = deve
+animal.kangaroo # kangaroo = kanguru
+animal.panda # panda = panda
+animal.squirrel # squirrel = sincap
+animal.hedgehog # hedgehog = kirpi
+animal.deer # deer = geyik
+animal.parrot # parrot = papağan
+animal.eagle # eagle = kartal
+animal.crocodile # crocodile = timsah
+animal.hippo # hippo = su aygırı

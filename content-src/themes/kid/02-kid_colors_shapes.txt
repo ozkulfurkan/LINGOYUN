@@ -1,5 +1,5 @@
-@theme kid.kid_colors_numbers
-@title kid_colors_numbers
+@theme kid.colors_shapes
+@title kid_colors_shapes
 @band L1
 
 @words
@@ -14,18 +14,19 @@ color.brown # brown = kahverengi
 color.black # black = siyah
 color.white # white = beyaz
 color.gray # gray = gri
-number.one # one = bir
-number.two # two = iki
-number.three # three = üç
-number.four # four = dört
-number.five # five = beş
-number.six # six = altı
-number.seven # seven = yedi
-number.eight # eight = sekiz
-number.nine # nine = dokuz
-number.ten # ten = on
+shape.circle # circle = daire
+shape.square # square = kare
+shape.triangle # triangle = üçgen
+shape.star # star = yıldız
+shape.heart # heart = kalp
+shape.rectangle # rectangle = dikdörtgen
+shape.oval # oval = oval
+opposite.up # up = yukarı
+opposite.down # down = aşağı
 
 @sentences 1
+sentence.l1_apple_red # The apple is red. = Elma kırmızı.
+sentence.l1_milk_white # The milk is white. = Süt beyaz.
 sentence.l1_ball_blue # The ball is blue. = Top mavi.
 sentence.l1_bear_brown # The bear is brown. = Ayı kahverengi.
 sentence.l1_bag_black # My bag is black. = Çantam siyah.

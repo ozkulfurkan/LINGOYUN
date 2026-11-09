@@ -8,7 +8,6 @@ money.price # price = fiyat
 money.credit_card # credit card = kredi kartı
 money.cash # cash = nakit
 money.receipt # receipt = fiş
-money.bill # bill = hesap
 money.discount # discount = indirim
 money.size # size = beden
 money.wallet # wallet = cüzdan

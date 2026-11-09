@@ -39,18 +39,6 @@ restaurant.cater # cater = yemek hizmeti vermek
 restaurant.garnish # garnish = yemeği süslemek
 restaurant.accommodate # accommodate = ağırlamak
 
-@sentences 1
-restaurant.b1_recommend_light # Could you recommend something light because I am not very hungry? = Çok aç olmadığım için hafif bir şey önerebilir misiniz?
-restaurant.b1_nuts_ingredients # I am allergic to nuts, so please check the ingredients carefully. = Kuruyemişe alerjim var, bu yüzden lütfen malzemeleri dikkatlice kontrol edin.
-restaurant.b1_table_six # We booked a table for six, but two friends will arrive late. = Altı kişilik bir masa ayırttık ama iki arkadaşımız geç gelecek.
-restaurant.b1_share_main # The portions here are large, so we can share one main course. = Buradaki porsiyonlar büyük, bu yüzden bir ana yemeği paylaşabiliriz.
-restaurant.b1_fish_late # I ordered the fish twenty minutes ago, but it still has not arrived. = Balığı yirmi dakika önce sipariş ettim ama hâlâ gelmedi.
-restaurant.b1_steak # Would you like your steak rare, medium or well done, sir? = Bifteğinizi az, orta veya iyi pişmiş mi istersiniz, efendim?
-restaurant.b1_wait_bar # If no table is free now, we can wait at the bar. = Şu anda boş masanız yoksa barda bekleyebiliriz.
-restaurant.b1_overcooked # This meat is overcooked, so could you please bring me another one? = Bu et fazla pişmiş, bana başka bir tane getirebilir misiniz, lütfen?
-restaurant.b1_take_away # Can we get the rest of our food to go? = Yemeğimizin kalanını paket yaptırabilir miyiz?
-restaurant.b1_service_slow # The service was slow, but the waiter was kind and very helpful. = Servis yavaştı ama garson nazik ve çok yardımseverdi.
-
 @sentences 2
 restaurant.b2_quiet_anniversary # We would appreciate a quiet table, as we are celebrating our parents' fiftieth wedding anniversary with them tonight. = Bu akşam annemizle babamızın ellinci evlilik yıl dönümünü onlarla kutlayacağımız için sessiz bir masa rica ederiz.
 restaurant.b2_reviews_bland # Although the reviews were excellent, the food was rather bland and seriously overpriced for such small portions. = Yorumlar harika olsa da yemek oldukça tatsızdı ve bu kadar küçük porsiyonlar için fazlasıyla pahalıydı.

@@ -1,0 +1,25 @@
+@theme kid.nature
+@title kid_nature
+@band L3
+
+@words
+nature.moon # moon = ay
+nature.ice # ice = buz
+nature.lightning # lightning = şimşek
+nature.rainbow # rainbow = gökkuşağı
+nature.sky # sky = gökyüzü
+nature.tree # tree = ağaç
+nature.flower # flower = çiçek
+nature.leaf # leaf = yaprak
+nature.grass # grass = çimen
+nature.forest # forest = orman
+nature.mountain # mountain = dağ
+nature.volcano # volcano = yanardağ
+nature.river # river = nehir
+nature.lake # lake = göl
+nature.sea # sea = deniz
+nature.island # island = ada
+nature.beach # beach = plaj
+nature.sand # sand = kum
+nature.rock # rock = kaya
+nature.fire # fire = ateş

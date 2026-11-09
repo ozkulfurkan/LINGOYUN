@@ -56,8 +56,8 @@ describe('learning path home', () => {
   it('shows a theme name when its stone is tapped', async () => {
     seedProfile('kid', 'L1');
     await renderRouter(ROUTES);
-    await press('2. Meyveler ve yiyecekler: kilitli');
-    expect(screen.getByTestId('theme-card-name').props.children).toBe('2. Meyveler ve yiyecekler');
+    await press('2. Renkler ve şekiller: kilitli');
+    expect(screen.getByTestId('theme-card-name').props.children).toBe('2. Renkler ve şekiller');
     expect(screen.getByText('Bu temaya henüz gelmedin.')).toBeTruthy();
     expect(screen.queryByLabelText('Temayı aç')).toBeNull();
   });

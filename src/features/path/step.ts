@@ -54,9 +54,17 @@ export function wordsUpTo(theme: Theme, stepIndex: number): string[] {
   return theme.words.slice(0, Math.min(stepIndex + 1, EXAM_STEP) * WORDS_PER_STEP);
 }
 
-/** Sentences for a difficulty: that tier, else the nearest easier one that has any. */
+/**
+ * Sentences for a difficulty: that tier, else the nearest easier one, else the
+ * nearest harder one, so a theme with any sentences always has some.
+ */
 export function themeSentences(theme: Theme, difficulty: Difficulty): string[] {
-  for (let tier = difficulty; tier >= 1; tier--) {
+  const order = [
+    difficulty,
+    ...[3, 2, 1].filter((t) => t < difficulty),
+    ...[1, 2, 3].filter((t) => t > difficulty),
+  ];
+  for (const tier of order) {
     const list = theme.sentences[String(tier) as ThemeTier] ?? [];
     if (list.length > 0) return list;
   }

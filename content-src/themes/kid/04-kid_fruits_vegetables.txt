@@ -1,0 +1,30 @@
+@theme kid.fruits_vegetables
+@title kid_fruits_vegetables
+@band L1
+
+@words
+fruit.apple # apple = elma
+fruit.pear # pear = armut
+fruit.cherry # cherry = kiraz
+fruit.grapes # grapes = üzüm
+fruit.banana # banana = muz
+fruit.orange # orange = portakal
+fruit.strawberry # strawberry = çilek
+fruit.watermelon # watermelon = karpuz
+fruit.lemon # lemon = limon
+fruit.peach # peach = şeftali
+fruit.apricot # apricot = kayısı
+fruit.fig # fig = incir
+fruit.plum # plum = erik
+fruit.pineapple # pineapple = ananas
+fruit.hazelnut # hazelnut = fındık
+vegetable.carrot # carrot = havuç
+vegetable.tomato # tomato = domates
+vegetable.potato # potato = patates
+vegetable.cucumber # cucumber = salatalık
+vegetable.onion # onion = soğan
+vegetable.pepper # pepper = biber
+vegetable.corn # corn = mısır
+vegetable.peas # peas = bezelye
+vegetable.mushroom # mushroom = mantar
+vegetable.pumpkin # pumpkin = balkabağı

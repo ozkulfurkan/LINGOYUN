@@ -1,0 +1,25 @@
+@theme kid.school
+@title kid_school
+@band L2
+
+@words
+school.school # school = okul
+school.classroom # classroom = sınıf
+school.desk # desk = sıra
+school.notebook # notebook = defter
+school.eraser # eraser = silgi
+school.ruler # ruler = cetvel
+school.lesson # lesson = ders
+school.homework # homework = ödev
+school.student # student = öğrenci
+school.pen # pen = tükenmez kalem
+home.book # book = kitap
+home.pencil # pencil = kurşun kalem
+home.crayon # crayon = boya kalemi
+home.scissors # scissors = makas
+
+@sentences 1
+sentence.l2_go_school # We go to school. = Biz okula gideriz.
+sentence.l2_write_notebook # I write in my notebook. = Defterime yazarım.
+sentence.l3_when_lesson # When is the lesson? = Ders ne zaman?
+sentence.l3_homework_difficult # The homework is difficult. = Ödev zor.

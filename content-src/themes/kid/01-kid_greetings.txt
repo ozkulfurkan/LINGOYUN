@@ -1,4 +1,4 @@
-@theme kid.kid_greetings
+@theme kid.greetings
 @title kid_greetings
 @band L1
 
@@ -11,12 +11,24 @@ greeting.please # please = lütfen
 greeting.thank_you # thank you = teşekkür ederim
 greeting.sorry # sorry = özür dilerim
 greeting.good_morning # good morning = günaydın
+greeting.good_afternoon # good afternoon = iyi günler
+greeting.good_evening # good evening = iyi akşamlar
+greeting.good_night # good night = iyi geceler
+greeting.welcome # welcome = hoş geldin
+greeting.excuse_me # excuse me = affedersiniz
+greeting.nice_to_meet_you # nice to meet you = memnun oldum
+greeting.see_you # see you later = sonra görüşürüz
+greeting.you_are_welcome # you're welcome = rica ederim
 pronoun.i # I = ben
 pronoun.you # you = sen
 pronoun.he # he = o
 pronoun.she # she = o
 pronoun.my # my = benim
+pronoun.your # your = senin
 pronoun.this # this = bu
+pronoun.we # we = biz
+pronoun.they # they = onlar
+family.name # name = isim
 
 @sentences 1
 sentence.l1_this_cat # This is a cat. = Bu bir kedi.
@@ -27,3 +39,15 @@ sentence.l1_this_father # This is my father. = Bu benim babam.
 sentence.l1_this_book # This is my book. = Bu benim kitabım.
 sentence.l1_thanks_teacher # Thank you, teacher. = Teşekkür ederim, öğretmenim.
 sentence.l1_morning_friend # Good morning, my friend. = Günaydın, arkadaşım.
+sentence.l2_she_reads # She reads a book. = O kitap okur.
+sentence.l2_she_sits # She sits on the chair. = O sandalyede oturur.
+sentence.l2_glass_clean # This glass is clean. = Bu bardak temiz.
+sentence.l2_they_come # They come to the classroom. = Onlar sınıfa gelir.
+sentence.l3_what_name # What is your name? = Adın ne?
+sentence.l3_sings_morning # She sings in the morning. = O sabahları şarkı söyler.
+sentence.l3_who_boy # Who is this boy? = Bu çocuk kim?
+sentence.l3_why_sad # Why are you sad? = Neden üzgünsün?
+sentence.l3_how_you # How are you? = Nasılsın?
+sentence.l3_open_window # Please open the window. = Lütfen pencereyi aç.
+sentence.l3_close_door # Please close the door. = Lütfen kapıyı kapat.
+sentence.l3_lesson_easy # This lesson is easy. = Bu ders kolay.

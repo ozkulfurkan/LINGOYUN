@@ -73,6 +73,21 @@ function build() {
   const problems = [];
   const paths = {};
   let defined = 0;
+  // Concepts of other files opened to another profile type: file → ids → types.
+  const widen = new Map();
+  const open = (id, type) => {
+    const c = concepts.get(id);
+    if (c.ageGroups.includes(type)) return;
+    c.ageGroups = [...c.ageGroups, type];
+    if (ownIds.has(id)) {
+      const own = pathConcepts.find((x) => x.id === id);
+      if (!own.ageGroups.includes(type)) own.ageGroups.push(type);
+      return;
+    }
+    if (!widen.has(c.file)) widen.set(c.file, new Map());
+    widen.get(c.file).set(id, c.ageGroups);
+  };
+  const seenIn = { adult: new Map(), kid: new Map() };
 
   for (const type of TYPES) {
     const dir = path.join(SRC, type);
@@ -128,19 +143,17 @@ function build() {
               pathConcepts.push(concept);
               ownIds.add(id);
               concepts.set(id, { ...concept, file: 'path.json' });
-            } else if (ownIds.has(id)) {
-              const c = pathConcepts.find((x) => x.id === id);
-              if (!c.ageGroups.includes(type)) c.ageGroups.push(type);
-            }
+            } else open(id, type);
             defined++;
           } else if (!concepts.has(id)) {
             return void problems.push(
               `${at} unknown concept ${id} (add its texts: id|en|enAlts|tr|trAlts)`,
             );
-          } else if (!concepts.get(id).ageGroups.includes(type)) {
-            if (ownIds.has(id)) pathConcepts.find((x) => x.id === id).ageGroups.push(type);
-            else problems.push(`${at} ${id} is not meant for ${type}`);
-          }
+          } else open(id, type);
+          // A concept is taught in one theme only (per profile type).
+          const other = seenIn[type].get(id);
+          if (other && other !== theme.id) problems.push(`${at} ${id} is already in ${other}`);
+          seenIn[type].set(id, theme.id || where);
           if (isSentence) (theme.sentences[section] ??= []).push(id);
           else theme.words.push(id);
         });
@@ -162,8 +175,16 @@ function build() {
   write(files.tr.words, tr.words);
   write(files.tr.sentences, tr.sentences);
   write(PATH_CONCEPTS, pathConcepts);
+  for (const [file, ids] of widen) {
+    const p = path.join(CONTENT, 'concepts', file);
+    write(
+      p,
+      read(p).map((c) => (ids.has(c.id) ? { ...c, ageGroups: ids.get(c.id) } : c)),
+    );
+  }
   // Same layout as the rest of the repository, so a rebuild without changes has no diff.
   const written = [
+    ...[...widen.keys()].map((f) => path.join(CONTENT, 'concepts', f)),
     files.course,
     files.en.words,
     files.en.sentences,

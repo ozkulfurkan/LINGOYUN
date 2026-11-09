@@ -9,7 +9,6 @@ vehicle.motorcycle # motorcycle = motosiklet
 vehicle.traffic_light # traffic light = trafik ışığı
 travel.suitcase # suitcase = bavul
 travel.flight # flight = uçuş
-travel.reservation # reservation = rezervasyon
 travel.tourist # tourist = turist
 travel.trip # trip = gezi
 travel.bus_stop # bus stop = otobüs durağı

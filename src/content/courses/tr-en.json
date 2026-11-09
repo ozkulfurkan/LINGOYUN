@@ -2685,23 +2685,6 @@
         "band": "A1",
         "words": [
           "place.restaurant",
-          "food.food",
-          "food.breakfast",
-          "food.lunch",
-          "food.dinner",
-          "food.bread",
-          "food.meat",
-          "food.salad",
-          "food.rice",
-          "animal.fish",
-          "animal.chicken",
-          "drink.coffee",
-          "drink.tea",
-          "drink.juice",
-          "home.plate",
-          "home.fork",
-          "home.spoon",
-          "home.glass",
           "quality.hungry",
           "quality.thirsty",
           "work.waiter",
@@ -2709,9 +2692,6 @@
           "travel.reservation",
           "quality.delicious",
           "quality.salty",
-          "drink.water",
-          "home.table",
-          "food.soup",
           "restaurant.menu",
           "restaurant.dessert",
           "restaurant.main_course",
@@ -2777,7 +2757,6 @@
           "place.city",
           "place.village",
           "school.school",
-          "place.restaurant",
           "place.hotel",
           "place.bank",
           "place.market",
@@ -2837,7 +2816,6 @@
           "work.nurse",
           "work.engineer",
           "work.driver",
-          "work.waiter",
           "school.language",
           "school.english",
           "school.word",
@@ -2894,8 +2872,6 @@
           "quality.old",
           "quality.good",
           "quality.bad",
-          "quality.hungry",
-          "quality.thirsty",
           "quality.tired",
           "quality.clean",
           "quality.beautiful",
@@ -2969,7 +2945,6 @@
           "money.credit_card",
           "money.cash",
           "money.receipt",
-          "money.bill",
           "money.discount",
           "money.size",
           "money.wallet",
@@ -3082,7 +3057,6 @@
           "vehicle.traffic_light",
           "travel.suitcase",
           "travel.flight",
-          "travel.reservation",
           "travel.tourist",
           "travel.trip",
           "travel.bus_stop",
@@ -3273,8 +3247,6 @@
           "quality.quiet",
           "quality.noisy",
           "quality.sweet",
-          "quality.salty",
-          "quality.delicious",
           "quality.fresh",
           "quality.soft",
           "quality.hard",
@@ -3528,18 +3500,6 @@
           "restaurant.accommodate"
         ],
         "sentences": {
-          "1": [
-            "restaurant.b1_recommend_light",
-            "restaurant.b1_nuts_ingredients",
-            "restaurant.b1_table_six",
-            "restaurant.b1_share_main",
-            "restaurant.b1_fish_late",
-            "restaurant.b1_steak",
-            "restaurant.b1_wait_bar",
-            "restaurant.b1_overcooked",
-            "restaurant.b1_take_away",
-            "restaurant.b1_service_slow"
-          ],
           "2": [
             "restaurant.b2_quiet_anniversary",
             "restaurant.b2_reviews_bland",
@@ -3586,7 +3546,7 @@
     ],
     "kid": [
       {
-        "id": "kid.kid_greetings",
+        "id": "kid.greetings",
         "title": "kid_greetings",
         "band": "L1",
         "words": [
@@ -3598,12 +3558,24 @@
           "greeting.thank_you",
           "greeting.sorry",
           "greeting.good_morning",
+          "greeting.good_afternoon",
+          "greeting.good_evening",
+          "greeting.good_night",
+          "greeting.welcome",
+          "greeting.excuse_me",
+          "greeting.nice_to_meet_you",
+          "greeting.see_you",
+          "greeting.you_are_welcome",
           "pronoun.i",
           "pronoun.you",
           "pronoun.he",
           "pronoun.she",
           "pronoun.my",
-          "pronoun.this"
+          "pronoun.your",
+          "pronoun.this",
+          "pronoun.we",
+          "pronoun.they",
+          "family.name"
         ],
         "sentences": {
           "1": [
@@ -3614,37 +3586,25 @@
             "sentence.l1_this_father",
             "sentence.l1_this_book",
             "sentence.l1_thanks_teacher",
-            "sentence.l1_morning_friend"
+            "sentence.l1_morning_friend",
+            "sentence.l2_she_reads",
+            "sentence.l2_she_sits",
+            "sentence.l2_glass_clean",
+            "sentence.l2_they_come",
+            "sentence.l3_what_name",
+            "sentence.l3_sings_morning",
+            "sentence.l3_who_boy",
+            "sentence.l3_why_sad",
+            "sentence.l3_how_you",
+            "sentence.l3_open_window",
+            "sentence.l3_close_door",
+            "sentence.l3_lesson_easy"
           ]
         }
       },
       {
-        "id": "kid.kid_fruits_food",
-        "title": "kid_fruits_food",
-        "band": "L1",
-        "words": [
-          "fruit.apple",
-          "fruit.pear",
-          "fruit.cherry",
-          "fruit.grapes",
-          "fruit.banana",
-          "fruit.orange",
-          "fruit.strawberry",
-          "fruit.watermelon",
-          "food.bread",
-          "food.cheese",
-          "food.egg",
-          "food.cake",
-          "drink.milk",
-          "drink.water"
-        ],
-        "sentences": {
-          "1": ["sentence.l1_apple_red", "sentence.l1_milk_white", "sentence.l1_water_cold"]
-        }
-      },
-      {
-        "id": "kid.kid_colors_numbers",
-        "title": "kid_colors_numbers",
+        "id": "kid.colors_shapes",
+        "title": "kid_colors_shapes",
         "band": "L1",
         "words": [
           "color.red",
@@ -3658,6 +3618,31 @@
           "color.black",
           "color.white",
           "color.gray",
+          "shape.circle",
+          "shape.square",
+          "shape.triangle",
+          "shape.star",
+          "shape.heart",
+          "shape.rectangle",
+          "shape.oval",
+          "opposite.up",
+          "opposite.down"
+        ],
+        "sentences": {
+          "1": [
+            "sentence.l1_apple_red",
+            "sentence.l1_milk_white",
+            "sentence.l1_ball_blue",
+            "sentence.l1_bear_brown",
+            "sentence.l1_bag_black"
+          ]
+        }
+      },
+      {
+        "id": "kid.numbers",
+        "title": "kid_numbers",
+        "band": "L1",
+        "words": [
           "number.one",
           "number.two",
           "number.three",
@@ -3667,15 +3652,97 @@
           "number.seven",
           "number.eight",
           "number.nine",
-          "number.ten"
+          "number.ten",
+          "number.eleven",
+          "number.twelve",
+          "number.thirteen",
+          "number.fourteen",
+          "number.fifteen",
+          "number.sixteen",
+          "number.seventeen",
+          "number.eighteen",
+          "number.nineteen",
+          "number.twenty"
+        ],
+        "sentences": {}
+      },
+      {
+        "id": "kid.fruits_vegetables",
+        "title": "kid_fruits_vegetables",
+        "band": "L1",
+        "words": [
+          "fruit.apple",
+          "fruit.pear",
+          "fruit.cherry",
+          "fruit.grapes",
+          "fruit.banana",
+          "fruit.orange",
+          "fruit.strawberry",
+          "fruit.watermelon",
+          "fruit.lemon",
+          "fruit.peach",
+          "fruit.apricot",
+          "fruit.fig",
+          "fruit.plum",
+          "fruit.pineapple",
+          "fruit.hazelnut",
+          "vegetable.carrot",
+          "vegetable.tomato",
+          "vegetable.potato",
+          "vegetable.cucumber",
+          "vegetable.onion",
+          "vegetable.pepper",
+          "vegetable.corn",
+          "vegetable.peas",
+          "vegetable.mushroom",
+          "vegetable.pumpkin"
+        ],
+        "sentences": {}
+      },
+      {
+        "id": "kid.food",
+        "title": "kid_food",
+        "band": "L1",
+        "words": [
+          "food.bread",
+          "food.cheese",
+          "food.egg",
+          "food.cake",
+          "food.rice",
+          "food.soup",
+          "food.meat",
+          "food.salad",
+          "food.ice_cream",
+          "food.chocolate",
+          "food.pasta",
+          "food.sandwich",
+          "food.pizza",
+          "food.cookie",
+          "food.candy",
+          "food.honey",
+          "food.yogurt",
+          "food.butter",
+          "food.jam",
+          "food.olive",
+          "food.popcorn",
+          "drink.milk",
+          "drink.water",
+          "drink.juice",
+          "drink.tea"
         ],
         "sentences": {
-          "1": ["sentence.l1_ball_blue", "sentence.l1_bear_brown", "sentence.l1_bag_black"]
+          "1": [
+            "sentence.l1_water_cold",
+            "sentence.l2_eat_bread",
+            "sentence.l2_drink_milk",
+            "sentence.l2_like_chocolate",
+            "sentence.l2_soup_hot"
+          ]
         }
       },
       {
-        "id": "kid.kid_family_animals",
-        "title": "kid_family_animals",
+        "id": "kid.family",
+        "title": "kid_family",
         "band": "L1",
         "words": [
           "family.mother",
@@ -3687,6 +3754,31 @@
           "family.girl",
           "family.friend",
           "family.teacher",
+          "family.grandmother",
+          "family.grandfather",
+          "family.uncle",
+          "family.aunt",
+          "family.cousin",
+          "family.child"
+        ],
+        "sentences": {
+          "1": [
+            "sentence.l1_he_brother",
+            "sentence.l1_baby_happy",
+            "sentence.l2_baby_sleeps",
+            "sentence.l2_teacher_sees",
+            "sentence.l3_grandmother_garden",
+            "sentence.l3_grandfather_walks",
+            "sentence.l3_aunt_helps",
+            "sentence.l3_listen_teacher"
+          ]
+        }
+      },
+      {
+        "id": "kid.pets_farm",
+        "title": "kid_pets_farm",
+        "band": "L1",
+        "words": [
           "animal.cat",
           "animal.dog",
           "animal.bird",
@@ -3698,88 +3790,69 @@
           "animal.duck",
           "animal.rabbit",
           "animal.mouse",
-          "animal.bear"
+          "animal.goat",
+          "animal.rooster",
+          "animal.donkey",
+          "animal.bee",
+          "animal.butterfly",
+          "animal.ant",
+          "animal.spider",
+          "animal.snail",
+          "animal.ladybug",
+          "animal.worm",
+          "animal.frog"
         ],
         "sentences": {
-          "1": [
-            "sentence.l1_dog_big",
-            "sentence.l1_he_brother",
-            "sentence.l1_cat_small",
-            "sentence.l1_baby_happy"
-          ]
+          "1": ["sentence.l1_dog_big", "sentence.l1_cat_small"]
         }
       },
       {
-        "id": "kid.kid_things_body",
-        "title": "kid_things_body",
+        "id": "kid.zoo",
+        "title": "kid_zoo",
         "band": "L1",
         "words": [
-          "home.book",
-          "home.pencil",
-          "school.pen",
-          "clothes.bag",
-          "toy.ball",
-          "home.house",
-          "home.door",
-          "home.table",
-          "home.chair",
-          "school.school",
+          "animal.bear",
+          "animal.lion",
+          "animal.tiger",
+          "animal.elephant",
+          "animal.monkey",
+          "animal.giraffe",
+          "animal.zebra",
+          "animal.wolf",
+          "animal.fox",
+          "animal.snake",
+          "animal.turtle",
+          "animal.owl",
+          "animal.penguin",
+          "animal.dolphin",
+          "animal.whale",
+          "animal.shark",
+          "animal.crab",
+          "animal.octopus",
+          "animal.camel",
+          "animal.kangaroo",
+          "animal.panda",
+          "animal.squirrel",
+          "animal.hedgehog",
+          "animal.deer",
+          "animal.parrot",
+          "animal.eagle",
+          "animal.crocodile",
+          "animal.hippo"
+        ],
+        "sentences": {}
+      },
+      {
+        "id": "kid.body",
+        "title": "kid_body",
+        "band": "L2",
+        "words": [
           "body.head",
           "body.eye",
           "body.ear",
           "body.nose",
           "body.mouth",
           "body.hand",
-          "opposite.big",
-          "opposite.small",
-          "opposite.happy",
-          "opposite.sad",
-          "opposite.hot",
-          "opposite.cold"
-        ],
-        "sentences": {
-          "1": ["sentence.l1_i_happy", "sentence.l1_house_big"]
-        }
-      },
-      {
-        "id": "kid.kid_numbers_days",
-        "title": "kid_numbers_days",
-        "band": "L2",
-        "words": [
-          "number.eleven",
-          "number.twelve",
-          "number.thirteen",
-          "number.fourteen",
-          "number.fifteen",
-          "number.sixteen",
-          "number.seventeen",
-          "number.eighteen",
-          "number.nineteen",
-          "number.twenty",
-          "day.monday",
-          "day.tuesday",
-          "day.wednesday",
-          "day.thursday",
-          "day.friday",
-          "day.saturday",
-          "day.sunday",
-          "time.day"
-        ],
-        "sentences": {
-          "1": [
-            "sentence.l2_she_reads",
-            "sentence.l2_he_plays",
-            "sentence.l2_go_school",
-            "sentence.l2_monday_good",
-            "sentence.l2_she_sits"
-          ]
-        }
-      },
-      {
-        "id": "kid.kid_body_clothes",
-        "title": "kid_body_clothes",
-        "band": "L2",
-        "words": [
           "body.hair",
           "body.face",
           "body.tooth",
@@ -3790,6 +3863,23 @@
           "body.foot",
           "body.finger",
           "body.knee",
+          "body.tongue",
+          "body.lips",
+          "body.cheek",
+          "body.chin",
+          "body.eyebrow",
+          "body.elbow",
+          "body.tummy",
+          "body.back",
+          "body.toe"
+        ],
+        "sentences": {}
+      },
+      {
+        "id": "kid.clothes",
+        "title": "kid_clothes",
+        "band": "L2",
+        "words": [
           "clothes.shirt",
           "clothes.tshirt",
           "clothes.pants",
@@ -3799,17 +3889,36 @@
           "clothes.shoes",
           "clothes.socks",
           "clothes.hat",
-          "clothes.glasses"
+          "clothes.glasses",
+          "clothes.bag",
+          "clothes.shorts",
+          "clothes.jacket",
+          "clothes.sweater",
+          "clothes.pajamas",
+          "clothes.swimsuit",
+          "clothes.raincoat",
+          "clothes.boots",
+          "clothes.slippers",
+          "clothes.scarf",
+          "clothes.gloves",
+          "clothes.belt",
+          "clothes.umbrella",
+          "clothes.button",
+          "clothes.zipper"
         ],
         "sentences": {
-          "1": ["sentence.l2_shoes_new"]
+          "1": ["sentence.l2_shoes_new", "sentence.l2_phone_bag"]
         }
       },
       {
-        "id": "kid.kid_home_school",
-        "title": "kid_home_school",
+        "id": "kid.home",
+        "title": "kid_home",
         "band": "L2",
         "words": [
+          "home.house",
+          "home.door",
+          "home.table",
+          "home.chair",
           "home.bed",
           "home.window",
           "home.lamp",
@@ -3822,6 +3931,36 @@
           "home.key",
           "home.phone",
           "home.television",
+          "home.sofa",
+          "home.mirror",
+          "home.bathtub",
+          "home.toilet",
+          "home.sink",
+          "home.fridge",
+          "home.oven",
+          "home.bowl",
+          "home.pillow",
+          "home.blanket",
+          "home.towel",
+          "home.soap",
+          "home.toothbrush",
+          "home.box",
+          "place.room",
+          "place.kitchen",
+          "place.bathroom",
+          "place.bedroom",
+          "place.garden"
+        ],
+        "sentences": {
+          "1": ["sentence.l1_house_big", "sentence.l2_key_table", "sentence.l3_wash_hands"]
+        }
+      },
+      {
+        "id": "kid.school",
+        "title": "kid_school",
+        "band": "L2",
+        "words": [
+          "school.school",
           "school.classroom",
           "school.desk",
           "school.notebook",
@@ -3829,124 +3968,61 @@
           "school.ruler",
           "school.lesson",
           "school.homework",
-          "school.student"
+          "school.student",
+          "school.pen",
+          "home.book",
+          "home.pencil",
+          "home.crayon",
+          "home.scissors"
         ],
         "sentences": {
           "1": [
-            "sentence.l2_key_table",
-            "sentence.l2_phone_bag",
+            "sentence.l2_go_school",
             "sentence.l2_write_notebook",
-            "sentence.l2_baby_sleeps",
-            "sentence.l2_glass_clean",
-            "sentence.l2_teacher_sees",
-            "sentence.l2_they_come"
+            "sentence.l3_when_lesson",
+            "sentence.l3_homework_difficult"
           ]
         }
       },
       {
-        "id": "kid.kid_food_actions",
-        "title": "kid_food_actions",
+        "id": "kid.toys",
+        "title": "kid_toys",
         "band": "L2",
         "words": [
-          "food.rice",
-          "food.soup",
-          "food.meat",
-          "food.salad",
-          "food.ice_cream",
-          "food.chocolate",
-          "drink.juice",
-          "drink.tea",
-          "action.eat",
-          "action.drink",
-          "action.go",
-          "action.come",
-          "action.see",
-          "action.like",
-          "action.read",
-          "action.write",
-          "action.run",
-          "action.sit",
-          "action.play",
-          "action.sleep"
+          "toy.ball",
+          "toy.doll",
+          "toy.teddy_bear",
+          "toy.toy_car",
+          "toy.toy_train",
+          "toy.blocks",
+          "toy.puzzle",
+          "toy.kite",
+          "toy.balloon",
+          "toy.drum",
+          "toy.robot",
+          "toy.yoyo",
+          "toy.bubbles",
+          "toy.slide",
+          "toy.swing",
+          "toy.jump_rope"
         ],
         "sentences": {
-          "1": [
-            "sentence.l2_eat_bread",
-            "sentence.l2_drink_milk",
-            "sentence.l2_like_chocolate",
-            "sentence.l2_soup_hot"
-          ]
+          "1": ["sentence.l2_he_plays"]
         }
       },
       {
-        "id": "kid.kid_describing",
-        "title": "kid_describing",
+        "id": "kid.days_time",
+        "title": "kid_days_time",
         "band": "L2",
         "words": [
-          "quality.new",
-          "quality.old",
-          "quality.good",
-          "quality.bad",
-          "quality.hungry",
-          "quality.thirsty",
-          "quality.tired",
-          "quality.clean",
-          "pronoun.we",
-          "pronoun.they"
-        ],
-        "sentences": {
-          "1": ["sentence.l2_hungry", "sentence.l2_tired", "sentence.l2_not_tired"]
-        }
-      },
-      {
-        "id": "kid.kid_family_months",
-        "title": "kid_family_months",
-        "band": "L3",
-        "words": [
-          "family.grandmother",
-          "family.grandfather",
-          "family.uncle",
-          "family.aunt",
-          "family.cousin",
-          "family.child",
-          "family.name",
-          "pronoun.your",
-          "month.january",
-          "month.february",
-          "month.march",
-          "month.april",
-          "month.may",
-          "month.june",
-          "month.july",
-          "month.august",
-          "month.september",
-          "month.october",
-          "month.november",
-          "month.december"
-        ],
-        "sentences": {
-          "1": [
-            "sentence.l3_what_name",
-            "sentence.l3_grandmother_garden",
-            "sentence.l3_grandfather_walks",
-            "sentence.l3_aunt_helps"
-          ]
-        }
-      },
-      {
-        "id": "kid.kid_weather_time",
-        "title": "kid_weather_time",
-        "band": "L3",
-        "words": [
-          "season.spring",
-          "season.summer",
-          "season.autumn",
-          "season.winter",
-          "nature.sun",
-          "nature.rain",
-          "nature.snow",
-          "nature.wind",
-          "nature.cloud",
+          "day.monday",
+          "day.tuesday",
+          "day.wednesday",
+          "day.thursday",
+          "day.friday",
+          "day.saturday",
+          "day.sunday",
+          "time.day",
           "time.today",
           "time.tomorrow",
           "time.yesterday",
@@ -3958,17 +4034,103 @@
           "time.year"
         ],
         "sentences": {
-          "1": [
-            "sentence.l3_cold_today",
-            "sentence.l3_tomorrow_monday",
-            "sentence.l3_swim_summer",
-            "sentence.l3_snows_winter",
-            "sentence.l3_sings_morning"
-          ]
+          "1": ["sentence.l2_monday_good", "sentence.l3_cold_today", "sentence.l3_tomorrow_monday"]
         }
       },
       {
-        "id": "kid.kid_places",
+        "id": "kid.vehicles",
+        "title": "kid_vehicles",
+        "band": "L2",
+        "words": [
+          "vehicle.car",
+          "vehicle.bus",
+          "vehicle.truck",
+          "vehicle.train",
+          "vehicle.plane",
+          "vehicle.helicopter",
+          "vehicle.boat",
+          "vehicle.ship",
+          "vehicle.bicycle",
+          "vehicle.motorcycle",
+          "vehicle.taxi",
+          "vehicle.ambulance",
+          "vehicle.fire_truck",
+          "vehicle.police_car",
+          "vehicle.tractor",
+          "vehicle.rocket",
+          "vehicle.submarine",
+          "vehicle.tram",
+          "vehicle.subway",
+          "vehicle.hot_air_balloon",
+          "vehicle.sled",
+          "vehicle.skateboard",
+          "vehicle.wheel",
+          "vehicle.road",
+          "vehicle.traffic_light"
+        ],
+        "sentences": {}
+      },
+      {
+        "id": "kid.months_weather",
+        "title": "kid_months_weather",
+        "band": "L3",
+        "words": [
+          "month.january",
+          "month.february",
+          "month.march",
+          "month.april",
+          "month.may",
+          "month.june",
+          "month.july",
+          "month.august",
+          "month.september",
+          "month.october",
+          "month.november",
+          "month.december",
+          "season.spring",
+          "season.summer",
+          "season.autumn",
+          "season.winter",
+          "nature.sun",
+          "nature.rain",
+          "nature.snow",
+          "nature.wind",
+          "nature.cloud"
+        ],
+        "sentences": {
+          "1": ["sentence.l3_swim_summer", "sentence.l3_snows_winter"]
+        }
+      },
+      {
+        "id": "kid.nature",
+        "title": "kid_nature",
+        "band": "L3",
+        "words": [
+          "nature.moon",
+          "nature.ice",
+          "nature.lightning",
+          "nature.rainbow",
+          "nature.sky",
+          "nature.tree",
+          "nature.flower",
+          "nature.leaf",
+          "nature.grass",
+          "nature.forest",
+          "nature.mountain",
+          "nature.volcano",
+          "nature.river",
+          "nature.lake",
+          "nature.sea",
+          "nature.island",
+          "nature.beach",
+          "nature.sand",
+          "nature.rock",
+          "nature.fire"
+        ],
+        "sentences": {}
+      },
+      {
+        "id": "kid.places",
         "title": "kid_places",
         "band": "L3",
         "words": [
@@ -3979,11 +4141,6 @@
           "place.street",
           "place.city",
           "place.village",
-          "place.garden",
-          "place.room",
-          "place.kitchen",
-          "place.bathroom",
-          "place.bedroom",
           "question.what",
           "question.who",
           "question.where",
@@ -3992,21 +4149,26 @@
           "question.how"
         ],
         "sentences": {
-          "1": [
-            "sentence.l3_where_library",
-            "sentence.l3_who_boy",
-            "sentence.l3_when_lesson",
-            "sentence.l3_why_sad",
-            "sentence.l3_how_you",
-            "sentence.l3_wash_hands"
-          ]
+          "1": ["sentence.l3_where_library"]
         }
       },
       {
-        "id": "kid.kid_actions_describing",
-        "title": "kid_actions_describing",
+        "id": "kid.actions",
+        "title": "kid_actions",
         "band": "L3",
         "words": [
+          "action.eat",
+          "action.drink",
+          "action.go",
+          "action.come",
+          "action.see",
+          "action.like",
+          "action.read",
+          "action.write",
+          "action.run",
+          "action.sit",
+          "action.play",
+          "action.sleep",
           "action.open",
           "action.close",
           "action.give",
@@ -4018,7 +4180,23 @@
           "action.listen",
           "action.speak",
           "action.help",
-          "action.wash",
+          "action.wash"
+        ],
+        "sentences": {}
+      },
+      {
+        "id": "kid.describing",
+        "title": "kid_describing",
+        "band": "L3",
+        "words": [
+          "quality.new",
+          "quality.old",
+          "quality.good",
+          "quality.bad",
+          "quality.hungry",
+          "quality.thirsty",
+          "quality.tired",
+          "quality.clean",
           "quality.beautiful",
           "quality.easy",
           "quality.difficult",
@@ -4026,6 +4204,12 @@
           "quality.young",
           "quality.dirty",
           "quality.tall",
+          "opposite.big",
+          "opposite.small",
+          "opposite.happy",
+          "opposite.sad",
+          "opposite.hot",
+          "opposite.cold",
           "opposite.long",
           "opposite.short",
           "opposite.fast",
@@ -4033,11 +4217,10 @@
         ],
         "sentences": {
           "1": [
-            "sentence.l3_open_window",
-            "sentence.l3_close_door",
-            "sentence.l3_listen_teacher",
-            "sentence.l3_lesson_easy",
-            "sentence.l3_homework_difficult"
+            "sentence.l1_i_happy",
+            "sentence.l2_hungry",
+            "sentence.l2_tired",
+            "sentence.l2_not_tired"
           ]
         }
       }

@@ -1,0 +1,27 @@
+@theme kid.days_time
+@title kid_days_time
+@band L2
+
+@words
+day.monday # Monday = pazartesi
+day.tuesday # Tuesday = salı
+day.wednesday # Wednesday = çarşamba
+day.thursday # Thursday = perşembe
+day.friday # Friday = cuma
+day.saturday # Saturday = cumartesi
+day.sunday # Sunday = pazar
+time.day # day = gün
+time.today # today = bugün
+time.tomorrow # tomorrow = yarın
+time.yesterday # yesterday = dün
+time.morning # morning = sabah
+time.evening # evening = akşam
+time.night # night = gece
+time.week # week = hafta
+time.month # month = ay
+time.year # year = yıl
+
+@sentences 1
+sentence.l2_monday_good # Monday is a good day. = Pazartesi iyi bir gün.
+sentence.l3_cold_today # It is cold today. = Bugün hava soğuk.
+sentence.l3_tomorrow_monday # Tomorrow is Monday. = Yarın pazartesi.

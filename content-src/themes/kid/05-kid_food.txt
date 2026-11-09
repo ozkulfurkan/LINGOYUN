@@ -1,0 +1,37 @@
+@theme kid.food
+@title kid_food
+@band L1
+
+@words
+food.bread # bread = ekmek
+food.cheese # cheese = peynir
+food.egg # egg = yumurta
+food.cake # cake = pasta
+food.rice # rice = pilav
+food.soup # soup = çorba
+food.meat # meat = et
+food.salad # salad = salata
+food.ice_cream # ice cream = dondurma
+food.chocolate # chocolate = çikolata
+food.pasta # pasta = makarna
+food.sandwich # sandwich = sandviç
+food.pizza # pizza = pizza
+food.cookie # cookie = kurabiye
+food.candy # candy = şeker
+food.honey # honey = bal
+food.yogurt # yogurt = yoğurt
+food.butter # butter = tereyağı
+food.jam # jam = reçel
+food.olive # olive = zeytin
+food.popcorn # popcorn = patlamış mısır
+drink.milk # milk = süt
+drink.water # water = su
+drink.juice # juice = meyve suyu
+drink.tea # tea = çay
+
+@sentences 1
+sentence.l1_water_cold # The water is cold. = Su soğuk.
+sentence.l2_eat_bread # I eat bread. = Ben ekmek yerim.
+sentence.l2_drink_milk # I drink milk. = Ben süt içerim.
+sentence.l2_like_chocolate # I like chocolate. = Ben çikolata severim.
+sentence.l2_soup_hot # The soup is hot. = Çorba sıcak.
