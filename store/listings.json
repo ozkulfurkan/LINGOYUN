@@ -1,0 +1,30 @@
+{
+  "tr-TR": {
+    "appStore": {
+      "name": "LINGOYUN: İngilizce Öğren",
+      "subtitle": "Ailece İngilizce kelime oyunu",
+      "promotionalText": "2 yaştan yetişkine bütün aile için İngilizce kelime oyunları. Reklam yok, hesap yok; 7 gün ücretsiz, kart gerekmez.",
+      "keywords": "çocuk,oyun,dil,çeviri,okul,sözlük,kart,seviye,tekrar,eğitim,anaokulu,ilkokul,a1,a2,b1",
+      "whatsNew": "LINGOYUN'un ilk sürümü."
+    },
+    "play": {
+      "title": "LINGOYUN: İngilizce Öğren",
+      "shortDescription": "2 yaştan yetişkine aile boyu İngilizce: kelime, cümle ve deyim oyunları."
+    },
+    "description": "LINGOYUN, bütün aile için İngilizce ⇄ Türkçe kelime oyunu. Her profil kendi yaşına ve seviyesine göre oynar: 2–7 yaş resimlerle ve seslerle, 7–12 yaş oyunlarla, yetişkinler A1'den başlayan bir yolla.\n\nHER YAŞA GÖRE\n• 2–7 yaş: okumadan öğrenme; resimler, sesler ve Zeynep, Nehir, Kerem\n• 7–12 yaş: sıfırdan başlayan 10 seviye\n• Yetişkin: A1–C1, deyimler ve yanıltıcı benzer kelimeler\n\nOYUNLAR\n• Çoktan seçmeli: İngilizceden Türkçeye, Türkçeden İngilizceye\n• Harf dizme: kelimeyi harf harf kur\n• Cümle kurma: kelimeleri sürükle ya da dokun\n• Yazarak çevir (yetişkin): yazım hatasını ve Türkçe harfleri anlayan kontrol\n• Deyimler ve tuzaklar: \"magazine\" mağaza değil, dergi!\n\nUNUTMADAN ÖĞREN\n• Aralıklı tekrar: zorlandığın kelimeler doğru zamanda geri gelir\n• Günlük tekrar listesi\n• Seviye tespiti: 20 soruda nereden başlayacağını bul\n• Nehir haritasında seviye seviye ilerle\n\nÇOCUKLAR İÇİN GÜVENLİ\n• Reklam yok, izleme yok, sohbet yok\n• Profilde yalnızca takma ad; her şey telefonda kalır\n• Satın alma ve ayarlar ebeveyn kapısının arkasında\n• Yanlış cevapta ceza yok, cesaret var\n\nABONELİK\nTek aile aboneliği en fazla 3 profili kapsar. İlk 7 gün ücretsiz, kart gerekmez; sonra aylık ya da yıllık paket.\n\nGizlilik politikası: {{PRIVACY_URL}}"
+  },
+  "en-US": {
+    "appStore": {
+      "name": "LINGOYUN: English & Turkish",
+      "subtitle": "Family word games, ages 2+",
+      "promotionalText": "English word games for the whole family, from age 2 to adults. No ads, no account; 7 days free, no card needed.",
+      "keywords": "vocabulary,kids,learn,language,translate,flashcards,spelling,school,toddler,preschool,a1,a2,b1",
+      "whatsNew": "First release of LINGOYUN."
+    },
+    "play": {
+      "title": "LINGOYUN: English & Turkish",
+      "shortDescription": "English for the whole family from age 2: word, sentence and idiom games."
+    },
+    "description": "LINGOYUN is an English ⇄ Turkish word game for the whole family. Every profile plays at its own age and level: ages 2–7 with pictures and sounds, ages 7–12 with games, adults on a path starting at A1.\n\nFOR EVERY AGE\n• Ages 2–7: learning before reading, with pictures, sounds and Zeynep, Nehir and Kerem\n• Ages 7–12: ten levels starting from zero\n• Adults: A1–C1, idioms and false friends\n\nGAMES\n• Multiple choice: English to Turkish and Turkish to English\n• Spell it: build the word letter by letter\n• Build a sentence: drag or tap the words\n• Type the translation (adults): a check that understands typos and Turkish letters\n• Idioms and traps: \"magazine\" is not a store!\n\nLEARN TO REMEMBER\n• Spaced repetition: hard words come back at the right time\n• Daily review list\n• Placement test: find your level in 20 questions\n• Move up level by level on the river map\n\nSAFE FOR CHILDREN\n• No ads, no tracking, no chat\n• Only a nickname per profile; everything stays on the phone\n• Purchases and settings behind a parental gate\n• No penalty for mistakes, just encouragement\n\nSUBSCRIPTION\nOne family subscription covers up to 3 profiles. The first 7 days are free, no card needed; then a monthly or yearly plan.\n\nPrivacy policy: {{PRIVACY_URL}}"
+  }
+}

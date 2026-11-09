@@ -191,7 +191,9 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 7 — Yayın
 
-- [ ] **LNG-35** BULUT — Gizlilik politikası taslağı (KVKK, COPPA, GDPR-K), mağaza metinleri TR + EN.
+- [x] **LNG-35** BULUT — Gizlilik politikası taslağı (KVKK, COPPA, GDPR-K), mağaza metinleri TR + EN.
+  - Gizlilik politikası TR/EN: `docs/privacy/tr.html`, `docs/privacy/index.html` (hesap/reklam/izleme yok; profiller ve ilerleme cihazda; yalnız kişisel veri içermeyen Sentry çökme raporları ve RevenueCat abonelik doğrulaması çıkar; COPPA, GDPR madde 8, KVKK hakları). Mağaza metinleri `store/listings.json` (App Store + Play, TR/EN; karakter sınırları `store/listings.test.ts`). App Store gizlilik etiketleri `store/privacy-labels.md`, Play veri güvenliği + Aileler `store/data-safety.md`.
+  - Furkan dolduracak (`store/README.md`): geliştirici adı, iletişim e-postası, yürürlük tarihi, GitHub Pages'i açıp gizlilik adresini metne yazmak. Gönderimden önce (LNG-37): iOS gizlilik manifesti ve Play'in Families SDK listesi kontrolü.
 - [ ] **LNG-36** BULUT — Mağaza ekran görüntüleri ve uygulama ikonu (grafiker agent).
 - [ ] **LNG-37** FURKAN — TestFlight + Play iç test, gönderim.
 
