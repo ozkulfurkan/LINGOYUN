@@ -79,6 +79,8 @@ describe('river map home', () => {
     const percent = Math.round((Math.round(a1.length / 4) / a1.length) * 100);
     expect(screen.getByLabelText(`A1: şu anki seviye, %${percent} öğrenildi`)).toBeTruthy();
     expect(screen.getByLabelText('C1: yakında')).toBeTruthy();
+    // Two sample concepts are not a level yet.
+    expect(screen.getByLabelText('B1: yakında')).toBeTruthy();
   });
 
   it('shows gems and the streak', async () => {

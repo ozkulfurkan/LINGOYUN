@@ -1,7 +1,8 @@
 import { content } from '@/content/bundle';
 import type { ContentBundle } from '@/content/types';
-import { MIN_LEVEL_CONCEPTS } from '@/features/placement';
 import { recordAnswer, type Deck } from '@/features/srs';
+
+import { MIN_LEVEL_CONCEPTS } from '@/features/placement/session';
 
 import { LEVEL_DONE_MASTERY, levelConcepts, levelNodes, levelUpTarget, riverLayout } from './map';
 
@@ -54,15 +55,20 @@ describe('levelUpTarget', () => {
     expect(levelUpTarget(content, 'tr-en', 'kid', deckWith(L1, 2), 'L1')).toBeNull();
   });
 
-  it('does not move to a level with too little content to play', () => {
-    // B1 holds only a two-concept placeholder for now.
-    const A2 = levelConcepts(content, 'tr-en', 'adult', 'A2');
-    expect(levelConcepts(content, 'tr-en', 'adult', 'B1').length).toBeLessThan(MIN_LEVEL_CONCEPTS);
-    expect(levelUpTarget(content, 'tr-en', 'adult', deckWith(A2, 3), 'A2')).toBeNull();
+  it('does not move up to a level with only a few sample concepts', () => {
+    // B1 holds two early sample concepts: far below what a level needs.
+    const b1 = levelConcepts(content, 'tr-en', 'adult', 'B1');
+    expect(b1.length).toBeGreaterThan(0);
+    expect(b1.length).toBeLessThan(MIN_LEVEL_CONCEPTS);
+    const a2 = levelConcepts(content, 'tr-en', 'adult', 'A2');
+    expect(levelUpTarget(content, 'tr-en', 'adult', deckWith(a2, 3), 'A2')).toBeNull();
+    const nodes = levelNodes(content, 'tr-en', 'adult', {}, 'A2');
+    expect(nodes.find((n) => n.level === 'B1')?.playable).toBe(false);
+    expect(nodes.find((n) => n.level === 'A2')?.playable).toBe(true);
   });
 
   it('moves up as soon as the next level has enough content', () => {
-    const A2 = levelConcepts(content, 'tr-en', 'adult', 'A2');
+    const a2 = levelConcepts(content, 'tr-en', 'adult', 'A2');
     const filler = Array.from({ length: MIN_LEVEL_CONCEPTS }, (_, i) => `x.c${i}`);
     const bundle: ContentBundle = {
       ...content,
@@ -76,7 +82,7 @@ describe('levelUpTarget', () => {
         },
       ],
     };
-    expect(levelUpTarget(bundle, 'tr-en', 'adult', deckWith(A2, 3), 'A2')).toBe('B1');
+    expect(levelUpTarget(bundle, 'tr-en', 'adult', deckWith(a2, 3), 'A2')).toBe('B1');
   });
 
   it('does not move to a level without content or past the top', () => {

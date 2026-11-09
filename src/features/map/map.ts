@@ -1,6 +1,6 @@
 import { unitsFor, type ContentBundle } from '@/content';
 import { findCourse, type CourseId } from '@/features/languages';
-import { MIN_LEVEL_CONCEPTS } from '@/features/placement';
+import { MIN_LEVEL_CONCEPTS } from '@/features/placement/session';
 import { masteryOf, type Deck } from '@/features/srs';
 
 /** Share of a level's concepts in review box 3+ that opens the next level. */
@@ -12,12 +12,22 @@ export type LevelNode = {
   level: string;
   /** Concepts of the level; 0 when its content is not written yet. */
   conceptCount: number;
+  /**
+   * Enough content to play the level (same bar as the placement test). A level
+   * with only a few sample concepts is shown as "coming soon".
+   */
+  playable: boolean;
   /** 0–1, share of the level's concepts learned (box 3+). */
   mastery: number;
   state: LevelState;
 };
 
 type Leveled = 'kid' | 'adult';
+
+/** A level can be played (and moved up to) only with this much content. */
+export function hasEnoughContent(concepts: readonly string[]): boolean {
+  return concepts.length >= MIN_LEVEL_CONCEPTS;
+}
 
 /** Concepts of one level, in course order, without duplicates. */
 export function levelConcepts(
@@ -44,6 +54,7 @@ export function levelNodes(
     return {
       level,
       conceptCount: concepts.length,
+      playable: hasEnoughContent(concepts),
       mastery: masteryOf(deck, concepts),
       state: i < current ? 'done' : i === current ? 'current' : 'locked',
     };
@@ -52,8 +63,7 @@ export function levelNodes(
 
 /**
  * The level to move up to after practising, or null: the current level must be
- * mastered and the next level must have enough content to play. A level with a
- * few stray concepts cannot fill a round, so it does not count.
+ * mastered and the next level must have content.
  */
 export function levelUpTarget(
   bundle: ContentBundle,
@@ -68,8 +78,7 @@ export function levelUpTarget(
   if (i < 0 || !next) return null;
   const concepts = levelConcepts(bundle, courseId, profileType, currentLevel);
   if (concepts.length === 0 || masteryOf(deck, concepts) < LEVEL_DONE_MASTERY) return null;
-  const nextConcepts = levelConcepts(bundle, courseId, profileType, next);
-  return nextConcepts.length >= MIN_LEVEL_CONCEPTS ? next : null;
+  return hasEnoughContent(levelConcepts(bundle, courseId, profileType, next)) ? next : null;
 }
 
 export type Point = { x: number; y: number };
