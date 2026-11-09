@@ -52,14 +52,15 @@ Rozet kimlikleri kayda geçer; asla yeniden adlandırılmaz.
 
 Ekranda seviye adı (A1, L2…) hiç görünmez. Yol **1'den başlayan numaralı temalardır**: Selamlaşma, Kişiler ve aile, Sayılar… (yetişkin 27, 7–12 yaş 14 tema). Sıra `src/content/courses/tr-en.json` içindeki `paths` alanındadır. Her temanın gizli bir **bandı** (A1…C1 / L1…L10) vardır; yalnızca seviye testi ve içerik planlaması için kullanılır.
 
-**Her tema 5 basamak:**
+**Her tema 5 basamak (18 soru, Furkan'ın kararı, LNG-45):**
 
-| Basamak  | Ne sorulur (15 soru)                                                                                                                                                     |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1–4      | Önceki basamağın hataları önce · 10 yeni kelime (çoktan seçmeli) · aynı kelimelerden 3 dinleme sorusu (yazı gizli, normal ve 0,5× yavaş ses) · 2 cümle (bloklarla kurma) |
-| 5: Sınav | Temanın öğretilen kelimelerinden, en zayıflar önce; 3'ü harf dizme · 3 dinleme · 2 cümle                                                                                 |
+| Basamak  | Ne sorulur                                                                                                                                                                                                         |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1–4      | Önceki basamağın hataları önce · 10 yeni kelime (çoktan seçmeli) · 3 yazma (aynı kelimelerden, Türkçe → İngilizce; 7–12 yaşta harf dizme) · 3 dinleme (yazı gizli, normal ve 0,5× ses) · 2 cümle (bloklarla kurma) |
+| 5: Sınav | Öğretilen kelimelerden, en zayıflar önce: 7 kelime (3'ü harf dizme) · 5 yazma · 3 dinleme · 3 cümle                                                                                                                |
 
-- Önceki basamaktan kalan hatalı kelimeler dinleme sorularının, hatalı cümleler cümle sorularının yerini alır; basamak 15 soruda kalır.
+- Önceki basamaktan kalan hatalı kelimeler dinleme sorularının, hatalı cümleler cümle sorularının yerini alır; basamak 18 soruda kalır.
+- Yazmada "neredeyse doğru" ve yazım hatası can götürmez, doğru yazılış gösterilir; yanlış ya da "Bilmiyorum" 1 can götürür.
 - **Can:** her basamakta 3 can. Her hata 1 can; aynı sorudaki ikinci deneme can götürmez. 3. hatada "Canların bitti" ekranı gelir.
 - **Can kazanma:** canlar bitince hatalar tekrar sorulur. Her doğru 1 can verir, yanlış soru kuyruğun sonuna gider. 3 can dolunca basamak baştan ve yeni sorularla başlar.
 - Tamamlanmış basamaklar ve temalar yeniden oynanabilir; ilerletmezler ama XP ve taş verirler.

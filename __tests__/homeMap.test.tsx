@@ -81,7 +81,7 @@ describe('learning path home', () => {
     const start = startPath(themes, ['A1', 'A2', 'B1', 'B2', 'C1'], 'A2');
     expect(loadPath(profile).themeIndex).toBe(start.themeIndex);
     expect(screen.getByLabelText('3 can kaldı')).toBeTruthy();
-    expect(screen.getByLabelText('Soru 1 / 15')).toBeTruthy();
+    expect(screen.getByLabelText('Soru 1 / 18')).toBeTruthy();
   });
 
   it('keeps mini profiles off the path', async () => {

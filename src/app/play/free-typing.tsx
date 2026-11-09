@@ -1,7 +1,7 @@
 import { Redirect } from 'expo-router';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { StyleSheet, TextInput, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import { BlockProgress } from '@/components/BlockProgress';
 import {
@@ -11,11 +11,11 @@ import {
   RoundSummary,
   withCombo,
 } from '@/components/GameChrome';
-import { Bounce, Shake } from '@/components/Motion';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { QuizPromptCard } from '@/components/QuizPromptCard';
 import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
+import { TypingBoard } from '@/components/TypingBoard';
 import { content } from '@/content/bundle';
 import { finishRound } from '@/features/games/finishRound';
 import {
@@ -38,7 +38,7 @@ import { comboEvent, trailingRun } from '@/lib/feedbackEvents';
 import { speak } from '@/lib/speech';
 import { loadProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
-import { space, stroke, touchTarget, useTheme } from '@/theme';
+import { space } from '@/theme';
 
 /** Translating by typing is an adult game (Faz 5): kids get the tap-based games. */
 export default function FreeTypingScreen() {
@@ -69,7 +69,6 @@ type GameProps = {
 
 function Game({ profileId, nickname, courseId, level, onPlayAgain }: GameProps) {
   const { t } = useTranslation();
-  const { colors, radii, text, elevation } = useTheme();
   const [today] = useState(() => localDay(new Date()));
   const [round, setRound] = useState<TypingRound>(() =>
     startTypingRound({
@@ -190,44 +189,14 @@ function Game({ profileId, nickname, courseId, level, onPlayAgain }: GameProps) 
         onSpeak={() => speak(item.prompt, item.promptLang)}
       />
 
-      <Shake trigger={shown?.verdict === 'wrong' ? round.results.length : 0}>
-        <Bounce trigger={shown?.verdict === 'correct' ? round.results.length : 0}>
-          <TextInput
-            key={item.conceptId}
-            accessibilityLabel={t('typing.inputLabel')}
-            placeholder={t('typing.placeholder')}
-            placeholderTextColor={colors.textMuted}
-            value={shown ? shown.typed : typed}
-            onChangeText={setTyped}
-            onSubmitEditing={() => submit(typed)}
-            editable={!shown}
-            multiline={item.isSentence}
-            submitBehavior={item.isSentence ? 'submit' : undefined}
-            autoCapitalize="none"
-            autoCorrect={false}
-            autoComplete="off"
-            spellCheck={false}
-            returnKeyType="done"
-            autoFocus
-            style={[
-              text.option,
-              styles.input,
-              {
-                color: colors.text,
-                backgroundColor:
-                  shown?.verdict === 'correct'
-                    ? colors.correct
-                    : shown?.verdict === 'wrong'
-                      ? colors.incorrect
-                      : colors.surface,
-                borderColor: colors.border,
-                borderRadius: radii.md,
-                boxShadow: elevation.surface ?? undefined,
-              },
-            ]}
-          />
-        </Bounce>
-      </Shake>
+      <TypingBoard
+        questionKey={item.conceptId}
+        value={shown ? shown.typed : typed}
+        onChange={setTyped}
+        onSubmit={() => submit(typed)}
+        verdict={shown?.verdict ?? null}
+        multiline={item.isSentence}
+      />
     </Screen>
   );
 }
@@ -240,11 +209,5 @@ const styles = StyleSheet.create({
   },
   footer: {
     gap: space.md,
-  },
-  input: {
-    minHeight: touchTarget.mini,
-    borderWidth: stroke.thin,
-    paddingHorizontal: space.lg,
-    paddingVertical: space.md,
   },
 });

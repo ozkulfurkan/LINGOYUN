@@ -62,8 +62,33 @@ function translationsOf(prompt: string): string[] {
 }
 
 const isSentence = () => screen.queryByTestId('sentence-answer') !== null;
+const isTyping = () => screen.queryByLabelText('Cevabın') !== null;
+const isLetters = () => screen.queryByTestId('letter-slots') !== null;
+
+/** The English text for the Turkish prompt of a typing question. */
+function englishFor(prompt: string): string {
+  const id = Object.keys(content.languages.tr.words).find(
+    (k) => content.languages.tr.words[k].text === prompt,
+  )!;
+  return content.languages.en.words[id].text;
+}
 
 async function answerRight() {
+  if (isLetters()) {
+    for (const ch of englishFor(currentPrompt()).toLowerCase()) {
+      if (!/\p{L}/u.test(ch)) continue;
+      const free = screen
+        .getAllByLabelText(`${ch} harfi`)
+        .find((el) => el.props.accessibilityState?.disabled !== true)!;
+      await fireEvent.press(free);
+    }
+    return;
+  }
+  if (isTyping()) {
+    await fireEvent.changeText(screen.getByLabelText('Cevabın'), englishFor(currentPrompt()));
+    await press('Kontrol et');
+    return;
+  }
   if (isSentence()) {
     const prompt = currentPrompt();
     const id = Object.keys(content.languages.tr.sentences).find(
@@ -85,8 +110,12 @@ async function answerRight() {
   await press(label);
 }
 
-/** Picks an option that is not a translation of the prompt (choice questions only). */
+/** A wrong answer: "I don't know" when typing, otherwise a wrong option. */
 async function answerWrong() {
+  if (isTyping()) {
+    await press('Bilmiyorum');
+    return;
+  }
   const right = new Set(translationsOf(currentPrompt()));
   const option = screen
     .getAllByRole('button')
@@ -98,9 +127,9 @@ async function answerWrong() {
   await press(option!);
 }
 
-/** Moves past sentence questions so a wrong pick is always possible. */
+/** Moves past sentence and letter questions so a wrong pick is always possible. */
 async function skipToChoice() {
-  while (isSentence()) {
+  while (isSentence() || isLetters()) {
     await answerRight();
     await press('Devam');
   }
@@ -114,10 +143,10 @@ describe('theme step', () => {
 
   afterEach(() => profilesStore.getState().profiles.forEach((p) => deleteProfile(p.id)));
 
-  it('passes a step after fifteen questions and moves to the next one', async () => {
+  it('passes a step after eighteen questions and moves to the next one', async () => {
     const profile = seedProfile('kid', 'L1');
     await renderRouter(ROUTES, { initialUrl: '/play/step?theme=0&step=0' });
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 18; i++) {
       await answerRight();
       await press('Devam');
     }
@@ -131,7 +160,7 @@ describe('theme step', () => {
     seedProfile('adult', 'A1');
     await renderRouter(ROUTES, { initialUrl: '/play/step?theme=0&step=0' });
     let listened = 0;
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 18; i++) {
       if (screen.queryByText('Dinle ve anlamını seç')) {
         listened++;
         expect(screen.queryByTestId('quiz-prompt')).toBeNull();
@@ -176,6 +205,6 @@ describe('theme step', () => {
       await press('Devam');
     }
     expect(screen.getByLabelText('3 can kaldı')).toBeTruthy();
-    expect(screen.getByLabelText('Soru 1 / 15')).toBeTruthy();
+    expect(screen.getByLabelText('Soru 1 / 18')).toBeTruthy();
   });
 });

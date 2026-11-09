@@ -7,7 +7,9 @@ import { recordAnswer, type Deck } from '@/features/srs';
 import {
   buildStep,
   difficultyFromPlacement,
+  EXAM_SENTENCES,
   EXAM_STEP,
+  EXAM_TYPING,
   failStep,
   HEARTS,
   isOutOfHearts,
@@ -29,6 +31,7 @@ import {
   startStepSession,
   stepWords,
   themeSentences,
+  TYPING_PER_STEP,
   type PathProgress,
   type StepItem,
 } from '.';
@@ -68,12 +71,38 @@ describe('learning path content', () => {
 });
 
 describe('buildStep', () => {
-  it.each([0, 1, 2, 3])('step %i has 15 questions: 10 words, 3 listening, 2 sentences', (step) => {
-    const items = build({ stepIndex: step });
+  it.each([0, 1, 2, 3])(
+    'step %i has 18 questions: 10 words, 3 typed, 3 listening, 2 sentences',
+    (step) => {
+      const items = build({ stepIndex: step });
+      expect(items).toHaveLength(QUESTIONS_PER_STEP);
+      expect(QUESTIONS_PER_STEP).toBe(18);
+      expect(count(items, 'choice')).toBe(10);
+      expect(count(items, 'typing')).toBe(TYPING_PER_STEP);
+      expect(count(items, 'listen')).toBe(LISTEN_PER_STEP);
+      expect(count(items, 'sentence')).toBe(SENTENCES_PER_STEP);
+    },
+  );
+
+  it('types only words met earlier in the same step, in English', () => {
+    const items = build({ stepIndex: 1 });
+    const firstTyped = items.findIndex((i) => i.kind === 'typing');
+    for (const [i, item] of items.entries()) {
+      if (item.kind !== 'typing') continue;
+      expect(stepWords(restaurant, 1)).toContain(item.conceptId);
+      expect(
+        items.slice(0, i).some((x) => x.kind === 'choice' && x.conceptId === item.conceptId),
+      ).toBe(true);
+      expect(item.item.answerLang).toBe('en');
+    }
+    expect(firstTyped).toBeGreaterThan(0);
+  });
+
+  it('spells the typed words with letter tiles for kids', () => {
+    const items = build({ theme: kid[2], profileType: 'kid', stepIndex: 0 });
+    expect(count(items, 'typing')).toBe(0);
+    expect(count(items, 'letters')).toBeGreaterThan(0);
     expect(items).toHaveLength(QUESTIONS_PER_STEP);
-    expect(count(items, 'choice')).toBe(10);
-    expect(count(items, 'listen')).toBe(LISTEN_PER_STEP);
-    expect(count(items, 'sentence')).toBe(SENTENCES_PER_STEP);
   });
 
   it('teaches ten new words per step, in theme order', () => {
@@ -101,10 +130,12 @@ describe('buildStep', () => {
     expect(count(items, 'sentence')).toBe(SENTENCES_PER_STEP);
   });
 
-  it('builds an exam from every taught word, with letter tiles', () => {
+  it('builds an exam from every taught word, with letter tiles and typing', () => {
     const items = build({ stepIndex: EXAM_STEP });
     expect(items).toHaveLength(QUESTIONS_PER_STEP);
     expect(count(items, 'letters')).toBeGreaterThan(0);
+    expect(count(items, 'typing')).toBe(EXAM_TYPING);
+    expect(count(items, 'sentence')).toBe(EXAM_SENTENCES);
     const taught = new Set(restaurant.words);
     for (const i of items.filter((x) => x.kind !== 'sentence')) {
       expect(taught.has(i.conceptId)).toBe(true);

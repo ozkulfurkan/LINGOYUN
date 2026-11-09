@@ -18,6 +18,7 @@ import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { AnswerArea, Pool } from '@/components/SentenceBoard';
 import { ThemedText } from '@/components/ThemedText';
+import { TypingBoard } from '@/components/TypingBoard';
 import { pathOf, type Theme } from '@/content';
 import { content } from '@/content/bundle';
 import {
@@ -40,7 +41,9 @@ import {
   sentenceGrade,
   type SentencePuzzle,
 } from '@/features/games/sentence-builder';
-import type { CourseId } from '@/features/languages';
+import { checkAnswer } from '@/features/answer-check';
+import { cachedKnownForms, type TypingResult } from '@/features/games/free-typing';
+import { getLanguage, type CourseId } from '@/features/languages';
 import {
   buildStep,
   EXAM_STEP,
@@ -64,7 +67,7 @@ import { useActiveProfile } from '@/features/profiles';
 import type { SessionReward } from '@/features/progress';
 import { buildQuestion } from '@/features/quiz/generate';
 import { seededRng, type Rng } from '@/features/quiz/rng';
-import { localDay, recordAnswer, type Grade } from '@/features/srs';
+import { gradeFromVerdict, localDay, recordAnswer, type Grade } from '@/features/srs';
 import { playFeedback } from '@/lib/feedback';
 import { speak, stopSpeaking } from '@/lib/speech';
 import { themeName } from '@/lib/themeName';
@@ -157,6 +160,8 @@ function Step(props: StepProps) {
   // Picked option of the current choice question; null while unanswered.
   const [pick, setPick] = useState<number | null>(null);
   const [missed, setMissed] = useState(false);
+  const [typed, setTyped] = useState('');
+  const [typingResult, setTypingResult] = useState<TypingResult | null>(null);
   const [phase, setPhase] = useState<Phase>('play');
   const [reward, setReward] = useState<SessionReward | null>(null);
   const zoneRef = useRef<Measurable | null>(null);
@@ -168,7 +173,8 @@ function Step(props: StepProps) {
     if (phase !== 'play' || !item) return;
     if (item.kind === 'listen') speak(item.question.prompt, item.question.promptLang);
     else if (profileType === 'kid') {
-      const p = item.kind === 'choice' ? item.question : item.puzzle;
+      const p =
+        item.kind === 'choice' ? item.question : item.kind === 'typing' ? item.item : item.puzzle;
       speak(p.prompt, p.promptLang);
     }
     return stopSpeaking;
@@ -224,7 +230,7 @@ function Step(props: StepProps) {
   };
 
   const onPick = (index: number) => {
-    if (pick !== null || item.kind === 'letters' || item.kind === 'sentence') return;
+    if (pick !== null || (item.kind !== 'choice' && item.kind !== 'listen')) return;
     setPick(index);
     if (index === item.question.correctIndex) settle('good');
     else {
@@ -290,8 +296,32 @@ function Step(props: StepProps) {
     settle('again');
   };
 
+  /** Checks a typed answer ("" = I don't know). Spelling slips cost no life. */
+  const submitTyping = (value: string) => {
+    if (item.kind !== 'typing' || typingResult) return;
+    const { accepted, answerLang } = item.item;
+    const result: TypingResult = value.trim()
+      ? {
+          ...checkAnswer(
+            getLanguage(answerLang),
+            value,
+            accepted,
+            cachedKnownForms(content, answerLang),
+          ),
+          typed: value,
+        }
+      : { verdict: 'wrong', expected: accepted[0], typed: '' };
+    const grade = gradeFromVerdict(result.verdict);
+    if (grade === 'again') lose();
+    setTypingResult(result);
+    settle(grade);
+    speak(result.expected, answerLang);
+  };
+
   const onContinue = () => {
     setPick(null);
+    setTyped('');
+    setTypingResult(null);
     setMissed(false);
     if (isOutOfHearts(session)) {
       recordFailedStep({ profileId, courseId, progress, current });
@@ -321,9 +351,11 @@ function Step(props: StepProps) {
       ? isDone(item.puzzle)
       : item.kind === 'sentence'
         ? isSentenceDone(item.puzzle)
-        : pick !== null;
+        : item.kind === 'typing'
+          ? typingResult !== null
+          : pick !== null;
   const right = answered && grades.at(-1) !== 'again';
-  const feedback = feedbackText(t, item, answered, right, missed, profileType);
+  const feedback = feedbackText(t, item, answered, right, missed, profileType, typingResult);
 
   return (
     <Screen
@@ -332,6 +364,11 @@ function Step(props: StepProps) {
           {feedback ? <GameFeedback text={feedback} /> : null}
           {answered ? (
             <PrimaryButton label={t('common.continue')} onPress={onContinue} />
+          ) : item.kind === 'typing' ? (
+            <>
+              <PrimaryButton label={t('typing.check')} onPress={() => submitTyping(typed)} />
+              <SecondaryButton label={t('typing.dontKnow')} onPress={() => submitTyping('')} />
+            </>
           ) : item.kind === 'sentence' && canCheck(item.puzzle) && profileType === 'adult' ? (
             <PrimaryButton label={t('sentences.check')} onPress={() => checkBlocks(item.puzzle)} />
           ) : null}
@@ -408,6 +445,21 @@ function Step(props: StepProps) {
             />
           )}
         </>
+      ) : item.kind === 'typing' ? (
+        <>
+          <QuizPromptCard
+            prompt={item.item.prompt}
+            hint={t('typing.hintWord', { language: t(`languages.${item.item.answerLang}`) })}
+            onSpeak={() => speak(item.item.prompt, item.item.promptLang)}
+          />
+          <TypingBoard
+            questionKey={`${session.index}:${item.conceptId}`}
+            value={typingResult ? typingResult.typed : typed}
+            onChange={setTyped}
+            onSubmit={() => submitTyping(typed)}
+            verdict={typingResult?.verdict ?? null}
+          />
+        </>
       ) : (
         <>
           <QuizPromptCard
@@ -446,13 +498,22 @@ function feedbackText(
   right: boolean,
   missed: boolean,
   profileType: Leveled,
+  typingResult: TypingResult | null,
 ): string | null {
+  if (item.kind === 'typing' && typingResult) {
+    const answer = typingResult.expected;
+    if (typingResult.verdict === 'correct') return t(`game.correct.${profileType}`);
+    if (typingResult.verdict === 'nearMiss') return t('typing.nearMiss', { answer });
+    if (typingResult.verdict === 'typo') return t('typing.typo', { answer });
+    return t('game.answerWas', { answer });
+  }
   if (!answered) {
     if (!missed) return null;
     return t(item.kind === 'letters' ? 'letters.tryAgain' : 'sentences.tryAgain');
   }
   if (right) return t(`game.correct.${profileType}`);
   if (item.kind === 'letters') return t('letters.answerIs', { answer: item.puzzle.answer });
+  if (item.kind === 'typing') return null;
   if (item.kind === 'sentence') {
     return t('sentences.answerIs', {
       answer: `${item.puzzle.words.join(' ')}${item.puzzle.ending}`,
