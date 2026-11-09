@@ -148,5 +148,44 @@
     "current": "{{level}}: şu anki seviye, %{{percent}} öğrenildi",
     "locked": "{{level}}: kilitli",
     "soon": "{{level}}: yakında"
+  },
+  "gate": {
+    "title": "Ebeveyn kontrolü",
+    "ask": "Devam etmek için sonucu rakamla yaz:",
+    "question": "{{a}} çarpı {{b}}",
+    "wrong": "Olmadı. Yeni bir soru geldi.",
+    "typed": "Yazılan: {{value}}",
+    "typedEmpty": "Henüz rakam yazılmadı",
+    "digit": "{{d}}",
+    "backspace": "Son rakamı sil",
+    "cancel": "Vazgeç",
+    "numbers": {
+      "3": "üç",
+      "4": "dört",
+      "5": "beş",
+      "6": "altı",
+      "7": "yedi",
+      "8": "sekiz",
+      "9": "dokuz"
+    }
+  },
+  "settings": {
+    "open": "Ayarlar (ebeveyn)",
+    "title": "Ayarlar",
+    "sound": "Ses efektleri",
+    "haptics": "Titreşim",
+    "profiles": "Profiller",
+    "active": "Şu anki profil",
+    "switchTo": "Bu profile geç",
+    "delete": "Sil",
+    "confirmDelete": "{{nickname}} kalıcı olarak silinsin mi? İlerlemesi de silinir.",
+    "confirmYes": "Evet, sil",
+    "confirmNo": "Vazgeç",
+    "close": "Kapat",
+    "type": {
+      "mini": "2–7 yaş",
+      "kid": "7–12 yaş",
+      "adult": "Yetişkin"
+    }
   }
 }
