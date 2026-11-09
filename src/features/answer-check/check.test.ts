@@ -45,6 +45,9 @@ describe('checkAnswer', () => {
     expect(checkAnswer(en, 'an apple', ['apple']).verdict).toBe('correct');
     expect(checkAnswer(en, 'apple', ['an apple']).verdict).toBe('correct');
     expect(checkAnswer(en, 'the cat', ['cat']).verdict).toBe('correct');
+    // Dictionary forms of English verbs.
+    expect(checkAnswer(en, 'to eat', ['eat']).verdict).toBe('correct');
+    expect(checkAnswer(en, 'eat', ['to eat']).verdict).toBe('correct');
     // Turkish has no articles: "bir elma" is not "elma".
     expect(checkAnswer(tr, 'bir elma', ['elma']).verdict).not.toBe('correct');
   });

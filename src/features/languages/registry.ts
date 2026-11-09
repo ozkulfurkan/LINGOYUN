@@ -29,7 +29,7 @@ const ENGLISH: LanguageDef = {
   toLower: (s) => s.toLowerCase(),
   toUpper: (s) => s.toUpperCase(),
   foldMap: {},
-  articles: ['a', 'an', 'the'],
+  articles: ['a', 'an', 'the', 'to'],
 };
 
 export const LANGUAGES: Readonly<Record<LanguageCode, LanguageDef>> = {

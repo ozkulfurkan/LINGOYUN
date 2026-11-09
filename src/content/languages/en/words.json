@@ -240,7 +240,8 @@
     "text": "egg"
   },
   "food.rice": {
-    "text": "rice"
+    "text": "rice",
+    "alt": ["pilaf"]
   },
   "food.pasta": {
     "text": "pasta"
@@ -453,13 +454,15 @@
     "alt": ["little"]
   },
   "opposite.long": {
-    "text": "long"
+    "text": "long",
+    "alt": ["tall"]
   },
   "opposite.short": {
     "text": "short"
   },
   "opposite.hot": {
-    "text": "hot"
+    "text": "hot",
+    "alt": ["warm"]
   },
   "opposite.cold": {
     "text": "cold"
@@ -489,7 +492,8 @@
     "text": "hair"
   },
   "body.face": {
-    "text": "face"
+    "text": "face",
+    "alt": ["hundred"]
   },
   "body.eye": {
     "text": "eye"
@@ -566,7 +570,7 @@
   },
   "clothes.tshirt": {
     "text": "T-shirt",
-    "alt": ["tee"]
+    "alt": ["tee", "t shirt"]
   },
   "clothes.pants": {
     "text": "pants",
@@ -673,7 +677,8 @@
     "text": "lamp"
   },
   "home.clock": {
-    "text": "clock"
+    "text": "clock",
+    "alt": ["hour", "watch"]
   },
   "home.mirror": {
     "text": "mirror"
@@ -813,7 +818,8 @@
     "text": "sun"
   },
   "nature.moon": {
-    "text": "moon"
+    "text": "moon",
+    "alt": ["month"]
   },
   "nature.cloud": {
     "text": "cloud"
@@ -996,7 +1002,8 @@
     "alt": ["thanks"]
   },
   "greeting.sorry": {
-    "text": "sorry"
+    "text": "sorry",
+    "alt": ["I am sorry", "I'm sorry"]
   },
   "greeting.good_morning": {
     "text": "good morning"
@@ -1037,10 +1044,12 @@
     "text": "you"
   },
   "pronoun.he": {
-    "text": "he"
+    "text": "he",
+    "alt": ["she", "it"]
   },
   "pronoun.she": {
-    "text": "she"
+    "text": "she",
+    "alt": ["he", "it"]
   },
   "pronoun.my": {
     "text": "my"
@@ -1119,7 +1128,8 @@
     "text": "see"
   },
   "action.like": {
-    "text": "like"
+    "text": "like",
+    "alt": ["love"]
   },
   "action.read": {
     "text": "read"
@@ -1146,7 +1156,8 @@
     "text": "old"
   },
   "quality.good": {
-    "text": "good"
+    "text": "good",
+    "alt": ["well"]
   },
   "quality.bad": {
     "text": "bad"
@@ -1303,7 +1314,8 @@
     "text": "week"
   },
   "time.month": {
-    "text": "month"
+    "text": "month",
+    "alt": ["moon"]
   },
   "time.year": {
     "text": "year"
@@ -1312,13 +1324,15 @@
     "text": "open"
   },
   "action.close": {
-    "text": "close"
+    "text": "close",
+    "alt": ["shut"]
   },
   "action.give": {
     "text": "give"
   },
   "action.take": {
-    "text": "take"
+    "text": "take",
+    "alt": ["get", "buy", "receive"]
   },
   "action.walk": {
     "text": "walk"
@@ -1387,7 +1401,8 @@
     "text": "how"
   },
   "greeting.good_afternoon": {
-    "text": "good afternoon"
+    "text": "good afternoon",
+    "alt": ["good day", "have a nice day"]
   },
   "greeting.good_evening": {
     "text": "good evening"
@@ -1402,7 +1417,8 @@
     "text": "excuse me"
   },
   "greeting.nice_to_meet_you": {
-    "text": "nice to meet you"
+    "text": "nice to meet you",
+    "alt": ["pleased to meet you"]
   },
   "greeting.see_you": {
     "text": "see you later",
@@ -1447,13 +1463,16 @@
     "alt": ["neighbour"]
   },
   "pronoun.it": {
-    "text": "it"
+    "text": "it",
+    "alt": ["he", "she"]
   },
   "pronoun.his": {
-    "text": "his"
+    "text": "his",
+    "alt": ["her", "its"]
   },
   "pronoun.her": {
-    "text": "her"
+    "text": "her",
+    "alt": ["his", "its"]
   },
   "pronoun.our": {
     "text": "our"
@@ -1496,7 +1515,7 @@
   },
   "number.hundred": {
     "text": "hundred",
-    "alt": ["one hundred"]
+    "alt": ["one hundred", "face"]
   },
   "number.thousand": {
     "text": "thousand",
@@ -1515,7 +1534,8 @@
     "text": "time"
   },
   "time.hour": {
-    "text": "hour"
+    "text": "hour",
+    "alt": ["clock", "watch"]
   },
   "time.minute": {
     "text": "minute"
@@ -1524,13 +1544,15 @@
     "text": "afternoon"
   },
   "time.noon": {
-    "text": "noon"
+    "text": "noon",
+    "alt": ["midday"]
   },
   "time.now": {
     "text": "now"
   },
   "time.later": {
-    "text": "later"
+    "text": "later",
+    "alt": ["then", "after"]
   },
   "time.early": {
     "text": "early"
@@ -1583,7 +1605,8 @@
     "alt": ["supper"]
   },
   "food.food": {
-    "text": "food"
+    "text": "food",
+    "alt": ["meal"]
   },
   "fruit.fruit": {
     "text": "fruit"
@@ -1623,7 +1646,8 @@
     "alt": ["chemist's"]
   },
   "work.job": {
-    "text": "job"
+    "text": "job",
+    "alt": ["work"]
   },
   "work.doctor": {
     "text": "doctor"
@@ -1638,7 +1662,8 @@
     "text": "driver"
   },
   "work.waiter": {
-    "text": "waiter"
+    "text": "waiter",
+    "alt": ["waitress", "server"]
   },
   "school.language": {
     "text": "language"
@@ -1703,16 +1728,19 @@
     "text": "busy"
   },
   "quality.correct": {
-    "text": "correct"
+    "text": "correct",
+    "alt": ["right", "true"]
   },
   "quality.wrong": {
     "text": "wrong"
   },
   "action.do": {
-    "text": "do"
+    "text": "do",
+    "alt": ["make"]
   },
   "action.make": {
-    "text": "make"
+    "text": "make",
+    "alt": ["do"]
   },
   "action.have": {
     "text": "have"
@@ -1736,7 +1764,8 @@
     "text": "buy"
   },
   "action.say": {
-    "text": "say"
+    "text": "say",
+    "alt": ["tell"]
   },
   "action.understand": {
     "text": "understand"
@@ -1756,7 +1785,8 @@
     "text": "drive"
   },
   "action.call": {
-    "text": "call"
+    "text": "call",
+    "alt": ["search", "look for"]
   },
   "action.ask": {
     "text": "ask"
@@ -1789,28 +1819,34 @@
     "text": "because"
   },
   "function.very": {
-    "text": "very"
+    "text": "very",
+    "alt": ["a lot", "much", "many"]
   },
   "function.a_little": {
-    "text": "a little"
+    "text": "a little",
+    "alt": ["a bit"]
   },
   "function.every": {
-    "text": "every"
+    "text": "every",
+    "alt": ["each"]
   },
   "position.under": {
-    "text": "under"
+    "text": "under",
+    "alt": ["below"]
   },
   "position.behind": {
     "text": "behind"
   },
   "position.next_to": {
-    "text": "next to"
+    "text": "next to",
+    "alt": ["beside"]
   },
   "position.in_front_of": {
     "text": "in front of"
   },
   "nature.weather": {
-    "text": "weather"
+    "text": "weather",
+    "alt": ["air"]
   },
   "idiom.take_care": {
     "text": "take care"
@@ -1825,7 +1861,8 @@
     "text": "good luck"
   },
   "idiom.have_a_nice_day": {
-    "text": "have a nice day"
+    "text": "have a nice day",
+    "alt": ["have a good day", "good day", "good afternoon"]
   },
   "idiom.come_on": {
     "text": "come on"
@@ -1841,7 +1878,7 @@
   },
   "idiom.wait_a_minute": {
     "text": "wait a minute",
-    "alt": ["just a minute"]
+    "alt": ["just a minute", "one minute"]
   },
   "work.company": {
     "text": "company"
@@ -1914,7 +1951,8 @@
     "text": "receipt"
   },
   "money.bill": {
-    "text": "bill"
+    "text": "bill",
+    "alt": ["check", "invoice"]
   },
   "money.discount": {
     "text": "discount"
@@ -1953,7 +1991,8 @@
     "text": "cost"
   },
   "action.try_on": {
-    "text": "try on"
+    "text": "try on",
+    "alt": ["try"]
   },
   "travel.suitcase": {
     "text": "suitcase"
@@ -2024,7 +2063,8 @@
     "text": "pain"
   },
   "health.fever": {
-    "text": "fever"
+    "text": "fever",
+    "alt": ["fire"]
   },
   "health.cough": {
     "text": "cough"
@@ -2151,7 +2191,8 @@
     "text": "excited"
   },
   "feeling.lonely": {
-    "text": "lonely"
+    "text": "lonely",
+    "alt": ["alone"]
   },
   "feeling.calm": {
     "text": "calm"
@@ -2261,7 +2302,8 @@
     "text": "salty"
   },
   "quality.delicious": {
-    "text": "delicious"
+    "text": "delicious",
+    "alt": ["tasty"]
   },
   "quality.fresh": {
     "text": "fresh"
@@ -2348,7 +2390,8 @@
     "text": "feel"
   },
   "action.try": {
-    "text": "try"
+    "text": "try",
+    "alt": ["try on"]
   },
   "action.use": {
     "text": "use"
@@ -2455,7 +2498,7 @@
   },
   "tech.email": {
     "text": "email",
-    "alt": ["e-mail"]
+    "alt": ["e mail"]
   },
   "tech.photo": {
     "text": "photo",
@@ -2584,7 +2627,8 @@
     "text": "next"
   },
   "time.ago": {
-    "text": "ago"
+    "text": "ago",
+    "alt": ["before"]
   },
   "time.soon": {
     "text": "soon"
@@ -2615,7 +2659,8 @@
     "text": "together"
   },
   "function.alone": {
-    "text": "alone"
+    "text": "alone",
+    "alt": ["lonely"]
   },
   "function.really": {
     "text": "really"
@@ -2624,7 +2669,8 @@
     "text": "almost"
   },
   "function.well": {
-    "text": "well"
+    "text": "well",
+    "alt": ["good"]
   },
   "function.if": {
     "text": "if"
@@ -2633,13 +2679,16 @@
     "text": "so"
   },
   "function.then": {
-    "text": "then"
+    "text": "then",
+    "alt": ["later", "after"]
   },
   "function.before": {
-    "text": "before"
+    "text": "before",
+    "alt": ["ago"]
   },
   "function.after": {
-    "text": "after"
+    "text": "after",
+    "alt": ["later", "then"]
   },
   "function.without": {
     "text": "without"
@@ -2670,19 +2719,23 @@
     "text": "cost an arm and a leg"
   },
   "idiom.hot_water": {
-    "text": "be in hot water"
+    "text": "be in hot water",
+    "alt": ["in hot water"]
   },
   "idiom.keep_an_eye": {
-    "text": "keep an eye on"
+    "text": "keep an eye on",
+    "alt": ["keep an eye"]
   },
   "idiom.by_heart": {
-    "text": "learn by heart"
+    "text": "learn by heart",
+    "alt": ["memorize", "memorise"]
   },
   "idiom.on_time": {
     "text": "on time"
   },
   "idiom.change_mind": {
-    "text": "change your mind"
+    "text": "change your mind",
+    "alt": ["change one's mind"]
   },
   "idiom.feel_at_home": {
     "text": "feel at home"
@@ -2712,22 +2765,28 @@
     "text": "no pain, no gain"
   },
   "idiom.all_ears": {
-    "text": "be all ears"
+    "text": "be all ears",
+    "alt": ["all ears"]
   },
   "false_friend.sympathetic": {
-    "text": "sympathetic"
+    "text": "sympathetic",
+    "alt": ["understanding"]
   },
   "false_friend.actual": {
-    "text": "actual"
+    "text": "actual",
+    "alt": ["real"]
   },
   "false_friend.sensible": {
-    "text": "sensible"
+    "text": "sensible",
+    "alt": ["reasonable", "logical"]
   },
   "false_friend.pathetic": {
-    "text": "pathetic"
+    "text": "pathetic",
+    "alt": ["pitiful"]
   },
   "false_friend.fabric": {
-    "text": "fabric"
+    "text": "fabric",
+    "alt": ["cloth", "material"]
   },
   "false_friend.library": {
     "text": "library"
@@ -2748,10 +2807,12 @@
     "text": "parole"
   },
   "false_friend.nervous": {
-    "text": "nervous"
+    "text": "nervous",
+    "alt": ["tense", "anxious"]
   },
   "false_friend.realize": {
-    "text": "realize"
+    "text": "realize",
+    "alt": ["realise", "notice"]
   },
   "false_friend.recipe": {
     "text": "recipe"
@@ -2763,32 +2824,38 @@
     "text": "menu"
   },
   "restaurant.dessert": {
-    "text": "dessert"
+    "text": "dessert",
+    "alt": ["sweet"]
   },
   "restaurant.main_course": {
-    "text": "main course"
+    "text": "main course",
+    "alt": ["main dish", "main", "entree"]
   },
   "restaurant.starter": {
     "text": "starter",
     "alt": ["appetizer"]
   },
   "restaurant.napkin": {
-    "text": "napkin"
+    "text": "napkin",
+    "alt": ["serviette"]
   },
   "restaurant.tip": {
-    "text": "tip"
+    "text": "tip",
+    "alt": ["gratuity"]
   },
   "restaurant.sauce": {
     "text": "sauce"
   },
   "restaurant.order": {
-    "text": "order"
+    "text": "order",
+    "alt": ["place an order"]
   },
   "restaurant.vegetarian": {
     "text": "vegetarian"
   },
   "restaurant.spicy": {
-    "text": "spicy"
+    "text": "spicy",
+    "alt": ["hot"]
   },
   "restaurant.grilled": {
     "text": "grilled"
@@ -2803,23 +2870,26 @@
     "text": "ingredient"
   },
   "restaurant.portion": {
-    "text": "portion"
+    "text": "portion",
+    "alt": ["serving"]
   },
   "restaurant.side_dish": {
     "text": "side dish"
   },
   "restaurant.takeaway": {
     "text": "takeaway",
-    "alt": ["takeout"]
+    "alt": ["takeout", "take away", "take out"]
   },
   "restaurant.cutlery": {
-    "text": "cutlery"
+    "text": "cutlery",
+    "alt": ["silverware", "flatware"]
   },
   "restaurant.recipe": {
     "text": "recipe"
   },
   "restaurant.recommend": {
-    "text": "recommend"
+    "text": "recommend",
+    "alt": ["suggest", "advise"]
   },
   "restaurant.complain": {
     "text": "complain"
@@ -2834,74 +2904,89 @@
     "text": "well done"
   },
   "restaurant.gluten_free": {
-    "text": "gluten-free"
+    "text": "gluten-free",
+    "alt": ["gluten free"]
   },
   "restaurant.cuisine": {
     "text": "cuisine"
   },
   "restaurant.seasoning": {
-    "text": "seasoning"
+    "text": "seasoning",
+    "alt": ["spice"]
   },
   "restaurant.dietary_restriction": {
-    "text": "dietary restriction"
+    "text": "dietary restriction",
+    "alt": ["dietary restrictions", "dietary requirement"]
   },
   "restaurant.cross_contamination": {
-    "text": "cross-contamination"
+    "text": "cross-contamination",
+    "alt": ["cross contamination"]
   },
   "restaurant.surcharge": {
-    "text": "surcharge"
+    "text": "surcharge",
+    "alt": ["extra charge", "additional charge"]
   },
   "restaurant.service_charge": {
-    "text": "service charge"
+    "text": "service charge",
+    "alt": ["service fee"]
   },
   "restaurant.refund": {
     "text": "refund"
   },
   "restaurant.atmosphere": {
     "text": "atmosphere",
-    "alt": ["ambiance"]
+    "alt": ["ambiance", "ambience"]
   },
   "restaurant.compensate": {
-    "text": "compensate"
+    "text": "compensate",
+    "alt": ["make up for"]
   },
   "restaurant.bland": {
-    "text": "bland"
+    "text": "bland",
+    "alt": ["tasteless", "flavorless", "flavourless"]
   },
   "restaurant.complimentary": {
-    "text": "complimentary"
+    "text": "complimentary",
+    "alt": ["free", "on the house"]
   },
   "restaurant.overpriced": {
-    "text": "overpriced"
+    "text": "overpriced",
+    "alt": ["too expensive"]
   },
   "restaurant.palate": {
     "text": "palate"
   },
   "restaurant.gratuity": {
-    "text": "gratuity"
+    "text": "gratuity",
+    "alt": ["tip"]
   },
   "restaurant.culinary": {
     "text": "culinary"
   },
   "restaurant.exquisite": {
-    "text": "exquisite"
+    "text": "exquisite",
+    "alt": ["superb"]
   },
   "restaurant.locally_sourced": {
     "text": "locally sourced"
   },
   "restaurant.lackluster": {
     "text": "lackluster",
-    "alt": ["lacklustre"]
+    "alt": ["lacklustre", "mediocre"]
   },
   "restaurant.pair": {
-    "text": "pair"
+    "text": "pair with",
+    "alt": ["pair", "match"]
   },
   "restaurant.cater": {
     "text": "cater"
   },
   "restaurant.garnish": {
-    "text": "garnish"
+    "text": "garnish",
+    "alt": ["decorate"]
   },
   "restaurant.accommodate": {
-    "text": "accommodate"
+    "text": "accommodate",
+    "alt": ["host"]
   }
 }

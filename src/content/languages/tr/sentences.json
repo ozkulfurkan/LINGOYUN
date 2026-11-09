@@ -1,7 +1,7 @@
 {
   "emotion.reluctant_leave": {
-    "text": "Partiden erken ayrılmaya isteksizdi.",
-    "alt": ["Partiden erken ayrılmak istemiyordu.", "Partiden erken ayrılmaya gönülsüzdü."]
+    "text": "Partiden erken ayrılmak istemiyordu.",
+    "alt": ["Partiden erken ayrılmaya gönülsüzdü.", "Partiden erken ayrılmaya isteksizdi."]
   },
   "sentence.l1_this_cat": {
     "text": "Bu bir kedi.",
@@ -778,8 +778,8 @@
     "alt": ["Yeterince param yok."]
   },
   "sentence.a2_soup_delicious": {
-    "text": "Bu çorba çok lezzetli.",
-    "alt": ["Bu çorba lezzetli.", "Bu çorba çok güzel."]
+    "text": "Bu çorba lezzetli.",
+    "alt": ["Bu çorba çok güzel.", "Bu çorba çok lezzetli."]
   },
   "sentence.a2_too_salty": {
     "text": "Yemek çok tuzlu.",
@@ -892,8 +892,11 @@
     ]
   },
   "restaurant.a2_soup_salad": {
-    "text": "Öğle yemeği için çorba ve salata istiyorum.",
-    "alt": ["Öğle yemeğimde çorba ve salata istiyorum."]
+    "text": "Öğle yemeğinde çorba ve salata istiyorum.",
+    "alt": [
+      "Öğle yemeği için çorba ve salata istiyorum.",
+      "Öğle yemeği olarak çorba ve salata istiyorum."
+    ]
   },
   "restaurant.a2_spicy_children": {
     "text": "Bu çorba küçük çocuklar için çok acı mı?"
@@ -911,8 +914,8 @@
     "alt": ["Bize biraz daha su getirir misiniz, lütfen?"]
   },
   "restaurant.a2_chicken_cold": {
-    "text": "Tavuk çok lezzetliydi ama çorba soğuktu.",
-    "alt": ["Tavuk lezzetliydi ama çorba soğuktu."]
+    "text": "Tavuk lezzetliydi ama çorba soğuktu.",
+    "alt": ["Tavuk çok lezzetliydi ama çorba soğuktu."]
   },
   "restaurant.a2_two_coffees": {
     "text": "Şimdi iki kahve sipariş etmek istiyoruz.",
@@ -920,7 +923,10 @@
   },
   "restaurant.a2_bill_card": {
     "text": "Hesabı alıp kartla ödeyebilir miyiz?",
-    "alt": ["Hesabı alabilir ve kartla ödeyebilir miyiz?"]
+    "alt": [
+      "Hesabı alabilir ve kartla ödeyebilir miyiz?",
+      "Hesabı isteyebilir miyiz? Kartla ödeyeceğiz."
+    ]
   },
   "restaurant.a2_reservation_eight": {
     "text": "Saat sekize dört kişilik rezervasyonum var.",
@@ -943,8 +949,8 @@
     "alt": ["Buradaki porsiyonlar büyük, o yüzden bir ana yemeği paylaşabiliriz."]
   },
   "restaurant.b1_fish_late": {
-    "text": "Balığı yirmi dakika önce sipariş ettim ve hâlâ gelmedi.",
-    "alt": ["Balığı yirmi dakika önce söyledim ve hâlâ gelmedi."]
+    "text": "Balığı yirmi dakika önce sipariş ettim ama hâlâ gelmedi.",
+    "alt": ["Balığı yirmi dakika önce söyledim ama hâlâ gelmedi."]
   },
   "restaurant.b1_steak": {
     "text": "Bifteğinizi az, orta veya iyi pişmiş mi istersiniz, efendim?",
@@ -955,7 +961,7 @@
     "alt": ["Şimdi boş masanız yoksa barda bekleyebiliriz."]
   },
   "restaurant.b1_overcooked": {
-    "text": "Bu et fazla pişmiş, bana başka bir tane getirebilir misiniz lütfen?",
+    "text": "Bu et fazla pişmiş, bana başka bir tane getirebilir misiniz, lütfen?",
     "alt": ["Bu et fazla pişmiş, bana lütfen başka bir tane getirebilir misiniz?"]
   },
   "restaurant.b1_take_away": {
@@ -964,7 +970,10 @@
   },
   "restaurant.b1_service_slow": {
     "text": "Servis yavaştı ama garson nazik ve çok yardımseverdi.",
-    "alt": ["Servis yavaştı ama garson kibar ve çok yardımseverdi."]
+    "alt": [
+      "Servis yavaştı ama garson kibar ve çok yardımseverdi.",
+      "Servis yavaştı ama garson nazikti ve çok yardımcı oldu."
+    ]
   },
   "restaurant.b2_quiet_anniversary": {
     "text": "Bu akşam annemizle babamızın ellinci evlilik yıl dönümünü onlarla kutlayacağımız için sessiz bir masa rica ederiz.",
@@ -979,9 +988,9 @@
     ]
   },
   "restaurant.b2_service_charge": {
-    "text": "Servis ücretinin hesaba dahil olup olmadığını teyit edebilir misiniz, yoksa ayrıca bahşiş mi bırakmalıyız?",
+    "text": "Servis ücretinin hesaba dâhil olup olmadığını teyit edebilir misiniz, yoksa ayrıca bahşiş mi bırakmalıyız?",
     "alt": [
-      "Servis ücretinin dahil olup olmadığını doğrulayabilir misiniz, yoksa ayrıca bahşiş mi bırakmalıyız?"
+      "Servis ücretinin dâhil olup olmadığını doğrulayabilir misiniz, yoksa ayrıca bahşiş mi bırakmalıyız?"
     ]
   },
   "restaurant.b2_nut_allergy": {
@@ -991,8 +1000,10 @@
     ]
   },
   "restaurant.b2_manager_dessert": {
-    "text": "Müdür uzun gecikme için özür diledi ve bunu telafi etmek için bize ikram bir tatlı sundu.",
-    "alt": ["Müdür uzun gecikme için özür diledi ve telafi olarak bize ikram bir tatlı sundu."]
+    "text": "Müdür uzun gecikme için özür diledi ve bunu telafi etmek için bize bir tatlı ikram etti.",
+    "alt": [
+      "Müdür uzun gecikmeden dolayı özür diledi ve bunu telafi etmek için bize bir tatlı ikram etti."
+    ]
   },
   "restaurant.b2_replace_dish": {
     "text": "Yemek beklentilerinizi karşılamazsa onu ek ücret almadan memnuniyetle değiştiririz.",
@@ -1006,12 +1017,16 @@
   },
   "restaurant.b2_charged_twice": {
     "text": "Biriyle görüşmek istiyorum, çünkü aynı şişe su için bizden iki kez ücret alındı.",
-    "alt": ["Biriyle konuşmak istiyorum, çünkü aynı şişe su için bizden iki kez ücret alındı."]
+    "alt": [
+      "Biriyle konuşmak istiyorum, çünkü aynı şişe su için bizden iki kez ücret alındı.",
+      "Yetkili biriyle görüşmek istiyorum, çünkü aynı şişe su için bizden iki kez ücret alındı."
+    ]
   },
   "restaurant.b2_fully_booked": {
     "text": "Restoranda hiç yer olmamasına rağmen çalışanlar bize pencere kenarında bir masa bulmayı başardı.",
     "alt": [
-      "Restoran tamamen dolu olmasına rağmen çalışanlar bize pencere kenarında bir masa bulmayı başardı."
+      "Restoran tamamen dolu olmasına rağmen çalışanlar bize pencere kenarında bir masa bulmayı başardı.",
+      "Restoranda hiç yer olmamasına rağmen personel bize pencere kenarında bir masa bulmayı başardı."
     ]
   },
   "restaurant.b2_loud_music": {
@@ -1025,7 +1040,7 @@
     ]
   },
   "restaurant.c1_tasting_menu": {
-    "text": "Şefin tadım menüsü tartışmasız enfes olsa da, her tabağın ne kadar küçük ve aceleye getirilmiş hissettirdiği düşünülünce fiyatı haklı göstermek zordu.",
+    "text": "Şefin tadım menüsü tartışmasız enfes olsa da, her tabağın ne kadar küçük ve aceleye getirilmiş olduğu düşünülünce fiyatı haklı göstermek zor görünüyordu.",
     "alt": [
       "Şefin tadım menüsü tartışmasız enfes olsa da, her tabağın ne kadar küçük ve aceleye getirilmiş olduğu düşünülünce fiyatı haklı göstermek zordu."
     ]
@@ -1039,7 +1054,7 @@
   "restaurant.c1_not_only": {
     "text": "Garson siparişimizi unutmakla kalmadı, üstelik en başta hiçbir şey istemediğimizi de ısrarla söyledi.",
     "alt": [
-      "Garson siparişimizi unutmakla kalmadı, ayrıca en başta hiçbir şey istemediğimizde ısrar etti."
+      "Garson siparişimizi unutmakla kalmadı, ayrıca en başta hiçbir şey istemediğimiz konusunda ısrar etti."
     ]
   },
   "restaurant.c1_sourced": {

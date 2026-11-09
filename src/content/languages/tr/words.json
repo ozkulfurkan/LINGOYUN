@@ -1092,7 +1092,8 @@
     "text": "gün"
   },
   "action.eat": {
-    "text": "yemek"
+    "text": "yemek yemek",
+    "alt": ["yemek"]
   },
   "action.drink": {
     "text": "içmek"
@@ -1945,7 +1946,8 @@
     "text": "çiftçi"
   },
   "work.chef": {
-    "text": "aşçı"
+    "text": "aşçı",
+    "alt": ["şef"]
   },
   "work.artist": {
     "text": "sanatçı"
@@ -1981,7 +1983,8 @@
     "text": "cüzdan"
   },
   "money.coin": {
-    "text": "madeni para"
+    "text": "madenî para",
+    "alt": ["madeni para"]
   },
   "place.supermarket": {
     "text": "süpermarket"
@@ -2007,8 +2010,8 @@
     "alt": ["borç vermek"]
   },
   "money.cost": {
-    "text": "tutmak",
-    "alt": ["mal olmak"]
+    "text": "mal olmak",
+    "alt": ["tutmak", "fiyatı olmak"]
   },
   "action.try_on": {
     "text": "denemek",
@@ -2452,8 +2455,8 @@
     "text": "karar vermek"
   },
   "action.agree": {
-    "text": "katılmak",
-    "alt": ["aynı fikirde olmak"]
+    "text": "aynı fikirde olmak",
+    "alt": ["katılmak"]
   },
   "action.explain": {
     "text": "açıklamak"
@@ -2814,7 +2817,8 @@
     "text": "geç olsun, güç olmasın"
   },
   "idiom.practice_perfect": {
-    "text": "işleyen demir pas tutmaz"
+    "text": "pratik yapan ustalaşır",
+    "alt": ["işleyen demir pas tutmaz", "pratik mükemmelleştirir"]
   },
   "idiom.easy_come": {
     "text": "haydan gelen huya gider"
@@ -2850,7 +2854,7 @@
     "text": "acınası",
     "alt": ["zavallı", "acınacak"],
     "trap": "patetik",
-    "note": "Türkçedeki «patetik» (aşırı duygusal) İngilizcede «melodramatic» olur.",
+    "note": "Türkçedeki «patetik» (dokunaklı, aşırı duygusal) İngilizcede «melodramatic» olur.",
     "review": true
   },
   "false_friend.fabric": {
@@ -2992,20 +2996,23 @@
     "text": "fazla pişmiş"
   },
   "restaurant.rare": {
-    "text": "az pişmiş"
+    "text": "az pişmiş",
+    "note": "Yemekte «az pişmiş» demektir; başka yerde çoğunlukla «nadir» anlamına gelir."
   },
   "restaurant.well_done": {
-    "text": "iyi pişmiş"
+    "text": "iyi pişmiş",
+    "note": "Yemekte «iyi pişmiş» demektir; tek başına söylenince «aferin» anlamına gelir."
   },
   "restaurant.gluten_free": {
     "text": "glutensiz"
   },
   "restaurant.cuisine": {
-    "text": "mutfak"
+    "text": "mutfak (yemek kültürü)",
+    "alt": ["mutfak", "yemek kültürü"]
   },
   "restaurant.seasoning": {
-    "text": "baharat",
-    "alt": ["çeşni"]
+    "text": "çeşni",
+    "alt": ["baharat"]
   },
   "restaurant.dietary_restriction": {
     "text": "diyet kısıtlaması",
@@ -3037,8 +3044,8 @@
     "alt": ["yavan"]
   },
   "restaurant.complimentary": {
-    "text": "ikram",
-    "alt": ["ücretsiz"]
+    "text": "ikram edilen",
+    "alt": ["ücretsiz", "ikram"]
   },
   "restaurant.overpriced": {
     "text": "aşırı pahalı",
@@ -3053,29 +3060,35 @@
   },
   "restaurant.culinary": {
     "text": "mutfakla ilgili",
-    "alt": ["mutfağa ait"]
+    "alt": ["mutfağa ait", "yemek sanatına ait"]
   },
   "restaurant.exquisite": {
     "text": "enfes",
     "alt": ["nefis"]
   },
   "restaurant.locally_sourced": {
-    "text": "yerel kaynaklı"
+    "text": "yerel kaynaklı",
+    "alt": ["yerel üreticilerden alınan", "yerel olarak tedarik edilen"]
   },
   "restaurant.lackluster": {
-    "text": "vasat",
-    "alt": ["sönük"]
+    "text": "sönük",
+    "alt": ["vasat", "cansız"]
   },
   "restaurant.pair": {
-    "text": "eşleştirmek"
+    "text": "eşleştirmek",
+    "note": "Yiyecek ve içeceği uyumlu biçimde bir arada sunmak için kullanılır; isim olarak «çift» demektir."
   },
   "restaurant.cater": {
-    "text": "yemek hizmeti vermek"
+    "text": "yemek hizmeti vermek",
+    "alt": ["catering hizmeti vermek", "yemek servisi yapmak"]
   },
   "restaurant.garnish": {
-    "text": "süslemek"
+    "text": "yemeği süslemek",
+    "alt": ["süslemek"],
+    "note": "Türkçedeki «garnitür» İngilizcede «side dish» olur."
   },
   "restaurant.accommodate": {
-    "text": "ağırlamak"
+    "text": "ağırlamak",
+    "alt": ["yer açmak", "isteklerini karşılamak"]
   }
 }

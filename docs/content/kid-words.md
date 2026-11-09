@@ -1,21 +1,21 @@
 # 7–12 yaş: Seviye 1–3 içeriği
 
-Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekiler de doğru kabul edilir. Cümleler yalnızca o seviyeye kadar öğretilen kelimeleri ve temel bağlaçları (`a`, `the`, `is`, `in`, `on`…) kullanır; `src/content/kidContent.test.ts` bunu denetler.
+Kaynak: `src/content/` (bu belge oradan üretildi). Parantez içindekiler de doğru kabul edilir. Çeviri denetimi: `docs/content/reviews/existing-content.md`.
 
-## Seviye 1 (92 kelime, 20 cümle)
+## Seviye 1 (92 kelime, 0 deyim, 20 cümle)
 
 ### greetings
 
-| English            | Türkçe                                |
-| ------------------ | ------------------------------------- |
-| hello (hi)         | merhaba (selam)                       |
-| goodbye (bye)      | hoşça kal (güle güle, görüşürüz)      |
-| yes                | evet                                  |
-| no                 | hayır                                 |
-| please             | lütfen                                |
-| thank you (thanks) | teşekkür ederim (teşekkürler, sağ ol) |
-| sorry              | özür dilerim (pardon)                 |
-| good morning       | günaydın                              |
+| English                       | Türkçe                                |
+| ----------------------------- | ------------------------------------- |
+| hello (hi)                    | merhaba (selam)                       |
+| goodbye (bye)                 | hoşça kal (güle güle, görüşürüz)      |
+| yes                           | evet                                  |
+| no                            | hayır                                 |
+| please                        | lütfen                                |
+| thank you (thanks)            | teşekkür ederim (teşekkürler, sağ ol) |
+| sorry (I am sorry, I'm sorry) | özür dilerim (pardon)                 |
+| good morning                  | günaydın                              |
 
 ### numbers
 
@@ -64,14 +64,14 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 
 ### me_and_you
 
-| English | Türkçe    |
-| ------- | --------- |
-| I       | ben       |
-| you     | sen (siz) |
-| he      | o         |
-| she     | o         |
-| my      | benim     |
-| this    | bu        |
+| English      | Türkçe    |
+| ------------ | --------- |
+| I            | ben       |
+| you          | sen (siz) |
+| he (she, it) | o         |
+| she (he, it) | o         |
+| my           | benim     |
+| this         | bu        |
 
 ### animals
 
@@ -148,7 +148,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 | small (little) | küçük  |
 | happy          | mutlu  |
 | sad            | üzgün  |
-| hot            | sıcak  |
+| hot (warm)     | sıcak  |
 | cold           | soğuk  |
 
 ### sentences_1
@@ -181,7 +181,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 | Good morning, my friend. | Günaydın, arkadaşım.                                                         |
 | The baby is happy.       | Bebek mutlu.                                                                 |
 
-## Seviye 2 (88 kelime, 20 cümle)
+## Seviye 2 (88 kelime, 0 deyim, 20 cümle)
 
 ### numbers
 
@@ -200,50 +200,50 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 
 ### body
 
-| English       | Türkçe |
-| ------------- | ------ |
-| hair          | saç    |
-| face          | yüz    |
-| tooth (teeth) | diş    |
-| neck          | boyun  |
-| shoulder      | omuz   |
-| arm           | kol    |
-| leg           | bacak  |
-| foot (feet)   | ayak   |
-| finger        | parmak |
-| knee          | diz    |
+| English        | Türkçe |
+| -------------- | ------ |
+| hair           | saç    |
+| face (hundred) | yüz    |
+| tooth (teeth)  | diş    |
+| neck           | boyun  |
+| shoulder       | omuz   |
+| arm            | kol    |
+| leg            | bacak  |
+| foot (feet)    | ayak   |
+| finger         | parmak |
+| knee           | diz    |
 
 ### clothes
 
-| English          | Türkçe       |
-| ---------------- | ------------ |
-| shirt            | gömlek       |
-| T-shirt (tee)    | tişört       |
-| pants (trousers) | pantolon     |
-| skirt            | etek         |
-| dress            | elbise       |
-| coat             | mont (palto) |
-| shoes (shoe)     | ayakkabı     |
-| socks (sock)     | çorap        |
-| hat              | şapka        |
-| glasses          | gözlük       |
+| English                | Türkçe       |
+| ---------------------- | ------------ |
+| shirt                  | gömlek       |
+| T-shirt (tee, t shirt) | tişört       |
+| pants (trousers)       | pantolon     |
+| skirt                  | etek         |
+| dress                  | elbise       |
+| coat                   | mont (palto) |
+| shoes (shoe)           | ayakkabı     |
+| socks (sock)           | çorap        |
+| hat                    | şapka        |
+| glasses                | gözlük       |
 
 ### home
 
-| English           | Türkçe        |
-| ----------------- | ------------- |
-| bed               | yatak         |
-| window            | pencere       |
-| lamp              | lamba         |
-| clock             | saat          |
-| cup (mug)         | fincan (kupa) |
-| glass             | bardak        |
-| plate             | tabak         |
-| spoon             | kaşık         |
-| fork              | çatal         |
-| key               | anahtar       |
-| phone (telephone) | telefon       |
-| television (TV)   | televizyon    |
+| English             | Türkçe        |
+| ------------------- | ------------- |
+| bed                 | yatak         |
+| window              | pencere       |
+| lamp                | lamba         |
+| clock (hour, watch) | saat          |
+| cup (mug)           | fincan (kupa) |
+| glass               | bardak        |
+| plate               | tabak         |
+| spoon               | kaşık         |
+| fork                | çatal         |
+| key                 | anahtar       |
+| phone (telephone)   | telefon       |
+| television (TV)     | televizyon    |
 
 ### school
 
@@ -260,16 +260,16 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 
 ### food
 
-| English   | Türkçe         |
-| --------- | -------------- |
-| rice      | pilav (pirinç) |
-| soup      | çorba          |
-| meat      | et             |
-| salad     | salata         |
-| ice cream | dondurma       |
-| chocolate | çikolata       |
-| juice     | meyve suyu     |
-| tea       | çay            |
+| English      | Türkçe         |
+| ------------ | -------------- |
+| rice (pilaf) | pilav (pirinç) |
+| soup         | çorba          |
+| meat         | et             |
+| salad        | salata         |
+| ice cream    | dondurma       |
+| chocolate    | çikolata       |
+| juice        | meyve suyu     |
+| tea          | çay            |
 
 ### days
 
@@ -286,33 +286,33 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 
 ### actions
 
-| English | Türkçe                       |
-| ------- | ---------------------------- |
-| eat     | yemek                        |
-| drink   | içmek                        |
-| go      | gitmek                       |
-| come    | gelmek                       |
-| see     | görmek                       |
-| like    | sevmek (beğenmek, hoşlanmak) |
-| read    | okumak                       |
-| write   | yazmak                       |
-| run     | koşmak                       |
-| sit     | oturmak                      |
-| play    | oynamak                      |
-| sleep   | uyumak                       |
+| English     | Türkçe                       |
+| ----------- | ---------------------------- |
+| eat         | yemek yemek (yemek)          |
+| drink       | içmek                        |
+| go          | gitmek                       |
+| come        | gelmek                       |
+| see         | görmek                       |
+| like (love) | sevmek (beğenmek, hoşlanmak) |
+| read        | okumak                       |
+| write       | yazmak                       |
+| run         | koşmak                       |
+| sit         | oturmak                      |
+| play        | oynamak                      |
+| sleep       | uyumak                       |
 
 ### describe
 
-| English | Türkçe          |
-| ------- | --------------- |
-| new     | yeni            |
-| old     | eski (yaşlı)    |
-| good    | iyi             |
-| bad     | kötü            |
-| hungry  | aç              |
-| thirsty | susamış (susuz) |
-| tired   | yorgun          |
-| clean   | temiz           |
+| English     | Türkçe          |
+| ----------- | --------------- |
+| new         | yeni            |
+| old         | eski (yaşlı)    |
+| good (well) | iyi             |
+| bad         | kötü            |
+| hungry      | aç              |
+| thirsty     | susamış (susuz) |
+| tired       | yorgun          |
+| clean       | temiz           |
 
 ### we_and_they
 
@@ -351,7 +351,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 | The teacher sees the student. | Öğretmen öğrenciyi görür. (Öğretmen öğrenciyi görüyor.)                                                      |
 | They come to the classroom.   | Onlar sınıfa gelir. (Sınıfa gelirler., Onlar sınıfa gelirler., Sınıfa geliyorlar., Onlar sınıfa geliyorlar.) |
 
-## Seviye 3 (79 kelime, 20 cümle)
+## Seviye 3 (79 kelime, 0 deyim, 20 cümle)
 
 ### family
 
@@ -416,34 +416,34 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 
 ### time
 
-| English   | Türkçe     |
-| --------- | ---------- |
-| today     | bugün      |
-| tomorrow  | yarın      |
-| yesterday | dün        |
-| morning   | sabah      |
-| evening   | akşam      |
-| night     | gece       |
-| week      | hafta      |
-| month     | ay         |
-| year      | yıl (sene) |
+| English      | Türkçe     |
+| ------------ | ---------- |
+| today        | bugün      |
+| tomorrow     | yarın      |
+| yesterday    | dün        |
+| morning      | sabah      |
+| evening      | akşam      |
+| night        | gece       |
+| week         | hafta      |
+| month (moon) | ay         |
+| year         | yıl (sene) |
 
 ### actions
 
-| English      | Türkçe                |
-| ------------ | --------------------- |
-| open         | açmak                 |
-| close        | kapatmak              |
-| give         | vermek                |
-| take         | almak                 |
-| walk         | yürümek               |
-| swim         | yüzmek                |
-| sing         | şarkı söylemek        |
-| draw         | çizmek (resim yapmak) |
-| listen       | dinlemek              |
-| speak (talk) | konuşmak              |
-| help         | yardım etmek          |
-| wash         | yıkamak               |
+| English                  | Türkçe                |
+| ------------------------ | --------------------- |
+| open                     | açmak                 |
+| close (shut)             | kapatmak              |
+| give                     | vermek                |
+| take (get, buy, receive) | almak                 |
+| walk                     | yürümek               |
+| swim                     | yüzmek                |
+| sing                     | şarkı söylemek        |
+| draw                     | çizmek (resim yapmak) |
+| listen                   | dinlemek              |
+| speak (talk)             | konuşmak              |
+| help                     | yardım etmek          |
+| wash                     | yıkamak               |
 
 ### describe
 
@@ -456,7 +456,7 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 | young              | genç              |
 | dirty              | kirli             |
 | tall               | uzun boylu (uzun) |
-| long               | uzun              |
+| long (tall)        | uzun              |
 | short              | kısa              |
 | fast               | hızlı             |
 | slow               | yavaş             |
@@ -474,30 +474,30 @@ Kaynak: `src/content/` (bu belge oradan üretildi, LNG-14). Parantez içindekile
 
 ### sentences_1
 
-| English                           | Türkçe                                                                                            |
-| --------------------------------- | ------------------------------------------------------------------------------------------------- |
-| It is cold today.                 | Bugün hava soğuk. (Bugün soğuk., Hava bugün soğuk.)                                               |
-| Tomorrow is Monday.               | Yarın pazartesi.                                                                                  |
-| Where is the library?             | Kütüphane nerede?                                                                                 |
-| What is your name?                | Adın ne? (Senin adın ne?, İsmin ne?, Senin ismin ne?)                                             |
-| Who is this boy?                  | Bu çocuk kim? (Bu erkek çocuk kim?, Bu oğlan kim?)                                                |
-| When is the lesson?               | Ders ne zaman?                                                                                    |
-| Why are you sad?                  | Neden üzgünsün? (Niçin üzgünsün?, Niye üzgünsün?, Sen neden üzgünsün?)                            |
-| How are you?                      | Nasılsın? (Sen nasılsın?, Nasılsınız?)                                                            |
-| My grandmother is in the garden.  | Büyükannem bahçede. (Anneannem bahçede., Babaannem bahçede., Ninem bahçede.)                      |
-| My grandfather walks in the park. | Dedem parkta yürür. (Dedem parkta yürüyor., Büyükbabam parkta yürür., Büyükbabam parkta yürüyor.) |
+| English                               | Türkçe                                                                                            |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| It is cold today. (Today it is cold.) | Bugün hava soğuk. (Bugün soğuk., Hava bugün soğuk.)                                               |
+| Tomorrow is Monday.                   | Yarın pazartesi.                                                                                  |
+| Where is the library?                 | Kütüphane nerede?                                                                                 |
+| What is your name?                    | Adın ne? (Senin adın ne?, İsmin ne?, Senin ismin ne?)                                             |
+| Who is this boy?                      | Bu çocuk kim? (Bu erkek çocuk kim?, Bu oğlan kim?)                                                |
+| When is the lesson?                   | Ders ne zaman?                                                                                    |
+| Why are you sad?                      | Neden üzgünsün? (Niçin üzgünsün?, Niye üzgünsün?, Sen neden üzgünsün?)                            |
+| How are you?                          | Nasılsın? (Sen nasılsın?, Nasılsınız?)                                                            |
+| My grandmother is in the garden.      | Büyükannem bahçede. (Anneannem bahçede., Babaannem bahçede., Ninem bahçede.)                      |
+| My grandfather walks in the park.     | Dedem parkta yürür. (Dedem parkta yürüyor., Büyükbabam parkta yürür., Büyükbabam parkta yürüyor.) |
 
 ### sentences_2
 
-| English                                 | Türkçe                                                                                                                                                |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| We swim in summer.                      | Yazın yüzeriz. (Biz yazın yüzeriz., Yazın yüzüyoruz., Biz yazın yüzüyoruz.)                                                                           |
-| It snows in winter.                     | Kışın kar yağar.                                                                                                                                      |
-| Please open the window.                 | Lütfen pencereyi aç. (Lütfen pencereyi açın., Pencereyi aç lütfen.)                                                                                   |
-| Please close the door.                  | Lütfen kapıyı kapat. (Lütfen kapıyı kapatın., Kapıyı kapat lütfen.)                                                                                   |
-| Listen to the teacher.                  | Öğretmeni dinle. (Öğretmeni dinleyin.)                                                                                                                |
-| She sings in the morning.               | O sabahları şarkı söyler. (Sabahları şarkı söyler., O sabah şarkı söyler., Sabah şarkı söyler.)                                                       |
-| This lesson is easy.                    | Bu ders kolay.                                                                                                                                        |
-| The homework is difficult.              | Ödev zor.                                                                                                                                             |
-| I wash my hands in the bathroom.        | Ellerimi banyoda yıkarım. (Ben ellerimi banyoda yıkarım., Ellerimi banyoda yıkıyorum., Ben ellerimi banyoda yıkıyorum.)                               |
-| My aunt helps my mother in the kitchen. | Teyzem mutfakta anneme yardım eder. (Halam mutfakta anneme yardım eder., Teyzem mutfakta anneme yardım ediyor., Halam mutfakta anneme yardım ediyor.) |
+| English                                                                           | Türkçe                                                                                                                                                |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| We swim in summer. (In summer we swim.)                                           | Yazın yüzeriz. (Biz yazın yüzeriz., Yazın yüzüyoruz., Biz yazın yüzüyoruz.)                                                                           |
+| It snows in winter. (In winter it snows.)                                         | Kışın kar yağar.                                                                                                                                      |
+| Please open the window. (Open the window, please.)                                | Lütfen pencereyi aç. (Lütfen pencereyi açın., Pencereyi aç lütfen.)                                                                                   |
+| Please close the door. (Close the door, please.)                                  | Lütfen kapıyı kapat. (Lütfen kapıyı kapatın., Kapıyı kapat lütfen.)                                                                                   |
+| Listen to the teacher.                                                            | Öğretmeni dinle. (Öğretmeni dinleyin.)                                                                                                                |
+| She sings in the morning. (In the morning she sings.)                             | O sabahları şarkı söyler. (Sabahları şarkı söyler., O sabah şarkı söyler., Sabah şarkı söyler.)                                                       |
+| This lesson is easy.                                                              | Bu ders kolay.                                                                                                                                        |
+| The homework is difficult.                                                        | Ödev zor.                                                                                                                                             |
+| I wash my hands in the bathroom. (In the bathroom I wash my hands.)               | Ellerimi banyoda yıkarım. (Ben ellerimi banyoda yıkarım., Ellerimi banyoda yıkıyorum., Ben ellerimi banyoda yıkıyorum.)                               |
+| My aunt helps my mother in the kitchen. (In the kitchen my aunt helps my mother.) | Teyzem mutfakta anneme yardım eder. (Halam mutfakta anneme yardım eder., Teyzem mutfakta anneme yardım ediyor., Halam mutfakta anneme yardım ediyor.) |

@@ -1,6 +1,13 @@
 {
   "emotion.reluctant_leave": {
-    "text": "She was reluctant to leave the party early."
+    "text": "She was reluctant to leave the party early.",
+    "alt": [
+      "He was reluctant to leave the party early.",
+      "She did not want to leave the party early.",
+      "She didn't want to leave the party early.",
+      "He did not want to leave the party early.",
+      "He didn't want to leave the party early."
+    ]
   },
   "sentence.l1_this_cat": {
     "text": "This is a cat."
@@ -123,7 +130,8 @@
     "text": "They come to the classroom."
   },
   "sentence.l3_cold_today": {
-    "text": "It is cold today."
+    "text": "It is cold today.",
+    "alt": ["Today it is cold."]
   },
   "sentence.l3_tomorrow_monday": {
     "text": "Tomorrow is Monday."
@@ -153,22 +161,27 @@
     "text": "My grandfather walks in the park."
   },
   "sentence.l3_swim_summer": {
-    "text": "We swim in summer."
+    "text": "We swim in summer.",
+    "alt": ["In summer we swim."]
   },
   "sentence.l3_snows_winter": {
-    "text": "It snows in winter."
+    "text": "It snows in winter.",
+    "alt": ["In winter it snows."]
   },
   "sentence.l3_open_window": {
-    "text": "Please open the window."
+    "text": "Please open the window.",
+    "alt": ["Open the window, please."]
   },
   "sentence.l3_close_door": {
-    "text": "Please close the door."
+    "text": "Please close the door.",
+    "alt": ["Close the door, please."]
   },
   "sentence.l3_listen_teacher": {
     "text": "Listen to the teacher."
   },
   "sentence.l3_sings_morning": {
-    "text": "She sings in the morning."
+    "text": "She sings in the morning.",
+    "alt": ["In the morning she sings."]
   },
   "sentence.l3_lesson_easy": {
     "text": "This lesson is easy."
@@ -177,10 +190,12 @@
     "text": "The homework is difficult."
   },
   "sentence.l3_wash_hands": {
-    "text": "I wash my hands in the bathroom."
+    "text": "I wash my hands in the bathroom.",
+    "alt": ["In the bathroom I wash my hands."]
   },
   "sentence.l3_aunt_helps": {
-    "text": "My aunt helps my mother in the kitchen."
+    "text": "My aunt helps my mother in the kitchen.",
+    "alt": ["In the kitchen my aunt helps my mother."]
   },
   "sentence.a1_i_student": {
     "text": "I am a student.",
@@ -188,11 +203,11 @@
   },
   "sentence.a1_she_doctor": {
     "text": "She is a doctor.",
-    "alt": ["She's a doctor."]
+    "alt": ["She's a doctor.", "He is a doctor.", "He's a doctor."]
   },
   "sentence.a1_he_engineer": {
     "text": "He is an engineer.",
-    "alt": ["He's an engineer."]
+    "alt": ["He's an engineer.", "She is an engineer.", "She's an engineer."]
   },
   "sentence.a1_we_friends": {
     "text": "We are friends.",
@@ -212,23 +227,27 @@
     "text": "I live in a big city."
   },
   "sentence.a1_wife_hospital": {
-    "text": "My wife works in a hospital."
+    "text": "My wife works in a hospital.",
+    "alt": ["My husband works in a hospital.", "My wife is working in a hospital."]
   },
   "sentence.a1_husband_driver": {
     "text": "My husband is a driver.",
     "alt": ["My husband's a driver."]
   },
   "sentence.a1_son_school": {
-    "text": "My son goes to school."
+    "text": "My son goes to school.",
+    "alt": ["My son is going to school."]
   },
   "sentence.a1_daughter_reads": {
-    "text": "My daughter reads a book every day."
+    "text": "My daughter reads a book every day.",
+    "alt": ["Every day my daughter reads a book."]
   },
   "sentence.a1_two_brothers": {
     "text": "I have two brothers."
   },
   "sentence.a1_have_children": {
-    "text": "Do you have children?"
+    "text": "Do you have children?",
+    "alt": ["Do you have a child?", "Do you have any children?"]
   },
   "sentence.a1_little_english": {
     "text": "I speak a little English."
@@ -238,26 +257,36 @@
     "alt": ["I don't understand."]
   },
   "sentence.a1_can_help": {
-    "text": "Can you help me?"
+    "text": "Can you help me?",
+    "alt": ["Could you help me?"]
   },
   "sentence.a1_what_time": {
-    "text": "What time is it?"
+    "text": "What time is it?",
+    "alt": ["What is the time?", "What's the time?"]
   },
   "sentence.a1_seven_oclock": {
     "text": "It is seven o'clock.",
-    "alt": ["It's seven o'clock."]
+    "alt": ["It's seven o'clock.", "It is seven.", "It's seven."]
   },
   "sentence.a1_work_morning": {
-    "text": "I go to work in the morning."
+    "text": "I go to work in the morning.",
+    "alt": ["In the morning I go to work."]
   },
   "sentence.a1_breakfast_home": {
-    "text": "I eat breakfast at home."
+    "text": "I eat breakfast at home.",
+    "alt": ["I have breakfast at home."]
   },
   "sentence.a1_coffee_milk": {
-    "text": "I want coffee with milk."
+    "text": "I want coffee with milk.",
+    "alt": [
+      "I want a coffee with milk.",
+      "I would like coffee with milk.",
+      "I'd like coffee with milk."
+    ]
   },
   "sentence.a1_glass_water": {
-    "text": "A glass of water, please."
+    "text": "A glass of water, please.",
+    "alt": ["Please, a glass of water."]
   },
   "sentence.a1_ticket_price": {
     "text": "How much is the ticket?"
@@ -272,10 +301,12 @@
     "text": "I want to buy a new phone."
   },
   "sentence.a1_where_station": {
-    "text": "Where is the station?"
+    "text": "Where is the station?",
+    "alt": ["Where's the station?"]
   },
   "sentence.a1_bank_near": {
-    "text": "The bank is near the hotel."
+    "text": "The bank is near the hotel.",
+    "alt": ["The bank is close to the hotel."]
   },
   "sentence.a1_museum_left": {
     "text": "The museum is on the left."
@@ -287,34 +318,48 @@
     "text": "I go to work by bus."
   },
   "sentence.a1_train_late": {
-    "text": "The train is late."
+    "text": "The train is late.",
+    "alt": ["The train was late.", "The train is delayed."]
   },
   "sentence.a1_hot_today": {
     "text": "It is hot today.",
-    "alt": ["It's hot today."]
+    "alt": ["It's hot today.", "Today it is hot.", "Today it's hot.", "The weather is hot today."]
   },
   "sentence.a1_rain_today": {
     "text": "It is raining today.",
-    "alt": ["It's raining today."]
+    "alt": ["It's raining today.", "Today it is raining.", "Today it's raining."]
   },
   "sentence.a1_weather_good": {
-    "text": "The weather is very good."
+    "text": "The weather is very good.",
+    "alt": ["The weather is very nice.", "The weather is very beautiful."]
   },
   "sentence.a1_busy_today": {
     "text": "I am busy today.",
-    "alt": ["I'm busy today."]
+    "alt": ["I'm busy today.", "Today I am busy.", "Today I'm busy."]
   },
   "sentence.a1_dinner_seven": {
-    "text": "We eat dinner at seven."
+    "text": "We eat dinner at seven.",
+    "alt": ["At seven we eat dinner.", "We have dinner at seven.", "At seven we have dinner."]
   },
   "sentence.a1_lunch_office": {
-    "text": "She eats lunch in the office."
+    "text": "She eats lunch in the office.",
+    "alt": [
+      "In the office she eats lunch.",
+      "She has lunch in the office.",
+      "She has lunch at the office.",
+      "She is eating lunch in the office.",
+      "She's eating lunch in the office.",
+      "He eats lunch in the office.",
+      "He has lunch in the office."
+    ]
   },
   "sentence.a1_mother_cooks": {
-    "text": "My mother cooks every day."
+    "text": "My mother cooks every day.",
+    "alt": ["Every day my mother cooks."]
   },
   "sentence.a1_father_tv": {
-    "text": "My father watches television in the evening."
+    "text": "My father watches television in the evening.",
+    "alt": ["In the evening my father watches television.", "My father watches TV in the evening."]
   },
   "sentence.a1_not_like_tea": {
     "text": "I do not like tea.",
@@ -348,7 +393,7 @@
   },
   "sentence.a1_that_correct": {
     "text": "That is correct.",
-    "alt": ["That's correct."]
+    "alt": ["That's correct.", "This is correct.", "That is right.", "This is right."]
   },
   "sentence.a1_book_table": {
     "text": "The book is on the table."
@@ -375,17 +420,20 @@
     "text": "Today is Tuesday."
   },
   "sentence.a1_holiday_july": {
-    "text": "My holiday is in July."
+    "text": "My holiday is in July.",
+    "alt": ["My vacation is in July."]
   },
   "sentence.a1_always_late": {
     "text": "He is always late.",
-    "alt": ["He's always late."]
+    "alt": ["He's always late.", "She is always late.", "She's always late."]
   },
   "sentence.a1_sometimes_walk": {
-    "text": "Sometimes I walk to work."
+    "text": "Sometimes I walk to work.",
+    "alt": ["I sometimes walk to work.", "I walk to work sometimes."]
   },
   "sentence.a1_never_coffee_night": {
-    "text": "I never drink coffee at night."
+    "text": "I never drink coffee at night.",
+    "alt": ["At night I never drink coffee."]
   },
   "sentence.a1_grandfather_old": {
     "text": "My grandfather is very old."
@@ -398,11 +446,12 @@
     "alt": ["That woman is my neighbour."]
   },
   "sentence.a1_open_books": {
-    "text": "Please open your books."
+    "text": "Please open your books.",
+    "alt": ["Open your books, please."]
   },
   "sentence.a1_sorry_late": {
     "text": "Sorry, I am late.",
-    "alt": ["Sorry, I'm late."]
+    "alt": ["Sorry, I'm late.", "I am late, sorry.", "I'm late, sorry."]
   },
   "sentence.a1_thanks_help": {
     "text": "Thank you for your help.",
@@ -412,48 +461,64 @@
     "text": "See you tomorrow."
   },
   "sentence.a2_cinema_yesterday": {
-    "text": "I went to the cinema yesterday."
+    "text": "I went to the cinema yesterday.",
+    "alt": ["Yesterday I went to the cinema.", "I went to the movies yesterday."]
   },
   "sentence.a2_visit_uncle": {
-    "text": "We visited my uncle last week."
+    "text": "We visited my uncle last week.",
+    "alt": ["Last week we visited my uncle.", "We visited our uncle last week."]
   },
   "sentence.a2_bought_dress": {
-    "text": "She bought a new dress."
+    "text": "She bought a new dress.",
+    "alt": ["He bought a new dress."]
   },
   "sentence.a2_see_film": {
     "text": "Did you see the film?",
-    "alt": ["Did you see the movie?"]
+    "alt": [
+      "Did you see the movie?",
+      "Did you watch the film?",
+      "Did you watch the movie?",
+      "Have you seen the film?",
+      "Have you seen the movie?"
+    ]
   },
   "sentence.a2_forgot_password": {
     "text": "I forgot my password."
   },
   "sentence.a2_lost_wallet": {
-    "text": "He lost his wallet on the bus."
+    "text": "He lost his wallet on the bus.",
+    "alt": ["On the bus he lost his wallet.", "She lost her wallet on the bus."]
   },
   "sentence.a2_ate_fish": {
-    "text": "We ate fish at a restaurant."
+    "text": "We ate fish at a restaurant.",
+    "alt": ["We ate fish in a restaurant."]
   },
   "sentence.a2_she_called": {
-    "text": "She called me last night."
+    "text": "She called me last night.",
+    "alt": ["Last night she called me.", "He called me last night."]
   },
   "sentence.a2_train_left": {
-    "text": "The train left ten minutes ago."
+    "text": "The train left ten minutes ago.",
+    "alt": ["Ten minutes ago the train left."]
   },
   "sentence.a2_not_sleep_well": {
     "text": "I did not sleep well.",
     "alt": ["I didn't sleep well."]
   },
   "sentence.a2_tired_yesterday": {
-    "text": "I was very tired yesterday."
+    "text": "I was very tired yesterday.",
+    "alt": ["Yesterday I was very tired."]
   },
   "sentence.a2_home_sunday": {
-    "text": "They were at home on Sunday."
+    "text": "They were at home on Sunday.",
+    "alt": ["On Sunday they were at home.", "They were home on Sunday."]
   },
   "sentence.a2_meeting_long": {
     "text": "The meeting was very long."
   },
   "sentence.a2_weather_bad": {
-    "text": "The weather was bad last week."
+    "text": "The weather was bad last week.",
+    "alt": ["Last week the weather was bad."]
   },
   "sentence.a2_where_holiday": {
     "text": "Where did you go on holiday?",
@@ -464,33 +529,70 @@
   },
   "sentence.a2_travel_summer": {
     "text": "We are going to travel next summer.",
-    "alt": ["We're going to travel next summer."]
+    "alt": [
+      "We're going to travel next summer.",
+      "Next summer we are going to travel.",
+      "Next summer we're going to travel.",
+      "We will travel next summer.",
+      "We'll travel next summer."
+    ]
   },
   "sentence.a2_call_tomorrow": {
     "text": "I will call you tomorrow.",
-    "alt": ["I'll call you tomorrow."]
+    "alt": [
+      "I'll call you tomorrow.",
+      "Tomorrow I will call you.",
+      "Tomorrow I'll call you.",
+      "I am going to call you tomorrow.",
+      "I'm going to call you tomorrow."
+    ]
   },
   "sentence.a2_rain_tomorrow": {
     "text": "It will rain tomorrow.",
-    "alt": ["It'll rain tomorrow."]
+    "alt": [
+      "It'll rain tomorrow.",
+      "Tomorrow it will rain.",
+      "Tomorrow it'll rain.",
+      "It is going to rain tomorrow.",
+      "It's going to rain tomorrow."
+    ]
   },
   "sentence.a2_new_job": {
     "text": "She will start a new job next month.",
-    "alt": ["She'll start a new job next month."]
+    "alt": [
+      "She'll start a new job next month.",
+      "Next month she will start a new job.",
+      "Next month she'll start a new job.",
+      "She is going to start a new job next month.",
+      "She's going to start a new job next month.",
+      "He will start a new job next month.",
+      "He'll start a new job next month.",
+      "He is going to start a new job next month.",
+      "He's going to start a new job next month."
+    ]
   },
   "sentence.a2_buy_house": {
     "text": "They are going to buy a house.",
-    "alt": ["They're going to buy a house."]
+    "alt": ["They're going to buy a house.", "They will buy a house."]
   },
   "sentence.a2_this_evening": {
     "text": "What are you doing this evening?"
   },
   "sentence.a2_meeting_nine": {
-    "text": "The meeting will start at nine."
+    "text": "The meeting will start at nine.",
+    "alt": [
+      "At nine the meeting will start.",
+      "The meeting is going to start at nine.",
+      "The meeting starts at nine."
+    ]
   },
   "sentence.a2_not_forget": {
     "text": "I will not forget this day.",
-    "alt": ["I won't forget this day."]
+    "alt": [
+      "I won't forget this day.",
+      "I am not going to forget this day.",
+      "I'm not going to forget this day."
+    ]
   },
   "sentence.a2_hotel_bigger": {
     "text": "This hotel is bigger than that hotel."
@@ -512,37 +614,44 @@
     "text": "My brother is older than me."
   },
   "sentence.a2_can_drive": {
-    "text": "I can drive a car."
+    "text": "I can drive a car.",
+    "alt": ["I can drive."]
   },
   "sentence.a2_pay_card": {
-    "text": "Can I pay by credit card?"
+    "text": "Can I pay by credit card?",
+    "alt": ["Can I pay with a credit card?"]
   },
   "sentence.a2_must_rest": {
-    "text": "You must rest today."
+    "text": "You must rest today.",
+    "alt": ["Today you must rest.", "You should rest today.", "You have to rest today."]
   },
   "sentence.a2_should_doctor": {
-    "text": "You should see a doctor."
+    "text": "You should see a doctor.",
+    "alt": ["You must see a doctor.", "You should go to the doctor.", "You should see the doctor."]
   },
   "sentence.a2_work_saturday": {
-    "text": "I have to work on Saturday."
+    "text": "I have to work on Saturday.",
+    "alt": ["On Saturday I have to work.", "I must work on Saturday."]
   },
   "sentence.a2_cannot_party": {
     "text": "I cannot come to the party.",
     "alt": ["I can't come to the party."]
   },
   "sentence.a2_explain_word": {
-    "text": "Could you explain this word?"
+    "text": "Could you explain this word?",
+    "alt": ["Can you explain this word?"]
   },
   "sentence.a2_table_two": {
     "text": "I would like a table for two.",
-    "alt": ["I'd like a table for two."]
+    "alt": ["I'd like a table for two.", "I want a table for two."]
   },
   "sentence.a2_may_open": {
-    "text": "May I open the window?"
+    "text": "May I open the window?",
+    "alt": ["Can I open the window?", "Could I open the window?"]
   },
   "sentence.a2_headache": {
     "text": "I have a headache.",
-    "alt": ["I've got a headache."]
+    "alt": ["I've got a headache.", "My head hurts.", "My head aches."]
   },
   "sentence.a2_son_fever": {
     "text": "My son has a fever."
@@ -551,10 +660,12 @@
     "text": "I have an appointment with the dentist."
   },
   "sentence.a2_medicine": {
-    "text": "Take this medicine after dinner."
+    "text": "Take this medicine after dinner.",
+    "alt": ["After dinner take this medicine."]
   },
   "sentence.a2_stomach": {
-    "text": "My stomach hurts."
+    "text": "My stomach hurts.",
+    "alt": ["I have a stomachache.", "My stomach aches."]
   },
   "sentence.a2_fresh_fruit": {
     "text": "Fresh fruit is very healthy."
@@ -570,16 +681,18 @@
   },
   "sentence.a2_send_email": {
     "text": "Please send me an email.",
-    "alt": ["Please send me an e-mail."]
+    "alt": ["Send me an email, please."]
   },
   "sentence.a2_salary_good": {
     "text": "The salary is good but the work is difficult."
   },
   "sentence.a2_interview_friday": {
-    "text": "She has a job interview on Friday."
+    "text": "She has a job interview on Friday.",
+    "alt": ["On Friday she has a job interview.", "He has a job interview on Friday."]
   },
   "sentence.a2_try_jacket": {
-    "text": "Can I try on this jacket?"
+    "text": "Can I try on this jacket?",
+    "alt": ["Can I try this jacket on?", "May I try on this jacket?", "May I try this jacket on?"]
   },
   "sentence.a2_what_size": {
     "text": "What size do you want?"
@@ -588,20 +701,29 @@
     "text": "Is there a discount?"
   },
   "sentence.a2_the_bill": {
-    "text": "Can we have the bill, please?"
+    "text": "Can we have the bill, please?",
+    "alt": [
+      "Can we please have the bill?",
+      "Please can we have the bill?",
+      "Can we have the check, please?",
+      "Can we get the bill, please?"
+    ]
   },
   "sentence.a2_enough_money": {
     "text": "I do not have enough money.",
     "alt": ["I don't have enough money."]
   },
   "sentence.a2_soup_delicious": {
-    "text": "This soup is delicious."
+    "text": "This soup is delicious.",
+    "alt": ["This soup is tasty.", "This soup is very tasty."]
   },
   "sentence.a2_too_salty": {
-    "text": "The food is too salty."
+    "text": "The food is too salty.",
+    "alt": ["The food is very salty."]
   },
   "sentence.a2_gift_wife": {
-    "text": "I bought a gift for my wife."
+    "text": "I bought a gift for my wife.",
+    "alt": ["I bought a gift for my husband.", "I bought a present for my wife."]
   },
   "sentence.a2_sold_car": {
     "text": "They sold their old car."
@@ -610,16 +732,22 @@
     "text": "I have a reservation at this hotel."
   },
   "sentence.a2_flight_eight": {
-    "text": "Our flight leaves at eight in the morning."
+    "text": "Our flight leaves at eight in the morning.",
+    "alt": [
+      "At eight in the morning our flight leaves.",
+      "Our flight leaves in the morning at eight."
+    ]
   },
   "sentence.a2_suitcase_heavy": {
     "text": "My suitcase is very heavy."
   },
   "sentence.a2_turn_left": {
-    "text": "Turn left at the corner."
+    "text": "Turn left at the corner.",
+    "alt": ["At the corner turn left."]
   },
   "sentence.a2_nearest_stop": {
-    "text": "Where is the nearest bus stop?"
+    "text": "Where is the nearest bus stop?",
+    "alt": ["Where's the nearest bus stop?"]
   },
   "sentence.a2_i_am_lost": {
     "text": "I am lost. Can you help me?",
@@ -633,7 +761,7 @@
   },
   "sentence.a2_bored_home": {
     "text": "I am bored at home.",
-    "alt": ["I'm bored at home."]
+    "alt": ["I'm bored at home.", "At home I am bored.", "At home I'm bored."]
   },
   "sentence.a2_excited_wedding": {
     "text": "We are excited about the wedding.",
@@ -652,161 +780,417 @@
   },
   "sentence.a2_speaking_phone": {
     "text": "She is speaking on the phone now.",
-    "alt": ["She's speaking on the phone now."]
+    "alt": [
+      "She's speaking on the phone now.",
+      "Now she is speaking on the phone.",
+      "Now she's speaking on the phone.",
+      "She is now speaking on the phone.",
+      "She's now speaking on the phone.",
+      "He is speaking on the phone now.",
+      "He's speaking on the phone now."
+    ]
   },
   "sentence.a2_wash_before_dinner": {
-    "text": "I wash my hands before dinner."
+    "text": "I wash my hands before dinner.",
+    "alt": ["Before dinner I wash my hands."]
   },
   "sentence.a2_if_rains": {
     "text": "If it rains, we will stay at home.",
-    "alt": ["If it rains, we'll stay at home."]
+    "alt": [
+      "If it rains, we'll stay at home.",
+      "We will stay at home if it rains.",
+      "We'll stay at home if it rains.",
+      "If it rains, we will stay home.",
+      "If it rains, we'll stay home.",
+      "If it rains, we are going to stay at home.",
+      "If it rains, we're going to stay at home."
+    ]
   },
   "sentence.a2_stayed_sick": {
-    "text": "I stayed at home because I was sick."
+    "text": "I stayed at home because I was sick.",
+    "alt": [
+      "Because I was sick I stayed at home.",
+      "I stayed home because I was sick.",
+      "I stayed at home because I was ill."
+    ]
   },
   "sentence.a2_cold_so_home": {
     "text": "It was cold, so we went home."
   },
   "sentence.a2_film_weekend": {
     "text": "We watch a film every weekend.",
-    "alt": ["We watch a movie every weekend."]
+    "alt": [
+      "We watch a movie every weekend.",
+      "Every weekend we watch a film.",
+      "Every weekend we watch a movie."
+    ]
   },
   "sentence.a2_photos_beach": {
-    "text": "I took many photos at the beach."
+    "text": "I took many photos at the beach.",
+    "alt": ["At the beach I took many photos.", "I took a lot of photos at the beach."]
   },
   "restaurant.a2_see_menu": {
-    "text": "Can we see the menu for today, please?"
+    "text": "Can we see the menu for today, please?",
+    "alt": [
+      "Can we please see the menu for today?",
+      "Please can we see the menu for today?",
+      "Can we see today's menu, please?",
+      "Could we see today's menu, please?",
+      "Could we see the menu for today, please?"
+    ]
   },
   "restaurant.a2_table_window": {
     "text": "We would like a table near the window.",
-    "alt": ["We'd like a table near the window."]
+    "alt": [
+      "We'd like a table near the window.",
+      "We want a table near the window.",
+      "We would like a table by the window.",
+      "We'd like a table by the window.",
+      "We want a table by the window."
+    ]
   },
   "restaurant.a2_soup_salad": {
-    "text": "I want soup and salad for my lunch."
+    "text": "I want some soup and salad for lunch.",
+    "alt": [
+      "I want some salad and soup for lunch.",
+      "For lunch I want some soup and salad.",
+      "I want soup and salad for lunch.",
+      "I would like some soup and salad for lunch.",
+      "I'd like some soup and salad for lunch.",
+      "I would like soup and salad for lunch.",
+      "I'd like soup and salad for lunch."
+    ]
   },
   "restaurant.a2_spicy_children": {
-    "text": "Is this soup very spicy for young children?"
+    "text": "Is this soup very spicy for young children?",
+    "alt": [
+      "Is this soup too spicy for young children?",
+      "Is this soup very spicy for small children?",
+      "Is this soup very spicy for little children?",
+      "Is this soup very hot for young children?"
+    ]
   },
   "restaurant.a2_wife_meat": {
     "text": "My wife does not eat meat or fish.",
-    "alt": ["My wife doesn't eat meat or fish."]
+    "alt": [
+      "My wife doesn't eat meat or fish.",
+      "My wife does not eat fish or meat.",
+      "My wife doesn't eat fish or meat.",
+      "My husband does not eat meat or fish.",
+      "My husband doesn't eat meat or fish.",
+      "My wife eats neither meat nor fish."
+    ]
   },
   "restaurant.a2_more_water": {
-    "text": "Could you bring us some more water, please?"
+    "text": "Could you bring us some more water, please?",
+    "alt": [
+      "Could you please bring us some more water?",
+      "Please could you bring us some more water?",
+      "Can you bring us some more water, please?",
+      "Could you bring us more water, please?"
+    ]
   },
   "restaurant.a2_chicken_cold": {
-    "text": "The chicken was delicious but the soup was cold."
+    "text": "The chicken was delicious but the soup was cold.",
+    "alt": ["The chicken was tasty but the soup was cold."]
   },
   "restaurant.a2_two_coffees": {
     "text": "We would like to order two coffees now.",
-    "alt": ["We'd like to order two coffees now."]
+    "alt": [
+      "We'd like to order two coffees now.",
+      "Now we would like to order two coffees.",
+      "Now we'd like to order two coffees.",
+      "We would now like to order two coffees.",
+      "We'd now like to order two coffees.",
+      "We want to order two coffees now."
+    ]
   },
   "restaurant.a2_bill_card": {
-    "text": "Can we have the bill and pay by card?"
+    "text": "Can we have the bill and pay by card?",
+    "alt": [
+      "Can we get the bill and pay by card?",
+      "Could we have the bill and pay by card?",
+      "Can we have the check and pay by card?",
+      "Can we have the bill and pay with a card?"
+    ]
   },
   "restaurant.a2_reservation_eight": {
-    "text": "I have a reservation for four at eight."
+    "text": "I have a reservation for four at eight.",
+    "alt": [
+      "I have a reservation at eight for four.",
+      "At eight I have a reservation for four.",
+      "I have a reservation for four people at eight.",
+      "I have a reservation for four at eight o'clock.",
+      "I have a booking for four at eight."
+    ]
   },
   "restaurant.b1_recommend_light": {
     "text": "Could you recommend something light because I am not very hungry?",
-    "alt": ["Could you recommend something light because I'm not very hungry?"]
+    "alt": [
+      "Could you recommend something light because I'm not very hungry?",
+      "Because I am not very hungry, could you recommend something light?",
+      "Because I'm not very hungry, could you recommend something light?",
+      "Could you suggest something light because I am not very hungry?",
+      "Could you suggest something light because I'm not very hungry?",
+      "Since I am not very hungry, could you recommend something light?",
+      "Since I'm not very hungry, could you recommend something light?",
+      "As I am not very hungry, could you recommend something light?",
+      "As I'm not very hungry, could you recommend something light?"
+    ]
   },
   "restaurant.b1_nuts_ingredients": {
     "text": "I am allergic to nuts, so please check the ingredients carefully.",
-    "alt": ["I'm allergic to nuts, so please check the ingredients carefully."]
+    "alt": [
+      "I'm allergic to nuts, so please check the ingredients carefully.",
+      "I am allergic to nuts, so please carefully check the ingredients.",
+      "I'm allergic to nuts, so please carefully check the ingredients.",
+      "I am allergic to nuts, so check the ingredients carefully, please.",
+      "I'm allergic to nuts, so check the ingredients carefully, please.",
+      "I have a nut allergy, so please check the ingredients carefully."
+    ]
   },
   "restaurant.b1_table_six": {
-    "text": "We booked a table for six, but two friends will arrive late."
+    "text": "We booked a table for six, but two friends will arrive late.",
+    "alt": [
+      "We reserved a table for six, but two friends will arrive late.",
+      "We booked a table for six, but two of our friends will arrive late.",
+      "We booked a table for six, but two of our friends will be late."
+    ]
   },
   "restaurant.b1_share_main": {
-    "text": "The portions here are large, so we can share one main course."
+    "text": "The portions here are large, so we can share one main course.",
+    "alt": [
+      "The portions are large here, so we can share one main course.",
+      "Here the portions are large, so we can share one main course.",
+      "The portions here are big, so we can share one main course.",
+      "The portions here are large, so we can share a main course."
+    ]
   },
   "restaurant.b1_fish_late": {
-    "text": "I ordered the fish twenty minutes ago, and it has not arrived.",
-    "alt": ["I ordered the fish twenty minutes ago, and it hasn't arrived."]
+    "text": "I ordered the fish twenty minutes ago, but it still has not arrived.",
+    "alt": [
+      "Twenty minutes ago I ordered the fish, but it still has not arrived.",
+      "Twenty minutes ago I ordered the fish, but it still hasn't arrived.",
+      "I ordered the fish twenty minutes ago, but it has still not arrived.",
+      "I ordered the fish twenty minutes ago, and it still has not arrived.",
+      "I ordered the fish twenty minutes ago, and it still hasn't arrived.",
+      "I ordered the fish twenty minutes ago, and it has not arrived yet.",
+      "I ordered the fish twenty minutes ago, and it hasn't arrived yet.",
+      "I ordered the fish twenty minutes ago, but it still hasn't arrived."
+    ]
   },
   "restaurant.b1_steak": {
-    "text": "Would you like your steak rare, medium or well done, sir?"
+    "text": "Would you like your steak rare, medium or well done, sir?",
+    "alt": [
+      "Sir, would you like your steak rare, medium or well done?",
+      "Would you like your steak well done, medium or rare, sir?",
+      "Would you like your steak medium, rare or well done, sir?",
+      "Would you like your steak medium, well done or rare, sir?",
+      "Would you like your steak rare, well done or medium, sir?",
+      "Would you like your steak well done, rare or medium, sir?",
+      "Would you like your steak rare, medium or well done, madam?",
+      "Would you like your steak rare, medium or well done, ma'am?",
+      "Would you like your steak rare, medium or well done?"
+    ]
   },
   "restaurant.b1_wait_bar": {
-    "text": "If you have no table now, we can wait at the bar."
+    "text": "If no table is free now, we can wait at the bar.",
+    "alt": [
+      "We can wait at the bar if no table is free now.",
+      "If you have no table now, we can wait at the bar.",
+      "If you have no free table now, we can wait at the bar.",
+      "If you do not have a free table now, we can wait at the bar.",
+      "If you don't have a free table now, we can wait at the bar.",
+      "If you do not have a table now, we can wait at the bar.",
+      "If you don't have a table now, we can wait at the bar."
+    ]
   },
   "restaurant.b1_overcooked": {
-    "text": "This meat is overcooked, so could you please bring me another one?"
+    "text": "This meat is overcooked, so could you please bring me another one?",
+    "alt": [
+      "This meat is overcooked, so could you bring me another one, please?",
+      "This meat is overcooked, so please could you bring me another one?",
+      "This meat is overcooked, so can you please bring me another one?",
+      "This meat is overcooked, could you please bring me another one?"
+    ]
   },
   "restaurant.b1_take_away": {
-    "text": "Can we get the rest of our food to take away?"
+    "text": "Can we get the rest of our food to take away?",
+    "alt": [
+      "Can we get the rest of our food to go?",
+      "Can we have the rest of our food to take away?",
+      "Can we take the rest of our food away?",
+      "Could we get the rest of our food to take away?"
+    ]
   },
   "restaurant.b1_service_slow": {
-    "text": "The service was slow, but the waiter was kind and very helpful."
+    "text": "The service was slow, but the waiter was kind and very helpful.",
+    "alt": [
+      "The service was slow, but the waiter was very helpful and kind.",
+      "The service was slow, but the waiter was polite and very helpful.",
+      "The service was slow, but the waiter was nice and very helpful."
+    ]
   },
   "restaurant.b2_quiet_anniversary": {
     "text": "We would appreciate a quiet table, as we are celebrating our parents' fiftieth wedding anniversary with them tonight.",
     "alt": [
-      "We'd appreciate a quiet table, as we're celebrating our parents' fiftieth wedding anniversary with them tonight."
+      "We'd appreciate a quiet table, as we're celebrating our parents' fiftieth wedding anniversary with them tonight.",
+      "As we are celebrating our parents' fiftieth wedding anniversary with them tonight, we would appreciate a quiet table.",
+      "As we're celebrating our parents' fiftieth wedding anniversary with them tonight, we'd appreciate a quiet table.",
+      "We would appreciate a quiet table, as tonight we are celebrating our parents' fiftieth wedding anniversary with them.",
+      "We'd appreciate a quiet table, as tonight we're celebrating our parents' fiftieth wedding anniversary with them.",
+      "We would appreciate a quiet table, as we are celebrating our parents' fiftieth wedding anniversary tonight with them.",
+      "We'd appreciate a quiet table, as we're celebrating our parents' fiftieth wedding anniversary tonight with them."
     ]
   },
   "restaurant.b2_reviews_bland": {
-    "text": "Although the reviews were excellent, the food was rather bland and seriously overpriced for such small portions."
+    "text": "Although the reviews were excellent, the food was rather bland and seriously overpriced for such small portions.",
+    "alt": [
+      "The food was rather bland and seriously overpriced for such small portions, although the reviews were excellent.",
+      "Although the reviews were excellent, the food was seriously overpriced for such small portions and rather bland.",
+      "Even though the reviews were excellent, the food was rather bland and seriously overpriced for such small portions.",
+      "Although the reviews were great, the food was rather bland and seriously overpriced for such small portions."
+    ]
   },
   "restaurant.b2_service_charge": {
-    "text": "Could you confirm whether the service charge is already included, or should we leave a separate tip?"
+    "text": "Could you confirm whether the service charge is already included, or should we leave a separate tip?",
+    "alt": [
+      "Could you confirm whether the service charge is included already, or should we leave a separate tip?",
+      "Could you confirm if the service charge is already included, or should we leave a separate tip?",
+      "Can you confirm whether the service charge is already included, or should we leave a separate tip?"
+    ]
   },
   "restaurant.b2_nut_allergy": {
-    "text": "Since my daughter has a severe nut allergy, the kitchen must avoid any risk of cross-contamination."
+    "text": "Since my daughter has a severe nut allergy, the kitchen must avoid any risk of cross-contamination.",
+    "alt": [
+      "The kitchen must avoid any risk of cross-contamination, since my daughter has a severe nut allergy.",
+      "Because my daughter has a severe nut allergy, the kitchen must avoid any risk of cross-contamination.",
+      "As my daughter has a severe nut allergy, the kitchen must avoid any risk of cross-contamination.",
+      "Since my daughter has a severe nut allergy, the kitchen must avoid any risk of cross contamination."
+    ]
   },
   "restaurant.b2_manager_dessert": {
-    "text": "The manager apologized for the long delay and offered us a complimentary dessert to make up for it."
+    "text": "The manager apologized for the long delay and offered us a complimentary dessert to make up for it.",
+    "alt": [
+      "The manager apologized for the long delay and to make up for it offered us a complimentary dessert.",
+      "The manager apologised for the long delay and offered us a complimentary dessert to make up for it.",
+      "The manager apologized for the long delay and offered us a free dessert to make up for it."
+    ]
   },
   "restaurant.b2_replace_dish": {
     "text": "If the dish does not meet your expectations, we will gladly replace it at no extra charge.",
     "alt": [
-      "If the dish doesn't meet your expectations, we'll gladly replace it at no extra charge."
+      "If the dish doesn't meet your expectations, we'll gladly replace it at no extra charge.",
+      "We will gladly replace it at no extra charge if the dish does not meet your expectations.",
+      "We'll gladly replace it at no extra charge if the dish doesn't meet your expectations.",
+      "If the dish does not meet your expectations, we will replace it gladly at no extra charge.",
+      "If the dish doesn't meet your expectations, we'll replace it gladly at no extra charge.",
+      "If the dish does not meet your expectations, we will gladly change it at no extra charge.",
+      "If the dish doesn't meet your expectations, we'll gladly change it at no extra charge."
     ]
   },
   "restaurant.b2_local_cuisine": {
-    "text": "We had hoped to try the local cuisine, but most of the menu seemed designed for tourists."
+    "text": "We had hoped to try the local cuisine, but most of the menu seemed designed for tourists.",
+    "alt": [
+      "We had hoped to try the local cuisine, but most of the menu seemed prepared for tourists.",
+      "We had hoped to try the local food, but most of the menu seemed designed for tourists."
+    ]
   },
   "restaurant.b2_charged_twice": {
     "text": "I would like to speak to someone, because we were charged twice for the same bottle of water.",
     "alt": [
-      "I'd like to speak to someone, because we were charged twice for the same bottle of water."
+      "I'd like to speak to someone, because we were charged twice for the same bottle of water.",
+      "Because we were charged twice for the same bottle of water, I would like to speak to someone.",
+      "Because we were charged twice for the same bottle of water, I'd like to speak to someone.",
+      "I want to speak to someone, because we were charged twice for the same bottle of water.",
+      "I would like to talk to someone, because we were charged twice for the same bottle of water.",
+      "I'd like to talk to someone, because we were charged twice for the same bottle of water."
     ]
   },
   "restaurant.b2_fully_booked": {
-    "text": "Even though the restaurant was fully booked, the staff managed to find us a table by the window."
+    "text": "Even though the restaurant was fully booked, the staff managed to find us a table by the window.",
+    "alt": [
+      "The staff managed to find us a table by the window, even though the restaurant was fully booked.",
+      "Although the restaurant was fully booked, the staff managed to find us a table by the window.",
+      "Even though the restaurant was full, the staff managed to find us a table by the window."
+    ]
   },
   "restaurant.b2_loud_music": {
-    "text": "The atmosphere was pleasant, yet the music was so loud that we could hardly hear each other speak."
+    "text": "The atmosphere was pleasant, yet the music was so loud that we could hardly hear each other speak.",
+    "alt": [
+      "The atmosphere was pleasant, but the music was so loud that we could hardly hear each other speak.",
+      "The atmosphere was pleasant, but the music was so loud that we could hardly hear each other.",
+      "The atmosphere was pleasant, yet the music was so loud that we could hardly hear each other."
+    ]
   },
   "restaurant.c1_had_we_known": {
-    "text": "Had we known that the kitchen closed at ten, we would certainly have arrived earlier rather than rushing through our meal like that."
+    "text": "Had we known that the kitchen closed at ten, we would certainly have arrived earlier rather than rushing through our meal like that.",
+    "alt": [
+      "We would certainly have arrived earlier rather than rushing through our meal like that, had we known that the kitchen closed at ten.",
+      "We'd certainly have arrived earlier rather than rushing through our meal like that, had we known that the kitchen closed at ten.",
+      "Had we known that the kitchen closed at ten, we would have certainly arrived earlier rather than rushing through our meal like that.",
+      "Had we known that the kitchen closed at ten, we'd have certainly arrived earlier rather than rushing through our meal like that.",
+      "If we had known that the kitchen closed at ten, we would certainly have arrived earlier rather than rushing through our meal like that.",
+      "If we had known that the kitchen closed at ten, we'd certainly have arrived earlier rather than rushing through our meal like that.",
+      "Had we known the kitchen closed at ten, we would certainly have arrived earlier rather than rushing through our meal like that.",
+      "Had we known the kitchen closed at ten, we'd certainly have arrived earlier rather than rushing through our meal like that."
+    ]
   },
   "restaurant.c1_tasting_menu": {
-    "text": "While the chef's tasting menu was undeniably exquisite, the price seemed difficult to justify given how small and rushed each course felt."
+    "text": "While the chef's tasting menu was undeniably exquisite, the price seemed difficult to justify given how small and rushed each course felt.",
+    "alt": [
+      "While the chef's tasting menu was undeniably exquisite, the price seemed difficult to justify given how rushed and small each course felt.",
+      "Although the chef's tasting menu was undeniably exquisite, the price seemed difficult to justify given how small and rushed each course felt."
+    ]
   },
   "restaurant.c1_vegetarian_guests": {
     "text": "We would be grateful if you could accommodate our vegetarian guests, provided that their meals are prepared separately from any meat dishes.",
     "alt": [
-      "We'd be grateful if you could accommodate our vegetarian guests, provided that their meals are prepared separately from any meat dishes."
+      "We'd be grateful if you could accommodate our vegetarian guests, provided that their meals are prepared separately from any meat dishes.",
+      "Provided that their meals are prepared separately from any meat dishes, we would be grateful if you could accommodate our vegetarian guests.",
+      "Provided that their meals are prepared separately from any meat dishes, we'd be grateful if you could accommodate our vegetarian guests.",
+      "If you could accommodate our vegetarian guests, provided that their meals are prepared separately from any meat dishes, we would be grateful.",
+      "If you could accommodate our vegetarian guests, provided that their meals are prepared separately from any meat dishes, we'd be grateful.",
+      "We would be grateful if you could accommodate our vegetarian guests, provided that their meals are separately prepared from any meat dishes.",
+      "We'd be grateful if you could accommodate our vegetarian guests, provided that their meals are separately prepared from any meat dishes."
     ]
   },
   "restaurant.c1_not_only": {
-    "text": "Not only did the waiter forget our order, but he also insisted that we had never asked for anything in the first place."
+    "text": "Not only did the waiter forget our order, but he also insisted that we had never asked for anything in the first place.",
+    "alt": [
+      "The waiter not only forgot our order, but he also insisted that we had never asked for anything in the first place.",
+      "Not only did the waiter forget our order, but she also insisted that we had never asked for anything in the first place."
+    ]
   },
   "restaurant.c1_sourced": {
-    "text": "Despite its reputation for locally sourced ingredients, the restaurant failed to tell us where most of the fish on its menu came from."
+    "text": "Despite its reputation for locally sourced ingredients, the restaurant failed to tell us where most of the fish on its menu came from.",
+    "alt": [
+      "The restaurant failed to tell us where most of the fish on its menu came from, despite its reputation for locally sourced ingredients."
+    ]
   },
   "restaurant.c1_should_persist": {
-    "text": "Should the problem with your booking persist, please contact our manager, who will gladly arrange an alternative table at no additional cost."
+    "text": "Should the problem with your booking persist, please contact our manager, who will gladly arrange an alternative table at no additional cost.",
+    "alt": [
+      "Please contact our manager, who will gladly arrange an alternative table at no additional cost, should the problem with your booking persist.",
+      "If the problem with your booking persists, please contact our manager, who will gladly arrange an alternative table at no additional cost.",
+      "If the problem with your reservation persists, please contact our manager, who will gladly arrange an alternative table at no additional cost."
+    ]
   },
   "restaurant.c1_presentation": {
     "text": "What impressed me most was not the elaborate presentation, but the way each flavor complemented the others without overwhelming the palate.",
     "alt": [
-      "What impressed me most was not the elaborate presentation, but the way each flavour complemented the others without overwhelming the palate."
+      "What impressed me most was not the elaborate presentation, but the way each flavour complemented the others without overwhelming the palate.",
+      "What most impressed me was not the elaborate presentation, but the way each flavor complemented the others without overwhelming the palate.",
+      "What impressed me most was the way each flavor complemented the others without overwhelming the palate, not the elaborate presentation.",
+      "What impressed me most was the way each flavour complemented the others without overwhelming the palate, not the elaborate presentation.",
+      "What most impressed me was not the elaborate presentation, but the way each flavour complemented the others without overwhelming the palate."
     ]
   },
   "restaurant.c1_complaints": {
-    "text": "Given the number of complaints about the service, I doubt that the new owners will manage to keep the place open much longer."
+    "text": "Given the number of complaints about the service, I doubt that the new owners will manage to keep the place open much longer.",
+    "alt": [
+      "I doubt that the new owners will manage to keep the place open much longer, given the number of complaints about the service.",
+      "Given the number of complaints about the service, I doubt the new owners will manage to keep the place open much longer."
+    ]
   }
 }

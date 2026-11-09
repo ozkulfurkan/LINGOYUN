@@ -23,6 +23,9 @@ export type LanguageDef = {
   toUpper: (s: string) => string;
   /** Maps letters a learner may type without the keyboard's special keys (ş → s). */
   foldMap: Readonly<Record<string, string>>;
-  /** Leading articles that may be added or left out in answers ("an apple" = "apple"). */
+  /**
+   * Leading words that may be added or left out in answers: articles ("an apple" =
+   * "apple") and infinitive markers ("to eat" = "eat").
+   */
   articles: readonly string[];
 };
