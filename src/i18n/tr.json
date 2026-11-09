@@ -7,7 +7,8 @@
     "hello": "Merhaba {{nickname}}",
     "play": "Oyna",
     "playLetters": "Harf dizme",
-    "playSentences": "Cümle kurma"
+    "playSentences": "Cümle kurma",
+    "stats": "{{gems}} taş · {{streak}} günlük seri"
   },
   "common": {
     "continue": "Devam",
@@ -108,7 +109,8 @@
       "freezeUsed": "Serin dondurma hakkıyla korundu",
       "badges": "Yeni rozet: {{n}}",
       "again": "Bir tur daha",
-      "done": "Bitir"
+      "done": "Bitir",
+      "levelUp": "Yeni seviye açıldı: {{level}}!"
     }
   },
   "letters": {
@@ -139,5 +141,11 @@
     "show": "Göster",
     "answerIs": "Cevap: {{answer}}",
     "hintLabel": "İpucu: bu kelime sıradaki"
+  },
+  "map": {
+    "done": "{{level}}: tamamlandı",
+    "current": "{{level}}: şu anki seviye, %{{percent}} öğrenildi",
+    "locked": "{{level}}: kilitli",
+    "soon": "{{level}}: yakında"
   }
 }

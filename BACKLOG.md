@@ -93,7 +93,18 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     6. Yetişkin profilinde: 2 fazla kelime var, cümle dolunca "Kontrol et"e basman gerekir.
     7. 6 cümleyi bitir → özet ekranı.
     8. Sürüklerken ekran kayıyor mu, blok parmağı takip ediyor mu (iOS ve Android)? Uzun cümlede bloklar iki satıra sığıyor mu?
-- [ ] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
+- [~] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
+  - ✅ 7–12 ve yetişkin profillerinde ana ekran artık nehir haritası: seviyeler nehir boyunca taşlar (tamamlanan yeşil ve tikli, şu anki büyük ve öğrenme halkalı, kilitliler silik, içeriği henüz yazılmamışlar kesikli çizgili). Üstte taş ve seri; altta üç oyun butonu. Taslak görsel: `docs/art-direction/river-map-preview.png`.
+  - ✅ Seviye ilerlemesi: şu anki seviyenin kelimelerinin %80'i tekrar kutusu 3+'ya ulaşınca tur sonunda bir sonraki seviye açılır (+10 taş, "Seviye atlama" rozeti, özet ekranında "Yeni seviye açıldı"). Üç oyun ortak `src/features/games/finishRound.ts`'i kullanıyor.
+  - Kararlar (gece çalışması): Skia yerine kurulu olan `react-native-svg` (Skia yeni yerel paket ve yeni derleme isterdi). Eşik %80 (`LEVEL_DONE_MASTERY`). Tamamlanan seviyeler tekrar oynanmıyor (kelimeleri aralıklı tekrarla zaten geri geliyor). 2–7 yaş ana ekranı değişmedi (LNG-33).
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. 7–12 profiliyle aç → "Merhaba …", altında taş ve seri, ortada kıvrımlı nehir ve 10 taş; şu anki seviye pembe ve halkalı, öncekiler yeşil tikli, 4–10 silik ve kesikli (içerik yok).
+    2. Harita uzunsa aşağı kaydır; alttaki üç buton sabit kalıyor mu?
+    3. Bir tur oyna ve dön → halka ve taş sayısı güncellenmiş olmalı.
+    4. Yetişkin profilinde koyu moda al → harita koyu temada okunur kalıyor mu?
+    5. VoiceOver/TalkBack açıkken taşlara dokun → "L2: şu anki seviye, %35 öğrenildi" gibi okunmalı.
+    6. (Uzun) Bir seviyenin kelimelerini öğrenince tur sonunda "Yeni seviye açıldı" çıkmalı ve haritada bir sonraki taş pembe olmalı.
 - [ ] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
 
 ## Faz 4 — Abonelik

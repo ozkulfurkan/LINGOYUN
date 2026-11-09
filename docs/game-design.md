@@ -80,3 +80,9 @@ Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer u
 - Yetişkin: 2 şaşırtmaca kelime (aynı seviyenin başka cümlelerinden, cümlede olmayan) + "Kontrol et". 7–12: şaşırtmaca yok, cümle tamamlanınca otomatik kontrol.
 - Eşdeğer söylenişler (`alt`) doğru kabul edilir. Yanlışta yalnızca baştan doğru olan kısım kalır.
 - İpucu (2 yanlıştan sonra), "Göster" (1 yanlıştan sonra) ve puanlama harf dizmeyle aynı. Tur 6 cümle; 2–9 kelimelik cümleler.
+
+## Bölüm haritası ve seviye ilerlemesi (`src/features/map`)
+
+- Kursun her seviyesi nehir boyunca bir taş: şu anki seviyenin altındakiler tamamlandı, üstündekiler kilitli; içeriği yazılmamış seviyeler "yakında".
+- Şu anki seviyenin halkası, o seviyenin kelimelerinin ne kadarının öğrenildiğini (tekrar kutusu 3+) gösterir.
+- **Seviye atlama:** bir tur bittiğinde şu anki seviyenin kelimelerinin **%80**'i öğrenilmişse ve sonraki seviyenin içeriği varsa profil bir üst seviyeye geçer (+10 taş, "Seviye atlama" rozeti). Eşik `LEVEL_DONE_MASTERY`.

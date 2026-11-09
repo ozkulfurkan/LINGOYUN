@@ -34,13 +34,14 @@ import {
   type Puzzle,
   type Slot,
 } from '@/features/games/letter-order';
+import { finishRound } from '@/features/games/finishRound';
 import type { CourseId } from '@/features/languages';
 import { useActiveProfile } from '@/features/profiles';
-import { completeSession, type SessionReward } from '@/features/progress';
+import type { SessionReward } from '@/features/progress';
 import { seededRng } from '@/features/quiz/rng';
-import { learnedCount, localDay, recordAnswer } from '@/features/srs';
+import { localDay, recordAnswer } from '@/features/srs';
 import { speak, stopSpeaking } from '@/lib/speech';
-import { loadProgress, saveProgress } from '@/storage/progress';
+import { loadProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
 import { dimmedOpacity, space, stroke, touchTarget, useTheme } from '@/theme';
 
@@ -91,6 +92,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
   const [gems, setGems] = useState(() => loadProgress(profileId).gems);
   const [missed, setMissed] = useState(false);
   const [reward, setReward] = useState<SessionReward | null>(null);
+  const [newLevel, setNewLevel] = useState<string | null>(null);
 
   const puzzle = currentPuzzle(round);
 
@@ -108,6 +110,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
       <RoundSummary
         nickname={nickname}
         reward={reward}
+        newLevel={newLevel}
         correct={grades.filter((g) => g !== 'again').length}
         total={grades.length}
         onPlayAgain={onPlayAgain}
@@ -158,13 +161,17 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
     setRound(next);
     setMissed(false);
     if (!isRoundFinished(next)) return;
-    const result = completeSession(loadProgress(profileId), {
+    // Rewards (and a possible level-up) only for a finished round (docs/game-design.md).
+    const finished = finishRound({
+      profileId,
+      courseId,
+      profileType,
+      level,
       grades: letterRoundGrades(next),
       today,
-      wordsLearned: learnedCount(loadDeck(profileId, courseId)),
     });
-    saveProgress(profileId, result.progress);
-    setReward(result.reward);
+    setNewLevel(finished.newLevel);
+    setReward(finished.reward);
   };
 
   const done = isDone(puzzle);
