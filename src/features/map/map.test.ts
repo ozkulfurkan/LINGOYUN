@@ -1,4 +1,6 @@
 import { content } from '@/content/bundle';
+import type { ContentBundle } from '@/content/types';
+import { MIN_LEVEL_CONCEPTS } from '@/features/placement';
 import { recordAnswer, type Deck } from '@/features/srs';
 
 import { LEVEL_DONE_MASTERY, levelConcepts, levelNodes, levelUpTarget, riverLayout } from './map';
@@ -50,6 +52,31 @@ describe('levelUpTarget', () => {
     expect(levelUpTarget(content, 'tr-en', 'kid', deckWith(notEnough, 3), 'L1')).toBeNull();
     // Box 2 is not "learned" yet.
     expect(levelUpTarget(content, 'tr-en', 'kid', deckWith(L1, 2), 'L1')).toBeNull();
+  });
+
+  it('does not move to a level with too little content to play', () => {
+    // B1 holds only a two-concept placeholder for now.
+    const A2 = levelConcepts(content, 'tr-en', 'adult', 'A2');
+    expect(levelConcepts(content, 'tr-en', 'adult', 'B1').length).toBeLessThan(MIN_LEVEL_CONCEPTS);
+    expect(levelUpTarget(content, 'tr-en', 'adult', deckWith(A2, 3), 'A2')).toBeNull();
+  });
+
+  it('moves up as soon as the next level has enough content', () => {
+    const A2 = levelConcepts(content, 'tr-en', 'adult', 'A2');
+    const filler = Array.from({ length: MIN_LEVEL_CONCEPTS }, (_, i) => `x.c${i}`);
+    const bundle: ContentBundle = {
+      ...content,
+      courses: [
+        {
+          id: 'tr-en',
+          units: [
+            ...content.courses[0].units,
+            { id: 'adult.b1.more', profileType: 'adult', level: 'B1', concepts: filler },
+          ],
+        },
+      ],
+    };
+    expect(levelUpTarget(bundle, 'tr-en', 'adult', deckWith(A2, 3), 'A2')).toBe('B1');
   });
 
   it('does not move to a level without content or past the top', () => {

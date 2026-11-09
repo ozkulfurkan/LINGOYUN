@@ -1,5 +1,6 @@
 import { unitsFor, type ContentBundle } from '@/content';
 import { findCourse, type CourseId } from '@/features/languages';
+import { MIN_LEVEL_CONCEPTS } from '@/features/placement';
 import { masteryOf, type Deck } from '@/features/srs';
 
 /** Share of a level's concepts in review box 3+ that opens the next level. */
@@ -51,7 +52,8 @@ export function levelNodes(
 
 /**
  * The level to move up to after practising, or null: the current level must be
- * mastered and the next level must have content.
+ * mastered and the next level must have enough content to play. A level with a
+ * few stray concepts cannot fill a round, so it does not count.
  */
 export function levelUpTarget(
   bundle: ContentBundle,
@@ -66,7 +68,8 @@ export function levelUpTarget(
   if (i < 0 || !next) return null;
   const concepts = levelConcepts(bundle, courseId, profileType, currentLevel);
   if (concepts.length === 0 || masteryOf(deck, concepts) < LEVEL_DONE_MASTERY) return null;
-  return levelConcepts(bundle, courseId, profileType, next).length > 0 ? next : null;
+  const nextConcepts = levelConcepts(bundle, courseId, profileType, next);
+  return nextConcepts.length >= MIN_LEVEL_CONCEPTS ? next : null;
 }
 
 export type Point = { x: number; y: number };
