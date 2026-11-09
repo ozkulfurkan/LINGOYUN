@@ -3,6 +3,7 @@
 //
 //   npm run content           write the JSON files, then run the content tests
 //   npm run content -- --export   write content-src from the current JSON (one-off)
+//   npm run content -- --check    only read and check the sources, write nothing
 //
 // One file per theme, read in file-name order per profile type:
 //   content-src/themes/adult/03-numbers.txt
@@ -168,6 +169,16 @@ function build() {
     console.error(problems.join('\n'));
     process.exit(1);
   }
+  if (process.argv.includes('--check')) {
+    for (const type of TYPES) {
+      for (const t of paths[type] ?? []) {
+        const tiers = ['1', '2', '3'].map((k) => t.sentences[k]?.length ?? 0).join('/');
+        console.log(`${t.id}: ${t.words.length} words, sentences ${tiers}`);
+      }
+    }
+    console.log('check passed: nothing written');
+    return;
+  }
   course.paths = paths;
   write(files.course, course);
   write(files.en.words, en.words);
@@ -234,7 +245,7 @@ function exportSources() {
 if (process.argv.includes('--export')) exportSources();
 else {
   build();
-  if (!process.argv.includes('--no-test')) {
+  if (!process.argv.includes('--no-test') && !process.argv.includes('--check')) {
     execSync('npx jest src/content src/features/path src/i18n --silent', {
       stdio: 'inherit',
       cwd: ROOT,
