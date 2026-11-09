@@ -41,31 +41,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 ## Faz 3 — 7–12 yaş, ilk oynanabilir sürüm
 
 - [x] **LNG-16** CİHAZ — Onboarding: profil oluştur → yaş grubu → (kid/adult) kendi beyanı. iPhone'da test edildi (Furkan); Android denemesi LNG-3'teki ilk Android derlemesiyle yapılacak. Önkoşul: LNG-6, LNG-2.
-- [~] **LNG-17** CİHAZ — Seviye tespit ekranları (20 soru, ilerleme çubuğu, "Bilmiyorum", sesli okuma) + sonuç ekranı. Önkoşul: LNG-10, LNG-16.
-  - ✅ Kendi beyanından sonra test, ardından sonuç ekranı. "Hiç bilmiyorum" testi atlar. Seviye yalnızca test bitince kaydedilir. 7–12 profilinde sorular otomatik okunur, yetişkinde butonla. Soru kartında henüz resim yok: kelime çizimleri hazır değil.
-  - Önce yeni derleme gerekir (yeni yerel paket: `expo-speech`): `npx eas-cli@latest build --profile development --platform ios`, ardından `npx expo start --dev-client --lan --clear`.
-  - Cihazda nasıl test edilir:
-    1. Uygulamayı silip yeniden kur, "Yetişkin" → "Hiç bilmiyorum" → "Devam" → test açılmadan ana ekran gelir.
-    2. Yeniden kur, "7–12 yaş" → "Çok iyi biliyorum" → "Devam" → soru ekranı açılır, soru **kendiliğinden sesli okunur**. Bir sonraki soruya geçince önceki ses kesilir.
-    3. Hoparlör düğmesine bas → soru tekrar okunur. İngilizce soruda İngilizce, Türkçe soruda Türkçe ses duyulur. Telefon sessizdeyken ne olduğunu not et.
-    4. Şıkka basınca hemen sonraki soru gelir, doğru/yanlış gösterilmez. Sayaç "1 / 20"den ilerler, çubuk 5 bölüm halinde dolar.
-    5. Uzun cümleli sorularda (özellikle küçük ekranda) şıklar kayarak görünür, "Bilmiyorum" altta kalır.
-    6. Testin ortasında uygulamayı tamamen kapatıp aç → seviye seçim ekranı gelir, test baştan başlar.
-    7. 20 soruyu bitir → madalya zıplayarak gelir, telefon titrer, seviye yazılır ("Seviye 2" gibi). "Başla" → ana ekran. Uygulamayı kapatıp aç → yine ana ekran.
-    8. Yeniden kur, "Yetişkin" → "Rahatça konuşabiliyorum" → testi tamamla: Sözlük temasıyla sonuç "A1" veya "A2" çıkar. Telefonu koyu moda al: madalyanın yıldızı açık renk kalır.
-    9. Ayarlardan "Hareketi Azalt"ı aç → madalya zıplamadan görünür.
-- [~] **LNG-18** CİHAZ — Oyun: Çoktan seçmeli (EN→TR / TR→EN). Önkoşul: LNG-7.
-  - ✅ Ana ekranda "Oyna" (7–12 ve yetişkin). 10 soruluk tur, tekrar kutularına ve XP/taş/seriye bağlı, tur özeti ekranıyla. Büyük animasyon ve sesler LNG-22'de.
-  - Derleme: LNG-17'deki yeni derleme yeterli (ek yerel paket yok). Yalnızca Metro'yu `--clear` ile yeniden başlat.
-  - Cihazda nasıl test edilir:
-    1. 7–12 veya yetişkin profiliyle ana ekranda "Oyna"ya bas → ilk soru gelir. 2–7 profilinde "Oyna" görünmez.
-    2. Doğru şıkka bas → şık yeşillenir ve tik çıkar, "Aferin!" (yetişkinde "Doğru") yazar, telefon titrer, taş sayısı artar. Sonraki soru sen "Devam"a basana kadar gelmez.
-    3. Yanlış şıkka bas → senin şıkkın yumuşak renge döner ve çarpı çıkar, doğru şık işaretlenir, altta "Doğrusu: …" yazar, telefon daha hafif titrer. Şıklara tekrar basmak bir şey yapmaz.
-    4. Turdaki sorular iki yönde de gelir. Uzun cümleli sorularda ekran kayar.
-    5. 10 soruyu bitir → özet ekranı: doğru sayısı, XP, taş, seri. "Bir tur daha" yeni tur başlatır; ilk turda yanlış yaptığın kelimeler tekrar gelir.
-    6. Turun ortasında çarpıya bas → ana ekran. Tekrar "Oyna": yanıtladığın kelimeler kayıtlı, ama XP verilmemiş olmalı.
-    7. Uygulamayı kapatıp aç, yeni tur oyna: taş sayısı kaldığı yerden devam eder.
-    8. Yetişkin profilinde koyu moda al: renkler ve işaretler okunur kalır.
+- [x] **LNG-17** CİHAZ — Seviye tespit ekranları (20 soru, ilerleme çubuğu, "Bilmiyorum", sesli okuma) + sonuç ekranı. iPhone'da test edildi (Furkan); Android denemesi LNG-3'teki ilk Android derlemesiyle yapılacak. Önkoşul: LNG-10, LNG-16.
+- [x] **LNG-18** CİHAZ — Oyun: Çoktan seçmeli (EN→TR / TR→EN). iPhone'da test edildi (Furkan); Android denemesi LNG-3'teki ilk Android derlemesiyle yapılacak. Önkoşul: LNG-7.
 - [~] **LNG-19** CİHAZ — Oyun: Harf dizme. Önkoşul: LNG-7.
   - ✅ Ana ekranda "Harf dizme" (7–12 ve yetişkin). Türkçe kelime gösterilir, İngilizcesi karışık harflerden dizilir; boşluk ve tire sabit. 8 kelimelik tur, tekrar kutularına ve XP/taş/seriye bağlı, tur özetiyle. Mantık `src/features/games/letter-order/`, kurallar `docs/game-design.md`.
   - Kararlar (Furkan'a sorulmadan, gece çalışması): kutular dolunca otomatik kontrol; yanlışta doğru yerdeki harfler kalır; 2 yanlıştan sonra sıradaki harf parlar; 1 yanlıştan sonra "Göster" çıkar. İlk denemede doğru = tam puan, denemeyle doğru = kutuda kalır, "Göster" = yanlış. Harfler küçük harf. 2–10 harfli kelimeler (cümle ve deyim yok).
@@ -214,6 +191,5 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - Seviye tespiti simülasyonu (LNG-10, 1000 sanal oyuncu): yetişkin %70 tam / %99 ±1 / %1 fazla yüksek; 7–12 %69 / %99 / %0,6. `src/features/placement/placement.test.ts`.
 - Karar (Furkan, LNG-17): kendi beyanında "Hiç bilmiyorum" diyen kullanıcı seviye testine girmez, doğrudan en alt seviyeden başlar (7–12: L1, yetişkin: A1). Diğer üç seçenek teste girer.
 - Seviye testi üst sınırı (LNG-17): içerik olmadığı için test şimdilik yetişkini en fazla A2, çocuğu en fazla L3 olarak yerleştirir. İleri seviye bir kullanıcı da A2'den başlar. B1+ ve L4+ içeriği eklenince sınır kendiliğinden kalkar (seviye başına en az 20 kavram).
-- Açık konu (LNG-18): seviye atlama henüz tanımlı değil. Oyuncu seviyesindeki tüm kelimeleri görünce aynı seviyede en zayıf kelimeleri çalışmaya devam eder. Ne zaman üst seviyeye geçileceği LNG-21 (bölüm haritası) ile birlikte kararlaştırılacak.
 - İçerik kontrolü (LNG-14, LNG-15): çeviriler henüz bir insan tarafından gözden geçirilmedi ve `review: true` işareti de konmadı. En riskli kısım deyimlerin Türkçe karşılıkları (`docs/content/adult-words.md`). Yayından önce kontrol edilmeli.
 - Font bulgusu: Lilita One ve Fredoka'da `ğ ş İ Ğ Ş` yok; Titan One'da `İ` yok. Çocuk teması DynaPuff + Baloo 2'ye geçirildi.
