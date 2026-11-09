@@ -72,3 +72,35 @@ Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer u
 - 2 yanlış denemeden sonra sıradaki doğru harf parlar (kids-ux). 1 yanlıştan sonra "Göster" belirir.
 - Puan: ilk denemede doğru → `good` (+1 taş), denemeyle doğru → `hard`, "Göster" → `again`.
 - Tur 8 kelime; kelime seçimi çoktan seçmeliyle aynı (önce vadesi gelen tekrarlar, sonra yeni kelimeler).
+
+## Cümle kurma (`src/features/games/sentence-builder`)
+
+- Ana dildeki cümle gösterilir; hedef dildeki cümle kelime bloklarından kurulur. Son noktalama (. ! ?) sabittir, virgüller kelimeyle gelir.
+- Blok dokunarak ya da sürükleyerek eklenir; cevap alanının `touchTarget.mini / 2` yakınına bırakılan blok da yerine oturur (mıknatıs, kids-ux). Cümledeki bloğa dokunmak onu çıkarır.
+- Yetişkin: 2 şaşırtmaca kelime (aynı seviyenin başka cümlelerinden, cümlede olmayan) + "Kontrol et". 7–12: şaşırtmaca yok, cümle tamamlanınca otomatik kontrol.
+- Eşdeğer söylenişler (`alt`) doğru kabul edilir. Yanlışta yalnızca baştan doğru olan kısım kalır.
+- İpucu (2 yanlıştan sonra), "Göster" (1 yanlıştan sonra) ve puanlama harf dizmeyle aynı. Tur 6 cümle; 2–9 kelimelik cümleler.
+
+## Bölüm haritası ve seviye ilerlemesi (`src/features/map`)
+
+- Kursun her seviyesi nehir boyunca bir taş: şu anki seviyenin altındakiler tamamlandı, üstündekiler kilitli; içeriği yazılmamış seviyeler "yakında".
+- Şu anki seviyenin halkası, o seviyenin kelimelerinin ne kadarının öğrenildiğini (tekrar kutusu 3+) gösterir.
+- **Seviye atlama:** bir tur bittiğinde şu anki seviyenin kelimelerinin **%80**'i öğrenilmişse ve sonraki seviyenin içeriği varsa profil bir üst seviyeye geçer (+10 taş, "Seviye atlama" rozeti). Eşik `LEVEL_DONE_MASTERY`.
+
+## Oyun hissi (LNG-22)
+
+| An                  | Görsel              | Ses (`assets/audio/sfx`)      | Titreşim |
+| ------------------- | ------------------- | ----------------------------- | -------- |
+| Butona dokunma      | 0,94'e sıkışma      | `tap` (yalnız çocuk teması)   | seçim    |
+| Doğru               | zıplama             | `correct` (yükselen iki nota) | başarı   |
+| Yanlış              | 3 salınım sallanma  | `wrong` (yumuşak, alçalan)    | hafif    |
+| 3 / 5 / 10 üst üste | "N doğru üst üste!" | `combo3/5/10` (arpej)         | orta     |
+| Tur sonu            | (hatasızsa) konfeti | `complete`                    | başarı   |
+| Seviye atlama       | konfeti             | `levelUp`                     | başarı   |
+
+Sesler `scripts/generate-sounds.mjs` ile sentezlenir. iOS'ta sessiz mod sesi kapatır. "Hareketi azalt" açıkken sallanma, zıplama ve konfeti yoktur. Ses ve titreşim `settings.v1`'den kapatılabilir.
+
+## Yazarak çevir (`src/features/games/free-typing`, yalnız yetişkin)
+
+- Ana dildeki kelime/cümle gösterilir; hedef dilde yazılır. Cevap kontrolü `src/features/answer-check` (yukarıdaki tablo).
+- "Bilmiyorum" = yanlış; doğru cevap gösterilir ve okunur. Tur 8 madde.

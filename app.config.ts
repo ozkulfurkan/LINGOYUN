@@ -34,6 +34,15 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     'expo-router',
     // Uploads source maps on EAS builds; the token comes from SENTRY_AUTH_TOKEN.
     ['@sentry/react-native/expo', { organization: 'ozkulfurkan', project: 'lingoyun' }],
+    [
+      'expo-splash-screen',
+      {
+        // Clay peach of the kids theme, the first thing every family sees.
+        backgroundColor: '#FFE6CF',
+        image: './assets/splash-icon.png',
+        imageWidth: 200,
+      },
+    ],
   ],
   experiments: {
     typedRoutes: true,

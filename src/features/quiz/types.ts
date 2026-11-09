@@ -24,4 +24,6 @@ export type Question = {
   image?: string;
   options: QuizOption[];
   correctIndex: number;
+  /** Explanation to show after answering (false friends), in the native language. */
+  note?: string;
 };

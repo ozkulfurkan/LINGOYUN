@@ -281,6 +281,40 @@ export function CloseIcon() {
   );
 }
 
+/** Three sliders: the grown-ups' settings. */
+export function SettingsIcon() {
+  const { colors } = useTheme();
+  const rows = [
+    { y: 5, knob: 13 },
+    { y: 11, knob: 6 },
+    { y: 17, knob: 15 },
+  ];
+  return (
+    <Svg width={22} height={22} viewBox="0 0 22 22" accessible={false}>
+      {rows.map((r) => (
+        <Path
+          key={r.y}
+          d={`M3 ${r.y} H 19`}
+          stroke={colors.text}
+          strokeWidth={2.5}
+          strokeLinecap="round"
+        />
+      ))}
+      {rows.map((r) => (
+        <Circle
+          key={`k${r.y}`}
+          cx={r.knob}
+          cy={r.y}
+          r={3}
+          fill={colors.surface}
+          stroke={colors.text}
+          strokeWidth={2.5}
+        />
+      ))}
+    </Svg>
+  );
+}
+
 /** Clay gem, the reward currency. */
 export function GemIcon() {
   const tones = useTones();

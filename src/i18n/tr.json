@@ -6,7 +6,15 @@
     "comingSoon": "Yakında",
     "hello": "Merhaba {{nickname}}",
     "play": "Oyna",
-    "playLetters": "Harf dizme"
+    "playLetters": "Harf dizme",
+    "playSentences": "Cümle kurma",
+    "stats": "{{gems}} taş · {{streak}} günlük seri",
+    "playTyping": "Yazarak çevir",
+    "playExpressions": "Deyimler ve tuzaklar",
+    "noReviews": "Bugün tekrar yok, harika!",
+    "review": "Tekrar et",
+    "reviewsDue_one": "Bugün {{count}} kelime tekrar bekliyor",
+    "reviewsDue_other": "Bugün {{count}} kelime tekrar bekliyor"
   },
   "common": {
     "continue": "Devam",
@@ -107,8 +115,10 @@
       "freezeUsed": "Serin dondurma hakkıyla korundu",
       "badges": "Yeni rozet: {{n}}",
       "again": "Bir tur daha",
-      "done": "Bitir"
-    }
+      "done": "Bitir",
+      "levelUp": "Yeni seviye açıldı: {{level}}!"
+    },
+    "combo": "{{n}} doğru üst üste!"
   },
   "letters": {
     "build": {
@@ -123,5 +133,75 @@
     "show": "Göster",
     "answerIs": "Cevap: {{answer}}",
     "hintLabel": "İpucu: bu harf sıradaki"
+  },
+  "sentences": {
+    "build": {
+      "en": "İngilizce cümleyi kur",
+      "tr": "Türkçe cümleyi kur"
+    },
+    "dropHere": "Kelimeleri buraya sürükle ya da dokun",
+    "block": "{{word}} kelimesi",
+    "placed": "{{n}}. kelime: {{word}}. Çıkarmak için dokun",
+    "check": "Kontrol et",
+    "tryAgain": "Tekrar dene!",
+    "gotIt": "Buldun!",
+    "show": "Göster",
+    "answerIs": "Cevap: {{answer}}",
+    "hintLabel": "İpucu: bu kelime sıradaki"
+  },
+  "map": {
+    "done": "{{level}}: tamamlandı",
+    "current": "{{level}}: şu anki seviye, %{{percent}} öğrenildi",
+    "locked": "{{level}}: kilitli",
+    "soon": "{{level}}: yakında"
+  },
+  "gate": {
+    "title": "Ebeveyn kontrolü",
+    "ask": "Devam etmek için sonucu rakamla yaz:",
+    "question": "{{a}} çarpı {{b}}",
+    "wrong": "Olmadı. Yeni bir soru geldi.",
+    "typed": "Yazılan: {{value}}",
+    "typedEmpty": "Henüz rakam yazılmadı",
+    "digit": "{{d}}",
+    "backspace": "Son rakamı sil",
+    "cancel": "Vazgeç",
+    "numbers": {
+      "3": "üç",
+      "4": "dört",
+      "5": "beş",
+      "6": "altı",
+      "7": "yedi",
+      "8": "sekiz",
+      "9": "dokuz"
+    }
+  },
+  "settings": {
+    "open": "Ayarlar (ebeveyn)",
+    "title": "Ayarlar",
+    "sound": "Ses efektleri",
+    "haptics": "Titreşim",
+    "profiles": "Profiller",
+    "active": "Şu anki profil",
+    "switchTo": "Bu profile geç",
+    "delete": "Sil",
+    "confirmDelete": "{{nickname}} kalıcı olarak silinsin mi? İlerlemesi de silinir.",
+    "confirmYes": "Evet, sil",
+    "confirmNo": "Vazgeç",
+    "close": "Kapat",
+    "type": {
+      "mini": "2–7 yaş",
+      "kid": "7–12 yaş",
+      "adult": "Yetişkin"
+    }
+  },
+  "typing": {
+    "hintWord": "{{language}} karşılığını yaz",
+    "hintSentence": "Cümleyi {{language}} yaz",
+    "inputLabel": "Cevabın",
+    "placeholder": "Buraya yaz",
+    "check": "Kontrol et",
+    "dontKnow": "Bilmiyorum",
+    "nearMiss": "Neredeyse! Özel harflere dikkat: {{answer}}",
+    "typo": "Küçük bir yazım hatası. Doğrusu: {{answer}}"
   }
 }

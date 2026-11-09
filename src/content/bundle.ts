@@ -7,6 +7,7 @@ import body from './concepts/body.json';
 import colors from './concepts/colors.json';
 import descriptions from './concepts/descriptions.json';
 import emotions from './concepts/emotions.json';
+import falseFriends from './concepts/false_friends.json';
 import family from './concepts/family.json';
 import food from './concepts/food.json';
 import functionWords from './concepts/function_words.json';
@@ -64,6 +65,7 @@ export const content: ContentBundle = {
     ...functionWords,
     ...idioms,
     ...sentences,
+    ...falseFriends,
   ] as Concept[],
   languages: {
     tr: { words: trWords, sentences: trSentences },

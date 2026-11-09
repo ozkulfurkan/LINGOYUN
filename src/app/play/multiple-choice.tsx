@@ -1,11 +1,16 @@
-import * as Haptics from 'expo-haptics';
-import { Redirect } from 'expo-router';
+import { Redirect, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
 import { BlockProgress } from '@/components/BlockProgress';
-import { CloseButton, GameFeedback, GemCount, RoundSummary } from '@/components/GameChrome';
+import {
+  CloseButton,
+  GameFeedback,
+  GemCount,
+  RoundSummary,
+  withCombo,
+} from '@/components/GameChrome';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { QuizOptions } from '@/components/QuizOptions';
 import { QuizPromptCard } from '@/components/QuizPromptCard';
@@ -16,20 +21,26 @@ import {
   advance,
   currentPick,
   currentQuestion,
+  dailyReviewConcepts,
+  expressionConcepts,
+  REVIEW_ROUND_LIMIT,
   isFinished,
   pickOption,
   roundGrades,
   startRound,
   type Round as RoundState,
 } from '@/features/games/multiple-choice/round';
+import { finishRound } from '@/features/games/finishRound';
 import type { CourseId } from '@/features/languages';
 import { useActiveProfile } from '@/features/profiles';
-import { completeSession, type SessionReward } from '@/features/progress';
+import type { SessionReward } from '@/features/progress';
 import { seededRng } from '@/features/quiz/rng';
-import { learnedCount, localDay, recordAnswer } from '@/features/srs';
+import { localDay, recordAnswer } from '@/features/srs';
+import { comboEvent, trailingRun } from '@/lib/feedbackEvents';
+import { playFeedback } from '@/lib/feedback';
 import { speak } from '@/lib/speech';
 import { useReadAloud } from '@/lib/useReadAloud';
-import { loadProgress, saveProgress } from '@/storage/progress';
+import { loadProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
 import { space } from '@/theme';
 
@@ -38,6 +49,7 @@ type LeveledType = 'kid' | 'adult';
 export default function MultipleChoiceScreen() {
   const profile = useActiveProfile();
   const level = profile?.courses[profile.courseId]?.level;
+  const { mode } = useLocalSearchParams<{ mode?: string }>();
   // Each new round starts from what is stored, so it picks up the last answers.
   const [roundNumber, setRoundNumber] = useState(0);
 
@@ -50,6 +62,8 @@ export default function MultipleChoiceScreen() {
       courseId={profile.courseId}
       profileType={profile.type}
       level={level}
+      expressions={mode === 'expressions' && profile.type === 'adult'}
+      review={mode === 'review'}
       onPlayAgain={() => setRoundNumber((n) => n + 1)}
     />
   );
@@ -61,24 +75,51 @@ type GameProps = {
   courseId: CourseId;
   profileType: LeveledType;
   level: string;
+  /** Idioms and false friends instead of the level's words (LNG-28). */
+  expressions?: boolean;
+  /** Today's due reviews from every level instead of the level's words (LNG-29). */
+  review?: boolean;
   onPlayAgain: () => void;
 };
 
-function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }: GameProps) {
+function Game({
+  profileId,
+  nickname,
+  courseId,
+  profileType,
+  level,
+  expressions = false,
+  review = false,
+  onPlayAgain,
+}: GameProps) {
   const { t } = useTranslation();
   const [today] = useState(() => localDay(new Date()));
-  const [round, setRound] = useState<RoundState>(() =>
-    startRound({
+  const [round, setRound] = useState<RoundState>(() => {
+    const deck = loadDeck(profileId, courseId);
+    const levelWords = unitsFor(content, courseId, profileType, level).flatMap((u) => u.concepts);
+    const due = dailyReviewConcepts(content, deck, today).slice(0, REVIEW_ROUND_LIMIT);
+    return startRound({
       bundle: content,
       courseId,
-      deck: loadDeck(profileId, courseId),
+      deck,
       today,
-      levelConcepts: unitsFor(content, courseId, profileType, level).flatMap((u) => u.concepts),
+      // Expressions mode: idioms and false friends, asked English → Turkish
+      // so the false friend's look-alike can be offered as the trap.
+      // Review mode: only today's due words; the level fills in wrong options.
+      levelConcepts: expressions
+        ? expressionConcepts(content, courseId)
+        : review
+          ? due
+          : levelWords,
+      directions: expressions ? 'targetToNative' : 'mixed',
+      distractorIds: review ? [...due, ...levelWords] : undefined,
       rng: seededRng(Date.now()),
-    }),
-  );
+    });
+  });
   const [gems, setGems] = useState(() => loadProgress(profileId).gems);
   const [reward, setReward] = useState<SessionReward | null>(null);
+  const [newLevel, setNewLevel] = useState<string | null>(null);
+  const [comboRun, setComboRun] = useState<number | null>(null);
 
   const question = currentQuestion(round);
   const pick = currentPick(round);
@@ -90,6 +131,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
       <RoundSummary
         nickname={nickname}
         reward={reward}
+        newLevel={newLevel}
         correct={grades.filter((g) => g === 'good').length}
         total={grades.length}
         onPlayAgain={onPlayAgain}
@@ -101,7 +143,8 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
   const onPick = (index: number) => {
     if (pick !== null) return;
     const right = index === question.correctIndex;
-    setRound(pickOption(round, index));
+    const answered = pickOption(round, index);
+    setRound(answered);
     // Saved per answer: leaving mid-round must not lose what was practised.
     const deck = loadDeck(profileId, courseId);
     saveDeck(
@@ -110,25 +153,27 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
       recordAnswer(deck, question.conceptId, right ? 'good' : 'again', today),
     );
     if (right) setGems((g) => g + 1);
-    // Some devices have no haptics; the game must still work.
-    (right
-      ? Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success)
-      : Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light)
-    ).catch(() => undefined);
+    const run = right ? trailingRun(roundGrades(answered)) : 0;
+    const combo = comboEvent(run);
+    setComboRun(combo ? run : null);
+    playFeedback(right ? (combo ?? 'correct') : 'wrong');
   };
 
   const onContinue = () => {
     const next = advance(round);
     setRound(next);
     if (!isFinished(next)) return;
-    // Rewards only for a finished round (docs/game-design.md).
-    const result = completeSession(loadProgress(profileId), {
+    // Rewards (and a possible level-up) only for a finished round (docs/game-design.md).
+    const finished = finishRound({
+      profileId,
+      courseId,
+      profileType,
+      level,
       grades: roundGrades(next),
       today,
-      wordsLearned: learnedCount(loadDeck(profileId, courseId)),
     });
-    saveProgress(profileId, result.progress);
-    setReward(result.reward);
+    setNewLevel(finished.newLevel);
+    setReward(finished.reward);
   };
 
   const right = pick === question.correctIndex;
@@ -140,11 +185,12 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
         pick === null ? undefined : (
           <View style={styles.footer}>
             <GameFeedback
-              text={
+              text={withNote(
                 right
-                  ? t(`game.correct.${profileType}`)
-                  : t('game.answerWas', { answer: correctText })
-              }
+                  ? withCombo(t(`game.correct.${profileType}`), comboRun, t)
+                  : t('game.answerWas', { answer: correctText }),
+                question.note,
+              )}
             />
             <PrimaryButton label={t('common.continue')} onPress={onContinue} />
           </View>
@@ -191,3 +237,8 @@ const styles = StyleSheet.create({
     gap: space.md,
   },
 });
+
+/** Adds a false friend's explanation under the verdict. */
+function withNote(text: string, note: string | undefined): string {
+  return note ? `${text}\n${note}` : text;
+}

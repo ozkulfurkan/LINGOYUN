@@ -80,22 +80,101 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     7. 8 kelimeyi bitir → özet ekranı (XP, taş, seri). "Bir tur daha" yeni tur başlatır.
     8. Uzun kelimelerde (ör. "watermelon") kutular iki satıra sığıyor mu, küçük telefonda taşma var mı?
     9. Yetişkin profilinde koyu moda al: kutular ve harfler okunur kalır.
-- [ ] **LNG-20** CİHAZ — Oyun: Cümle kurma (kelime blokları sürükle-bırak). Önkoşul: LNG-7.
-- [ ] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
-- [ ] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
+- [~] **LNG-20** CİHAZ — Oyun: Cümle kurma (kelime blokları sürükle-bırak). Önkoşul: LNG-7.
+  - ✅ Ana ekranda "Cümle kurma" (7–12 ve yetişkin). Türkçe cümle gösterilir, İngilizcesi kelime bloklarından kurulur: blok sürüklenir ya da dokunulur. Cevap alanının yakınına bırakılan blok yerine oturur. 6 cümlelik tur, tekrar kutularına ve XP/taş/seriye bağlı. Mantık `src/features/games/sentence-builder/`, sürükleme `src/components/DraggableBlock.tsx`.
+  - Kararlar (gece çalışması, Furkan'a sorulmadan): sürükleme React Native'in kendi PanResponder'ı ile (yeni yerel paket yok → yeni derleme gerekmez; gesture-handler package.json'da değil). Yetişkine 2 şaşırtmaca kelime + "Kontrol et"; çocukta şaşırtmaca yok, cümle tamamlanınca otomatik kontrol. Eşdeğer söylenişler (`alt`) doğru sayılır. Yanlışta doğru başlangıç kalır; 2 yanlıştan sonra sıradaki kelime parlar; 1 yanlıştan sonra "Göster". Puan harf dizmeyle aynı.
+  - Derleme: yeni yerel paket yok; Metro'yu `--clear` ile yeniden başlat.
+  - Cihazda nasıl test edilir:
+    1. 7–12 profiliyle "Cümle kurma" → Türkçe cümle okunur; altında kesikli çizgili boş alan ve karışık kelimeler.
+    2. Bir kelimeyi **parmakla sürükleyip** boş alana bırak → yerine oturur. Alanın biraz dışına bırak → yine oturur. Uzağa bırak → yaylanarak geri döner.
+    3. Kelimelere dokunarak da ekle; cümledeki bir kelimeye dokununca geri çıkar.
+    4. Cümleyi doğru kur → alan yeşillenir, "Aferin!", İngilizce cümle sesli okunur, telefon titrer.
+    5. Yanlış sırayla kur → "Tekrar dene!", doğru başlangıç kalır, "Göster" çıkar. İki yanlıştan sonra sıradaki kelime sarı çerçeveyle parlar.
+    6. Yetişkin profilinde: 2 fazla kelime var, cümle dolunca "Kontrol et"e basman gerekir.
+    7. 6 cümleyi bitir → özet ekranı.
+    8. Sürüklerken ekran kayıyor mu, blok parmağı takip ediyor mu (iOS ve Android)? Uzun cümlede bloklar iki satıra sığıyor mu?
+- [~] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
+  - ✅ 7–12 ve yetişkin profillerinde ana ekran artık nehir haritası: seviyeler nehir boyunca taşlar (tamamlanan yeşil ve tikli, şu anki büyük ve öğrenme halkalı, kilitliler silik, içeriği henüz yazılmamışlar kesikli çizgili). Üstte taş ve seri; altta üç oyun butonu. Taslak görsel: `docs/art-direction/river-map-preview.png`.
+  - ✅ Seviye ilerlemesi: şu anki seviyenin kelimelerinin %80'i tekrar kutusu 3+'ya ulaşınca tur sonunda bir sonraki seviye açılır (+10 taş, "Seviye atlama" rozeti, özet ekranında "Yeni seviye açıldı"). Üç oyun ortak `src/features/games/finishRound.ts`'i kullanıyor.
+  - Kararlar (gece çalışması): Skia yerine kurulu olan `react-native-svg` (Skia yeni yerel paket ve yeni derleme isterdi). Eşik %80 (`LEVEL_DONE_MASTERY`). Tamamlanan seviyeler tekrar oynanmıyor (kelimeleri aralıklı tekrarla zaten geri geliyor). 2–7 yaş ana ekranı değişmedi (LNG-33).
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. 7–12 profiliyle aç → "Merhaba …", altında taş ve seri, ortada kıvrımlı nehir ve 10 taş; şu anki seviye pembe ve halkalı, öncekiler yeşil tikli, 4–10 silik ve kesikli (içerik yok).
+    2. Harita uzunsa aşağı kaydır; alttaki üç buton sabit kalıyor mu?
+    3. Bir tur oyna ve dön → halka ve taş sayısı güncellenmiş olmalı.
+    4. Yetişkin profilinde koyu moda al → harita koyu temada okunur kalıyor mu?
+    5. VoiceOver/TalkBack açıkken taşlara dokun → "L2: şu anki seviye, %35 öğrenildi" gibi okunmalı.
+    6. (Uzun) Bir seviyenin kelimelerini öğrenince tur sonunda "Yeni seviye açıldı" çıkmalı ve haritada bir sonraki taş pembe olmalı.
+- [~] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
+  - ✅ Ses efektleri (doğru, yanlış, 3/5/10'lu seri, tur sonu, seviye atlama, çocuk temasında dokunma "tık"ı) `scripts/generate-sounds.mjs` ile sentezlendi → `assets/audio/sfx/` (lisans derdi yok, ~150 KB). Çalma `src/lib/sound.ts` (expo-audio), titreşim + ses tek yerden `src/lib/feedback.ts`.
+  - ✅ Animasyonlar (`src/components/Motion.tsx`): yanlışta 3 salınımlı sallanma, doğruda zıplama, taş sayacı artınca sıçrama; hatasız turda ve seviye atlamada konfeti (`Confetti.tsx`, 24 parça). "Hareketi azalt" açıkken hepsi kapalı.
+  - ✅ 3, 5 ve 10 doğru üst üste: geri bildirimde "3 doğru üst üste!" + yükselen arpej + orta titreşim. Ses ve titreşim ayarı `settings.v1`'de (varsayılan açık; ayar ekranı yok, LNG-26 ile birlikte).
+  - Kararlar (gece çalışması): iOS'ta sessiz moddayken ses çalmaz; yetişkin temasında dokunma sesi yok, yalnızca titreşim. expo-audio yalnızca ses çalmak için, mikrofon izni eklenmedi.
+  - ⚠️ **Derleme: YENİ yerel paket var (`expo-audio`) → sesleri duymak için yeni geliştirici derlemesi gerekir** (`npx eas-cli@latest build --profile development --platform ios` / `android`). Eski derlemede uygulama çökmez; yalnızca ses çıkmaz, titreşim ve animasyonlar çalışır.
+  - Cihazda nasıl test edilir (yeni derlemeyle):
+    1. Çoktan seçmelide doğru şık: kart zıplar, yükselen iki nota, başarı titreşimi, taş ikonu sıçrar.
+    2. Yanlış şık: senin kartın sağa sola sallanır, yumuşak alçalan ton, hafif titreşim (alarm gibi değil).
+    3. Üst üste 3 doğru: "Aferin! 3 doğru üst üste!" + üç notalık arpej; 5 ve 10'da daha parlak.
+    4. Harf dizme/cümle kurma: yanlışta kutular/cümle alanı sallanır, doğruda zıplar.
+    5. Hatasız tur sonu: konfeti yağar + kısa fanfar. Seviye atlamada daha uzun fanfar.
+    6. 7–12 profilinde butonlara dokununca hafif "tık" sesi; yetişkinde ses yok.
+    7. iPhone sessiz moddayken hiç ses çıkmamalı; titreşim olmalı.
+    8. Ayarlar → Erişilebilirlik → Hareketi Azalt açık: sallanma, zıplama ve konfeti olmamalı.
+    9. Düşük seviye bir Android'de konfeti sırasında takılma var mı?
 
 ## Faz 4 — Abonelik
 
 - [ ] **LNG-23** FURKAN — App Store Connect + Play Console ürünleri: `family_monthly`, `family_yearly`, iOS `trial_7_days` (0 TL non-consumable); RevenueCat hesabı ve anahtarları; fiyatlar.
-- [ ] **LNG-24** BULUT — Deneme/entitlement mantığı (saf fonksiyon + test): deneme başlangıcı, kalan gün, süre doldu, abone. Önkoşul: LNG-1.
+- [x] **LNG-24** BULUT — Deneme/entitlement mantığı (saf fonksiyon + test): deneme başlangıcı, kalan gün, süre doldu, abone. Önkoşul: LNG-1.
+  - `src/features/subscription/access.ts`: `accessState` → `subscribed` / `trial` (kalan gün, bitmek üzere uyarısı ≤ 2 gün) / `trialEnded` / `notStarted`; `canPlay`. Deneme tam 7×24 saat; abonelik her durumda önce gelir. Saat geri alınarak deneme uzatılamaz (`lastSeenAt`). Deneme bir kez başlar. iOS'ta başlangıç App Store'daki 0 TL ürünün satın alma tarihi, Android'de yerel kayıt (`resolveTrialStart`). Kayıt: `src/storage/trial.ts` (`trial.v1`, cihaz geneli).
 - [ ] **LNG-25** CİHAZ — RevenueCat entegrasyonu, paywall ekranı, satın al / geri yükle, kilit. Önkoşul: LNG-23, LNG-24.
-- [ ] **LNG-26** CİHAZ — Ebeveyn kapısı (satın alma + ayarlar önünde). Önkoşul: LNG-1.
+- [~] **LNG-26** CİHAZ — Ebeveyn kapısı (satın alma + ayarlar önünde). Önkoşul: LNG-1.
+  - ✅ Ana ekranda sağ üstte ayar butonu → ebeveyn kapısı: çarpma işlemi **yazıyla** sorulur ("yedi çarpı sekiz", çarpanlar 3–9, her seferinde rastgele), cevap ekrandaki rakam tuşlarıyla girilir; yanlışta yeni soru. Geçince 1 dakika açık kalır (yalnızca bellekte), Ayarlar adresine doğrudan gidilirse kapıya yönlendirilir. Mantık `src/features/parental-gate/`.
+  - ✅ Yeni **Ayarlar** ekranı (kapının arkasında): ses efektleri ve titreşim anahtarları; profiller arasında geçiş ve iki adımlı onaylı profil silme (ilerlemesiyle birlikte).
+  - Kararlar (gece çalışması): satın alma ekranı (LNG-25) henüz yok; o geldiğinde aynı kapı kullanılacak (`/parent-gate`, geçince `isGateOpen()`). Profil ekleme ayarlara konmadı (onboarding'den).
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. Ana ekranda sağ üstteki kaydırıcı ikonuna dokun → "Ebeveyn kontrolü", yazıyla çarpma sorusu ve rakam tuşları.
+    2. Yanlış sonucu yaz → ekran sallanır, "Olmadı. Yeni bir soru geldi.", soru değişir.
+    3. Doğru sonucu yaz → Ayarlar açılır.
+    4. "Ses efektleri"ni kapat → oyunda ses çıkmaz; "Titreşim"i kapat → titreşim olmaz. Uygulamayı kapatıp aç: ayar kalıcı.
+    5. İki profil varken "Bu profile geç" → ana ekran o profile göre (tema dahil) değişir.
+    6. "Sil: …" → onay sorusu; "Vazgeç" bir şey silmez; "Evet, sil" profili ve ilerlemesini siler.
+    7. 2–7 profilinde de sağ üstte ayar butonu var.
 
 ## Faz 5 — Yetişkin
 
-- [ ] **LNG-27** CİHAZ — Serbest yazma oyunu (cümle çevirisi). Önkoşul: LNG-8.
-- [ ] **LNG-28** CİHAZ — Deyimler ve yanıltıcı benzer kelimeler modu.
-- [ ] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
+- [~] **LNG-27** CİHAZ — Serbest yazma oyunu (cümle çevirisi). Önkoşul: LNG-8.
+  - ✅ Yetişkin ana ekranında "Yazarak çevir": Türkçe kelime ya da cümle gösterilir, İngilizcesi klavyeyle yazılır. LNG-8 cevap kontrolü: doğru / neredeyse doğru (özel harf) / yazım hatası / yanlış; eş anlamlılar ve a/an/the kabul; içerikte bilinen başka bir kelime asla yazım hatası sayılmaz. "Bilmiyorum" butonu. 8 maddelik tur, tekrar kutuları, XP/taş/seri, seviye atlama. Mantık `src/features/games/free-typing/`.
+  - Kararlar (gece çalışması): yalnızca yetişkin (7–12 için klavyeyle cümle yazmak ağır). Yön her zaman Türkçe → İngilizce (üretim pratiği). Puan: doğru = tam, neredeyse/yazım hatası = `hard` (kutuda kalır, 5 XP), yanlış/bilmiyorum = `again`. Doğru yazılış her durumda gösterilir ve sesli okunur.
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. Yetişkin profiliyle "Yazarak çevir" → Türkçe kelime/cümle, altında klavye açık bir yazı kutusu.
+    2. Doğru yaz (büyük harf, nokta önemsiz) → kutu yeşil, "Doğru", İngilizce sesli okunur.
+    3. Bir harf eksik yaz (ör. "watermelom") → "Küçük bir yazım hatası. Doğrusu: watermelon".
+    4. Saçma bir şey yaz → kutu sallanır, "Doğrusu: …".
+    5. "Bilmiyorum" → cevap gösterilir.
+    6. Cümlelerde kutu çok satırlı; klavyedeki "Bitti" tuşu kontrol eder.
+    7. Klavye açıkken alttaki butonlar klavyenin üstünde kalıyor mu (iOS ve Android)?
+    8. 7–12 profilinde bu buton görünmez.
+- [~] **LNG-28** CİHAZ — Deyimler ve yanıltıcı benzer kelimeler modu.
+  - ✅ Yetişkin ana ekranında "Deyimler ve tuzaklar": çoktan seçmeli oyun, kursun bütün deyimleri (30) ve yanıltıcı benzer kelimeleri (15) İngilizce → Türkçe sorar; her yanıltıcı kelimede "tuzak" şık (ör. magazine → **mağaza**) her zaman seçeneklerdedir, cevaptan sonra kısa açıklama gösterilir.
+  - ✅ İçerik: 15 yanıltıcı benzer kelime (`src/content/concepts/false_friends.json`, A2 ünitesi) — sympathetic, actual, sensible, pathetic, fabric, library, magazine, agenda, pension, smoking, parole, nervous, realize, recipe, billion. İçerik şemasına `trap` ve `note` alanları eklendi (doğrulayıcı: tuzak doğru cevaplardan biri olamaz).
+  - Kararlar (gece çalışması, **Furkan kontrol etmeli**): liste ve açıklamalar benim; "pathetic → patetik" ve "realize → gerçekleştirmek" `review: true` (ince anlam farkı). Yanıltıcı kelimeler A2'ye kondu (A2 seviye atlaması için öğrenilmesi gereken kelime sayısı biraz arttı). Bu mod seviyeden bağımsız: bütün deyimler açık.
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. Yetişkin profiliyle "Deyimler ve tuzaklar" → İngilizce deyim/kelime, Türkçe şıklar.
+    2. "magazine", "library" gibi bir soru gelince şıklarda tuzak (mağaza, kitapçı) var mı?
+    3. Cevapladıktan sonra geri bildirim kutusunda açıklama ikinci satırda görünüyor mu, uzun açıklama taşmadan sığıyor mu?
+    4. Normal "Oyna" turunda da A2 seviyesindeysen yanıltıcı kelimeler çıkabilir; Türkçe → İngilizce sorulduğunda açıklama yine görünmeli.
+- [~] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
+  - ✅ Haritada (7–12 ve yetişkin) tekrar kartı: "Bugün N kelime tekrar bekliyor" + "Tekrar et"; yoksa "Bugün tekrar yok, harika!". "Tekrar et" yalnızca bugün vadesi gelen kelimeleri (bütün seviyelerden, en çok geciken önce, en fazla 10) çoktan seçmeliyle sorar; şıklar az ise mevcut seviyeden tamamlanır. Mantık `dailyReviewConcepts` (`src/features/games/multiple-choice/round.ts`).
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. Birkaç kelimeyi yanlış cevapla, ana ekrana dön → "Bugün N kelime tekrar bekliyor".
+    2. "Tekrar et" → yalnızca o kelimeler sorulur (soru sayısı N, en fazla 10).
+    3. Hepsini doğru cevapla, ana ekrana dön → sayı azalır ya da "Bugün tekrar yok, harika!".
+    4. Ertesi gün aç → bir gün önce doğru cevapladığın yeni kelimeler (1 günlük kutu) tekrar listesinde.
 - [ ] **LNG-40** BULUT + FURKAN — Yetişkin içeriğini kolayca genişletme (Furkan'ın isteği: yetişkin içeriği LNG-15'teki listeyle sınırlı kalmayacak). Furkan kod ve birden çok JSON dosyasıyla uğraşmadan yeni kelime, cümle ve deyim ekleyebilmeli; tek bir kaynak dosya + komut, içeriği doğru yerlere dağıtır ve doğrular. Önkoşul: LNG-15.
   - Sorulacak: düzenleme biçimi ne olsun (Excel/Google Sheets'ten CSV mi, düz metin mi)?
   - Yapılacak: `src/content/adultContent.test.ts`'teki sabit sayı sınırları (en fazla 700 kelime, tam 150 cümle, tam 30 deyim) gevşetilmeli, yoksa yeni içerik testi kırar. Taban sınırlar kalır.
@@ -103,7 +182,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 6 — 2–7 yaş (Zeynep, Nehir, Kerem)
 
-- [ ] **LNG-30** BULUT — Karakter tasarım dokümanı (`docs/characters.md`): kişilik, renk, siluet, ifade sayfası tarifi. Önkoşul: LNG-4.
+- [x] **LNG-30** BULUT — Karakter tasarım dokümanı (`docs/characters.md`): kişilik, renk, siluet, ifade sayfası tarifi. Önkoşul: LNG-4.
+  - Zeynep (7, uzun dalgalı saç + çiçekli toka, limon sarısı; soruları sorar), Nehir (5–6, iki topuz, nane yeşili tulum; haritada rehber ve kutlama), Kerem (4, ters kep + gözlük, ahududu; yanlışta cesaret verir). İfade listesi, Rive durum makinesi, görsel üretim istemleri, siluet taslağı (`docs/art-direction/characters-lineup.png`). Gece çalışmasında Furkan'a sorulmadan yazıldı; LNG-31'den önce gözden geçirilmeli.
 - [ ] **LNG-31** FURKAN — Karakter görsellerinin üretimi/onayı (illüstratör veya yapay zekâ + seçim) ve Rive animasyonları.
 - [ ] **LNG-32** FURKAN — Ses kayıtları (300 kelime × EN + TR) — kayıt mı TTS mi kararı.
 - [ ] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
@@ -111,8 +191,14 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 7 — Yayın
 
-- [ ] **LNG-35** BULUT — Gizlilik politikası taslağı (KVKK, COPPA, GDPR-K), mağaza metinleri TR + EN.
-- [ ] **LNG-36** BULUT — Mağaza ekran görüntüleri ve uygulama ikonu (grafiker agent).
+- [x] **LNG-35** BULUT — Gizlilik politikası taslağı (KVKK, COPPA, GDPR-K), mağaza metinleri TR + EN.
+  - Gizlilik politikası TR/EN: `docs/privacy/tr.html`, `docs/privacy/index.html` (hesap/reklam/izleme yok; profiller ve ilerleme cihazda; yalnız kişisel veri içermeyen Sentry çökme raporları ve RevenueCat abonelik doğrulaması çıkar; COPPA, GDPR madde 8, KVKK hakları). Mağaza metinleri `store/listings.json` (App Store + Play, TR/EN; karakter sınırları `store/listings.test.ts`). App Store gizlilik etiketleri `store/privacy-labels.md`, Play veri güvenliği + Aileler `store/data-safety.md`.
+  - Furkan dolduracak (`store/README.md`): geliştirici adı, iletişim e-postası, yürürlük tarihi, GitHub Pages'i açıp gizlilik adresini metne yazmak. Gönderimden önce (LNG-37): iOS gizlilik manifesti ve Play'in Families SDK listesi kontrolü.
+- [~] **LNG-36** BULUT — Mağaza ekran görüntüleri ve uygulama ikonu (grafiker agent).
+  - ✅ Uygulama ikonu: nehri geçen üç hamur basamak taşı (limon, ahududu, gök mavisi) — bir dilden öbürüne geçiş; yazı yok, 29 px'de de okunur. Kaynak `assets/source/glyph.svg`, bütün boyutlar `scripts/generate-icons.mjs` ile (iOS 1024, Android uyarlanabilir + Android 13 tek renkli, açılış ekranı, favicon, Play 512). Açılış ekranı hamur rengi zeminle (`expo-splash-screen`).
+  - ✅ Mağaza ekran görüntüsü çerçeveleme: `scripts/frame-screenshots.mjs` (App Store 1290×2796, Play 1080×1920; başlıklar `store/listings.json`'dan, DynaPuff). Başlık sınırı testte.
+  - Kalan (cihaz): 6 ekran görüntüsünü TR ve EN telefonda almak — liste ve adımlar `store/README.md`. Play "feature graphic" (1024×500) henüz yok.
+  - Cihazda nasıl test edilir: yeni derlemede ana ekrandaki ikon ve açılış ekranı yeni görselle mi; Android'de uzun basınca uyarlanabilir ikon dairede kesilmeden görünüyor mu; Android 13'te temalı ikon açıkken tek renkli ikon okunuyor mu.
 - [ ] **LNG-37** FURKAN — TestFlight + Play iç test, gönderim.
 
 ---

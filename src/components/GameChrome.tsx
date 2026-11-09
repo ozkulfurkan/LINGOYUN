@@ -1,11 +1,15 @@
 import { router } from 'expo-router';
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
 import type { SessionReward } from '@/features/progress';
+import { playFeedback } from '@/lib/feedback';
 import { space, stroke, touchTarget, useTheme } from '@/theme';
 
+import { Confetti } from './Confetti';
 import { CloseIcon, GemIcon, LevelMedal } from './illustrations';
+import { Pulse } from './Motion';
 import { PopIn } from './PopIn';
 import { PressScale } from './PressScale';
 import { PrimaryButton } from './PrimaryButton';
@@ -41,7 +45,9 @@ export function GemCount({ gems }: { gems: number }) {
   const { t } = useTranslation();
   return (
     <View style={styles.gems} accessible accessibilityLabel={t('game.gemsLabel', { n: gems })}>
-      <GemIcon />
+      <Pulse value={gems}>
+        <GemIcon />
+      </Pulse>
       <ThemedText variant="option">{String(gems)}</ThemedText>
     </View>
   );
@@ -65,45 +71,62 @@ export function GameFeedback({ text }: { text: string }) {
 type SummaryProps = {
   nickname: string;
   reward: SessionReward;
+  /** Level just unlocked by this round, if any. */
+  newLevel?: string | null;
   correct: number;
   total: number;
   onPlayAgain: () => void;
 };
 
 /** End-of-round screen shared by every game. */
-export function RoundSummary({ nickname, reward, correct, total, onPlayAgain }: SummaryProps) {
+export function RoundSummary({
+  nickname,
+  reward,
+  newLevel = null,
+  correct,
+  total,
+  onPlayAgain,
+}: SummaryProps) {
   const { t } = useTranslation();
+  const celebrate = reward.perfect || newLevel !== null;
+  useEffect(() => {
+    playFeedback(newLevel ? 'levelUp' : 'complete');
+  }, [newLevel]);
   return (
-    <Screen
-      footer={
-        <View style={styles.footer}>
-          <PrimaryButton label={t('game.summary.again')} onPress={onPlayAgain} />
-          <SecondaryButton label={t('game.summary.done')} onPress={() => router.replace('/')} />
+    <>
+      <Screen
+        footer={
+          <View style={styles.footer}>
+            <PrimaryButton label={t('game.summary.again')} onPress={onPlayAgain} />
+            <SecondaryButton label={t('game.summary.done')} onPress={() => router.replace('/')} />
+          </View>
+        }
+      >
+        <View style={styles.medal}>
+          <PopIn>
+            <LevelMedal />
+          </PopIn>
         </View>
-      }
-    >
-      <View style={styles.medal}>
-        <PopIn>
-          <LevelMedal />
-        </PopIn>
-      </View>
-      <ThemedText variant="label" color="accentText">
-        {t('game.summary.eyebrow')}
-      </ThemedText>
-      <ThemedText variant="title" accessibilityRole="header">
-        {reward.perfect
-          ? t('game.summary.perfect', { nickname })
-          : t('game.summary.finished', { nickname })}
-      </ThemedText>
-      <Stat text={t('game.summary.score', { correct, total })} />
-      <Stat text={t('game.summary.xp', { n: reward.xp })} />
-      <Stat text={t('game.summary.gems', { n: reward.gems })} />
-      <Stat text={t('game.summary.streak', { n: reward.streak })} />
-      {reward.usedFreezes > 0 ? <Stat text={t('game.summary.freezeUsed')} /> : null}
-      {reward.newBadges.length > 0 ? (
-        <Stat text={t('game.summary.badges', { n: reward.newBadges.length })} />
-      ) : null}
-    </Screen>
+        <ThemedText variant="label" color="accentText">
+          {t('game.summary.eyebrow')}
+        </ThemedText>
+        <ThemedText variant="title" accessibilityRole="header">
+          {reward.perfect
+            ? t('game.summary.perfect', { nickname })
+            : t('game.summary.finished', { nickname })}
+        </ThemedText>
+        {newLevel ? <Stat text={t('game.summary.levelUp', { level: newLevel })} /> : null}
+        <Stat text={t('game.summary.score', { correct, total })} />
+        <Stat text={t('game.summary.xp', { n: reward.xp })} />
+        <Stat text={t('game.summary.gems', { n: reward.gems })} />
+        <Stat text={t('game.summary.streak', { n: reward.streak })} />
+        {reward.usedFreezes > 0 ? <Stat text={t('game.summary.freezeUsed')} /> : null}
+        {reward.newBadges.length > 0 ? (
+          <Stat text={t('game.summary.badges', { n: reward.newBadges.length })} />
+        ) : null}
+      </Screen>
+      {celebrate ? <Confetti /> : null}
+    </>
   );
 }
 
@@ -145,3 +168,12 @@ const styles = StyleSheet.create({
     paddingTop: space.sm,
   },
 });
+
+/** Praise plus the run of right answers at a combo moment, e.g. "Aferin! 3 doğru üst üste!". */
+export function withCombo(
+  praise: string,
+  run: number | null,
+  t: ReturnType<typeof useTranslation>['t'],
+): string {
+  return run ? `${praise} ${t('game.combo', { n: run })}` : praise;
+}

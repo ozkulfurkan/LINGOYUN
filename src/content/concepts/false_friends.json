@@ -1,0 +1,107 @@
+[
+  {
+    "id": "false_friend.sympathetic",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.actual",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.sensible",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.pathetic",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.fabric",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.library",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.magazine",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.agenda",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.pension",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.smoking",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.parole",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.nervous",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.realize",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.recipe",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  },
+  {
+    "id": "false_friend.billion",
+    "topic": "false_friend",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["false-friend"]
+  }
+]

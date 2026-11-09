@@ -6,7 +6,15 @@
     "comingSoon": "Coming soon",
     "hello": "Hello {{nickname}}",
     "play": "Play",
-    "playLetters": "Spell it"
+    "playLetters": "Spell it",
+    "playSentences": "Build a sentence",
+    "stats": "{{gems}} gems · {{streak}}-day streak",
+    "playTyping": "Type the translation",
+    "playExpressions": "Idioms and traps",
+    "reviewsDue_one": "{{count}} word to review today",
+    "reviewsDue_other": "{{count}} words to review today",
+    "noReviews": "No reviews today. Great!",
+    "review": "Review"
   },
   "common": {
     "continue": "Continue",
@@ -107,8 +115,10 @@
       "freezeUsed": "A freeze kept your streak safe",
       "badges": "New badges: {{n}}",
       "again": "One more round",
-      "done": "Finish"
-    }
+      "done": "Finish",
+      "levelUp": "New level unlocked: {{level}}!"
+    },
+    "combo": "{{n}} in a row!"
   },
   "letters": {
     "build": {
@@ -123,5 +133,75 @@
     "show": "Show me",
     "answerIs": "Answer: {{answer}}",
     "hintLabel": "Hint: this letter comes next"
+  },
+  "sentences": {
+    "build": {
+      "en": "Build the English sentence",
+      "tr": "Build the Turkish sentence"
+    },
+    "dropHere": "Drag or tap the words here",
+    "block": "Word {{word}}",
+    "placed": "Word {{n}}: {{word}}. Tap to take out",
+    "check": "Check",
+    "tryAgain": "Try again!",
+    "gotIt": "You got it!",
+    "show": "Show me",
+    "answerIs": "Answer: {{answer}}",
+    "hintLabel": "Hint: this word comes next"
+  },
+  "map": {
+    "done": "{{level}}: done",
+    "current": "{{level}}: current level, {{percent}}% learned",
+    "locked": "{{level}}: locked",
+    "soon": "{{level}}: coming soon"
+  },
+  "gate": {
+    "title": "Grown-ups only",
+    "ask": "To continue, type the answer in digits:",
+    "question": "{{a}} times {{b}}",
+    "wrong": "Not quite. Here is a new one.",
+    "typed": "Typed: {{value}}",
+    "typedEmpty": "No digits typed yet",
+    "digit": "{{d}}",
+    "backspace": "Delete last digit",
+    "cancel": "Cancel",
+    "numbers": {
+      "3": "three",
+      "4": "four",
+      "5": "five",
+      "6": "six",
+      "7": "seven",
+      "8": "eight",
+      "9": "nine"
+    }
+  },
+  "settings": {
+    "open": "Settings (grown-ups)",
+    "title": "Settings",
+    "sound": "Sound effects",
+    "haptics": "Vibration",
+    "profiles": "Profiles",
+    "active": "Current profile",
+    "switchTo": "Switch to this profile",
+    "delete": "Delete",
+    "confirmDelete": "Delete {{nickname}} for good? Their progress is deleted too.",
+    "confirmYes": "Yes, delete",
+    "confirmNo": "Cancel",
+    "close": "Close",
+    "type": {
+      "mini": "Ages 2–7",
+      "kid": "Ages 7–12",
+      "adult": "Adult"
+    }
+  },
+  "typing": {
+    "hintWord": "Type it in {{language}}",
+    "hintSentence": "Write the sentence in {{language}}",
+    "inputLabel": "Your answer",
+    "placeholder": "Type here",
+    "check": "Check",
+    "dontKnow": "I don't know",
+    "nearMiss": "Almost! Mind the special letters: {{answer}}",
+    "typo": "A small typo. It's: {{answer}}"
   }
 }

@@ -77,6 +77,16 @@ export function buildQuestion({
   }
 
   const distractors: Candidate[] = [];
+  // A false friend's look-alike is always one of the wrong options.
+  const trap = answerEntry.trap;
+  if (trap && !usedTexts.has(norm(trap)) && optionCount > 1) {
+    usedTexts.add(norm(trap));
+    distractors.push({
+      concept: { ...concept, id: `${conceptId}#trap`, image: undefined },
+      text: trap,
+      score: -1,
+    });
+  }
   for (const c of candidates.sort((a, b) => a.score - b.score)) {
     if (distractors.length >= optionCount - 1) break;
     const key = norm(c.text);
@@ -85,6 +95,7 @@ export function buildQuestion({
     distractors.push(c);
   }
   if (distractors.length === 0) return null;
+  const note = answerEntry.note ?? promptEntry.note;
 
   const correct: QuizOption = { conceptId, text: answerEntry.text, image: concept.image };
   const options = shuffle(
@@ -108,6 +119,7 @@ export function buildQuestion({
     image: concept.image,
     options,
     correctIndex: options.findIndex((o) => o.conceptId === conceptId),
+    ...(note ? { note } : {}),
   };
 }
 

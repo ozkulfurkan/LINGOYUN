@@ -2827,5 +2827,91 @@
   },
   "idiom.all_ears": {
     "text": "can kulağıyla dinlemek"
+  },
+  "false_friend.sympathetic": {
+    "text": "anlayışlı",
+    "alt": ["duygudaş"],
+    "trap": "sempatik",
+    "note": "«Sempatik» İngilizcede «likeable» ya da «nice» olur."
+  },
+  "false_friend.actual": {
+    "text": "gerçek",
+    "alt": ["asıl"],
+    "trap": "güncel",
+    "note": "«Güncel» İngilizcede «current» olur."
+  },
+  "false_friend.sensible": {
+    "text": "mantıklı",
+    "alt": ["makul", "akıllıca"],
+    "trap": "hassas",
+    "note": "«Hassas» İngilizcede «sensitive» olur."
+  },
+  "false_friend.pathetic": {
+    "text": "acınası",
+    "alt": ["zavallı", "acınacak"],
+    "trap": "patetik",
+    "note": "Türkçedeki «patetik» (aşırı duygusal) İngilizcede «melodramatic» olur.",
+    "review": true
+  },
+  "false_friend.fabric": {
+    "text": "kumaş",
+    "trap": "fabrika",
+    "note": "«Fabrika» İngilizcede «factory» olur."
+  },
+  "false_friend.library": {
+    "text": "kütüphane",
+    "trap": "kitapçı",
+    "note": "«Kitapçı» İngilizcede «bookshop» ya da «bookstore» olur."
+  },
+  "false_friend.magazine": {
+    "text": "dergi",
+    "trap": "mağaza",
+    "note": "«Mağaza» İngilizcede «store» ya da «shop» olur."
+  },
+  "false_friend.agenda": {
+    "text": "gündem",
+    "trap": "ajanda",
+    "note": "«Ajanda» (not defteri) İngilizcede «planner» ya da «diary» olur."
+  },
+  "false_friend.pension": {
+    "text": "emekli maaşı",
+    "alt": ["emeklilik maaşı"],
+    "trap": "pansiyon",
+    "note": "«Pansiyon» İngilizcede «guesthouse» olur."
+  },
+  "false_friend.smoking": {
+    "text": "sigara içme",
+    "alt": ["sigara içmek"],
+    "trap": "smokin",
+    "note": "«Smokin» İngilizcede «tuxedo» olur."
+  },
+  "false_friend.parole": {
+    "text": "şartlı tahliye",
+    "trap": "parola",
+    "note": "«Parola» İngilizcede «password» olur."
+  },
+  "false_friend.nervous": {
+    "text": "gergin",
+    "alt": ["tedirgin", "heyecanlı"],
+    "trap": "sinirli",
+    "note": "«Sinirli» (kızgın) İngilizcede «angry» olur."
+  },
+  "false_friend.realize": {
+    "text": "fark etmek",
+    "alt": ["anlamak"],
+    "trap": "gerçekleştirmek",
+    "note": "«Realize» çoğunlukla «fark etmek» demektir; «gerçekleştirmek» için genellikle «carry out» ya da «achieve» kullanılır.",
+    "review": true
+  },
+  "false_friend.recipe": {
+    "text": "yemek tarifi",
+    "alt": ["tarif"],
+    "trap": "reçete",
+    "note": "«Reçete» İngilizcede «prescription» olur."
+  },
+  "false_friend.billion": {
+    "text": "milyar",
+    "trap": "milyon",
+    "note": "«Milyon» İngilizcede «million» olur; «billion» bin milyondur."
   }
 }

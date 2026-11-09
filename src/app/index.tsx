@@ -1,56 +1,228 @@
-import { Redirect, router } from 'expo-router';
+import { Redirect, router, useFocusEffect } from 'expo-router';
+import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
+import { SettingsIcon } from '@/components/illustrations';
+import { PressScale } from '@/components/PressScale';
 import { PrimaryButton } from '@/components/PrimaryButton';
+import { RiverMap } from '@/components/RiverMap';
+import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
+import { content } from '@/content/bundle';
+import { dailyReviewConcepts } from '@/features/games/multiple-choice/round';
+import { levelNodes } from '@/features/map';
 import { onboardingStep } from '@/features/onboarding/flow';
-import { getActiveProfile, useProfiles } from '@/features/profiles';
-import { space, useTheme } from '@/theme';
+import { getActiveProfile, useProfiles, type Profile } from '@/features/profiles';
+import { visibleStreak } from '@/features/progress';
+import { localDay } from '@/features/srs';
+import { loadProgress } from '@/storage/progress';
+import { loadDeck } from '@/storage/srs';
+import { space, stroke, touchTarget, useTheme } from '@/theme';
 
-// Sends unfinished setups to onboarding. The rest is a placeholder home screen
-// until the river map (LNG-21).
+// Sends unfinished setups to onboarding. Leveled profiles get the river map;
+// mini profiles get their picture games later (LNG-33).
 export default function HomeScreen() {
-  const { t } = useTranslation();
-  const { colors } = useTheme();
   const state = useProfiles();
   const step = onboardingStep(state);
   const profile = getActiveProfile(state);
 
   if (step === 'createProfile') return <Redirect href="/onboarding" />;
   if (step === 'selfAssessment') return <Redirect href="/onboarding/level" />;
+  if (!profile) return null;
 
+  const level = profile.courses[profile.courseId]?.level;
+  if (profile.type === 'mini' || !level) return <MiniHome nickname={profile.nickname} />;
+  return <MapHome profile={profile} profileType={profile.type} level={level} />;
+}
+
+function MiniHome({ nickname }: { nickname: string }) {
+  const { t } = useTranslation();
+  const { colors } = useTheme();
   return (
-    <View style={[styles.container, { backgroundColor: colors.background }]}>
+    <View style={[styles.mini, { backgroundColor: colors.background }]}>
+      <View style={styles.cornerButton}>
+        <SettingsButton />
+      </View>
       <ThemedText variant="title" color="accentText">
         {t('app.name')}
       </ThemedText>
-      <ThemedText>{t('home.hello', { nickname: profile?.nickname ?? '' })}</ThemedText>
-      {/* mini profiles get their own picture games (LNG-33). */}
-      {profile?.type === 'mini' ? (
-        <ThemedText color="textMuted">{t('home.comingSoon')}</ThemedText>
-      ) : (
-        <>
-          <PrimaryButton
-            label={t('home.play')}
-            onPress={() => router.push('/play/multiple-choice')}
-          />
-          <SecondaryButton
-            label={t('home.playLetters')}
-            onPress={() => router.push('/play/letter-order')}
-          />
-        </>
-      )}
+      <ThemedText>{t('home.hello', { nickname })}</ThemedText>
+      <ThemedText color="textMuted">{t('home.comingSoon')}</ThemedText>
     </View>
   );
 }
 
+type MapHomeProps = { profile: Profile; profileType: 'kid' | 'adult'; level: string };
+
+function MapHome({ profile, profileType, level }: MapHomeProps) {
+  const { t } = useTranslation();
+  // Storage is read on every visit (not during render): a round may have
+  // changed the deck, the level or the streak.
+  const read = useCallback(() => {
+    const progress = loadProgress(profile.id);
+    const deck = loadDeck(profile.id, profile.courseId);
+    const today = localDay(new Date());
+    return {
+      nodes: levelNodes(content, profile.courseId, profileType, deck, level),
+      gems: progress.gems,
+      streak: visibleStreak(progress.streak, today),
+      reviews: dailyReviewConcepts(content, deck, today).length,
+    };
+  }, [profile.id, profile.courseId, profileType, level]);
+  const [data, setData] = useState(read);
+  useFocusEffect(useCallback(() => setData(read()), [read]));
+
+  return (
+    <Screen
+      footer={
+        <View style={styles.footer}>
+          <PrimaryButton
+            label={t('home.play')}
+            onPress={() => router.push('/play/multiple-choice')}
+          />
+          <View style={styles.row}>
+            <View style={styles.half}>
+              <SecondaryButton
+                label={t('home.playLetters')}
+                onPress={() => router.push('/play/letter-order')}
+              />
+            </View>
+            <View style={styles.half}>
+              <SecondaryButton
+                label={t('home.playSentences')}
+                onPress={() => router.push('/play/sentence-builder')}
+              />
+            </View>
+          </View>
+          {profileType === 'adult' ? (
+            <View style={styles.row}>
+              <View style={styles.half}>
+                <SecondaryButton
+                  label={t('home.playTyping')}
+                  onPress={() => router.push('/play/free-typing')}
+                />
+              </View>
+              <View style={styles.half}>
+                <SecondaryButton
+                  label={t('home.playExpressions')}
+                  onPress={() => router.push('/play/multiple-choice?mode=expressions')}
+                />
+              </View>
+            </View>
+          ) : null}
+        </View>
+      }
+    >
+      <View style={styles.header}>
+        <View style={styles.grow}>
+          <ThemedText variant="title" accessibilityRole="header">
+            {t('home.hello', { nickname: profile.nickname })}
+          </ThemedText>
+          <ThemedText color="textMuted">
+            {t('home.stats', { gems: data.gems, streak: data.streak })}
+          </ThemedText>
+        </View>
+        <SettingsButton />
+      </View>
+      <ReviewCard count={data.reviews} />
+      <RiverMap
+        nodes={data.nodes}
+        shortLabel={(l) => (profileType === 'kid' ? l.replace(/^L/, '') : l)}
+      />
+    </Screen>
+  );
+}
+
+/** Today's spaced-repetition reviews (LNG-29). */
+function ReviewCard({ count }: { count: number }) {
+  const { t } = useTranslation();
+  const { colors, radii, elevation } = useTheme();
+  return (
+    <View
+      style={[
+        styles.review,
+        {
+          backgroundColor: colors.surface,
+          borderColor: colors.border,
+          borderRadius: radii.md,
+          boxShadow: elevation.surface ?? undefined,
+        },
+      ]}
+    >
+      <ThemedText variant="option">
+        {count > 0 ? t('home.reviewsDue', { count }) : t('home.noReviews')}
+      </ThemedText>
+      {count > 0 ? (
+        <SecondaryButton
+          label={t('home.review')}
+          onPress={() => router.push('/play/multiple-choice?mode=review')}
+        />
+      ) : null}
+    </View>
+  );
+}
+
+/** Opens settings through the parental gate (kids-ux skill). */
+function SettingsButton() {
+  const { t } = useTranslation();
+  const { colors, radii } = useTheme();
+  return (
+    <PressScale
+      accessibilityRole="button"
+      accessibilityLabel={t('settings.open')}
+      onPress={() => router.push('/parent-gate')}
+      style={[
+        styles.settings,
+        { backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radii.sm },
+      ]}
+    >
+      <SettingsIcon />
+    </PressScale>
+  );
+}
+
 const styles = StyleSheet.create({
-  container: {
+  mini: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     gap: space.sm,
+  },
+  footer: {
+    gap: space.sm,
+  },
+  row: {
+    flexDirection: 'row',
+    gap: space.sm,
+  },
+  half: {
+    flex: 1,
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: space.md,
+  },
+  grow: {
+    flex: 1,
+  },
+  settings: {
+    width: touchTarget.kid,
+    height: touchTarget.kid,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: stroke.thin,
+  },
+  review: {
+    gap: space.sm,
+    padding: space.lg,
+    borderWidth: stroke.thin,
+  },
+  cornerButton: {
+    position: 'absolute',
+    top: space.xxxl,
+    right: space.xl,
   },
 });

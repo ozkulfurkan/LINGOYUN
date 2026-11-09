@@ -3,7 +3,7 @@ import type { CourseId } from '@/features/languages';
 import { dueCards, type Deck, type Grade } from '@/features/srs';
 import { buildQuestion } from '@/features/quiz/generate';
 import { shuffle, type Rng } from '@/features/quiz/rng';
-import type { Question } from '@/features/quiz/types';
+import type { Direction, Question } from '@/features/quiz/types';
 
 /** Questions in one round (the "typical session" in docs/game-design.md). */
 export const ROUND_LENGTH = 10;
@@ -42,6 +42,10 @@ type StartInput = {
   today: number;
   /** Concepts of the learner's level, in course order; also the wrong options. */
   levelConcepts: readonly string[];
+  /** Question directions; mixed by default. */
+  directions?: Direction | 'mixed';
+  /** Where wrong options come from; the level's concepts by default. */
+  distractorIds?: readonly string[];
   rng: Rng;
 };
 
@@ -60,6 +64,8 @@ export function startRound({
   deck,
   today,
   levelConcepts,
+  directions = 'mixed',
+  distractorIds = levelConcepts,
   rng,
 }: StartInput): Round {
   const questions: Question[] = [];
@@ -69,8 +75,9 @@ export function startRound({
       bundle,
       courseId,
       conceptId,
-      direction: rng() < 0.5 ? 'targetToNative' : 'nativeToTarget',
-      distractorIds: levelConcepts,
+      direction:
+        directions !== 'mixed' ? directions : rng() < 0.5 ? 'targetToNative' : 'nativeToTarget',
+      distractorIds,
       rng,
     });
     if (question) questions.push(question);
@@ -108,4 +115,36 @@ export function roundGrades(round: Round): Grade[] {
   return round.picks.map((pick, i) =>
     pick === round.questions[i].correctIndex ? 'good' : 'again',
   );
+}
+
+/**
+ * Idioms and false friends of the adult course, in course order, whatever the
+ * level: the "expressions and traps" practice mode (LNG-28).
+ */
+export function expressionConcepts(bundle: ContentBundle, courseId: CourseId): string[] {
+  const course = bundle.courses.find((c) => c.id === courseId);
+  const ids =
+    course?.units.filter((u) => u.profileType === 'adult').flatMap((u) => u.concepts) ?? [];
+  return [
+    ...new Set(
+      ids.filter((id) => {
+        const concept = bundle.concepts.find((c) => c.id === id);
+        return concept?.kind === 'idiom' || concept?.tags?.includes('false-friend');
+      }),
+    ),
+  ];
+}
+
+/** At most this many reviews in one daily review round. */
+export const REVIEW_ROUND_LIMIT = ROUND_LENGTH;
+
+/**
+ * Today's reviews across every level, most overdue first (daily review,
+ * LNG-29). Only concepts that still exist in the content are kept.
+ */
+export function dailyReviewConcepts(bundle: ContentBundle, deck: Deck, today: number): string[] {
+  const known = new Set(bundle.concepts.map((c) => c.id));
+  return dueCards(deck, today)
+    .map((c) => c.conceptId)
+    .filter((id) => known.has(id));
 }

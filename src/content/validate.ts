@@ -126,6 +126,13 @@ export function validateContent(bundle: ContentBundle): ContentIssue[] {
 
 function checkEntry(entry: Entry, where: string, error: (w: string, m: string) => void) {
   const texts = [entry.text, ...(entry.alt ?? [])];
+  if (entry.trap !== undefined) {
+    if (!entry.trap.trim()) error(where, 'empty trap');
+    else if (texts.some((t) => t.toLowerCase() === entry.trap!.toLowerCase())) {
+      error(where, 'trap is also an accepted answer');
+    }
+  }
+  if (entry.note !== undefined && !entry.note.trim()) error(where, 'empty note');
   for (const t of texts) {
     if (!t.trim()) error(where, 'empty text');
     else if (t !== t.trim() || /\s{2,}/.test(t)) error(where, `extra spaces in "${t}"`);

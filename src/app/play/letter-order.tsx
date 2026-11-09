@@ -1,11 +1,17 @@
-import * as Haptics from 'expo-haptics';
 import { Redirect } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
 import { BlockProgress } from '@/components/BlockProgress';
-import { CloseButton, GameFeedback, GemCount, RoundSummary } from '@/components/GameChrome';
+import {
+  CloseButton,
+  GameFeedback,
+  GemCount,
+  RoundSummary,
+  withCombo,
+} from '@/components/GameChrome';
+import { Bounce, Shake } from '@/components/Motion';
 import { PressScale } from '@/components/PressScale';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { QuizPromptCard } from '@/components/QuizPromptCard';
@@ -34,13 +40,16 @@ import {
   type Puzzle,
   type Slot,
 } from '@/features/games/letter-order';
+import { finishRound } from '@/features/games/finishRound';
 import type { CourseId } from '@/features/languages';
 import { useActiveProfile } from '@/features/profiles';
-import { completeSession, type SessionReward } from '@/features/progress';
+import type { SessionReward } from '@/features/progress';
 import { seededRng } from '@/features/quiz/rng';
-import { learnedCount, localDay, recordAnswer } from '@/features/srs';
+import { localDay, recordAnswer } from '@/features/srs';
+import { comboEvent, trailingRun } from '@/lib/feedbackEvents';
+import { playFeedback } from '@/lib/feedback';
 import { speak, stopSpeaking } from '@/lib/speech';
-import { loadProgress, saveProgress } from '@/storage/progress';
+import { loadProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
 import { dimmedOpacity, space, stroke, touchTarget, useTheme } from '@/theme';
 
@@ -91,6 +100,8 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
   const [gems, setGems] = useState(() => loadProgress(profileId).gems);
   const [missed, setMissed] = useState(false);
   const [reward, setReward] = useState<SessionReward | null>(null);
+  const [newLevel, setNewLevel] = useState<string | null>(null);
+  const [comboRun, setComboRun] = useState<number | null>(null);
 
   const puzzle = currentPuzzle(round);
 
@@ -108,6 +119,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
       <RoundSummary
         nickname={nickname}
         reward={reward}
+        newLevel={newLevel}
         correct={grades.filter((g) => g !== 'again').length}
         total={grades.length}
         onPlayAgain={onPlayAgain}
@@ -126,11 +138,10 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
     );
     if (grade === 'good') setGems((g) => g + 1);
     speak(done.answer, done.answerLang);
-    // Some devices have no haptics; the game must still work.
-    (done.solved
-      ? Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success)
-      : Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light)
-    ).catch(() => undefined);
+    const run = done.solved ? trailingRun([...letterRoundGrades(round), grade]) : 0;
+    const combo = comboEvent(run);
+    setComboRun(combo ? run : null);
+    playFeedback(done.solved ? (combo ?? 'correct') : 'wrong');
   };
 
   const apply = (next: Puzzle) => {
@@ -143,7 +154,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
     setRound(updateCurrent(round, checked));
     setMissed(result === 'wrong');
     if (result === 'right') finish(checked);
-    else Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => undefined);
+    else playFeedback('wrong');
   };
 
   const onReveal = () => {
@@ -158,13 +169,17 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
     setRound(next);
     setMissed(false);
     if (!isRoundFinished(next)) return;
-    const result = completeSession(loadProgress(profileId), {
+    // Rewards (and a possible level-up) only for a finished round (docs/game-design.md).
+    const finished = finishRound({
+      profileId,
+      courseId,
+      profileType,
+      level,
       grades: letterRoundGrades(next),
       today,
-      wordsLearned: learnedCount(loadDeck(profileId, courseId)),
     });
-    saveProgress(profileId, result.progress);
-    setReward(result.reward);
+    setNewLevel(finished.newLevel);
+    setReward(finished.reward);
   };
 
   const done = isDone(puzzle);
@@ -175,7 +190,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
     : puzzle.revealed
       ? t('letters.answerIs', { answer: puzzle.answer })
       : puzzle.attempts === 0
-        ? t(`game.correct.${profileType}`)
+        ? withCombo(t(`game.correct.${profileType}`), comboRun, t)
         : t('letters.gotIt');
 
   return (
@@ -211,7 +226,11 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
         onSpeak={() => speak(puzzle.prompt, puzzle.promptLang)}
       />
 
-      <Slots puzzle={puzzle} onClear={(i) => apply(clearSlot(puzzle, i))} />
+      <Shake trigger={puzzle.attempts}>
+        <Bounce trigger={puzzle.solved}>
+          <Slots puzzle={puzzle} onClear={(i) => apply(clearSlot(puzzle, i))} />
+        </Bounce>
+      </Shake>
       {done ? null : <Tiles puzzle={puzzle} onPlace={(id) => apply(placeTile(puzzle, id))} />}
     </Screen>
   );
