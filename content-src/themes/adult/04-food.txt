@@ -1,0 +1,39 @@
+@theme adult.food
+@title food
+@band A1
+
+@words
+food.bread # bread = ekmek
+food.cheese # cheese = peynir
+food.egg # egg = yumurta
+food.rice # rice = pilav
+food.soup # soup = çorba
+food.meat # meat = et
+food.salad # salad = salata
+food.cake # cake = pasta
+animal.chicken # chicken = tavuk
+animal.fish # fish = balık
+fruit.apple # apple = elma
+fruit.banana # banana = muz
+fruit.orange # orange = portakal
+vegetable.tomato # tomato = domates
+vegetable.potato # potato = patates
+vegetable.onion # onion = soğan
+drink.water # water = su
+drink.milk # milk = süt
+drink.tea # tea = çay
+drink.juice # juice = meyve suyu
+drink.coffee # coffee = kahve
+food.sugar # sugar = şeker
+food.salt # salt = tuz
+food.breakfast # breakfast = kahvaltı
+food.lunch # lunch = öğle yemeği
+food.dinner # dinner = akşam yemeği
+food.food # food = yiyecek
+fruit.fruit # fruit = meyve
+vegetable.vegetable # vegetable = sebze
+
+@sentences 1
+sentence.a1_breakfast_home # I eat breakfast at home. = Evde kahvaltı yapıyorum.
+sentence.a1_coffee_milk # I want coffee with milk. = Sütlü kahve istiyorum.
+sentence.a1_not_like_tea # I do not like tea. = Çay sevmiyorum.

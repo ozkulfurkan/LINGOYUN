@@ -1,0 +1,53 @@
+@theme adult.greetings
+@title greetings
+@band A1
+
+@words
+greeting.hello # hello = merhaba
+greeting.goodbye # goodbye = hoşça kal
+greeting.yes # yes = evet
+greeting.no # no = hayır
+greeting.please # please = lütfen
+greeting.thank_you # thank you = teşekkür ederim
+greeting.sorry # sorry = özür dilerim
+greeting.good_morning # good morning = günaydın
+greeting.good_afternoon # good afternoon = iyi günler
+greeting.good_evening # good evening = iyi akşamlar
+greeting.good_night # good night = iyi geceler
+greeting.welcome # welcome = hoş geldin
+greeting.excuse_me # excuse me = affedersiniz
+greeting.nice_to_meet_you # nice to meet you = memnun oldum
+greeting.see_you # see you later = sonra görüşürüz
+greeting.you_are_welcome # you're welcome = rica ederim
+idiom.take_care # take care = kendine iyi bak
+idiom.of_course # of course = tabii ki
+idiom.no_problem # no problem = sorun değil
+idiom.good_luck # good luck = iyi şanslar
+idiom.have_a_nice_day # have a nice day = iyi günler
+idiom.come_on # come on = hadi
+idiom.never_mind # never mind = boş ver
+idiom.get_well_soon # get well soon = geçmiş olsun
+idiom.congratulations # congratulations = tebrikler
+idiom.wait_a_minute # wait a minute = bir dakika
+
+@sentences 1
+sentence.a1_we_friends # We are friends. = Biz arkadaşız.
+sentence.a1_where_from # Where are you from? = Nerelisin?
+sentence.a1_how_old # How old are you? = Kaç yaşındasın?
+sentence.a1_daughter_reads # My daughter reads a book every day. = Kızım her gün kitap okuyor.
+sentence.a1_two_brothers # I have two brothers. = İki erkek kardeşim var.
+sentence.a1_have_children # Do you have children? = Çocuğun var mı?
+sentence.a1_can_help # Can you help me? = Bana yardım edebilir misin?
+sentence.a1_work_morning # I go to work in the morning. = Sabah işe gidiyorum.
+sentence.a1_glass_water # A glass of water, please. = Bir bardak su, lütfen.
+sentence.a1_weather_good # The weather is very good. = Hava çok güzel.
+sentence.a1_mother_cooks # My mother cooks every day. = Annem her gün yemek yapıyor.
+sentence.a1_father_tv # My father watches television in the evening. = Babam akşam televizyon izliyor.
+sentence.a1_like_fish # Do you like fish? = Balık sever misin?
+sentence.a1_what_want # What do you want? = Ne istiyorsun?
+sentence.a1_where_work # Where do you work? = Nerede çalışıyorsun?
+sentence.a1_never_coffee_night # I never drink coffee at night. = Geceleri asla kahve içmem.
+sentence.a1_open_books # Please open your books. = Lütfen kitaplarınızı açın.
+sentence.a1_sorry_late # Sorry, I am late. = Özür dilerim, geç kaldım.
+sentence.a1_thanks_help # Thank you for your help. = Yardımın için teşekkür ederim.
+sentence.a1_see_tomorrow # See you tomorrow. = Yarın görüşürüz.

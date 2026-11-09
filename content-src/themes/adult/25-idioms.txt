@@ -1,0 +1,29 @@
+@theme adult.idioms
+@title idioms
+@band A2
+
+@words
+idiom.piece_of_cake # a piece of cake = çocuk oyuncağı
+idiom.blue_moon # once in a blue moon = kırk yılda bir
+idiom.break_the_ice # break the ice = buzları eritmek
+idiom.keep_an_eye # keep an eye on = göz kulak olmak
+idiom.by_heart # learn by heart = ezberlemek
+idiom.on_time # on time = zamanında
+idiom.change_mind # change your mind = fikrini değiştirmek
+idiom.feel_at_home # feel at home = kendini evinde hissetmek
+idiom.pay_attention # pay attention = dikkat etmek
+idiom.take_it_easy # take it easy = sakin ol
+idiom.time_flies # time flies = zaman su gibi akıyor
+idiom.better_late # better late than never = geç olsun, güç olmasın
+idiom.practice_perfect # practice makes perfect = pratik yapan ustalaşır
+idiom.easy_come # easy come, easy go = haydan gelen huya gider
+idiom.no_pain # no pain, no gain = emek olmadan yemek olmaz
+idiom.all_ears # be all ears = can kulağıyla dinlemek
+false_friend.actual # actual = gerçek
+false_friend.fabric # fabric = kumaş
+false_friend.magazine # magazine = dergi
+false_friend.agenda # agenda = gündem
+false_friend.smoking # smoking = sigara içme
+false_friend.nervous # nervous = gergin
+false_friend.recipe # recipe = yemek tarifi
+false_friend.billion # billion = milyar

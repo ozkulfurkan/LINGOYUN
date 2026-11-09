@@ -1,0 +1,55 @@
+@theme adult.shopping
+@title shopping
+@band A2
+
+@words
+money.money # money = para
+money.price # price = fiyat
+money.credit_card # credit card = kredi kartı
+money.cash # cash = nakit
+money.receipt # receipt = fiş
+money.bill # bill = hesap
+money.discount # discount = indirim
+money.size # size = beden
+money.wallet # wallet = cüzdan
+money.coin # coin = madenî para
+place.supermarket # supermarket = süpermarket
+money.pay # pay = ödemek
+money.spend # spend = harcamak
+money.save # save = biriktirmek
+money.sell # sell = satmak
+money.borrow # borrow = ödünç almak
+money.lend # lend = ödünç vermek
+money.cost # cost = mal olmak
+action.try_on # try on = denemek
+
+@sentences 1
+sentence.a2_cinema_yesterday # I went to the movies yesterday. = Dün sinemaya gittim.
+sentence.a2_bought_dress # She bought a new dress. = Yeni bir elbise aldı.
+sentence.a2_ate_fish # We ate fish at a restaurant. = Bir restoranda balık yedik.
+sentence.a2_tired_yesterday # I was very tired yesterday. = Dün çok yorgundum.
+sentence.a2_home_sunday # They were at home on Sunday. = Pazar günü evdeydiler.
+sentence.a2_where_holiday # Where did you go on vacation? = Tatilde nereye gittin?
+sentence.a2_call_tomorrow # I will call you tomorrow. = Seni yarın arayacağım.
+sentence.a2_rain_tomorrow # It will rain tomorrow. = Yarın yağmur yağacak.
+sentence.a2_buy_house # They are going to buy a house. = Bir ev alacaklar.
+sentence.a2_this_evening # What are you doing this evening? = Bu akşam ne yapıyorsun?
+sentence.a2_hotel_bigger # This hotel is bigger than that hotel. = Bu otel o otelden daha büyük.
+sentence.a2_train_cheaper # The train is cheaper than the plane. = Tren uçaktan daha ucuz.
+sentence.a2_best_restaurant # This is the best restaurant in the city. = Bu, şehirdeki en iyi restoran.
+sentence.a2_most_expensive # This is the most expensive hotel in the city. = Bu, şehirdeki en pahalı otel.
+sentence.a2_brother_older # My brother is older than me. = Ağabeyim benden büyük.
+sentence.a2_can_drive # I can drive a car. = Araba sürebilirim.
+sentence.a2_pay_card # Can I pay by credit card? = Kredi kartıyla ödeyebilir miyim?
+sentence.a2_should_doctor # You should see a doctor. = Doktora görünmelisin.
+sentence.a2_work_saturday # I have to work on Saturday. = Cumartesi çalışmak zorundayım.
+sentence.a2_table_two # I would like a table for two. = İki kişilik bir masa istiyorum.
+sentence.a2_may_open # May I open the window? = Pencereyi açabilir miyim?
+sentence.a2_try_jacket # Can I try on this jacket? = Bu ceketi deneyebilir miyim?
+sentence.a2_what_size # What size do you want? = Hangi bedeni istiyorsun?
+sentence.a2_discount # Is there a discount? = İndirim var mı?
+sentence.a2_the_bill # Can we have the check, please? = Hesabı alabilir miyiz, lütfen?
+sentence.a2_enough_money # I do not have enough money. = Yeterli param yok.
+sentence.a2_sold_car # They sold their old car. = Eski arabalarını sattılar.
+sentence.a2_speaking_phone # She is speaking on the phone now. = Şu anda telefonda konuşuyor.
+sentence.a2_cold_so_home # It was cold, so we went home. = Hava soğuktu, bu yüzden eve gittik.

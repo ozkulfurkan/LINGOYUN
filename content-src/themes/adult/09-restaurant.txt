@@ -1,0 +1,81 @@
+@theme adult.restaurant
+@title restaurant
+@band A1
+
+@words
+place.restaurant # restaurant = restoran
+food.food # food = yiyecek
+food.breakfast # breakfast = kahvaltı
+food.lunch # lunch = öğle yemeği
+food.dinner # dinner = akşam yemeği
+food.bread # bread = ekmek
+food.meat # meat = et
+food.salad # salad = salata
+food.rice # rice = pilav
+animal.fish # fish = balık
+animal.chicken # chicken = tavuk
+drink.coffee # coffee = kahve
+drink.tea # tea = çay
+drink.juice # juice = meyve suyu
+home.plate # plate = tabak
+home.fork # fork = çatal
+home.spoon # spoon = kaşık
+home.glass # glass = bardak
+quality.hungry # hungry = aç
+quality.thirsty # thirsty = susamış
+work.waiter # waiter = garson
+money.bill # bill = hesap
+travel.reservation # reservation = rezervasyon
+quality.delicious # delicious = lezzetli
+quality.salty # salty = tuzlu
+drink.water # water = su
+home.table # table = masa
+food.soup # soup = çorba
+restaurant.menu # menu = menü
+restaurant.dessert # dessert = tatlı
+restaurant.main_course # main course = ana yemek
+restaurant.starter # appetizer = başlangıç (yemek)
+restaurant.napkin # napkin = peçete
+restaurant.tip # tip = bahşiş
+restaurant.sauce # sauce = sos
+restaurant.order # order = sipariş vermek
+restaurant.vegetarian # vegetarian = vejetaryen
+restaurant.spicy # spicy = acı
+restaurant.grilled # grilled = ızgara
+restaurant.fried # fried = kızartma
+
+@sentences 1
+restaurant.a1_table_two # A table for two, please. = İki kişilik bir masa, lütfen.
+restaurant.a1_very_hungry # I am very hungry today. = Bugün çok açım.
+restaurant.a1_water_me # Water for me, please. = Bana su, lütfen.
+restaurant.a1_soup_bread # I would like soup and bread. = Çorba ve ekmek istiyorum.
+restaurant.a1_fish_today # Do you have fish today? = Bugün balık var mı?
+restaurant.a1_tea_price # How much is the tea? = Çay ne kadar?
+restaurant.a1_food_good # The food is very good. = Yemek çok güzel.
+restaurant.a1_where_restaurant # Where is the restaurant? = Restoran nerede?
+restaurant.a1_meat_cold # This meat is cold. = Bu et soğuk.
+restaurant.a1_two_coffees # We would like two coffees. = İki kahve istiyoruz.
+
+@sentences 2
+restaurant.a2_see_menu # Can we see the menu for today, please? = Bugünkü menüyü görebilir miyiz, lütfen?
+restaurant.a2_table_window # We would like a table near the window. = Pencereye yakın bir masa istiyoruz.
+restaurant.a2_soup_salad # I want some soup and salad for lunch. = Öğle yemeğinde çorba ve salata istiyorum.
+restaurant.a2_spicy_children # Is this soup very spicy for young children? = Bu çorba küçük çocuklar için çok acı mı?
+restaurant.a2_wife_meat # My wife does not eat meat or fish. = Eşim et ve balık yemez.
+restaurant.a2_more_water # Could you bring us some more water, please? = Bize biraz daha su getirebilir misiniz, lütfen?
+restaurant.a2_chicken_cold # The chicken was delicious but the soup was cold. = Tavuk lezzetliydi ama çorba soğuktu.
+restaurant.a2_two_coffees # We would like to order two coffees now. = Şimdi iki kahve sipariş etmek istiyoruz.
+restaurant.a2_bill_card # Can we have the check and pay by card? = Hesabı alıp kartla ödeyebilir miyiz?
+restaurant.a2_reservation_eight # I have a reservation for four at eight. = Saat sekize dört kişilik rezervasyonum var.
+
+@sentences 3
+restaurant.b1_recommend_light # Could you recommend something light because I am not very hungry? = Çok aç olmadığım için hafif bir şey önerebilir misiniz?
+restaurant.b1_nuts_ingredients # I am allergic to nuts, so please check the ingredients carefully. = Kuruyemişe alerjim var, bu yüzden lütfen malzemeleri dikkatlice kontrol edin.
+restaurant.b1_table_six # We booked a table for six, but two friends will arrive late. = Altı kişilik bir masa ayırttık ama iki arkadaşımız geç gelecek.
+restaurant.b1_share_main # The portions here are large, so we can share one main course. = Buradaki porsiyonlar büyük, bu yüzden bir ana yemeği paylaşabiliriz.
+restaurant.b1_fish_late # I ordered the fish twenty minutes ago, but it still has not arrived. = Balığı yirmi dakika önce sipariş ettim ama hâlâ gelmedi.
+restaurant.b1_steak # Would you like your steak rare, medium or well done, sir? = Bifteğinizi az, orta veya iyi pişmiş mi istersiniz, efendim?
+restaurant.b1_wait_bar # If no table is free now, we can wait at the bar. = Şu anda boş masanız yoksa barda bekleyebiliriz.
+restaurant.b1_overcooked # This meat is overcooked, so could you please bring me another one? = Bu et fazla pişmiş, bana başka bir tane getirebilir misiniz, lütfen?
+restaurant.b1_take_away # Can we get the rest of our food to go? = Yemeğimizin kalanını paket yaptırabilir miyiz?
+restaurant.b1_service_slow # The service was slow, but the waiter was kind and very helpful. = Servis yavaştı ama garson nazik ve çok yardımseverdi.

@@ -1,0 +1,30 @@
+@theme adult.body_weather
+@title body_weather
+@band A1
+
+@words
+body.head # head = baş
+body.hair # hair = saç
+body.face # face = yüz
+body.eye # eye = göz
+body.ear # ear = kulak
+body.nose # nose = burun
+body.mouth # mouth = ağız
+body.tooth # tooth = diş
+body.arm # arm = kol
+body.hand # hand = el
+body.leg # leg = bacak
+body.foot # foot = ayak
+nature.sun # sun = güneş
+nature.rain # rain = yağmur
+nature.snow # snow = kar
+nature.wind # wind = rüzgâr
+nature.cloud # cloud = bulut
+nature.sea # sea = deniz
+nature.mountain # mountain = dağ
+nature.tree # tree = ağaç
+nature.flower # flower = çiçek
+animal.cat # cat = kedi
+animal.dog # dog = köpek
+animal.bird # bird = kuş
+nature.weather # weather = hava

@@ -18,6 +18,7 @@ import idioms from './concepts/idioms.json';
 import leisure from './concepts/leisure.json';
 import money from './concepts/money.json';
 import nature from './concepts/nature.json';
+import path from './concepts/path.json';
 import people from './concepts/people.json';
 import places from './concepts/places.json';
 import pronouns from './concepts/pronouns.json';
@@ -68,6 +69,7 @@ export const content: ContentBundle = {
     ...sentences,
     ...falseFriends,
     ...restaurant,
+    ...path,
   ] as Concept[],
   languages: {
     tr: { words: trWords, sentences: trSentences },

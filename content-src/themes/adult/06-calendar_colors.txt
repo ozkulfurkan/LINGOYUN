@@ -1,0 +1,35 @@
+@theme adult.calendar_colors
+@title calendar_colors
+@band A1
+
+@words
+month.january # January = ocak
+month.february # February = şubat
+month.march # March = mart
+month.april # April = nisan
+month.may # May = mayıs
+month.june # June = haziran
+month.july # July = temmuz
+month.august # August = ağustos
+month.september # September = eylül
+month.october # October = ekim
+month.november # November = kasım
+month.december # December = aralık
+season.spring # spring = ilkbahar
+season.summer # summer = yaz
+season.autumn # fall = sonbahar
+season.winter # winter = kış
+color.red # red = kırmızı
+color.blue # blue = mavi
+color.yellow # yellow = sarı
+color.green # green = yeşil
+color.orange # orange = turuncu
+color.purple # purple = mor
+color.pink # pink = pembe
+color.brown # brown = kahverengi
+color.black # black = siyah
+color.white # white = beyaz
+color.gray # gray = gri
+
+@sentences 1
+sentence.a1_holiday_july # My vacation is in July. = Tatilim temmuzda.

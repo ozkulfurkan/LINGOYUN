@@ -1,0 +1,31 @@
+@theme adult.describing
+@title describing
+@band A1
+
+@words
+opposite.big # big = büyük
+opposite.small # small = küçük
+opposite.long # long = uzun
+opposite.short # short = kısa
+opposite.hot # hot = sıcak
+opposite.cold # cold = soğuk
+opposite.happy # happy = mutlu
+opposite.sad # sad = üzgün
+quality.new # new = yeni
+quality.old # old = eski
+quality.good # good = iyi
+quality.bad # bad = kötü
+quality.hungry # hungry = aç
+quality.thirsty # thirsty = susamış
+quality.tired # tired = yorgun
+quality.clean # clean = temiz
+quality.beautiful # beautiful = güzel
+quality.easy # easy = kolay
+quality.difficult # difficult = zor
+quality.young # young = genç
+quality.tall # tall = uzun boylu
+quality.expensive # expensive = pahalı
+quality.cheap # cheap = ucuz
+quality.busy # busy = meşgul
+quality.correct # correct = doğru
+quality.wrong # wrong = yanlış

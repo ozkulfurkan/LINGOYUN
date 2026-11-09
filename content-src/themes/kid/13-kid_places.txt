@@ -1,0 +1,31 @@
+@theme kid.kid_places
+@title kid_places
+@band L3
+
+@words
+place.park # park = park
+place.hospital # hospital = hastane
+place.store # store = mağaza
+place.library # library = kütüphane
+place.street # street = sokak
+place.city # city = şehir
+place.village # village = köy
+place.garden # garden = bahçe
+place.room # room = oda
+place.kitchen # kitchen = mutfak
+place.bathroom # bathroom = banyo
+place.bedroom # bedroom = yatak odası
+question.what # what = ne
+question.who # who = kim
+question.where # where = nerede
+question.when # when = ne zaman
+question.why # why = neden
+question.how # how = nasıl
+
+@sentences 1
+sentence.l3_where_library # Where is the library? = Kütüphane nerede?
+sentence.l3_who_boy # Who is this boy? = Bu çocuk kim?
+sentence.l3_when_lesson # When is the lesson? = Ders ne zaman?
+sentence.l3_why_sad # Why are you sad? = Neden üzgünsün?
+sentence.l3_how_you # How are you? = Nasılsın?
+sentence.l3_wash_hands # I wash my hands in the bathroom. = Ellerimi banyoda yıkarım.

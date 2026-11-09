@@ -1,0 +1,16 @@
+@theme adult.idioms_2
+@title idioms_2
+@band B1
+
+@words
+idiom.hot_water # be in hot water = başı dertte olmak
+idiom.arm_and_leg # cost an arm and a leg = dünyanın parasına mal olmak
+idiom.two_birds # kill two birds with one stone = bir taşla iki kuş vurmak
+idiom.early_bird # the early bird catches the worm = erken kalkan yol alır
+false_friend.parole # parole = şartlı tahliye
+false_friend.pathetic # pathetic = acınası
+false_friend.sympathetic # sympathetic = anlayışlı
+false_friend.sensible # sensible = mantıklı
+false_friend.realize # realize = fark etmek
+false_friend.pension # pension = emekli maaşı
+emotion.reluctant # reluctant = isteksiz

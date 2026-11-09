@@ -1,0 +1,45 @@
+@theme adult.travel
+@title travel
+@band A2
+
+@words
+vehicle.ship # ship = gemi
+vehicle.subway # subway = metro
+vehicle.motorcycle # motorcycle = motosiklet
+vehicle.traffic_light # traffic light = trafik ışığı
+travel.suitcase # suitcase = bavul
+travel.flight # flight = uçuş
+travel.reservation # reservation = rezervasyon
+travel.tourist # tourist = turist
+travel.trip # trip = gezi
+travel.bus_stop # bus stop = otobüs durağı
+travel.border # border = sınır
+travel.abroad # abroad = yurt dışı
+travel.guide # guide = rehber
+travel.traffic # traffic = trafik
+travel.bridge # bridge = köprü
+travel.corner # corner = köşe
+travel.town_square # square = meydan
+travel.visa # visa = vize
+place.cinema # movie theater = sinema
+travel.arrive # arrive = varmak
+travel.leave # leave = ayrılmak
+travel.travel # travel = seyahat etmek
+travel.rent # rent = kiralamak
+travel.turn # turn = dönmek
+travel.lost # lost = kayıp
+
+@sentences 1
+sentence.a2_see_film # Did you see the movie? = Filmi gördün mü?
+sentence.a2_lost_wallet # He lost his wallet on the bus. = Cüzdanını otobüste kaybetti.
+sentence.a2_how_trip # How was your trip? = Gezin nasıldı?
+sentence.a2_travel_summer # We are going to travel next summer. = Gelecek yaz seyahat edeceğiz.
+sentence.a2_book_interesting # This book is more interesting than that movie. = Bu kitap o filmden daha ilginç.
+sentence.a2_reservation # I have a reservation at this hotel. = Bu otelde rezervasyonum var.
+sentence.a2_flight_eight # Our flight leaves at eight in the morning. = Uçuşumuz sabah sekizde kalkıyor.
+sentence.a2_suitcase_heavy # My suitcase is very heavy. = Bavulum çok ağır.
+sentence.a2_turn_left # Turn left at the corner. = Köşeden sola dön.
+sentence.a2_nearest_stop # Where is the nearest bus stop? = En yakın otobüs durağı nerede?
+sentence.a2_i_am_lost # I am lost. Can you help me? = Kayboldum. Bana yardım edebilir misin?
+sentence.a2_think_boring # I think this movie is boring. = Bence bu film sıkıcı.
+sentence.a2_film_weekend # We watch a movie every weekend. = Her hafta sonu film izliyoruz.

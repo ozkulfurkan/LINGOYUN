@@ -1,0 +1,47 @@
+@theme adult.leisure_world
+@title leisure_world
+@band A2
+
+@words
+leisure.film # movie = film
+leisure.music # music = müzik
+leisure.song # song = şarkı
+leisure.concert # concert = konser
+leisure.theater # theater = tiyatro
+leisure.football # soccer = futbol
+leisure.sport # sport = spor
+leisure.game # game = oyun
+leisure.hobby # hobby = hobi
+leisure.newspaper # newspaper = gazete
+leisure.magazine # magazine = dergi
+leisure.story # story = hikâye
+leisure.party # party = parti
+leisure.gift # gift = hediye
+leisure.birthday # birthday = doğum günü
+leisure.wedding # wedding = düğün
+leisure.picnic # picnic = piknik
+nature.moon # moon = ay
+nature.sky # sky = gökyüzü
+nature.river # river = nehir
+nature.lake # lake = göl
+nature.forest # forest = orman
+nature.island # island = ada
+nature.beach # beach = plaj
+animal.horse # horse = at
+animal.cow # cow = inek
+animal.sheep # sheep = koyun
+nature.storm # storm = fırtına
+nature.fog # fog = sis
+nature.temperature # temperature = sıcaklık
+nature.degree # degree = derece
+nature.environment # environment = çevre
+nature.world # world = dünya
+nature.north # north = kuzey
+nature.south # south = güney
+nature.east # east = doğu
+nature.west # west = batı
+
+@sentences 1
+sentence.a2_cannot_party # I cannot come to the party. = Partiye gelemem.
+sentence.a2_gift_wife # I bought a gift for my wife. = Eşim için bir hediye aldım.
+sentence.a2_photos_beach # I took many photos at the beach. = Plajda çok fotoğraf çektim.

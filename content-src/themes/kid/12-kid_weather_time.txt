@@ -1,0 +1,30 @@
+@theme kid.kid_weather_time
+@title kid_weather_time
+@band L3
+
+@words
+season.spring # spring = ilkbahar
+season.summer # summer = yaz
+season.autumn # fall = sonbahar
+season.winter # winter = kış
+nature.sun # sun = güneş
+nature.rain # rain = yağmur
+nature.snow # snow = kar
+nature.wind # wind = rüzgâr
+nature.cloud # cloud = bulut
+time.today # today = bugün
+time.tomorrow # tomorrow = yarın
+time.yesterday # yesterday = dün
+time.morning # morning = sabah
+time.evening # evening = akşam
+time.night # night = gece
+time.week # week = hafta
+time.month # month = ay
+time.year # year = yıl
+
+@sentences 1
+sentence.l3_cold_today # It is cold today. = Bugün hava soğuk.
+sentence.l3_tomorrow_monday # Tomorrow is Monday. = Yarın pazartesi.
+sentence.l3_swim_summer # We swim in summer. = Yazın yüzeriz.
+sentence.l3_snows_winter # It snows in winter. = Kışın kar yağar.
+sentence.l3_sings_morning # She sings in the morning. = O sabahları şarkı söyler.

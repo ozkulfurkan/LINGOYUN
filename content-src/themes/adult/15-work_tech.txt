@@ -1,0 +1,49 @@
+@theme adult.work_tech
+@title work_tech
+@band A2
+
+@words
+work.company # company = şirket
+work.manager # manager = müdür
+work.boss # boss = patron
+work.colleague # colleague = iş arkadaşı
+work.employee # employee = çalışan
+work.meeting # meeting = toplantı
+work.salary # salary = maaş
+work.interview # interview = iş görüşmesi
+work.experience # experience = deneyim
+work.project # project = proje
+work.report # report = rapor
+work.customer # customer = müşteri
+work.factory # factory = fabrika
+work.lawyer # lawyer = avukat
+work.police_officer # police officer = polis memuru
+work.farmer # farmer = çiftçi
+work.chef # chef = aşçı
+work.artist # artist = sanatçı
+tech.internet # internet = internet
+tech.website # website = web sitesi
+tech.password # password = şifre
+tech.message # message = mesaj
+tech.email # email = e-posta
+tech.photo # photo = fotoğraf
+tech.video # video = video
+tech.camera # camera = fotoğraf makinesi
+tech.laptop # laptop = dizüstü bilgisayar
+tech.app # app = uygulama
+tech.battery # battery = pil
+tech.screen # screen = ekran
+tech.keyboard # keyboard = klavye
+tech.charger # charger = şarj aleti
+tech.download # download = indirmek
+
+@sentences 1
+sentence.a2_forgot_password # I forgot my password. = Şifremi unuttum.
+sentence.a2_meeting_long # The meeting was very long. = Toplantı çok uzundu.
+sentence.a2_meeting_nine # The meeting will start at nine. = Toplantı saat dokuzda başlayacak.
+sentence.a2_meet_manager # I have a meeting with my manager. = Müdürümle toplantım var.
+sentence.a2_company_office # Our company has a new office. = Şirketimizin yeni bir ofisi var.
+sentence.a2_colleague_report # My colleague helped me with the report. = İş arkadaşım raporda bana yardım etti.
+sentence.a2_send_email # Please send me an email. = Lütfen bana bir e-posta gönder.
+sentence.a2_salary_good # The salary is good but the work is difficult. = Maaş iyi ama iş zor.
+sentence.a2_interview_friday # She has a job interview on Friday. = Cuma günü iş görüşmesi var.

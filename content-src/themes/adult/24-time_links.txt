@@ -1,0 +1,39 @@
+@theme adult.time_links
+@title time_links
+@band A2
+
+@words
+time.weekend # weekend = hafta sonu
+time.last # last = geçen
+time.next # next = gelecek
+time.ago # ago = önce
+time.soon # soon = yakında
+time.already # already = zaten
+time.yet # yet = henüz
+time.still # still = hâlâ
+time.usually # usually = genellikle
+time.often # often = sık sık
+function.again # again = tekrar
+function.maybe # maybe = belki
+function.together # together = birlikte
+function.alone # alone = yalnız
+function.really # really = gerçekten
+function.almost # almost = neredeyse
+function.well # well = iyi
+function.if # if = eğer
+function.so # so = bu yüzden
+function.then # then = sonra
+function.before # before = önce
+function.after # after = sonra
+function.without # without = olmadan
+position.between # between = arasında
+function.during # during = sırasında
+function.until # until = -e kadar
+
+@sentences 1
+sentence.a2_she_called # She called me last night. = Dün gece beni aradı.
+sentence.a2_train_left # The train left ten minutes ago. = Tren on dakika önce kalktı.
+sentence.a2_not_sleep_well # I did not sleep well. = İyi uyumadım.
+sentence.a2_weather_bad # The weather was bad last week. = Geçen hafta hava kötüydü.
+sentence.a2_new_job # She will start a new job next month. = Gelecek ay yeni bir işe başlayacak.
+sentence.a2_wash_before_dinner # I wash my hands before dinner. = Akşam yemeğinden önce ellerimi yıkarım.

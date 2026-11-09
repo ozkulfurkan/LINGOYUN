@@ -1,0 +1,24 @@
+@theme kid.kid_fruits_food
+@title kid_fruits_food
+@band L1
+
+@words
+fruit.apple # apple = elma
+fruit.pear # pear = armut
+fruit.cherry # cherry = kiraz
+fruit.grapes # grapes = üzüm
+fruit.banana # banana = muz
+fruit.orange # orange = portakal
+fruit.strawberry # strawberry = çilek
+fruit.watermelon # watermelon = karpuz
+food.bread # bread = ekmek
+food.cheese # cheese = peynir
+food.egg # egg = yumurta
+food.cake # cake = pasta
+drink.milk # milk = süt
+drink.water # water = su
+
+@sentences 1
+sentence.l1_apple_red # The apple is red. = Elma kırmızı.
+sentence.l1_milk_white # The milk is white. = Süt beyaz.
+sentence.l1_water_cold # The water is cold. = Su soğuk.

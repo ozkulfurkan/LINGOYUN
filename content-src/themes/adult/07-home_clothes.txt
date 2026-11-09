@@ -1,0 +1,50 @@
+@theme adult.home_clothes
+@title home_clothes
+@band A1
+
+@words
+home.house # house = ev
+home.door # door = kapı
+home.window # window = pencere
+home.table # table = masa
+home.chair # chair = sandalye
+home.bed # bed = yatak
+home.fridge # fridge = buzdolabı
+home.cup # cup = fincan
+home.glass # glass = bardak
+home.plate # plate = tabak
+home.spoon # spoon = kaşık
+home.fork # fork = çatal
+home.key # key = anahtar
+home.phone # phone = telefon
+home.television # television = televizyon
+home.book # book = kitap
+place.room # room = oda
+place.kitchen # kitchen = mutfak
+place.bathroom # bathroom = banyo
+place.bedroom # bedroom = yatak odası
+place.garden # garden = bahçe
+home.apartment # apartment = daire
+home.living_room # living room = oturma odası
+home.computer # computer = bilgisayar
+home.knife # knife = bıçak
+home.bottle # bottle = şişe
+clothes.shirt # shirt = gömlek
+clothes.tshirt # T-shirt = tişört
+clothes.pants # pants = pantolon
+clothes.skirt # skirt = etek
+clothes.dress # dress = elbise
+clothes.coat # coat = mont
+clothes.jacket # jacket = ceket
+clothes.sweater # sweater = kazak
+clothes.shoes # shoes = ayakkabı
+clothes.socks # socks = çorap
+clothes.hat # hat = şapka
+clothes.bag # bag = çanta
+
+@sentences 1
+sentence.a1_book_table # The book is on the table. = Kitap masanın üstünde.
+sentence.a1_cat_under_bed # The cat is under the bed. = Kedi yatağın altında.
+sentence.a1_car_behind_house # The car is behind the house. = Araba evin arkasında.
+sentence.a1_small_apartment # We live in a small apartment. = Küçük bir dairede yaşıyoruz.
+sentence.a1_room_clean # My room is clean. = Odam temiz.

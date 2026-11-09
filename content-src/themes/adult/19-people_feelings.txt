@@ -1,0 +1,39 @@
+@theme adult.people_feelings
+@title people_feelings
+@band A2
+
+@words
+family.uncle # uncle = amca
+family.aunt # aunt = teyze
+family.cousin # cousin = kuzen
+feeling.angry # angry = kızgın
+feeling.afraid # afraid = korkmuş
+feeling.worried # worried = endişeli
+feeling.surprised # surprised = şaşırmış
+feeling.bored # bored = canı sıkkın
+feeling.excited # excited = heyecanlı
+feeling.lonely # lonely = yalnız
+feeling.calm # calm = sakin
+person.kind # kind = nazik
+person.funny # funny = komik
+person.clever # clever = zeki
+person.lazy # lazy = tembel
+person.shy # shy = utangaç
+person.friendly # friendly = cana yakın
+person.honest # honest = dürüst
+person.brave # brave = cesur
+person.rude # rude = kaba
+person.serious # serious = ciddi
+person.married # married = evli
+person.single # single = bekâr
+person.thin # thin = zayıf
+person.guest # guest = misafir
+person.beard # beard = sakal
+
+@sentences 1
+sentence.a2_visit_uncle # We visited my uncle last week. = Geçen hafta amcamı ziyaret ettik.
+sentence.a2_why_angry # Why are you angry? = Neden kızgınsın?
+sentence.a2_afraid_dogs # My daughter is afraid of dogs. = Kızım köpeklerden korkuyor.
+sentence.a2_bored_home # I am bored at home. = Evde sıkılıyorum.
+sentence.a2_excited_wedding # We are excited about the wedding. = Düğün için heyecanlıyız.
+sentence.a2_kind_neighbor # Our neighbor is a very kind person. = Komşumuz çok nazik biri.

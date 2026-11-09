@@ -1,0 +1,29 @@
+@theme kid.kid_greetings
+@title kid_greetings
+@band L1
+
+@words
+greeting.hello # hello = merhaba
+greeting.goodbye # goodbye = hoşça kal
+greeting.yes # yes = evet
+greeting.no # no = hayır
+greeting.please # please = lütfen
+greeting.thank_you # thank you = teşekkür ederim
+greeting.sorry # sorry = özür dilerim
+greeting.good_morning # good morning = günaydın
+pronoun.i # I = ben
+pronoun.you # you = sen
+pronoun.he # he = o
+pronoun.she # she = o
+pronoun.my # my = benim
+pronoun.this # this = bu
+
+@sentences 1
+sentence.l1_this_cat # This is a cat. = Bu bir kedi.
+sentence.l1_you_friend # You are my friend. = Sen benim arkadaşımsın.
+sentence.l1_she_sister # She is my sister. = O benim kız kardeşim.
+sentence.l1_this_mother # This is my mother. = Bu benim annem.
+sentence.l1_this_father # This is my father. = Bu benim babam.
+sentence.l1_this_book # This is my book. = Bu benim kitabım.
+sentence.l1_thanks_teacher # Thank you, teacher. = Teşekkür ederim, öğretmenim.
+sentence.l1_morning_friend # Good morning, my friend. = Günaydın, arkadaşım.

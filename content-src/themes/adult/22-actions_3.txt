@@ -1,0 +1,36 @@
+@theme adult.actions_3
+@title actions_3
+@band A2
+
+@words
+action.decide # decide = karar vermek
+action.agree # agree = aynı fikirde olmak
+action.explain # explain = açıklamak
+action.teach # teach = öğretmek
+action.meet # meet = tanışmak
+action.invite # invite = davet etmek
+action.visit # visit = ziyaret etmek
+action.show # show = göstermek
+action.tell # tell = anlatmak
+action.hear # hear = duymak
+action.laugh # laugh = gülmek
+action.smile # smile = gülümsemek
+action.cry # cry = ağlamak
+action.dance # dance = dans etmek
+action.win # win = kazanmak
+action.earn # earn = para kazanmak
+action.break # break = kırmak
+action.fix # fix = tamir etmek
+action.build # build = inşa etmek
+action.grow # grow = büyümek
+action.fall # fall = düşmek
+action.throw # throw = atmak
+action.catch # catch = yakalamak
+action.pull # pull = çekmek
+action.push # push = itmek
+action.wear # wear = giymek
+action.prepare # prepare = hazırlamak
+
+@sentences 1
+sentence.a2_explain_word # Could you explain this word? = Bu kelimeyi açıklayabilir misin?
+sentence.a2_agree_you # I agree with you. = Sana katılıyorum.

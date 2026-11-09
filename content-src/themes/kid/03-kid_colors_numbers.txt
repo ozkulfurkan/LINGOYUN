@@ -1,0 +1,31 @@
+@theme kid.kid_colors_numbers
+@title kid_colors_numbers
+@band L1
+
+@words
+color.red # red = kırmızı
+color.blue # blue = mavi
+color.yellow # yellow = sarı
+color.green # green = yeşil
+color.orange # orange = turuncu
+color.purple # purple = mor
+color.pink # pink = pembe
+color.brown # brown = kahverengi
+color.black # black = siyah
+color.white # white = beyaz
+color.gray # gray = gri
+number.one # one = bir
+number.two # two = iki
+number.three # three = üç
+number.four # four = dört
+number.five # five = beş
+number.six # six = altı
+number.seven # seven = yedi
+number.eight # eight = sekiz
+number.nine # nine = dokuz
+number.ten # ten = on
+
+@sentences 1
+sentence.l1_ball_blue # The ball is blue. = Top mavi.
+sentence.l1_bear_brown # The bear is brown. = Ayı kahverengi.
+sentence.l1_bag_black # My bag is black. = Çantam siyah.

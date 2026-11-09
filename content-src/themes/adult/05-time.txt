@@ -1,0 +1,43 @@
+@theme adult.time
+@title time
+@band A1
+
+@words
+day.monday # Monday = pazartesi
+day.tuesday # Tuesday = salı
+day.wednesday # Wednesday = çarşamba
+day.thursday # Thursday = perşembe
+day.friday # Friday = cuma
+day.saturday # Saturday = cumartesi
+day.sunday # Sunday = pazar
+time.day # day = gün
+time.week # week = hafta
+time.month # month = ay
+time.year # year = yıl
+time.today # today = bugün
+time.tomorrow # tomorrow = yarın
+time.yesterday # yesterday = dün
+time.morning # morning = sabah
+time.evening # evening = akşam
+time.night # night = gece
+time.time # time = zaman
+time.hour # hour = saat
+time.minute # minute = dakika
+time.afternoon # afternoon = öğleden sonra
+time.noon # noon = öğle
+time.now # now = şimdi
+time.later # later = sonra
+time.early # early = erken
+time.late # late = geç
+time.always # always = her zaman
+time.sometimes # sometimes = bazen
+time.never # never = asla
+
+@sentences 1
+sentence.a1_what_time # What time is it? = Saat kaç?
+sentence.a1_train_late # The train is late. = Tren geç kaldı.
+sentence.a1_hot_today # It is hot today. = Bugün hava sıcak.
+sentence.a1_rain_today # It is raining today. = Bugün yağmur yağıyor.
+sentence.a1_busy_today # I am busy today. = Bugün meşgulüm.
+sentence.a1_today_tuesday # Today is Tuesday. = Bugün salı.
+sentence.a1_always_late # He is always late. = O her zaman geç kalır.

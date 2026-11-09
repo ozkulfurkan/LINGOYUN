@@ -1,0 +1,60 @@
+@theme adult.people
+@title people
+@band A1
+
+@words
+family.mother # mother = anne
+family.father # father = baba
+family.brother # brother = erkek kardeş
+family.sister # sister = kız kardeş
+family.baby # baby = bebek
+family.child # child = çocuk
+family.boy # boy = erkek çocuk
+family.girl # girl = kız
+family.friend # friend = arkadaş
+family.name # name = isim
+family.grandmother # grandmother = büyükanne
+family.grandfather # grandfather = büyükbaba
+person.man # man = adam
+person.woman # woman = kadın
+person.person # person = kişi
+person.people # people = insanlar
+family.family # family = aile
+family.son # son = oğul
+family.daughter # daughter = kız evlat
+family.husband # husband = koca
+family.wife # wife = eş
+family.parents # parents = anne baba
+person.neighbor # neighbor = komşu
+pronoun.i # I = ben
+pronoun.you # you = sen
+pronoun.he # he = o
+pronoun.she # she = o
+pronoun.we # we = biz
+pronoun.they # they = onlar
+pronoun.my # my = benim
+pronoun.your # your = senin
+pronoun.this # this = bu
+pronoun.it # it = o
+pronoun.his # his = onun
+pronoun.her # her = onun
+pronoun.our # our = bizim
+pronoun.their # their = onların
+pronoun.that # that = şu
+pronoun.these # these = bunlar
+pronoun.those # those = şunlar
+
+@sentences 1
+sentence.a1_she_doctor # She is a doctor. = O bir doktor.
+sentence.a1_they_parents # They are my parents. = Onlar benim annem ve babam.
+sentence.a1_wife_hospital # My wife works in a hospital. = Eşim bir hastanede çalışıyor.
+sentence.a1_husband_driver # My husband is a driver. = Kocam bir şoför.
+sentence.a1_son_school # My son goes to school. = Oğlum okula gidiyor.
+sentence.a1_bag_expensive # This bag is very expensive. = Bu çanta çok pahalı.
+sentence.a1_shoes_cheap # These shoes are cheap. = Bu ayakkabılar ucuz.
+sentence.a1_lunch_office # She eats lunch in the office. = Öğle yemeğini ofiste yiyor.
+sentence.a1_question_easy # This question is easy. = Bu soru kolay.
+sentence.a1_that_correct # That is correct. = Bu doğru.
+sentence.a1_grandfather_old # My grandfather is very old. = Büyükbabam çok yaşlı.
+sentence.a1_man_tall # That man is tall. = O adam uzun boylu.
+sentence.a1_woman_neighbor # That woman is my neighbor. = O kadın benim komşum.

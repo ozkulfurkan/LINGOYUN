@@ -1,0 +1,54 @@
+@theme adult.work_school
+@title work_school
+@band A1
+
+@words
+family.teacher # teacher = öğretmen
+school.student # student = öğrenci
+school.classroom # classroom = sınıf
+school.pen # pen = tükenmez kalem
+home.pencil # pencil = kurşun kalem
+school.notebook # notebook = defter
+school.lesson # lesson = ders
+school.homework # homework = ödev
+work.job # job = iş
+work.doctor # doctor = doktor
+work.nurse # nurse = hemşire
+work.engineer # engineer = mühendis
+work.driver # driver = şoför
+work.waiter # waiter = garson
+school.language # language = dil
+school.english # English = İngilizce
+school.word # word = kelime
+school.question # question = soru
+school.answer # answer = cevap
+school.page # page = sayfa
+question.what # what = ne
+question.who # who = kim
+question.where # where = nerede
+question.when # when = ne zaman
+question.why # why = neden
+question.how # how = nasıl
+question.how_much # how much = ne kadar
+question.how_many # how many = kaç
+question.which # which = hangi
+function.and # and = ve
+function.but # but = ama
+function.or # or = veya
+function.because # because = çünkü
+function.very # very = çok
+function.a_little # a little = biraz
+function.every # every = her
+position.under # under = altında
+position.behind # behind = arkasında
+position.next_to # next to = yanında
+position.in_front_of # in front of = önünde
+
+@sentences 1
+sentence.a1_i_student # I am a student. = Ben öğrenciyim.
+sentence.a1_he_engineer # He is an engineer. = O bir mühendis.
+sentence.a1_little_english # I speak a little English. = Biraz İngilizce konuşuyorum.
+sentence.a1_ticket_price # How much is the ticket? = Bilet ne kadar?
+sentence.a1_what_job # What is your job? = İşin ne?
+sentence.a1_learn_english # We are learning English. = İngilizce öğreniyoruz.
+sentence.a1_know_answer # I know the answer. = Cevabı biliyorum.

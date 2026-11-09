@@ -2677,9 +2677,7 @@
           "animal.bird",
           "nature.weather"
         ],
-        "sentences": {
-          "1": []
-        }
+        "sentences": {}
       },
       {
         "id": "adult.restaurant",
@@ -2911,9 +2909,7 @@
           "quality.correct",
           "quality.wrong"
         ],
-        "sentences": {
-          "1": []
-        }
+        "sentences": {}
       },
       {
         "id": "adult.daily_actions",
@@ -3488,9 +3484,7 @@
           "false_friend.recipe",
           "false_friend.billion"
         ],
-        "sentences": {
-          "1": []
-        }
+        "sentences": {}
       },
       {
         "id": "adult.restaurant_2",
@@ -3587,9 +3581,7 @@
           "false_friend.pension",
           "emotion.reluctant"
         ],
-        "sentences": {
-          "1": []
-        }
+        "sentences": {}
       }
     ],
     "kid": [

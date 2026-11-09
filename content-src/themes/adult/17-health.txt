@@ -1,0 +1,39 @@
+@theme adult.health
+@title health
+@band A2
+
+@words
+home.toothbrush # toothbrush = diş fırçası
+body.shoulder # shoulder = omuz
+body.neck # neck = boyun
+body.knee # knee = diz
+body.finger # finger = parmak
+shape.heart # heart = kalp
+health.pain # pain = ağrı
+health.fever # fever = ateş
+health.cough # cough = öksürük
+health.headache # headache = baş ağrısı
+health.flu # flu = grip
+health.medicine # medicine = ilaç
+health.dentist # dentist = diş hekimi
+health.appointment # appointment = randevu
+health.accident # accident = kaza
+health.blood # blood = kan
+health.stomach # stomach = mide
+health.emergency # emergency = acil durum
+health.prescription # prescription = reçete
+health.exercise # exercise = egzersiz
+health.sick # sick = hasta
+health.healthy # healthy = sağlıklı
+health.hurt # hurt = ağrımak
+health.rest # rest = dinlenmek
+
+@sentences 1
+sentence.a2_must_rest # You must rest today. = Bugün dinlenmelisin.
+sentence.a2_headache # I have a headache. = Başım ağrıyor.
+sentence.a2_son_fever # My son has a fever. = Oğlumun ateşi var.
+sentence.a2_dentist # I have an appointment with the dentist. = Diş hekimiyle randevum var.
+sentence.a2_medicine # Take this medicine after dinner. = Bu ilacı akşam yemeğinden sonra al.
+sentence.a2_stomach # My stomach hurts. = Midem ağrıyor.
+sentence.a2_fresh_fruit # Fresh fruit is very healthy. = Taze meyve çok sağlıklı.
+sentence.a2_stayed_sick # I stayed at home because I was sick. = Hasta olduğum için evde kaldım.

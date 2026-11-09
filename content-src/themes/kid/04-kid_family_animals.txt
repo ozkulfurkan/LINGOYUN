@@ -1,0 +1,32 @@
+@theme kid.kid_family_animals
+@title kid_family_animals
+@band L1
+
+@words
+family.mother # mother = anne
+family.father # father = baba
+family.brother # brother = erkek kardeş
+family.sister # sister = kız kardeş
+family.baby # baby = bebek
+family.boy # boy = erkek çocuk
+family.girl # girl = kız
+family.friend # friend = arkadaş
+family.teacher # teacher = öğretmen
+animal.cat # cat = kedi
+animal.dog # dog = köpek
+animal.bird # bird = kuş
+animal.fish # fish = balık
+animal.horse # horse = at
+animal.cow # cow = inek
+animal.sheep # sheep = koyun
+animal.chicken # chicken = tavuk
+animal.duck # duck = ördek
+animal.rabbit # rabbit = tavşan
+animal.mouse # mouse = fare
+animal.bear # bear = ayı
+
+@sentences 1
+sentence.l1_dog_big # The dog is big. = Köpek büyük.
+sentence.l1_he_brother # He is my brother. = O benim erkek kardeşim.
+sentence.l1_cat_small # The cat is small. = Kedi küçük.
+sentence.l1_baby_happy # The baby is happy. = Bebek mutlu.

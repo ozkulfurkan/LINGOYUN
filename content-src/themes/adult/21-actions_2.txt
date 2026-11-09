@@ -1,0 +1,33 @@
+@theme adult.actions_2
+@title actions_2
+@band A2
+
+@words
+action.run # run = koşmak
+action.play # play = oynamak
+action.swim # swim = yüzmek
+action.sing # sing = şarkı söylemek
+action.draw # draw = çizmek
+action.wake_up # wake up = uyanmak
+action.get_up # get up = kalkmak
+action.stand # stand = ayakta durmak
+action.stop # stop = durmak
+action.carry # carry = taşımak
+action.bring # bring = getirmek
+action.send # send = göndermek
+action.receive # receive = teslim almak
+action.find # find = bulmak
+action.lose # lose = kaybetmek
+action.forget # forget = unutmak
+action.remember # remember = hatırlamak
+action.think # think = düşünmek
+action.believe # believe = inanmak
+action.hope # hope = ummak
+action.feel # feel = hissetmek
+action.try # try = denemek
+action.use # use = kullanmak
+action.change # change = değiştirmek
+action.choose # choose = seçmek
+
+@sentences 1
+sentence.a2_not_forget # I will not forget this day. = Bu günü unutmayacağım.

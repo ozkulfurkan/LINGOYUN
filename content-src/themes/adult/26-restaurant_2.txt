@@ -1,0 +1,74 @@
+@theme adult.restaurant_2
+@title restaurant_2
+@band B1
+
+@words
+restaurant.allergy # allergy = alerji
+restaurant.ingredient # ingredient = malzeme
+restaurant.portion # portion = porsiyon
+restaurant.side_dish # side dish = garnitür
+restaurant.takeaway # takeout = paket servis
+restaurant.cutlery # silverware = çatal bıçak takımı
+restaurant.recipe # recipe = tarif
+restaurant.recommend # recommend = tavsiye etmek
+restaurant.complain # complain = şikâyet etmek
+restaurant.overcooked # overcooked = fazla pişmiş
+restaurant.rare # rare = az pişmiş
+restaurant.well_done # well done = iyi pişmiş
+restaurant.gluten_free # gluten-free = glutensiz
+restaurant.cuisine # cuisine = mutfak (yemek kültürü)
+restaurant.seasoning # seasoning = çeşni
+restaurant.dietary_restriction # dietary restriction = diyet kısıtlaması
+restaurant.cross_contamination # cross-contamination = çapraz bulaşma
+restaurant.surcharge # surcharge = ek ücret
+restaurant.service_charge # service charge = servis ücreti
+restaurant.refund # refund = para iadesi
+restaurant.atmosphere # atmosphere = atmosfer
+restaurant.compensate # compensate = telafi etmek
+restaurant.bland # bland = tatsız
+restaurant.complimentary # complimentary = ikram edilen
+restaurant.overpriced # overpriced = aşırı pahalı
+restaurant.palate # palate = damak
+restaurant.gratuity # gratuity = bahşiş
+restaurant.culinary # culinary = mutfakla ilgili
+restaurant.exquisite # exquisite = enfes
+restaurant.locally_sourced # locally sourced = yerel kaynaklı
+restaurant.lackluster # lackluster = sönük
+restaurant.pair # pair with = eşleştirmek
+restaurant.cater # cater = yemek hizmeti vermek
+restaurant.garnish # garnish = yemeği süslemek
+restaurant.accommodate # accommodate = ağırlamak
+
+@sentences 1
+restaurant.b1_recommend_light # Could you recommend something light because I am not very hungry? = Çok aç olmadığım için hafif bir şey önerebilir misiniz?
+restaurant.b1_nuts_ingredients # I am allergic to nuts, so please check the ingredients carefully. = Kuruyemişe alerjim var, bu yüzden lütfen malzemeleri dikkatlice kontrol edin.
+restaurant.b1_table_six # We booked a table for six, but two friends will arrive late. = Altı kişilik bir masa ayırttık ama iki arkadaşımız geç gelecek.
+restaurant.b1_share_main # The portions here are large, so we can share one main course. = Buradaki porsiyonlar büyük, bu yüzden bir ana yemeği paylaşabiliriz.
+restaurant.b1_fish_late # I ordered the fish twenty minutes ago, but it still has not arrived. = Balığı yirmi dakika önce sipariş ettim ama hâlâ gelmedi.
+restaurant.b1_steak # Would you like your steak rare, medium or well done, sir? = Bifteğinizi az, orta veya iyi pişmiş mi istersiniz, efendim?
+restaurant.b1_wait_bar # If no table is free now, we can wait at the bar. = Şu anda boş masanız yoksa barda bekleyebiliriz.
+restaurant.b1_overcooked # This meat is overcooked, so could you please bring me another one? = Bu et fazla pişmiş, bana başka bir tane getirebilir misiniz, lütfen?
+restaurant.b1_take_away # Can we get the rest of our food to go? = Yemeğimizin kalanını paket yaptırabilir miyiz?
+restaurant.b1_service_slow # The service was slow, but the waiter was kind and very helpful. = Servis yavaştı ama garson nazik ve çok yardımseverdi.
+
+@sentences 2
+restaurant.b2_quiet_anniversary # We would appreciate a quiet table, as we are celebrating our parents' fiftieth wedding anniversary with them tonight. = Bu akşam annemizle babamızın ellinci evlilik yıl dönümünü onlarla kutlayacağımız için sessiz bir masa rica ederiz.
+restaurant.b2_reviews_bland # Although the reviews were excellent, the food was rather bland and seriously overpriced for such small portions. = Yorumlar harika olsa da yemek oldukça tatsızdı ve bu kadar küçük porsiyonlar için fazlasıyla pahalıydı.
+restaurant.b2_service_charge # Could you confirm whether the service charge is already included, or should we leave a separate tip? = Servis ücretinin hesaba dâhil olup olmadığını teyit edebilir misiniz, yoksa ayrıca bahşiş mi bırakmalıyız?
+restaurant.b2_nut_allergy # Since my daughter has a severe nut allergy, the kitchen must avoid any risk of cross-contamination. = Kızımın ciddi bir kuruyemiş alerjisi olduğu için mutfağın her türlü çapraz bulaşma riskinden kaçınması gerekiyor.
+restaurant.b2_manager_dessert # The manager apologized for the long delay and offered us a complimentary dessert to make up for it. = Müdür uzun gecikme için özür diledi ve bunu telafi etmek için bize bir tatlı ikram etti.
+restaurant.b2_replace_dish # If the dish does not meet your expectations, we will gladly replace it at no extra charge. = Yemek beklentilerinizi karşılamazsa onu ek ücret almadan memnuniyetle değiştiririz.
+restaurant.b2_local_cuisine # We had hoped to try the local cuisine, but most of the menu seemed designed for tourists. = Yerel mutfağı denemeyi ummuştuk ama menünün çoğu turistlere göre hazırlanmış gibi görünüyordu.
+restaurant.b2_charged_twice # I would like to speak to someone, because we were charged twice for the same bottle of water. = Biriyle görüşmek istiyorum, çünkü aynı şişe su için bizden iki kez ücret alındı.
+restaurant.b2_fully_booked # Even though the restaurant was fully booked, the staff managed to find us a table by the window. = Restoranda hiç yer olmamasına rağmen çalışanlar bize pencere kenarında bir masa bulmayı başardı.
+restaurant.b2_loud_music # The atmosphere was pleasant, yet the music was so loud that we could hardly hear each other speak. = Ortam hoştu ama müzik o kadar yüksekti ki birbirimizi neredeyse duyamıyorduk.
+
+@sentences 3
+restaurant.c1_had_we_known # Had we known that the kitchen closed at ten, we would certainly have arrived earlier rather than rushing through our meal like that. = Mutfağın saat onda kapandığını bilseydik, yemeğimizi öyle aceleyle yemek yerine kesinlikle daha erken gelirdik.
+restaurant.c1_tasting_menu # While the chef's tasting menu was undeniably exquisite, the price seemed difficult to justify given how small and rushed each course felt. = Şefin tadım menüsü tartışmasız enfes olsa da, her tabağın ne kadar küçük ve aceleye getirilmiş olduğu düşünülünce fiyatı haklı göstermek zor görünüyordu.
+restaurant.c1_vegetarian_guests # We would be grateful if you could accommodate our vegetarian guests, provided that their meals are prepared separately from any meat dishes. = Yemeklerinin et yemeklerinden ayrı hazırlanması koşuluyla vejetaryen misafirlerimizi ağırlayabilirseniz minnettar oluruz.
+restaurant.c1_not_only # Not only did the waiter forget our order, but he also insisted that we had never asked for anything in the first place. = Garson siparişimizi unutmakla kalmadı, üstelik en başta hiçbir şey istemediğimizi de ısrarla söyledi.
+restaurant.c1_sourced # Despite its reputation for locally sourced ingredients, the restaurant failed to tell us where most of the fish on its menu came from. = Yerel malzemeleriyle tanınmasına rağmen restoran, menüsündeki balıkların çoğunun nereden geldiğini bize söyleyemedi.
+restaurant.c1_should_persist # Should the problem with your reservation persist, please contact our manager, who will gladly arrange an alternative table at no additional cost. = Rezervasyonunuzla ilgili sorun devam ederse lütfen müdürümüzle iletişime geçin, kendisi ek ücret almadan memnuniyetle başka bir masa ayarlayacaktır.
+restaurant.c1_presentation # What impressed me most was not the elaborate presentation, but the way each flavor complemented the others without overwhelming the palate. = Beni en çok etkileyen gösterişli sunum değil, her tadın damağı yormadan diğerlerini tamamlama biçimiydi.
+restaurant.c1_complaints # Given the number of complaints about the service, I doubt that the new owners will manage to keep the place open much longer. = Servisle ilgili şikâyetlerin sayısı düşünülürse, yeni sahiplerin burayı çok daha uzun süre açık tutabileceğinden şüpheliyim.

@@ -1,0 +1,38 @@
+@theme adult.home_life
+@title home_life
+@band A2
+
+@words
+home.sofa # sofa = kanepe
+home.lamp # lamp = lamba
+home.clock # clock = saat
+home.mirror # mirror = ayna
+home.oven # oven = fırın
+home.bowl # bowl = kase
+home.pillow # pillow = yastık
+home.blanket # blanket = battaniye
+home.towel # towel = havlu
+home.soap # soap = sabun
+home.sink # sink = lavabo
+home.toilet # toilet = tuvalet
+home.stairs # stairs = merdiven
+home.elevator # elevator = asansör
+home.balcony # balcony = balkon
+home.roof # roof = çatı
+home.wall # wall = duvar
+home.floor # floor = kat
+home.carpet # carpet = halı
+home.curtain # curtain = perde
+home.shelf # shelf = raf
+home.wardrobe # wardrobe = gardırop
+home.furniture # furniture = mobilya
+home.washing_machine # washing machine = çamaşır makinesi
+home.dishwasher # dishwasher = bulaşık makinesi
+home.shower # shower = duş
+home.trash # trash = çöp
+home.rent # rent = kira
+action.clean # clean = temizlemek
+action.stay # stay = kalmak
+
+@sentences 1
+sentence.a2_if_rains # If it rains, we will stay at home. = Yağmur yağarsa evde kalacağız.

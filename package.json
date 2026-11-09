@@ -57,7 +57,8 @@
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "content": "node scripts/content.mjs"
   },
   "private": true,
   "jest": {

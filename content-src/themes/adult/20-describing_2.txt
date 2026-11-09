@@ -1,0 +1,45 @@
+@theme adult.describing_2
+@title describing_2
+@band A2
+
+@words
+opposite.fast # fast = hızlı
+opposite.slow # slow = yavaş
+quality.strong # strong = güçlü
+quality.dirty # dirty = kirli
+quality.important # important = önemli
+quality.interesting # interesting = ilginç
+quality.boring # boring = sıkıcı
+quality.dangerous # dangerous = tehlikeli
+quality.safe # safe = güvenli
+quality.possible # possible = mümkün
+quality.different # different = farklı
+quality.same # same = aynı
+quality.empty # empty = boş
+quality.full # full = dolu
+quality.heavy # heavy = ağır
+quality.light # light = hafif
+quality.wide # wide = geniş
+quality.narrow # narrow = dar
+quality.dark # dark = karanlık
+quality.quiet # quiet = sessiz
+quality.noisy # noisy = gürültülü
+quality.sweet # sweet = tatlı
+quality.salty # salty = tuzlu
+quality.delicious # delicious = lezzetli
+quality.fresh # fresh = taze
+quality.soft # soft = yumuşak
+quality.hard # hard = sert
+quality.wet # wet = ıslak
+quality.dry # dry = kuru
+quality.ugly # ugly = çirkin
+quality.rich # rich = zengin
+quality.poor # poor = fakir
+quality.famous # famous = ünlü
+quality.free # free = ücretsiz
+quality.nice # nice = hoş
+quality.enough # enough = yeterli
+
+@sentences 1
+sentence.a2_soup_delicious # This soup is delicious. = Bu çorba lezzetli.
+sentence.a2_too_salty # The food is too salty. = Yemek çok tuzlu.

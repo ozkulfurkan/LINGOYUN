@@ -1,0 +1,51 @@
+@theme adult.city_directions
+@title city_directions
+@band A1
+
+@words
+place.park # park = park
+place.hospital # hospital = hastane
+place.store # store = mağaza
+place.library # library = kütüphane
+place.street # street = sokak
+place.city # city = şehir
+place.village # village = köy
+school.school # school = okul
+place.restaurant # restaurant = restoran
+place.hotel # hotel = otel
+place.bank # bank = banka
+place.market # market = market
+place.airport # airport = havalimanı
+place.station # station = istasyon
+place.country # country = ülke
+place.office # office = ofis
+place.museum # museum = müze
+place.pharmacy # pharmacy = eczane
+vehicle.car # car = araba
+vehicle.bus # bus = otobüs
+vehicle.train # train = tren
+vehicle.plane # plane = uçak
+vehicle.taxi # taxi = taksi
+vehicle.bicycle # bicycle = bisiklet
+vehicle.road # road = yol
+travel.ticket # ticket = bilet
+travel.passport # passport = pasaport
+travel.holiday # vacation = tatil
+travel.map # map = harita
+travel.left # left = sol
+travel.right # right = sağ
+travel.straight # straight = düz
+travel.here # here = burada
+travel.there # there = orada
+travel.near # near = yakın
+travel.far # far = uzak
+
+@sentences 1
+sentence.a1_live_city # I live in a big city. = Büyük bir şehirde yaşıyorum.
+sentence.a1_where_station # Where is the station? = İstasyon nerede?
+sentence.a1_bank_near # The bank is near the hotel. = Banka otele yakın.
+sentence.a1_museum_left # The museum is on the left. = Müze solda.
+sentence.a1_restaurant_right # The restaurant is on the right. = Restoran sağda.
+sentence.a1_work_bus # I go to work by bus. = İşe otobüsle gidiyorum.
+sentence.a1_work_office # I work in an office. = Bir ofiste çalışıyorum.
+sentence.a1_hotel_next_bank # The hotel is next to the bank. = Otel bankanın yanında.

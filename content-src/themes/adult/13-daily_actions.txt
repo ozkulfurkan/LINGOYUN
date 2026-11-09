@@ -1,0 +1,48 @@
+@theme adult.daily_actions
+@title daily_actions
+@band A1
+
+@words
+action.eat # eat = yemek yemek
+action.drink # drink = içmek
+action.go # go = gitmek
+action.come # come = gelmek
+action.see # see = görmek
+action.like # like = sevmek
+action.read # read = okumak
+action.write # write = yazmak
+action.walk # walk = yürümek
+action.sit # sit = oturmak
+action.sleep # sleep = uyumak
+action.open # open = açmak
+action.close # close = kapatmak
+action.give # give = vermek
+action.take # take = almak
+action.listen # listen = dinlemek
+action.speak # speak = konuşmak
+action.help # help = yardım etmek
+action.wash # wash = yıkamak
+action.do # do = yapmak
+action.make # make = yapmak
+action.have # have = sahip olmak
+action.want # want = istemek
+action.know # know = bilmek
+action.live # live = yaşamak
+action.work # work = çalışmak
+action.learn # learn = öğrenmek
+action.buy # buy = satın almak
+action.say # say = söylemek
+action.understand # understand = anlamak
+action.start # start = başlamak
+action.finish # finish = bitirmek
+action.cook # cook = yemek pişirmek
+action.drive # drive = araba sürmek
+action.call # call = aramak
+action.ask # ask = sormak
+action.watch # watch = izlemek
+action.wait # wait = beklemek
+
+@sentences 1
+sentence.a1_not_understand # I do not understand. = Anlamıyorum.
+sentence.a1_buy_phone # I want to buy a new phone. = Yeni bir telefon almak istiyorum.
+sentence.a1_sometimes_walk # Sometimes I walk to work. = Bazen işe yürüyerek gidiyorum.

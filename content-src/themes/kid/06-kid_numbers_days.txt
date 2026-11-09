@@ -1,0 +1,30 @@
+@theme kid.kid_numbers_days
+@title kid_numbers_days
+@band L2
+
+@words
+number.eleven # eleven = on bir
+number.twelve # twelve = on iki
+number.thirteen # thirteen = on üç
+number.fourteen # fourteen = on dört
+number.fifteen # fifteen = on beş
+number.sixteen # sixteen = on altı
+number.seventeen # seventeen = on yedi
+number.eighteen # eighteen = on sekiz
+number.nineteen # nineteen = on dokuz
+number.twenty # twenty = yirmi
+day.monday # Monday = pazartesi
+day.tuesday # Tuesday = salı
+day.wednesday # Wednesday = çarşamba
+day.thursday # Thursday = perşembe
+day.friday # Friday = cuma
+day.saturday # Saturday = cumartesi
+day.sunday # Sunday = pazar
+time.day # day = gün
+
+@sentences 1
+sentence.l2_she_reads # She reads a book. = O kitap okur.
+sentence.l2_he_plays # He plays with the ball. = O topla oynar.
+sentence.l2_go_school # We go to school. = Biz okula gideriz.
+sentence.l2_monday_good # Monday is a good day. = Pazartesi iyi bir gün.
+sentence.l2_she_sits # She sits on the chair. = O sandalyede oturur.
