@@ -48,8 +48,7 @@ async function answer(text: string) {
 }
 
 async function open() {
-  await renderRouter(ROUTES);
-  await fireEvent.press(screen.getByLabelText('Yazarak çevir'));
+  await renderRouter(ROUTES, { initialUrl: '/play/free-typing' });
 }
 
 describe('free typing game', () => {
@@ -61,8 +60,8 @@ describe('free typing game', () => {
 
   it('is offered to adults only', async () => {
     seed('kid', 'L1');
-    await renderRouter(ROUTES);
-    expect(screen.queryByLabelText('Yazarak çevir')).toBeNull();
+    await renderRouter(ROUTES, { initialUrl: '/play/free-typing' });
+    expect(screen.queryByLabelText('Cevabın')).toBeNull();
   });
 
   it('accepts the right answer whatever the case and punctuation', async () => {

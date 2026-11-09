@@ -10,8 +10,11 @@ import { PopIn } from '@/components/PopIn';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { Screen } from '@/components/Screen';
 import { ThemedText } from '@/components/ThemedText';
-import { levelNumber } from '@/features/placement';
+import { pathOf } from '@/content';
+import { content } from '@/content/bundle';
 import { useActiveProfile } from '@/features/profiles';
+import { themeLabel } from '@/lib/themeName';
+import { loadPath } from '@/storage/path';
 import { space } from '@/theme';
 
 export default function PlacementResultScreen() {
@@ -25,8 +28,10 @@ export default function PlacementResultScreen() {
 
   if (!profile || !level) return <Redirect href="/" />;
 
-  const number = levelNumber(level);
-  const label = number === null ? level : t('levels.numbered', { number });
+  const type = profile.type === 'mini' ? 'kid' : profile.type;
+  const themes = pathOf(content, profile.courseId, type);
+  const index = Math.min(loadPath(profile).themeIndex, Math.max(themes.length - 1, 0));
+  const theme = themes[index];
 
   return (
     <Screen
@@ -43,8 +48,13 @@ export default function PlacementResultScreen() {
         {t('placement.result.eyebrow')}
       </ThemedText>
       <ThemedText variant="word" color="accentText">
-        {label}
+        {String(index + 1)}
       </ThemedText>
+      {theme ? (
+        <ThemedText variant="option">
+          {t('placement.result.themeStart', { number: index + 1, name: themeLabel(t, theme) })}
+        </ThemedText>
+      ) : null}
       <ThemedText variant="title" accessibilityRole="header">
         {t('placement.result.title', { nickname: profile.nickname })}
       </ThemedText>

@@ -1,4 +1,5 @@
 import { loadProfiles, saveProfiles } from '@/storage/profiles';
+import { removePaths } from '@/storage/path';
 import { removeProgress } from '@/storage/progress';
 import { removeDecks } from '@/storage/srs';
 
@@ -26,4 +27,5 @@ export function deleteProfile(id: string): void {
   profilesStore.update((state) => ({ ok: true, value: removeProfile(state, id) }));
   removeDecks(id);
   removeProgress(id);
+  removePaths(id);
 }

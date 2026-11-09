@@ -75,8 +75,7 @@ function wrongOrder(word: string): string {
 }
 
 async function openGame() {
-  await renderRouter(ROUTES);
-  await press('Harf dizme');
+  await renderRouter(ROUTES, { initialUrl: '/play/letter-order' });
 }
 
 describe('letter order game', () => {
@@ -91,8 +90,8 @@ describe('letter order game', () => {
 
   it('is offered to leveled profiles, not to mini', async () => {
     seedProfile('mini');
-    await renderRouter(ROUTES);
-    expect(screen.queryByLabelText('Harf dizme')).toBeNull();
+    await renderRouter(ROUTES, { initialUrl: '/play/letter-order' });
+    expect(screen.getByText('Yakında')).toBeTruthy();
   });
 
   it('solves a word spelled in order and praises it', async () => {

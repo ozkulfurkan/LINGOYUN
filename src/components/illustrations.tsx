@@ -315,6 +315,46 @@ export function SettingsIcon() {
   );
 }
 
+/** A life of the step: a full clay heart, or an empty outline once lost. */
+export function HeartIcon({ full }: { full: boolean }) {
+  const tones = useTones();
+  const { colors } = useTheme();
+  const d =
+    'M14 25 C 12 23 3 17 3 10 C 3 6 6 3 9.5 3 C 11.6 3 13.2 4.2 14 5.6 C 14.8 4.2 16.4 3 18.5 3 C 22 3 25 6 25 10 C 25 17 16 23 14 25 Z';
+  return (
+    <Svg width={28} height={28} viewBox="0 0 28 28" accessible={false}>
+      <Defs>
+        <ClayGradient id="heart" tone={tones.berry} />
+      </Defs>
+      {full ? (
+        <>
+          <Path d={d} fill="url(#heart)" />
+          <Ellipse cx={9} cy={8.5} rx={3} ry={2} fill={tones.highlight} opacity={0.7} />
+        </>
+      ) : (
+        <Path d={d} fill="none" stroke={colors.border} strokeWidth={2.5} strokeLinejoin="round" />
+      )}
+    </Svg>
+  );
+}
+
+/** Turtle for the "listen slowly" button. */
+export function SlowIcon() {
+  const { colors } = useTheme();
+  return (
+    <Svg width={28} height={28} viewBox="0 0 28 28" accessible={false}>
+      <Path d="M5 17 C 5 10 9 7 14 7 C 19 7 23 10 23 17 Z" fill={colors.onInfo} />
+      <Circle cx={24.5} cy={15} r={2.6} fill={colors.onInfo} />
+      <Path
+        d="M8 17 L 7 21 M 20 17 L 21 21 M 3 17 L 25 17"
+        stroke={colors.onInfo}
+        strokeWidth={2.5}
+        strokeLinecap="round"
+      />
+    </Svg>
+  );
+}
+
 /** Clay gem, the reward currency. */
 export function GemIcon() {
   const tones = useTones();

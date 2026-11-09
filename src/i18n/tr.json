@@ -14,8 +14,7 @@
     "noReviews": "Bugün tekrar yok, harika!",
     "review": "Tekrar et",
     "reviewsDue_one": "Bugün {{count}} kelime tekrar bekliyor",
-    "reviewsDue_other": "Bugün {{count}} kelime tekrar bekliyor",
-    "playRestaurant": "Durum: Restoranda"
+    "reviewsDue_other": "Bugün {{count}} kelime tekrar bekliyor"
   },
   "common": {
     "continue": "Devam",
@@ -84,7 +83,8 @@
     "result": {
       "eyebrow": "Seviye sonucu",
       "title": "Buradan başlıyoruz, {{nickname}}!",
-      "start": "Başla"
+      "start": "Başla",
+      "themeStart": "{{number}}. temadan başlıyorsun: {{name}}"
     }
   },
   "quiz": {
@@ -95,7 +95,8 @@
     },
     "speak": "Sesli oku",
     "rightAnswer": "Doğru cevap",
-    "yourAnswer": "Senin cevabın"
+    "yourAnswer": "Senin cevabın",
+    "speakSlow": "Yavaş dinle"
   },
   "game": {
     "correct": {
@@ -193,6 +194,13 @@
       "mini": "2–7 yaş",
       "kid": "7–12 yaş",
       "adult": "Yetişkin"
+    },
+    "difficulty": {
+      "1": "Kolay",
+      "2": "Orta",
+      "3": "Zor",
+      "title": "Zorluk",
+      "body": "Oynadıkça kendiliğinden ayarlanır; buradan da seçebilirsin."
     }
   },
   "typing": {
@@ -206,18 +214,83 @@
     "typo": "Küçük bir yazım hatası. Doğrusu: {{answer}}"
   },
   "themes": {
-    "restaurant": {
-      "title": "Restoranda",
-      "body": "Sipariş ver, soru sor, derdini anlat. Zorluğu sen seç."
-    },
-    "words": "Kelimeler",
-    "sentences": "Cümleler",
-    "tier": {
-      "A1": "Çok kısa cümleler",
-      "A2": "Kısa cümleler",
-      "B1": "Orta uzunlukta cümleler",
-      "B2": "Uzun cümleler",
-      "C1": "Çok uzun ve ileri cümleler"
+    "names": {
+      "greetings": "Selamlaşma",
+      "people": "Kişiler ve aile",
+      "numbers": "Sayılar",
+      "food": "Yiyecek ve içecek",
+      "time": "Saat ve zaman",
+      "calendar_colors": "Takvim ve renkler",
+      "home_clothes": "Ev ve giyim",
+      "body_weather": "Vücut ve hava",
+      "restaurant": "Restoranda",
+      "city_directions": "Şehirde, yol sorma",
+      "work_school": "İş, okul ve sorular",
+      "describing": "Tanımlama",
+      "daily_actions": "Günlük işler",
+      "shopping": "Alışveriş ve para",
+      "work_tech": "İş ve teknoloji",
+      "travel": "Seyahat",
+      "health": "Sağlık",
+      "home_life": "Evde yaşam",
+      "people_feelings": "İnsanlar ve duygular",
+      "describing_2": "Tanımlama 2",
+      "actions_2": "Eylemler 2",
+      "actions_3": "Eylemler 3",
+      "leisure_world": "Boş zaman ve dünya",
+      "time_links": "Zaman ve bağlaçlar",
+      "idioms": "Deyimler ve tuzaklar",
+      "restaurant_2": "Restoranda: zor anlar",
+      "idioms_2": "Deyimler ve tuzaklar 2",
+      "kid_greetings": "Merhaba!",
+      "kid_fruits_food": "Meyveler ve yiyecekler",
+      "kid_colors_numbers": "Renkler ve sayılar",
+      "kid_family_animals": "Aile ve hayvanlar",
+      "kid_things_body": "Eşyalar ve vücut",
+      "kid_numbers_days": "Sayılar ve günler",
+      "kid_body_clothes": "Vücut ve giysiler",
+      "kid_home_school": "Ev ve okul",
+      "kid_food_actions": "Yemek ve hareket",
+      "kid_describing": "Nasıl?",
+      "kid_family_months": "Aile ve aylar",
+      "kid_weather_time": "Hava ve zaman",
+      "kid_places": "Yerler ve sorular",
+      "kid_actions_describing": "Hareketler ve özellikler"
     }
+  },
+  "path": {
+    "themeName": "{{number}}. {{name}}",
+    "heartsLabel_one": "{{count}} can kaldı",
+    "heartsLabel_other": "{{count}} can kaldı",
+    "continue": "Devam et",
+    "open": "Temayı aç",
+    "locked": "Bu temaya henüz gelmedin.",
+    "done": "Tamamlandı",
+    "current": "Şu anki tema",
+    "step": "{{n}}. basamak",
+    "exam": "Sınav",
+    "stepDone": "{{name}}: tamamlandı",
+    "stepCurrent": "{{name}}: sıradaki",
+    "stepLocked": "{{name}}: kilitli",
+    "listenHint": "Dinle ve anlamını seç",
+    "outOfHearts": {
+      "title": "Canların bitti",
+      "body": "Hatalarını tekrar et, her doğru cevap bir can kazandırır. Canların dolunca basamağa baştan başlarsın.",
+      "refill": "Hatalarını tekrar et"
+    },
+    "refill": {
+      "title": "Can kazan"
+    },
+    "passed": {
+      "eyebrow": "Basamak geçildi",
+      "title": "Geçtin, {{nickname}}!",
+      "exam": "Temayı bitirdin, {{nickname}}!",
+      "mistakes_one": "{{count}} hata",
+      "mistakes_other": "{{count}} hata",
+      "next": "Sonraki basamak",
+      "nextTheme": "Sonraki tema",
+      "home": "Ana ekran"
+    },
+    "complete": "Yolun sonuna geldin! Yeni temalar yakında."
   }
 }

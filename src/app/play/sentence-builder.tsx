@@ -1,10 +1,10 @@
 import { Redirect, useLocalSearchParams } from 'expo-router';
-import { useEffect, useRef, useState, type RefObject } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
 import { BlockProgress } from '@/components/BlockProgress';
-import { DraggableBlock, measureView, type Measurable } from '@/components/DraggableBlock';
+import { measureView, type Measurable } from '@/components/DraggableBlock';
 import {
   CloseButton,
   GameFeedback,
@@ -13,16 +13,14 @@ import {
   withCombo,
 } from '@/components/GameChrome';
 import { Bounce, Shake } from '@/components/Motion';
-import { PressScale } from '@/components/PressScale';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { QuizPromptCard } from '@/components/QuizPromptCard';
 import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
-import { ThemedText } from '@/components/ThemedText';
+import { AnswerArea, Pool } from '@/components/SentenceBoard';
 import { themeConcepts } from '@/content';
 import { content } from '@/content/bundle';
 import {
-  builtText,
   canCheck,
   checkSentence,
   currentSentence,
@@ -34,7 +32,6 @@ import {
   removeBlock,
   revealSentence,
   sentenceGrade,
-  sentenceHint,
   sentenceRoundGrades,
   startSentenceRound,
   updateSentence,
@@ -52,7 +49,7 @@ import { playFeedback } from '@/lib/feedback';
 import { speak, stopSpeaking } from '@/lib/speech';
 import { loadProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
-import { space, stroke, touchTarget, useTheme } from '@/theme';
+import { space } from '@/theme';
 
 type LeveledType = 'kid' | 'adult';
 
@@ -275,132 +272,6 @@ function Game({
   );
 }
 
-type AnswerProps = {
-  puzzle: SentencePuzzle;
-  zoneRef: RefObject<Measurable | null>;
-  onRemove: (blockId: number) => void;
-};
-
-function AnswerArea({ puzzle, zoneRef, onRemove }: AnswerProps) {
-  const { t } = useTranslation();
-  const { colors, radii } = useTheme();
-  const done = isSentenceDone(puzzle);
-  const byId = new Map(puzzle.blocks.map((b) => [b.id, b.word]));
-  return (
-    <View
-      ref={(view) => {
-        zoneRef.current = view as unknown as Measurable | null;
-      }}
-      testID="sentence-answer"
-      accessible={done}
-      accessibilityLabel={done ? `${builtText(puzzle)}${puzzle.ending}` : undefined}
-      style={[
-        styles.answer,
-        {
-          backgroundColor: puzzle.solved ? colors.correct : colors.surfaceShade,
-          borderColor: puzzle.solved ? colors.correctShade : colors.border,
-          borderRadius: radii.md,
-        },
-      ]}
-    >
-      {puzzle.placed.length === 0 ? (
-        <ThemedText color="textMuted">{t('sentences.dropHere')}</ThemedText>
-      ) : (
-        puzzle.placed.map((id, i) => {
-          const word = byId.get(id) ?? '';
-          const last = i === puzzle.placed.length - 1 && done;
-          return (
-            <WordBlock
-              key={id}
-              word={last ? `${word}${puzzle.ending}` : word}
-              label={t('sentences.placed', { n: i + 1, word })}
-              disabled={done}
-              onPress={() => onRemove(id)}
-            />
-          );
-        })
-      )}
-    </View>
-  );
-}
-
-type PoolProps = {
-  puzzle: SentencePuzzle;
-  measureZone: (done: Parameters<typeof measureView>[1]) => void;
-  onPlace: (blockId: number) => void;
-};
-
-function Pool({ puzzle, measureZone, onPlace }: PoolProps) {
-  const { t } = useTranslation();
-  const hint = sentenceHint(puzzle);
-  const full = puzzle.placed.length >= puzzle.words.length;
-  return (
-    <View style={styles.pool}>
-      {puzzle.blocks
-        .filter((b) => !puzzle.placed.includes(b.id))
-        .map((b) => (
-          <DraggableBlock
-            key={b.id}
-            measureZone={measureZone}
-            onDrop={() => onPlace(b.id)}
-            disabled={full}
-          >
-            <WordBlock
-              word={b.word}
-              label={t('sentences.block', { word: b.word })}
-              hint={b.id === hint ? t('sentences.hintLabel') : undefined}
-              highlighted={b.id === hint}
-              disabled={full}
-              onPress={() => onPlace(b.id)}
-            />
-          </DraggableBlock>
-        ))}
-    </View>
-  );
-}
-
-type WordBlockProps = {
-  word: string;
-  label: string;
-  hint?: string;
-  highlighted?: boolean;
-  disabled?: boolean;
-  onPress: () => void;
-};
-
-function WordBlock({
-  word,
-  label,
-  hint,
-  highlighted = false,
-  disabled = false,
-  onPress,
-}: WordBlockProps) {
-  const { colors, radii, elevation } = useTheme();
-  return (
-    <PressScale
-      accessibilityRole="button"
-      accessibilityLabel={label}
-      accessibilityHint={hint}
-      accessibilityState={{ disabled }}
-      disabled={disabled}
-      onPress={onPress}
-      style={[
-        styles.block,
-        {
-          backgroundColor: highlighted ? colors.highlight : colors.surface,
-          borderColor: highlighted ? colors.accentText : colors.border,
-          borderWidth: highlighted ? stroke.thick : stroke.thin,
-          borderRadius: radii.sm,
-          boxShadow: elevation.surface ?? undefined,
-        },
-      ]}
-    >
-      <ThemedText variant="option">{word}</ThemedText>
-    </PressScale>
-  );
-}
-
 const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
@@ -409,30 +280,5 @@ const styles = StyleSheet.create({
   },
   footer: {
     gap: space.md,
-  },
-  answer: {
-    minHeight: touchTarget.mini * 1.5,
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    alignItems: 'center',
-    alignContent: 'center',
-    justifyContent: 'center',
-    gap: space.sm,
-    padding: space.md,
-    borderWidth: stroke.thin,
-    borderStyle: 'dashed',
-  },
-  pool: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-    gap: space.sm,
-  },
-  block: {
-    minHeight: touchTarget.kid,
-    minWidth: touchTarget.kid,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingHorizontal: space.md,
   },
 });

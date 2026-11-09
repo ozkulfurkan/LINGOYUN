@@ -74,8 +74,7 @@ const rightOption = () => {
 };
 
 async function openGame() {
-  await renderRouter(ROUTES);
-  await press('Oyna');
+  await renderRouter(ROUTES, { initialUrl: '/play/multiple-choice' });
 }
 
 describe('multiple choice game', () => {
@@ -90,8 +89,7 @@ describe('multiple choice game', () => {
 
   it('is offered to leveled profiles, not to mini', async () => {
     seedProfile('mini');
-    await renderRouter(ROUTES);
-    expect(screen.queryByLabelText('Oyna')).toBeNull();
+    await renderRouter(ROUTES, { initialUrl: '/play/multiple-choice' });
     expect(screen.getByText('Yakında')).toBeTruthy();
   });
 
@@ -159,7 +157,7 @@ describe('multiple choice game', () => {
     await press(rightOption());
     await press('Oyundan çık');
 
-    expect(screen.getByLabelText('Oyna')).toBeTruthy();
+    expect(screen.getByLabelText('Devam et')).toBeTruthy();
     expect(Object.keys(loadDeck(id, 'tr-en'))).toHaveLength(1);
     expect(loadProgress(id).xp).toBe(0);
   });
@@ -184,8 +182,7 @@ describe('multiple choice game', () => {
 
   it('practises idioms and false friends for adults, explaining the traps', async () => {
     seedProfile('adult', 'A1');
-    await renderRouter(ROUTES);
-    await press('Deyimler ve tuzaklar');
+    await renderRouter(ROUTES, { initialUrl: '/play/multiple-choice?mode=expressions' });
     let sawNote = false;
     for (let i = 0; i < 10; i++) {
       const prompt = currentPrompt();

@@ -157,17 +157,23 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Sorulacak: düzenleme biçimi ne olsun (Excel/Google Sheets'ten CSV mi, düz metin mi)?
   - Yapılacak: `src/content/adultContent.test.ts`'teki sabit sayı sınırları (en fazla 700 kelime, tam 150 cümle, tam 30 deyim) gevşetilmeli, yoksa yeni içerik testi kırar. Taban sınırlar kalır.
   - Çıkış noktası: LNG-15'te kullanılan satır biçimi `id|en|enAlts|tr|trAlts` (tek kullanımlık script'ti, repoda yok).
-- [~] **LNG-41** CİHAZ — Durum temalı içerik denemesi: "Restoranda", A1 → C1 beş zorlukta (Furkan'ın isteği). Yetişkin ana ekranında "Durum: Restoranda" → zorluk seç → kelime veya cümle oyunu. Liste: `docs/content/theme-restaurant.md`. Çeviri denetimi: `docs/content/reviews/`.
-  - ✅ Tema üniteleri seviye merdiveninin dışında: seviye testi ve seviye atlama onları saymıyor, mevcut oyunlar etkilenmiyor. Toplu üretimde bu ayrım kaldırılacak.
-  - ✅ Cümle kurma artık 26 kelimeye kadar kabul ediyor (önceden 9).
+- [x] **LNG-41** BULUT — Durum temalı içerik denemesi ("Restoranda"), `ceviri-editoru` agent'ı, B1'e içeriksiz geçiş hatası. Furkan telefonda gördükten sonra yapı LNG-43'e dönüştü: restoran artık yoldaki iki temadan biri (9. ve 26. tema, katmanlı cümleler).
+- [~] **LNG-43** CİHAZ — Öğrenme yolu: 1'den başlayan numaralı temalar, her temada 5 basamak (4 öğretim + sınav), 15 soru (10 kelime, 3 dinleme, 2 cümle), 3 can ve "Hatalarını tekrar et" ile can kazanma, 0,5× yavaş dinleme, uyarlamalı zorluk (ayarlardan da seçilebilir). Seviye testi temaya yerleştirir. Ayrıntı: `docs/game-design.md` › Öğrenme yolu.
+  - ✅ Mevcut içerik temalara gruplandı (yetişkin 27, 7–12 yaş 14 tema). Ana ekran sadeleşti: harita + günlük tekrar + "Devam et". Harf dizme ve cümle kurma basamakların içinde; eski oyun ekranları ana ekrandan kaldırıldı ama dosyaları duruyor.
+  - Eksik (LNG-42): temaların çoğunda 40 kelime ve 8 kolay cümle yok, bazılarında hiç cümle yok. Basamaklar eksiği aynı banttaki cümlelerle dolduruyor, yani cümleler her zaman temaya uymayabilir. Orta ve zor cümle katmanı yalnızca restoran temalarında var.
   - Derleme: yeni yerel paket yok, son derleme yeterli. Metro'yu `--clear` ile yeniden başlat.
   - Cihazda nasıl test edilir:
-    1. Yetişkin profilinde ana ekranda "Durum: Restoranda"ya bas → beş zorluk görünür (A1, A2, B1, B2, C1).
-    2. Her zorlukta "Kelimeler"i oyna: sorular restoran kelimeleri, şıklar aynı zorluktan gelir.
-    3. Her zorlukta "Cümleler"i oyna: Türkçe cümleyi bloklarla kur. **Özellikle C1'de** (~23 kelime) bloklar ekrana sığıyor mu, ekran kayıyor mu, sürükleme ve dokunma rahat mı? Küçük ekranda da bak.
-    4. Uzun Türkçe cümleler soru kartında taşıyor mu, okunaklı mı?
-    5. İçerik ve zorluk artışı istediğin gibi mi? Biçimi beğenirsen LNG-42'ye geçilir.
-- [ ] **LNG-42** BULUT + FURKAN — Durum temalarıyla içerik üretimi (10 kat): evde, iş yerinde, yol sorarken, pastanede, restoranda, okulda ve diğerleri. Zorluğa göre A1 → C1: A1 de temalara taşınacak (Furkan'ın kararı). Önkoşul: LNG-41 onayı, LNG-40. Her parti `ceviri-editoru` agent'ından geçer. Tema üniteleri seviye merdivenine bağlanır, seviye atlama kuralı buna göre yeniden kurulur.
+    1. Ana ekranda harita 1, 2, 3… diye numaralı; hiçbir yerde A1/L1 yazmıyor. Bir taşa dokun → altta temanın adı çıkar ("2. Kişiler ve aile"); kilitliyse "henüz gelmedin" der.
+    2. "Devam et" → basamak açılır: sağ üstte 3 kalp, "Soru 1 / 15".
+    3. 3 dinleme sorusunda kelime yazılmaz, kendiliğinden okunur. Kaplumbağa düğmesi yarı hızda okur.
+    4. Son 2 soru cümle kurma; bloklarla kur (yetişkinde "Kontrol et").
+    5. Yanlış cevapta kalp sallanıp boşalır. 3. hatada "Canların bitti" ekranı gelir → "Hatalarını tekrar et" → her doğru cevap bir kalp doldurur → 3 kalpte basamak baştan başlar.
+    6. 2 veya daha az hatayla 15 soruyu bitir → "Geçtin" ekranı; "Sonraki basamak" → 2. basamak önce önceki hatalarını sorar.
+    7. Haritadaki açık bir temayı aç → 5 basamak; tamamlananlarda tik var, sıradaki vurgulu, ilerisi kilitli. 5. basamak "Sınav"; geçince sonraki tema açılır.
+    8. Ayarlar (ebeveyn kapısı) → "Zorluk": Kolay / Orta / Zor. Restoran temasında zor seçilince cümleler uzar.
+    9. Yeni profil + seviye testi → sonuç ekranında "N. temadan başlıyorsun: …".
+    10. 7–12 yaş profiliyle aynı akış (sorular kendiliğinden okunur, cümle dolunca otomatik kontrol).
+- [ ] **LNG-42** BULUT + FURKAN — İçerik üretimi (10 kat) yeni yapıya göre: her tema 40 kelime ve her zorlukta en az 8 cümle (kolay ~5, orta ~10, zor 15–22 kelime); yeni temalar (evde, iş yerinde, yol sorma, pastane, okul…) müfredat sırasıyla eklenir. Önkoşul: LNG-43 cihaz onayı, LNG-40. Her parti `ceviri-editoru` agent'ından geçer. `money.bill` iki kavrama ayrılır.
 
 ## Faz 6 — 2–7 yaş (Zeynep, Nehir, Kerem)
 

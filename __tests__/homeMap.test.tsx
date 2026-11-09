@@ -4,122 +4,96 @@ import { fireEvent, screen } from '@testing-library/react-native';
 import { renderRouter } from 'expo-router/testing-library';
 
 import HomeScreen from '@/app/index';
-import LetterOrderScreen from '@/app/play/letter-order';
+import StepScreen from '@/app/play/step';
+import ThemeScreen from '@/app/play/theme';
+import { pathOf } from '@/content';
 import { content } from '@/content/bundle';
-import { levelConcepts, LEVEL_DONE_MASTERY } from '@/features/map';
+import { startPath } from '@/features/path';
 import {
   addProfile,
   deleteProfile,
   profilesStore,
   setCourseLevel,
+  type Profile,
   type ProfileType,
 } from '@/features/profiles';
-import { completeSession, EMPTY_PROGRESS } from '@/features/progress';
-import { localDay, recordAnswer, type Deck } from '@/features/srs';
 import i18n from '@/i18n';
-import { saveProgress } from '@/storage/progress';
-import { saveDeck } from '@/storage/srs';
+import { loadPath, savePath } from '@/storage/path';
 
 jest.mock('expo-speech', () => ({ speak: jest.fn(), stop: jest.fn(() => Promise.resolve()) }));
 
-function seedProfile(type: ProfileType, level?: string): string {
+const ROUTES = { index: HomeScreen, 'play/theme': ThemeScreen, 'play/step': StepScreen };
+
+function seedProfile(type: ProfileType, level: string): Profile {
   const added = profilesStore.update((s, d) =>
     addProfile(s, { nickname: 'Deniz', type, courseId: 'tr-en' }, d),
   );
   if (!added.ok) throw new Error(added.error);
   const id = added.value.activeId!;
-  if (level) profilesStore.update((s) => setCourseLevel(s, id, level));
-  return id;
+  profilesStore.update((s) => setCourseLevel(s, id, level));
+  return profilesStore.getState().profiles.find((p) => p.id === id)!;
 }
 
-/** Spells the English word for the Turkish prompt on the letter game screen. */
-async function spellCurrentWord() {
-  const prompt = screen.getByTestId('quiz-prompt').props.children as string;
-  const id = Object.keys(content.languages.tr.words).find(
-    (k) => content.languages.tr.words[k].text === prompt,
-  )!;
-  for (const ch of content.languages.en.words[id].text.toLowerCase()) {
-    if (!/\p{L}/u.test(ch)) continue;
-    const free = screen
-      .getAllByLabelText(`${ch} harfi`)
-      .find((el) => el.props.accessibilityState?.disabled !== true)!;
-    await fireEvent.press(free);
-  }
+async function press(label: string | RegExp) {
+  await fireEvent.press(screen.getByLabelText(label));
 }
 
-describe('river map home', () => {
+describe('learning path home', () => {
   beforeEach(async () => {
     await i18n.changeLanguage('tr');
   });
 
   afterEach(() => profilesStore.getState().profiles.forEach((p) => deleteProfile(p.id)));
 
-  it('shows every kid level with its state', async () => {
-    seedProfile('kid', 'L2');
-    await renderRouter({ index: HomeScreen });
-    expect(screen.getByLabelText('L1: tamamlandı')).toBeTruthy();
-    expect(screen.getByLabelText('L2: şu anki seviye, %0 öğrenildi')).toBeTruthy();
-    expect(screen.getByLabelText('L3: kilitli')).toBeTruthy();
-    // Levels whose words are not written yet.
-    expect(screen.getByLabelText('L10: yakında')).toBeTruthy();
-    expect(screen.getByLabelText('Oyna')).toBeTruthy();
-    expect(screen.getByLabelText('Harf dizme')).toBeTruthy();
-    expect(screen.getByLabelText('Cümle kurma')).toBeTruthy();
+  it('numbers themes from 1 and never shows a level name', async () => {
+    seedProfile('adult', 'A1');
+    await renderRouter(ROUTES);
+    expect(screen.getByLabelText(/^1\. Selamlaşma: şu anki seviye/)).toBeTruthy();
+    expect(screen.getByLabelText('2. Kişiler ve aile: kilitli')).toBeTruthy();
+    for (const level of ['A1', 'A2', 'B1', 'L1']) expect(screen.queryByText(level)).toBeNull();
   });
 
-  it('shows adult levels A1–C1 and how much of the current one is learned', async () => {
-    const id = seedProfile('adult', 'A1');
-    const a1 = levelConcepts(content, 'tr-en', 'adult', 'A1');
-    let deck: Deck = {};
-    for (const c of a1.slice(0, Math.round(a1.length / 4))) {
-      for (let i = 0; i < 3; i++) deck = recordAnswer(deck, c, 'good', i * 30);
-    }
-    saveDeck(id, 'tr-en', deck);
-    await renderRouter({ index: HomeScreen });
-    const percent = Math.round((Math.round(a1.length / 4) / a1.length) * 100);
-    expect(screen.getByLabelText(`A1: şu anki seviye, %${percent} öğrenildi`)).toBeTruthy();
-    expect(screen.getByLabelText('C1: yakında')).toBeTruthy();
-    // Two sample concepts are not a level yet.
-    expect(screen.getByLabelText('B1: yakında')).toBeTruthy();
+  it('shows a theme name when its stone is tapped', async () => {
+    seedProfile('kid', 'L1');
+    await renderRouter(ROUTES);
+    await press('2. Meyveler ve yiyecekler: kilitli');
+    expect(screen.getByTestId('theme-card-name').props.children).toBe('2. Meyveler ve yiyecekler');
+    expect(screen.getByText('Bu temaya henüz gelmedin.')).toBeTruthy();
+    expect(screen.queryByLabelText('Temayı aç')).toBeNull();
   });
 
-  it('shows gems and the streak', async () => {
-    const id = seedProfile('kid', 'L1');
-    const today = localDay(new Date());
-    saveProgress(
-      id,
-      completeSession(EMPTY_PROGRESS, { grades: ['good'], today, wordsLearned: 0 }).progress,
-    );
-    await renderRouter({ index: HomeScreen });
-    expect(screen.getByText('6 taş · 1 günlük seri')).toBeTruthy();
+  it('opens a reached theme with its five steps', async () => {
+    const profile = seedProfile('adult', 'A1');
+    savePath(profile.id, 'tr-en', { ...loadPath(profile), themeIndex: 1, stepIndex: 2 });
+    await renderRouter(ROUTES);
+    await press(/^2\. Kişiler ve aile: şu anki seviye/);
+    await press('Temayı aç');
+    expect(screen.getByLabelText('1. basamak: tamamlandı')).toBeTruthy();
+    expect(screen.getByLabelText('3. basamak: sıradaki')).toBeTruthy();
+    expect(screen.getByLabelText('Sınav: kilitli')).toBeTruthy();
   });
 
-  it('keeps the placeholder for mini profiles', async () => {
-    seedProfile('mini');
-    await renderRouter({ index: HomeScreen });
+  it('continues at the current step with three lives', async () => {
+    const profile = seedProfile('adult', 'A2');
+    await renderRouter(ROUTES);
+    await press('Devam et');
+    const themes = pathOf(content, 'tr-en', 'adult');
+    const start = startPath(themes, ['A1', 'A2', 'B1', 'B2', 'C1'], 'A2');
+    expect(loadPath(profile).themeIndex).toBe(start.themeIndex);
+    expect(screen.getByLabelText('3 can kaldı')).toBeTruthy();
+    expect(screen.getByLabelText('Soru 1 / 15')).toBeTruthy();
+  });
+
+  it('keeps mini profiles off the path', async () => {
+    seedProfile('mini', 'L1');
+    await renderRouter(ROUTES, { initialUrl: '/play/step?theme=0&step=0' });
     expect(screen.getByText('Yakında')).toBeTruthy();
-    expect(screen.queryByLabelText('Oyna')).toBeNull();
   });
 
-  it('moves up a level after a round once the level is mastered', async () => {
-    const id = seedProfile('kid', 'L1');
-    const l1 = levelConcepts(content, 'tr-en', 'kid', 'L1');
-    let deck: Deck = {};
-    for (const c of l1.slice(0, Math.ceil(l1.length * LEVEL_DONE_MASTERY))) {
-      for (let i = 0; i < 3; i++) deck = recordAnswer(deck, c, 'good', i * 30);
-    }
-    saveDeck(id, 'tr-en', deck);
-    await renderRouter({ index: HomeScreen, 'play/letter-order': LetterOrderScreen });
-
-    await fireEvent.press(screen.getByLabelText('Harf dizme'));
-    for (let i = 0; i < 8; i++) {
-      await spellCurrentWord();
-      await fireEvent.press(screen.getByLabelText('Devam'));
-    }
-    expect(screen.getByText('Yeni seviye açıldı: L2!')).toBeTruthy();
-
-    await fireEvent.press(screen.getByLabelText('Bitir'));
-    expect(screen.getByLabelText('L1: tamamlandı')).toBeTruthy();
-    expect(screen.getByLabelText('L2: şu anki seviye, %0 öğrenildi')).toBeTruthy();
+  it('does not open a step not reached yet', async () => {
+    seedProfile('adult', 'A1');
+    await renderRouter(ROUTES, { initialUrl: '/play/step?theme=3&step=0' });
+    expect(screen.queryByTestId('hearts')).toBeNull();
+    expect(screen.getByLabelText('Devam et')).toBeTruthy();
   });
 });

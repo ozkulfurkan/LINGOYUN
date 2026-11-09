@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 import Svg, { Circle, G, Path, Text as SvgText } from 'react-native-svg';
 
 import { riverLayout, type LevelNode } from '@/features/map';
@@ -17,6 +17,8 @@ type Props = {
   nodes: readonly LevelNode[];
   /** Short label inside a stone, e.g. "3" for kid level L3. */
   shortLabel: (level: string) => string;
+  /** Called with the stop's index when a stone is tapped. */
+  onSelect?: (index: number) => void;
 };
 
 /**
@@ -24,7 +26,7 @@ type Props = {
  * the current one large with a ring showing how much of it is learned, locked
  * ones faded. Drawn with react-native-svg (no extra native module).
  */
-export function RiverMap({ nodes, shortLabel }: Props) {
+export function RiverMap({ nodes, shortLabel, onSelect }: Props) {
   const { t } = useTranslation();
   const { colors, text } = useTheme();
   const [width, setWidth] = useState(DEFAULT_WIDTH);
@@ -112,12 +114,15 @@ export function RiverMap({ nodes, shortLabel }: Props) {
           );
         })}
       </Svg>
-      {/* Invisible, positioned labels so screen readers can read every stop. */}
+      {/* Invisible, positioned buttons over the stones, also read by screen readers. */}
       {nodes.map((node, i) => (
-        <View
+        <Pressable
           key={node.level}
           accessible
+          accessibilityRole={onSelect ? 'button' : undefined}
           accessibilityLabel={stopLabel(t, node)}
+          onPress={onSelect ? () => onSelect(i) : undefined}
+          hitSlop={RING - STOP}
           style={[
             styles.label,
             {
@@ -136,10 +141,11 @@ export function RiverMap({ nodes, shortLabel }: Props) {
 type T = ReturnType<typeof useTranslation>['t'];
 
 function stopLabel(t: T, node: LevelNode): string {
-  if (!node.playable) return t('map.soon', { level: node.level });
-  if (node.state === 'done') return t('map.done', { level: node.level });
-  if (node.state === 'locked') return t('map.locked', { level: node.level });
-  return t('map.current', { level: node.level, percent: Math.round(node.mastery * 100) });
+  const level = node.name ?? node.level;
+  if (!node.playable) return t('map.soon', { level });
+  if (node.state === 'done') return t('map.done', { level });
+  if (node.state === 'locked') return t('map.locked', { level });
+  return t('map.current', { level, percent: Math.round(node.mastery * 100) });
 }
 
 const styles = StyleSheet.create({

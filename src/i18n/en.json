@@ -14,8 +14,7 @@
     "reviewsDue_one": "{{count}} word to review today",
     "reviewsDue_other": "{{count}} words to review today",
     "noReviews": "No reviews today. Great!",
-    "review": "Review",
-    "playRestaurant": "Situation: At a restaurant"
+    "review": "Review"
   },
   "common": {
     "continue": "Continue",
@@ -84,7 +83,8 @@
     "result": {
       "eyebrow": "Your level",
       "title": "This is where we start, {{nickname}}!",
-      "start": "Start"
+      "start": "Start",
+      "themeStart": "You start at theme {{number}}: {{name}}"
     }
   },
   "quiz": {
@@ -95,7 +95,8 @@
     },
     "speak": "Read aloud",
     "rightAnswer": "Right answer",
-    "yourAnswer": "Your answer"
+    "yourAnswer": "Your answer",
+    "speakSlow": "Listen slowly"
   },
   "game": {
     "correct": {
@@ -193,6 +194,13 @@
       "mini": "Ages 2–7",
       "kid": "Ages 7–12",
       "adult": "Adult"
+    },
+    "difficulty": {
+      "1": "Easy",
+      "2": "Medium",
+      "3": "Hard",
+      "title": "Difficulty",
+      "body": "It adjusts as you play; you can also pick it here."
     }
   },
   "typing": {
@@ -206,18 +214,83 @@
     "typo": "A small typo. It's: {{answer}}"
   },
   "themes": {
-    "restaurant": {
-      "title": "At a restaurant",
-      "body": "Order, ask and explain yourself. You pick the difficulty."
-    },
-    "words": "Words",
-    "sentences": "Sentences",
-    "tier": {
-      "A1": "Very short sentences",
-      "A2": "Short sentences",
-      "B1": "Medium sentences",
-      "B2": "Long sentences",
-      "C1": "Very long, advanced sentences"
+    "names": {
+      "greetings": "Greetings",
+      "people": "People and family",
+      "numbers": "Numbers",
+      "food": "Food and drink",
+      "time": "Time",
+      "calendar_colors": "Calendar and colors",
+      "home_clothes": "Home and clothes",
+      "body_weather": "Body and weather",
+      "restaurant": "At a restaurant",
+      "city_directions": "In the city, asking the way",
+      "work_school": "Work, school and questions",
+      "describing": "Describing",
+      "daily_actions": "Everyday actions",
+      "shopping": "Shopping and money",
+      "work_tech": "Work and technology",
+      "travel": "Travel",
+      "health": "Health",
+      "home_life": "Life at home",
+      "people_feelings": "People and feelings",
+      "describing_2": "Describing 2",
+      "actions_2": "Actions 2",
+      "actions_3": "Actions 3",
+      "leisure_world": "Free time and the world",
+      "time_links": "Time and linking words",
+      "idioms": "Idioms and traps",
+      "restaurant_2": "At a restaurant: tricky moments",
+      "idioms_2": "Idioms and traps 2",
+      "kid_greetings": "Hello!",
+      "kid_fruits_food": "Fruit and food",
+      "kid_colors_numbers": "Colors and numbers",
+      "kid_family_animals": "Family and animals",
+      "kid_things_body": "Things and body",
+      "kid_numbers_days": "Numbers and days",
+      "kid_body_clothes": "Body and clothes",
+      "kid_home_school": "Home and school",
+      "kid_food_actions": "Food and actions",
+      "kid_describing": "What is it like?",
+      "kid_family_months": "Family and months",
+      "kid_weather_time": "Weather and time",
+      "kid_places": "Places and questions",
+      "kid_actions_describing": "Actions and qualities"
     }
+  },
+  "path": {
+    "themeName": "{{number}}. {{name}}",
+    "heartsLabel_one": "{{count}} life left",
+    "heartsLabel_other": "{{count}} lives left",
+    "continue": "Continue",
+    "open": "Open theme",
+    "locked": "You haven't reached this theme yet.",
+    "done": "Done",
+    "current": "Current theme",
+    "step": "Step {{n}}",
+    "exam": "Exam",
+    "stepDone": "{{name}}: done",
+    "stepCurrent": "{{name}}: up next",
+    "stepLocked": "{{name}}: locked",
+    "listenHint": "Listen and pick the meaning",
+    "outOfHearts": {
+      "title": "Out of lives",
+      "body": "Practice your mistakes: each right answer wins a life back. With full lives you start the step again.",
+      "refill": "Practice my mistakes"
+    },
+    "refill": {
+      "title": "Win lives back"
+    },
+    "passed": {
+      "eyebrow": "Step passed",
+      "title": "You passed, {{nickname}}!",
+      "exam": "Theme finished, {{nickname}}!",
+      "mistakes_one": "{{count}} mistake",
+      "mistakes_other": "{{count}} mistakes",
+      "next": "Next step",
+      "nextTheme": "Next theme",
+      "home": "Home"
+    },
+    "complete": "You reached the end of the path! New themes are coming."
   }
 }

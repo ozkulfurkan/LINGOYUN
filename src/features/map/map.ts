@@ -1,4 +1,4 @@
-import { unitsFor, type ContentBundle } from '@/content';
+import { unitsFor, type ContentBundle, type Theme } from '@/content';
 import { findCourse, type CourseId } from '@/features/languages';
 import { MIN_LEVEL_CONCEPTS } from '@/features/placement/session';
 import { masteryOf, type Deck } from '@/features/srs';
@@ -20,6 +20,8 @@ export type LevelNode = {
   /** 0–1, share of the level's concepts learned (box 3+). */
   mastery: number;
   state: LevelState;
+  /** Spoken and shown name, e.g. "3. Numbers"; the level id when unset. */
+  name?: string;
 };
 
 type Leveled = 'kid' | 'adult';
@@ -79,6 +81,27 @@ export function levelUpTarget(
   const concepts = levelConcepts(bundle, courseId, profileType, currentLevel);
   if (concepts.length === 0 || masteryOf(deck, concepts) < LEVEL_DONE_MASTERY) return null;
   return hasEnoughContent(levelConcepts(bundle, courseId, profileType, next)) ? next : null;
+}
+
+/**
+ * The learning path for the map: one stop per theme, numbered from 1. Themes
+ * before the current one are done, later ones locked; `mastery` is the share
+ * of the theme's words learned (box 3+).
+ */
+export function themeNodes(
+  themes: readonly Theme[],
+  currentIndex: number,
+  deck: Deck,
+  name: (theme: Theme, number: number) => string,
+): LevelNode[] {
+  return themes.map((theme, i) => ({
+    level: String(i + 1),
+    name: name(theme, i + 1),
+    conceptCount: theme.words.length,
+    playable: theme.words.length > 0,
+    mastery: masteryOf(deck, theme.words),
+    state: i < currentIndex ? 'done' : i === currentIndex ? 'current' : 'locked',
+  }));
 }
 
 export type Point = { x: number; y: number };

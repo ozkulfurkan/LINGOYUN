@@ -9,7 +9,10 @@ import { QuizPromptCard } from '@/components/QuizPromptCard';
 import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
+import { pathOf } from '@/content';
 import { content } from '@/content/bundle';
+import { findCourse } from '@/features/languages';
+import { difficultyFromPlacement, startPath } from '@/features/path';
 import {
   answeredCount,
   answerSession,
@@ -26,6 +29,7 @@ import {
 import { profilesStore, setCourseLevel, useActiveProfile } from '@/features/profiles';
 import { seededRng } from '@/features/quiz/rng';
 import { speak } from '@/lib/speech';
+import { savePath } from '@/storage/path';
 import { useReadAloud } from '@/lib/useReadAloud';
 import { space } from '@/theme';
 
@@ -74,7 +78,21 @@ function Test({ profileId, courseId, profileType, self }: TestProps) {
     }
     const level = placementResult(next.placement);
     const saved = profilesStore.update((state) => setCourseLevel(state, profileId, level));
-    if (saved.ok) router.replace('/placement/result');
+    if (!saved.ok) return;
+    // The result picks the first theme of the level and how hard its content is.
+    const correct = next.placement.finished.reduce((sum, b) => sum + b.correct, 0);
+    const scale = findCourse(courseId)?.levels[profileType] ?? [];
+    savePath(
+      profileId,
+      courseId,
+      startPath(
+        pathOf(content, courseId, profileType),
+        scale,
+        level,
+        difficultyFromPlacement(correct, TOTAL_QUESTIONS),
+      ),
+    );
+    router.replace('/placement/result');
   };
 
   const answered = answeredCount(session.placement);

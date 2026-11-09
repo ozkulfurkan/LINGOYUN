@@ -4,7 +4,7 @@ Kod ile bu belge birlikte değişir. Sayıların tek kaynağı `src/features/pro
 
 ## İlkeler
 
-- **Ceza yok.** Yanlış cevap da 1 XP kazandırır; hiçbir şey geri alınmaz.
+- **Ceza yok, can var.** Yanlış cevap da 1 XP kazandırır; kazanılan XP ve taş hiç geri alınmaz. İstisna, basamaklardaki **3 can** (Furkan'ın kararı, LNG-43): canlar bitince basamak durur ve yalnızca hataları tekrar ederek geri kazanılır; bekleme ve reklam yok. 2–7 yaşta can yoktur.
 - **Kayıp korkusu yok.** Seri, dondurma haklarıyla korunur; 2–7 yaşta seri gösterilmeyebilir (ekran tasarımında karar).
 - **Doğru yazılış her zaman gösterilir** ("neredeyse doğru" ve "yazım hatası" dahil).
 
@@ -47,6 +47,29 @@ Rozet kimlikleri kayda geçer; asla yeniden adlandırılmaz.
 ## Aralıklı tekrar (`src/features/srs`)
 
 5 kutu, aralıklar **0 / 1 / 3 / 7 / 14 gün**. Doğru → üst kutu, neredeyse/yazım → aynı kutu, yanlış → kutu 0 (aynı gün tekrar). Günlük liste: önce vadesi gelen tekrarlar (en geciken önce), sonra kurs sırasıyla yeni kelimeler.
+
+## Öğrenme yolu (`src/features/path`, LNG-43)
+
+Ekranda seviye adı (A1, L2…) hiç görünmez. Yol **1'den başlayan numaralı temalardır**: Selamlaşma, Kişiler ve aile, Sayılar… (yetişkin 27, 7–12 yaş 14 tema). Sıra `src/content/courses/tr-en.json` içindeki `paths` alanındadır. Her temanın gizli bir **bandı** (A1…C1 / L1…L10) vardır; yalnızca seviye testi ve içerik planlaması için kullanılır.
+
+**Her tema 5 basamak:**
+
+| Basamak  | Ne sorulur (15 soru)                                                                                                                                                     |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1–4      | Önceki basamağın hataları önce · 10 yeni kelime (çoktan seçmeli) · aynı kelimelerden 3 dinleme sorusu (yazı gizli, normal ve 0,5× yavaş ses) · 2 cümle (bloklarla kurma) |
+| 5: Sınav | Temanın öğretilen kelimelerinden, en zayıflar önce; 3'ü harf dizme · 3 dinleme · 2 cümle                                                                                 |
+
+- Önceki basamaktan kalan hatalı kelimeler dinleme sorularının, hatalı cümleler cümle sorularının yerini alır; basamak 15 soruda kalır.
+- **Can:** her basamakta 3 can. Her hata 1 can; aynı sorudaki ikinci deneme can götürmez. 3. hatada "Canların bitti" ekranı gelir.
+- **Can kazanma:** canlar bitince hatalar tekrar sorulur. Her doğru 1 can verir, yanlış soru kuyruğun sonuna gider. 3 can dolunca basamak baştan ve yeni sorularla başlar.
+- Tamamlanmış basamaklar ve temalar yeniden oynanabilir; ilerletmezler ama XP ve taş verirler.
+- Bir temada 40'tan az kelime varsa eksik yeni kelimeler temanın önceki kelimeleriyle doldurulur. Temada yeterli cümle yoksa aynı banttaki temaların cümleleri kullanılır.
+
+**Zorluk derecesi (1 kolay · 2 orta · 3 zor):** temanın cümleleri katmanlıdır (`sentences: { "1", "2", "3" }`); katman yoksa bir alttaki kullanılır.
+
+- Seviye testi başlangıç temasını (sonuç bandının ilk teması) ve dereceyi belirler: 20 sorunun %75'i doğruysa 3, %40'ı doğruysa 2, değilse 1. Testi atlayan 1'den başlar.
+- Üst üste 2 basamak can kaybetmeden geçilirse derece +1, canlar biterse −1.
+- Ayarlardan (ebeveyn kapısının arkasında) elle seçilebilir.
 
 ## Seviye tespiti (`src/features/placement`)
 

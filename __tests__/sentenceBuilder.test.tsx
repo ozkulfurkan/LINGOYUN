@@ -74,8 +74,7 @@ function wrongOrder(words: string[]): string[] {
 }
 
 async function openGame() {
-  await renderRouter(ROUTES);
-  await press('Cümle kurma');
+  await renderRouter(ROUTES, { initialUrl: '/play/sentence-builder' });
 }
 
 describe('sentence builder game', () => {
@@ -90,8 +89,8 @@ describe('sentence builder game', () => {
 
   it('is offered to leveled profiles, not to mini', async () => {
     seedProfile('mini');
-    await renderRouter(ROUTES);
-    expect(screen.queryByLabelText('Cümle kurma')).toBeNull();
+    await renderRouter(ROUTES, { initialUrl: '/play/sentence-builder' });
+    expect(screen.getByText('Yakında')).toBeTruthy();
   });
 
   it('checks a kid’s sentence as soon as it is complete', async () => {

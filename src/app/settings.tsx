@@ -3,18 +3,22 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, Switch, View } from 'react-native';
 
+import { ChoiceCard } from '@/components/ChoiceCard';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
 import { closeGate, isGateOpen } from '@/features/parental-gate';
+import { DIFFICULTIES, setDifficulty, type Difficulty } from '@/features/path';
 import {
   deleteProfile,
   profilesStore,
   setActiveProfile,
+  useActiveProfile,
   useProfiles,
   type Profile,
 } from '@/features/profiles';
+import { loadPath, savePath } from '@/storage/path';
 import { loadSettings, saveSettings, type Settings } from '@/storage/settings';
 import { space, stroke, useTheme } from '@/theme';
 
@@ -58,6 +62,8 @@ function SettingsBody() {
         onChange={(haptics) => update({ haptics })}
       />
 
+      <DifficultyPicker />
+
       <ThemedText variant="label" color="accentText">
         {t('settings.profiles')}
       </ThemedText>
@@ -65,6 +71,38 @@ function SettingsBody() {
         <ProfileRow key={p.id} profile={p} active={p.id === state.activeId} />
       ))}
     </Screen>
+  );
+}
+
+/** Difficulty of the active profile's content; it also adapts on its own. */
+function DifficultyPicker() {
+  const { t } = useTranslation();
+  const profile = useActiveProfile();
+  const [difficulty, setChosen] = useState<Difficulty | null>(() =>
+    profile && profile.type !== 'mini' ? loadPath(profile).difficulty : null,
+  );
+  if (!profile || profile.type === 'mini' || difficulty === null) return null;
+
+  const choose = (next: Difficulty) => {
+    savePath(profile.id, profile.courseId, setDifficulty(loadPath(profile), next));
+    setChosen(next);
+  };
+
+  return (
+    <View style={styles.profile}>
+      <ThemedText variant="label" color="accentText">
+        {t('settings.difficulty.title')}
+      </ThemedText>
+      <ThemedText color="textMuted">{t('settings.difficulty.body')}</ThemedText>
+      {DIFFICULTIES.map((level) => (
+        <ChoiceCard
+          key={level}
+          title={t(`settings.difficulty.${level}`)}
+          selected={difficulty === level}
+          onPress={() => choose(level)}
+        />
+      ))}
+    </View>
   );
 }
 

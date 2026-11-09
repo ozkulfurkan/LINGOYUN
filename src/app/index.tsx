@@ -10,13 +10,16 @@ import { RiverMap } from '@/components/RiverMap';
 import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
+import { pathOf } from '@/content';
 import { content } from '@/content/bundle';
 import { dailyReviewConcepts } from '@/features/games/multiple-choice/round';
-import { levelNodes } from '@/features/map';
+import { themeNodes } from '@/features/map';
 import { onboardingStep } from '@/features/onboarding/flow';
 import { getActiveProfile, useProfiles, type Profile } from '@/features/profiles';
 import { visibleStreak } from '@/features/progress';
 import { localDay } from '@/features/srs';
+import { themeName } from '@/lib/themeName';
+import { loadPath } from '@/storage/path';
 import { loadProgress } from '@/storage/progress';
 import { loadDeck } from '@/storage/srs';
 import { space, stroke, touchTarget, useTheme } from '@/theme';
@@ -56,68 +59,51 @@ function MiniHome({ nickname }: { nickname: string }) {
 
 type MapHomeProps = { profile: Profile; profileType: 'kid' | 'adult'; level: string };
 
-function MapHome({ profile, profileType, level }: MapHomeProps) {
+function MapHome({ profile, profileType }: MapHomeProps) {
   const { t } = useTranslation();
-  // Storage is read on every visit (not during render): a round may have
-  // changed the deck, the level or the streak.
+  const themes = pathOf(content, profile.courseId, profileType);
+  // Storage is read on every visit (not during render): a step may have
+  // changed the deck, the path or the streak.
   const read = useCallback(() => {
     const progress = loadProgress(profile.id);
     const deck = loadDeck(profile.id, profile.courseId);
+    const path = loadPath(profile);
     const today = localDay(new Date());
     return {
-      nodes: levelNodes(content, profile.courseId, profileType, deck, level),
+      path,
+      nodes: themeNodes(themes, path.themeIndex, deck, (theme, n) => themeName(t, theme, n)),
       gems: progress.gems,
       streak: visibleStreak(progress.streak, today),
       reviews: dailyReviewConcepts(content, deck, today).length,
     };
-  }, [profile.id, profile.courseId, profileType, level]);
+  }, [profile, themes, t]);
   const [data, setData] = useState(read);
+  const [selected, setSelected] = useState<number | null>(null);
   useFocusEffect(useCallback(() => setData(read()), [read]));
+
+  const complete = data.path.themeIndex >= themes.length;
+  const open = (index: number) => router.push({ pathname: '/play/theme', params: { index } });
 
   return (
     <Screen
       footer={
         <View style={styles.footer}>
-          <PrimaryButton
-            label={t('home.play')}
-            onPress={() => router.push('/play/multiple-choice')}
-          />
-          <View style={styles.row}>
-            <View style={styles.half}>
-              <SecondaryButton
-                label={t('home.playLetters')}
-                onPress={() => router.push('/play/letter-order')}
-              />
-            </View>
-            <View style={styles.half}>
-              <SecondaryButton
-                label={t('home.playSentences')}
-                onPress={() => router.push('/play/sentence-builder')}
-              />
-            </View>
-          </View>
-          {profileType === 'adult' ? (
-            <SecondaryButton
-              label={t('home.playRestaurant')}
-              onPress={() => router.push('/play/theme?theme=restaurant')}
+          {complete ? (
+            <ThemedText color="textMuted">{t('path.complete')}</ThemedText>
+          ) : (
+            <PrimaryButton
+              label={t('path.continue')}
+              onPress={() =>
+                router.push({
+                  pathname: '/play/step',
+                  params: {
+                    theme: String(data.path.themeIndex),
+                    step: String(data.path.stepIndex),
+                  },
+                })
+              }
             />
-          ) : null}
-          {profileType === 'adult' ? (
-            <View style={styles.row}>
-              <View style={styles.half}>
-                <SecondaryButton
-                  label={t('home.playTyping')}
-                  onPress={() => router.push('/play/free-typing')}
-                />
-              </View>
-              <View style={styles.half}>
-                <SecondaryButton
-                  label={t('home.playExpressions')}
-                  onPress={() => router.push('/play/multiple-choice?mode=expressions')}
-                />
-              </View>
-            </View>
-          ) : null}
+          )}
         </View>
       }
     >
@@ -133,11 +119,55 @@ function MapHome({ profile, profileType, level }: MapHomeProps) {
         <SettingsButton />
       </View>
       <ReviewCard count={data.reviews} />
-      <RiverMap
-        nodes={data.nodes}
-        shortLabel={(l) => (profileType === 'kid' ? l.replace(/^L/, '') : l)}
-      />
+      {selected !== null && themes[selected] ? (
+        <ThemeCard
+          name={themeName(t, themes[selected], selected + 1)}
+          state={data.nodes[selected].state}
+          onOpen={() => open(selected)}
+        />
+      ) : null}
+      <RiverMap nodes={data.nodes} shortLabel={(l) => l} onSelect={setSelected} />
     </Screen>
+  );
+}
+
+/** The theme behind a tapped stone: its name, and a way in once reached. */
+function ThemeCard({
+  name,
+  state,
+  onOpen,
+}: {
+  name: string;
+  state: 'done' | 'current' | 'locked';
+  onOpen: () => void;
+}) {
+  const { t } = useTranslation();
+  const { colors, radii, elevation } = useTheme();
+  return (
+    <View
+      accessibilityLiveRegion="polite"
+      style={[
+        styles.review,
+        {
+          backgroundColor: colors.surface,
+          borderColor: colors.border,
+          borderRadius: radii.md,
+          boxShadow: elevation.surface ?? undefined,
+        },
+      ]}
+    >
+      <ThemedText variant="option" testID="theme-card-name">
+        {name}
+      </ThemedText>
+      <ThemedText color="textMuted">
+        {state === 'locked'
+          ? t('path.locked')
+          : state === 'done'
+            ? t('path.done')
+            : t('path.current')}
+      </ThemedText>
+      {state === 'locked' ? null : <SecondaryButton label={t('path.open')} onPress={onOpen} />}
+    </View>
   );
 }
 

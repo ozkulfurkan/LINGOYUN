@@ -103,7 +103,7 @@ describe('placement test', () => {
     for (let i = 0; i < 20; i++) await press('Bilmiyorum');
 
     expect(levelOf()).toBe('A1');
-    expect(screen.getByText('A1')).toBeTruthy();
+    expect(screen.getByText('1. temadan başlıyorsun: Selamlaşma')).toBeTruthy();
     expect(screen.getByText('Buradan başlıyoruz, Deniz!')).toBeTruthy();
   });
 
@@ -113,7 +113,7 @@ describe('placement test', () => {
     for (let i = 0; i < 20; i++) await answerCorrectly();
 
     expect(levelOf()).toBe('L3');
-    expect(screen.getByText('Seviye 3')).toBeTruthy();
+    expect(screen.getByText(/temadan başlıyorsun: Aile ve aylar$/)).toBeTruthy();
 
     await press('Başla');
     expect(screen.getByText('Merhaba Deniz')).toBeTruthy();

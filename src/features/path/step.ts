@@ -28,7 +28,8 @@ export const DIFFICULTIES: readonly Difficulty[] = [1, 2, 3];
  * sentence: rebuild the English sentence from word blocks.
  */
 export type StepItem =
-  | { kind: 'choice' | 'listen'; conceptId: string; question: Question }
+  | { kind: 'choice'; conceptId: string; question: Question }
+  | { kind: 'listen'; conceptId: string; question: Question }
   | { kind: 'letters'; conceptId: string; puzzle: Puzzle }
   | { kind: 'sentence'; conceptId: string; puzzle: SentencePuzzle };
 
@@ -110,7 +111,10 @@ export function buildStep(input: BuildInput): StepItem[] {
       distractorIds: distractors,
       rng,
     });
-    return question ? { kind, conceptId, question } : null;
+    if (!question) return null;
+    return kind === 'listen'
+      ? { kind: 'listen', conceptId, question }
+      : { kind: 'choice', conceptId, question };
   };
 
   const sentencePool = [

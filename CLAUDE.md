@@ -9,8 +9,8 @@ Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları
 | Grup     | Profil tipi | Seviye                                  | Seviye testi |
 | -------- | ----------- | --------------------------------------- | ------------ |
 | 2–7 yaş  | `mini`      | 6 tema dünyası, 300 kelime, resim + ses | **Yok**      |
-| 7–12 yaş | `kid`       | Seviye 1–10, sıfırdan A2'ye             | Var          |
-| Yetişkin | `adult`     | A1–C1 (alt bölümlü)                     | Var          |
+| 7–12 yaş | `kid`       | Numaralı temalar (iç bant L1–L10)       | Var          |
+| Yetişkin | `adult`     | Numaralı temalar (iç bant A1–C1)        | Var          |
 
 - **Temalar:** Çocuk profilleri (`mini`, `kid`) **Oyun Hamuru** temasını kullanır, görseller ön planda. Yetişkin profili (`adult`) **Sözlük** temasını kullanır: açık mod + Gece Nehri renkleriyle koyu mod (sistem ayarını izler). Tema profil tipinden seçilir; bileşenler yalnızca aktif temanın token'larını okur.
 - **Karakterler (2–7 modu):** Zeynep, Nehir, Kerem — üç çocuk karakter. Görünüşleri `docs/characters.md` içinde tanımlanır; tutarlılık zorunlu.

@@ -11,7 +11,7 @@ description: 2–7 ve 7–12 yaş için ekran ve oyun tasarım kuralları — do
 - Dokunma alanı **en az 64 pt**, öğeler arası en az 16 pt. Ekranda aynı anda en fazla 4 seçenek.
 - Sürükle-bırak toleranslı: hedefe yakın bırakılan nesne mıknatıs gibi yerine oturur.
 - Ekranın köşelerine yanlışlıkla çıkış yaptıracak buton koyma; çıkış ebeveyn kapısının arkasında.
-- Yanlışta ceza, can, süre yok. 2 yanlıştan sonra doğru seçenek hafifçe parlar.
+- Yanlışta ceza, can, süre yok (2–7 yaş; can sistemi yalnızca 7–12 ve yetişkinde, aşağıya bak). 2 yanlıştan sonra doğru seçenek hafifçe parlar.
 - Bir oturum ~5 dakika / 8–10 etkinlik; sonunda karakter "yarın görüşürüz" der (zorlamadan).
 - Ana renkler ve şekillerle gezinme (ikon + karakter), menü listesi yok.
 
@@ -21,6 +21,7 @@ description: 2–7 ve 7–12 yaş için ekran ve oyun tasarım kuralları — do
 - Talimat kısa metin + isteğe bağlı ses butonu; 7–8 yaş için sorular varsayılan olarak sesli okunur.
 - Süreli modlar isteğe bağlı; varsayılan süresiz.
 - İlerleme görünür: harita, seri, taş — ama kayıp korkusu yaratma (seri bozulursa "dondurma" hakkı).
+- **Bilinçli istisna (Furkan'ın kararı, LNG-43):** tema basamaklarında 3 can var. Canlar bitince ceza dili kullanma; "Hatalarını tekrar et" turu canları geri verir. Bekletme, satın alma ve reklam ile can doldurma yok.
 
 ## Tüm çocuk profilleri
 
