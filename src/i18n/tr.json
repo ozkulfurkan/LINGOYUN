@@ -8,7 +8,8 @@
     "play": "Oyna",
     "playLetters": "Harf dizme",
     "playSentences": "Cümle kurma",
-    "stats": "{{gems}} taş · {{streak}} günlük seri"
+    "stats": "{{gems}} taş · {{streak}} günlük seri",
+    "playTyping": "Yazarak çevir"
   },
   "common": {
     "continue": "Devam",
@@ -187,5 +188,15 @@
       "kid": "7–12 yaş",
       "adult": "Yetişkin"
     }
+  },
+  "typing": {
+    "hintWord": "{{language}} karşılığını yaz",
+    "hintSentence": "Cümleyi {{language}} yaz",
+    "inputLabel": "Cevabın",
+    "placeholder": "Buraya yaz",
+    "check": "Kontrol et",
+    "dontKnow": "Bilmiyorum",
+    "nearMiss": "Neredeyse! Özel harflere dikkat: {{answer}}",
+    "typo": "Küçük bir yazım hatası. Doğrusu: {{answer}}"
   }
 }

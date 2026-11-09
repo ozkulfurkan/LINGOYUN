@@ -99,3 +99,8 @@ Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer u
 | Seviye atlama       | konfeti             | `levelUp`                     | başarı   |
 
 Sesler `scripts/generate-sounds.mjs` ile sentezlenir. iOS'ta sessiz mod sesi kapatır. "Hareketi azalt" açıkken sallanma, zıplama ve konfeti yoktur. Ses ve titreşim `settings.v1`'den kapatılabilir.
+
+## Yazarak çevir (`src/features/games/free-typing`, yalnız yetişkin)
+
+- Ana dildeki kelime/cümle gösterilir; hedef dilde yazılır. Cevap kontrolü `src/features/answer-check` (yukarıdaki tablo).
+- "Bilmiyorum" = yanlış; doğru cevap gösterilir ve okunur. Tur 8 madde.
