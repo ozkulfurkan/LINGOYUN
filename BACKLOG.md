@@ -173,6 +173,15 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     8. Ayarlar (ebeveyn kapısı) → "Zorluk": Kolay / Orta / Zor. Restoran temasında zor seçilince cümleler uzar.
     9. Yeni profil + seviye testi → sonuç ekranında "N. temadan başlıyorsun: …".
     10. 7–12 yaş profiliyle aynı akış (sorular kendiliğinden okunur, cümle dolunca otomatik kontrol).
+- [~] **LNG-44** CİHAZ — Ebeveyn kontrolünden çocuk profili oluşturma ve "Kim oynuyor?" (Furkan'ın isteği). Ayarlar (kapının arkasında) → "Çocuğum için profil oluştur" → 2–7 veya 7–12 yaş → takma ad → "Şimdi … ile oyna" ya da "Ayarlara dön". Ebeveyn kendi profilinde kalır. 7–12 profili ilk açılışta kendi beyanı ve seviye testinden geçer. Birden fazla profil varsa her açılışta kapısız "Kim oynuyor?" ekranı çıkar; ana ekranın köşesinde profil değiştirme düğmesi var. Sınır 3 profil.
+  - Derleme: yeni yerel paket yok. Metro'yu `--clear` ile yeniden başlat.
+  - Cihazda nasıl test edilir:
+    1. Ana ekranda ayarlar düğmesi → çarpma sorusu → Ayarlar → "Çocuğum için profil oluştur".
+    2. "7–12 yaş" seç → takma ad yaz → "Profili oluştur" → "<ad> hazır!" ekranı. "Ayarlara dön" → profil listede, sen hâlâ kendi profilindesin.
+    3. Uygulamayı tamamen kapatıp aç → "Kim oynuyor?" çıkar. Çocuğu seç → "Ne kadar İngilizce biliyorsun?" ve seviye testi gelir.
+    4. Ana ekranın sağ üstündeki baş harf düğmesi → "Kim oynuyor?" → kendi profiline geri dön.
+    5. Bir 2–7 yaş profili ekle ve "Şimdi … ile oyna" de → resimli ana ekran. 3 profil olunca ayarlarda oluştur düğmesi yerine sınır yazısı çıkar.
+    6. Kartlar küçük bir çocuğun rahatça dokunabileceği büyüklükte mi?
 - [ ] **LNG-42** BULUT + FURKAN — İçerik üretimi (10 kat) yeni yapıya göre: her tema 40 kelime ve her zorlukta en az 8 cümle (kolay ~5, orta ~10, zor 15–22 kelime); yeni temalar (evde, iş yerinde, yol sorma, pastane, okul…) müfredat sırasıyla eklenir. Önkoşul: LNG-43 cihaz onayı, LNG-40. Her parti `ceviri-editoru` agent'ından geçer. `money.bill` iki kavrama ayrılır.
 
 ## Faz 6 — 2–7 yaş (Zeynep, Nehir, Kerem)

@@ -10,6 +10,7 @@ import type { Profile, ProfilesState } from './types';
 export * from './types';
 export * from './profiles';
 export { createProfilesStore, type ProfilesStore } from './store';
+export * from './session';
 
 /** The app's profile store, persisted in MMKV. */
 export const profilesStore = createProfilesStore({ load: loadProfiles, save: saveProfiles });

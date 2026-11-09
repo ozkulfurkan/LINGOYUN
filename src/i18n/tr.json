@@ -201,7 +201,8 @@
       "3": "Zor",
       "title": "Zorluk",
       "body": "Oynadıkça kendiliğinden ayarlanır; buradan da seçebilirsin."
-    }
+    },
+    "addChild": "Çocuğum için profil oluştur"
   },
   "typing": {
     "hintWord": "{{language}} karşılığını yaz",
@@ -292,5 +293,19 @@
       "home": "Ana ekran"
     },
     "complete": "Yolun sonuna geldin! Yeni temalar yakında."
+  },
+  "child": {
+    "title": "Çocuğun kaç yaşında?",
+    "nickname": "Çocuğunun takma adı",
+    "create": "Profili oluştur",
+    "ready": "{{nickname}} hazır!",
+    "readyKid": "İlk açılışta kısa bir seviye testi onu doğru temaya yerleştirecek.",
+    "readyMini": "Resimli oyunlar onu bekliyor.",
+    "playNow": "Şimdi {{nickname}} ile oyna",
+    "back": "Ayarlara dön"
+  },
+  "who": {
+    "title": "Kim oynuyor?",
+    "switch": "Profil değiştir"
   }
 }

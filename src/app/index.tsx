@@ -15,7 +15,12 @@ import { content } from '@/content/bundle';
 import { dailyReviewConcepts } from '@/features/games/multiple-choice/round';
 import { themeNodes } from '@/features/map';
 import { onboardingStep } from '@/features/onboarding/flow';
-import { getActiveProfile, useProfiles, type Profile } from '@/features/profiles';
+import {
+  getActiveProfile,
+  needsProfilePicker,
+  useProfiles,
+  type Profile,
+} from '@/features/profiles';
 import { visibleStreak } from '@/features/progress';
 import { localDay } from '@/features/srs';
 import { themeName } from '@/lib/themeName';
@@ -32,6 +37,7 @@ export default function HomeScreen() {
   const profile = getActiveProfile(state);
 
   if (step === 'createProfile') return <Redirect href="/onboarding" />;
+  if (needsProfilePicker(state)) return <Redirect href="/who" />;
   if (step === 'selfAssessment') return <Redirect href="/onboarding/level" />;
   if (!profile) return null;
 
@@ -46,6 +52,7 @@ function MiniHome({ nickname }: { nickname: string }) {
   return (
     <View style={[styles.mini, { backgroundColor: colors.background }]}>
       <View style={styles.cornerButton}>
+        <ProfileSwitch />
         <SettingsButton />
       </View>
       <ThemedText variant="title" color="accentText">
@@ -116,6 +123,7 @@ function MapHome({ profile, profileType }: MapHomeProps) {
             {t('home.stats', { gems: data.gems, streak: data.streak })}
           </ThemedText>
         </View>
+        <ProfileSwitch />
         <SettingsButton />
       </View>
       <ReviewCard count={data.reviews} />
@@ -200,6 +208,28 @@ function ReviewCard({ count }: { count: number }) {
   );
 }
 
+/** Opens "Who is playing?"; hidden while there is a single profile. */
+function ProfileSwitch() {
+  const { t } = useTranslation();
+  const { colors, radii } = useTheme();
+  const { profiles, activeId } = useProfiles();
+  const active = profiles.find((p) => p.id === activeId);
+  if (profiles.length < 2 || !active) return null;
+  return (
+    <PressScale
+      accessibilityRole="button"
+      accessibilityLabel={t('who.switch')}
+      onPress={() => router.push('/who')}
+      style={[
+        styles.settings,
+        { backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radii.pill },
+      ]}
+    >
+      <ThemedText variant="option">{[...active.nickname][0] ?? ''}</ThemedText>
+    </PressScale>
+  );
+}
+
 /** Opens settings through the parental gate (kids-ux skill). */
 function SettingsButton() {
   const { t } = useTranslation();
@@ -260,5 +290,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: space.xxxl,
     right: space.xl,
+    flexDirection: 'row',
+    gap: space.sm,
   },
 });

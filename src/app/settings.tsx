@@ -11,7 +11,9 @@ import { ThemedText } from '@/components/ThemedText';
 import { closeGate, isGateOpen } from '@/features/parental-gate';
 import { DIFFICULTIES, setDifficulty, type Difficulty } from '@/features/path';
 import {
+  canAddProfile,
   deleteProfile,
+  MAX_PROFILES,
   profilesStore,
   setActiveProfile,
   useActiveProfile,
@@ -70,6 +72,13 @@ function SettingsBody() {
       {state.profiles.map((p) => (
         <ProfileRow key={p.id} profile={p} active={p.id === state.activeId} />
       ))}
+      {canAddProfile(state) ? (
+        <PrimaryButton label={t('settings.addChild')} onPress={() => router.push('/child-new')} />
+      ) : (
+        <ThemedText color="textMuted">
+          {t('profileErrors.limitReached', { limit: MAX_PROFILES })}
+        </ThemedText>
+      )}
     </Screen>
   );
 }

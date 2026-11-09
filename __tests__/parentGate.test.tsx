@@ -10,6 +10,7 @@ import { closeGate } from '@/features/parental-gate';
 import {
   addProfile,
   deleteProfile,
+  markProfileChosen,
   profilesStore,
   setCourseLevel,
   type ProfileType,
@@ -58,6 +59,8 @@ describe('parental gate and settings', () => {
   beforeEach(async () => {
     await i18n.changeLanguage('tr');
     storage.remove('settings.v1');
+    // These tests are about settings, not the "Who's playing?" picker.
+    markProfileChosen();
     closeGate();
   });
 

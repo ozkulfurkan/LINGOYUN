@@ -201,7 +201,8 @@
       "3": "Hard",
       "title": "Difficulty",
       "body": "It adjusts as you play; you can also pick it here."
-    }
+    },
+    "addChild": "Create a profile for my child"
   },
   "typing": {
     "hintWord": "Type it in {{language}}",
@@ -292,5 +293,19 @@
       "home": "Home"
     },
     "complete": "You reached the end of the path! New themes are coming."
+  },
+  "child": {
+    "title": "How old is your child?",
+    "nickname": "Your child's nickname",
+    "create": "Create profile",
+    "ready": "{{nickname}} is ready!",
+    "readyKid": "A short placement test on first launch puts them on the right theme.",
+    "readyMini": "Picture games are waiting.",
+    "playNow": "Play as {{nickname}} now",
+    "back": "Back to settings"
+  },
+  "who": {
+    "title": "Who's playing?",
+    "switch": "Switch profile"
   }
 }

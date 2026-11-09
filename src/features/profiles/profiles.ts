@@ -54,14 +54,24 @@ export function validateNickname(
 
 type NewProfile = { nickname: string; type: ProfileType; courseId: CourseId };
 
+/** Age groups a parent can add for a child (adults set up their own profile). */
+export const CHILD_TYPES = ['mini', 'kid'] as const satisfies readonly ProfileType[];
+
+/** Another profile fits in the family subscription. */
+export function canAddProfile(state: ProfilesState): boolean {
+  return state.profiles.length < MAX_PROFILES;
+}
+
 /**
- * Adds a profile and makes it active. `id` and `now` are injected so the
- * function stays pure and testable.
+ * Adds a profile, by default also making it active. A parent adding a child
+ * passes `activate: false` to stay on the current profile. `id` and `now`
+ * are injected so the function stays pure and testable.
  */
 export function addProfile(
   state: ProfilesState,
   input: NewProfile,
   { id, now }: { id: string; now: number },
+  { activate = true }: { activate?: boolean } = {},
 ): Result<ProfilesState> {
   if (state.profiles.length >= MAX_PROFILES) return fail('limitReached');
   if (!findCourse(input.courseId)) return fail('unknownCourse');
@@ -76,7 +86,8 @@ export function addProfile(
     courses: { [input.courseId]: { level: null } },
     createdAt: now,
   };
-  return ok({ profiles: [...state.profiles, profile], activeId: id });
+  const activeId = activate || state.activeId === null ? id : state.activeId;
+  return ok({ profiles: [...state.profiles, profile], activeId });
 }
 
 export function renameProfile(
