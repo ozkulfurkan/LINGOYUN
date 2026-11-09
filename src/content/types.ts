@@ -55,9 +55,31 @@ export type Unit = {
   concepts: string[];
 };
 
+/** Difficulty of a theme's sentences: 1 easy (~5 words), 2 medium (~10), 3 hard (15+). */
+export type ThemeTier = '1' | '2' | '3';
+
+/**
+ * One stop on the learning path, shown to learners only as a number and a
+ * name ("7. Restoranda"). `band` ties it to a level of the course for the
+ * placement test and is never shown.
+ */
+export type Theme = {
+  /** Unique within the course, e.g. "adult.greetings". Never renamed once shipped. */
+  id: string;
+  /** Key under `themes.names` in src/i18n. */
+  title: string;
+  band: string;
+  /** Vocabulary in teaching order; each of the first four steps takes ten. */
+  words: string[];
+  /** Sentence concepts per difficulty; a missing tier falls back to an easier one. */
+  sentences: Partial<Record<ThemeTier, string[]>>;
+};
+
 export type CourseContent = {
   id: CourseId;
   units: Unit[];
+  /** Learning path per leveled profile type, in teaching order. */
+  paths?: Partial<Record<'kid' | 'adult', Theme[]>>;
 };
 
 export type ContentBundle = {

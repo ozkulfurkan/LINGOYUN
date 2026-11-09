@@ -1,7 +1,7 @@
 import type { CourseId, LanguageCode } from '@/features/languages';
 import type { ProfileType } from '@/features/profiles/types';
 
-import type { Concept, ContentBundle, Entry, Unit } from './types';
+import type { Concept, ContentBundle, Entry, Theme, Unit } from './types';
 
 export function findConcept(bundle: ContentBundle, id: string): Concept | undefined {
   return bundle.concepts.find((c) => c.id === id);
@@ -63,4 +63,13 @@ export function conceptsOf(bundle: ContentBundle, unit: Unit): Concept[] {
   return unit.concepts
     .map((id) => findConcept(bundle, id))
     .filter((c): c is Concept => c !== undefined);
+}
+
+/** The learning path of a leveled profile type: its themes in teaching order. */
+export function pathOf(
+  bundle: ContentBundle,
+  courseId: CourseId,
+  profileType: 'kid' | 'adult',
+): Theme[] {
+  return bundle.courses.find((c) => c.id === courseId)?.paths?.[profileType] ?? [];
 }

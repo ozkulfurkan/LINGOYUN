@@ -5,6 +5,10 @@ import type { ContentBundle, ContentIssue, Entry } from './types';
 
 const CONCEPT_ID = /^[a-z][a-z0-9_]*(\.[a-z0-9_]+)+$/;
 const KINDS = ['word', 'phrase', 'idiom', 'sentence'];
+/** Below this a theme cannot fill its steps with new words (warning only). */
+const MIN_THEME_WORDS = 20;
+/** Four steps with two sentences each (warning only). */
+const MIN_THEME_SENTENCES = 8;
 
 /**
  * Checks the whole content bundle. Errors must be fixed before shipping;
@@ -117,6 +121,43 @@ export function validateContent(bundle: ContentBundle): ContentIssue[] {
             error(where, `concept ${id} has no ${code} text`);
           }
         }
+      }
+    }
+
+    // Learning paths: ordered themes per leveled profile type.
+    const themeIds = new Set<string>();
+    for (const profileType of ['kid', 'adult'] as const) {
+      const scale = def.levels[profileType];
+      let lastBand = 0;
+      for (const theme of course.paths?.[profileType] ?? []) {
+        const where = `courses/${course.id} › paths.${profileType} › ${theme.id}`;
+        if (themeIds.has(theme.id)) error(where, 'duplicate theme id');
+        themeIds.add(theme.id);
+        if (!theme.title.trim()) error(where, 'theme has no title');
+        const band = scale.indexOf(theme.band);
+        if (band < 0) error(where, `band must be one of ${scale.join(', ')}`);
+        else if (band < lastBand) error(where, 'themes must not get easier along the path');
+        else lastBand = band;
+        if (theme.words.length === 0) error(where, 'theme has no words');
+        else if (theme.words.length < MIN_THEME_WORDS) {
+          warn(where, `only ${theme.words.length} words (a theme teaches up to 40)`);
+        }
+        if ((theme.sentences['1']?.length ?? 0) < MIN_THEME_SENTENCES) {
+          warn(where, 'few easy sentences: steps borrow from other themes of the band');
+        }
+        const check = (id: string, wantSentence: boolean) => {
+          const concept = concepts.get(id);
+          if (!concept) return error(where, `unknown concept ${id}`);
+          if ((concept.kind === 'sentence') !== wantSentence) {
+            error(where, `${id} belongs in ${wantSentence ? 'words' : 'sentences'}`);
+          }
+          if (!concept.ageGroups.includes(profileType)) {
+            error(where, `concept ${id} is not meant for ${profileType}`);
+          }
+        };
+        if (new Set(theme.words).size !== theme.words.length) error(where, 'word listed twice');
+        theme.words.forEach((id) => check(id, false));
+        Object.values(theme.sentences).forEach((ids) => ids?.forEach((id) => check(id, true)));
       }
     }
   }
