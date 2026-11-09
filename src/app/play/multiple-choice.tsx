@@ -1,11 +1,16 @@
-import * as Haptics from 'expo-haptics';
 import { Redirect } from 'expo-router';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
 import { BlockProgress } from '@/components/BlockProgress';
-import { CloseButton, GameFeedback, GemCount, RoundSummary } from '@/components/GameChrome';
+import {
+  CloseButton,
+  GameFeedback,
+  GemCount,
+  RoundSummary,
+  withCombo,
+} from '@/components/GameChrome';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { QuizOptions } from '@/components/QuizOptions';
 import { QuizPromptCard } from '@/components/QuizPromptCard';
@@ -28,6 +33,8 @@ import { useActiveProfile } from '@/features/profiles';
 import type { SessionReward } from '@/features/progress';
 import { seededRng } from '@/features/quiz/rng';
 import { localDay, recordAnswer } from '@/features/srs';
+import { comboEvent, trailingRun } from '@/lib/feedbackEvents';
+import { playFeedback } from '@/lib/feedback';
 import { speak } from '@/lib/speech';
 import { useReadAloud } from '@/lib/useReadAloud';
 import { loadProgress } from '@/storage/progress';
@@ -81,6 +88,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
   const [gems, setGems] = useState(() => loadProgress(profileId).gems);
   const [reward, setReward] = useState<SessionReward | null>(null);
   const [newLevel, setNewLevel] = useState<string | null>(null);
+  const [comboRun, setComboRun] = useState<number | null>(null);
 
   const question = currentQuestion(round);
   const pick = currentPick(round);
@@ -104,7 +112,8 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
   const onPick = (index: number) => {
     if (pick !== null) return;
     const right = index === question.correctIndex;
-    setRound(pickOption(round, index));
+    const answered = pickOption(round, index);
+    setRound(answered);
     // Saved per answer: leaving mid-round must not lose what was practised.
     const deck = loadDeck(profileId, courseId);
     saveDeck(
@@ -113,11 +122,10 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
       recordAnswer(deck, question.conceptId, right ? 'good' : 'again', today),
     );
     if (right) setGems((g) => g + 1);
-    // Some devices have no haptics; the game must still work.
-    (right
-      ? Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success)
-      : Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light)
-    ).catch(() => undefined);
+    const run = right ? trailingRun(roundGrades(answered)) : 0;
+    const combo = comboEvent(run);
+    setComboRun(combo ? run : null);
+    playFeedback(right ? (combo ?? 'correct') : 'wrong');
   };
 
   const onContinue = () => {
@@ -148,7 +156,7 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
             <GameFeedback
               text={
                 right
-                  ? t(`game.correct.${profileType}`)
+                  ? withCombo(t(`game.correct.${profileType}`), comboRun, t)
                   : t('game.answerWas', { answer: correctText })
               }
             />

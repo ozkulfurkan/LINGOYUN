@@ -105,7 +105,22 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     4. Yetişkin profilinde koyu moda al → harita koyu temada okunur kalıyor mu?
     5. VoiceOver/TalkBack açıkken taşlara dokun → "L2: şu anki seviye, %35 öğrenildi" gibi okunmalı.
     6. (Uzun) Bir seviyenin kelimelerini öğrenince tur sonunda "Yeni seviye açıldı" çıkmalı ve haritada bir sonraki taş pembe olmalı.
-- [ ] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
+- [~] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
+  - ✅ Ses efektleri (doğru, yanlış, 3/5/10'lu seri, tur sonu, seviye atlama, çocuk temasında dokunma "tık"ı) `scripts/generate-sounds.mjs` ile sentezlendi → `assets/audio/sfx/` (lisans derdi yok, ~150 KB). Çalma `src/lib/sound.ts` (expo-audio), titreşim + ses tek yerden `src/lib/feedback.ts`.
+  - ✅ Animasyonlar (`src/components/Motion.tsx`): yanlışta 3 salınımlı sallanma, doğruda zıplama, taş sayacı artınca sıçrama; hatasız turda ve seviye atlamada konfeti (`Confetti.tsx`, 24 parça). "Hareketi azalt" açıkken hepsi kapalı.
+  - ✅ 3, 5 ve 10 doğru üst üste: geri bildirimde "3 doğru üst üste!" + yükselen arpej + orta titreşim. Ses ve titreşim ayarı `settings.v1`'de (varsayılan açık; ayar ekranı yok, LNG-26 ile birlikte).
+  - Kararlar (gece çalışması): iOS'ta sessiz moddayken ses çalmaz; yetişkin temasında dokunma sesi yok, yalnızca titreşim. expo-audio yalnızca ses çalmak için, mikrofon izni eklenmedi.
+  - ⚠️ **Derleme: YENİ yerel paket var (`expo-audio`) → sesleri duymak için yeni geliştirici derlemesi gerekir** (`npx eas-cli@latest build --profile development --platform ios` / `android`). Eski derlemede uygulama çökmez; yalnızca ses çıkmaz, titreşim ve animasyonlar çalışır.
+  - Cihazda nasıl test edilir (yeni derlemeyle):
+    1. Çoktan seçmelide doğru şık: kart zıplar, yükselen iki nota, başarı titreşimi, taş ikonu sıçrar.
+    2. Yanlış şık: senin kartın sağa sola sallanır, yumuşak alçalan ton, hafif titreşim (alarm gibi değil).
+    3. Üst üste 3 doğru: "Aferin! 3 doğru üst üste!" + üç notalık arpej; 5 ve 10'da daha parlak.
+    4. Harf dizme/cümle kurma: yanlışta kutular/cümle alanı sallanır, doğruda zıplar.
+    5. Hatasız tur sonu: konfeti yağar + kısa fanfar. Seviye atlamada daha uzun fanfar.
+    6. 7–12 profilinde butonlara dokununca hafif "tık" sesi; yetişkinde ses yok.
+    7. iPhone sessiz moddayken hiç ses çıkmamalı; titreşim olmalı.
+    8. Ayarlar → Erişilebilirlik → Hareketi Azalt açık: sallanma, zıplama ve konfeti olmamalı.
+    9. Düşük seviye bir Android'de konfeti sırasında takılma var mı?
 
 ## Faz 4 — Abonelik
 

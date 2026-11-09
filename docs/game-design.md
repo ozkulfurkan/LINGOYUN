@@ -86,3 +86,16 @@ Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer u
 - Kursun her seviyesi nehir boyunca bir taş: şu anki seviyenin altındakiler tamamlandı, üstündekiler kilitli; içeriği yazılmamış seviyeler "yakında".
 - Şu anki seviyenin halkası, o seviyenin kelimelerinin ne kadarının öğrenildiğini (tekrar kutusu 3+) gösterir.
 - **Seviye atlama:** bir tur bittiğinde şu anki seviyenin kelimelerinin **%80**'i öğrenilmişse ve sonraki seviyenin içeriği varsa profil bir üst seviyeye geçer (+10 taş, "Seviye atlama" rozeti). Eşik `LEVEL_DONE_MASTERY`.
+
+## Oyun hissi (LNG-22)
+
+| An                  | Görsel              | Ses (`assets/audio/sfx`)      | Titreşim |
+| ------------------- | ------------------- | ----------------------------- | -------- |
+| Butona dokunma      | 0,94'e sıkışma      | `tap` (yalnız çocuk teması)   | seçim    |
+| Doğru               | zıplama             | `correct` (yükselen iki nota) | başarı   |
+| Yanlış              | 3 salınım sallanma  | `wrong` (yumuşak, alçalan)    | hafif    |
+| 3 / 5 / 10 üst üste | "N doğru üst üste!" | `combo3/5/10` (arpej)         | orta     |
+| Tur sonu            | (hatasızsa) konfeti | `complete`                    | başarı   |
+| Seviye atlama       | konfeti             | `levelUp`                     | başarı   |
+
+Sesler `scripts/generate-sounds.mjs` ile sentezlenir. iOS'ta sessiz mod sesi kapatır. "Hareketi azalt" açıkken sallanma, zıplama ve konfeti yoktur. Ses ve titreşim `settings.v1`'den kapatılabilir.

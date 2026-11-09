@@ -1,4 +1,3 @@
-import * as Haptics from 'expo-haptics';
 import type { ReactNode } from 'react';
 import { Pressable, type PressableProps, type StyleProp, type ViewStyle } from 'react-native';
 import Animated, {
@@ -9,6 +8,8 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
+import { tapFeedback } from '@/lib/feedback';
+import { playSound } from '@/lib/sound';
 import { pressedScale, useTheme } from '@/theme';
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
@@ -23,7 +24,7 @@ type Props = Omit<PressableProps, 'style' | 'children'> & {
  * device. With reduced motion on, it only dims instead of moving.
  */
 export function PressScale({ style, children, onPress, onPressIn, onPressOut, ...rest }: Props) {
-  const { motion } = useTheme();
+  const { motion, name } = useTheme();
   const reducedMotion = useReducedMotion();
   const pressed = useSharedValue(1);
 
@@ -44,8 +45,9 @@ export function PressScale({ style, children, onPress, onPressIn, onPressOut, ..
         onPressOut?.(e);
       }}
       onPress={(e) => {
-        // Some devices have no haptics; the press itself must still work.
-        Haptics.selectionAsync().catch(() => undefined);
+        tapFeedback();
+        // A soft tick in the toy-like kids theme only (game-feel skill).
+        if (name === 'kids') playSound('tap');
         onPress?.(e);
       }}
     >

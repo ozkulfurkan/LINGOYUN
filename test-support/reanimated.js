@@ -24,4 +24,14 @@ module.exports = {
   useReducedMotion: () => false,
   withTiming: (value) => value,
   withSpring: (value) => value,
+  // A sequence ends on its last step; a delay changes nothing once settled.
+  withSequence: (...steps) => steps[steps.length - 1],
+  withDelay: (_ms, value) => value,
+  Easing: {
+    linear: (t) => t,
+    quad: (t) => t * t,
+    out: (fn) => (t) => 1 - fn(1 - t),
+    in: (fn) => fn,
+    inOut: (fn) => fn,
+  },
 };
