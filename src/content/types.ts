@@ -43,11 +43,15 @@ export type LanguageContent = {
 /**
  * Ordered group of concepts in a course. `mini` units are theme worlds and
  * have no level; `kid` and `adult` units belong to a level of the course.
+ * A unit with a `theme` teaches a real-life situation at one difficulty; it is
+ * played from its theme and stays outside the level ladder.
  */
 export type Unit = {
   id: string;
   profileType: ProfileType;
   level?: string;
+  /** Situation this unit teaches, e.g. "restaurant". */
+  theme?: string;
   concepts: string[];
 };
 

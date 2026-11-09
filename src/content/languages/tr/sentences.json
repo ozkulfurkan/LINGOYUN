@@ -878,5 +878,192 @@
   "sentence.a2_photos_beach": {
     "text": "Plajda çok fotoğraf çektim.",
     "alt": ["Plajda birçok fotoğraf çektim.", "Sahilde çok fotoğraf çektim."]
+  },
+  "restaurant.a2_see_menu": {
+    "text": "Bugünkü menüyü görebilir miyiz, lütfen?",
+    "alt": ["Bugünün menüsünü görebilir miyiz, lütfen?"]
+  },
+  "restaurant.a2_table_window": {
+    "text": "Pencereye yakın bir masa istiyoruz.",
+    "alt": [
+      "Pencere kenarında bir masa istiyoruz.",
+      "Cam kenarında bir masa istiyoruz.",
+      "Pencereye yakın bir masa rica ediyoruz."
+    ]
+  },
+  "restaurant.a2_soup_salad": {
+    "text": "Öğle yemeği için çorba ve salata istiyorum.",
+    "alt": ["Öğle yemeğimde çorba ve salata istiyorum."]
+  },
+  "restaurant.a2_spicy_children": {
+    "text": "Bu çorba küçük çocuklar için çok acı mı?"
+  },
+  "restaurant.a2_wife_meat": {
+    "text": "Eşim et ve balık yemez.",
+    "alt": [
+      "Karım et ve balık yemez.",
+      "Eşim et veya balık yemiyor.",
+      "Karım et veya balık yemiyor."
+    ]
+  },
+  "restaurant.a2_more_water": {
+    "text": "Bize biraz daha su getirebilir misiniz, lütfen?",
+    "alt": ["Bize biraz daha su getirir misiniz, lütfen?"]
+  },
+  "restaurant.a2_chicken_cold": {
+    "text": "Tavuk çok lezzetliydi ama çorba soğuktu.",
+    "alt": ["Tavuk lezzetliydi ama çorba soğuktu."]
+  },
+  "restaurant.a2_two_coffees": {
+    "text": "Şimdi iki kahve sipariş etmek istiyoruz.",
+    "alt": ["Şimdi iki kahve söylemek istiyoruz."]
+  },
+  "restaurant.a2_bill_card": {
+    "text": "Hesabı alıp kartla ödeyebilir miyiz?",
+    "alt": ["Hesabı alabilir ve kartla ödeyebilir miyiz?"]
+  },
+  "restaurant.a2_reservation_eight": {
+    "text": "Saat sekize dört kişilik rezervasyonum var.",
+    "alt": ["Sekize dört kişilik rezervasyonum var."]
+  },
+  "restaurant.b1_recommend_light": {
+    "text": "Çok aç olmadığım için hafif bir şey önerebilir misiniz?",
+    "alt": ["Çok aç olmadığım için hafif bir şey tavsiye edebilir misiniz?"]
+  },
+  "restaurant.b1_nuts_ingredients": {
+    "text": "Kuruyemişe alerjim var, bu yüzden lütfen malzemeleri dikkatlice kontrol edin.",
+    "alt": ["Kuruyemişe alerjim var, o yüzden lütfen malzemeleri dikkatlice kontrol edin."]
+  },
+  "restaurant.b1_table_six": {
+    "text": "Altı kişilik bir masa ayırttık ama iki arkadaşımız geç gelecek.",
+    "alt": ["Altı kişilik masa ayırttık ama iki arkadaşımız geç gelecek."]
+  },
+  "restaurant.b1_share_main": {
+    "text": "Buradaki porsiyonlar büyük, bu yüzden bir ana yemeği paylaşabiliriz.",
+    "alt": ["Buradaki porsiyonlar büyük, o yüzden bir ana yemeği paylaşabiliriz."]
+  },
+  "restaurant.b1_fish_late": {
+    "text": "Balığı yirmi dakika önce sipariş ettim ve hâlâ gelmedi.",
+    "alt": ["Balığı yirmi dakika önce söyledim ve hâlâ gelmedi."]
+  },
+  "restaurant.b1_steak": {
+    "text": "Bifteğinizi az, orta veya iyi pişmiş mi istersiniz, efendim?",
+    "alt": ["Bifteğinizi az, orta ya da iyi pişmiş mi istersiniz, efendim?"]
+  },
+  "restaurant.b1_wait_bar": {
+    "text": "Şu anda boş masanız yoksa barda bekleyebiliriz.",
+    "alt": ["Şimdi boş masanız yoksa barda bekleyebiliriz."]
+  },
+  "restaurant.b1_overcooked": {
+    "text": "Bu et fazla pişmiş, bana başka bir tane getirebilir misiniz lütfen?",
+    "alt": ["Bu et fazla pişmiş, bana lütfen başka bir tane getirebilir misiniz?"]
+  },
+  "restaurant.b1_take_away": {
+    "text": "Yemeğimizin kalanını paket yaptırabilir miyiz?",
+    "alt": ["Kalan yemeğimizi paket yaptırabilir miyiz?"]
+  },
+  "restaurant.b1_service_slow": {
+    "text": "Servis yavaştı ama garson nazik ve çok yardımseverdi.",
+    "alt": ["Servis yavaştı ama garson kibar ve çok yardımseverdi."]
+  },
+  "restaurant.b2_quiet_anniversary": {
+    "text": "Bu akşam annemizle babamızın ellinci evlilik yıl dönümünü onlarla kutlayacağımız için sessiz bir masa rica ederiz.",
+    "alt": [
+      "Bu akşam ebeveynlerimizin ellinci evlilik yıl dönümünü onlarla kutlayacağımız için sessiz bir masa rica ederiz."
+    ]
+  },
+  "restaurant.b2_reviews_bland": {
+    "text": "Yorumlar harika olsa da yemek oldukça tatsızdı ve bu kadar küçük porsiyonlar için fazlasıyla pahalıydı.",
+    "alt": [
+      "Yorumlar mükemmel olsa da yemek oldukça tatsızdı ve bu kadar küçük porsiyonlar için fazlasıyla pahalıydı."
+    ]
+  },
+  "restaurant.b2_service_charge": {
+    "text": "Servis ücretinin hesaba dahil olup olmadığını teyit edebilir misiniz, yoksa ayrıca bahşiş mi bırakmalıyız?",
+    "alt": [
+      "Servis ücretinin dahil olup olmadığını doğrulayabilir misiniz, yoksa ayrıca bahşiş mi bırakmalıyız?"
+    ]
+  },
+  "restaurant.b2_nut_allergy": {
+    "text": "Kızımın ciddi bir kuruyemiş alerjisi olduğu için mutfağın her türlü çapraz bulaşma riskinden kaçınması gerekiyor.",
+    "alt": [
+      "Kızımın ciddi bir kuruyemiş alerjisi olduğundan mutfağın her türlü çapraz bulaşma riskinden kaçınması gerekiyor."
+    ]
+  },
+  "restaurant.b2_manager_dessert": {
+    "text": "Müdür uzun gecikme için özür diledi ve bunu telafi etmek için bize ikram bir tatlı sundu.",
+    "alt": ["Müdür uzun gecikme için özür diledi ve telafi olarak bize ikram bir tatlı sundu."]
+  },
+  "restaurant.b2_replace_dish": {
+    "text": "Yemek beklentilerinizi karşılamazsa onu ek ücret almadan memnuniyetle değiştiririz.",
+    "alt": ["Yemek beklentilerinizi karşılamazsa, onu ek ücret almadan memnuniyetle değiştiririz."]
+  },
+  "restaurant.b2_local_cuisine": {
+    "text": "Yerel mutfağı denemeyi ummuştuk ama menünün çoğu turistlere göre hazırlanmış gibi görünüyordu.",
+    "alt": [
+      "Yerel mutfağı denemeyi ummuştuk ama menünün büyük bölümü turistlere göre hazırlanmış gibiydi."
+    ]
+  },
+  "restaurant.b2_charged_twice": {
+    "text": "Biriyle görüşmek istiyorum, çünkü aynı şişe su için bizden iki kez ücret alındı.",
+    "alt": ["Biriyle konuşmak istiyorum, çünkü aynı şişe su için bizden iki kez ücret alındı."]
+  },
+  "restaurant.b2_fully_booked": {
+    "text": "Restoranda hiç yer olmamasına rağmen çalışanlar bize pencere kenarında bir masa bulmayı başardı.",
+    "alt": [
+      "Restoran tamamen dolu olmasına rağmen çalışanlar bize pencere kenarında bir masa bulmayı başardı."
+    ]
+  },
+  "restaurant.b2_loud_music": {
+    "text": "Ortam hoştu ama müzik o kadar yüksekti ki birbirimizi neredeyse duyamıyorduk.",
+    "alt": ["Atmosfer hoştu ama müzik o kadar yüksekti ki birbirimizi neredeyse duyamıyorduk."]
+  },
+  "restaurant.c1_had_we_known": {
+    "text": "Mutfağın saat onda kapandığını bilseydik, yemeğimizi öyle aceleyle yemek yerine kesinlikle daha erken gelirdik.",
+    "alt": [
+      "Mutfağın onda kapandığını bilseydik, yemeğimizi öyle aceleyle yemek yerine kesinlikle daha erken gelirdik."
+    ]
+  },
+  "restaurant.c1_tasting_menu": {
+    "text": "Şefin tadım menüsü tartışmasız enfes olsa da, her tabağın ne kadar küçük ve aceleye getirilmiş hissettirdiği düşünülünce fiyatı haklı göstermek zordu.",
+    "alt": [
+      "Şefin tadım menüsü tartışmasız enfes olsa da, her tabağın ne kadar küçük ve aceleye getirilmiş olduğu düşünülünce fiyatı haklı göstermek zordu."
+    ]
+  },
+  "restaurant.c1_vegetarian_guests": {
+    "text": "Yemeklerinin et yemeklerinden ayrı hazırlanması koşuluyla vejetaryen misafirlerimizi ağırlayabilirseniz minnettar oluruz.",
+    "alt": [
+      "Yemeklerinin et yemeklerinden ayrı hazırlanması şartıyla vejetaryen konuklarımızı ağırlayabilirseniz minnettar oluruz."
+    ]
+  },
+  "restaurant.c1_not_only": {
+    "text": "Garson siparişimizi unutmakla kalmadı, üstelik en başta hiçbir şey istemediğimizi de ısrarla söyledi.",
+    "alt": [
+      "Garson siparişimizi unutmakla kalmadı, ayrıca en başta hiçbir şey istemediğimizde ısrar etti."
+    ]
+  },
+  "restaurant.c1_sourced": {
+    "text": "Yerel malzemeleriyle tanınmasına rağmen restoran, menüsündeki balıkların çoğunun nereden geldiğini bize söyleyemedi.",
+    "alt": [
+      "Yerel malzemeleriyle ün yapmış olmasına rağmen restoran, menüsündeki balıkların çoğunun nereden geldiğini bize söyleyemedi."
+    ]
+  },
+  "restaurant.c1_should_persist": {
+    "text": "Rezervasyonunuzla ilgili sorun devam ederse lütfen müdürümüzle iletişime geçin, kendisi ek ücret almadan memnuniyetle başka bir masa ayarlayacaktır.",
+    "alt": [
+      "Rezervasyonunuzdaki sorun devam ederse lütfen müdürümüzle iletişime geçin, kendisi ek ücret almadan memnuniyetle başka bir masa ayarlayacaktır."
+    ]
+  },
+  "restaurant.c1_presentation": {
+    "text": "Beni en çok etkileyen gösterişli sunum değil, her tadın damağı yormadan diğerlerini tamamlama biçimiydi.",
+    "alt": [
+      "Beni en çok etkileyen özenli sunum değil, her tadın damağı yormadan diğerlerini tamamlama biçimiydi."
+    ]
+  },
+  "restaurant.c1_complaints": {
+    "text": "Servisle ilgili şikâyetlerin sayısı düşünülürse, yeni sahiplerin burayı çok daha uzun süre açık tutabileceğinden şüpheliyim.",
+    "alt": [
+      "Servisle ilgili şikayetlerin sayısı düşünülürse, yeni sahiplerin burayı çok daha uzun süre açık tutabileceğinden şüpheliyim."
+    ]
   }
 }

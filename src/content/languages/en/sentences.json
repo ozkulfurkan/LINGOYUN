@@ -673,5 +673,140 @@
   },
   "sentence.a2_photos_beach": {
     "text": "I took many photos at the beach."
+  },
+  "restaurant.a2_see_menu": {
+    "text": "Can we see the menu for today, please?"
+  },
+  "restaurant.a2_table_window": {
+    "text": "We would like a table near the window.",
+    "alt": ["We'd like a table near the window."]
+  },
+  "restaurant.a2_soup_salad": {
+    "text": "I want soup and salad for my lunch."
+  },
+  "restaurant.a2_spicy_children": {
+    "text": "Is this soup very spicy for young children?"
+  },
+  "restaurant.a2_wife_meat": {
+    "text": "My wife does not eat meat or fish.",
+    "alt": ["My wife doesn't eat meat or fish."]
+  },
+  "restaurant.a2_more_water": {
+    "text": "Could you bring us some more water, please?"
+  },
+  "restaurant.a2_chicken_cold": {
+    "text": "The chicken was delicious but the soup was cold."
+  },
+  "restaurant.a2_two_coffees": {
+    "text": "We would like to order two coffees now.",
+    "alt": ["We'd like to order two coffees now."]
+  },
+  "restaurant.a2_bill_card": {
+    "text": "Can we have the bill and pay by card?"
+  },
+  "restaurant.a2_reservation_eight": {
+    "text": "I have a reservation for four at eight."
+  },
+  "restaurant.b1_recommend_light": {
+    "text": "Could you recommend something light because I am not very hungry?",
+    "alt": ["Could you recommend something light because I'm not very hungry?"]
+  },
+  "restaurant.b1_nuts_ingredients": {
+    "text": "I am allergic to nuts, so please check the ingredients carefully.",
+    "alt": ["I'm allergic to nuts, so please check the ingredients carefully."]
+  },
+  "restaurant.b1_table_six": {
+    "text": "We booked a table for six, but two friends will arrive late."
+  },
+  "restaurant.b1_share_main": {
+    "text": "The portions here are large, so we can share one main course."
+  },
+  "restaurant.b1_fish_late": {
+    "text": "I ordered the fish twenty minutes ago, and it has not arrived.",
+    "alt": ["I ordered the fish twenty minutes ago, and it hasn't arrived."]
+  },
+  "restaurant.b1_steak": {
+    "text": "Would you like your steak rare, medium or well done, sir?"
+  },
+  "restaurant.b1_wait_bar": {
+    "text": "If you have no table now, we can wait at the bar."
+  },
+  "restaurant.b1_overcooked": {
+    "text": "This meat is overcooked, so could you please bring me another one?"
+  },
+  "restaurant.b1_take_away": {
+    "text": "Can we get the rest of our food to take away?"
+  },
+  "restaurant.b1_service_slow": {
+    "text": "The service was slow, but the waiter was kind and very helpful."
+  },
+  "restaurant.b2_quiet_anniversary": {
+    "text": "We would appreciate a quiet table, as we are celebrating our parents' fiftieth wedding anniversary with them tonight.",
+    "alt": [
+      "We'd appreciate a quiet table, as we're celebrating our parents' fiftieth wedding anniversary with them tonight."
+    ]
+  },
+  "restaurant.b2_reviews_bland": {
+    "text": "Although the reviews were excellent, the food was rather bland and seriously overpriced for such small portions."
+  },
+  "restaurant.b2_service_charge": {
+    "text": "Could you confirm whether the service charge is already included, or should we leave a separate tip?"
+  },
+  "restaurant.b2_nut_allergy": {
+    "text": "Since my daughter has a severe nut allergy, the kitchen must avoid any risk of cross-contamination."
+  },
+  "restaurant.b2_manager_dessert": {
+    "text": "The manager apologized for the long delay and offered us a complimentary dessert to make up for it."
+  },
+  "restaurant.b2_replace_dish": {
+    "text": "If the dish does not meet your expectations, we will gladly replace it at no extra charge.",
+    "alt": [
+      "If the dish doesn't meet your expectations, we'll gladly replace it at no extra charge."
+    ]
+  },
+  "restaurant.b2_local_cuisine": {
+    "text": "We had hoped to try the local cuisine, but most of the menu seemed designed for tourists."
+  },
+  "restaurant.b2_charged_twice": {
+    "text": "I would like to speak to someone, because we were charged twice for the same bottle of water.",
+    "alt": [
+      "I'd like to speak to someone, because we were charged twice for the same bottle of water."
+    ]
+  },
+  "restaurant.b2_fully_booked": {
+    "text": "Even though the restaurant was fully booked, the staff managed to find us a table by the window."
+  },
+  "restaurant.b2_loud_music": {
+    "text": "The atmosphere was pleasant, yet the music was so loud that we could hardly hear each other speak."
+  },
+  "restaurant.c1_had_we_known": {
+    "text": "Had we known that the kitchen closed at ten, we would certainly have arrived earlier rather than rushing through our meal like that."
+  },
+  "restaurant.c1_tasting_menu": {
+    "text": "While the chef's tasting menu was undeniably exquisite, the price seemed difficult to justify given how small and rushed each course felt."
+  },
+  "restaurant.c1_vegetarian_guests": {
+    "text": "We would be grateful if you could accommodate our vegetarian guests, provided that their meals are prepared separately from any meat dishes.",
+    "alt": [
+      "We'd be grateful if you could accommodate our vegetarian guests, provided that their meals are prepared separately from any meat dishes."
+    ]
+  },
+  "restaurant.c1_not_only": {
+    "text": "Not only did the waiter forget our order, but he also insisted that we had never asked for anything in the first place."
+  },
+  "restaurant.c1_sourced": {
+    "text": "Despite its reputation for locally sourced ingredients, the restaurant failed to tell us where most of the fish on its menu came from."
+  },
+  "restaurant.c1_should_persist": {
+    "text": "Should the problem with your booking persist, please contact our manager, who will gladly arrange an alternative table at no additional cost."
+  },
+  "restaurant.c1_presentation": {
+    "text": "What impressed me most was not the elaborate presentation, but the way each flavor complemented the others without overwhelming the palate.",
+    "alt": [
+      "What impressed me most was not the elaborate presentation, but the way each flavour complemented the others without overwhelming the palate."
+    ]
+  },
+  "restaurant.c1_complaints": {
+    "text": "Given the number of complaints about the service, I doubt that the new owners will manage to keep the place open much longer."
   }
 }

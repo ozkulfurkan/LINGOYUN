@@ -22,6 +22,7 @@ import people from './concepts/people.json';
 import places from './concepts/places.json';
 import pronouns from './concepts/pronouns.json';
 import questions from './concepts/questions.json';
+import restaurant from './concepts/restaurant.json';
 import school from './concepts/school.json';
 import sentences from './concepts/sentences.json';
 import technology from './concepts/technology.json';
@@ -66,6 +67,7 @@ export const content: ContentBundle = {
     ...idioms,
     ...sentences,
     ...falseFriends,
+    ...restaurant,
   ] as Concept[],
   languages: {
     tr: { words: trWords, sentences: trSentences },

@@ -1,0 +1,559 @@
+[
+  {
+    "id": "restaurant.menu",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.dessert",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.main_course",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.starter",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.napkin",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.tip",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.sauce",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.order",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.vegetarian",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.spicy",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.grilled",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.fried",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.a2_see_menu",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_table_window",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_soup_salad",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_spicy_children",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_wife_meat",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_more_water",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_chicken_cold",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_two_coffees",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_bill_card",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.a2_reservation_eight",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.allergy",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.ingredient",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.portion",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.side_dish",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.takeaway",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.cutlery",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.recipe",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.recommend",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.complain",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.overcooked",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.rare",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.well_done",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.gluten_free",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.b1_recommend_light",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_nuts_ingredients",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_table_six",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_share_main",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_fish_late",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_steak",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_wait_bar",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_overcooked",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_take_away",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b1_service_slow",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.cuisine",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.seasoning",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.dietary_restriction",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.cross_contamination",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.surcharge",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.service_charge",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.refund",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.atmosphere",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.compensate",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.bland",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.complimentary",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.overpriced",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.b2_quiet_anniversary",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_reviews_bland",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_service_charge",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_nut_allergy",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_manager_dessert",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_replace_dish",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_local_cuisine",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_charged_twice",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_fully_booked",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.b2_loud_music",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.palate",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.gratuity",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.culinary",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.exquisite",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.locally_sourced",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.lackluster",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.pair",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.cater",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.garnish",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.accommodate",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.c1_had_we_known",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.c1_tasting_menu",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.c1_vegetarian_guests",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.c1_not_only",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.c1_sourced",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.c1_should_persist",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.c1_presentation",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.c1_complaints",
+    "topic": "restaurant",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  }
+]

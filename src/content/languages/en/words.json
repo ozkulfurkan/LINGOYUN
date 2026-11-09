@@ -2758,5 +2758,150 @@
   },
   "false_friend.billion": {
     "text": "billion"
+  },
+  "restaurant.menu": {
+    "text": "menu"
+  },
+  "restaurant.dessert": {
+    "text": "dessert"
+  },
+  "restaurant.main_course": {
+    "text": "main course"
+  },
+  "restaurant.starter": {
+    "text": "starter",
+    "alt": ["appetizer"]
+  },
+  "restaurant.napkin": {
+    "text": "napkin"
+  },
+  "restaurant.tip": {
+    "text": "tip"
+  },
+  "restaurant.sauce": {
+    "text": "sauce"
+  },
+  "restaurant.order": {
+    "text": "order"
+  },
+  "restaurant.vegetarian": {
+    "text": "vegetarian"
+  },
+  "restaurant.spicy": {
+    "text": "spicy"
+  },
+  "restaurant.grilled": {
+    "text": "grilled"
+  },
+  "restaurant.fried": {
+    "text": "fried"
+  },
+  "restaurant.allergy": {
+    "text": "allergy"
+  },
+  "restaurant.ingredient": {
+    "text": "ingredient"
+  },
+  "restaurant.portion": {
+    "text": "portion"
+  },
+  "restaurant.side_dish": {
+    "text": "side dish"
+  },
+  "restaurant.takeaway": {
+    "text": "takeaway",
+    "alt": ["takeout"]
+  },
+  "restaurant.cutlery": {
+    "text": "cutlery"
+  },
+  "restaurant.recipe": {
+    "text": "recipe"
+  },
+  "restaurant.recommend": {
+    "text": "recommend"
+  },
+  "restaurant.complain": {
+    "text": "complain"
+  },
+  "restaurant.overcooked": {
+    "text": "overcooked"
+  },
+  "restaurant.rare": {
+    "text": "rare"
+  },
+  "restaurant.well_done": {
+    "text": "well done"
+  },
+  "restaurant.gluten_free": {
+    "text": "gluten-free"
+  },
+  "restaurant.cuisine": {
+    "text": "cuisine"
+  },
+  "restaurant.seasoning": {
+    "text": "seasoning"
+  },
+  "restaurant.dietary_restriction": {
+    "text": "dietary restriction"
+  },
+  "restaurant.cross_contamination": {
+    "text": "cross-contamination"
+  },
+  "restaurant.surcharge": {
+    "text": "surcharge"
+  },
+  "restaurant.service_charge": {
+    "text": "service charge"
+  },
+  "restaurant.refund": {
+    "text": "refund"
+  },
+  "restaurant.atmosphere": {
+    "text": "atmosphere",
+    "alt": ["ambiance"]
+  },
+  "restaurant.compensate": {
+    "text": "compensate"
+  },
+  "restaurant.bland": {
+    "text": "bland"
+  },
+  "restaurant.complimentary": {
+    "text": "complimentary"
+  },
+  "restaurant.overpriced": {
+    "text": "overpriced"
+  },
+  "restaurant.palate": {
+    "text": "palate"
+  },
+  "restaurant.gratuity": {
+    "text": "gratuity"
+  },
+  "restaurant.culinary": {
+    "text": "culinary"
+  },
+  "restaurant.exquisite": {
+    "text": "exquisite"
+  },
+  "restaurant.locally_sourced": {
+    "text": "locally sourced"
+  },
+  "restaurant.lackluster": {
+    "text": "lackluster",
+    "alt": ["lacklustre"]
+  },
+  "restaurant.pair": {
+    "text": "pair"
+  },
+  "restaurant.cater": {
+    "text": "cater"
+  },
+  "restaurant.garnish": {
+    "text": "garnish"
+  },
+  "restaurant.accommodate": {
+    "text": "accommodate"
   }
 }

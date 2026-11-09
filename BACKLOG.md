@@ -156,6 +156,17 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Sorulacak: düzenleme biçimi ne olsun (Excel/Google Sheets'ten CSV mi, düz metin mi)?
   - Yapılacak: `src/content/adultContent.test.ts`'teki sabit sayı sınırları (en fazla 700 kelime, tam 150 cümle, tam 30 deyim) gevşetilmeli, yoksa yeni içerik testi kırar. Taban sınırlar kalır.
   - Çıkış noktası: LNG-15'te kullanılan satır biçimi `id|en|enAlts|tr|trAlts` (tek kullanımlık script'ti, repoda yok).
+- [~] **LNG-41** CİHAZ — Durum temalı içerik denemesi: "Restoranda", A2 → C1 dört zorlukta (Furkan'ın isteği). Yetişkin ana ekranında "Durum: Restoranda" → zorluk seç → kelime veya cümle oyunu. Liste: `docs/content/theme-restaurant.md`. Çeviri denetimi: `docs/content/reviews/`.
+  - ✅ Tema üniteleri seviye merdiveninin dışında: seviye testi ve seviye atlama onları saymıyor, mevcut oyunlar etkilenmiyor. Toplu üretimde bu ayrım kaldırılacak.
+  - ✅ Cümle kurma artık 26 kelimeye kadar kabul ediyor (önceden 9).
+  - Derleme: yeni yerel paket yok, son derleme yeterli. Metro'yu `--clear` ile yeniden başlat.
+  - Cihazda nasıl test edilir:
+    1. Yetişkin profilinde ana ekranda "Durum: Restoranda"ya bas → dört zorluk görünür (A2, B1, B2, C1).
+    2. Her zorlukta "Kelimeler"i oyna: sorular restoran kelimeleri, şıklar aynı zorluktan gelir.
+    3. Her zorlukta "Cümleler"i oyna: Türkçe cümleyi bloklarla kur. **Özellikle C1'de** (~23 kelime) bloklar ekrana sığıyor mu, ekran kayıyor mu, sürükleme ve dokunma rahat mı? Küçük ekranda da bak.
+    4. Uzun Türkçe cümleler soru kartında taşıyor mu, okunaklı mı?
+    5. İçerik ve zorluk artışı istediğin gibi mi? Biçimi beğenirsen LNG-42'ye geçilir.
+- [ ] **LNG-42** BULUT + FURKAN — Durum temalarıyla içerik üretimi (10 kat): evde, iş yerinde, yol sorarken, pastanede, restoranda, okulda ve diğerleri. Zorluğa göre A2 → C1. Önkoşul: LNG-41 onayı, LNG-40. Her parti `ceviri-editoru` agent'ından geçer. Tema üniteleri seviye merdivenine bağlanır, seviye atlama kuralı buna göre yeniden kurulur.
 
 ## Faz 6 — 2–7 yaş (Zeynep, Nehir, Kerem)
 
@@ -190,6 +201,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - Cihazda doğrulanacak (LNG-6): profillerin kapatıp açınca durması (MMKV) iPhone'da LNG-16 testiyle görüldü; Android'de bakılacak.
 - Seviye tespiti simülasyonu (LNG-10, 1000 sanal oyuncu): yetişkin %70 tam / %99 ±1 / %1 fazla yüksek; 7–12 %69 / %99 / %0,6. `src/features/placement/placement.test.ts`.
 - Karar (Furkan, LNG-17): kendi beyanında "Hiç bilmiyorum" diyen kullanıcı seviye testine girmez, doğrudan en alt seviyeden başlar (7–12: L1, yetişkin: A1). Diğer üç seçenek teste girer.
+- Karar (Furkan, LNG-41): içerik, durum temalarına göre yeniden kurulacak ve 10 katına çıkacak. Zorluklara göre A2 → C1 yayılacak. A1 şimdilik olduğu gibi kalıyor (Furkan onaylamalı: A1 de temalara taşınsın mı?). 7–12 yaşın payı henüz belirlenmedi.
+- Karar (Furkan): kelimenin "öğrenildi" sayılması için farklı günlerde doğru bilinmesi şartı yok; 3 doğru yeterli.
 - Seviye testi üst sınırı (LNG-17): içerik olmadığı için test şimdilik yetişkini en fazla A2, çocuğu en fazla L3 olarak yerleştirir. İleri seviye bir kullanıcı da A2'den başlar. B1+ ve L4+ içeriği eklenince sınır kendiliğinden kalkar (seviye başına en az 20 kavram).
 - İçerik kontrolü (LNG-14, LNG-15): çeviriler henüz bir insan tarafından gözden geçirilmedi ve `review: true` işareti de konmadı. En riskli kısım deyimlerin Türkçe karşılıkları (`docs/content/adult-words.md`). Yayından önce kontrol edilmeli.
 - Font bulgusu: Lilita One ve Fredoka'da `ğ ş İ Ğ Ş` yok; Titan One'da `İ` yok. Çocuk teması DynaPuff + Baloo 2'ye geçirildi.

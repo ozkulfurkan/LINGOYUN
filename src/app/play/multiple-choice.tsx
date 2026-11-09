@@ -15,7 +15,7 @@ import { PrimaryButton } from '@/components/PrimaryButton';
 import { QuizOptions } from '@/components/QuizOptions';
 import { QuizPromptCard } from '@/components/QuizPromptCard';
 import { Screen } from '@/components/Screen';
-import { unitsFor } from '@/content';
+import { themeConcepts, unitsFor } from '@/content';
 import { content } from '@/content/bundle';
 import {
   advance,
@@ -49,11 +49,19 @@ type LeveledType = 'kid' | 'adult';
 export default function MultipleChoiceScreen() {
   const profile = useActiveProfile();
   const level = profile?.courses[profile.courseId]?.level;
-  const { mode } = useLocalSearchParams<{ mode?: string }>();
+  const { mode, theme, tier } = useLocalSearchParams<{
+    mode?: string;
+    theme?: string;
+    tier?: string;
+  }>();
   // Each new round starts from what is stored, so it picks up the last answers.
   const [roundNumber, setRoundNumber] = useState(0);
 
   if (!profile || profile.type === 'mini' || !level) return <Redirect href="/" />;
+  const themeWords =
+    mode === 'theme' && theme && tier
+      ? themeConcepts(content, profile.courseId, profile.type, theme, tier, 'vocabulary')
+      : undefined;
   return (
     <Game
       key={roundNumber}
@@ -64,6 +72,7 @@ export default function MultipleChoiceScreen() {
       level={level}
       expressions={mode === 'expressions' && profile.type === 'adult'}
       review={mode === 'review'}
+      themeWords={themeWords}
       onPlayAgain={() => setRoundNumber((n) => n + 1)}
     />
   );
@@ -79,6 +88,8 @@ type GameProps = {
   expressions?: boolean;
   /** Today's due reviews from every level instead of the level's words (LNG-29). */
   review?: boolean;
+  /** A situation's vocabulary instead of the level's words (LNG-41). */
+  themeWords?: readonly string[];
   onPlayAgain: () => void;
 };
 
@@ -90,6 +101,7 @@ function Game({
   level,
   expressions = false,
   review = false,
+  themeWords,
   onPlayAgain,
 }: GameProps) {
   const { t } = useTranslation();
@@ -106,11 +118,9 @@ function Game({
       // Expressions mode: idioms and false friends, asked English → Turkish
       // so the false friend's look-alike can be offered as the trap.
       // Review mode: only today's due words; the level fills in wrong options.
-      levelConcepts: expressions
-        ? expressionConcepts(content, courseId)
-        : review
-          ? due
-          : levelWords,
+      levelConcepts:
+        themeWords ??
+        (expressions ? expressionConcepts(content, courseId) : review ? due : levelWords),
       directions: expressions ? 'targetToNative' : 'mixed',
       distractorIds: review ? [...due, ...levelWords] : undefined,
       rng: seededRng(Date.now()),

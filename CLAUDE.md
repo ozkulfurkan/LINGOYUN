@@ -98,6 +98,7 @@ __tests__/               # ekran testleri; mantık testleri ilgili dosyanın yan
 | `grafiker`       | Görsel dil, illüstrasyon (SVG/Skia), karakter tasarım dokümanı, ikon, mağaza görselleri |
 | `oyun-muhendisi` | Oyun türleri, zorluk eğrisi, seviye tespiti, aralıklı tekrar, ödül ekonomisi, içerik    |
 | `testci`         | Test yazma, hata avı, kabul kriteri kontrolü, cihaz test listeleri                      |
+| `ceviri-editoru` | Türkçe–İngilizce çeviri denetimi: her yeni içerik partisinde ve yayından önce           |
 
 ## İş takibi — BACKLOG.md
 

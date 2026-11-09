@@ -11,8 +11,8 @@ import type { Grade } from '@/features/srs';
 
 /** Failed checks after which the next right word is hinted (kids-ux). */
 export const HINT_AFTER_ATTEMPTS = 2;
-/** Sentences longer than this do not fit as blocks on a phone. */
-export const MAX_WORDS = 9;
+/** Long enough for the hardest themed sentences; the screen scrolls past a page. */
+export const MAX_WORDS = 26;
 
 export type Block = { id: number; word: string };
 

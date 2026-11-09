@@ -60,6 +60,21 @@ Test yalnızca en az 20 kavramı olan seviyeleri kullanır (`placeableLevels`), 
 
 Bir tur **10 soru**, iki yön karışık. Sıra: vadesi gelen tekrarlar (en fazla 5), sonra seviyenin yeni kelimeleri (kurs sırasıyla), sonra kalan tekrarlar; seviye bitince en zayıf kelimeler çalışılır. Cevap tekrar kutusuna **hemen** yazılır, turdan çıkınca kaybolmaz. XP, taş ve seri **yalnızca tur bitince** verilir. Çoktan seçmelide "neredeyse doğru" yoktur: doğru → üst kutu, yanlış → kutu 0. Yanlışta doğru cevap gösterilir ve oyuncu "Devam"a basana kadar beklenir.
 
+## Durum temaları (`src/content/query.ts`: `themeUnits`, `themeConcepts`)
+
+İçerik gerçek hayat durumlarına göre kurulur (ilk deneme: Restoranda). Bir tema, her zorlukta bir ünitedir: `theme` alanı taşır ve seviye merdiveninin dışında durur, yani `unitsFor`, seviye testi ve seviye atlama onu saymaz. Toplu üretimde (LNG-42) bu ayrım kaldırılır.
+
+| Zorluk | Cümle uzunluğu               |
+| ------ | ---------------------------- |
+| A2     | ~8 kelime                    |
+| B1     | ~11 kelime (mevcudun 2 katı) |
+| B2     | ~17 kelime (3 katı)          |
+| C1     | ~23 kelime (4 katı)          |
+
+**Seviye atlama:** bir sonraki seviyede en az 20 kavram olmalı (`MIN_LEVEL_CONCEPTS`). "Öğrenildi" için farklı gün şartı yoktur, 3 doğru yeterlidir (Furkan'ın kararı).
+
+Her yeni içerik partisi `ceviri-editoru` agent'ından geçer; raporlar `docs/content/reviews/` altındadır.
+
 ## Soru üretici (`src/features/quiz`)
 
 Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer uzunlukta; ikinci bir doğru cevap (eş anlamlı dahil) asla şık olmaz. Aynı kelime arka arkaya sorulmaz. Rastgelelik tohumlanabilir.

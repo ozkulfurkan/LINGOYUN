@@ -2913,5 +2913,169 @@
     "text": "milyar",
     "trap": "milyon",
     "note": "«Milyon» İngilizcede «million» olur; «billion» bin milyondur."
+  },
+  "restaurant.menu": {
+    "text": "menü",
+    "alt": ["yemek listesi"]
+  },
+  "restaurant.dessert": {
+    "text": "tatlı"
+  },
+  "restaurant.main_course": {
+    "text": "ana yemek"
+  },
+  "restaurant.starter": {
+    "text": "başlangıç yemeği",
+    "alt": ["başlangıç", "meze"]
+  },
+  "restaurant.napkin": {
+    "text": "peçete"
+  },
+  "restaurant.tip": {
+    "text": "bahşiş"
+  },
+  "restaurant.sauce": {
+    "text": "sos"
+  },
+  "restaurant.order": {
+    "text": "sipariş vermek",
+    "alt": ["ısmarlamak"]
+  },
+  "restaurant.vegetarian": {
+    "text": "vejetaryen",
+    "alt": ["etyemez"]
+  },
+  "restaurant.spicy": {
+    "text": "acı",
+    "alt": ["baharatlı"]
+  },
+  "restaurant.grilled": {
+    "text": "ızgara"
+  },
+  "restaurant.fried": {
+    "text": "kızartma",
+    "alt": ["kızarmış"]
+  },
+  "restaurant.allergy": {
+    "text": "alerji"
+  },
+  "restaurant.ingredient": {
+    "text": "malzeme"
+  },
+  "restaurant.portion": {
+    "text": "porsiyon"
+  },
+  "restaurant.side_dish": {
+    "text": "garnitür",
+    "alt": ["yan yemek"]
+  },
+  "restaurant.takeaway": {
+    "text": "paket servis"
+  },
+  "restaurant.cutlery": {
+    "text": "çatal bıçak takımı",
+    "alt": ["çatal bıçak"]
+  },
+  "restaurant.recipe": {
+    "text": "tarif",
+    "alt": ["yemek tarifi"]
+  },
+  "restaurant.recommend": {
+    "text": "tavsiye etmek",
+    "alt": ["önermek"]
+  },
+  "restaurant.complain": {
+    "text": "şikâyet etmek",
+    "alt": ["şikayet etmek"]
+  },
+  "restaurant.overcooked": {
+    "text": "fazla pişmiş"
+  },
+  "restaurant.rare": {
+    "text": "az pişmiş"
+  },
+  "restaurant.well_done": {
+    "text": "iyi pişmiş"
+  },
+  "restaurant.gluten_free": {
+    "text": "glutensiz"
+  },
+  "restaurant.cuisine": {
+    "text": "mutfak"
+  },
+  "restaurant.seasoning": {
+    "text": "baharat",
+    "alt": ["çeşni"]
+  },
+  "restaurant.dietary_restriction": {
+    "text": "diyet kısıtlaması",
+    "alt": ["beslenme kısıtlaması"]
+  },
+  "restaurant.cross_contamination": {
+    "text": "çapraz bulaşma"
+  },
+  "restaurant.surcharge": {
+    "text": "ek ücret"
+  },
+  "restaurant.service_charge": {
+    "text": "servis ücreti"
+  },
+  "restaurant.refund": {
+    "text": "para iadesi",
+    "alt": ["iade"]
+  },
+  "restaurant.atmosphere": {
+    "text": "atmosfer",
+    "alt": ["ortam", "ambiyans"]
+  },
+  "restaurant.compensate": {
+    "text": "telafi etmek",
+    "alt": ["tazmin etmek"]
+  },
+  "restaurant.bland": {
+    "text": "tatsız",
+    "alt": ["yavan"]
+  },
+  "restaurant.complimentary": {
+    "text": "ikram",
+    "alt": ["ücretsiz"]
+  },
+  "restaurant.overpriced": {
+    "text": "aşırı pahalı",
+    "alt": ["fahiş fiyatlı"]
+  },
+  "restaurant.palate": {
+    "text": "damak",
+    "alt": ["damak tadı"]
+  },
+  "restaurant.gratuity": {
+    "text": "bahşiş"
+  },
+  "restaurant.culinary": {
+    "text": "mutfakla ilgili",
+    "alt": ["mutfağa ait"]
+  },
+  "restaurant.exquisite": {
+    "text": "enfes",
+    "alt": ["nefis"]
+  },
+  "restaurant.locally_sourced": {
+    "text": "yerel kaynaklı"
+  },
+  "restaurant.lackluster": {
+    "text": "vasat",
+    "alt": ["sönük"]
+  },
+  "restaurant.pair": {
+    "text": "eşleştirmek"
+  },
+  "restaurant.cater": {
+    "text": "yemek hizmeti vermek"
+  },
+  "restaurant.garnish": {
+    "text": "süslemek"
+  },
+  "restaurant.accommodate": {
+    "text": "ağırlamak"
   }
 }

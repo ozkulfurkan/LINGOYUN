@@ -14,7 +14,8 @@
     "noReviews": "Bugün tekrar yok, harika!",
     "review": "Tekrar et",
     "reviewsDue_one": "Bugün {{count}} kelime tekrar bekliyor",
-    "reviewsDue_other": "Bugün {{count}} kelime tekrar bekliyor"
+    "reviewsDue_other": "Bugün {{count}} kelime tekrar bekliyor",
+    "playRestaurant": "Durum: Restoranda"
   },
   "common": {
     "continue": "Devam",
@@ -203,5 +204,19 @@
     "dontKnow": "Bilmiyorum",
     "nearMiss": "Neredeyse! Özel harflere dikkat: {{answer}}",
     "typo": "Küçük bir yazım hatası. Doğrusu: {{answer}}"
+  },
+  "themes": {
+    "restaurant": {
+      "title": "Restoranda",
+      "body": "Sipariş ver, soru sor, derdini anlat. Zorluğu sen seç."
+    },
+    "words": "Kelimeler",
+    "sentences": "Cümleler",
+    "tier": {
+      "A2": "Kısa cümleler",
+      "B1": "Orta uzunlukta cümleler",
+      "B2": "Uzun cümleler",
+      "C1": "Çok uzun ve ileri cümleler"
+    }
   }
 }

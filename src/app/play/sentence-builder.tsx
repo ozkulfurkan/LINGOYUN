@@ -1,4 +1,4 @@
-import { Redirect } from 'expo-router';
+import { Redirect, useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState, type RefObject } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
@@ -19,6 +19,7 @@ import { QuizPromptCard } from '@/components/QuizPromptCard';
 import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
+import { themeConcepts } from '@/content';
 import { content } from '@/content/bundle';
 import {
   builtText,
@@ -58,6 +59,7 @@ type LeveledType = 'kid' | 'adult';
 export default function SentenceBuilderScreen() {
   const profile = useActiveProfile();
   const level = profile?.courses[profile.courseId]?.level;
+  const { theme, tier } = useLocalSearchParams<{ theme?: string; tier?: string }>();
   const [roundNumber, setRoundNumber] = useState(0);
 
   // Building sentences needs reading: not for mini profiles.
@@ -70,6 +72,8 @@ export default function SentenceBuilderScreen() {
       courseId={profile.courseId}
       profileType={profile.type}
       level={level}
+      theme={theme}
+      tier={tier}
       onPlayAgain={() => setRoundNumber((n) => n + 1)}
     />
   );
@@ -81,10 +85,22 @@ type GameProps = {
   courseId: CourseId;
   profileType: LeveledType;
   level: string;
+  /** A situation's sentences at this difficulty instead of the level's (LNG-41). */
+  theme?: string;
+  tier?: string;
   onPlayAgain: () => void;
 };
 
-function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }: GameProps) {
+function Game({
+  profileId,
+  nickname,
+  courseId,
+  profileType,
+  level,
+  theme,
+  tier,
+  onPlayAgain,
+}: GameProps) {
   const { t } = useTranslation();
   const [today] = useState(() => localDay(new Date()));
   const [round, setRound] = useState<SentenceRound>(() =>
@@ -93,7 +109,10 @@ function Game({ profileId, nickname, courseId, profileType, level, onPlayAgain }
       courseId,
       deck: loadDeck(profileId, courseId),
       today,
-      sentences: levelSentences(content, courseId, profileType, level),
+      sentences:
+        theme && tier
+          ? themeConcepts(content, courseId, profileType, theme, tier, 'sentence')
+          : levelSentences(content, courseId, profileType, level),
       profileType,
       rng: seededRng(Date.now()),
     }),

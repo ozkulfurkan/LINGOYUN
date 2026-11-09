@@ -97,6 +97,12 @@ function MapHome({ profile, profileType, level }: MapHomeProps) {
             </View>
           </View>
           {profileType === 'adult' ? (
+            <SecondaryButton
+              label={t('home.playRestaurant')}
+              onPress={() => router.push('/play/theme?theme=restaurant')}
+            />
+          ) : null}
+          {profileType === 'adult' ? (
             <View style={styles.row}>
               <View style={styles.half}>
                 <SecondaryButton
