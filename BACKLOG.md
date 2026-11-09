@@ -153,10 +153,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     2. "Tekrar et" → yalnızca o kelimeler sorulur (soru sayısı N, en fazla 10).
     3. Hepsini doğru cevapla, ana ekrana dön → sayı azalır ya da "Bugün tekrar yok, harika!".
     4. Ertesi gün aç → bir gün önce doğru cevapladığın yeni kelimeler (1 günlük kutu) tekrar listesinde.
-- [ ] **LNG-40** BULUT + FURKAN — Yetişkin içeriğini kolayca genişletme (Furkan'ın isteği: yetişkin içeriği LNG-15'teki listeyle sınırlı kalmayacak). Furkan kod ve birden çok JSON dosyasıyla uğraşmadan yeni kelime, cümle ve deyim ekleyebilmeli; tek bir kaynak dosya + komut, içeriği doğru yerlere dağıtır ve doğrular. Önkoşul: LNG-15.
-  - Sorulacak: düzenleme biçimi ne olsun (Excel/Google Sheets'ten CSV mi, düz metin mi)?
-  - Yapılacak: `src/content/adultContent.test.ts`'teki sabit sayı sınırları (en fazla 700 kelime, tam 150 cümle, tam 30 deyim) gevşetilmeli, yoksa yeni içerik testi kırar. Taban sınırlar kalır.
-  - Çıkış noktası: LNG-15'te kullanılan satır biçimi `id|en|enAlts|tr|trAlts` (tek kullanımlık script'ti, repoda yok).
+- [x] **LNG-40** BULUT — İçeriği kolayca genişletme: her tema tek bir metin dosyası (`content-src/themes/<tür>/NN-<ad>.txt`, `id|en|enAlts|tr|trAlts` satırları, `@words` ve `@sentences 1|2|3` bölümleri), `npm run content` hepsini JSON'lara dağıtır ve içerik testlerini çalıştırır. Biçim dosyanın başında açıklanmıştır (`scripts/content.mjs`). LNG-45 ile yapıldı.
 - [x] **LNG-41** BULUT — Durum temalı içerik denemesi ("Restoranda"), `ceviri-editoru` agent'ı, B1'e içeriksiz geçiş hatası. Furkan telefonda gördükten sonra yapı LNG-43'e dönüştü: restoran artık yoldaki iki temadan biri (9. ve 26. tema, katmanlı cümleler).
 - [~] **LNG-43** CİHAZ — Öğrenme yolu: 1'den başlayan numaralı temalar, her temada 5 basamak (4 öğretim + sınav), 15 soru (10 kelime, 3 dinleme, 2 cümle), 3 can ve "Hatalarını tekrar et" ile can kazanma, 0,5× yavaş dinleme, uyarlamalı zorluk (ayarlardan da seçilebilir). Seviye testi temaya yerleştirir. Ayrıntı: `docs/game-design.md` › Öğrenme yolu.
   - ✅ Mevcut içerik temalara gruplandı (yetişkin 27, 7–12 yaş 14 tema). Ana ekran sadeleşti: harita + günlük tekrar + "Devam et". Harf dizme ve cümle kurma basamakların içinde; eski oyun ekranları ana ekrandan kaldırıldı ama dosyaları duruyor.
@@ -182,6 +179,10 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     4. Ayarlar → "Profil değiştir" → "Kim oynuyor?" → kendi profiline geri dön. Ana ekranda profil düğmesi yok.
     5. Bir 2–7 yaş profili ekle ve "Şimdi … ile oyna" de → resimli ana ekran. 3 profil olunca ayarlarda oluştur düğmesi yerine sınır yazısı çıkar.
     6. Kartlar küçük bir çocuğun rahatça dokunabileceği büyüklükte mi?
+- [ ] **LNG-45** BULUT + CİHAZ — Tekrarsız, bol içerik ve yazarak cevap (Furkan'ın isteği).
+  - ✅ Basamak 18 soru: 10 kelime + 3 yazma (7–12 yaşta harf dizme) + 3 dinleme + 2 cümle; sınavda 5 yazma ve 3 cümle. Yazım hatası can götürmez.
+  - ✅ İçerik aracı (LNG-40).
+  - Kalan: her tema 40 kelime ve her zorlukta 8 cümle; aynı kavram iki temada olmamalı (şu an yiyecek ve restoran temalarında 28 ortak kelime var). Ardından doğrulayıcı uyarıları hataya çevrilir.
 - [ ] **LNG-42** BULUT + FURKAN — İçerik üretimi (10 kat) yeni yapıya göre: her tema 40 kelime ve her zorlukta en az 8 cümle (kolay ~5, orta ~10, zor 15–22 kelime); yeni temalar (evde, iş yerinde, yol sorma, pastane, okul…) müfredat sırasıyla eklenir. Önkoşul: LNG-43 cihaz onayı, LNG-40. Her parti `ceviri-editoru` agent'ından geçer. `money.bill` iki kavrama ayrılır.
 
 ## Faz 6 — 2–7 yaş (Zeynep, Nehir, Kerem)
