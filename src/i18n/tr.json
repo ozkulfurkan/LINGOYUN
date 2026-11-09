@@ -6,7 +6,8 @@
     "comingSoon": "Yakında",
     "hello": "Merhaba {{nickname}}",
     "play": "Oyna",
-    "playLetters": "Harf dizme"
+    "playLetters": "Harf dizme",
+    "playSentences": "Cümle kurma"
   },
   "common": {
     "continue": "Devam",
@@ -123,5 +124,20 @@
     "show": "Göster",
     "answerIs": "Cevap: {{answer}}",
     "hintLabel": "İpucu: bu harf sıradaki"
+  },
+  "sentences": {
+    "build": {
+      "en": "İngilizce cümleyi kur",
+      "tr": "Türkçe cümleyi kur"
+    },
+    "dropHere": "Kelimeleri buraya sürükle ya da dokun",
+    "block": "{{word}} kelimesi",
+    "placed": "{{n}}. kelime: {{word}}. Çıkarmak için dokun",
+    "check": "Kontrol et",
+    "tryAgain": "Tekrar dene!",
+    "gotIt": "Buldun!",
+    "show": "Göster",
+    "answerIs": "Cevap: {{answer}}",
+    "hintLabel": "İpucu: bu kelime sıradaki"
   }
 }

@@ -72,3 +72,11 @@ Yanlış şıklar aynı türden (kelime/cümle), önce aynı konudan ve benzer u
 - 2 yanlış denemeden sonra sıradaki doğru harf parlar (kids-ux). 1 yanlıştan sonra "Göster" belirir.
 - Puan: ilk denemede doğru → `good` (+1 taş), denemeyle doğru → `hard`, "Göster" → `again`.
 - Tur 8 kelime; kelime seçimi çoktan seçmeliyle aynı (önce vadesi gelen tekrarlar, sonra yeni kelimeler).
+
+## Cümle kurma (`src/features/games/sentence-builder`)
+
+- Ana dildeki cümle gösterilir; hedef dildeki cümle kelime bloklarından kurulur. Son noktalama (. ! ?) sabittir, virgüller kelimeyle gelir.
+- Blok dokunarak ya da sürükleyerek eklenir; cevap alanının `touchTarget.mini / 2` yakınına bırakılan blok da yerine oturur (mıknatıs, kids-ux). Cümledeki bloğa dokunmak onu çıkarır.
+- Yetişkin: 2 şaşırtmaca kelime (aynı seviyenin başka cümlelerinden, cümlede olmayan) + "Kontrol et". 7–12: şaşırtmaca yok, cümle tamamlanınca otomatik kontrol.
+- Eşdeğer söylenişler (`alt`) doğru kabul edilir. Yanlışta yalnızca baştan doğru olan kısım kalır.
+- İpucu (2 yanlıştan sonra), "Göster" (1 yanlıştan sonra) ve puanlama harf dizmeyle aynı. Tur 6 cümle; 2–9 kelimelik cümleler.
