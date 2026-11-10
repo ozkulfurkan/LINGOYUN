@@ -155,7 +155,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     4. Ertesi gün aç → bir gün önce doğru cevapladığın yeni kelimeler (1 günlük kutu) tekrar listesinde.
 - [x] **LNG-40** BULUT — İçeriği kolayca genişletme: her tema tek bir metin dosyası (`content-src/themes/<tür>/NN-<ad>.txt`, `id|en|enAlts|tr|trAlts` satırları, `@words` ve `@sentences 1|2|3` bölümleri), `npm run content` hepsini JSON'lara dağıtır ve içerik testlerini çalıştırır. Biçim dosyanın başında açıklanmıştır (`scripts/content.mjs`). LNG-45 ile yapıldı.
 - [x] **LNG-41** BULUT — Durum temalı içerik denemesi ("Restoranda"), `ceviri-editoru` agent'ı, B1'e içeriksiz geçiş hatası. Furkan telefonda gördükten sonra yapı LNG-43'e dönüştü: restoran artık yoldaki iki temadan biri (9. ve 26. tema, katmanlı cümleler).
-- [~] **LNG-43** CİHAZ — Öğrenme yolu: 1'den başlayan numaralı temalar, her temada 5 basamak (4 öğretim + sınav), 15 soru (10 kelime, 3 dinleme, 2 cümle), 3 can ve "Hatalarını tekrar et" ile can kazanma, 0,5× yavaş dinleme, uyarlamalı zorluk (ayarlardan da seçilebilir). Seviye testi temaya yerleştirir. Ayrıntı: `docs/game-design.md` › Öğrenme yolu.
+- [x] **LNG-43** CİHAZ — Öğrenme yolu: 1'den başlayan numaralı temalar, her temada 5 basamak (4 öğretim + sınav), 15 soru (10 kelime, 3 dinleme, 2 cümle), 3 can ve "Hatalarını tekrar et" ile can kazanma, 0,5× yavaş dinleme, uyarlamalı zorluk (ayarlardan da seçilebilir). Seviye testi temaya yerleştirir. Ayrıntı: `docs/game-design.md` › Öğrenme yolu.
   - ✅ Mevcut içerik temalara gruplandı (yetişkin 27, 7–12 yaş 14 tema). Ana ekran sadeleşti: harita + günlük tekrar + "Devam et". Harf dizme ve cümle kurma basamakların içinde; eski oyun ekranları ana ekrandan kaldırıldı ama dosyaları duruyor.
   - Eksik (LNG-42): temaların çoğunda 40 kelime ve 8 kolay cümle yok, bazılarında hiç cümle yok. Basamaklar eksiği aynı banttaki cümlelerle dolduruyor, yani cümleler her zaman temaya uymayabilir. Orta ve zor cümle katmanı yalnızca restoran temalarında var.
   - Derleme: yeni yerel paket yok, son derleme yeterli. Metro'yu `--clear` ile yeniden başlat.
@@ -170,7 +170,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     8. Ayarlar (ebeveyn kapısı) → "Zorluk": Kolay / Orta / Zor. Restoran temasında zor seçilince cümleler uzar.
     9. Yeni profil + seviye testi → sonuç ekranında "N. temadan başlıyorsun: …".
     10. 7–12 yaş profiliyle aynı akış (sorular kendiliğinden okunur, cümle dolunca otomatik kontrol).
-- [~] **LNG-44** CİHAZ — Ebeveyn kontrolünden çocuk profili oluşturma ve "Kim oynuyor?" (Furkan'ın isteği). Ayarlar (kapının arkasında) → "Çocuğum için profil oluştur" → 2–7 veya 7–12 yaş → takma ad → "Şimdi … ile oyna" ya da "Ayarlara dön". Ebeveyn kendi profilinde kalır. 7–12 profili ilk açılışta kendi beyanı ve seviye testinden geçer. Birden fazla profil varsa her açılışta kapısız "Kim oynuyor?" ekranı çıkar; ayarlarda (kapının arkasında) "Profil değiştir" düğmesi var. Sınır 3 profil.
+- [x] **LNG-44** CİHAZ — Ebeveyn kontrolünden çocuk profili oluşturma ve "Kim oynuyor?" (Furkan'ın isteği). Ayarlar (kapının arkasında) → "Çocuğum için profil oluştur" → 2–7 veya 7–12 yaş → takma ad → "Şimdi … ile oyna" ya da "Ayarlara dön". Ebeveyn kendi profilinde kalır. 7–12 profili ilk açılışta kendi beyanı ve seviye testinden geçer. Birden fazla profil varsa her açılışta kapısız "Kim oynuyor?" ekranı çıkar; ayarlarda (kapının arkasında) "Profil değiştir" düğmesi var. Sınır 3 profil.
   - Derleme: yeni yerel paket yok. Metro'yu `--clear` ile yeniden başlat.
   - Cihazda nasıl test edilir:
     1. Ana ekranda ayarlar düğmesi → çarpma sorusu → Ayarlar → "Çocuğum için profil oluştur".
@@ -179,12 +179,17 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     4. Ayarlar → "Profil değiştir" → "Kim oynuyor?" → kendi profiline geri dön. Ana ekranda profil düğmesi yok.
     5. Bir 2–7 yaş profili ekle ve "Şimdi … ile oyna" de → resimli ana ekran. 3 profil olunca ayarlarda oluştur düğmesi yerine sınır yazısı çıkar.
     6. Kartlar küçük bir çocuğun rahatça dokunabileceği büyüklükte mi?
-- [~] **LNG-45** CİHAZ — Tekrarsız, bol içerik ve yazarak cevap (Furkan'ın isteği).
+- [x] **LNG-45** CİHAZ — Tekrarsız, bol içerik ve yazarak cevap (Furkan'ın isteği).
   - ✅ Basamak 18 soru: 10 kelime + 3 yazma (7–12 yaşta harf dizme) + 3 dinleme + 2 cümle; sınavda 5 yazma ve 3 cümle. Yazım hatası can götürmez.
   - ✅ İçerik aracı (LNG-40).
   - ✅ İçerik: yetişkin 27 tema, 7–12 yaş 20 tema (L13'te onaylanan kelimelerle 6 yeni tema). Her temada 40 kelime ve her zorlukta en az 8 cümle; hiçbir kavram iki temada değil. Doğrulayıcı bunları artık hata sayar; bir test hiçbir basamağın önceki basamağın kelimesini sormadığını denetler.
   - ✅ Her parti `ceviri-editoru` denetiminden geçti, HATA ve DÜZELT bulguları uygulandı. Raporlar `docs/content/reviews/`.
-  - Açık sorular (Furkan): çocuk cümlelerinde Zeynep/Nehir/Kerem adları; "teacher" hitabı; aynı temada "cake = pasta" ve "pasta = makarna"; yazarak çevirmede başka kavramın cevabı (ever/never "hiç", however/but "ancak"); L2 çocuk temalarında geçmiş zaman ve "going to".
+  - ✅ Furkan cihazda onayladı (2026-11-10), main'e alındı.
+  - Furkan'ın kararları: karakter adları çocuk cümlelerinde kalır (ikiz kuzen cümlesi düzeltilir); "teacher" hitabı ABD'ye uygun hitapla değişir; "cake/pasta" tuzağı ve seviye üstü cümleler olduğu gibi kalır; başka kavramın cevabı ve liste sırası LNG-46'da.
+- [ ] **LNG-46** BULUT — Cevap kontrolü inceliği ve içerik kararları (Furkan'ın kararları, LNG-45 denetimlerinden).
+  - Yazarak çevirmede başka bir kavramın doğru cevabı (ör. "hiç" için "never" yerine "ever") can götürmez: "Doğru bir kelime, ama aranan: X" der, `hard` sayılır.
+  - Cümle kurma ve yazmada virgül ve "and" ile ayrılmış liste öğelerinin her sırası doğru sayılır.
+  - İçerik: Nehir ile Zeynep'i ikiz kuzen yapan cümle değişir; "Thank you, teacher." gibi hitaplar ABD'ye uygun olur. `ceviri-editoru` denetler.
   - Derleme: yeni yerel paket yok. Metro'yu `--clear` ile yeniden başlat.
   - Cihazda nasıl test edilir:
     1. Bir temayı aç, 1'den 4'e basamakları oyna: her basamakta 10 yeni kelime, öncekilerin tekrarı yok (yalnızca önceki hataların).
