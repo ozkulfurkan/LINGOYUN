@@ -27,7 +27,7 @@ restaurant.fried # fried = kızartma
 restaurant.cafe|cafe|café;coffee shop|kafe|kafeterya
 @kind phrase
 restaurant.book_table|book a table|reserve a table;make a reservation|masa ayırtmak|yer ayırtmak;rezervasyon yaptırmak
-restaurant.todays_special|today's special|daily special;special of the day;dish of the day;special|günün yemeği|günün menüsü;günün spesiyali
+restaurant.todays_special|today's special|daily special;special of the day;dish of the day|günün yemeği|günün menüsü;günün spesiyali
 @kind word noun
 restaurant.soft_drink|soft drink|soda;fizzy drink;pop|gazlı içecek|meşrubat
 restaurant.sparkling_water|sparkling water|mineral water;soda water|maden suyu|soda
@@ -38,7 +38,7 @@ restaurant.steak|steak||biftek|
 restaurant.serve|serve||servis yapmak|servis etmek;sunmak
 restaurant.taste|taste||tadına bakmak|tatmak
 @kind word noun
-restaurant.buffet|buffet|open buffet|açık büfe|büfe
+restaurant.buffet|buffet|all-you-can-eat buffet|açık büfe|
 @kind word adjective
 restaurant.reserved|reserved|booked|rezerve|ayrılmış;rezerveli
 restaurant.homemade|homemade|home-made|ev yapımı|

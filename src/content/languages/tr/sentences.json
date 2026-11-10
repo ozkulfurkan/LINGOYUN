@@ -1164,11 +1164,10 @@
     ]
   },
   "greetings.s2_have_good_trip": {
-    "text": "Hoşça kal, iyi yolculuklar, varınca bizi ara.",
+    "text": "Güle güle, iyi yolculuklar, varınca bizi ara.",
     "alt": [
-      "Güle güle, iyi yolculuklar, varınca bizi ara.",
-      "Hoşça kalın, iyi yolculuklar, varınca bizi arayın.",
-      "Hoşça kal, iyi yolculuklar, vardığında bizi ara."
+      "Güle güle, iyi yolculuklar, vardığında bizi ara.",
+      "Güle güle, iyi yolculuklar, varınca bizi arayın."
     ]
   },
   "greetings.s3_team_manager": {
@@ -1193,10 +1192,10 @@
     ]
   },
   "greetings.s3_heard_about_you": {
-    "text": "Sizinle tanıştığıma çok memnun oldum, çünkü kız kardeşim bana sizden çok bahsetti.",
+    "text": "Sizinle tanıştığıma çok memnun oldum, kız kardeşim bana sizden çok bahsetti.",
     "alt": [
       "Tanıştığımıza memnun oldum, kız kardeşim bana sizden çok söz etti.",
-      "Sizinle tanıştığıma çok memnun oldum, çünkü ablam bana sizden çok bahsetti."
+      "Sizinle tanıştığıma çok memnun oldum, ablam bana sizden çok bahsetti."
     ]
   },
   "greetings.s3_thanks_everything": {
@@ -1407,8 +1406,11 @@
     ]
   },
   "numbers.s3_repeat_number": {
-    "text": "Telefon numaranızı yavaşça tekrar eder misiniz, çünkü yalnızca ilk beş rakamı yazabildim.",
-    "alt": ["Telefon numaranı yavaşça tekrarlar mısın, çünkü sadece ilk beş rakamı yazdım."]
+    "text": "Sadece ilk beş rakamı yazabildim, telefon numaranızı yavaşça tekrar eder misiniz?",
+    "alt": [
+      "Telefon numaranızı yavaşça tekrar eder misiniz? Sadece ilk beş rakamı yazabildim.",
+      "Sadece ilk beş rakamı yazdım, telefon numaranı yavaşça tekrarlar mısın?"
+    ]
   },
   "numbers.s3_child_tickets": {
     "text": "On iki yaşından küçük çocuklar yarı fiyat ödüyor, bu yüzden iki yetişkin ve iki çocuk bileti altmış lira.",
@@ -1424,8 +1426,8 @@
     ]
   },
   "numbers.s3_million_views": {
-    "text": "İlk videosu yalnızca elli kez izlenmişti ama bir yıl sonra bir milyondan fazla izlenmeye ulaştı.",
-    "alt": ["İlk videosunun sadece elli izlenmesi vardı, ama bir yıl sonra bir milyonu geçti."]
+    "text": "İlk videosu yalnızca elli kez izlenmişti ama bir yıl sonra izlenme sayısı bir milyonu geçti.",
+    "alt": ["İlk videosunun sadece elli izlenmesi vardı ama bir yıl sonra bir milyonu geçti."]
   },
   "numbers.s3_eight_years": {
     "text": "Ağabeyim kırk, ben otuz iki yaşındayım, yani aramızda sekiz yaş var.",
@@ -1666,7 +1668,7 @@
     ]
   },
   "calendar_colors.s2_dress_blue": {
-    "text": "Bu elbisenin mavisi ya da yeşili var mı, lütfen?",
+    "text": "Bu elbisenin mavisi ya da yeşili var mı acaba?",
     "alt": [
       "Bu elbise mavi ya da yeşil renkte var mı acaba?",
       "Bu elbisenin mavisi veya yeşili var mı?"
@@ -1680,8 +1682,8 @@
     ]
   },
   "calendar_colors.s2_anniversary": {
-    "text": "Evlilik yıl dönümümüz on iki haziranda.",
-    "alt": ["Evlilik yıldönümümüz on iki haziran.", "Evlilik yıl dönümümüz 12 haziranda."]
+    "text": "Evlilik yıl dönümümüz 12 Haziran'da.",
+    "alt": ["Evlilik yıldönümümüz 12 Haziran'da.", "Evlilik yıl dönümümüz on iki Haziran'da."]
   },
   "calendar_colors.s2_public_holiday": {
     "text": "Gelecek pazartesi resmî tatil, bu yüzden bankalar kapalı.",
@@ -1718,13 +1720,13 @@
     ]
   },
   "calendar_colors.s3_party_saturday": {
-    "text": "Bu yıl doğum günüm perşembeye denk geliyor, bu yüzden partiyi onun yerine cumartesi yapıyoruz.",
+    "text": "Bu yıl doğum günüm perşembeye denk geliyor, bu yüzden partiyi cumartesiye alıyoruz.",
     "alt": ["Doğum günüm bu yıl perşembeye denk geldiği için partiyi cumartesi yapacağız."]
   },
   "calendar_colors.s3_kitchen_calendar": {
-    "text": "Mutfakta büyük bir takvim tutuyoruz ve herkesin randevularını üzerine farklı renklerle yazıyoruz.",
+    "text": "Mutfakta büyük bir takvimimiz var, herkesin randevularını üzerine farklı renklerle yazıyoruz.",
     "alt": [
-      "Mutfakta büyük bir takvimimiz var, herkesin randevularını farklı renklerle onun üstüne yazarız."
+      "Mutfakta büyük bir takvim asılı, herkesin randevularını onun üstüne farklı renklerle yazarız."
     ]
   },
   "calendar_colors.s3_navy_suit": {
@@ -1809,7 +1811,7 @@
     ]
   },
   "home_clothes.s2_red_dress": {
-    "text": "Bu akşam partiye uzun kırmızı bir elbise giyiyor.",
+    "text": "Bu akşam partiye uzun kırmızı bir elbise giyecek.",
     "alt": [
       "Bu gece partiye uzun kırmızı bir elbise giyecek.",
       "Bu akşam partide uzun kırmızı bir elbise giyecek."

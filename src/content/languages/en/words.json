@@ -3074,7 +3074,7 @@
   },
   "numbers.phone_number": {
     "text": "phone number",
-    "alt": ["telephone number", "number"]
+    "alt": ["telephone number"]
   },
   "numbers.count": {
     "text": "count"
@@ -3136,7 +3136,7 @@
   },
   "calendar_colors.public_holiday": {
     "text": "public holiday",
-    "alt": ["national holiday", "bank holiday", "holiday"]
+    "alt": ["national holiday", "bank holiday"]
   },
   "calendar_colors.anniversary": {
     "text": "anniversary",
@@ -3199,7 +3199,7 @@
   },
   "restaurant.todays_special": {
     "text": "today's special",
-    "alt": ["daily special", "special of the day", "dish of the day", "special"]
+    "alt": ["daily special", "special of the day", "dish of the day"]
   },
   "restaurant.soft_drink": {
     "text": "soft drink",
@@ -3224,7 +3224,7 @@
   },
   "restaurant.buffet": {
     "text": "buffet",
-    "alt": ["open buffet"]
+    "alt": ["all-you-can-eat buffet"]
   },
   "restaurant.reserved": {
     "text": "reserved",

@@ -3156,8 +3156,7 @@
     "alt": ["bir milyon"]
   },
   "numbers.phone_number": {
-    "text": "telefon numarası",
-    "alt": ["numara"]
+    "text": "telefon numarası"
   },
   "numbers.count": {
     "text": "saymak"
@@ -3304,8 +3303,7 @@
     "alt": ["tatmak"]
   },
   "restaurant.buffet": {
-    "text": "açık büfe",
-    "alt": ["büfe"]
+    "text": "açık büfe"
   },
   "restaurant.reserved": {
     "text": "rezerve",

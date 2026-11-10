@@ -1311,7 +1311,8 @@
     "text": "Good morning, how was your weekend with the family?",
     "alt": [
       "Good morning, how was your weekend with your family?",
-      "Morning, how was your weekend with the family?"
+      "Morning, how was your weekend with the family?",
+      "Good morning, how was the weekend with your family?"
     ]
   },
   "greetings.s2_nice_meet_finally": {
@@ -1372,7 +1373,8 @@
       "Bye, have a good trip and call us when you arrive.",
       "Goodbye, have a good trip and when you arrive call us.",
       "Goodbye, have a good trip, and call us when you get there.",
-      "Goodbye, have a safe trip and call us when you arrive."
+      "Goodbye, have a safe trip and call us when you arrive.",
+      "Goodbye, call us when you arrive and have a good trip."
     ]
   },
   "greetings.s3_team_manager": {
@@ -1408,14 +1410,13 @@
     ]
   },
   "greetings.s3_heard_about_you": {
-    "text": "It is a pleasure to meet you, because my sister has told me so much about you.",
+    "text": "It is a pleasure to meet you, my sister has told me so much about you.",
     "alt": [
-      "It's a pleasure to meet you, because my sister has told me so much about you.",
-      "It is a pleasure to meet you, because my sister told me so much about you.",
-      "It's a pleasure to meet you, because my sister told me so much about you.",
-      "It is a pleasure to meet you, my sister has told me so much about you.",
       "It's a pleasure to meet you, my sister has told me so much about you.",
-      "It's nice to meet you, my sister has told me so much about you."
+      "It is a pleasure to meet you, my sister told me so much about you.",
+      "It's a pleasure to meet you, my sister told me so much about you.",
+      "My sister has told me so much about you, it is a pleasure to meet you.",
+      "My sister has told me so much about you, it's a pleasure to meet you."
     ]
   },
   "greetings.s3_thanks_everything": {
@@ -1423,7 +1424,6 @@
     "alt": [
       "Thanks for everything, we had a wonderful time here and we hope to see you again soon.",
       "Thank you for everything, we had a great time here and we hope to see you again soon.",
-      "Thank you for everything, we had a wonderful time here and we hope to see you soon again.",
       "Thank you for everything, we had a wonderful time here and hope to see you again soon."
     ]
   },
@@ -1501,7 +1501,9 @@
       "Every night before bed my grandmother tells the children stories.",
       "My grandmother tells stories to the children every night before bed.",
       "My grandma tells the children stories every night before bed.",
-      "My grandmother tells the kids stories every night before bed."
+      "My grandmother tells the kids stories every night before bed.",
+      "My grandmother tells the children stories before bed every night.",
+      "Before bed every night my grandmother tells the children stories."
     ]
   },
   "people.s2_who_that_woman": {
@@ -1681,7 +1683,8 @@
       "After work I go to the gym twice a week.",
       "I go to the gym after work twice a week.",
       "Twice a week I go to the gym after work.",
-      "I go to the gym two times a week after work."
+      "I go to the gym two times a week after work.",
+      "Twice a week after work I go to the gym."
     ]
   },
   "numbers.s2_father_sixty": {
@@ -1710,7 +1713,9 @@
     "alt": [
       "We live at number forty five, on the third floor, and the door code is seven eight two.",
       "We live at number forty-five on the third floor and the door code is seven eight two.",
-      "We live at number 45, on the third floor, and the door code is 782."
+      "We live at number 45, on the third floor, and the door code is 782.",
+      "We live on the third floor, at number forty-five, and the door code is seven eight two.",
+      "We live on the third floor, at number forty five, and the door code is seven eight two."
     ]
   },
   "numbers.s3_marathon": {
@@ -1810,8 +1815,7 @@
     "alt": [
       "A Turkish breakfast usually includes cheese, olives, eggs and tea.",
       "Usually a Turkish breakfast has cheese, olives, eggs and tea.",
-      "A Turkish breakfast usually has cheese, olives, eggs, and tea.",
-      "A Turkish breakfast has cheese, olives, eggs and tea usually."
+      "A Turkish breakfast usually has cheese, olives, eggs, and tea."
     ]
   },
   "food.s2_less_sugar": {
@@ -2009,7 +2013,9 @@
       "I walk for thirty minutes before breakfast every day.",
       "Every day before breakfast I walk for thirty minutes.",
       "I walk for half an hour every day before breakfast.",
-      "I walk thirty minutes every day before breakfast."
+      "I walk thirty minutes every day before breakfast.",
+      "Before breakfast I walk for thirty minutes every day.",
+      "I walk every day for thirty minutes before breakfast."
     ]
   },
   "time.s2_until_midnight": {
@@ -2047,7 +2053,8 @@
       "I get up at half past six on weekdays, but I sleep until nine on Saturdays and Sundays.",
       "On weekdays I get up at half past six, but on Saturdays and Sundays I sleep till nine.",
       "On weekdays I get up at six thirty, but on Saturdays and Sundays I sleep until nine.",
-      "On weekdays I get up at half past six, but I sleep until nine on Saturdays and Sundays."
+      "On weekdays I get up at half past six, but I sleep until nine on Saturdays and Sundays.",
+      "I get up at half past six on weekdays, but on Saturdays and Sundays I sleep until nine."
     ]
   },
   "time.s3_appointment": {
@@ -2254,12 +2261,13 @@
     ]
   },
   "calendar_colors.s3_school_holidays": {
-    "text": "The school holidays start at the end of June and finish in the second week of September.",
+    "text": "The school vacation starts at the end of June and ends in the second week of September.",
     "alt": [
-      "The school holidays start at the end of June and end in the second week of September.",
       "The school vacation starts at the end of June and finishes in the second week of September.",
-      "The school holidays begin at the end of June and finish in the second week of September.",
-      "School holidays start at the end of June and finish in the second week of September."
+      "The school vacation begins at the end of June and ends in the second week of September.",
+      "The school holidays start at the end of June and finish in the second week of September.",
+      "The school holidays start at the end of June and end in the second week of September.",
+      "The school holidays begin at the end of June and finish in the second week of September."
     ]
   },
   "calendar_colors.s3_born_october": {
@@ -2613,12 +2621,13 @@
     ]
   },
   "body_weather.s3_snow_play": {
-    "text": "When it snows, the children run outside and play in the garden until their hands are freezing.",
+    "text": "When it snows, the children run outside and play in the yard until their hands are freezing.",
     "alt": [
-      "The children run outside when it snows and play in the garden until their hands are freezing.",
-      "When it snows the children run outside and play in the garden until their hands are freezing.",
-      "When it snows, the kids run outside and play in the garden until their hands are freezing.",
-      "When it snows, the children run outside and play in the yard until their hands are freezing."
+      "The children run outside when it snows and play in the yard until their hands are freezing.",
+      "When it snows the children run outside and play in the yard until their hands are freezing.",
+      "When it snows, the kids run outside and play in the yard until their hands are freezing.",
+      "When it snows, the children run outside and play in the garden until their hands are freezing.",
+      "The children run outside when it snows and play in the garden until their hands are freezing."
     ]
   },
   "body_weather.s3_hot_summer": {
