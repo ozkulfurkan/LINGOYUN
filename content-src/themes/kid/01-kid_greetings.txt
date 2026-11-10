@@ -50,7 +50,7 @@ idiom.take_care # take care = kendine iyi bak
 sentence.l3_how_you # How are you? = Nasılsın?
 sentence.l3_what_name # What is your name? = Adın ne?
 sentence.l1_morning_friend # Good morning, my friend. = Günaydın, arkadaşım.
-sentence.l1_thanks_teacher|Thank you, Ms. Brown.|Thanks, Ms. Brown.|Teşekkür ederim, Brown Öğretmen.|Teşekkürler, Brown Öğretmen.;Sağ ol, Brown Öğretmen.
+sentence.l1_thanks_teacher|Thank you, Ms. Brown.|Thanks, Ms. Brown.|Teşekkür ederim, Brown Öğretmen.|Teşekkürler, Brown Öğretmen.;Sağ ol, Brown Öğretmen.;Teşekkür ederim, Bayan Brown.
 sentence.l1_you_friend # You are my friend. = Sen benim arkadaşımsın.
 sentence.l3_who_boy # Who is this boy? = Bu çocuk kim?
 sentence.l3_why_sad # Why are you sad? = Neden üzgünsün?
@@ -67,9 +67,9 @@ sentence.l3_lesson_easy # This lesson is easy. = Bu ders kolay.
 kid_greetings.s2_nice_meet|Nice to meet you, my friend.||Memnun oldum, arkadaşım.|Tanıştığımıza memnun oldum, arkadaşım.;Seninle tanıştığıma memnun oldum, arkadaşım.
 
 @sentences 3
-kid_greetings.s3_morning_names|Good morning, Ms. Brown, my name is Kerem and this is Nehir.|Good morning, Ms. Brown, my name's Kerem and this is Nehir.|Günaydın Brown Öğretmen, benim adım Kerem ve bu da Nehir.|Günaydın Brown Öğretmen, adım Kerem ve bu da Nehir.
+kid_greetings.s3_morning_names|Good morning, Ms. Brown, my name is Kerem and this is Nehir.|Good morning, Ms. Brown, my name's Kerem and this is Nehir.|Günaydın Brown Öğretmen, benim adım Kerem ve bu da Nehir.|Günaydın Brown Öğretmen, adım Kerem ve bu da Nehir.;Günaydın Bayan Brown, benim adım Kerem ve bu da Nehir.
 kid_greetings.s3_hello_nice|Hello, I am Zeynep and it is nice to meet you.|Hello, I'm Zeynep and it's nice to meet you.;Hello, I am Zeynep and it's nice to meet you.|Merhaba, ben Zeynep ve tanıştığımıza memnun oldum.|Merhaba, ben Zeynep, tanıştığımıza memnun oldum.;Merhaba, ben Zeynep ve seninle tanıştığıma memnun oldum.;Merhaba, ben Zeynep, memnun oldum.
-kid_greetings.s3_sorry_late|I am sorry, Ms. Brown, I am late this morning.|I'm sorry, Ms. Brown, I'm late this morning.;I am sorry, Ms. Brown, this morning I am late.|Özür dilerim Brown Öğretmen, bu sabah geç kaldım.|Özür dilerim Brown Öğretmen, bu sabah geciktim.
+kid_greetings.s3_sorry_late|I am sorry, Ms. Brown, I am late this morning.|I'm sorry, Ms. Brown, I'm late this morning.;I am sorry, Ms. Brown, this morning I am late.|Özür dilerim Brown Öğretmen, bu sabah geç kaldım.|Özür dilerim Brown Öğretmen, bu sabah geciktim.;Özür dilerim Bayan Brown, bu sabah geç kaldım.
 kid_greetings.s3_good_night|Good night, Mom and Dad, see you in the morning.|Good night, Dad and Mom, see you in the morning.|İyi geceler anne, baba, sabah görüşürüz.|İyi geceler anneciğim, babacığım, sabah görüşürüz.;İyi geceler anne baba, sabah görüşürüz.;İyi geceler baba, anne, sabah görüşürüz.;İyi geceler anne ve baba, sabah görüşürüz.
 kid_greetings.s3_thanks_help|Thank you for your help, you are a good friend.|Thank you for your help, you're a good friend.|Yardımın için teşekkür ederim, sen iyi bir arkadaşsın.|Yardımın için teşekkürler, sen iyi bir arkadaşsın.;Yardımın için teşekkür ederim, iyi bir arkadaşsın.;Yardımın için teşekkürler, iyi bir arkadaşsın.
 kid_greetings.s3_excuse_door|Excuse me, can you open the door for us, please?|Excuse me, can you please open the door for us?;Excuse me, please, can you open the door for us?|Affedersiniz, bizim için kapıyı açabilir misiniz lütfen?|Affedersiniz, lütfen bizim için kapıyı açar mısınız?;Affedersiniz, bize kapıyı açar mısınız lütfen?;Affedersin, bizim için kapıyı açabilir misin lütfen?

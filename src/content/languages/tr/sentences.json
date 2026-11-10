@@ -65,7 +65,11 @@
   },
   "sentence.l1_thanks_teacher": {
     "text": "Teşekkür ederim, Brown Öğretmen.",
-    "alt": ["Teşekkürler, Brown Öğretmen.", "Sağ ol, Brown Öğretmen."]
+    "alt": [
+      "Teşekkürler, Brown Öğretmen.",
+      "Sağ ol, Brown Öğretmen.",
+      "Teşekkür ederim, Bayan Brown."
+    ]
   },
   "sentence.l1_morning_friend": {
     "text": "Günaydın, arkadaşım."
@@ -3314,7 +3318,10 @@
   },
   "kid_greetings.s3_morning_names": {
     "text": "Günaydın Brown Öğretmen, benim adım Kerem ve bu da Nehir.",
-    "alt": ["Günaydın Brown Öğretmen, adım Kerem ve bu da Nehir."]
+    "alt": [
+      "Günaydın Brown Öğretmen, adım Kerem ve bu da Nehir.",
+      "Günaydın Bayan Brown, benim adım Kerem ve bu da Nehir."
+    ]
   },
   "kid_greetings.s3_hello_nice": {
     "text": "Merhaba, ben Zeynep ve tanıştığımıza memnun oldum.",
@@ -3326,7 +3333,10 @@
   },
   "kid_greetings.s3_sorry_late": {
     "text": "Özür dilerim Brown Öğretmen, bu sabah geç kaldım.",
-    "alt": ["Özür dilerim Brown Öğretmen, bu sabah geciktim."]
+    "alt": [
+      "Özür dilerim Brown Öğretmen, bu sabah geciktim.",
+      "Özür dilerim Bayan Brown, bu sabah geç kaldım."
+    ]
   },
   "kid_greetings.s3_good_night": {
     "text": "İyi geceler anne, baba, sabah görüşürüz.",
