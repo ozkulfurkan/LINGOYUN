@@ -21,34 +21,58 @@ money.borrow # borrow = ödünç almak
 money.lend # lend = ödünç vermek
 money.cost # cost = mal olmak
 action.try_on # try on = denemek
+@kind word noun
+shopping.shopping|shopping||alışveriş|
+shopping.mall|mall|shopping mall;shopping center;shopping centre|alışveriş merkezi|AVM
+shopping.cashier|cashier||kasiyer|
+shopping.checkout|checkout|cash register;register;till|kasa|
+shopping.basket|basket|shopping basket|sepet|alışveriş sepeti
+shopping.shopping_cart|shopping cart|cart;trolley;shopping trolley|alışveriş arabası|
+shopping.change|change||para üstü|paranın üstü
+shopping.line|line|queue|sıra|kuyruk
+shopping.salesperson|salesperson|sales assistant;shop assistant;salesclerk|satış görevlisi|tezgâhtar
+shopping.fitting_room|fitting room|changing room;dressing room|deneme kabini|kabin
+shopping.product|product||ürün|
+shopping.brand|brand||marka|
+shopping.quality|quality||kalite|
+shopping.bargain|bargain|good deal;deal|kelepir|
+shopping.bookstore|bookstore|bookshop|kitapçı|
+shopping.butcher|butcher|butcher shop;butcher's|kasap|
+@kind word adjective
+shopping.on_sale|on sale||indirimde|
+shopping.online|online||internetten|çevrimiçi;internette
+@kind word verb
+shopping.return|return|take back;bring back|iade etmek|geri vermek
+shopping.deliver|deliver||teslim etmek|getirmek
+shopping.compare|compare||karşılaştırmak|
+shopping.afford|afford||parası yetmek|gücü yetmek
 
 @sentences 1
-sentence.a2_cinema_yesterday # I went to the movies yesterday. = Dün sinemaya gittim.
 sentence.a2_bought_dress # She bought a new dress. = Yeni bir elbise aldı.
-sentence.a2_ate_fish # We ate fish at a restaurant. = Bir restoranda balık yedik.
-sentence.a2_tired_yesterday # I was very tired yesterday. = Dün çok yorgundum.
-sentence.a2_home_sunday # They were at home on Sunday. = Pazar günü evdeydiler.
-sentence.a2_where_holiday # Where did you go on vacation? = Tatilde nereye gittin?
-sentence.a2_call_tomorrow # I will call you tomorrow. = Seni yarın arayacağım.
-sentence.a2_rain_tomorrow # It will rain tomorrow. = Yarın yağmur yağacak.
-sentence.a2_buy_house # They are going to buy a house. = Bir ev alacaklar.
-sentence.a2_this_evening # What are you doing this evening? = Bu akşam ne yapıyorsun?
-sentence.a2_hotel_bigger # This hotel is bigger than that hotel. = Bu otel o otelden daha büyük.
-sentence.a2_train_cheaper # The train is cheaper than the plane. = Tren uçaktan daha ucuz.
-sentence.a2_best_restaurant # This is the best restaurant in the city. = Bu, şehirdeki en iyi restoran.
-sentence.a2_most_expensive # This is the most expensive hotel in the city. = Bu, şehirdeki en pahalı otel.
-sentence.a2_brother_older # My brother is older than me. = Ağabeyim benden büyük.
-sentence.a2_can_drive # I can drive a car. = Araba sürebilirim.
 sentence.a2_pay_card # Can I pay by credit card? = Kredi kartıyla ödeyebilir miyim?
-sentence.a2_should_doctor # You should see a doctor. = Doktora görünmelisin.
-sentence.a2_work_saturday # I have to work on Saturday. = Cumartesi çalışmak zorundayım.
-sentence.a2_table_two # I would like a table for two. = İki kişilik bir masa istiyorum.
-sentence.a2_may_open # May I open the window? = Pencereyi açabilir miyim?
 sentence.a2_try_jacket # Can I try on this jacket? = Bu ceketi deneyebilir miyim?
 sentence.a2_what_size # What size do you want? = Hangi bedeni istiyorsun?
 sentence.a2_discount # Is there a discount? = İndirim var mı?
-sentence.a2_the_bill # Can we have the check, please? = Hesabı alabilir miyiz, lütfen?
 sentence.a2_enough_money # I do not have enough money. = Yeterli param yok.
 sentence.a2_sold_car # They sold their old car. = Eski arabalarını sattılar.
-sentence.a2_speaking_phone # She is speaking on the phone now. = Şu anda telefonda konuşuyor.
-sentence.a2_cold_so_home # It was cold, so we went home. = Hava soğuktu, bu yüzden eve gittik.
+sentence.a2_buy_house # They are going to buy a house. = Bir ev alacaklar.
+
+@sentences 2
+shopping.s2_fitting_room|Excuse me, where is the fitting room on this floor?|Excuse me, where's the fitting room on this floor?;Excuse me, where is the changing room on this floor?;Excuse me, where's the changing room on this floor?|Affedersiniz, bu kattaki deneme kabini nerede?|Pardon, bu kattaki deneme kabini nerede?;Affedersiniz, bu katta deneme kabini nerede?
+shopping.s2_bigger_size|These shoes are too small. Do you have a bigger size?|These shoes are too small. Have you got a bigger size?;These shoes are too small. Do you have a larger size?;These shoes are too small. Do you have them in a bigger size?|Bu ayakkabılar çok küçük. Daha büyük bir numaranız var mı?|Bu ayakkabılar bana küçük. Daha büyük numaranız var mı?;Bu ayakkabılar çok küçük. Bir büyük numarası var mı?
+shopping.s2_return_shirt|Can I return this shirt if it does not fit?|Can I return this shirt if it doesn't fit?;If this shirt does not fit, can I return it?;If this shirt doesn't fit, can I return it?;Can I bring this shirt back if it does not fit?;Can I bring this shirt back if it doesn't fit?|Bu gömlek üstüme olmazsa iade edebilir miyim?|Bu gömlek olmazsa iade edebilir miyim?;Gömlek üstüme olmazsa onu iade edebilir miyim?
+shopping.s2_cash_or_card|Would you like to pay in cash or by card?|Would you like to pay by card or in cash?;Do you want to pay in cash or by card?;Do you want to pay by card or in cash?;Would you like to pay with cash or with a card?;Would you like to pay cash or card?|Nakit mi yoksa kartla mı ödemek istersiniz?|Nakit mi ödemek istersiniz, kartla mı?;Nakit mi kart mı?
+shopping.s2_line_checkout|The line at the checkout is very long today.|Today the line at the checkout is very long.;The queue at the checkout is very long today.;Today the queue at the checkout is very long.;The line at the checkout is really long today.|Bugün kasadaki sıra çok uzun.|Kasadaki sıra bugün çok uzun.;Bugün kasada çok uzun bir kuyruk var.
+shopping.s2_coats_sale|All the winter coats are on sale this week.|This week all the winter coats are on sale.;All winter coats are on sale this week.;This week all winter coats are on sale.|Bu hafta bütün kışlık montlar indirimde.|Bu hafta tüm kış montları indirimde.;Bütün kışlık montlar bu hafta indirimde.
+shopping.s2_afford_watch|I like this watch, but I cannot afford it.|I like this watch, but I can't afford it.;I really like this watch, but I cannot afford it.;I really like this watch, but I can't afford it.|Bu saati beğeniyorum ama almaya param yetmiyor.|Bu saati beğendim ama param yetmiyor.;Bu saat hoşuma gidiyor ama alamam, param yetmez.
+shopping.s2_clothes_online|I often buy clothes online because it is cheaper.|I often buy clothes online because it's cheaper.;Because it is cheaper, I often buy clothes online.;Because it's cheaper, I often buy clothes online.;I often buy clothes on the internet because it is cheaper.;I often buy clothes on the internet because it's cheaper.|Sık sık internetten kıyafet alırım çünkü daha ucuz.|Kıyafetleri sık sık internetten alırım, çünkü daha ucuz.
+
+@sentences 3
+shopping.s3_return_receipt|You can return the product within thirty days, but you must bring the receipt with you.|You can return the product within thirty days, but you have to bring the receipt with you.;Within thirty days you can return the product, but you must bring the receipt with you.;You can return the product within thirty days, but you must bring the receipt.;You can return the product within thirty days, but you need to bring the receipt with you.|Ürünü otuz gün içinde iade edebilirsiniz ama fişi yanınızda getirmeniz gerekir.|Ürünü otuz gün içinde iade edebilirsiniz, yalnız fişi de getirmelisiniz.
+shopping.s3_compare_prices|Before I buy a new phone, I always compare the prices in different stores and online.|I always compare the prices in different stores and online before I buy a new phone.;Before I buy a new phone, I always compare prices in different stores and online.;Before I buy a new phone, I always compare the prices online and in different stores.;Before I buy a new phone, I always compare the prices in different shops and online.|Yeni bir telefon almadan önce fiyatları her zaman farklı mağazalarda ve internette karşılaştırırım.|Yeni telefon almadan önce hep farklı mağazalardaki ve internetteki fiyatları karşılaştırırım.
+shopping.s3_wrong_change|The cashier gave me the wrong change, so I went back and showed her my receipt.|The cashier gave me the wrong change, so I went back and showed him my receipt.;The cashier gave me the wrong change, so I went back and showed my receipt to her.;The cashier gave me the wrong change, so I went back and showed my receipt to him.|Kasiyer para üstünü yanlış verdi, bu yüzden geri gidip ona fişimi gösterdim.|Kasiyer bana para üstünü yanlış verdi, ben de geri dönüp fişimi gösterdim.
+shopping.s3_brand_quality|This brand is more expensive, but the quality is much better and the shoes last longer.|This brand is more expensive, but the quality is a lot better and the shoes last longer.;This brand is more expensive, but the shoes last longer and the quality is much better.|Bu marka daha pahalı ama kalitesi çok daha iyi ve ayakkabıları daha uzun dayanıyor.|Bu marka daha pahalı ama kalitesi çok daha iyi, ayakkabıları da daha uzun ömürlü.
+shopping.s3_mall_crowded|We usually go to the shopping mall on Saturday, but it is always very crowded in the afternoon.|We usually go to the shopping mall on Saturday, but it's always very crowded in the afternoon.;On Saturday we usually go to the shopping mall, but it is always very crowded in the afternoon.;We usually go to the mall on Saturday, but it is always very crowded in the afternoon.;We usually go to the shopping mall on Saturdays, but it is always very crowded in the afternoon.;We usually go to the shopping mall on Saturday, but in the afternoon it is always very crowded.|Genellikle cumartesi günü alışveriş merkezine gideriz ama öğleden sonra hep çok kalabalık oluyor.|Cumartesileri genelde AVM'ye gideriz ama öğleden sonra her zaman çok kalabalık olur.
+shopping.s3_deliver_tomorrow|If you order before six in the evening, we will deliver the package to your home tomorrow.|If you order before six in the evening, we'll deliver the package to your home tomorrow.;We will deliver the package to your home tomorrow if you order before six in the evening.;We'll deliver the package to your home tomorrow if you order before six in the evening.;If you order before six in the evening, we will deliver the package to your house tomorrow.;If you order before six in the evening, we will deliver the package tomorrow to your home.|Akşam altıdan önce sipariş verirseniz paketi yarın evinize teslim ederiz.|Akşam saat altıdan önce sipariş verirseniz paketiniz yarın evinize gelir.
+shopping.s3_bargain_market|In the old market you can bargain with the sellers and often get a much better price.|You can bargain with the sellers in the old market and often get a much better price.;In the old market, you can bargain with the sellers and often get a much better price.;In the old market you can bargain with the sellers and get a much better price.|Eski çarşıda satıcılarla pazarlık yapabilir ve çoğu zaman çok daha iyi bir fiyat alabilirsiniz.|Eski çarşıda satıcılarla pazarlık edip çoğu zaman çok daha uygun fiyata alabilirsiniz.
+shopping.s3_salesperson_helpful|The salesperson was very helpful and found the same jacket in my size in another store.|The salesperson was very helpful and found the same jacket in another store in my size.;The sales assistant was very helpful and found the same jacket in my size in another store.;The shop assistant was very helpful and found the same jacket in my size in another shop.|Satış görevlisi çok yardımseverdi ve aynı ceketi başka bir mağazada benim bedenimde buldu.|Satış görevlisi çok yardımcı oldu ve aynı ceketin benim bedenimi başka bir mağazada buldu.

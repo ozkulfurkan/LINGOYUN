@@ -28,6 +28,49 @@ action.try # try = denemek
 action.use # use = kullanmak
 action.change # change = değiştirmek
 action.choose # choose = seçmek
+@kind word verb
+actions_2.jump|jump||zıplamak|atlamak
+actions_2.climb|climb||tırmanmak|
+actions_2.fly|fly||uçmak|
+actions_2.hold|hold||tutmak|
+actions_2.hide|hide||saklamak|saklanmak
+actions_2.cut|cut||kesmek|
+actions_2.move|move||taşınmak|hareket etmek
+actions_2.enter|enter|go in;come in|girmek|içeri girmek
+actions_2.follow|follow||takip etmek|izlemek;peşinden gitmek
+actions_2.miss|miss||özlemek|
+actions_2.share|share||paylaşmak|
+actions_2.repeat|repeat||tekrarlamak|
+actions_2.practice|practice|practise|pratik yapmak|alıştırma yapmak
+actions_2.relax|relax||rahatlamak|
+actions_2.lie_down|lie down||uzanmak|
 
 @sentences 1
 sentence.a2_not_forget # I will not forget this day. = Bu günü unutmayacağım.
+actions_2.s1_miss_you|I miss you very much.|I miss you so much.;I miss you a lot.|Seni çok özledim.|Seni çok özlüyorum.
+actions_2.s1_lost_keys|I lost my keys again.|I've lost my keys again.|Anahtarlarımı yine kaybettim.|Anahtarlarımı gene kaybettim.
+actions_2.s1_please_repeat|Could you repeat that, please?|Could you please repeat that?;Can you repeat that, please?;Can you please repeat that?|Bunu tekrar eder misiniz, lütfen?|Lütfen bunu tekrarlar mısınız?
+actions_2.s1_hold_hand|Hold my hand, please.|Please hold my hand.|Lütfen elimi tut.|Elimi tut, lütfen.
+actions_2.s1_cat_hides|The cat hides under the bed.|The cat is hiding under the bed.|Kedi yatağın altına saklanıyor.|Kedi yatağın altına saklanır.
+actions_2.s1_lie_down|I need to lie down.|I have to lie down.|Uzanmam lazım.|Uzanmam gerekiyor.
+actions_2.s1_choose_one|Choose the one you like.|Choose the one that you like.;Choose one you like.|Beğendiğini seç.|Hangisini beğendiysen onu seç.
+
+@sentences 2
+actions_2.s2_moving_house|We are moving to a new apartment at the end of the month.|We're moving to a new apartment at the end of the month.;We are moving to a new flat at the end of the month.;We're moving to a new flat at the end of the month.;At the end of the month we are moving to a new apartment.;At the end of the month we're moving to a new apartment.|Ay sonunda yeni bir daireye taşınıyoruz.|
+actions_2.s2_climb_mountain|Last summer we climbed a mountain and slept in a tent.|We climbed a mountain last summer and slept in a tent.|Geçen yaz bir dağa tırmandık ve çadırda uyuduk.|
+actions_2.s2_share_room|When I was a child, I shared a room with my sister.|I shared a room with my sister when I was a child.;When I was a child I shared a room with my sister.|Çocukken kız kardeşimle aynı odayı paylaşırdım.|Çocukken odamı kız kardeşimle paylaşırdım.
+actions_2.s2_follow_me|Follow me, I will show you the way to the station.|Follow me, I'll show you the way to the station.|Beni takip edin, size istasyonun yolunu göstereyim.|Peşimden gelin, size istasyonun yolunu göstereceğim.
+actions_2.s2_practice_english|I try to practice my English for twenty minutes every day.|I try to practise my English for twenty minutes every day.;Every day I try to practice my English for twenty minutes.;Every day I try to practise my English for twenty minutes.|Her gün yirmi dakika İngilizce pratik yapmaya çalışıyorum.|
+actions_2.s2_cut_bread|Can you cut the bread while I make the salad?|Could you cut the bread while I make the salad?;While I make the salad, can you cut the bread?|Ben salatayı yaparken ekmeği keser misin?|
+actions_2.s2_fly_istanbul|We will fly to Istanbul and then take a bus to the coast.|We'll fly to Istanbul and then take a bus to the coast.;We are going to fly to Istanbul and then take a bus to the coast.;We're going to fly to Istanbul and then take a bus to the coast.|İstanbul'a uçakla gideceğiz, sonra kıyıya otobüsle geçeceğiz.|İstanbul'a uçacağız ve sonra kıyıya otobüsle gideceğiz.
+actions_2.s2_relax_weekend|On weekends I like to relax at home and read a book.|I like to relax at home and read a book on weekends.;At weekends I like to relax at home and read a book.;On weekends I like relaxing at home and reading a book.;I like relaxing at home and reading a book on weekends.;On the weekend I like to relax at home and read a book.|Hafta sonları evde dinlenmeyi ve kitap okumayı severim.|Hafta sonları evde dinlenip kitap okumayı severim.
+
+@sentences 3
+actions_2.s3_jump_water|The children jumped into the cold water, but they got out again after only a few seconds.|The children jumped into the cold water, but they got out again after just a few seconds.;The kids jumped into the cold water, but they got out again after only a few seconds.|Çocuklar soğuk suya atladılar ama sadece birkaç saniye sonra tekrar çıktılar.|
+actions_2.s3_remember_name|I remember his face very well, but I cannot remember his name, even though we met last week.|I remember her face very well, but I cannot remember her name, even though we met last week.;I remember his face very well, but I can't remember his name, even though we met last week.;I remember her face very well, but I can't remember her name, even though we met last week.|Yüzünü çok iyi hatırlıyorum ama geçen hafta tanışmamıza rağmen adını hatırlayamıyorum.|
+actions_2.s3_enter_building|You cannot enter the building without a card, so please wait for me at the front door.|You can't enter the building without a card, so please wait for me at the front door.;You cannot enter the building without a card, so wait for me at the front door, please.|Kart olmadan binaya giremezsin, o yüzden lütfen beni ön kapıda bekle.|Kartsız binaya giremezsiniz, lütfen beni ön kapıda bekleyin.
+actions_2.s3_send_receive|I sent the documents on Monday, but the office says they still have not received anything.|I sent the documents on Monday, but the office says they still haven't received anything.;I sent the documents on Monday but the office says they still have not received anything.|Belgeleri pazartesi gönderdim ama ofis hâlâ hiçbir şey almadıklarını söylüyor.|
+actions_2.s3_try_change|If this phone does not work for you, you can change it for a different one within two weeks.|If this phone doesn't work for you, you can change it for a different one within two weeks.;You can change this phone for a different one within two weeks if it does not work for you.;You can change this phone for a different one within two weeks if it doesn't work for you.|Bu telefon işinize yaramazsa iki hafta içinde başka bir telefonla değiştirebilirsiniz.|
+actions_2.s3_believe_hope|I do not really believe in luck, but I hope that everything will go well at the interview tomorrow.|I don't really believe in luck, but I hope that everything will go well at the interview tomorrow.;I don't really believe in luck, but I hope everything will go well at the interview tomorrow.;I do not really believe in luck, but I hope everything will go well at the interview tomorrow.|Şansa pek inanmam ama yarınki görüşmede her şeyin iyi geçeceğini umuyorum.|
+actions_2.s3_carry_bags|Can you help me carry these bags to the car, because they are too heavy for me alone?|Could you help me carry these bags to the car, because they are too heavy for me alone?;Can you help me carry these bags to the car, because they're too heavy for me alone?;Could you help me carry these bags to the car, because they're too heavy for me alone?|Bu çantaları arabaya taşımama yardım eder misin, tek başıma taşıyamayacağım kadar ağırlar.|
+actions_2.s3_wake_up_early|I usually wake up at six, but I stay in bed for ten minutes before I get up.|I usually wake up at six, but I stay in bed for ten minutes before getting up.|Genellikle altıda uyanırım ama kalkmadan önce on dakika yatakta kalırım.|

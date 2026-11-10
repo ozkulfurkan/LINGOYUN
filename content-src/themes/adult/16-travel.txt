@@ -27,18 +27,51 @@ travel.travel # travel = seyahat etmek
 travel.rent # rent = kiralamak
 travel.turn # turn = dönmek
 travel.lost # lost = kayıp
+vehicle.boat # boat = tekne
+@kind word noun
+travel.luggage|luggage|baggage|bagaj|valiz;eşya
+travel.passenger|passenger||yolcu|
+travel.seat|seat||koltuk|yer
+travel.boarding_pass|boarding pass||biniş kartı|
+travel.gate|gate|boarding gate|biniş kapısı|kapı
+travel.departure|departure||kalkış|
+travel.delay|delay||rötar|gecikme
+travel.platform|platform||peron|
+travel.customs|customs||gümrük|
+travel.backpack|backpack|rucksack|sırt çantası|
+travel.souvenir|souvenir||hediyelik eşya|hatıra
+travel.round_trip|round trip|round-trip;return|gidiş-dönüş|gidiş dönüş
+@kind word verb
+travel.book|book|reserve|rezervasyon yapmak|yer ayırtmak;ayırtmak
+travel.miss|miss||kaçırmak|
+travel.pack|pack||bavul hazırlamak|eşyaları toplamak
 
 @sentences 1
-sentence.a2_see_film # Did you see the movie? = Filmi gördün mü?
-sentence.a2_lost_wallet # He lost his wallet on the bus. = Cüzdanını otobüste kaybetti.
 sentence.a2_how_trip # How was your trip? = Gezin nasıldı?
-sentence.a2_travel_summer # We are going to travel next summer. = Gelecek yaz seyahat edeceğiz.
-sentence.a2_book_interesting # This book is more interesting than that movie. = Bu kitap o filmden daha ilginç.
-sentence.a2_reservation # I have a reservation at this hotel. = Bu otelde rezervasyonum var.
-sentence.a2_flight_eight # Our flight leaves at eight in the morning. = Uçuşumuz sabah sekizde kalkıyor.
 sentence.a2_suitcase_heavy # My suitcase is very heavy. = Bavulum çok ağır.
 sentence.a2_turn_left # Turn left at the corner. = Köşeden sola dön.
 sentence.a2_nearest_stop # Where is the nearest bus stop? = En yakın otobüs durağı nerede?
 sentence.a2_i_am_lost # I am lost. Can you help me? = Kayboldum. Bana yardım edebilir misin?
-sentence.a2_think_boring # I think this movie is boring. = Bence bu film sıkıcı.
-sentence.a2_film_weekend # We watch a movie every weekend. = Her hafta sonu film izliyoruz.
+sentence.a2_reservation # I have a reservation at this hotel. = Bu otelde rezervasyonum var.
+sentence.a2_where_holiday # Where did you go on vacation? = Tatilde nereye gittin?
+sentence.a2_lost_wallet # He lost his wallet on the bus. = Cüzdanını otobüste kaybetti.
+
+@sentences 2
+sentence.a2_travel_summer # We are going to travel next summer. = Gelecek yaz seyahat edeceğiz.
+sentence.a2_flight_eight # Our flight leaves at eight in the morning. = Uçuşumuz sabah sekizde kalkıyor.
+sentence.a2_most_expensive # This is the most expensive hotel in the city. = Bu, şehirdeki en pahalı otel.
+sentence.a2_train_cheaper # The train is cheaper than the plane. = Tren uçaktan daha ucuz.
+travel.s2_window_seat|Can I have a window seat on this flight, please?|Can I please have a window seat on this flight?;Please can I have a window seat on this flight?;Could I have a window seat on this flight, please?;Could I please have a window seat on this flight?;Can I get a window seat on this flight, please?|Bu uçuşta cam kenarı bir koltuk alabilir miyim, lütfen?|Bu uçuşta pencere kenarında bir koltuk alabilir miyim, lütfen?;Lütfen bu uçuşta cam kenarı bir yer alabilir miyim?
+travel.s2_flight_delay|Our flight has a two-hour delay because of the snow.|Because of the snow our flight has a two-hour delay.;Our flight has a two hour delay because of the snow.;Because of the snow our flight has a two hour delay.;Our flight is delayed two hours because of the snow.;Our flight is two hours late because of the snow.;Our flight is delayed by two hours because of the snow.;There is a two-hour delay on our flight because of the snow.;There's a two-hour delay on our flight because of the snow.;There is a two hour delay on our flight because of the snow.|Kar yüzünden uçuşumuzda iki saatlik rötar var.|Kar yüzünden uçuşumuz iki saat rötarlı.;Kar nedeniyle uçuşumuz iki saat gecikmeli.
+travel.s2_missed_train|We missed the last train, so we took a taxi.|We missed the last train, so we got a taxi.;We missed the last train, so we took a cab.|Son treni kaçırdık, bu yüzden taksiye bindik.|Son treni kaçırdık, o yüzden taksiyle gittik.
+travel.s2_which_platform|Which platform does the train to Ankara leave from?|From which platform does the train to Ankara leave?;Which platform does the Ankara train leave from?;What platform does the train to Ankara leave from?|Ankara treni hangi perondan kalkıyor?|Ankara'ya giden tren hangi perondan kalkıyor?
+
+@sentences 3
+travel.s3_customs|After we landed, we waited almost an hour at customs because they checked every suitcase.|We waited almost an hour at customs after we landed because they checked every suitcase.;After we landed, we waited nearly an hour at customs because they checked every suitcase.;After we landed, we waited at customs for almost an hour because they checked every suitcase.|İndikten sonra gümrükte neredeyse bir saat bekledik çünkü her bavulu kontrol ettiler.|Uçak indikten sonra gümrükte bir saate yakın bekledik, çünkü bütün bavulları kontrol ettiler.
+travel.s3_backpack|I always pack a small backpack for short trips, because carrying a heavy suitcase is so tiring.|For short trips I always pack a small backpack, because carrying a heavy suitcase is so tiring.;I always pack a small backpack for short trips, because carrying a heavy suitcase is very tiring.;For short trips I always pack a small backpack, because carrying a heavy suitcase is very tiring.|Kısa geziler için hep küçük bir sırt çantası hazırlarım, çünkü ağır bir bavul taşımak çok yorucu.|Kısa yolculuklarda hep küçük bir sırt çantası hazırlıyorum, çünkü ağır bavul taşımak çok yorucu.
+travel.s3_book_hotel|We booked a hotel near the old town square, so we can walk to most of the museums.|We reserved a hotel near the old town square, so we can walk to most of the museums.;We booked a hotel near the old town square, so we can walk to most museums.;We booked a hotel close to the old town square, so we can walk to most of the museums.|Eski şehir meydanına yakın bir otel ayırttık, böylece müzelerin çoğuna yürüyerek gidebiliriz.|Eski şehir meydanının yakınında otel ayırttık, böylece çoğu müzeye yürüyerek gidebiliriz.
+travel.s3_boarding_pass|Please have your passport and boarding pass ready, because boarding starts at gate twelve in ten minutes.|Please have your passport and boarding pass ready, because boarding starts in ten minutes at gate twelve.;Please have your boarding pass and passport ready, because boarding starts at gate twelve in ten minutes.;Please have your passport and your boarding pass ready, because boarding starts at gate twelve in ten minutes.|Lütfen pasaportunuzu ve biniş kartınızı hazır bulundurun, çünkü biniş on dakika sonra on iki numaralı kapıda başlıyor.|Lütfen pasaportunuzu ve biniş kartınızı hazırlayın, biniş on dakika içinde on ikinci kapıda başlıyor.
+travel.s3_souvenirs|On the last day of our trip, we bought souvenirs for our friends at the market near the bridge.|We bought souvenirs for our friends at the market near the bridge on the last day of our trip.;On the last day of our trip, we bought souvenirs for our friends at the market next to the bridge.;On the last day of the trip, we bought souvenirs for our friends at the market near the bridge.|Gezimizin son gününde köprünün yanındaki pazardan arkadaşlarımıza hediyelik eşya aldık.|Gezinin son günü köprünün yakınındaki pazardan arkadaşlarımıza hediyelik eşya aldık.
+travel.s3_round_trip|A round-trip ticket is much cheaper than two one-way tickets if you book it online.|If you book it online, a round-trip ticket is much cheaper than two one-way tickets.;A round trip ticket is much cheaper than two one way tickets if you book it online.;If you book it online, a round trip ticket is much cheaper than two one way tickets.;A return ticket is much cheaper than two single tickets if you book it online.;A round-trip ticket is much cheaper than two one-way tickets if you buy it online.;If you buy it online, a round-trip ticket is much cheaper than two one-way tickets.;A round trip ticket is much cheaper than two one way tickets if you buy it online.|İnternetten alırsan gidiş-dönüş bilet, iki tek yön biletten çok daha ucuza gelir.|İnternetten alırsanız gidiş-dönüş bilet iki tek yön biletten çok daha ucuza gelir.;İnternetten ayırtırsan gidiş-dönüş bilet iki tek yön biletten çok daha ucuza gelir.
+travel.s3_rent_car|If we rent a car at the airport, we can visit the small villages near the coast.|We can visit the small villages near the coast if we rent a car at the airport.;If we rent a car at the airport, we can visit the small villages on the coast.;If we hire a car at the airport, we can visit the small villages near the coast.|Havalimanında araba kiralarsak sahile yakın küçük köyleri gezebiliriz.|Havalimanından araba kiralarsak sahile yakın küçük köyleri gezebiliriz.
+travel.s3_gate_changed|All passengers on the flight to London must go to gate five, because the departure time has changed.|All passengers on the London flight must go to gate five, because the departure time has changed.;All passengers on the flight to London must go to gate five, because the departure time has been changed.;All passengers on the flight to London have to go to gate five, because the departure time has changed.|Londra uçuşundaki tüm yolcular beş numaralı kapıya gitmeli, çünkü kalkış saati değişti.|Londra uçuşunun bütün yolcuları beşinci kapıya gitmeli, çünkü kalkış saati değişti.

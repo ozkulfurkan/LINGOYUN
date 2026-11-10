@@ -31,3 +31,46 @@ animal.parrot # parrot = papağan
 animal.eagle # eagle = kartal
 animal.crocodile # crocodile = timsah
 animal.hippo # hippo = su aygırı
+@kind word noun
+kid_zoo.koala|koala||koala|
+kid_zoo.gorilla|gorilla||goril|
+kid_zoo.rhino|rhino|rhinoceros|gergedan|
+kid_zoo.polar_bear|polar bear||kutup ayısı|
+kid_zoo.flamingo|flamingo||flamingo|
+kid_zoo.peacock|peacock||tavus kuşu|
+kid_zoo.ostrich|ostrich||devekuşu|deve kuşu
+kid_zoo.seal|seal||fok|fok balığı
+kid_zoo.leopard|leopard||leopar|pars
+kid_zoo.cheetah|cheetah||çita|
+kid_zoo.sloth|sloth||tembel hayvan|
+kid_zoo.jellyfish|jellyfish||denizanası|deniz anası
+
+@sentences 1
+kid_zoo.s1_lion_big|The lion is big.||Aslan büyük.|Aslan büyüktür.
+kid_zoo.s1_monkey_funny|The monkey is funny.||Maymun komik.|Maymun komiktir.
+kid_zoo.s1_snake_long|The snake is long.||Yılan uzun.|Yılan uzundur.
+kid_zoo.s1_like_pandas|I like pandas.||Pandaları severim.|Ben pandaları severim.;Pandaları seviyorum.;Ben pandaları seviyorum.
+kid_zoo.s1_turtle_slow|The turtle is slow.||Kaplumbağa yavaş.|Kaplumbağa yavaştır.
+kid_zoo.s1_giraffe_tall|The giraffe is tall.||Zürafa uzun.|Zürafa uzun boylu.;Zürafa uzundur.
+kid_zoo.s1_see_tiger|I see a tiger.||Bir kaplan görüyorum.|Kaplan görüyorum.;Ben bir kaplan görüyorum.
+kid_zoo.s1_dolphins_swim|Dolphins swim fast.||Yunuslar hızlı yüzer.|Yunuslar hızlı yüzerler.;Yunuslar hızlı yüzüyor.
+
+@sentences 2
+kid_zoo.s2_elephant_nose|The elephant has a long nose.||Filin uzun bir burnu var.|Filin burnu uzun.;Filin uzun burnu var.;Filin uzun bir hortumu var.
+kid_zoo.s2_go_zoo|We are going to the zoo today.|Today we are going to the zoo.;We're going to the zoo today.;Today we're going to the zoo.|Bugün hayvanat bahçesine gidiyoruz.|Bugün hayvanat bahçesine gideceğiz.;Biz bugün hayvanat bahçesine gidiyoruz.
+kid_zoo.s2_monkey_banana|The monkey eats a banana in the tree.|In the tree the monkey eats a banana.|Maymun ağaçta muz yer.|Maymun ağaçta bir muz yer.;Maymun ağaçta muz yiyor.;Maymun ağaçta bir muz yiyor.
+kid_zoo.s2_penguins_cold|Penguins live in cold places.||Penguenler soğuk yerlerde yaşar.|Penguenler soğuk yerlerde yaşarlar.
+kid_zoo.s2_kangaroo_jump|The kangaroo can jump very high.||Kanguru çok yükseğe zıplayabilir.|Kanguru çok yüksek zıplayabilir.;Kanguru çok yükseğe sıçrayabilir.
+kid_zoo.s2_zebra_stripes|The zebra has black and white stripes.|The zebra has white and black stripes.|Zebranın siyah beyaz çizgileri var.|Zebranın siyah ve beyaz çizgileri var.;Zebranın beyaz ve siyah çizgileri var.
+kid_zoo.s2_parrot_name|The parrot can say my name.||Papağan benim adımı söyleyebilir.|Papağan adımı söyleyebilir.
+kid_zoo.s2_crocodile_teeth|The crocodile has very sharp teeth.||Timsahın çok keskin dişleri var.|Timsahın dişleri çok keskin.
+
+@sentences 3
+kid_zoo.s3_giraffe_leaves|The giraffe eats leaves from the top of the tree.||Zürafa ağacın tepesindeki yaprakları yer.|Zürafa ağacın tepesinden yaprak yer.;Zürafa ağacın tepesindeki yaprakları yiyor.
+kid_zoo.s3_lion_sleeps|The lion sleeps under the tree all day long.|All day long the lion sleeps under the tree.;The lion sleeps all day long under the tree.|Aslan bütün gün ağacın altında uyur.|Aslan bütün gün ağacın altında uyuyor.;Aslan tüm gün ağacın altında uyur.
+kid_zoo.s3_polar_bear_fish|The polar bear swims in the cold water and catches fish.||Kutup ayısı soğuk suda yüzer ve balık yakalar.|Kutup ayısı soğuk suda yüzer ve balık tutar.
+kid_zoo.s3_whale_biggest|The blue whale is the biggest animal in the world.|The biggest animal in the world is the blue whale.|Mavi balina dünyanın en büyük hayvanıdır.|Mavi balina dünyadaki en büyük hayvandır.;Mavi balina dünyanın en büyük hayvanı.
+kid_zoo.s3_monkeys_jump|The little monkeys jump from tree to tree all day.|All day the little monkeys jump from tree to tree.;The little monkeys jump all day from tree to tree.|Küçük maymunlar bütün gün ağaçtan ağaca zıplar.|Küçük maymunlar bütün gün ağaçtan ağaca atlar.;Küçük maymunlar bütün gün ağaçtan ağaca zıplıyor.
+kid_zoo.s3_octopus_arms|The octopus has eight arms and lives in the sea.|The octopus lives in the sea and has eight arms.|Ahtapotun sekiz kolu vardır ve denizde yaşar.|Ahtapotun sekiz kolu var ve denizde yaşar.
+kid_zoo.s3_ostrich_run|The ostrich cannot fly, but it can run very fast.|The ostrich can't fly, but it can run very fast.|Devekuşu uçamaz ama çok hızlı koşabilir.|Devekuşu uçamaz ama çok hızlı koşar.;Deve kuşu uçamaz ama çok hızlı koşabilir.
+kid_zoo.s3_favorite_animal|My favorite animal at the zoo is the big gray elephant.|At the zoo my favorite animal is the big gray elephant.;The big gray elephant is my favorite animal at the zoo.;At the zoo the big gray elephant is my favorite animal.|Hayvanat bahçesinde en sevdiğim hayvan büyük gri fil.|Hayvanat bahçesindeki en sevdiğim hayvan büyük gri fil.;Hayvanat bahçesinde en sevdiğim hayvan büyük gri bir fil.

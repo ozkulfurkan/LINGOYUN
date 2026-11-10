@@ -27,13 +27,52 @@ health.sick # sick = hasta
 health.healthy # healthy = sağlıklı
 health.hurt # hurt = ağrımak
 health.rest # rest = dinlenmek
+vehicle.ambulance # ambulance = ambulans
+body.back # back = sırt
+body.elbow # elbow = dirsek
+@kind word noun
+health.cold|cold|a cold|soğuk algınlığı|nezle
+health.sore_throat|sore throat||boğaz ağrısı|
+health.toothache|toothache||diş ağrısı|
+health.pill|pill|tablet|hap|tablet
+health.injury|injury||yaralanma|sakatlık
+health.bandage|bandage|Band-Aid|bandaj|sargı;yara bandı
+health.patient|patient||hasta (kişi)|hasta
+health.checkup|checkup|check-up;medical checkup|sağlık kontrolü|kontrol;check-up
+@kind word adjective
+health.broken|broken||kırık|
+health.dizzy|dizzy||başı dönen|baş dönmesi
+@kind word verb
+health.sneeze|sneeze||hapşırmak|
+health.get_better|get better|recover|iyileşmek|
+health.examine|examine||muayene etmek|
 
 @sentences 1
 sentence.a2_must_rest # You must rest today. = Bugün dinlenmelisin.
 sentence.a2_headache # I have a headache. = Başım ağrıyor.
 sentence.a2_son_fever # My son has a fever. = Oğlumun ateşi var.
-sentence.a2_dentist # I have an appointment with the dentist. = Diş hekimiyle randevum var.
-sentence.a2_medicine # Take this medicine after dinner. = Bu ilacı akşam yemeğinden sonra al.
 sentence.a2_stomach # My stomach hurts. = Midem ağrıyor.
 sentence.a2_fresh_fruit # Fresh fruit is very healthy. = Taze meyve çok sağlıklı.
+sentence.a2_should_doctor # You should see a doctor. = Doktora görünmelisin.
+sentence.a2_medicine # Take this medicine after dinner. = Bu ilacı akşam yemeğinden sonra al.
+sentence.a2_dentist # I have an appointment with the dentist. = Diş hekimiyle randevum var.
+
+@sentences 2
 sentence.a2_stayed_sick # I stayed at home because I was sick. = Hasta olduğum için evde kaldım.
+health.s2_call_ambulance|Please call an ambulance, my father fell down the stairs!|Call an ambulance, please, my father fell down the stairs!;Please call an ambulance, my dad fell down the stairs!|Lütfen ambulans çağırın, babam merdivenden düştü!|Lütfen bir ambulans çağırın, babam merdivenlerden düştü!
+health.s2_sore_throat|I have had a sore throat and a fever since yesterday.|I've had a sore throat and a fever since yesterday.;Since yesterday I have had a sore throat and a fever.;Since yesterday I've had a sore throat and a fever.;I have had a fever and a sore throat since yesterday.;I've had a fever and a sore throat since yesterday.|Dünden beri boğazım ağrıyor ve ateşim var.|Dünden beri boğaz ağrım ve ateşim var.
+health.s2_pills|Take two pills twice a day after meals.|Take two pills after meals twice a day.;Twice a day take two pills after meals.;Take two tablets twice a day after meals.;Take two tablets after meals twice a day.|Günde iki kez yemeklerden sonra iki hap alın.|Yemeklerden sonra günde iki kez iki hap al.;Günde iki defa yemekten sonra iki tablet alın.
+health.s2_dizzy|I feel dizzy. Can I sit down for a minute?|I feel dizzy. May I sit down for a minute?;I feel dizzy. Could I sit down for a minute?;I feel dizzy. Can I sit for a minute?;I'm dizzy. Can I sit down for a minute?|Başım dönüyor. Bir dakika oturabilir miyim?|Başım dönüyor. Biraz oturabilir miyim?
+health.s2_arm_not_broken|The doctor said my arm was not broken.|The doctor said that my arm was not broken.;The doctor said my arm wasn't broken.;The doctor said that my arm wasn't broken.;The doctor said my arm is not broken.;The doctor said my arm isn't broken.|Doktor kolumun kırık olmadığını söyledi.|Doktor, kolum kırık değil dedi.
+health.s2_checkup|I go to the doctor for a checkup once a year.|Once a year I go to the doctor for a checkup.;I go to the doctor once a year for a checkup.;I go to the doctor for a check-up once a year.;Once a year I go to the doctor for a check-up.;I go to the doctor once a year for a check-up.|Yılda bir kez kontrol için doktora giderim.|Yılda bir kere kontrole giderim.;Senede bir doktora kontrole gidiyorum.
+health.s2_get_better|Drink a lot of water and you will get better soon.|Drink a lot of water and you'll get better soon.;Drink a lot of water and you will soon get better.;Drink lots of water and you will get better soon.;Drink lots of water and you'll get better soon.|Bol su iç, yakında iyileşirsin.|Bol bol su iç, kısa sürede iyileşirsin.;Bol su için, yakında iyileşirsiniz.
+
+@sentences 3
+health.s3_back_pain|I have had back pain for two weeks, so the doctor wants to examine me again on Monday.|I've had back pain for two weeks, so the doctor wants to examine me again on Monday.;I have had back pain for two weeks, so the doctor wants to examine me on Monday again.;I have had a backache for two weeks, so the doctor wants to examine me again on Monday.;I've had a backache for two weeks, so the doctor wants to examine me again on Monday.|İki haftadır sırtım ağrıyor, bu yüzden doktor beni pazartesi tekrar muayene etmek istiyor.|İki haftadır sırt ağrım var, o yüzden doktor pazartesi beni yeniden muayene etmek istiyor.
+health.s3_sneeze_allergy|I sneeze every morning in spring, but the doctor says it is an allergy, not a cold.|In spring I sneeze every morning, but the doctor says it is an allergy, not a cold.;I sneeze every morning in spring, but the doctor says it's an allergy, not a cold.;In spring I sneeze every morning, but the doctor says it's an allergy, not a cold.;I sneeze every morning in the spring, but the doctor says it is an allergy, not a cold.|İlkbaharda her sabah hapşırıyorum ama doktor bunun soğuk algınlığı değil, alerji olduğunu söylüyor.|Baharda her sabah hapşırıyorum ama doktor bunun nezle değil alerji olduğunu söylüyor.
+health.s3_toothache|I have a terrible toothache, so I need an appointment with the dentist as soon as possible.|I've got a terrible toothache, so I need an appointment with the dentist as soon as possible.;I have a terrible toothache, so I need a dentist appointment as soon as possible.;I have a terrible toothache, so as soon as possible I need an appointment with the dentist.|Dişim çok kötü ağrıyor, bu yüzden en kısa zamanda diş hekiminden randevu almam lazım.|Korkunç bir diş ağrım var, o yüzden bir an önce dişçiden randevu almam gerekiyor.
+health.s3_elbow|He hurt his elbow while playing soccer, so he cannot play in the match on Saturday.|He hurt his elbow while playing soccer, so he can't play in the match on Saturday.;She hurt her elbow while playing soccer, so she cannot play in the match on Saturday.;She hurt her elbow while playing soccer, so she can't play in the match on Saturday.;He hurt his elbow while playing football, so he cannot play in the match on Saturday.;He hurt his elbow while playing football, so he can't play in the match on Saturday.|Futbol oynarken dirseğini incitti, bu yüzden cumartesi günkü maçta oynayamaz.|Futbol oynarken dirseğini sakatladı, o yüzden cumartesi maçında oynayamayacak.
+health.s3_patients_waiting|There are many patients in the waiting room, so you may have to wait about an hour.|There are a lot of patients in the waiting room, so you may have to wait about an hour.;There are many patients in the waiting room, so you might have to wait about an hour.;There are many patients in the waiting room, so you may have to wait for about an hour.|Bekleme salonunda çok hasta var, bu yüzden yaklaşık bir saat beklemeniz gerekebilir.|Bekleme salonunda çok fazla hasta var, bir saat kadar beklemeniz gerekebilir.
+health.s3_bandage|The nurse cleaned the cut on my finger and put a bandage on it before I went home.|Before I went home, the nurse cleaned the cut on my finger and put a bandage on it.;The nurse cleaned the cut on my finger and put a bandage on it before I left.;Before I left, the nurse cleaned the cut on my finger and put a bandage on it.|Ben eve gitmeden önce hemşire parmağımdaki kesiği temizleyip üstüne bandaj sardı.|Hemşire, ben eve gitmeden önce parmağımdaki kesiği temizleyip sardı.;Ben eve gitmeden önce hemşire parmağımdaki kesiği temizledi ve üstüne yara bandı yapıştırdı.
+health.s3_stay_healthy|To stay healthy, you should exercise three times a week and eat more fresh vegetables.|You should exercise three times a week and eat more fresh vegetables to stay healthy.;To stay healthy, you should eat more fresh vegetables and exercise three times a week.;To stay healthy, you must exercise three times a week and eat more fresh vegetables.|Sağlıklı kalmak için haftada üç kez egzersiz yapmalı ve daha çok taze sebze yemelisin.|Sağlıklı kalmak için haftada üç gün spor yapmalı ve daha fazla taze sebze yemelisiniz.
+health.s3_prescription|Take this prescription to the pharmacy, and do not forget to take your medicine after every meal.|Take this prescription to the pharmacy, and don't forget to take your medicine after every meal.;Take this prescription to the pharmacy, and do not forget to take your medicine after each meal.;Take this prescription to the pharmacy, and don't forget to take your medicine after each meal.|Bu reçeteyi eczaneye götürün ve ilacınızı her yemekten sonra almayı unutmayın.|Bu reçeteyi eczaneye götür ve ilacını her yemekten sonra almayı unutma.

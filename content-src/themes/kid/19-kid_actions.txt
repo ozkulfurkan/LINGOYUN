@@ -27,3 +27,50 @@ action.listen # listen = dinlemek
 action.speak # speak = konuşmak
 action.help # help = yardım etmek
 action.wash # wash = yıkamak
+action.dance # dance = dans etmek
+action.laugh # laugh = gülmek
+action.cry # cry = ağlamak
+@kind word verb
+kid_actions.jump|jump||zıplamak|atlamak
+kid_actions.climb|climb||tırmanmak|
+action.throw # throw = atmak
+action.catch # catch = yakalamak
+action.push # push = itmek
+action.pull # pull = çekmek
+action.carry # carry = taşımak
+action.build # build = inşa etmek
+action.find # find = bulmak
+action.cook # cook = yemek pişirmek
+action.watch # watch = izlemek
+action.wait # wait = beklemek
+action.wake_up # wake up = uyanmak
+
+@sentences 1
+kid_actions.s1_run_fast|I run fast.||Hızlı koşarım.|Hızlı koşuyorum.;Ben hızlı koşarım.
+kid_actions.s1_dance_sing|We dance and sing.|We sing and dance.|Dans eder ve şarkı söyleriz.|Dans edip şarkı söyleriz.;Şarkı söyler ve dans ederiz.;Biz dans eder ve şarkı söyleriz.
+kid_actions.s1_draws_cat|She draws a cat.|He draws a cat.|O bir kedi çizer.|O kedi çizer.;Bir kedi çiziyor.;O bir kedi çiziyor.
+kid_actions.s1_sit_chair|Sit on the chair, please.|Please sit on the chair.|Lütfen sandalyeye otur.|Sandalyeye otur, lütfen.
+kid_actions.s1_drink_water|I drink water.||Su içerim.|Su içiyorum.;Ben su içerim.
+kid_actions.s1_baby_sleeping|The baby is sleeping.||Bebek uyuyor.|
+kid_actions.s1_catch_ball|Catch the ball!||Topu yakala!|Topu yakala.
+kid_actions.s1_wait_me|Wait for me!||Beni bekle!|Beni bekle.
+
+@sentences 2
+kid_actions.s2_help_kitchen|I help my mother in the kitchen.|In the kitchen I help my mother.;In the kitchen, I help my mother.;I help my mom in the kitchen.|Mutfakta anneme yardım ederim.|Mutfakta anneme yardım ediyorum.;Anneme mutfakta yardım ederim.
+kid_actions.s2_music_car|We listen to music in the car.|In the car we listen to music.;In the car, we listen to music.|Arabada müzik dinleriz.|Arabada müzik dinliyoruz.
+kid_actions.s2_sand_castle|We build a sand castle on the beach.|On the beach we build a sand castle.;On the beach, we build a sand castle.|Plajda kumdan kale yaparız.|Plajda kumdan bir kale yaparız.;Plajda kumdan kale yapıyoruz.
+kid_actions.s2_find_pencil|I cannot find my blue pencil.|I can't find my blue pencil.|Mavi kalemimi bulamıyorum.|Mavi kurşun kalemimi bulamıyorum.
+kid_actions.s2_brother_jumps|My little brother jumps on the bed.||Küçük erkek kardeşim yatakta zıplar.|Küçük kardeşim yatakta zıplar.;Küçük erkek kardeşim yatakta zıplıyor.;Küçük kardeşim yatakta zıplıyor.
+kid_actions.s2_father_cooks|My father cooks dinner every evening.|Every evening my father cooks dinner.;Every evening, my father cooks dinner.;My dad cooks dinner every evening.|Babam her akşam yemek pişirir.|Babam her akşam yemek yapar.;Babam her akşam akşam yemeği pişirir.
+kid_actions.s2_wake_seven|I wake up at seven every day.|Every day I wake up at seven.;Every day, I wake up at seven.|Her gün yedide uyanırım.|Her gün saat yedide uyanırım.
+kid_actions.s2_push_door|Push the door, do not pull it.|Push the door, don't pull it.;Push the door and do not pull it.|Kapıyı it, çekme.|Kapıyı it, çekme!
+
+@sentences 3
+kid_actions.s3_cartoons|After school, I watch cartoons and then do my homework.|After school I watch cartoons and then do my homework.;I watch cartoons after school and then do my homework.|Okuldan sonra çizgi film izlerim, sonra ödevimi yaparım.|Okuldan sonra çizgi film izleyip ödevimi yaparım.;Okuldan sonra çizgi film izlerim ve sonra ödevimi yaparım.
+kid_actions.s3_carry_bag|Can you help me carry this heavy bag, please?|Please, can you help me carry this heavy bag?;Please can you help me carry this heavy bag?|Bu ağır çantayı taşımama yardım eder misin, lütfen?|Lütfen bu ağır çantayı taşımama yardım eder misin?
+kid_actions.s3_throw_ball|I throw the ball, and my dog runs to catch it.|I throw the ball and my dog runs to catch it.|Topu atarım ve köpeğim onu yakalamak için koşar.|Topu atarım, köpeğim onu yakalamak için koşar.;Topu atıyorum ve köpeğim onu yakalamak için koşuyor.
+kid_actions.s3_baby_cries|The baby cries when she is hungry or tired.|The baby cries when he is hungry or tired.;The baby cries when it is hungry or tired.;When she is hungry or tired, the baby cries.;When he is hungry or tired, the baby cries.;The baby cries when she is tired or hungry.;When she is tired or hungry, the baby cries.|Bebek acıktığında ya da yorulduğunda ağlar.|Bebek aç ya da yorgun olunca ağlar.;Bebek aç veya yorgun olduğunda ağlar.
+kid_actions.s3_laugh_story|We laugh a lot when our teacher tells a funny story.|When our teacher tells a funny story, we laugh a lot.;When our teacher tells a funny story we laugh a lot.|Öğretmenimiz komik bir hikâye anlatınca çok güleriz.|Öğretmenimiz komik bir hikaye anlatınca çok güleriz.;Öğretmenimiz komik bir hikâye anlattığında çok güleriz.
+kid_actions.s3_climb_tree|My friend and I climb the big tree in the garden.|In the garden my friend and I climb the big tree.|Arkadaşımla bahçedeki büyük ağaca tırmanırız.|Arkadaşım ve ben bahçedeki büyük ağaca tırmanırız.;Arkadaşımla bahçedeki büyük ağaca tırmanıyoruz.
+kid_actions.s3_story_bed|My mother reads me a story before I go to sleep.|Before I go to sleep, my mother reads me a story.;Before I go to sleep my mother reads me a story.;My mom reads me a story before I go to sleep.|Ben uyumadan önce annem bana bir hikâye okur.|Annem ben uyumadan önce bana bir hikâye okur.;Ben uyumadan önce annem bana bir hikaye okur.;Annem ben uyumadan önce bana bir hikaye okur.
+kid_actions.s3_summer_sea|In summer we swim in the sea and play in the sand.|In summer, we swim in the sea and play in the sand.;We swim in the sea and play in the sand in summer.;In summer we play in the sand and swim in the sea.;We play in the sand and swim in the sea in summer.|Yazın denizde yüzer ve kumda oynarız.|Yazın denizde yüzüp kumda oynarız.;Yazın denizde yüzeriz ve kumda oynarız.

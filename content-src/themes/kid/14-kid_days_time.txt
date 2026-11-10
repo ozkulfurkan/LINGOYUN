@@ -20,8 +20,57 @@ time.night # night = gece
 time.week # week = hafta
 time.month # month = ay
 time.year # year = yıl
+time.afternoon # afternoon = öğleden sonra
+time.noon # noon = öğle
+time.weekend # weekend = hafta sonu
+time.hour # hour = saat
+time.minute # minute = dakika
+time.now # now = şimdi
+time.early # early = erken
+time.late # late = geç
+time.later # later = sonra
+time.soon # soon = yakında
+time.time # time = zaman
+time.always # always = her zaman
+time.sometimes # sometimes = bazen
+time.never # never = asla
+@kind word noun
+kid_days_time.calendar|calendar||takvim|
+kid_days_time.alarm_clock|alarm clock||çalar saat|
+kid_days_time.bedtime|bedtime||yatma saati|yatma vakti
+kid_days_time.date|date||tarih|
+kid_days_time.midnight|midnight||gece yarısı|
+kid_days_time.second|second||saniye|
+kid_days_time.quarter|quarter|quarter hour|çeyrek|çeyrek saat
+kid_days_time.tonight|tonight||bu gece|bu akşam
+kid_days_time.lunchtime|lunchtime||öğle yemeği vakti|öğle arası
 
 @sentences 1
 sentence.l2_monday_good # Monday is a good day. = Pazartesi iyi bir gün.
 sentence.l3_cold_today # It is cold today. = Bugün hava soğuk.
 sentence.l3_tomorrow_monday # Tomorrow is Monday. = Yarın pazartesi.
+sentence.a1_what_time # What time is it? = Saat kaç?
+kid_days_time.s1_today_friday|Today is Friday.||Bugün cuma.|Bugün cumadır.
+kid_days_time.s1_late_now|It is late now.|It's late now.;Now it is late.;Now it's late.|Artık geç oldu.|Şimdi geç oldu.;Geç oldu.
+kid_days_time.s1_weekend_fun|The weekend is fun.||Hafta sonu eğlenceli.|Hafta sonu eğlencelidir.
+kid_days_time.s1_wake_up_early|I wake up early.||Erken kalkarım.|Erken uyanırım.;Ben erken kalkarım.;Erken kalkıyorum.
+
+@sentences 2
+kid_days_time.s2_monday_friday|We go to school from Monday to Friday.|From Monday to Friday we go to school.;From Monday to Friday, we go to school.|Pazartesiden cumaya okula gideriz.|Pazartesiden cumaya kadar okula gideriz.;Pazartesiden cumaya okula gidiyoruz.
+kid_days_time.s2_seven_days|There are seven days in a week.|In a week there are seven days.;In a week, there are seven days.|Bir haftada yedi gün var.|Bir haftada yedi gün vardır.;Bir hafta yedi gündür.
+kid_days_time.s2_lunch_noon|We have lunch at noon every day.|Every day we have lunch at noon.;We have lunch every day at noon.|Her gün öğlen yemek yeriz.|Her gün öğle yemeğini öğlen yeriz.;Her gün öğlen öğle yemeği yeriz.;Öğle yemeğini her gün öğlen yeriz.
+kid_days_time.s2_party_saturday|My birthday party is next Saturday.||Doğum günü partim gelecek cumartesi.|Doğum günü partim önümüzdeki cumartesi.;Doğum günü partim haftaya cumartesi.
+kid_days_time.s2_wait_minutes|Please wait here for five minutes.|Wait here for five minutes, please.|Lütfen burada beş dakika bekle.|Burada beş dakika bekle lütfen.;Lütfen beş dakika burada bekle.
+kid_days_time.s2_yesterday_park|Yesterday we played in the park.|We played in the park yesterday.|Dün parkta oynadık.|Dün parkta oyun oynadık.
+kid_days_time.s2_afternoon_book|I read a book every afternoon.|Every afternoon I read a book.|Her öğleden sonra kitap okurum.|Her öğleden sonra bir kitap okurum.;Öğleden sonraları kitap okurum.
+kid_days_time.s2_never_late|I am never late for school.|I'm never late for school.|Okula asla geç kalmam.|Okula hiç geç kalmam.;Ben okula asla geç kalmam.
+
+@sentences 3
+kid_days_time.s3_alarm_seven|My alarm clock rings at seven o'clock every morning.|Every morning my alarm clock rings at seven o'clock.;My alarm clock rings every morning at seven o'clock.;Every morning, my alarm clock rings at seven o'clock.|Çalar saatim her sabah saat yedide çalar.|Çalar saatim her sabah yedide çalar.;Her sabah çalar saatim saat yedide çalar.
+kid_days_time.s3_calendar|I write my friends' birthdays on the calendar in my room.||Arkadaşlarımın doğum günlerini odamdaki takvime yazarım.|Odamdaki takvime arkadaşlarımın doğum günlerini yazarım.
+kid_days_time.s3_vacation_sea|Next week we are going to the beach on vacation.|Next week we're going to the beach on vacation.;Next week we are going on vacation to the beach.;Next week we're going on vacation to the beach.;We are going to the beach on vacation next week.;We're going to the beach on vacation next week.;We are going on vacation to the beach next week.;We're going on vacation to the beach next week.;Next week, we are going to the beach on vacation.|Gelecek hafta denize tatile gidiyoruz.|Haftaya denize tatile gidiyoruz.;Önümüzdeki hafta deniz tatiline gidiyoruz.;Gelecek hafta tatile denize gidiyoruz.
+kid_days_time.s3_dad_late|Sometimes my dad comes home late in the evening.|My dad sometimes comes home late in the evening.|Babam bazen akşam eve geç gelir.|Babam bazen akşamları eve geç gelir.;Bazen babam akşam eve geç gelir.
+kid_days_time.s3_quarter_past|The movie starts at a quarter past four this afternoon.|This afternoon the movie starts at a quarter past four.;The movie starts this afternoon at a quarter past four.;This afternoon, the movie starts at a quarter past four.|Film bu öğleden sonra dördü çeyrek geçe başlıyor.|Film bugün öğleden sonra dördü çeyrek geçe başlıyor.;Film bu öğleden sonra saat dördü çeyrek geçe başlıyor.
+kid_days_time.s3_tonight_stars|Tonight we can stay up late and look at the stars.|We can stay up late tonight and look at the stars.|Bu gece geç yatıp yıldızlara bakabiliriz.|Bu gece geç saate kadar oturup yıldızlara bakabiliriz.;Bu gece geç saate kadar uyumayıp yıldızlara bakabiliriz.
+kid_days_time.s3_three_days|Yesterday was Wednesday, today is Thursday and tomorrow is Friday.||Dün çarşambaydı, bugün perşembe ve yarın cuma.|Dün çarşambaydı, bugün perşembe, yarın da cuma.;Dün çarşambaydı, bugün perşembe, yarın cuma.
+kid_days_time.s3_sixty_seconds|There are sixty seconds in a minute and sixty minutes in an hour.|There are sixty minutes in an hour and sixty seconds in a minute.|Bir dakikada altmış saniye, bir saatte altmış dakika var.|Bir dakikada altmış saniye ve bir saatte altmış dakika vardır.;Bir dakika altmış saniye, bir saat altmış dakikadır.

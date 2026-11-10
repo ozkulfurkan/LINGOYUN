@@ -18,13 +18,61 @@ family.uncle # uncle = amca
 family.aunt # aunt = teyze
 family.cousin # cousin = kuzen
 family.child # child = çocuk
+family.family # family = aile
+family.parents # parents = anne baba
+family.son # son = oğul
+family.daughter # daughter = kız evlat
+@kind word noun
+kid_family.grandparents|grandparents||büyükanne ve büyükbaba|dede ve nine;anneanne ve dede;babaanne ve dede
+kid_family.grandchild|grandchild||torun|
+kid_family.twins|twins||ikizler|ikiz
+person.man # man = adam
+person.woman # woman = kadın
+person.people # people = insanlar
+person.neighbor # neighbor = komşu
+person.guest # guest = misafir
+family.husband # husband = koca
+family.wife # wife = eş
+kid_family.relatives|relatives||akrabalar|akraba
+kid_family.age|age||yaş|
+kid_family.last_name|last name|surname|soyadı|soyad
+kid_family.stroller|stroller|baby stroller|bebek arabası|puset
+tech.photo # photo = fotoğraf
+leisure.wedding # wedding = düğün
+kid_family.family_tree|family tree||soy ağacı|aile ağacı
+function.together # together = birlikte
+@kind word verb
+kid_family.hug|hug||sarılmak|
+kid_family.kiss|kiss||öpmek|
+@kind word noun
+kid_family.love|love||sevgi|
 
 @sentences 1
 sentence.l1_he_brother # He is my brother. = O benim erkek kardeşim.
+sentence.l1_she_sister # She is my sister. = O benim kız kardeşim.
+sentence.l1_this_mother # This is my mother. = Bu benim annem.
+sentence.l1_this_father # This is my father. = Bu benim babam.
 sentence.l1_baby_happy # The baby is happy. = Bebek mutlu.
-sentence.l2_baby_sleeps # The baby sleeps in the bed. = Bebek yatakta uyur.
+sentence.l3_listen_teacher # Listen to the teacher. = Öğretmeni dinle.
 sentence.l2_teacher_sees # The teacher sees the student. = Öğretmen öğrenciyi görür.
 sentence.l3_grandmother_garden # My grandmother is in the garden. = Büyükannem bahçede.
+
+@sentences 2
+sentence.l2_baby_sleeps # The baby sleeps in the bed. = Bebek yatakta uyur.
 sentence.l3_grandfather_walks # My grandfather walks in the park. = Dedem parkta yürür.
 sentence.l3_aunt_helps # My aunt helps my mother in the kitchen. = Teyzem mutfakta anneme yardım eder.
-sentence.l3_listen_teacher # Listen to the teacher. = Öğretmeni dinle.
+kid_family.s2_big_family|I have a big family and many cousins.||Büyük bir ailem ve çok kuzenim var.|Benim büyük bir ailem ve çok kuzenim var.;Büyük bir ailem ve bir sürü kuzenim var.;Kalabalık bir ailem ve çok kuzenim var.
+kid_family.s2_twins|My cousins are twins, Nehir and Zeynep.|My cousins are twins, Zeynep and Nehir.|Kuzenlerim ikiz, Nehir ve Zeynep.|Kuzenlerim ikizler, Nehir ve Zeynep.;Kuzenlerim ikiz, Zeynep ve Nehir.
+kid_family.s2_uncle_children|My uncle has a son and a daughter.|My uncle has a daughter and a son.|Amcamın bir oğlu ve bir kızı var.|Dayımın bir oğlu ve bir kızı var.;Amcamın bir kızı ve bir oğlu var.;Dayımın bir kızı ve bir oğlu var.
+kid_family.s2_hug_mother|I hug my mother every morning.|Every morning I hug my mother.|Her sabah anneme sarılırım.|Her sabah anneme sarılıyorum.;Ben her sabah anneme sarılırım.
+kid_family.s2_visit_grandparents|We visit our grandparents on Sunday.|On Sunday we visit our grandparents.|Pazar günü büyükanne ve büyükbabamızı ziyaret ederiz.|Pazar günleri büyükanne ve büyükbabamızı ziyaret ederiz.;Pazar günü dedemizle ninemizi ziyaret ederiz.;Pazar günü büyükannemizle büyükbabamızı ziyaret ederiz.
+
+@sentences 3
+kid_family.s3_family_photo|In this photo you can see my parents, my sister and me.|You can see my parents, my sister and me in this photo.|Bu fotoğrafta annemi, babamı, kız kardeşimi ve beni görebilirsin.|Bu fotoğrafta anne babamı, kız kardeşimi ve beni görebilirsin.;Bu fotoğrafta annemi, babamı, kardeşimi ve beni görebilirsin.;Bu fotoğrafta annemi, babamı, ablamı ve beni görebilirsin.
+kid_family.s3_dinner_together|Every evening my family eats dinner together at the table.|My family eats dinner together at the table every evening.|Ailem her akşam masada birlikte akşam yemeği yer.|Her akşam ailem masada birlikte akşam yemeği yer.;Ailem her akşam birlikte masada akşam yemeği yer.;Ailem her akşam masada beraber akşam yemeği yer.
+kid_family.s3_bedtime_story|My grandmother tells us a story before we go to sleep.|Before we go to sleep my grandmother tells us a story.|Büyükannem uyumadan önce bize bir hikâye anlatır.|Anneannem uyumadan önce bize bir hikâye anlatır.;Babaannem uyumadan önce bize bir hikâye anlatır.;Ninem uyumadan önce bize bir hikâye anlatır.;Büyükannem uyumadan önce bize bir masal anlatır.;Büyükannem uyumadan önce bize hikâye anlatır.
+kid_family.s3_ages|My brother is twelve and my sister is only five.|My sister is only five and my brother is twelve.|Ağabeyim on iki, kız kardeşim ise sadece beş yaşında.|Abim on iki, kız kardeşim ise sadece beş yaşında.;Erkek kardeşim on iki, kız kardeşim ise sadece beş yaşında.;Ağabeyim on iki yaşında, kız kardeşim ise sadece beş yaşında.
+kid_family.s3_aunt_visits|On Saturday my aunt and her children come to our house.|My aunt and her children come to our house on Saturday.|Cumartesi günü teyzem ve çocukları bize gelir.|Cumartesi günü teyzemle çocukları bize gelir.;Cumartesi teyzem ve çocukları bize gelir.;Cumartesi günü halam ve çocukları bize gelir.;Cumartesi günü teyzem ve çocukları evimize gelir.
+kid_family.s3_father_reads|My father reads a book to my baby brother every night.|Every night my father reads a book to my baby brother.|Babam her gece bebek kardeşime kitap okur.|Babam her gece bebek kardeşime bir kitap okur.;Babam her gece küçük kardeşime kitap okur.;Babam her gece küçük kardeşime bir kitap okur.;Her gece babam bebek kardeşime kitap okur.
+kid_family.s3_wedding|Today the whole family is happy because there is a wedding.|The whole family is happy today because there is a wedding.|Bugün bütün aile mutlu, çünkü bir düğün var.|Bugün tüm aile mutlu çünkü düğün var.;Bugün bütün aile mutlu çünkü bir düğün var.;Bütün aile bugün mutlu, çünkü bir düğün var.
+kid_family.s3_parents_love|My parents love me and I love them too.||Annem ve babam beni sever, ben de onları severim.|Anne babam beni sever, ben de onları severim.;Annem ve babam beni seviyor, ben de onları seviyorum.;Anne babam beni seviyor, ben de onları seviyorum.

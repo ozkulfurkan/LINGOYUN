@@ -52,7 +52,7 @@
     "id": "question.how_many",
     "topic": "question",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["pronoun"]
   },
   {

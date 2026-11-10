@@ -3085,5 +3085,1658 @@
   "restaurant.accommodate": {
     "text": "ağırlamak",
     "alt": ["yer açmak", "isteklerini karşılamak"]
+  },
+  "greetings.how_are_you": {
+    "text": "nasılsın",
+    "alt": ["nasılsınız"]
+  },
+  "greetings.im_fine": {
+    "text": "iyiyim"
+  },
+  "greetings.my_name_is": {
+    "text": "benim adım",
+    "alt": ["adım"]
+  },
+  "greetings.okay": {
+    "text": "tamam",
+    "alt": ["olur"]
+  },
+  "greetings.thanks_a_lot": {
+    "text": "çok teşekkürler",
+    "alt": ["çok teşekkür ederim", "çok sağ ol"]
+  },
+  "greetings.how_about_you": {
+    "text": "ya sen",
+    "alt": ["peki sen", "ya siz", "sen nasılsın"]
+  },
+  "greetings.you_too": {
+    "text": "sana da",
+    "alt": ["size de", "sen de"]
+  },
+  "greetings.me_too": {
+    "text": "ben de"
+  },
+  "greetings.see_you_soon": {
+    "text": "görüşmek üzere",
+    "alt": ["yakında görüşürüz"]
+  },
+  "greetings.nice_to_see_you": {
+    "text": "seni gördüğüme sevindim",
+    "alt": ["sizi gördüğüme sevindim"]
+  },
+  "greetings.have_a_good_weekend": {
+    "text": "iyi hafta sonları"
+  },
+  "greetings.enjoy_your_meal": {
+    "text": "afiyet olsun"
+  },
+  "greetings.bless_you": {
+    "text": "çok yaşa"
+  },
+  "greetings.happy_birthday": {
+    "text": "doğum günün kutlu olsun",
+    "alt": ["iyi ki doğdun", "doğum gününüz kutlu olsun"]
+  },
+  "numbers.fourth": {
+    "text": "dördüncü"
+  },
+  "numbers.fifth": {
+    "text": "beşinci"
+  },
+  "numbers.number": {
+    "text": "sayı",
+    "alt": ["numara", "rakam"]
+  },
+  "numbers.half": {
+    "text": "yarım",
+    "alt": ["yarı"]
+  },
+  "numbers.million": {
+    "text": "milyon",
+    "alt": ["bir milyon"]
+  },
+  "numbers.phone_number": {
+    "text": "telefon numarası",
+    "alt": ["numara"]
+  },
+  "numbers.count": {
+    "text": "saymak"
+  },
+  "time.quarter": {
+    "text": "çeyrek"
+  },
+  "time.half_hour": {
+    "text": "yarım saat"
+  },
+  "time.midnight": {
+    "text": "gece yarısı"
+  },
+  "time.date": {
+    "text": "tarih"
+  },
+  "time.weekday": {
+    "text": "hafta içi",
+    "alt": ["iş günü"]
+  },
+  "time.tonight": {
+    "text": "bu gece",
+    "alt": ["bu akşam"]
+  },
+  "time.every_day": {
+    "text": "her gün"
+  },
+  "time.day_after_tomorrow": {
+    "text": "öbür gün",
+    "alt": ["yarından sonraki gün"]
+  },
+  "time.day_before_yesterday": {
+    "text": "evvelsi gün",
+    "alt": ["önceki gün", "dünden önceki gün", "evvelki gün"]
+  },
+  "time.half_past": {
+    "text": "buçuk"
+  },
+  "time.hurry": {
+    "text": "acele etmek",
+    "alt": ["acele et"]
+  },
+  "calendar_colors.calendar": {
+    "text": "takvim"
+  },
+  "calendar_colors.season": {
+    "text": "mevsim"
+  },
+  "calendar_colors.color": {
+    "text": "renk"
+  },
+  "calendar_colors.new_year": {
+    "text": "yılbaşı",
+    "alt": ["yeni yıl"]
+  },
+  "calendar_colors.public_holiday": {
+    "text": "resmî tatil",
+    "alt": ["resmi tatil"]
+  },
+  "calendar_colors.anniversary": {
+    "text": "yıl dönümü",
+    "alt": ["yıldönümü", "evlilik yıl dönümü"]
+  },
+  "calendar_colors.date_of_birth": {
+    "text": "doğum tarihi"
+  },
+  "calendar_colors.colorful": {
+    "text": "renkli",
+    "alt": ["rengârenk", "rengarenk"]
+  },
+  "calendar_colors.light_blue": {
+    "text": "açık mavi"
+  },
+  "calendar_colors.navy": {
+    "text": "lacivert",
+    "alt": ["koyu mavi"]
+  },
+  "calendar_colors.gold": {
+    "text": "altın rengi",
+    "alt": ["altın", "altın sarısı"]
+  },
+  "calendar_colors.silver": {
+    "text": "gümüş rengi",
+    "alt": ["gümüş"]
+  },
+  "calendar_colors.beige": {
+    "text": "bej"
+  },
+  "body_weather.skin": {
+    "text": "cilt",
+    "alt": ["deri", "ten"]
+  },
+  "body_weather.sunny": {
+    "text": "güneşli"
+  },
+  "body_weather.cloudy": {
+    "text": "bulutlu"
+  },
+  "body_weather.rainy": {
+    "text": "yağmurlu"
+  },
+  "body_weather.windy": {
+    "text": "rüzgârlı",
+    "alt": ["rüzgarlı"]
+  },
+  "body_weather.snowy": {
+    "text": "karlı"
+  },
+  "body_weather.foggy": {
+    "text": "sisli"
+  },
+  "restaurant.cafe": {
+    "text": "kafe",
+    "alt": ["kafeterya"]
+  },
+  "restaurant.book_table": {
+    "text": "masa ayırtmak",
+    "alt": ["yer ayırtmak", "rezervasyon yaptırmak"]
+  },
+  "restaurant.todays_special": {
+    "text": "günün yemeği",
+    "alt": ["günün menüsü", "günün spesiyali"]
+  },
+  "restaurant.soft_drink": {
+    "text": "gazlı içecek",
+    "alt": ["meşrubat"]
+  },
+  "restaurant.sparkling_water": {
+    "text": "maden suyu",
+    "alt": ["soda"]
+  },
+  "restaurant.kebab": {
+    "text": "kebap"
+  },
+  "restaurant.steak": {
+    "text": "biftek"
+  },
+  "restaurant.serve": {
+    "text": "servis yapmak",
+    "alt": ["servis etmek", "sunmak"]
+  },
+  "restaurant.taste": {
+    "text": "tadına bakmak",
+    "alt": ["tatmak"]
+  },
+  "restaurant.buffet": {
+    "text": "açık büfe",
+    "alt": ["büfe"]
+  },
+  "restaurant.reserved": {
+    "text": "rezerve",
+    "alt": ["ayrılmış", "rezerveli"]
+  },
+  "restaurant.homemade": {
+    "text": "ev yapımı"
+  },
+  "restaurant.boiled": {
+    "text": "haşlanmış",
+    "alt": ["haşlama"]
+  },
+  "restaurant.baked": {
+    "text": "fırında",
+    "alt": ["fırınlanmış", "fırında pişmiş"]
+  },
+  "restaurant.terrace": {
+    "text": "teras"
+  },
+  "restaurant.high_chair": {
+    "text": "mama sandalyesi",
+    "alt": ["bebek sandalyesi"]
+  },
+  "restaurant.straw": {
+    "text": "pipet",
+    "alt": ["kamış"]
+  },
+  "restaurant.tablecloth": {
+    "text": "masa örtüsü"
+  },
+  "restaurant.toothpick": {
+    "text": "kürdan"
+  },
+  "city_directions.building": {
+    "text": "bina"
+  },
+  "city_directions.address": {
+    "text": "adres"
+  },
+  "city_directions.post_office": {
+    "text": "postane",
+    "alt": ["PTT"]
+  },
+  "city_directions.mosque": {
+    "text": "cami"
+  },
+  "work_school.exam": {
+    "text": "sınav"
+  },
+  "describing.high": {
+    "text": "yüksek"
+  },
+  "describing.low": {
+    "text": "alçak",
+    "alt": ["düşük"]
+  },
+  "describing.warm": {
+    "text": "ılık",
+    "alt": ["sıcak"]
+  },
+  "describing.cool": {
+    "text": "serin"
+  },
+  "describing.closed": {
+    "text": "kapalı"
+  },
+  "describing.ready": {
+    "text": "hazır"
+  },
+  "describing.great": {
+    "text": "harika"
+  },
+  "describing.terrible": {
+    "text": "berbat",
+    "alt": ["korkunç"]
+  },
+  "describing.perfect": {
+    "text": "mükemmel",
+    "alt": ["kusursuz"]
+  },
+  "describing.simple": {
+    "text": "basit"
+  },
+  "describing.special": {
+    "text": "özel"
+  },
+  "describing.comfortable": {
+    "text": "rahat",
+    "alt": ["konforlu"]
+  },
+  "describing.careful": {
+    "text": "dikkatli"
+  },
+  "describing.strange": {
+    "text": "garip",
+    "alt": ["tuhaf"]
+  },
+  "describing.lucky": {
+    "text": "şanslı"
+  },
+  "describing.handsome": {
+    "text": "yakışıklı"
+  },
+  "daily_actions.take_a_shower": {
+    "text": "duş almak"
+  },
+  "daily_actions.get_dressed": {
+    "text": "giyinmek"
+  },
+  "shopping.shopping": {
+    "text": "alışveriş"
+  },
+  "shopping.mall": {
+    "text": "alışveriş merkezi",
+    "alt": ["AVM"]
+  },
+  "shopping.cashier": {
+    "text": "kasiyer"
+  },
+  "shopping.checkout": {
+    "text": "kasa"
+  },
+  "shopping.basket": {
+    "text": "sepet",
+    "alt": ["alışveriş sepeti"]
+  },
+  "shopping.shopping_cart": {
+    "text": "alışveriş arabası"
+  },
+  "shopping.change": {
+    "text": "para üstü",
+    "alt": ["paranın üstü"]
+  },
+  "shopping.line": {
+    "text": "sıra",
+    "alt": ["kuyruk"]
+  },
+  "shopping.salesperson": {
+    "text": "satış görevlisi",
+    "alt": ["tezgâhtar"]
+  },
+  "shopping.fitting_room": {
+    "text": "deneme kabini",
+    "alt": ["kabin"]
+  },
+  "shopping.product": {
+    "text": "ürün"
+  },
+  "shopping.brand": {
+    "text": "marka"
+  },
+  "shopping.quality": {
+    "text": "kalite"
+  },
+  "shopping.bargain": {
+    "text": "kelepir"
+  },
+  "shopping.bookstore": {
+    "text": "kitapçı"
+  },
+  "shopping.butcher": {
+    "text": "kasap"
+  },
+  "shopping.on_sale": {
+    "text": "indirimde"
+  },
+  "shopping.online": {
+    "text": "internetten",
+    "alt": ["çevrimiçi", "internette"]
+  },
+  "shopping.return": {
+    "text": "iade etmek",
+    "alt": ["geri vermek"]
+  },
+  "shopping.deliver": {
+    "text": "teslim etmek",
+    "alt": ["getirmek"]
+  },
+  "shopping.compare": {
+    "text": "karşılaştırmak"
+  },
+  "shopping.afford": {
+    "text": "parası yetmek",
+    "alt": ["gücü yetmek"]
+  },
+  "work_tech.team": {
+    "text": "ekip",
+    "alt": ["takım"]
+  },
+  "work_tech.contract": {
+    "text": "sözleşme",
+    "alt": ["kontrat"]
+  },
+  "work_tech.deadline": {
+    "text": "son teslim tarihi",
+    "alt": ["teslim tarihi", "son tarih"]
+  },
+  "work_tech.file": {
+    "text": "dosya"
+  },
+  "work_tech.printer": {
+    "text": "yazıcı"
+  },
+  "work_tech.log_in": {
+    "text": "giriş yapmak",
+    "alt": ["oturum açmak"]
+  },
+  "work_tech.upload": {
+    "text": "yüklemek",
+    "alt": ["karşıya yüklemek"]
+  },
+  "travel.luggage": {
+    "text": "bagaj",
+    "alt": ["valiz", "eşya"]
+  },
+  "travel.passenger": {
+    "text": "yolcu"
+  },
+  "travel.seat": {
+    "text": "koltuk",
+    "alt": ["yer"]
+  },
+  "travel.boarding_pass": {
+    "text": "biniş kartı"
+  },
+  "travel.gate": {
+    "text": "biniş kapısı",
+    "alt": ["kapı"]
+  },
+  "travel.departure": {
+    "text": "kalkış"
+  },
+  "travel.delay": {
+    "text": "rötar",
+    "alt": ["gecikme"]
+  },
+  "travel.platform": {
+    "text": "peron"
+  },
+  "travel.customs": {
+    "text": "gümrük"
+  },
+  "travel.backpack": {
+    "text": "sırt çantası"
+  },
+  "travel.souvenir": {
+    "text": "hediyelik eşya",
+    "alt": ["hatıra"]
+  },
+  "travel.round_trip": {
+    "text": "gidiş-dönüş",
+    "alt": ["gidiş dönüş"]
+  },
+  "travel.book": {
+    "text": "rezervasyon yapmak",
+    "alt": ["yer ayırtmak", "ayırtmak"]
+  },
+  "travel.miss": {
+    "text": "kaçırmak"
+  },
+  "travel.pack": {
+    "text": "bavul hazırlamak",
+    "alt": ["eşyaları toplamak"]
+  },
+  "health.cold": {
+    "text": "soğuk algınlığı",
+    "alt": ["nezle"]
+  },
+  "health.sore_throat": {
+    "text": "boğaz ağrısı"
+  },
+  "health.toothache": {
+    "text": "diş ağrısı"
+  },
+  "health.pill": {
+    "text": "hap",
+    "alt": ["tablet"]
+  },
+  "health.injury": {
+    "text": "yaralanma",
+    "alt": ["sakatlık"]
+  },
+  "health.bandage": {
+    "text": "bandaj",
+    "alt": ["sargı", "yara bandı"]
+  },
+  "health.patient": {
+    "text": "hasta (kişi)",
+    "alt": ["hasta"]
+  },
+  "health.checkup": {
+    "text": "sağlık kontrolü",
+    "alt": ["kontrol", "check-up"]
+  },
+  "health.broken": {
+    "text": "kırık"
+  },
+  "health.dizzy": {
+    "text": "başı dönen",
+    "alt": ["baş dönmesi"]
+  },
+  "health.sneeze": {
+    "text": "hapşırmak"
+  },
+  "health.get_better": {
+    "text": "iyileşmek"
+  },
+  "health.examine": {
+    "text": "muayene etmek"
+  },
+  "home_life.drawer": {
+    "text": "çekmece"
+  },
+  "home_life.doorbell": {
+    "text": "kapı zili",
+    "alt": ["zil"]
+  },
+  "home_life.vacuum_cleaner": {
+    "text": "elektrik süpürgesi",
+    "alt": ["süpürge"]
+  },
+  "home_life.iron": {
+    "text": "ütü"
+  },
+  "home_life.heating": {
+    "text": "kalorifer",
+    "alt": ["ısıtma"]
+  },
+  "home_life.landlord": {
+    "text": "ev sahibi"
+  },
+  "home_life.laundry": {
+    "text": "çamaşır",
+    "alt": ["kirli çamaşır"]
+  },
+  "home_life.tidy_up": {
+    "text": "ortalığı toplamak",
+    "alt": ["toparlamak", "derleyip toplamak"]
+  },
+  "people_feelings.proud": {
+    "text": "gururlu"
+  },
+  "people_feelings.jealous": {
+    "text": "kıskanç"
+  },
+  "people_feelings.disappointed": {
+    "text": "hayal kırıklığına uğramış",
+    "alt": ["hayal kırıklığı içinde"]
+  },
+  "people_feelings.embarrassed": {
+    "text": "mahcup",
+    "alt": ["utanmış"]
+  },
+  "people_feelings.relaxed": {
+    "text": "rahatlamış",
+    "alt": ["rahat"]
+  },
+  "people_feelings.curious": {
+    "text": "meraklı"
+  },
+  "people_feelings.patient": {
+    "text": "sabırlı"
+  },
+  "people_feelings.polite": {
+    "text": "kibar"
+  },
+  "people_feelings.generous": {
+    "text": "cömert"
+  },
+  "people_feelings.selfish": {
+    "text": "bencil"
+  },
+  "people_feelings.hard_working": {
+    "text": "çalışkan"
+  },
+  "people_feelings.confident": {
+    "text": "kendinden emin",
+    "alt": ["özgüvenli"]
+  },
+  "people_feelings.relative": {
+    "text": "akraba"
+  },
+  "people_feelings.nephew": {
+    "text": "yeğen"
+  },
+  "describing_2.useful": {
+    "text": "yararlı",
+    "alt": ["kullanışlı", "faydalı"]
+  },
+  "describing_2.crowded": {
+    "text": "kalabalık"
+  },
+  "describing_2.deep": {
+    "text": "derin"
+  },
+  "describing_2.bright": {
+    "text": "parlak",
+    "alt": ["aydınlık"]
+  },
+  "describing_2.sharp": {
+    "text": "keskin"
+  },
+  "describing_2.clear": {
+    "text": "berrak",
+    "alt": ["açık"]
+  },
+  "actions_2.jump": {
+    "text": "zıplamak",
+    "alt": ["atlamak"]
+  },
+  "actions_2.climb": {
+    "text": "tırmanmak"
+  },
+  "actions_2.fly": {
+    "text": "uçmak"
+  },
+  "actions_2.hold": {
+    "text": "tutmak"
+  },
+  "actions_2.hide": {
+    "text": "saklamak",
+    "alt": ["saklanmak"]
+  },
+  "actions_2.cut": {
+    "text": "kesmek"
+  },
+  "actions_2.move": {
+    "text": "taşınmak",
+    "alt": ["hareket etmek"]
+  },
+  "actions_2.enter": {
+    "text": "girmek",
+    "alt": ["içeri girmek"]
+  },
+  "actions_2.follow": {
+    "text": "takip etmek",
+    "alt": ["izlemek", "peşinden gitmek"]
+  },
+  "actions_2.miss": {
+    "text": "özlemek"
+  },
+  "actions_2.share": {
+    "text": "paylaşmak"
+  },
+  "actions_2.repeat": {
+    "text": "tekrarlamak"
+  },
+  "actions_2.practice": {
+    "text": "pratik yapmak",
+    "alt": ["alıştırma yapmak"]
+  },
+  "actions_2.relax": {
+    "text": "rahatlamak"
+  },
+  "actions_2.lie_down": {
+    "text": "uzanmak"
+  },
+  "actions_3.accept": {
+    "text": "kabul etmek"
+  },
+  "actions_3.refuse": {
+    "text": "reddetmek"
+  },
+  "actions_3.allow": {
+    "text": "izin vermek"
+  },
+  "actions_3.promise": {
+    "text": "söz vermek"
+  },
+  "actions_3.prefer": {
+    "text": "tercih etmek"
+  },
+  "actions_3.forgive": {
+    "text": "affetmek",
+    "alt": ["bağışlamak"]
+  },
+  "actions_3.describe": {
+    "text": "betimlemek",
+    "alt": ["tarif etmek"]
+  },
+  "actions_3.discuss": {
+    "text": "tartışmak",
+    "alt": ["görüşmek"]
+  },
+  "actions_3.improve": {
+    "text": "geliştirmek",
+    "alt": ["iyileştirmek"]
+  },
+  "actions_3.protect": {
+    "text": "korumak"
+  },
+  "actions_3.collect": {
+    "text": "toplamak",
+    "alt": ["biriktirmek"]
+  },
+  "actions_3.join": {
+    "text": "katılmak"
+  },
+  "actions_3.happen": {
+    "text": "meydana gelmek",
+    "alt": ["olmak"]
+  },
+  "leisure_world.exhibition": {
+    "text": "sergi"
+  },
+  "leisure_world.painting": {
+    "text": "tablo",
+    "alt": ["resim"]
+  },
+  "leisure_world.hiking": {
+    "text": "doğa yürüyüşü"
+  },
+  "time_links.just": {
+    "text": "az önce"
+  },
+  "time_links.ever": {
+    "text": "hiç"
+  },
+  "time_links.recently": {
+    "text": "son zamanlarda"
+  },
+  "time_links.suddenly": {
+    "text": "aniden",
+    "alt": ["birden"]
+  },
+  "time_links.finally": {
+    "text": "sonunda",
+    "alt": ["nihayet"]
+  },
+  "time_links.rarely": {
+    "text": "nadiren"
+  },
+  "time_links.also": {
+    "text": "ayrıca",
+    "alt": ["de"]
+  },
+  "time_links.especially": {
+    "text": "özellikle"
+  },
+  "time_links.probably": {
+    "text": "muhtemelen",
+    "alt": ["büyük ihtimalle"]
+  },
+  "time_links.at_least": {
+    "text": "en azından"
+  },
+  "time_links.since": {
+    "text": "-den beri",
+    "alt": ["beri"]
+  },
+  "time_links.while": {
+    "text": "-ken",
+    "alt": ["iken"]
+  },
+  "time_links.however": {
+    "text": "ancak",
+    "alt": ["fakat"]
+  },
+  "time_links.although": {
+    "text": "-mesine rağmen",
+    "alt": ["-se de", "rağmen"]
+  },
+  "idioms.call_it_a_day": {
+    "text": "paydos etmek",
+    "alt": ["bugünlük bu kadar"]
+  },
+  "idioms.under_the_weather": {
+    "text": "keyifsiz olmak",
+    "alt": ["kendini iyi hissetmemek"]
+  },
+  "idioms.same_boat": {
+    "text": "aynı gemide olmak",
+    "alt": ["aynı durumda olmak"]
+  },
+  "idioms.cats_and_dogs": {
+    "text": "bardaktan boşanırcasına yağmak"
+  },
+  "idioms.make_up_mind": {
+    "text": "kararını vermek"
+  },
+  "idioms.kill_time": {
+    "text": "vakit öldürmek",
+    "alt": ["zaman öldürmek"]
+  },
+  "idioms.take_a_break": {
+    "text": "mola vermek",
+    "alt": ["ara vermek"]
+  },
+  "idioms.lose_temper": {
+    "text": "tepesi atmak",
+    "alt": ["sinirlenmek"]
+  },
+  "idioms.knock_on_wood": {
+    "text": "şeytan kulağına kurşun",
+    "alt": ["tahtaya vurmak", "tahtaya vur"]
+  },
+  "idioms.hit_the_road": {
+    "text": "yola koyulmak",
+    "alt": ["yola çıkmak"]
+  },
+  "idioms.take_your_time": {
+    "text": "acele etme"
+  },
+  "idioms.keep_in_touch": {
+    "text": "iletişimi koparmamak",
+    "alt": ["haberleşmek"]
+  },
+  "idioms.up_to_you": {
+    "text": "sana kalmış"
+  },
+  "idioms.no_way": {
+    "text": "hayatta olmaz",
+    "alt": ["olmaz öyle şey"]
+  },
+  "idioms.by_the_way": {
+    "text": "bu arada"
+  },
+  "idioms.in_a_hurry": {
+    "text": "acelesi olmak"
+  },
+  "restaurant_2.undercooked": {
+    "text": "yeterince pişmemiş",
+    "alt": ["iyi pişmemiş", "çiğ kalmış"]
+  },
+  "restaurant_2.stale": {
+    "text": "bayat"
+  },
+  "restaurant_2.split_the_bill": {
+    "text": "hesabı bölüşmek",
+    "alt": ["hesabı bölmek"]
+  },
+  "restaurant_2.leftovers": {
+    "text": "artan yemek",
+    "alt": ["yemek artıkları"]
+  },
+  "restaurant_2.tap_water": {
+    "text": "musluk suyu",
+    "alt": ["çeşme suyu"]
+  },
+  "idioms_2.spill_the_beans": {
+    "text": "baklayı ağzından çıkarmak"
+  },
+  "idioms_2.last_straw": {
+    "text": "bardağı taşıran son damla"
+  },
+  "idioms_2.middle_of_nowhere": {
+    "text": "kuş uçmaz kervan geçmez bir yerde",
+    "alt": ["ıssız bir yerde"]
+  },
+  "idioms_2.see_eye_to_eye": {
+    "text": "aynı telden çalmak",
+    "alt": ["aynı fikirde olmak"]
+  },
+  "idioms_2.blessing_in_disguise": {
+    "text": "her işte bir hayır vardır"
+  },
+  "idioms_2.bite_off_more": {
+    "text": "boyundan büyük işe kalkışmak"
+  },
+  "idioms_2.ball_in_your_court": {
+    "text": "top sende",
+    "alt": ["top artık sende"]
+  },
+  "idioms_2.beat_around_the_bush": {
+    "text": "lafı dolandırmak",
+    "alt": ["lafı evirip çevirmek"]
+  },
+  "idioms_2.pull_your_leg": {
+    "text": "birini işletmek"
+  },
+  "idioms_2.hit_the_nail": {
+    "text": "tam üstüne basmak",
+    "alt": ["taşı gediğine koymak"]
+  },
+  "idioms_2.sleeping_dogs": {
+    "text": "uyuyan yılanın kuyruğuna basmamak"
+  },
+  "idioms_2.count_chickens": {
+    "text": "dereyi görmeden paçaları sıvama"
+  },
+  "idioms_2.actions_speak": {
+    "text": "lafla peynir gemisi yürümez"
+  },
+  "idioms_2.when_pigs_fly": {
+    "text": "balık kavağa çıkınca"
+  },
+  "idioms_2.drop_in_the_ocean": {
+    "text": "devede kulak"
+  },
+  "idioms_2.out_of_sight": {
+    "text": "gözden ırak olan gönülden de ırak olur",
+    "alt": ["gözden ırak, gönülden ırak"]
+  },
+  "idioms_2.midnight_oil": {
+    "text": "geceyi gündüze katmak"
+  },
+  "idioms_2.once_bitten": {
+    "text": "sütten ağzı yanan yoğurdu üfleyerek yer"
+  },
+  "idioms_2.too_many_cooks": {
+    "text": "horoz çok olan köyde sabah geç olur"
+  },
+  "idioms_2.cloud_nine": {
+    "text": "havalara uçmak"
+  },
+  "idioms_2.cut_corners": {
+    "text": "işi baştan savma yapmak"
+  },
+  "idioms_2.out_of_hand": {
+    "text": "çığırından çıkmak"
+  },
+  "idioms_2.needle_in_haystack": {
+    "text": "samanlıkta iğne aramak"
+  },
+  "idioms_2.speak_of_the_devil": {
+    "text": "iti an çomağı hazırla",
+    "alt": ["iyi insan lafının üstüne gelir"]
+  },
+  "idioms_2.tip_of_the_iceberg": {
+    "text": "buzdağının görünen yüzü"
+  },
+  "idioms_2.storm_in_a_teacup": {
+    "text": "bir bardak suda fırtına"
+  },
+  "idioms_2.full_plate": {
+    "text": "başını kaşıyacak vakti olmamak"
+  },
+  "idioms_2.bury_the_hatchet": {
+    "text": "baltayı gömmek",
+    "alt": ["küslüğü bitirmek"]
+  },
+  "idioms_2.two_heads": {
+    "text": "akıl akıldan üstündür"
+  },
+  "kid_greetings.hi": {
+    "text": "selam"
+  },
+  "kid_greetings.happy_birthday": {
+    "text": "iyi ki doğdun",
+    "alt": ["doğum günün kutlu olsun"]
+  },
+  "kid_colors_shapes.color": {
+    "text": "renk"
+  },
+  "kid_colors_shapes.shape": {
+    "text": "şekil"
+  },
+  "kid_colors_shapes.colorful": {
+    "text": "renkli"
+  },
+  "kid_colors_shapes.light_blue": {
+    "text": "açık mavi"
+  },
+  "kid_colors_shapes.dark_blue": {
+    "text": "koyu mavi",
+    "alt": ["lacivert"]
+  },
+  "kid_colors_shapes.gold": {
+    "text": "altın rengi",
+    "alt": ["altın", "altın sarısı"]
+  },
+  "kid_colors_shapes.silver": {
+    "text": "gümüş rengi",
+    "alt": ["gümüş"]
+  },
+  "kid_colors_shapes.turquoise": {
+    "text": "turkuaz"
+  },
+  "kid_colors_shapes.line": {
+    "text": "çizgi"
+  },
+  "kid_colors_shapes.dot": {
+    "text": "nokta",
+    "alt": ["benek"]
+  },
+  "kid_colors_shapes.arrow": {
+    "text": "ok"
+  },
+  "kid_colors_shapes.diamond": {
+    "text": "baklava dilimi",
+    "alt": ["eşkenar dörtgen"]
+  },
+  "kid_colors_shapes.crescent": {
+    "text": "hilal"
+  },
+  "kid_colors_shapes.pentagon": {
+    "text": "beşgen"
+  },
+  "kid_colors_shapes.hexagon": {
+    "text": "altıgen"
+  },
+  "kid_colors_shapes.cube": {
+    "text": "küp"
+  },
+  "kid_colors_shapes.sphere": {
+    "text": "küre"
+  },
+  "kid_colors_shapes.cone": {
+    "text": "koni"
+  },
+  "kid_colors_shapes.cylinder": {
+    "text": "silindir"
+  },
+  "kid_colors_shapes.pyramid": {
+    "text": "piramit"
+  },
+  "kid_numbers.number": {
+    "text": "sayı",
+    "alt": ["numara"]
+  },
+  "kid_numbers.count": {
+    "text": "saymak"
+  },
+  "kid_numbers.plus": {
+    "text": "artı"
+  },
+  "kid_numbers.minus": {
+    "text": "eksi"
+  },
+  "kid_numbers.equals": {
+    "text": "eşittir"
+  },
+  "kid_numbers.half": {
+    "text": "yarım",
+    "alt": ["yarı"]
+  },
+  "kid_fruits_vegetables.melon": {
+    "text": "kavun"
+  },
+  "kid_fruits_vegetables.tangerine": {
+    "text": "mandalina"
+  },
+  "kid_fruits_vegetables.kiwi": {
+    "text": "kivi"
+  },
+  "kid_fruits_vegetables.pomegranate": {
+    "text": "nar"
+  },
+  "kid_fruits_vegetables.blueberry": {
+    "text": "yaban mersini"
+  },
+  "kid_fruits_vegetables.coconut": {
+    "text": "Hindistan cevizi",
+    "alt": ["hindistan cevizi"]
+  },
+  "kid_fruits_vegetables.walnut": {
+    "text": "ceviz"
+  },
+  "kid_fruits_vegetables.eggplant": {
+    "text": "patlıcan"
+  },
+  "kid_fruits_vegetables.lettuce": {
+    "text": "marul"
+  },
+  "kid_fruits_vegetables.cabbage": {
+    "text": "lahana"
+  },
+  "kid_fruits_vegetables.spinach": {
+    "text": "ıspanak"
+  },
+  "kid_fruits_vegetables.broccoli": {
+    "text": "brokoli"
+  },
+  "kid_fruits_vegetables.garlic": {
+    "text": "sarımsak"
+  },
+  "kid_food.meatball": {
+    "text": "köfte"
+  },
+  "kid_food.french_fries": {
+    "text": "patates kızartması"
+  },
+  "kid_food.hamburger": {
+    "text": "hamburger"
+  },
+  "kid_food.sausage": {
+    "text": "sosis"
+  },
+  "kid_food.pancake": {
+    "text": "pankek"
+  },
+  "kid_food.omelet": {
+    "text": "omlet"
+  },
+  "kid_food.cereal": {
+    "text": "mısır gevreği",
+    "alt": ["kahvaltılık gevrek"]
+  },
+  "kid_food.chips": {
+    "text": "cips"
+  },
+  "kid_food.lemonade": {
+    "text": "limonata"
+  },
+  "kid_food.hot_chocolate": {
+    "text": "sıcak çikolata"
+  },
+  "kid_family.grandparents": {
+    "text": "büyükanne ve büyükbaba",
+    "alt": ["dede ve nine", "anneanne ve dede", "babaanne ve dede"]
+  },
+  "kid_family.grandchild": {
+    "text": "torun"
+  },
+  "kid_family.twins": {
+    "text": "ikizler",
+    "alt": ["ikiz"]
+  },
+  "kid_family.relatives": {
+    "text": "akrabalar",
+    "alt": ["akraba"]
+  },
+  "kid_family.age": {
+    "text": "yaş"
+  },
+  "kid_family.last_name": {
+    "text": "soyadı",
+    "alt": ["soyad"]
+  },
+  "kid_family.stroller": {
+    "text": "bebek arabası",
+    "alt": ["puset"]
+  },
+  "kid_family.family_tree": {
+    "text": "soy ağacı",
+    "alt": ["aile ağacı"]
+  },
+  "kid_family.hug": {
+    "text": "sarılmak"
+  },
+  "kid_family.kiss": {
+    "text": "öpmek"
+  },
+  "kid_family.love": {
+    "text": "sevgi"
+  },
+  "kid_pets_farm.pet": {
+    "text": "evcil hayvan"
+  },
+  "kid_pets_farm.paw": {
+    "text": "pati"
+  },
+  "kid_pets_farm.puppy": {
+    "text": "yavru köpek",
+    "alt": ["köpek yavrusu"]
+  },
+  "kid_pets_farm.kitten": {
+    "text": "yavru kedi",
+    "alt": ["kedi yavrusu"]
+  },
+  "kid_pets_farm.chick": {
+    "text": "civciv"
+  },
+  "kid_pets_farm.lamb": {
+    "text": "kuzu"
+  },
+  "kid_pets_farm.calf": {
+    "text": "buzağı",
+    "alt": ["dana"]
+  },
+  "kid_pets_farm.goose": {
+    "text": "kaz"
+  },
+  "kid_pets_farm.turkey": {
+    "text": "hindi"
+  },
+  "kid_pets_farm.hamster": {
+    "text": "hamster"
+  },
+  "kid_pets_farm.goldfish": {
+    "text": "japon balığı"
+  },
+  "kid_pets_farm.bug": {
+    "text": "böcek"
+  },
+  "kid_pets_farm.tail": {
+    "text": "kuyruk"
+  },
+  "kid_pets_farm.feather": {
+    "text": "tüy"
+  },
+  "kid_pets_farm.wool": {
+    "text": "yün"
+  },
+  "kid_pets_farm.cage": {
+    "text": "kafes"
+  },
+  "kid_pets_farm.barn": {
+    "text": "ahır",
+    "alt": ["ambar"]
+  },
+  "kid_zoo.koala": {
+    "text": "koala"
+  },
+  "kid_zoo.gorilla": {
+    "text": "goril"
+  },
+  "kid_zoo.rhino": {
+    "text": "gergedan"
+  },
+  "kid_zoo.polar_bear": {
+    "text": "kutup ayısı"
+  },
+  "kid_zoo.flamingo": {
+    "text": "flamingo"
+  },
+  "kid_zoo.peacock": {
+    "text": "tavus kuşu"
+  },
+  "kid_zoo.ostrich": {
+    "text": "devekuşu",
+    "alt": ["deve kuşu"]
+  },
+  "kid_zoo.seal": {
+    "text": "fok",
+    "alt": ["fok balığı"]
+  },
+  "kid_zoo.leopard": {
+    "text": "leopar",
+    "alt": ["pars"]
+  },
+  "kid_zoo.cheetah": {
+    "text": "çita"
+  },
+  "kid_zoo.sloth": {
+    "text": "tembel hayvan"
+  },
+  "kid_zoo.jellyfish": {
+    "text": "denizanası",
+    "alt": ["deniz anası"]
+  },
+  "kid_body.body": {
+    "text": "vücut",
+    "alt": ["beden"]
+  },
+  "kid_body.thumb": {
+    "text": "başparmak",
+    "alt": ["baş parmak"]
+  },
+  "kid_body.nail": {
+    "text": "tırnak"
+  },
+  "kid_body.muscle": {
+    "text": "kas"
+  },
+  "kid_body.bone": {
+    "text": "kemik"
+  },
+  "kid_body.skin": {
+    "text": "deri",
+    "alt": ["cilt"]
+  },
+  "kid_body.brain": {
+    "text": "beyin"
+  },
+  "kid_body.forehead": {
+    "text": "alın"
+  },
+  "kid_body.eyelash": {
+    "text": "kirpik"
+  },
+  "kid_body.wrist": {
+    "text": "bilek",
+    "alt": ["el bileği"]
+  },
+  "kid_body.ankle": {
+    "text": "ayak bileği"
+  },
+  "kid_body.chest": {
+    "text": "göğüs"
+  },
+  "kid_body.heel": {
+    "text": "topuk"
+  },
+  "kid_body.throat": {
+    "text": "boğaz"
+  },
+  "kid_body.hip": {
+    "text": "kalça"
+  },
+  "kid_clothes.sneakers": {
+    "text": "spor ayakkabı"
+  },
+  "kid_clothes.sandals": {
+    "text": "sandalet"
+  },
+  "kid_clothes.jeans": {
+    "text": "kot pantolon",
+    "alt": ["kot"]
+  },
+  "kid_clothes.vest": {
+    "text": "yelek"
+  },
+  "kid_clothes.tie": {
+    "text": "kravat"
+  },
+  "kid_clothes.cap": {
+    "text": "kep",
+    "alt": ["beyzbol şapkası"]
+  },
+  "kid_clothes.sunglasses": {
+    "text": "güneş gözlüğü"
+  },
+  "kid_clothes.pocket": {
+    "text": "cep"
+  },
+  "kid_clothes.watch": {
+    "text": "kol saati"
+  },
+  "kid_clothes.ring": {
+    "text": "yüzük"
+  },
+  "kid_clothes.necklace": {
+    "text": "kolye"
+  },
+  "kid_clothes.earrings": {
+    "text": "küpe",
+    "alt": ["küpeler"]
+  },
+  "kid_clothes.bracelet": {
+    "text": "bilezik",
+    "alt": ["bileklik"]
+  },
+  "kid_clothes.uniform": {
+    "text": "üniforma",
+    "alt": ["forma", "okul forması"]
+  },
+  "kid_clothes.apron": {
+    "text": "mutfak önlüğü",
+    "alt": ["önlük"]
+  },
+  "kid_school.backpack": {
+    "text": "sırt çantası",
+    "alt": ["okul çantası"]
+  },
+  "kid_school.pencil_case": {
+    "text": "kalem kutusu",
+    "alt": ["kalemlik"]
+  },
+  "kid_school.sharpener": {
+    "text": "kalemtıraş"
+  },
+  "kid_school.glue": {
+    "text": "yapıştırıcı",
+    "alt": ["tutkal"]
+  },
+  "kid_school.board": {
+    "text": "tahta",
+    "alt": ["yazı tahtası"]
+  },
+  "kid_school.paper": {
+    "text": "kâğıt",
+    "alt": ["kağıt"]
+  },
+  "kid_school.classmate": {
+    "text": "sınıf arkadaşı"
+  },
+  "kid_school.test": {
+    "text": "sınav"
+  },
+  "kid_school.letter": {
+    "text": "harf"
+  },
+  "kid_school.math": {
+    "text": "matematik"
+  },
+  "kid_school.science": {
+    "text": "fen bilimleri",
+    "alt": ["fen"]
+  },
+  "kid_school.bell": {
+    "text": "zil"
+  },
+  "kid_school.recess": {
+    "text": "teneffüs"
+  },
+  "kid_school.lunchbox": {
+    "text": "beslenme çantası"
+  },
+  "kid_school.paintbrush": {
+    "text": "boya fırçası",
+    "alt": ["fırça"]
+  },
+  "kid_school.marker": {
+    "text": "keçeli kalem"
+  },
+  "kid_school.calculator": {
+    "text": "hesap makinesi"
+  },
+  "kid_school.globe": {
+    "text": "dünya küresi",
+    "alt": ["küre"]
+  },
+  "kid_school.sticker": {
+    "text": "çıkartma"
+  },
+  "kid_school.principal": {
+    "text": "okul müdürü",
+    "alt": ["müdür"]
+  },
+  "kid_toys.marbles": {
+    "text": "bilye",
+    "alt": ["misket", "bilyeler", "misketler"]
+  },
+  "kid_toys.spinning_top": {
+    "text": "topaç"
+  },
+  "kid_toys.whistle": {
+    "text": "düdük"
+  },
+  "kid_toys.guitar": {
+    "text": "gitar"
+  },
+  "kid_toys.piano": {
+    "text": "piyano"
+  },
+  "kid_toys.play_dough": {
+    "text": "oyun hamuru"
+  },
+  "kid_toys.dice": {
+    "text": "zar",
+    "alt": ["zarlar"]
+  },
+  "kid_toys.chess": {
+    "text": "satranç"
+  },
+  "kid_toys.board_game": {
+    "text": "kutu oyunu"
+  },
+  "kid_toys.puppet": {
+    "text": "kukla"
+  },
+  "kid_toys.dollhouse": {
+    "text": "oyuncak ev",
+    "alt": ["bebek evi"]
+  },
+  "kid_toys.toy_box": {
+    "text": "oyuncak kutusu"
+  },
+  "kid_toys.rocking_horse": {
+    "text": "sallanan at"
+  },
+  "kid_toys.water_gun": {
+    "text": "su tabancası"
+  },
+  "kid_toys.paper_plane": {
+    "text": "kâğıt uçak",
+    "alt": ["kağıt uçak"]
+  },
+  "kid_toys.toy_boat": {
+    "text": "oyuncak tekne",
+    "alt": ["oyuncak gemi"]
+  },
+  "kid_toys.dinosaur": {
+    "text": "dinozor"
+  },
+  "kid_toys.trampoline": {
+    "text": "trambolin"
+  },
+  "kid_toys.bucket": {
+    "text": "kova"
+  },
+  "kid_toys.shovel": {
+    "text": "kürek"
+  },
+  "kid_toys.video_game": {
+    "text": "video oyunu",
+    "alt": ["bilgisayar oyunu"]
+  },
+  "kid_toys.mask": {
+    "text": "maske"
+  },
+  "kid_toys.carousel": {
+    "text": "atlıkarınca"
+  },
+  "kid_days_time.calendar": {
+    "text": "takvim"
+  },
+  "kid_days_time.alarm_clock": {
+    "text": "çalar saat"
+  },
+  "kid_days_time.bedtime": {
+    "text": "yatma saati",
+    "alt": ["yatma vakti"]
+  },
+  "kid_days_time.date": {
+    "text": "tarih"
+  },
+  "kid_days_time.midnight": {
+    "text": "gece yarısı"
+  },
+  "kid_days_time.second": {
+    "text": "saniye"
+  },
+  "kid_days_time.quarter": {
+    "text": "çeyrek",
+    "alt": ["çeyrek saat"]
+  },
+  "kid_days_time.tonight": {
+    "text": "bu gece",
+    "alt": ["bu akşam"]
+  },
+  "kid_days_time.lunchtime": {
+    "text": "öğle yemeği vakti",
+    "alt": ["öğle arası"]
+  },
+  "kid_vehicles.passenger": {
+    "text": "yolcu"
+  },
+  "kid_vehicles.seat_belt": {
+    "text": "emniyet kemeri"
+  },
+  "kid_months_weather.sunny": {
+    "text": "güneşli"
+  },
+  "kid_months_weather.rainy": {
+    "text": "yağmurlu"
+  },
+  "kid_months_weather.snowy": {
+    "text": "karlı"
+  },
+  "kid_months_weather.cloudy": {
+    "text": "bulutlu"
+  },
+  "kid_months_weather.windy": {
+    "text": "rüzgârlı",
+    "alt": ["rüzgarlı"]
+  },
+  "kid_months_weather.warm": {
+    "text": "ılık"
+  },
+  "kid_months_weather.cool": {
+    "text": "serin"
+  },
+  "kid_months_weather.snowman": {
+    "text": "kardan adam"
+  },
+  "kid_months_weather.thunder": {
+    "text": "gök gürültüsü"
+  },
+  "kid_nature.ocean": {
+    "text": "okyanus"
+  },
+  "kid_nature.wave": {
+    "text": "dalga"
+  },
+  "kid_nature.hill": {
+    "text": "tepe"
+  },
+  "kid_nature.cave": {
+    "text": "mağara"
+  },
+  "kid_nature.waterfall": {
+    "text": "şelale"
+  },
+  "kid_nature.desert": {
+    "text": "çöl"
+  },
+  "kid_nature.plant": {
+    "text": "bitki"
+  },
+  "kid_nature.branch": {
+    "text": "dal"
+  },
+  "kid_nature.nest": {
+    "text": "yuva",
+    "alt": ["kuş yuvası"]
+  },
+  "kid_nature.shell": {
+    "text": "deniz kabuğu",
+    "alt": ["kabuk"]
+  },
+  "kid_nature.mud": {
+    "text": "çamur"
+  },
+  "kid_nature.pond": {
+    "text": "gölet"
+  },
+  "kid_nature.bush": {
+    "text": "çalı"
+  },
+  "kid_nature.seed": {
+    "text": "tohum"
+  },
+  "kid_nature.root": {
+    "text": "kök"
+  },
+  "kid_nature.field": {
+    "text": "tarla",
+    "alt": ["çayır"]
+  },
+  "kid_nature.valley": {
+    "text": "vadi"
+  },
+  "kid_nature.planet": {
+    "text": "gezegen"
+  },
+  "kid_places.zoo": {
+    "text": "hayvanat bahçesi"
+  },
+  "kid_places.farm": {
+    "text": "çiftlik"
+  },
+  "kid_places.playground": {
+    "text": "çocuk parkı",
+    "alt": ["oyun parkı", "oyun alanı", "park"]
+  },
+  "kid_places.swimming_pool": {
+    "text": "yüzme havuzu",
+    "alt": ["havuz"]
+  },
+  "kid_places.toy_store": {
+    "text": "oyuncakçı",
+    "alt": ["oyuncak mağazası", "oyuncak dükkânı", "oyuncak dükkanı"]
+  },
+  "kid_places.police_station": {
+    "text": "karakol",
+    "alt": ["polis karakolu", "polis merkezi"]
+  },
+  "kid_places.fire_station": {
+    "text": "itfaiye istasyonu",
+    "alt": ["itfaiye"]
+  },
+  "kid_places.post_office": {
+    "text": "postane"
+  },
+  "kid_actions.jump": {
+    "text": "zıplamak",
+    "alt": ["atlamak"]
+  },
+  "kid_actions.climb": {
+    "text": "tırmanmak"
   }
 }

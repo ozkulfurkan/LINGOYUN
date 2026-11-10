@@ -14,3 +14,63 @@ false_friend.sensible # sensible = mantıklı
 false_friend.realize # realize = fark etmek
 false_friend.pension # pension = emekli maaşı
 emotion.reluctant # reluctant = isteksiz
+@kind idiom
+idioms_2.spill_the_beans|spill the beans|let the cat out of the bag|baklayı ağzından çıkarmak|
+idioms_2.last_straw|the last straw|the final straw;last straw|bardağı taşıran son damla|
+idioms_2.middle_of_nowhere|in the middle of nowhere|the middle of nowhere|kuş uçmaz kervan geçmez bir yerde|ıssız bir yerde
+idioms_2.see_eye_to_eye|see eye to eye||aynı telden çalmak|aynı fikirde olmak
+idioms_2.blessing_in_disguise|a blessing in disguise|blessing in disguise|her işte bir hayır vardır|
+idioms_2.bite_off_more|bite off more than you can chew|bite off more than one can chew|boyundan büyük işe kalkışmak|
+idioms_2.ball_in_your_court|the ball is in your court|the ball's in your court|top sende|top artık sende
+idioms_2.beat_around_the_bush|beat around the bush|beat about the bush|lafı dolandırmak|lafı evirip çevirmek
+idioms_2.pull_your_leg|pull someone's leg|pull your leg|birini işletmek|
+idioms_2.hit_the_nail|hit the nail on the head||tam üstüne basmak|taşı gediğine koymak
+idioms_2.sleeping_dogs|let sleeping dogs lie||uyuyan yılanın kuyruğuna basmamak|
+idioms_2.count_chickens|don't count your chickens before they hatch|do not count your chickens before they hatch;don't count your chickens|dereyi görmeden paçaları sıvama|
+idioms_2.actions_speak|actions speak louder than words||lafla peynir gemisi yürümez|
+idioms_2.when_pigs_fly|when pigs fly|pigs might fly|balık kavağa çıkınca|
+idioms_2.drop_in_the_ocean|a drop in the bucket|a drop in the ocean;drop in the bucket;drop in the ocean|devede kulak|
+idioms_2.out_of_sight|out of sight, out of mind||gözden ırak olan gönülden de ırak olur|gözden ırak, gönülden ırak
+idioms_2.midnight_oil|burn the midnight oil||geceyi gündüze katmak|
+idioms_2.once_bitten|once bitten, twice shy||sütten ağzı yanan yoğurdu üfleyerek yer|
+idioms_2.too_many_cooks|too many cooks spoil the broth|too many cooks spoil the soup|horoz çok olan köyde sabah geç olur|
+idioms_2.cloud_nine|be on cloud nine|on cloud nine|havalara uçmak|
+idioms_2.cut_corners|cut corners||işi baştan savma yapmak|
+idioms_2.out_of_hand|get out of hand||çığırından çıkmak|
+idioms_2.needle_in_haystack|look for a needle in a haystack|a needle in a haystack;like looking for a needle in a haystack|samanlıkta iğne aramak|
+idioms_2.speak_of_the_devil|speak of the devil||iti an çomağı hazırla|iyi insan lafının üstüne gelir
+idioms_2.tip_of_the_iceberg|the tip of the iceberg|tip of the iceberg|buzdağının görünen yüzü|
+idioms_2.storm_in_a_teacup|a tempest in a teapot|a storm in a teacup;tempest in a teapot;storm in a teacup|bir bardak suda fırtına|
+idioms_2.full_plate|have a lot on your plate|have a lot on one's plate;a lot on my plate|başını kaşıyacak vakti olmamak|
+idioms_2.bury_the_hatchet|bury the hatchet||baltayı gömmek|küslüğü bitirmek
+idioms_2.two_heads|two heads are better than one||akıl akıldan üstündür|
+
+@sentences 1
+idioms_2.s1_spill_beans|Come on, spill the beans!|Spill the beans, come on!|Hadi, baklayı ağzından çıkar!|
+idioms_2.s1_ball_court|Now the ball is in your court.|The ball is in your court now.;Now the ball's in your court.;The ball's in your court now.|Artık top sende.|Top artık sende.
+idioms_2.s1_pulling_leg|Relax, I am only pulling your leg.|Relax, I'm only pulling your leg.;Relax, I am just pulling your leg.;Relax, I'm just pulling your leg.|Rahat ol, sadece seni işletiyorum.|Sakin ol, sadece seni işletiyorum.
+idioms_2.s1_speak_devil|Speak of the devil, here she is!|Speak of the devil, here he is!|İti an çomağı hazırla, işte geldi!|
+idioms_2.s1_cloud_nine|She is on cloud nine.|He is on cloud nine.;She's on cloud nine.;He's on cloud nine.|Havalara uçuyor.|Sevinçten havalara uçuyor.
+idioms_2.s1_when_pigs_fly|Sure, when pigs fly!|Yes, when pigs fly!|Tabii, balık kavağa çıkınca!|Elbette, balık kavağa çıkınca!
+idioms_2.s1_hit_the_nail|You hit the nail on the head.|You've hit the nail on the head.;You have hit the nail on the head.|Tam üstüne bastın.|Taşı gediğine koydun.
+idioms_2.s1_full_plate|I have a lot on my plate.|I've got a lot on my plate.;I have got a lot on my plate.|Başımı kaşıyacak vaktim yok.|
+
+@sentences 2
+idioms_2.s2_middle_nowhere|Our car broke down in the middle of nowhere late at night.|Late at night our car broke down in the middle of nowhere.;Our car broke down late at night in the middle of nowhere.|Gece geç saatte arabamız kuş uçmaz kervan geçmez bir yerde bozuldu.|
+idioms_2.s2_last_straw|When he was late again, it was the last straw for his boss.|When she was late again, it was the last straw for her boss.;When he was late again, that was the last straw for his boss.;When she was late again, that was the last straw for her boss.|Yine geç kalması patronu için bardağı taşıran son damla oldu.|
+idioms_2.s2_see_eye_to_eye|My brother and I rarely see eye to eye on politics.|My brother and I rarely see eye to eye about politics.;My brother and I seldom see eye to eye on politics.|Ağabeyimle siyaset konusunda pek aynı telden çalmayız.|Kardeşimle siyasette nadiren aynı fikirdeyiz.
+idioms_2.s2_beat_bush|Please stop beating around the bush and tell me what happened.|Please stop beating about the bush and tell me what happened.;Stop beating around the bush and tell me what happened, please.|Lütfen lafı dolandırmayı bırak ve bana ne olduğunu anlat.|
+idioms_2.s2_drop_ocean|The money we collected is just a drop in the bucket.|The money that we collected is just a drop in the bucket.;The money we collected is only a drop in the bucket.;The money we collected is just a drop in the ocean.;The money that we collected is just a drop in the ocean.;The money we collected is only a drop in the ocean.|Topladığımız para devede kulak.|Topladığımız para sadece devede kulak kalıyor.
+idioms_2.s2_midnight_oil|She burned the midnight oil for weeks before her final exams.|He burned the midnight oil for weeks before his final exams.;She burnt the midnight oil for weeks before her final exams.;He burnt the midnight oil for weeks before his final exams.;For weeks before her final exams, she burned the midnight oil.;For weeks before his final exams, he burned the midnight oil.|Final sınavlarından önce haftalarca geceyi gündüze kattı.|Final sınavlarından önce haftalarca geceyi gündüze katarak çalıştı.
+idioms_2.s2_cut_corners|If you cut corners now, you will have problems later.|If you cut corners now, you'll have problems later.;You will have problems later if you cut corners now.;You'll have problems later if you cut corners now.|Şimdi işi baştan savma yaparsan sonra sorun yaşarsın.|
+idioms_2.s2_bury_hatchet|After years of silence, the two sisters finally buried the hatchet.|After years of silence the two sisters finally buried the hatchet.;The two sisters finally buried the hatchet after years of silence.|Yıllarca konuşmadıktan sonra iki kız kardeş sonunda baltayı gömdü.|İki kız kardeş yıllar süren küslüğün ardından sonunda barıştı.
+
+@sentences 3
+idioms_2.s3_out_of_hand|The birthday party got out of hand when more than a hundred people turned up at our small apartment.|The birthday party got out of hand when more than a hundred people turned up at our small flat.;The birthday party got out of hand when more than one hundred people turned up at our small apartment.|Küçük dairemize yüzden fazla kişi gelince doğum günü partisi çığırından çıktı.|
+idioms_2.s3_blessing_disguise|Losing that job was a blessing in disguise, because it gave me the courage to start my own business.|Losing that job was a blessing in disguise because it gave me the courage to start my own business.|O işi kaybetmem aslında hayırlı oldu, çünkü kendi işimi kurma cesaretini bana o verdi.|Her işte bir hayır vardır, o işi kaybetmek bana kendi işimi kurma cesareti verdi.
+idioms_2.s3_bite_off_more|He bit off more than he could chew when he agreed to manage three big projects at the same time.|She bit off more than she could chew when she agreed to manage three big projects at the same time.|Aynı anda üç büyük projeyi yönetmeyi kabul ederek boyundan büyük işe kalkıştı.|
+idioms_2.s3_sleeping_dogs|I wanted to ask my uncle about the old family argument, but my mother told me to let sleeping dogs lie.|I wanted to ask my uncle about the old family argument, but my mom told me to let sleeping dogs lie.;I wanted to ask my uncle about the old family argument, but my mum told me to let sleeping dogs lie.|Amcama eski aile kavgasını sormak istedim ama annem uyuyan yılanın kuyruğuna basmamamı söyledi.|
+idioms_2.s3_count_chickens|The company has not signed the contract yet, so don't count your chickens before they hatch.|The company hasn't signed the contract yet, so don't count your chickens before they hatch.;The company has not signed the contract yet, so do not count your chickens before they hatch.|Şirket henüz sözleşmeyi imzalamadı, o yüzden dereyi görmeden paçaları sıvama.|
+idioms_2.s3_tip_iceberg|The problems you can see in the report are only the tip of the iceberg, and the real situation is much worse.|The problems that you can see in the report are only the tip of the iceberg, and the real situation is much worse.;The problems you can see in the report are just the tip of the iceberg, and the real situation is much worse.|Raporda gördüğün sorunlar buzdağının sadece görünen yüzü, gerçek durum çok daha kötü.|
+idioms_2.s3_two_heads|Let's look at this problem together, because two heads are better than one and we need a solution today.|Let us look at this problem together, because two heads are better than one and we need a solution today.;Let's look at this problem together because two heads are better than one and we need a solution today.|Bu soruna birlikte bakalım, çünkü akıl akıldan üstündür ve bugün bir çözüme ihtiyacımız var.|
+idioms_2.s3_actions_speak|The mayor promised to build a new park every year, but actions speak louder than words and nothing has changed.|The mayor promised to build a new park every year, but actions speak louder than words, and nothing has changed.|Belediye başkanı her yıl yeni bir park yapacağına söz verdi ama lafla peynir gemisi yürümüyor, hiçbir şey değişmedi.|

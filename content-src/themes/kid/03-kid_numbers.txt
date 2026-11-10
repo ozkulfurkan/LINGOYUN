@@ -23,3 +23,57 @@ number.seventeen # seventeen = on yedi
 number.eighteen # eighteen = on sekiz
 number.nineteen # nineteen = on dokuz
 number.twenty # twenty = yirmi
+@kind word noun
+kid_numbers.number|number||sayı|numara
+@kind word verb
+kid_numbers.count|count||saymak|
+number.zero # zero = sıfır
+number.thirty # thirty = otuz
+number.forty # forty = kırk
+number.fifty # fifty = elli
+number.sixty # sixty = altmış
+number.seventy # seventy = yetmiş
+number.eighty # eighty = seksen
+number.ninety # ninety = doksan
+number.hundred # hundred = yüz
+number.thousand # thousand = bin
+number.first # first = birinci
+number.second # second = ikinci
+number.third # third = üçüncü
+question.how_many # how many = kaç
+@kind word
+kid_numbers.plus|plus||artı|
+kid_numbers.minus|minus||eksi|
+kid_numbers.equals|equals||eşittir|
+@kind word noun
+kid_numbers.half|half||yarım|yarı
+
+@sentences 1
+kid_numbers.s1_eight_years|I am eight years old.|I'm eight years old.|Sekiz yaşındayım.|Ben sekiz yaşındayım.
+kid_numbers.s1_two_cats|I have two cats.||İki kedim var.|Benim iki kedim var.;İki tane kedim var.
+kid_numbers.s1_count_ten|Count to ten.||Ona kadar say.|Ona kadar sayın.
+kid_numbers.s1_five_fingers|My hand has five fingers.||Elimde beş parmak var.|Elimin beş parmağı var.;Benim elimde beş parmak var.
+kid_numbers.s1_one_plus_one|One plus one is two.|One plus one equals two.|Bir artı bir iki eder.|Bir artı bir ikidir.;Bir artı bir eşittir iki.
+kid_numbers.s1_three_apples|Three apples, please.||Üç elma, lütfen.|Lütfen üç elma.;Üç tane elma, lütfen.
+kid_numbers.s1_how_many_books|How many books are there?||Kaç kitap var?|Kaç tane kitap var?
+kid_numbers.s1_i_am_first|I am first!|I'm first!|Ben birinciyim!|Birinciyim!;İlk benim!
+
+@sentences 2
+kid_numbers.s2_three_plus_four|Three plus four equals seven, not eight.||Üç artı dört yedi eder, sekiz değil.|Üç artı dört eşittir yedi, sekiz değil.;Üç artı dört yedidir, sekiz değil.
+kid_numbers.s2_twenty_students|There are twenty students in my class.|In my class there are twenty students.|Sınıfımda yirmi öğrenci var.|Benim sınıfımda yirmi öğrenci var.;Sınıfımızda yirmi öğrenci var.
+kid_numbers.s2_grandmother_seventy|My grandmother is seventy years old.||Büyükannem yetmiş yaşında.|Anneannem yetmiş yaşında.;Babaannem yetmiş yaşında.;Ninem yetmiş yaşında.
+kid_numbers.s2_half_cake|I eat half of the cake.||Pastanın yarısını yerim.|Pastanın yarısını yiyorum.;Ben pastanın yarısını yerim.
+kid_numbers.s2_count_hundred|Can you count to one hundred?||Yüze kadar sayabilir misin?|Yüze kadar sayabilir misiniz?;Yüze kadar sayar mısın?
+kid_numbers.s2_third_grade|My brother is in the third grade.||Erkek kardeşim üçüncü sınıfta.|Kardeşim üçüncü sınıfta.;Abim üçüncü sınıfta.;Ağabeyim üçüncü sınıfta.
+kid_numbers.s2_phone_zero|My phone number starts with zero.||Telefon numaram sıfırla başlar.|Benim telefon numaram sıfırla başlar.;Telefon numaram sıfır ile başlar.;Telefon numaram sıfırla başlıyor.
+kid_numbers.s2_fifty_pages|This big book has fifty pages.||Bu büyük kitabın elli sayfası var.|Bu büyük kitapta elli sayfa var.;Bu büyük kitap elli sayfa.
+
+@sentences 3
+kid_numbers.s3_count_stars|At night we count the stars in the sky together.|We count the stars in the sky together at night.;At night we count the stars together in the sky.|Geceleri gökyüzündeki yıldızları birlikte sayarız.|Gece gökyüzündeki yıldızları birlikte sayarız.;Geceleri gökyüzündeki yıldızları beraber sayarız.;Geceleri birlikte gökyüzündeki yıldızları sayarız.
+kid_numbers.s3_race_second|Kerem is first in the race and I am second.|Kerem is first in the race and I'm second.|Yarışta Kerem birinci, ben ikinciyim.|Kerem yarışta birinci, ben de ikinciyim.;Yarışta Kerem birinci ve ben ikinciyim.;Yarışta Kerem birinci, ben de ikinciyim.
+kid_numbers.s3_spider_legs|How many legs does a spider have, six or eight?||Bir örümceğin kaç bacağı var, altı mı sekiz mi?|Örümceğin kaç bacağı var, altı mı sekiz mi?;Bir örümceğin kaç bacağı vardır, altı mı sekiz mi?
+kid_numbers.s3_year_months|There are twelve months and four seasons in a year.|In a year there are twelve months and four seasons.;There are four seasons and twelve months in a year.|Bir yılda on iki ay ve dört mevsim vardır.|Bir yılda on iki ay ve dört mevsim var.;Bir yılda dört mevsim ve on iki ay vardır.;Bir yılda dört mevsim ve on iki ay var.
+kid_numbers.s3_pages_read|I read thirty pages today and twenty pages yesterday.|Today I read thirty pages and yesterday twenty pages.;I read twenty pages yesterday and thirty pages today.;Yesterday I read twenty pages and today thirty pages.|Bugün otuz sayfa, dün yirmi sayfa okudum.|Bugün otuz sayfa okudum, dün de yirmi sayfa.;Bugün otuz sayfa ve dün yirmi sayfa okudum.;Dün yirmi sayfa, bugün otuz sayfa okudum.
+kid_numbers.s3_two_hundred|One hundred fifty plus fifty equals two hundred.|One hundred and fifty plus fifty equals two hundred.|Yüz elli artı elli iki yüz eder.|Yüz elli artı elli eşittir iki yüz.;Yüz elli artı elli iki yüzdür.
+kid_numbers.s3_dolls_cars|My sister has three dolls and I have four toy cars.|I have four toy cars and my sister has three dolls.|Kız kardeşimin üç oyuncak bebeği, benim dört oyuncak arabam var.|Kız kardeşimin üç oyuncak bebeği var, benim de dört oyuncak arabam var.;Kız kardeşimin üç bebeği, benim dört oyuncak arabam var.;Ablamın üç oyuncak bebeği, benim dört oyuncak arabam var.
+kid_numbers.s3_birthday_ten|Tomorrow is my birthday and I will be ten years old.|Tomorrow is my birthday and I'll be ten years old.;My birthday is tomorrow and I will be ten years old.|Yarın benim doğum günüm ve on yaşına gireceğim.|Yarın doğum günüm ve on yaşına gireceğim.;Yarın doğum günüm, on yaşında olacağım.;Yarın benim doğum günüm ve on yaşında olacağım.

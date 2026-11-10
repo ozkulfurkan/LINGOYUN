@@ -28,3 +28,51 @@ animal.cat # cat = kedi
 animal.dog # dog = köpek
 animal.bird # bird = kuş
 nature.weather # weather = hava
+body.eyebrow
+body.lips
+body.tongue
+body.chin
+body.toe
+@kind word noun
+body_weather.skin|skin||cilt|deri;ten
+@kind word adjective
+body_weather.sunny|sunny||güneşli|
+body_weather.cloudy|cloudy||bulutlu|
+body_weather.rainy|rainy||yağmurlu|
+body_weather.windy|windy||rüzgârlı|rüzgarlı
+body_weather.snowy|snowy||karlı|
+body_weather.foggy|foggy||sisli|
+nature.lightning
+nature.rainbow
+clothes.umbrella
+
+@sentences 1
+body_weather.s1_head_hurts|My head hurts.|I have a headache.;I've got a headache.|Başım ağrıyor.|
+body_weather.s1_sunny_today|It is sunny today.|It's sunny today.;Today it is sunny.;Today it's sunny.|Bugün hava güneşli.|Bugün güneşli.
+body_weather.s1_wash_hands|Wash your hands, please.|Please wash your hands.;Please, wash your hands.|Ellerini yıka, lütfen.|Lütfen ellerini yıka.;Lütfen ellerinizi yıkayın.
+body_weather.s1_cold_wind|The wind is very cold.|The wind is really cold.;The wind is so cold.|Rüzgâr çok soğuk.|Rüzgar çok soğuk.
+body_weather.s1_blue_eyes|She has blue eyes.|He has blue eyes.;She has got blue eyes.;She's got blue eyes.;Her eyes are blue.;His eyes are blue.|Onun mavi gözleri var.|Mavi gözleri var.;Gözleri mavi.
+body_weather.s1_take_umbrella|Take an umbrella with you.|Take your umbrella with you.;Take an umbrella.|Yanına bir şemsiye al.|Yanına şemsiye al.;Şemsiyeni yanına al.
+body_weather.s1_back_hurts|My back hurts a lot.|My back really hurts.;My back hurts very much.|Sırtım çok ağrıyor.|Belim çok ağrıyor.
+body_weather.s1_snow_mountains|It is snowing in the mountains.|It's snowing in the mountains.;In the mountains it is snowing.;In the mountains it's snowing.|Dağlarda kar yağıyor.|
+sentence.a2_rain_tomorrow # moved from shopping/travel (LNG-45)
+
+@sentences 2
+body_weather.s2_weather_tomorrow|What will the weather be like tomorrow in Ankara?|What will the weather be like in Ankara tomorrow?;What's the weather going to be like tomorrow in Ankara?;What is the weather going to be like in Ankara tomorrow?;What's the weather going to be like in Ankara tomorrow?|Yarın Ankara'da hava nasıl olacak?|Ankara'da yarın hava nasıl olacak?
+body_weather.s2_cloudy_rainy|It was cloudy in the morning and rainy in the afternoon.|It was cloudy in the morning and it was rainy in the afternoon.;In the morning it was cloudy, and in the afternoon it was rainy.|Sabah hava bulutluydu, öğleden sonra yağmurluydu.|Sabah bulutluydu, öğleden sonra da yağmur yağdı.;Sabah hava bulutluydu, öğleden sonra yağmur yağdı.
+body_weather.s2_broke_arm|My son broke his arm when he fell off his bike.|When he fell off his bike my son broke his arm.;My son broke his arm when he fell off his bicycle.;My son broke his arm when he fell from his bike.|Oğlum bisikletten düşünce kolunu kırdı.|Oğlum bisikletten düştüğünde kolunu kırdı.
+body_weather.s2_sunscreen|Use sunscreen, because the sun is very strong today.|Use sunscreen because the sun is very strong today.;Use sunscreen, because today the sun is very strong.;Use sunscreen, because the sun is really strong today.;Use sun cream, because the sun is very strong today.;Put on sunscreen, because the sun is very strong today.|Güneş kremi sür, çünkü bugün güneş çok güçlü.|Güneş kremi sürün, bugün güneş çok yakıyor.;Güneş kremi sür, bugün güneş çok yakıcı.
+body_weather.s2_toothache|I have a terrible toothache, so I am going to the dentist.|I have a terrible toothache, so I'm going to the dentist.;I've got a terrible toothache, so I'm going to the dentist.;I have a really bad toothache, so I'm going to the dentist.;I have a terrible toothache, so I will go to the dentist.|Dişim çok kötü ağrıyor, bu yüzden dişçiye gidiyorum.|Dişim berbat ağrıyor, o yüzden dişçiye gideceğim.;Dişim çok fena ağrıyor, diş hekimine gidiyorum.
+body_weather.s2_cold_hands|My hands and feet are always cold in the winter.|In the winter my hands and feet are always cold.;My hands and feet are always cold in winter.;In winter my hands and feet are always cold.;My feet and hands are always cold in the winter.|Kışın ellerim ve ayaklarım hep soğuk olur.|Kışın ellerim ayaklarım her zaman üşür.;Kışın ellerim ve ayaklarım hep üşür.
+body_weather.s2_rainbow_sea|Look, there is a rainbow over the sea after the rain!|Look, there's a rainbow over the sea after the rain!;Look, after the rain there is a rainbow over the sea!;Look, after the rain there's a rainbow over the sea!;Look, there is a rainbow above the sea after the rain!|Bak, yağmurdan sonra denizin üstünde bir gökkuşağı var!|Bak, yağmurdan sonra denizin üzerinde gökkuşağı çıktı!;Bak, yağmurdan sonra denizin üstünde gökkuşağı var!
+body_weather.s2_lightning|We saw lightning over the mountains, so we went back home.|We saw lightning over the mountains so we went back home.;We saw lightning above the mountains, so we went back home.;We saw lightning over the mountains, so we went home.|Dağların üzerinde şimşek gördük, bu yüzden eve döndük.|Dağların üstünde şimşek çaktığını gördük ve eve geri döndük.;Dağların üstünde şimşek gördük, o yüzden eve döndük.
+
+@sentences 3
+body_weather.s3_forecast|The weather forecast says it will be windy and cool tomorrow, with some rain in the afternoon.|The weather forecast says that it will be windy and cool tomorrow, with some rain in the afternoon.;The weather forecast says it'll be windy and cool tomorrow, with some rain in the afternoon.;The weather forecast says tomorrow it will be windy and cool, with some rain in the afternoon.;The weather forecast says it will be windy and cool tomorrow with some rain in the afternoon.|Hava durumuna göre yarın rüzgârlı ve serin olacak, öğleden sonra da biraz yağmur yağacak.|Hava tahminine göre yarın hava rüzgarlı ve serin olacak, öğleden sonra biraz yağmur bekleniyor.
+body_weather.s3_ice_roads|Be careful when you walk to work, because there is ice on the roads after last night's snow.|Be careful when you walk to work, because there's ice on the roads after last night's snow.;Be careful when you walk to work because there is ice on the roads after last night's snow.;When you walk to work be careful, because there is ice on the roads after last night's snow.;Be careful when you walk to work, because after last night's snow there is ice on the roads.|İşe yürürken dikkatli ol, çünkü dün geceki kardan sonra yollarda buz var.|İşe yürüyerek giderken dikkatli olun, dün geceki kar yüzünden yollar buz tuttu.
+body_weather.s3_red_face|We spent the whole day at the beach, and now my face and arms are red from the sun.|We spent the whole day at the beach, and now my arms and face are red from the sun.;We spent the whole day at the beach and now my face and arms are red from the sun.;We spent all day at the beach, and now my face and arms are red from the sun.|Bütün günü plajda geçirdik, şimdi de yüzüm ve kollarım güneşten kıpkırmızı.|Tüm günü sahilde geçirdik ve şimdi yüzüm ile kollarım güneşten kızardı.
+body_weather.s3_tired_eyes|My eyes get tired when I look at the computer all day, so I take short breaks every hour.|When I look at the computer all day my eyes get tired, so I take short breaks every hour.;My eyes get tired when I look at the computer all day, so every hour I take short breaks.;My eyes get tired when I look at the computer all day, so I take a short break every hour.;My eyes get tired when I look at a computer all day, so I take short breaks every hour.|Bütün gün bilgisayara baktığımda gözlerim yoruluyor, bu yüzden her saat kısa molalar veriyorum.|Gün boyu bilgisayara bakınca gözlerim yoruluyor, o yüzden saatte bir kısa mola veriyorum.
+body_weather.s3_april|In April the weather changes every day, so I always carry an umbrella and a light jacket.|The weather changes every day in April, so I always carry an umbrella and a light jacket.;In April the weather changes every day, so I always carry a light jacket and an umbrella.;In April the weather changes every day, so I always take an umbrella and a light jacket.;In April the weather changes every day so I always carry an umbrella and a light jacket.|Nisanda hava her gün değişiyor, bu yüzden yanımda her zaman bir şemsiye ve ince bir ceket taşıyorum.|Nisan ayında hava her gün değişir, o yüzden hep yanımda şemsiye ve hafif bir ceket bulundururum.
+body_weather.s3_cut_finger|I cut my finger while I was making dinner, and now it hurts when I hold a pen.|I cut my finger while I was making dinner and now it hurts when I hold a pen.;I cut my finger while I was cooking dinner, and now it hurts when I hold a pen.;While I was making dinner I cut my finger, and now it hurts when I hold a pen.;I cut my finger while making dinner, and now it hurts when I hold a pen.|Akşam yemeği yaparken parmağımı kestim ve şimdi kalem tuttuğumda acıyor.|Yemek yaparken parmağımı kestim, şimdi kalem tutunca acıyor.
+body_weather.s3_snow_play|When it snows, the children run outside and play in the garden until their hands are freezing.|The children run outside when it snows and play in the garden until their hands are freezing.;When it snows the children run outside and play in the garden until their hands are freezing.;When it snows, the kids run outside and play in the garden until their hands are freezing.;When it snows, the children run outside and play in the yard until their hands are freezing.|Kar yağınca çocuklar dışarı koşuyor ve elleri donana kadar bahçede oynuyorlar.|Kar yağdığında çocuklar dışarı koşar ve elleri buz kesene kadar bahçede oynar.
+body_weather.s3_hot_summer|Last summer it was so hot that we stayed inside at noon and went to the sea in the evening.|It was so hot last summer that we stayed inside at noon and went to the sea in the evening.;Last summer it was so hot that we stayed inside at noon and went to the sea in the evenings.;Last summer it was so hot that we stayed indoors at noon and went to the sea in the evening.;Last summer it was so hot we stayed inside at noon and went to the sea in the evening.|Geçen yaz hava o kadar sıcaktı ki öğlenleri evde kalıp akşamları denize gidiyorduk.|Geçen yaz öyle sıcaktı ki öğlen içeride kaldık, akşam denize gittik.

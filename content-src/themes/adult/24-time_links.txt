@@ -29,6 +29,22 @@ function.without # without = olmadan
 position.between # between = arasında
 function.during # during = sırasında
 function.until # until = -e kadar
+@kind word adverb
+time_links.just|just|just now|az önce|
+time_links.ever|ever||hiç|
+time_links.recently|recently|lately|son zamanlarda|
+time_links.suddenly|suddenly||aniden|birden
+time_links.finally|finally|at last|sonunda|nihayet
+time_links.rarely|rarely|seldom|nadiren|
+time_links.also|also|too|ayrıca|de
+time_links.especially|especially||özellikle|
+time_links.probably|probably||muhtemelen|büyük ihtimalle
+time_links.at_least|at least||en azından|
+@kind word conjunction
+time_links.since|since||-den beri|beri
+time_links.while|while||-ken|iken
+time_links.however|however||ancak|fakat
+time_links.although|although|though;even though|-mesine rağmen|-se de;rağmen
 
 @sentences 1
 sentence.a2_she_called # She called me last night. = Dün gece beni aradı.
@@ -37,3 +53,25 @@ sentence.a2_not_sleep_well # I did not sleep well. = İyi uyumadım.
 sentence.a2_weather_bad # The weather was bad last week. = Geçen hafta hava kötüydü.
 sentence.a2_new_job # She will start a new job next month. = Gelecek ay yeni bir işe başlayacak.
 sentence.a2_wash_before_dinner # I wash my hands before dinner. = Akşam yemeğinden önce ellerimi yıkarım.
+time_links.s1_just_arrived|I have just arrived home.|I've just arrived home.;I just arrived home.;I just got home.;I've just got home.;I have just got home.;I've just gotten home.;I just came home.;I've just come home.|Eve az önce geldim.|Eve yeni geldim.
+time_links.s1_finally_home|We are finally at home.|We're finally at home.;We are finally home.;We're finally home.;Finally we are at home.;Finally we are home.|Sonunda evdeyiz.|Nihayet evdeyiz.
+
+@sentences 2
+time_links.s2_ever_been|Have you ever been to a concert in another country?|Have you ever been to a concert in a different country?|Hiç başka bir ülkede konsere gittin mi?|Hiç başka bir ülkede bir konsere gittiniz mi?
+time_links.s2_since_2020|We have lived in this apartment since the summer of 2020.|We've lived in this apartment since the summer of 2020.;We have lived in this flat since the summer of 2020.;We've lived in this flat since the summer of 2020.|2020 yazından beri bu dairede oturuyoruz.|2020 yazından beri bu dairede yaşıyoruz.
+time_links.s2_while_cooking|My phone rang while I was cooking dinner in the kitchen.|While I was cooking dinner in the kitchen, my phone rang.|Mutfakta akşam yemeği pişirirken telefonum çaldı.|
+time_links.s2_recently_tired|I have felt very tired recently, so I am going to see a doctor.|I've felt very tired recently, so I'm going to see a doctor.;I have been feeling very tired recently, so I am going to see a doctor.;I've been feeling very tired recently, so I'm going to see a doctor.;I've been feeling very tired lately, so I'm going to see a doctor.;I have felt very tired lately, so I am going to see a doctor.;I've felt very tired lately, so I'm going to see a doctor.;I have felt very tired recently, so I will see a doctor.;I've felt very tired recently, so I'll see a doctor.;Recently I have felt very tired, so I am going to see a doctor.;Recently I've felt very tired, so I'm going to see a doctor.|Son zamanlarda kendimi çok yorgun hissediyorum, bu yüzden doktora gideceğim.|Son zamanlarda çok yorgun hissediyorum, bu yüzden doktora gideceğim.
+time_links.s2_suddenly_lights|We were watching a movie when suddenly all the lights went out.|We were watching a film when suddenly all the lights went out.;We were watching a movie when all the lights suddenly went out.;We were watching a film when all the lights suddenly went out.|Film izliyorduk ki birden bütün ışıklar söndü.|Film izlerken aniden bütün ışıklar söndü.
+time_links.s2_rarely_eat_out|We rarely eat out because restaurants are so expensive now.|We rarely eat out, because restaurants are so expensive now.;We rarely eat out because restaurants are so expensive these days.|Restoranlar artık çok pahalı olduğu için nadiren dışarıda yemek yiyoruz.|
+time_links.s2_at_least_water|You should drink at least two liters of water every day.|You should drink at least two litres of water every day.;Every day you should drink at least two liters of water.;Every day you should drink at least two litres of water.|Her gün en az iki litre su içmelisin.|Her gün en azından iki litre su içmelisin.
+time_links.s2_probably_rain|It will probably rain tomorrow, so take your umbrella with you.|It'll probably rain tomorrow, so take your umbrella with you.;It will probably rain tomorrow, so take an umbrella with you.;It'll probably rain tomorrow, so take an umbrella with you.;It will probably rain tomorrow, take your umbrella with you.;It'll probably rain tomorrow, take your umbrella with you.|Yarın muhtemelen yağmur yağacak, o yüzden şemsiyeni yanına al.|Yarın muhtemelen yağmur yağacak, şemsiyeni yanına al.;Yarın büyük ihtimalle yağmur yağacak, o yüzden şemsiyeni yanına al.
+
+@sentences 3
+time_links.s3_although_tired|Although I was very tired after work, I went to the gym with my sister because I had promised her.|Even though I was very tired after work, I went to the gym with my sister because I had promised her.;Although I was really tired after work, I went to the gym with my sister because I had promised her.|İşten sonra çok yorgun olmama rağmen kız kardeşime söz verdiğim için onunla spor salonuna gittim.|
+time_links.s3_however_expensive|The hotel was clean and close to the beach. However, the rooms were small and the breakfast was very expensive.|The hotel was clean and near the beach. However, the rooms were small and the breakfast was very expensive.|Otel temizdi ve plaja yakındı. Ancak odalar küçüktü ve kahvaltı çok pahalıydı.|
+time_links.s3_especially_winter|I love walking by the sea, especially in winter when the beaches are empty and everything is quiet.|I love walking by the sea, especially in winter, when the beaches are empty and everything is quiet.|Deniz kenarında yürümeyi çok severim, özellikle de plajların boş olduğu ve her yerin sessiz olduğu kışın.|
+time_links.s3_still_not_finished|They started building the new bridge three years ago, but they still have not finished it.|They started building the new bridge three years ago, but they still haven't finished it.;They started to build the new bridge three years ago, but they still have not finished it.;They started to build the new bridge three years ago, but they still haven't finished it.;They started building the new bridge three years ago, but they have not finished it yet.;They started building the new bridge three years ago, but they haven't finished it yet.|Yeni köprüyü üç yıl önce yapmaya başladılar ama hâlâ bitirmediler.|
+time_links.s3_together_weekend|We usually spend the weekend together, but this Saturday my husband has to work until late in the evening.|We usually spend the weekend together, but this Saturday my wife has to work until late in the evening.;Usually we spend the weekend together, but this Saturday my husband has to work until late in the evening.;Usually we spend the weekend together, but this Saturday my wife has to work until late in the evening.|Hafta sonunu genellikle birlikte geçiririz ama bu cumartesi eşim akşam geç saate kadar çalışmak zorunda.|
+time_links.s3_if_without|If you leave the house without a coat in this weather, you will almost certainly get sick again.|If you leave the house without a coat in this weather, you'll almost certainly get sick again.;You will almost certainly get sick again if you leave the house without a coat in this weather.;You'll almost certainly get sick again if you leave the house without a coat in this weather.|Bu havada evden montsuz çıkarsan neredeyse kesin yine hasta olursun.|
+time_links.s3_also_speaks|My new colleague speaks English very well, and she also understands a little Turkish because her mother is from Izmir.|My new colleague speaks English very well, and he also understands a little Turkish because his mother is from Izmir.;My new colleague speaks English really well, and she also understands a little Turkish because her mother is from Izmir.;My new colleague speaks English really well, and he also understands a little Turkish because his mother is from Izmir.|Yeni iş arkadaşım çok iyi İngilizce konuşuyor, annesi İzmirli olduğu için biraz Türkçe de anlıyor.|
+time_links.s3_often_between|I often visit my parents between Christmas and New Year, when the office is closed and the trains are cheaper.|I often visit my parents between Christmas and New Year's, when the office is closed and the trains are cheaper.|Ofisin kapalı ve trenlerin daha ucuz olduğu Noel ile yılbaşı arasında sık sık annemle babamı ziyaret ederim.|Noel ile yılbaşı arasında, ofis kapalıyken ve trenler daha ucuzken sık sık ailemi ziyaret ederim.

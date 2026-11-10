@@ -29,25 +29,49 @@ pronoun.this # this = bu
 pronoun.we # we = biz
 pronoun.they # they = onlar
 family.name # name = isim
+@kind word interjection
+kid_greetings.hi|hi|hey|selam|
+pronoun.it # it = o
+pronoun.that # that = şu
+pronoun.our # our = bizim
+pronoun.their # their = onların
+pronoun.his # his = onun
+pronoun.her # her = onun
+idiom.of_course # of course = tabii ki
+idiom.no_problem # no problem = sorun değil
+idiom.good_luck # good luck = iyi şanslar
+idiom.congratulations # congratulations = tebrikler
+@kind phrase interjection
+kid_greetings.happy_birthday|happy birthday||iyi ki doğdun|doğum günün kutlu olsun
+idiom.get_well_soon # get well soon = geçmiş olsun
+idiom.take_care # take care = kendine iyi bak
 
 @sentences 1
-sentence.l1_this_cat # This is a cat. = Bu bir kedi.
-sentence.l1_you_friend # You are my friend. = Sen benim arkadaşımsın.
-sentence.l1_she_sister # She is my sister. = O benim kız kardeşim.
-sentence.l1_this_mother # This is my mother. = Bu benim annem.
-sentence.l1_this_father # This is my father. = Bu benim babam.
-sentence.l1_this_book # This is my book. = Bu benim kitabım.
-sentence.l1_thanks_teacher # Thank you, teacher. = Teşekkür ederim, öğretmenim.
-sentence.l1_morning_friend # Good morning, my friend. = Günaydın, arkadaşım.
-sentence.l2_she_reads # She reads a book. = O kitap okur.
-sentence.l2_she_sits # She sits on the chair. = O sandalyede oturur.
-sentence.l2_glass_clean # This glass is clean. = Bu bardak temiz.
-sentence.l2_they_come # They come to the classroom. = Onlar sınıfa gelir.
+sentence.l3_how_you # How are you? = Nasılsın?
 sentence.l3_what_name # What is your name? = Adın ne?
-sentence.l3_sings_morning # She sings in the morning. = O sabahları şarkı söyler.
+sentence.l1_morning_friend # Good morning, my friend. = Günaydın, arkadaşım.
+sentence.l1_thanks_teacher # Thank you, teacher. = Teşekkür ederim, öğretmenim.
+sentence.l1_you_friend # You are my friend. = Sen benim arkadaşımsın.
 sentence.l3_who_boy # Who is this boy? = Bu çocuk kim?
 sentence.l3_why_sad # Why are you sad? = Neden üzgünsün?
-sentence.l3_how_you # How are you? = Nasılsın?
+sentence.l1_this_book # This is my book. = Bu benim kitabım.
+
+@sentences 2
 sentence.l3_open_window # Please open the window. = Lütfen pencereyi aç.
 sentence.l3_close_door # Please close the door. = Lütfen kapıyı kapat.
+sentence.l2_she_reads|She reads a book.|He reads a book.|O kitap okur.|Kitap okur.;O kitap okuyor.;Kitap okuyor.;O bir kitap okuyor.
+sentence.l2_she_sits|She sits on the chair.|He sits on the chair.|O sandalyede oturur.|Sandalyede oturur.;O sandalyede oturuyor.;Sandalyede oturuyor.
+sentence.l2_they_come # They come to the classroom. = Onlar sınıfa gelir.
+sentence.l3_sings_morning|She sings in the morning.|In the morning she sings.;He sings in the morning.;In the morning he sings.|O sabahları şarkı söyler.|Sabahları şarkı söyler.;O sabah şarkı söyler.;Sabah şarkı söyler.
 sentence.l3_lesson_easy # This lesson is easy. = Bu ders kolay.
+kid_greetings.s2_nice_meet|Nice to meet you, my friend.||Memnun oldum, arkadaşım.|Tanıştığımıza memnun oldum, arkadaşım.;Seninle tanıştığıma memnun oldum, arkadaşım.
+
+@sentences 3
+kid_greetings.s3_morning_names|Good morning, teacher, my name is Kerem and this is Nehir.|Good morning, teacher, my name's Kerem and this is Nehir.|Günaydın öğretmenim, benim adım Kerem ve bu da Nehir.|Günaydın öğretmenim, adım Kerem ve bu da Nehir.;Günaydın öğretmenim, benim adım Kerem, bu da Nehir.;Günaydın öğretmenim, adım Kerem, bu da Nehir.
+kid_greetings.s3_hello_nice|Hello, I am Zeynep and it is nice to meet you.|Hello, I'm Zeynep and it's nice to meet you.;Hello, I am Zeynep and it's nice to meet you.|Merhaba, ben Zeynep ve tanıştığımıza memnun oldum.|Merhaba, ben Zeynep, tanıştığımıza memnun oldum.;Merhaba, ben Zeynep ve seninle tanıştığıma memnun oldum.;Merhaba, ben Zeynep, memnun oldum.
+kid_greetings.s3_sorry_late|I am sorry, teacher, I am late this morning.|I'm sorry, teacher, I'm late this morning.;I am sorry, teacher, this morning I am late.|Özür dilerim öğretmenim, bu sabah geç kaldım.|Özür dilerim öğretmenim, bu sabah geciktim.;Kusura bakmayın öğretmenim, bu sabah geç kaldım.
+kid_greetings.s3_good_night|Good night, Mom and Dad, see you in the morning.|Good night, Dad and Mom, see you in the morning.|İyi geceler anne, baba, sabah görüşürüz.|İyi geceler anneciğim, babacığım, sabah görüşürüz.;İyi geceler anne baba, sabah görüşürüz.;İyi geceler baba, anne, sabah görüşürüz.;İyi geceler anne ve baba, sabah görüşürüz.
+kid_greetings.s3_thanks_help|Thank you for your help, you are a good friend.|Thank you for your help, you're a good friend.|Yardımın için teşekkür ederim, sen iyi bir arkadaşsın.|Yardımın için teşekkürler, sen iyi bir arkadaşsın.;Yardımın için teşekkür ederim, iyi bir arkadaşsın.;Yardımın için teşekkürler, iyi bir arkadaşsın.
+kid_greetings.s3_excuse_door|Excuse me, can you open the door for us, please?|Excuse me, can you please open the door for us?;Excuse me, please, can you open the door for us?|Affedersiniz, bizim için kapıyı açabilir misiniz lütfen?|Affedersiniz, lütfen bizim için kapıyı açar mısınız?;Affedersiniz, bize kapıyı açar mısınız lütfen?;Affedersin, bizim için kapıyı açabilir misin lütfen?
+kid_greetings.s3_welcome_home|Welcome to our home, please come in and sit down.|Welcome to our home, come in and sit down, please.|Evimize hoş geldin, lütfen içeri gel ve otur.|Evimize hoş geldiniz, lütfen içeri gelin ve oturun.;Evimize hoş geldin, lütfen gel ve otur.;Evimize hoş geldin, içeri gel ve otur lütfen.
+kid_greetings.s3_goodbye_school|Goodbye, my friends, I will see you at school tomorrow.|Goodbye, my friends, I'll see you at school tomorrow.;Goodbye, my friends, I will see you tomorrow at school.;Goodbye, my friends, tomorrow I will see you at school.|Hoşça kalın arkadaşlar, yarın okulda görüşürüz.|Hoşça kalın arkadaşlarım, yarın okulda görüşürüz.;Hoşça kalın arkadaşlar, okulda yarın görüşürüz.;Hoşça kalın arkadaşlar, sizi yarın okulda göreceğim.

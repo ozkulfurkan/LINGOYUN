@@ -176,11 +176,35 @@ describe('buildStep', () => {
 
   it('falls back to an easier tier, then to other themes of the band', () => {
     const greetings = adult[0];
-    expect(themeSentences(greetings, 3)).toEqual(greetings.sentences['1']);
+    const easyOnly = { ...greetings, sentences: { '1': greetings.sentences['1'] } };
+    expect(themeSentences(easyOnly, 3)).toEqual(greetings.sentences['1']);
     const empty = { ...greetings, sentences: {} };
     const extra = adult[1].sentences['1']!;
     const items = build({ theme: empty, extraSentences: extra });
     expect(count(items, 'sentence')).toBe(SENTENCES_PER_STEP);
+  });
+
+  it('never repeats a word of an earlier step in any theme', () => {
+    for (const [path, profileType] of [
+      [adult, 'adult'],
+      [kid, 'kid'],
+    ] as const) {
+      for (const theme of path) {
+        const asked = new Set<string>();
+        for (let stepIndex = 0; stepIndex < EXAM_STEP; stepIndex++) {
+          const items = build({ theme, stepIndex, profileType });
+          const sentences = new Set(Object.values(theme.sentences).flat());
+          const ids = items.map((i) => i.conceptId).filter((id) => !sentences.has(id));
+          const repeated = ids.filter((id) => asked.has(id));
+          expect({ theme: theme.id, stepIndex, repeated }).toEqual({
+            theme: theme.id,
+            stepIndex,
+            repeated: [],
+          });
+          ids.forEach((id) => asked.add(id));
+        }
+      }
+    }
   });
 
   it('works for every theme of both paths', () => {

@@ -38,8 +38,38 @@ place.kitchen # kitchen = mutfak
 place.bathroom # bathroom = banyo
 place.bedroom # bedroom = yatak odası
 place.garden # garden = bahçe
+home.living_room # living room = oturma odası
+home.shower # shower = duş
+home.stairs # stairs = merdiven
+home.wall # wall = duvar
+home.roof # roof = çatı
 
 @sentences 1
 sentence.l1_house_big # The house is big. = Ev büyük.
 sentence.l2_key_table # The key is on the table. = Anahtar masanın üstünde.
+kid_home.s1_door_open|The door is open.||Kapı açık.|
+kid_home.s1_sit_chair|Sit on the chair.||Sandalyeye otur.|Sandalyeye otur!
+kid_home.s1_bed_soft|My bed is soft.||Yatağım yumuşak.|Benim yatağım yumuşak.
+kid_home.s1_close_window|Close the window, please.|Please close the window.|Lütfen pencereyi kapat.|Pencereyi kapat lütfen.
+kid_home.s1_mom_kitchen|Mom is in the kitchen.||Annem mutfakta.|Anne mutfakta.
+kid_home.s1_turn_on_lamp|Turn on the lamp.|Turn the lamp on.|Lambayı aç.|Lambayı yak.
+
+@sentences 2
 sentence.l3_wash_hands # I wash my hands in the bathroom. = Ellerimi banyoda yıkarım.
+kid_home.s2_tv_living_room|The television is in the living room.||Televizyon oturma odasında.|Televizyon salonda.
+kid_home.s2_cat_sofa|The cat is sleeping on the sofa.||Kedi kanepede uyuyor.|Kedi kanepenin üstünde uyuyor.
+kid_home.s2_milk_fridge|The milk is in the fridge.||Süt buzdolabında.|Süt buzdolabının içinde.
+kid_home.s2_face_mirror|I look at my face in the mirror.|In the mirror I look at my face.;In the mirror, I look at my face.|Aynada yüzüme bakarım.|Aynada yüzüme bakıyorum.
+kid_home.s2_plates_table|I put the plates on the table.||Tabakları masaya koyarım.|Tabakları masaya koyuyorum.;Tabakları masaya koydum.
+kid_home.s2_soup_spoon|I eat my soup with a spoon.||Çorbamı kaşıkla içerim.|Çorbamı kaşıkla yerim.;Çorbamı kaşıkla içiyorum.
+kid_home.s2_dad_shower|My dad takes a shower every morning.|Every morning my dad takes a shower.|Babam her sabah duş alır.|Babam her sabah duş alıyor.
+
+@sentences 3
+kid_home.s3_our_house|Our house has three bedrooms, a kitchen and a big garden.|Our house has three bedrooms, a big garden and a kitchen.;Our house has a kitchen, three bedrooms and a big garden.;Our house has a kitchen, a big garden and three bedrooms.;Our house has a big garden, three bedrooms and a kitchen.;Our house has a big garden, a kitchen and three bedrooms.|Evimizde üç yatak odası, bir mutfak ve büyük bir bahçe var.|Evimizin üç yatak odası, bir mutfağı ve büyük bir bahçesi var.
+kid_home.s3_toothbrush_sink|I put my toothbrush and soap next to the sink.||Diş fırçamı ve sabunu lavabonun yanına koyarım.|Diş fırçamı ve sabunu lavabonun yanına koyuyorum.;Diş fırçamla sabunu lavabonun yanına koyarım.
+kid_home.s3_pillow_blanket|At night I sleep with a soft pillow and a warm blanket.|I sleep with a soft pillow and a warm blanket at night.;At night I sleep with a warm blanket and a soft pillow.|Geceleri yumuşak bir yastık ve sıcak bir battaniyeyle uyurum.|Geceleri yumuşak bir yastık ve sıcak bir battaniye ile uyurum.;Gece yumuşak bir yastık ve sıcak bir battaniyeyle uyurum.
+kid_home.s3_cake_oven|My mom is baking a cake in the oven for my birthday.|For my birthday my mom is baking a cake in the oven.;My mom is baking a cake for my birthday in the oven.;For my birthday, my mom is baking a cake in the oven.|Annem doğum günüm için fırında pasta pişiriyor.|Annem doğum günüm için fırında kek pişiriyor.;Annem doğum günüm için fırında pasta yapıyor.;Annem doğum günüm için fırında bir pasta yapıyor.
+kid_home.s3_clock_wall|There is a big clock on the kitchen wall.|On the kitchen wall there is a big clock.;On the kitchen wall, there is a big clock.|Mutfak duvarında büyük bir saat var.|Mutfağın duvarında büyük bir saat var.
+kid_home.s3_towel_bath|After my bath I dry myself with a big towel.|I dry myself with a big towel after my bath.;After my bath, I dry myself with a big towel.|Banyodan sonra büyük bir havluyla kurulanırım.|Banyodan sonra büyük bir havlu ile kurulanırım.;Banyo yaptıktan sonra büyük bir havluyla kurulanırım.
+kid_home.s3_lost_key|We cannot open the door because we lost the key.|We can't open the door because we lost the key.;Because we lost the key, we cannot open the door.;Because we lost the key, we can't open the door.|Anahtarı kaybettiğimiz için kapıyı açamıyoruz.|Kapıyı açamıyoruz çünkü anahtarı kaybettik.;Anahtarı kaybettik, o yüzden kapıyı açamıyoruz.
+kid_home.s3_roof_nest|Two little birds made a nest on the roof of our house.|On the roof of our house two little birds made a nest.|İki küçük kuş evimizin çatısına yuva yaptı.|Evimizin çatısına iki küçük kuş yuva yaptı.

@@ -27,3 +27,50 @@ quality.cheap # cheap = ucuz
 quality.busy # busy = meşgul
 quality.correct # correct = doğru
 quality.wrong # wrong = yanlış
+@kind word adjective
+describing.high|high||yüksek|
+describing.low|low||alçak|düşük
+describing.warm|warm||ılık|sıcak
+describing.cool|cool||serin|
+describing.closed|closed||kapalı|
+describing.ready|ready||hazır|
+describing.great|great|wonderful|harika|
+describing.terrible|terrible|awful|berbat|korkunç
+describing.perfect|perfect||mükemmel|kusursuz
+describing.simple|simple||basit|
+describing.special|special||özel|
+describing.comfortable|comfortable|comfy|rahat|konforlu
+describing.careful|careful||dikkatli|
+describing.strange|strange|weird;odd|garip|tuhaf
+describing.lucky|lucky||şanslı|
+describing.handsome|handsome||yakışıklı|
+
+@sentences 1
+describing.s1_room_small|This room is very small.|This room is really small.|Bu oda çok küçük.|
+describing.s1_coffee_hot|Be careful, the coffee is hot.|Be careful, the coffee's hot.;The coffee is hot, be careful.;Careful, the coffee is hot.|Dikkat et, kahve sıcak.|Dikkatli ol, kahve sıcak.;Dikkat edin, kahve sıcak.
+sentence.a2_tired_yesterday # I was very tired yesterday. = Dün çok yorgundum.
+describing.s1_store_closed|The store is closed today.|Today the store is closed.;The shop is closed today.;Today the shop is closed.|Mağaza bugün kapalı.|Dükkân bugün kapalı.;Bugün mağaza kapalı.
+describing.s1_look_tired|You look very tired today.|Today you look very tired.;You look really tired today.|Bugün çok yorgun görünüyorsun.|Bugün çok yorgun görünüyorsunuz.
+sentence.a2_brother_older # My brother is older than me. = Ağabeyim benden büyük.
+describing.s1_room_ready|Our room is not ready yet.|Our room isn't ready yet.;Our room's not ready yet.;Our room is not yet ready.|Odamız henüz hazır değil.|Odamız daha hazır değil.
+describing.s1_great_idea|That is a great idea!|That's a great idea!;This is a great idea!;That is a wonderful idea!;That's a wonderful idea!|Bu harika bir fikir!|Harika bir fikir!
+
+@sentences 2
+describing.s2_hotel_cheap|The hotel was cheap, but the rooms were clean and comfortable.|The hotel was cheap, but the rooms were comfortable and clean.|Otel ucuzdu ama odalar temiz ve rahattı.|Otel ucuzdu ama odaları temiz ve rahattı.
+describing.s2_warm_cool|The weather is warm today, but the evenings are still cool.|Today the weather is warm, but the evenings are still cool.;It is warm today, but the evenings are still cool.;It's warm today, but the evenings are still cool.|Bugün hava ılık ama akşamlar hâlâ serin.|Hava bugün ılık ama akşamlar hâlâ serin.
+describing.s2_brother_handsome|My brother is tall and handsome, but he is very shy.|My brother is tall and handsome, but he's very shy.;My brother is handsome and tall, but he is very shy.;My brother is handsome and tall, but he's very shy.|Ağabeyim uzun boylu ve yakışıklı ama çok utangaç.|Erkek kardeşim uzun boylu ve yakışıklı ama çok utangaç.;Abim uzun boylu ve yakışıklı ama çok utangaç.
+describing.s2_old_house|Their house is old, but the kitchen is new and very big.|Their house is old, but the kitchen is very big and new.|Evleri eski ama mutfak yeni ve çok büyük.|Onların evi eski ama mutfağı yeni ve çok büyük.
+describing.s2_lucky_wedding|We were lucky because the weather was perfect on our wedding day.|We were lucky because the weather on our wedding day was perfect.;We were lucky because on our wedding day the weather was perfect.|Şanslıydık çünkü düğün günümüzde hava mükemmeldi.|Şanslıydık, düğün günümüzde hava harikaydı.
+describing.s2_long_hair|She has long black hair and beautiful green eyes.|He has long black hair and beautiful green eyes.|Uzun siyah saçları ve güzel yeşil gözleri var.|Onun uzun siyah saçları ve güzel yeşil gözleri var.
+describing.s2_english_easy|Is English an easy or a difficult language for you?|Is English a difficult or an easy language for you?;For you, is English an easy or a difficult language?|İngilizce senin için kolay mı yoksa zor bir dil mi?|İngilizce sizin için kolay mı yoksa zor bir dil mi?
+describing.s2_answer_perfect|Your answer is not wrong, but it is not perfect.|Your answer isn't wrong, but it isn't perfect.;Your answer is not wrong, but it's not perfect.;Your answer isn't wrong, but it's not perfect.;Your answer is not wrong, but it is not perfect either.;Your answer isn't wrong, but it isn't perfect either.;Your answer is not wrong, but it's not perfect either.;Your answer isn't wrong, but it's not perfect either.|Cevabın yanlış değil ama mükemmel de değil.|Cevabınız yanlış değil ama mükemmel de değil.
+
+@sentences 3
+describing.s3_apartment|The new apartment is small and a little expensive, but it is very clean and close to my office.|The new apartment is small and a little expensive, but it's very clean and close to my office.;The new apartment is small and a little expensive, but it is very clean and near my office.;The new apartment is small and a little expensive, but it's very clean and near my office.;The new flat is small and a little expensive, but it is very clean and close to my office.|Yeni daire küçük ve biraz pahalı ama çok temiz ve ofisime yakın.|Yeni ev küçük ve biraz pahalı ama çok temiz ve ofisime yakın.
+describing.s3_terrible_weather|The weather was terrible on Monday, but on Tuesday it was warm and sunny again.|On Monday the weather was terrible, but on Tuesday it was warm and sunny again.;The weather was terrible on Monday, but it was warm and sunny again on Tuesday.;On Monday the weather was terrible, but it was warm and sunny again on Tuesday.;The weather was awful on Monday, but on Tuesday it was warm and sunny again.|Pazartesi hava berbattı ama salı günü yine ılık ve güneşliydi.|Pazartesi hava berbattı ama salı yine ılık ve güneşliydi.
+describing.s3_grandfather_old|My grandfather is very old, but he is still strong and walks in the park every morning.|My grandfather is very old, but he's still strong and walks in the park every morning.;My grandfather is very old, but he is still strong and every morning walks in the park.;My grandfather is very old, but he is still strong and he walks in the park every morning.|Dedem çok yaşlı ama hâlâ güçlü ve her sabah parkta yürüyor.|Büyükbabam çok yaşlı ama hâlâ güçlü ve her sabah parkta yürüyüş yapıyor.
+describing.s3_careful_road|Be careful on this road at night, because it is narrow and very dangerous in winter.|Be careful on this road at night, because it's narrow and very dangerous in winter.;At night be careful on this road, because it is narrow and very dangerous in winter.;Be careful on this road at night, because it is narrow and very dangerous in the winter.|Geceleri bu yolda dikkatli ol, çünkü dar ve kışın çok tehlikeli.|Gece bu yolda dikkatli olun, çünkü yol dar ve kışın çok tehlikeli.
+describing.s3_special_day|Tomorrow is a special day for our family, because my little sister is getting married.|Tomorrow is a special day for our family, because my younger sister is getting married.;Tomorrow is a special day for our family, because my little sister is going to get married.;Tomorrow is a very special day for our family, because my little sister is getting married.|Yarın ailemiz için özel bir gün, çünkü küçük kız kardeşim evleniyor.|Yarın ailemiz için özel bir gün, kız kardeşim evleniyor.
+describing.s3_chair_comfortable|This chair is beautiful, but it is not very comfortable, so I want a different one.|This chair is beautiful, but it isn't very comfortable, so I want a different one.;This chair is beautiful, but it's not very comfortable, so I want a different one.;This chair is beautiful, but it is not very comfortable, so I would like a different one.;This chair is beautiful, but it is not very comfortable, so I'd like a different one.|Bu sandalye güzel ama pek rahat değil, bu yüzden başka bir tane istiyorum.|Bu sandalye güzel ama çok rahat değil, o yüzden başka bir tane istiyorum.
+describing.s3_busy_happy|My job is difficult and I am always busy, but I am happy because my colleagues are very kind.|My job is difficult and I'm always busy, but I'm happy because my colleagues are very kind.;My work is difficult and I am always busy, but I am happy because my colleagues are very kind.;My job is difficult and I am always busy, but I am happy because my colleagues are really kind.|İşim zor ve hep meşgulüm ama mutluyum çünkü iş arkadaşlarım çok nazik.|İşim zor ve her zaman meşgulüm ama mutluyum, çünkü iş arkadaşlarım çok kibar.
+describing.s3_lucky_tickets|We were very lucky, because we found cheap tickets for the last train to the city.|We were really lucky, because we found cheap tickets for the last train to the city.;We were very lucky, because we found cheap tickets for the last train into the city.|Çok şanslıydık, çünkü şehre giden son tren için ucuz bilet bulduk.|Çok şanslıydık, şehre giden son trene ucuz bilet bulduk.

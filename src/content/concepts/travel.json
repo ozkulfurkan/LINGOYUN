@@ -3,7 +3,7 @@
     "id": "travel.ticket",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -17,28 +17,28 @@
     "id": "travel.holiday",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "travel.map",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "travel.left",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "travel.right",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -52,35 +52,35 @@
     "id": "travel.here",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "travel.there",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "travel.near",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "travel.far",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "travel.suitcase",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -115,7 +115,7 @@
     "id": "travel.bus_stop",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -143,21 +143,21 @@
     "id": "travel.traffic",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "travel.bridge",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "travel.corner",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -206,7 +206,7 @@
     "id": "travel.turn",
     "topic": "travel",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {

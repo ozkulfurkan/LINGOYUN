@@ -3,25 +3,25 @@
     "id": "idiom.take_care",
     "topic": "idiom",
     "kind": "idiom",
-    "ageGroups": ["adult"]
+    "ageGroups": ["adult", "kid"]
   },
   {
     "id": "idiom.of_course",
     "topic": "idiom",
     "kind": "idiom",
-    "ageGroups": ["adult"]
+    "ageGroups": ["adult", "kid"]
   },
   {
     "id": "idiom.no_problem",
     "topic": "idiom",
     "kind": "idiom",
-    "ageGroups": ["adult"]
+    "ageGroups": ["adult", "kid"]
   },
   {
     "id": "idiom.good_luck",
     "topic": "idiom",
     "kind": "idiom",
-    "ageGroups": ["adult"]
+    "ageGroups": ["adult", "kid"]
   },
   {
     "id": "idiom.have_a_nice_day",
@@ -45,13 +45,13 @@
     "id": "idiom.get_well_soon",
     "topic": "idiom",
     "kind": "idiom",
-    "ageGroups": ["adult"]
+    "ageGroups": ["adult", "kid"]
   },
   {
     "id": "idiom.congratulations",
     "topic": "idiom",
     "kind": "idiom",
-    "ageGroups": ["adult"]
+    "ageGroups": ["adult", "kid"]
   },
   {
     "id": "idiom.wait_a_minute",

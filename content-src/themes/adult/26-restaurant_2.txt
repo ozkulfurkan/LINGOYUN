@@ -38,6 +38,24 @@ restaurant.pair # pair with = eşleştirmek
 restaurant.cater # cater = yemek hizmeti vermek
 restaurant.garnish # garnish = yemeği süslemek
 restaurant.accommodate # accommodate = ağırlamak
+@kind word adjective
+restaurant_2.undercooked|undercooked|not cooked enough|yeterince pişmemiş|iyi pişmemiş;çiğ kalmış
+restaurant_2.stale|stale||bayat|
+@kind word phrase
+restaurant_2.split_the_bill|split the bill|split the check|hesabı bölüşmek|hesabı bölmek
+@kind word noun
+restaurant_2.leftovers|leftovers||artan yemek|yemek artıkları
+restaurant_2.tap_water|tap water||musluk suyu|çeşme suyu
+
+@sentences 1
+restaurant_2.s1_chicken_undercooked|This chicken is undercooked.|The chicken is undercooked.;This chicken is not cooked enough.;This chicken isn't cooked enough.;The chicken is not cooked enough.;The chicken isn't cooked enough.|Bu tavuk yeterince pişmemiş.|Bu tavuk iyi pişmemiş.;Bu tavuk çiğ kalmış.
+restaurant_2.s1_bread_stale|I am afraid the bread is stale.|I'm afraid the bread is stale.;The bread is stale, I am afraid.;The bread is stale, I'm afraid.;Unfortunately, the bread is stale.|Maalesef ekmek bayat.|Korkarım ekmek bayat.
+restaurant_2.s1_split_bill|Can we split the bill?|Could we split the bill?;Can we split the check?;Could we split the check?|Hesabı bölüşebilir miyiz?|Hesabı bölebilir miyiz?
+restaurant_2.s1_tap_water|Is the tap water safe?|Is tap water safe?;Is the tap water safe to drink?|Musluk suyu güvenli mi?|Musluk suyu içilebilir mi?
+restaurant_2.s1_wrong_order|This is not my order.|This isn't my order.;That is not my order.;That isn't my order.|Bu benim siparişim değil.|
+restaurant_2.s1_waiting_hour|We have been waiting for an hour.|We've been waiting for an hour.;We have waited for an hour.;We've waited for an hour.;We have waited an hour.;We've waited an hour.|Bir saattir bekliyoruz.|
+restaurant_2.s1_soup_cold|My soup is completely cold.|My soup is totally cold.;My soup is ice cold.;My soup is stone cold.;My soup got cold.;My soup has gone cold.|Çorbam buz gibi olmuş.|Çorbam tamamen soğumuş.
+restaurant_2.s1_leftovers_home|Can I take the leftovers home?|Could I take the leftovers home?;Can I take home the leftovers?;Could I take home the leftovers?|Artan yemeği eve götürebilir miyim?|Artanları eve götürebilir miyim?
 
 @sentences 2
 restaurant.b2_quiet_anniversary # We would appreciate a quiet table, as we are celebrating our parents' fiftieth wedding anniversary with them tonight. = Bu akşam annemizle babamızın ellinci evlilik yıl dönümünü onlarla kutlayacağımız için sessiz bir masa rica ederiz.

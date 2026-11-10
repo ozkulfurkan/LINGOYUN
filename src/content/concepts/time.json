@@ -234,91 +234,91 @@
     "id": "time.time",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "time.hour",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "time.minute",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "time.afternoon",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "time.noon",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "time.now",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "time.later",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "time.early",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "time.late",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "time.always",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "time.sometimes",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "time.never",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
     "id": "time.weekend",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -346,7 +346,7 @@
     "id": "time.soon",
     "topic": "time",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {

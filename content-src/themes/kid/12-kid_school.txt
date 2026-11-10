@@ -17,9 +17,60 @@ home.book # book = kitap
 home.pencil # pencil = kurşun kalem
 home.crayon # crayon = boya kalemi
 home.scissors # scissors = makas
+school.question # question = soru
+school.answer # answer = cevap
+school.page # page = sayfa
+school.word # word = kelime
+school.english # English = İngilizce
+home.computer # computer = bilgisayar
+@kind word noun
+kid_school.backpack|backpack|school bag|sırt çantası|okul çantası
+kid_school.pencil_case|pencil case||kalem kutusu|kalemlik
+kid_school.sharpener|pencil sharpener|sharpener|kalemtıraş|
+kid_school.glue|glue||yapıştırıcı|tutkal
+kid_school.board|board|whiteboard;blackboard|tahta|yazı tahtası
+kid_school.paper|paper||kâğıt|kağıt
+kid_school.classmate|classmate||sınıf arkadaşı|
+kid_school.test|test|exam|sınav|
+kid_school.letter|letter||harf|
+kid_school.math|math||matematik|
+kid_school.science|science||fen bilimleri|fen
+kid_school.bell|bell||zil|
+kid_school.recess|recess|break|teneffüs|
+kid_school.lunchbox|lunchbox||beslenme çantası|
+kid_school.paintbrush|paintbrush||boya fırçası|fırça
+kid_school.marker|marker||keçeli kalem|
+kid_school.calculator|calculator||hesap makinesi|
+kid_school.globe|globe||dünya küresi|küre
+kid_school.sticker|sticker||çıkartma|
+kid_school.principal|principal||okul müdürü|müdür
 
 @sentences 1
 sentence.l2_go_school # We go to school. = Biz okula gideriz.
 sentence.l2_write_notebook # I write in my notebook. = Defterime yazarım.
 sentence.l3_when_lesson # When is the lesson? = Ders ne zaman?
 sentence.l3_homework_difficult # The homework is difficult. = Ödev zor.
+kid_school.s1_open_books|Open your books.||Kitaplarınızı açın.|Kitaplarını açın.;Kitabını aç.
+kid_school.s1_red_pencil|I have a red pencil.||Kırmızı bir kurşun kalemim var.|Bir kırmızı kurşun kalemim var.;Kırmızı bir kalemim var.;Kırmızı kalemim var.
+kid_school.s1_bell_ringing|The bell is ringing.||Zil çalıyor.|
+kid_school.s1_need_eraser|I need an eraser.||Bir silgiye ihtiyacım var.|Silgiye ihtiyacım var.;Bana bir silgi lazım.;Bir silgi lazım.
+
+@sentences 2
+kid_school.s2_teacher_board|The teacher writes on the board.||Öğretmen tahtaya yazar.|Öğretmen tahtaya yazıyor.
+kid_school.s2_backpack_heavy|My backpack is very heavy today.|Today my backpack is very heavy.|Bugün sırt çantam çok ağır.|Sırt çantam bugün çok ağır.;Bugün çantam çok ağır.
+kid_school.s2_recess_outside|We play outside at recess.|At recess we play outside.;At recess, we play outside.|Teneffüste dışarıda oynarız.|Teneffüste dışarıda oynuyoruz.;Teneffüste bahçede oynarız.
+kid_school.s2_raise_hand|Raise your hand to ask a question.|To ask a question, raise your hand.|Soru sormak için elini kaldır.|Soru sormak için parmak kaldır.
+kid_school.s2_math_favorite|Math is my favorite subject.|My favorite subject is math.|Matematik en sevdiğim ders.|En sevdiğim ders matematik.;Matematik en sevdiğim derstir.
+kid_school.s2_words_page|Please read the words on page ten.|Read the words on page ten, please.|Lütfen onuncu sayfadaki kelimeleri oku.|Lütfen on numaralı sayfadaki kelimeleri oku.;Lütfen onuncu sayfadaki kelimeleri okuyun.;Onuncu sayfadaki kelimeleri oku lütfen.
+kid_school.s2_cut_paper|I cut the paper with scissors.||Kâğıdı makasla keserim.|Kağıdı makasla keserim.;Kâğıdı makasla kesiyorum.;Kağıdı makasla kesiyorum.
+kid_school.s2_learn_english|We learn English at school.|At school we learn English.;At school, we learn English.|Okulda İngilizce öğreniyoruz.|Okulda İngilizce öğreniriz.;Biz okulda İngilizce öğreniyoruz.
+
+@sentences 3
+kid_school.s3_math_test|We have a math test tomorrow, so I am studying.|We have a math test tomorrow, so I'm studying.;Tomorrow we have a math test, so I am studying.;Tomorrow we have a math test, so I'm studying.|Yarın matematik sınavımız var, o yüzden ders çalışıyorum.|Yarın matematik sınavımız var, bu yüzden ders çalışıyorum.;Yarın matematik sınavımız var, o yüzden çalışıyorum.
+kid_school.s3_pencil_case|In my pencil case I have pencils, an eraser and a sharpener.|I have pencils, an eraser and a sharpener in my pencil case.;In my pencil case, I have pencils, an eraser and a sharpener.;In my pencil case I have pencils, a sharpener and an eraser.;In my pencil case I have an eraser, pencils and a sharpener.;In my pencil case I have an eraser, a sharpener and pencils.;In my pencil case I have a sharpener, pencils and an eraser.;In my pencil case I have a sharpener, an eraser and pencils.;I have pencils, a sharpener and an eraser in my pencil case.;I have an eraser, pencils and a sharpener in my pencil case.;I have an eraser, a sharpener and pencils in my pencil case.;I have a sharpener, pencils and an eraser in my pencil case.;I have a sharpener, an eraser and pencils in my pencil case.|Kalem kutumda kurşun kalemler, bir silgi ve bir kalemtıraş var.|Kalem kutumda kalemler, bir silgi ve bir kalemtıraş var.;Kalem kutumda kurşun kalemler, silgi ve kalemtıraş var.
+kid_school.s3_map_wall|There is a big map of the world on the classroom wall.|On the classroom wall there is a big map of the world.;On the classroom wall, there is a big map of the world.|Sınıfın duvarında büyük bir dünya haritası var.|Sınıf duvarında büyük bir dünya haritası var.
+kid_school.s3_answer_question|The teacher asks a question and I answer it.||Öğretmen bir soru sorar ve ben cevaplarım.|Öğretmen soru sorar, ben de cevaplarım.;Öğretmen bir soru sorar ve ben onu cevaplarım.;Öğretmen bir soru soruyor ve ben cevaplıyorum.
+kid_school.s3_computers_friday|On Fridays we use the computers in our classroom.|We use the computers in our classroom on Fridays.;On Fridays, we use the computers in our classroom.|Cuma günleri sınıfımızdaki bilgisayarları kullanırız.|Cumaları sınıfımızdaki bilgisayarları kullanırız.;Cuma günleri sınıfımızda bilgisayar kullanırız.
+kid_school.s3_lunchbox|My mom puts an apple and a sandwich in my lunchbox.|My mom puts a sandwich and an apple in my lunchbox.|Annem beslenme çantama bir elma ve bir sandviç koyar.|Annem beslenme çantama elma ve sandviç koyar.;Annem beslenme çantama bir sandviç ve bir elma koyar.;Annem beslenme çantama bir elma ve bir sandviç koyuyor.
+kid_school.s3_homework_tv|I always do my homework before I watch TV.|Before I watch TV I always do my homework.;Before I watch TV, I always do my homework.|Televizyon izlemeden önce her zaman ödevimi yaparım.|Televizyon izlemeden önce hep ödevimi yaparım.;Her zaman televizyon izlemeden önce ödevimi yaparım.;Televizyon seyretmeden önce her zaman ödevimi yaparım.
+kid_school.s3_alphabet|My little brother is learning the letters of the alphabet.||Küçük kardeşim alfabedeki harfleri öğreniyor.|Küçük erkek kardeşim alfabedeki harfleri öğreniyor.;Erkek kardeşim alfabedeki harfleri öğreniyor.;Küçük kardeşim alfabenin harflerini öğreniyor.

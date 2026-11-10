@@ -28,3 +28,49 @@ body.elbow # elbow = dirsek
 body.tummy # tummy = karın
 body.back # back = sırt
 body.toe # toe = ayak parmağı
+@kind word noun
+kid_body.body|body||vücut|beden
+kid_body.thumb|thumb||başparmak|baş parmak
+kid_body.nail|nail|fingernail|tırnak|
+kid_body.muscle|muscle||kas|
+kid_body.bone|bone||kemik|
+kid_body.skin|skin||deri|cilt
+kid_body.brain|brain||beyin|
+kid_body.forehead|forehead||alın|
+kid_body.eyelash|eyelash||kirpik|
+kid_body.wrist|wrist||bilek|el bileği
+kid_body.ankle|ankle||ayak bileği|
+kid_body.chest|chest||göğüs|
+kid_body.heel|heel||topuk|
+kid_body.throat|throat||boğaz|
+kid_body.hip|hip||kalça|
+
+@sentences 1
+kid_body.s1_two_eyes|I have two eyes.||İki gözüm var.|Benim iki gözüm var.
+kid_body.s1_hair_long|Her hair is long.|His hair is long.|Onun saçı uzun.|Saçı uzun.;Onun saçları uzun.;Saçları uzun.
+kid_body.s1_wash_face|I wash my face.||Yüzümü yıkarım.|Yüzümü yıkıyorum.;Ben yüzümü yıkarım.;Ben yüzümü yıkıyorum.
+kid_body.s1_touch_nose|Touch your nose!||Burnuna dokun!|
+kid_body.s1_knee_hurts|My knee hurts.||Dizim ağrıyor.|Dizim acıyor.
+kid_body.s1_clap_hands|Clap your hands!||Ellerini çırp!|El çırp!
+kid_body.s1_ten_fingers|I have ten fingers.||On parmağım var.|Benim on parmağım var.
+kid_body.s1_brush_teeth|I brush my teeth.||Dişlerimi fırçalarım.|Dişlerimi fırçalıyorum.;Ben dişlerimi fırçalarım.;Ben dişlerimi fırçalıyorum.
+
+@sentences 2
+kid_body.s2_heart_beats|My heart beats fast when I run.|When I run my heart beats fast.;When I run, my heart beats fast.|Koşunca kalbim hızlı atar.|Koşarken kalbim hızlı atar.;Koştuğumda kalbim hızlı atar.;Koşunca kalbim hızlı atıyor.
+kid_body.s2_wash_hands_eat|I wash my hands before I eat.|Before I eat I wash my hands.;Before I eat, I wash my hands.|Yemekten önce ellerimi yıkarım.|Yemek yemeden önce ellerimi yıkarım.;Yemeden önce ellerimi yıkarım.
+kid_body.s2_blue_eyes|My sister has big blue eyes.||Kız kardeşimin büyük mavi gözleri var.|Kardeşimin büyük mavi gözleri var.;Ablamın büyük mavi gözleri var.
+kid_body.s2_one_foot|I can stand on one foot.||Tek ayak üstünde durabilirim.|Tek ayağımın üstünde durabilirim.;Bir ayak üstünde durabilirim.;Tek ayak üzerinde durabilirim.
+kid_body.s2_hurt_arm|He fell and hurt his arm.|She fell and hurt her arm.|Düştü ve kolunu incitti.|O düştü ve kolunu incitti.;Düşüp kolunu incitti.
+kid_body.s2_hands_knees|Put your hands on your knees.||Ellerini dizlerine koy.|Ellerini dizlerine koy!
+kid_body.s2_bones_strong|Milk makes our bones and teeth strong.|Milk makes our teeth and bones strong.|Süt kemiklerimizi ve dişlerimizi güçlendirir.|Süt kemiklerimizi ve dişlerimizi güçlü yapar.;Süt dişlerimizi ve kemiklerimizi güçlendirir.
+kid_body.s2_close_eyes|Close your eyes and count to ten.||Gözlerini kapat ve ona kadar say.|Gözlerini kapa ve ona kadar say.;Gözlerini kapat, ona kadar say.
+
+@sentences 3
+kid_body.s3_see_hear|We see with our eyes and hear with our ears.|We hear with our ears and see with our eyes.|Gözlerimizle görür, kulaklarımızla duyarız.|Gözlerimizle görürüz ve kulaklarımızla duyarız.;Kulaklarımızla duyar, gözlerimizle görürüz.
+kid_body.s3_brush_twice|I brush my teeth every morning and every night.|Every morning and every night I brush my teeth.;I brush my teeth every night and every morning.|Her sabah ve her gece dişlerimi fırçalarım.|Her sabah ve her akşam dişlerimi fırçalarım.;Dişlerimi her sabah ve her gece fırçalarım.;Dişlerimi her sabah ve her akşam fırçalarım.
+kid_body.s3_heart_chest|Your heart is in your chest and it never stops.||Kalbin göğsündedir ve hiç durmaz.|Kalbin göğsünde ve hiç durmaz.;Kalbin göğsündedir ve asla durmaz.;Kalbin göğsünde ve asla durmaz.
+kid_body.s3_brain_think|We use our brain to think, learn and remember.|We use our brain to think, remember and learn.;We use our brain to learn, think and remember.;We use our brain to learn, remember and think.;We use our brain to remember, think and learn.;We use our brain to remember, learn and think.;To think, learn and remember, we use our brain.;To think, remember and learn, we use our brain.;To learn, think and remember, we use our brain.;To learn, remember and think, we use our brain.;To remember, think and learn, we use our brain.;To remember, learn and think, we use our brain.|Düşünmek, öğrenmek ve hatırlamak için beynimizi kullanırız.|Beynimizi düşünmek, öğrenmek ve hatırlamak için kullanırız.
+kid_body.s3_cut_nails|My mom cuts my nails every Sunday after my bath.|Every Sunday after my bath my mom cuts my nails.;My mom cuts my nails after my bath every Sunday.|Annem her pazar banyodan sonra tırnaklarımı keser.|Annem tırnaklarımı her pazar banyodan sonra keser.;Annem her pazar banyodan sonra tırnaklarımı kesiyor.
+kid_body.s3_tooth_dentist|My tooth hurts, so we are going to the dentist.|My tooth hurts, so we're going to the dentist.|Dişim ağrıyor, bu yüzden dişçiye gidiyoruz.|Dişim ağrıyor, o yüzden dişçiye gidiyoruz.;Dişim ağrıyor, bu yüzden diş hekimine gidiyoruz.;Dişim ağrıyor, o yüzden diş hekimine gidiyoruz.
+kid_body.s3_skin_sun|We wear a hat to protect our skin from the sun.|To protect our skin from the sun, we wear a hat.|Cildimizi güneşten korumak için şapka takarız.|Derimizi güneşten korumak için şapka takarız.;Cildimizi güneşten korumak için şapka giyeriz.
+kid_body.s3_hurt_ankle|He hurt his ankle when he played soccer.|She hurt her ankle when she played soccer.;When he played soccer, he hurt his ankle.;When she played soccer, she hurt her ankle.|Futbol oynarken ayak bileğini incitti.|O futbol oynarken ayak bileğini incitti.;Futbol oynarken bileğini incitti.

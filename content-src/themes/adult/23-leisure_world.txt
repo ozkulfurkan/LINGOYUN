@@ -40,8 +40,42 @@ nature.north # north = kuzey
 nature.south # south = güney
 nature.east # east = doğu
 nature.west # west = batı
+@kind word noun
+leisure_world.exhibition|exhibition|exhibit|sergi|
+leisure_world.painting|painting||tablo|resim
+leisure_world.hiking|hiking|hike|doğa yürüyüşü|
 
 @sentences 1
 sentence.a2_cannot_party # I cannot come to the party. = Partiye gelemem.
 sentence.a2_gift_wife # I bought a gift for my wife. = Eşim için bir hediye aldım.
 sentence.a2_photos_beach # I took many photos at the beach. = Plajda çok fotoğraf çektim.
+leisure_world.s1_love_song|I love this song.|I really love this song.;I love this song so much.;I love this song very much.;I love this song a lot.|Bu şarkıyı çok seviyorum.|Bu şarkıya bayılıyorum.
+leisure_world.s1_sky_clear|The sky is clear tonight.|Tonight the sky is clear.|Bu gece gökyüzü açık.|
+leisure_world.s1_hobby|What is your favorite hobby?|What's your favorite hobby?;What is your favourite hobby?;What's your favourite hobby?|En sevdiğin hobi ne?|En sevdiğiniz hobi nedir?
+leisure_world.s1_storm_coming|A big storm is coming.|A big storm is on the way.|Büyük bir fırtına geliyor.|
+leisure_world.s1_hiking_sunday|We go hiking every Sunday.|Every Sunday we go hiking.|Her pazar doğa yürüyüşüne gideriz.|Her pazar doğa yürüyüşü yapıyoruz.
+sentence.a2_cinema_yesterday # moved from shopping/travel (LNG-45)
+sentence.a2_see_film # moved from shopping/travel (LNG-45)
+sentence.a2_book_interesting # moved from shopping/travel (LNG-45)
+sentence.a2_think_boring # moved from shopping/travel (LNG-45)
+sentence.a2_film_weekend # moved from shopping/travel (LNG-45)
+
+@sentences 2
+leisure_world.s2_concert_tickets|We bought two tickets for the concert on Saturday night.|We bought two tickets for the concert on Saturday evening.;We bought two concert tickets for Saturday night.|Cumartesi gecesi konser için iki bilet aldık.|Cumartesi akşamki konser için iki bilet aldık.
+leisure_world.s2_island_ferry|You can only reach the island by boat in winter.|In winter you can only reach the island by boat.;In winter, you can only reach the island by boat.|Kışın adaya sadece tekneyle gidilebilir.|Kışın adaya yalnızca tekneyle ulaşabilirsin.
+leisure_world.s2_fog_flight|Our flight was late because of the thick fog this morning.|Our flight was late this morning because of the thick fog.;Our flight was delayed because of the thick fog this morning.;Our flight was delayed this morning because of the thick fog.|Bu sabah yoğun sis yüzünden uçağımız rötar yaptı.|Bu sabahki yoğun sis yüzünden uçuşumuz gecikti.
+leisure_world.s2_temperature_degrees|The temperature will drop to five degrees below zero tonight.|Tonight the temperature will drop to five degrees below zero.;The temperature will fall to five degrees below zero tonight.;Tonight the temperature will fall to five degrees below zero.|Bu gece sıcaklık sıfırın altında beş dereceye düşecek.|Sıcaklık bu gece eksi beş dereceye düşecek.
+leisure_world.s2_exhibition_paintings|There is a new exhibition of old paintings at the museum.|At the museum there is a new exhibition of old paintings.;There's a new exhibition of old paintings at the museum.;At the museum there's a new exhibition of old paintings.|Müzede eski tablolardan oluşan yeni bir sergi var.|Müzede eski tabloların yer aldığı yeni bir sergi var.
+leisure_world.s2_picnic_lake|On Sunday we had a picnic next to the lake.|We had a picnic next to the lake on Sunday.;On Sunday we had a picnic by the lake.;We had a picnic by the lake on Sunday.|Pazar günü göl kenarında piknik yaptık.|
+leisure_world.s2_newspaper_morning|My father reads the newspaper every morning with his tea.|Every morning my father reads the newspaper with his tea.|Babam her sabah çayıyla birlikte gazete okur.|Babam her sabah çayını içerken gazete okur.
+leisure_world.s2_horses_village|My uncle has three horses and some sheep in the village.|In the village my uncle has three horses and some sheep.;My uncle has three horses and a few sheep in the village.|Amcamın köyde üç atı ve birkaç koyunu var.|
+
+@sentences 3
+leisure_world.s3_football_match|My husband watches every soccer game on TV, but he has never played a sport in his life.|My wife watches every soccer game on TV, but she has never played a sport in her life.;My husband watches every football match on TV, but he has never played a sport in his life.;My wife watches every football match on TV, but she has never played a sport in her life.;My husband watches every soccer match on TV, but he has never played a sport in his life.;My wife watches every soccer match on TV, but she has never played a sport in her life.|Eşim televizyondaki her futbol maçını izler ama hayatında hiç spor yapmamıştır.|
+leisure_world.s3_forest_river|We walked through the forest for three hours until we finally reached a small river with cold water.|We walked through the forest for three hours until we finally got to a small river with cold water.|Sonunda soğuk sulu küçük bir nehre ulaşana kadar üç saat boyunca ormanda yürüdük.|
+leisure_world.s3_environment|If we want to protect the environment, we should use less plastic and travel by bus or train.|We should use less plastic and travel by bus or train if we want to protect the environment.;If we want to protect the environment we should use less plastic and travel by train or bus.|Çevreyi korumak istiyorsak daha az plastik kullanmalı, otobüs ya da trenle seyahat etmeliyiz.|
+leisure_world.s3_birthday_party|For her fortieth birthday, her friends organized a surprise party in a small restaurant by the beach.|For his fortieth birthday, his friends organized a surprise party in a small restaurant by the beach.;For her fortieth birthday her friends organised a surprise party in a small restaurant by the beach.;For his fortieth birthday his friends organised a surprise party in a small restaurant by the beach.|Kırkıncı doğum günü için arkadaşları plaj kenarındaki küçük bir restoranda sürpriz parti düzenledi.|
+leisure_world.s3_north_south|The north of the country is cold and rainy, while the south is warm and sunny almost all year.|The north of the country is cold and rainy, but the south is warm and sunny almost all year.;The north of the country is cold and rainy while the south is warm and sunny almost all year.|Ülkenin kuzeyi soğuk ve yağmurlu, güneyi ise neredeyse bütün yıl sıcak ve güneşli.|
+leisure_world.s3_magazine_story|I read an interesting story in a magazine about a woman who traveled around the world by bicycle.|I read an interesting story in a magazine about a woman who travelled around the world by bicycle.;I read an interesting story in a magazine about a woman who traveled around the world by bike.;I read an interesting story in a magazine about a woman who travelled around the world by bike.|Bir dergide bisikletle dünyayı dolaşan bir kadın hakkında ilginç bir hikâye okudum.|
+leisure_world.s3_theater_weekend|We wanted to go to the theater on the weekend, but all the tickets were already sold out.|We wanted to go to the theatre at the weekend, but all the tickets were already sold out.;We wanted to go to the theater on the weekend but all the tickets were already sold out.;We wanted to go to the theatre on the weekend, but all the tickets were already sold out.|Hafta sonu tiyatroya gitmek istedik ama biletlerin hepsi çoktan tükenmişti.|
+leisure_world.s3_moon_east|In the evening we sat on the balcony and watched the moon rise slowly over the hills in the east.|In the evening, we sat on the balcony and watched the moon rise slowly over the hills in the east.;We sat on the balcony in the evening and watched the moon slowly rise over the hills in the east.|Akşam balkonda oturup ayın doğudaki tepelerin üzerinde yavaşça yükselişini izledik.|

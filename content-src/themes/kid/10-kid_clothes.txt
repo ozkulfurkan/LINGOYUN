@@ -28,7 +28,49 @@ clothes.belt # belt = kemer
 clothes.umbrella # umbrella = şemsiye
 clothes.button # button = düğme
 clothes.zipper # zipper = fermuar
+@kind word noun
+kid_clothes.sneakers|sneakers||spor ayakkabı|
+kid_clothes.sandals|sandals||sandalet|
+kid_clothes.jeans|jeans||kot pantolon|kot
+kid_clothes.vest|vest||yelek|
+kid_clothes.tie|tie|necktie|kravat|
+kid_clothes.cap|cap|baseball cap|kep|beyzbol şapkası
+kid_clothes.sunglasses|sunglasses||güneş gözlüğü|
+kid_clothes.pocket|pocket||cep|
+kid_clothes.watch|watch|wristwatch|kol saati|
+kid_clothes.ring|ring||yüzük|
+kid_clothes.necklace|necklace||kolye|
+kid_clothes.earrings|earrings||küpe|küpeler
+kid_clothes.bracelet|bracelet||bilezik|bileklik
+kid_clothes.uniform|uniform|school uniform|üniforma|forma;okul forması
+kid_clothes.apron|apron||mutfak önlüğü|önlük
 
 @sentences 1
 sentence.l2_shoes_new # My shoes are new. = Ayakkabılarım yeni.
 sentence.l2_phone_bag # The phone is in my bag. = Telefon çantamda.
+kid_clothes.s1_wear_hat|I wear a hat.||Şapka takarım.|Ben şapka takarım.;Şapka giyerim.;Şapka takıyorum.;Bir şapka takıyorum.
+kid_clothes.s1_dress_red|Her dress is red.||Onun elbisesi kırmızı.|Elbisesi kırmızı.
+kid_clothes.s1_put_on_socks|Put on your socks.|Put your socks on.|Çoraplarını giy.|Çoraplarını giy!
+kid_clothes.s1_coat_warm|My coat is warm.||Montum sıcak.|Benim montum sıcak.;Montum sıcacık.
+kid_clothes.s1_where_scarf|Where is my scarf?||Atkım nerede?|Benim atkım nerede?
+kid_clothes.s1_like_jacket|I like your jacket.||Ceketini beğendim.|Senin ceketini beğendim.;Ceketini sevdim.
+
+@sentences 2
+kid_clothes.s2_raincoat_rain|I wear my raincoat when it rains.|When it rains I wear my raincoat.;When it rains, I wear my raincoat.|Yağmur yağınca yağmurluğumu giyerim.|Yağmur yağdığında yağmurluğumu giyerim.
+kid_clothes.s2_gloves_cold|It is cold, so wear your gloves.|It's cold, so wear your gloves.|Hava soğuk, eldivenlerini tak.|Hava soğuk, eldivenlerini giy.;Hava soğuk, o yüzden eldivenlerini tak.;Hava soğuk, bu yüzden eldivenlerini tak.
+kid_clothes.s2_tie_shoes|Can you help me tie my shoes?||Ayakkabılarımı bağlamama yardım eder misin?|Ayakkabımı bağlamama yardım eder misin?;Ayakkabı bağcıklarımı bağlamama yardım eder misin?
+kid_clothes.s2_pajamas_bed|I put on my pajamas before bed.|Before bed I put on my pajamas.;Before bed, I put on my pajamas.;I put my pajamas on before bed.|Yatmadan önce pijamamı giyerim.|Yatmadan önce pijamalarımı giyerim.;Uyumadan önce pijamamı giyerim.
+kid_clothes.s2_swimsuit_beach|We take our swimsuits to the beach.||Plaja mayolarımızı götürürüz.|Mayolarımızı plaja götürürüz.;Denize mayolarımızı götürürüz.
+kid_clothes.s2_button_shirt|A button fell off my shirt.||Gömleğimin bir düğmesi düştü.|Gömleğimden bir düğme düştü.;Gömleğimin düğmesi düştü.
+kid_clothes.s2_dad_sunglasses|My dad wears sunglasses in the summer.|In the summer my dad wears sunglasses.;In the summer, my dad wears sunglasses.|Babam yazın güneş gözlüğü takar.|Babam yazın güneş gözlüğü takıyor.;Babam yaz aylarında güneş gözlüğü takar.
+kid_clothes.s2_school_uniform|We wear a uniform at school.|At school we wear a uniform.;At school, we wear a uniform.|Okulda üniforma giyeriz.|Okulda forma giyeriz.;Biz okulda üniforma giyeriz.
+
+@sentences 3
+kid_clothes.s3_zip_coat|Zip up your coat because it is very cold outside.|Zip up your coat because it's very cold outside.;Zip your coat up because it is very cold outside.;Zip your coat up because it's very cold outside.|Montunun fermuarını çek çünkü dışarısı çok soğuk.|Montunun fermuarını kapat çünkü dışarısı çok soğuk.;Montunun fermuarını çek, dışarısı çok soğuk.
+kid_clothes.s3_party_dress|She is going to wear her new blue dress to the party.|She's going to wear her new blue dress to the party.|Partiye yeni mavi elbisesini giyecek.|O partiye yeni mavi elbisesini giyecek.
+kid_clothes.s3_winter_boots|In winter I wear warm boots and a thick sweater.|I wear warm boots and a thick sweater in winter.;In winter, I wear warm boots and a thick sweater.;In winter I wear a thick sweater and warm boots.;I wear a thick sweater and warm boots in winter.|Kışın sıcak çizmeler ve kalın bir kazak giyerim.|Kışın sıcak bir çizme ve kalın bir kazak giyerim.;Kışın sıcak çizme ve kalın kazak giyerim.
+kid_clothes.s3_jeans_pocket|There is a small ball in the pocket of my jeans.|In the pocket of my jeans, there is a small ball.|Kot pantolonumun cebinde küçük bir top var.|Kotumun cebinde küçük bir top var.
+kid_clothes.s3_pants_belt|These pants are too big, so I need a belt.||Bu pantolon çok bol, o yüzden kemere ihtiyacım var.|Bu pantolon çok bol, bu yüzden kemere ihtiyacım var.;Bu pantolon çok büyük, o yüzden kemere ihtiyacım var.;Bu pantolon bana büyük, o yüzden bir kemer lazım.
+kid_clothes.s3_grandma_sweater|My grandmother made this red sweater for me last winter.|Last winter my grandmother made this red sweater for me.|Büyükannem bu kırmızı kazağı geçen kış bana ördü.|Anneannem bu kırmızı kazağı geçen kış bana ördü.;Babaannem bu kırmızı kazağı geçen kış bana ördü.;Büyükannem geçen kış bana bu kırmızı kazağı ördü.;Anneannem geçen kış bana bu kırmızı kazağı ördü.;Babaannem geçen kış bana bu kırmızı kazağı ördü.;Büyükannem geçen kış bana bu kırmızı kazağı yaptı.
+kid_clothes.s3_slippers_home|At home I take off my shoes and put on my slippers.|I take off my shoes and put on my slippers at home.;At home I take my shoes off and put my slippers on.;At home, I take off my shoes and put on my slippers.|Evde ayakkabılarımı çıkarır, terliklerimi giyerim.|Evde ayakkabılarımı çıkarıp terliklerimi giyerim.;Evde ayakkabılarımı çıkarırım ve terliklerimi giyerim.
+kid_clothes.s3_lost_glove|I lost one of my gloves in the park yesterday.|Yesterday I lost one of my gloves in the park.;Yesterday in the park I lost one of my gloves.;I lost one of my gloves yesterday in the park.|Dün parkta eldivenlerimden birini kaybettim.|Dün parkta bir eldivenimi kaybettim.;Eldivenlerimden birini dün parkta kaybettim.

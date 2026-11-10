@@ -24,7 +24,54 @@ nature.rain # rain = yağmur
 nature.snow # snow = kar
 nature.wind # wind = rüzgâr
 nature.cloud # cloud = bulut
+nature.weather # weather = hava
+nature.storm # storm = fırtına
+nature.fog # fog = sis
+@kind word adjective
+kid_months_weather.sunny|sunny||güneşli|
+kid_months_weather.rainy|rainy||yağmurlu|
+kid_months_weather.snowy|snowy||karlı|
+kid_months_weather.cloudy|cloudy||bulutlu|
+kid_months_weather.windy|windy||rüzgârlı|rüzgarlı
+kid_months_weather.warm|warm||ılık|
+kid_months_weather.cool|cool||serin|
+quality.wet # wet = ıslak
+quality.dry # dry = kuru
+@kind word noun
+kid_months_weather.snowman|snowman||kardan adam|
+kid_months_weather.thunder|thunder||gök gürültüsü|
+nature.temperature # temperature = sıcaklık
+nature.degree # degree = derece
+leisure.birthday # birthday = doğum günü
+travel.holiday # vacation = tatil
+leisure.picnic # picnic = piknik
 
 @sentences 1
 sentence.l3_swim_summer # We swim in summer. = Yazın yüzeriz.
 sentence.l3_snows_winter # It snows in winter. = Kışın kar yağar.
+kid_months_weather.s1_sunny_today|It is sunny today.|Today it is sunny.;It's sunny today.|Bugün hava güneşli.|Bugün güneşli.
+kid_months_weather.s1_rains_april|It rains in April.|In April it rains.|Nisanda yağmur yağar.|Nisan ayında yağmur yağar.
+kid_months_weather.s1_birthday_may|My birthday is in May.||Doğum günüm mayısta.|Doğum günüm mayıs ayında.
+kid_months_weather.s1_weather_cold|The weather is cold.||Hava soğuk.|Hava soğuktur.
+kid_months_weather.s1_wind_strong|The wind is strong.||Rüzgâr güçlü.|Rüzgar güçlü.;Rüzgâr sert.;Rüzgar sert.
+kid_months_weather.s1_snowman|We make a snowman.||Kardan adam yaparız.|Biz kardan adam yaparız.;Kardan adam yapıyoruz.
+
+@sentences 2
+kid_months_weather.s2_umbrella|I take my umbrella on rainy days.|On rainy days I take my umbrella.;On rainy days, I take my umbrella.|Yağmurlu günlerde şemsiyemi alırım.|Yağmurlu günlerde şemsiyemi yanıma alırım.
+kid_months_weather.s2_summer_vacation|Our summer vacation starts in June.|In June our summer vacation starts.|Yaz tatilimiz haziranda başlar.|Yaz tatilimiz haziran ayında başlar.
+kid_months_weather.s2_leaves_fall|The leaves fall from the trees in fall.|In fall the leaves fall from the trees.;The leaves fall from the trees in autumn.;In autumn the leaves fall from the trees.|Sonbaharda yapraklar ağaçlardan düşer.|Sonbaharda ağaçlardan yapraklar düşer.;Yapraklar sonbaharda ağaçlardan düşer.
+kid_months_weather.s2_fog_morning|There is a lot of fog this morning.|This morning there is a lot of fog.|Bu sabah çok sis var.|Bu sabah hava çok sisli.
+kid_months_weather.s2_storm_thunder|I hear thunder during the storm.|During the storm I hear thunder.;During the storm, I hear thunder.|Fırtınada gök gürültüsü duyuyorum.|Fırtına sırasında gök gürültüsü duyuyorum.;Fırtınada gök gürültüsünü duyuyorum.
+kid_months_weather.s2_wet_shoes|My shoes are wet from the rain.||Ayakkabılarım yağmurdan ıslandı.|Ayakkabılarım yağmurdan ıslak.
+kid_months_weather.s2_picnic_warm|We have a picnic on warm days.|On warm days we have a picnic.;On warm days, we have a picnic.|Ilık günlerde piknik yaparız.|Sıcak günlerde piknik yaparız.;Ilık günlerde piknik yapıyoruz.
+kid_months_weather.s2_december_cold|December and January are very cold.|January and December are very cold.|Aralık ve ocak çok soğuk.|Ocak ve aralık çok soğuk.;Aralık ve ocak çok soğuktur.;Aralık ve ocak ayları çok soğuktur.
+
+@sentences 3
+kid_months_weather.s3_rainbow|After the rain, we can see a rainbow in the sky.|After the rain we can see a rainbow in the sky.;We can see a rainbow in the sky after the rain.|Yağmurdan sonra gökyüzünde bir gökkuşağı görebiliriz.|Yağmurdan sonra gökyüzünde gökkuşağı görebiliriz.
+kid_months_weather.s3_temperature|Today the temperature is twenty degrees, so it is warm.|The temperature is twenty degrees today, so it is warm.;Today the temperature is twenty degrees, so it's warm.|Bugün sıcaklık yirmi derece, yani hava ılık.|Bugün sıcaklık yirmi derece, bu yüzden hava ılık.;Bugün hava yirmi derece, yani ılık.
+kid_months_weather.s3_snow_school|When it snows a lot, we do not go to school.|When it snows a lot we do not go to school.;When it snows a lot, we don't go to school.;We do not go to school when it snows a lot.;We don't go to school when it snows a lot.|Çok kar yağınca okula gitmeyiz.|Çok kar yağdığında okula gitmeyiz.
+kid_months_weather.s3_winter_coat|In winter I wear my coat, my scarf and my gloves.|In winter, I wear my coat, my scarf and my gloves.;I wear my coat, my scarf and my gloves in winter.;In winter I wear my coat, my gloves and my scarf.;In winter I wear my scarf, my coat and my gloves.;In winter I wear my scarf, my gloves and my coat.;In winter I wear my gloves, my coat and my scarf.;In winter I wear my gloves, my scarf and my coat.;I wear my coat, my gloves and my scarf in winter.;I wear my scarf, my coat and my gloves in winter.;I wear my scarf, my gloves and my coat in winter.;I wear my gloves, my coat and my scarf in winter.;I wear my gloves, my scarf and my coat in winter.|Kışın montumu giyer, atkımı ve eldivenlerimi takarım.|Kışın montumu, atkımı ve eldivenlerimi giyerim.
+kid_months_weather.s3_birthday_october|My brother was born in October, so his birthday is in fall.|My brother was born in October, so his birthday is in autumn.|Erkek kardeşim ekimde doğdu, bu yüzden doğum günü sonbaharda.|Kardeşim ekimde doğdu, bu yüzden doğum günü sonbaharda.;Erkek kardeşim ekim ayında doğdu, yani doğum günü sonbaharda.
+kid_months_weather.s3_windy_kites|On windy days we fly our kites in the park.|On windy days, we fly our kites in the park.;We fly our kites in the park on windy days.|Rüzgârlı günlerde parkta uçurtmalarımızı uçururuz.|Rüzgarlı günlerde parkta uçurtmalarımızı uçururuz.;Rüzgârlı günlerde parkta uçurtma uçururuz.;Rüzgarlı günlerde parkta uçurtma uçururuz.
+kid_months_weather.s3_july_hot|In July and August the weather is very hot and dry.|In July and August, the weather is very hot and dry.;In July and August the weather is very dry and hot.;In August and July the weather is very hot and dry.;In August and July the weather is very dry and hot.;The weather is very hot and dry in July and August.;The weather is very dry and hot in July and August.;The weather is very hot and dry in August and July.;The weather is very dry and hot in August and July.|Temmuz ve ağustosta hava çok sıcak ve kurudur.|Temmuz ve ağustosta hava çok sıcak ve kuru.;Temmuzda ve ağustosta hava çok sıcak ve kuru.
+kid_months_weather.s3_spring_flowers|In spring the trees are green and there are many flowers.|In spring, the trees are green and there are many flowers.;The trees are green in spring and there are many flowers.;In spring there are many flowers and the trees are green.;The trees are green and there are many flowers in spring.;There are many flowers in spring and the trees are green.;There are many flowers and the trees are green in spring.|İlkbaharda ağaçlar yeşildir ve çok çiçek vardır.|İlkbaharda ağaçlar yeşil olur ve çok çiçek açar.;İlkbaharda ağaçlar yeşil ve çok çiçek var.

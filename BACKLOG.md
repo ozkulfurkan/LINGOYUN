@@ -179,11 +179,21 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     4. Ayarlar → "Profil değiştir" → "Kim oynuyor?" → kendi profiline geri dön. Ana ekranda profil düğmesi yok.
     5. Bir 2–7 yaş profili ekle ve "Şimdi … ile oyna" de → resimli ana ekran. 3 profil olunca ayarlarda oluştur düğmesi yerine sınır yazısı çıkar.
     6. Kartlar küçük bir çocuğun rahatça dokunabileceği büyüklükte mi?
-- [ ] **LNG-45** BULUT + CİHAZ — Tekrarsız, bol içerik ve yazarak cevap (Furkan'ın isteği).
+- [~] **LNG-45** CİHAZ — Tekrarsız, bol içerik ve yazarak cevap (Furkan'ın isteği).
   - ✅ Basamak 18 soru: 10 kelime + 3 yazma (7–12 yaşta harf dizme) + 3 dinleme + 2 cümle; sınavda 5 yazma ve 3 cümle. Yazım hatası can götürmez.
   - ✅ İçerik aracı (LNG-40).
-  - Kalan: her tema 40 kelime ve her zorlukta 8 cümle; aynı kavram iki temada olmamalı (şu an yiyecek ve restoran temalarında 28 ortak kelime var). Ardından doğrulayıcı uyarıları hataya çevrilir.
-- [ ] **LNG-42** BULUT + FURKAN — İçerik üretimi (10 kat) yeni yapıya göre: her tema 40 kelime ve her zorlukta en az 8 cümle (kolay ~5, orta ~10, zor 15–22 kelime); yeni temalar (evde, iş yerinde, yol sorma, pastane, okul…) müfredat sırasıyla eklenir. Önkoşul: LNG-43 cihaz onayı, LNG-40. Her parti `ceviri-editoru` agent'ından geçer. `money.bill` iki kavrama ayrılır.
+  - ✅ İçerik: yetişkin 27 tema, 7–12 yaş 20 tema (L13'te onaylanan kelimelerle 6 yeni tema). Her temada 40 kelime ve her zorlukta en az 8 cümle; hiçbir kavram iki temada değil. Doğrulayıcı bunları artık hata sayar; bir test hiçbir basamağın önceki basamağın kelimesini sormadığını denetler.
+  - ✅ Her parti `ceviri-editoru` denetiminden geçti, HATA ve DÜZELT bulguları uygulandı. Raporlar `docs/content/reviews/`.
+  - Açık sorular (Furkan): çocuk cümlelerinde Zeynep/Nehir/Kerem adları; "teacher" hitabı; aynı temada "cake = pasta" ve "pasta = makarna"; yazarak çevirmede başka kavramın cevabı (ever/never "hiç", however/but "ancak"); L2 çocuk temalarında geçmiş zaman ve "going to".
+  - Derleme: yeni yerel paket yok. Metro'yu `--clear` ile yeniden başlat.
+  - Cihazda nasıl test edilir:
+    1. Bir temayı aç, 1'den 4'e basamakları oyna: her basamakta 10 yeni kelime, öncekilerin tekrarı yok (yalnızca önceki hataların).
+    2. "Soru 1 / 18"; 10 kelimeden sonra 3 yazma sorusu: klavye açıkken "Kontrol et" / "Devam" görünür kalıyor mu?
+    3. Küçük bir yazım hatası (ör. "restorant") kalp götürmez, doğru yazılışı gösterir; yanlış cevap ve "Bilmiyorum" 1 kalp götürür.
+    4. 7–12 yaş profilinde yazma soruları harf dizme olarak gelir.
+    5. Ayarlar → Zorluk "Zor": cümleler uzar (her temada).
+    6. Zorluk yeterli mi, içerik doğal mı? Garip bulduğun cümleyi not et.
+- [x] **LNG-42** BULUT — İçerik üretimi yeni yapıya göre. LNG-45 ile birleşti ve onunla yapıldı.
 
 ## Faz 6 — 2–7 yaş (Zeynep, Nehir, Kerem)
 

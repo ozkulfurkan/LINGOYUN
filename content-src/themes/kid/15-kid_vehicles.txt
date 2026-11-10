@@ -28,3 +28,49 @@ vehicle.skateboard # skateboard = kaykay
 vehicle.wheel # wheel = tekerlek
 vehicle.road # road = yol
 vehicle.traffic_light # traffic light = trafik ışığı
+work.driver
+travel.ticket
+travel.bus_stop
+place.station
+place.airport
+travel.traffic
+travel.map
+travel.suitcase
+action.drive
+action.stop
+travel.turn
+travel.left
+travel.right
+@kind word noun
+kid_vehicles.passenger|passenger||yolcu|
+kid_vehicles.seat_belt|seat belt|seatbelt|emniyet kemeri|
+
+@sentences 1
+kid_vehicles.s1_red_car|The car is red.||Araba kırmızı.|Araba kırmızıdır.
+kid_vehicles.s1_big_bus|I see a big bus.||Büyük bir otobüs görüyorum.|Büyük bir otobüs görürüm.;Ben büyük bir otobüs görüyorum.
+kid_vehicles.s1_plane_fast|The plane is fast.||Uçak hızlı.|Uçak hızlıdır.
+kid_vehicles.s1_ride_bicycle|I ride my bicycle.|I ride my bike.|Bisikletime binerim.|Bisikletime biniyorum.;Ben bisikletime binerim.
+kid_vehicles.s1_train_long|The train is long.||Tren uzun.|Tren uzundur.
+kid_vehicles.s1_stop_red|Stop at the red light!||Kırmızı ışıkta dur!|Kırmızı ışıkta dur.
+kid_vehicles.s1_go_bus|We go by bus.||Otobüsle gideriz.|Otobüsle gidiyoruz.;Biz otobüsle gideriz.
+kid_vehicles.s1_taxi_yellow|The taxi is yellow.||Taksi sarı.|Taksi sarıdır.
+
+@sentences 2
+kid_vehicles.s2_bus_school|I go to school by bus.|I go by bus to school.|Okula otobüsle giderim.|Ben okula otobüsle giderim.;Okula otobüsle gidiyorum.
+kid_vehicles.s2_driver_slow|The driver drives the bus slowly.|The driver slowly drives the bus.|Şoför otobüsü yavaş sürer.|Şoför otobüsü yavaşça sürer.;Şoför otobüsü yavaş sürüyor.
+kid_vehicles.s2_ticket_train|We need a ticket for the train.||Tren için bir bilete ihtiyacımız var.|Tren için bir bilet lazım.;Trene bir bilet lazım.
+kid_vehicles.s2_ambulance_fast|The ambulance goes to the hospital fast.|The ambulance goes fast to the hospital.|Ambulans hastaneye hızlı gider.|Ambulans hastaneye hızla gider.;Ambulans hızla hastaneye gider.
+kid_vehicles.s2_seat_belt|Please put on your seat belt.|Put on your seat belt, please.;Please put your seat belt on.|Lütfen emniyet kemerini tak.|Lütfen emniyet kemerini bağla.;Emniyet kemerini tak, lütfen.
+kid_vehicles.s2_plane_airport|The big plane is at the airport.||Büyük uçak havalimanında.|Büyük uçak havaalanında.
+kid_vehicles.s2_turn_left|Turn left at the traffic light.|At the traffic light, turn left.;At the traffic light turn left.|Trafik ışığında sola dön.|Trafik ışığından sola dön.;Işıkta sola dön.
+kid_vehicles.s2_fire_truck|The fire truck is big and red.|The fire truck is red and big.|İtfaiye aracı büyük ve kırmızı.|İtfaiye aracı kırmızı ve büyük.;İtfaiye arabası büyük ve kırmızı.
+
+@sentences 3
+kid_vehicles.s3_bus_stop|We wait for the school bus at the bus stop.|At the bus stop we wait for the school bus.;At the bus stop, we wait for the school bus.;We wait at the bus stop for the school bus.|Okul otobüsünü otobüs durağında bekleriz.|Otobüs durağında okul otobüsünü bekleriz.;Okul otobüsünü durakta bekleriz.;Okul otobüsünü otobüs durağında bekliyoruz.
+kid_vehicles.s3_rocket_moon|One day I want to go to the moon in a rocket.|I want to go to the moon in a rocket one day.;One day I want to go to the moon by rocket.|Bir gün roketle aya gitmek istiyorum.|Bir gün aya roketle gitmek istiyorum.
+kid_vehicles.s3_tractor_farm|The farmer drives his red tractor on the farm.|The farmer drives her red tractor on the farm.;On the farm the farmer drives his red tractor.;On the farm the farmer drives her red tractor.|Çiftçi kırmızı traktörünü çiftlikte sürer.|Çiftçi çiftlikte kırmızı traktörünü sürer.;Çiftçi kırmızı traktörünü tarlada sürer.
+kid_vehicles.s3_train_station|The train leaves the station at eight in the morning.|At eight in the morning the train leaves the station.;At eight in the morning, the train leaves the station.|Tren sabah sekizde istasyondan kalkar.|Tren sabah saat sekizde istasyondan kalkar.;Tren istasyondan sabah sekizde kalkar.
+kid_vehicles.s3_police_car|When the police car comes, all the cars stop.|When the police car comes all the cars stop.;All the cars stop when the police car comes.|Polis arabası gelince bütün arabalar durur.|Polis arabası geldiğinde bütün arabalar durur.;Polis arabası gelince tüm arabalar durur.
+kid_vehicles.s3_map_trip|My father looks at the map before our long trip.|Before our long trip my father looks at the map.;Before our long trip, my father looks at the map.;My dad looks at the map before our long trip.|Babam uzun yolculuğumuzdan önce haritaya bakar.|Babam uzun yolculuktan önce haritaya bakar.;Uzun yolculuğumuzdan önce babam haritaya bakar.
+kid_vehicles.s3_subway_crowded|The subway is fast, but it is very crowded in the morning.|The subway is fast, but in the morning it is very crowded.;The subway is fast but it is very crowded in the morning.;The subway is fast, but it's very crowded in the morning.|Metro hızlı ama sabahları çok kalabalık.|Metro hızlıdır ama sabahları çok kalabalıktır.;Metro hızlı ama sabah çok kalabalık.
+kid_vehicles.s3_skateboard_park|My sister rides her skateboard in the park every day.|Every day my sister rides her skateboard in the park.;My sister rides her skateboard every day in the park.|Kız kardeşim her gün parkta kaykay sürer.|Kız kardeşim her gün parkta kaykayına biner.;Kız kardeşim parkta her gün kaykay sürer.

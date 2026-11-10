@@ -27,3 +27,50 @@ false_friend.smoking # smoking = sigara içme
 false_friend.nervous # nervous = gergin
 false_friend.recipe # recipe = yemek tarifi
 false_friend.billion # billion = milyar
+@kind idiom
+idioms.call_it_a_day|call it a day||paydos etmek|bugünlük bu kadar
+idioms.under_the_weather|under the weather|be under the weather;feel under the weather|keyifsiz olmak|kendini iyi hissetmemek
+idioms.same_boat|in the same boat|be in the same boat|aynı gemide olmak|aynı durumda olmak
+idioms.cats_and_dogs|rain cats and dogs|raining cats and dogs;it's raining cats and dogs|bardaktan boşanırcasına yağmak|
+idioms.make_up_mind|make up your mind|make up one's mind|kararını vermek|
+idioms.kill_time|kill time||vakit öldürmek|zaman öldürmek
+idioms.take_a_break|take a break||mola vermek|ara vermek
+idioms.lose_temper|lose your temper|lose one's temper|tepesi atmak|sinirlenmek
+idioms.knock_on_wood|knock on wood|touch wood|şeytan kulağına kurşun|tahtaya vurmak;tahtaya vur
+idioms.hit_the_road|hit the road||yola koyulmak|yola çıkmak
+idioms.take_your_time|take your time||acele etme|
+idioms.keep_in_touch|keep in touch|stay in touch|iletişimi koparmamak|haberleşmek
+idioms.up_to_you|it's up to you|it is up to you;up to you|sana kalmış|
+idioms.no_way|no way||hayatta olmaz|olmaz öyle şey
+idioms.by_the_way|by the way||bu arada|
+idioms.in_a_hurry|be in a hurry|in a hurry|acelesi olmak|
+
+@sentences 1
+idioms.s1_call_it_a_day|Let's call it a day.|Let us call it a day.|Bugünlük paydos edelim.|Bugünlük bu kadar yeter.
+idioms.s1_piece_of_cake|The exam was a piece of cake.||Sınav çocuk oyuncağıydı.|
+idioms.s1_take_your_time|Take your time, no problem.|No problem, take your time.|Acele etme, sorun değil.|
+idioms.s1_up_to_you|Pizza or pasta? It's up to you.|Pizza or pasta? It is up to you.;Pasta or pizza? It's up to you.;Pasta or pizza? It is up to you.|Pizza mı makarna mı? Sana kalmış.|
+idioms.s1_in_a_hurry|Sorry, I am in a hurry.|Sorry, I'm in a hurry.;I am in a hurry, sorry.;I'm in a hurry, sorry.|Kusura bakma, acelem var.|Özür dilerim, acelem var.
+idioms.s1_under_weather|I feel under the weather today.|Today I feel under the weather.;I'm feeling under the weather today.;I am feeling under the weather today.;I feel a bit under the weather today.;I'm feeling a bit under the weather today.;I am feeling a bit under the weather today.;I feel a little under the weather today.;I'm feeling a little under the weather today.|Bugün biraz keyifsizim.|Bugün kendimi pek iyi hissetmiyorum.
+idioms.s1_no_way|No way, that is impossible!|No way, that's impossible!|Hayatta olmaz, bu imkânsız!|Olamaz, bu imkânsız!
+idioms.s1_knock_on_wood|Everything is fine, knock on wood.|Knock on wood, everything is fine.;Everything is fine, touch wood.;Touch wood, everything is fine.|Her şey yolunda, şeytan kulağına kurşun.|Her şey yolunda, tahtaya vurayım.
+
+@sentences 2
+idioms.s2_cats_and_dogs|Take an umbrella, because it is raining cats and dogs outside.|Take an umbrella, because it's raining cats and dogs outside.;Take an umbrella because it is raining cats and dogs outside.;Take an umbrella because it's raining cats and dogs outside.|Şemsiye al, çünkü dışarıda bardaktan boşanırcasına yağmur yağıyor.|
+idioms.s2_kill_time|Our train was late, so we killed time in a small cafe.|Our train was late, so we killed time in a small café.;Our train was delayed, so we killed time in a small cafe.;Our train was delayed, so we killed time in a small café.|Trenimiz gecikti, biz de küçük bir kafede vakit öldürdük.|
+idioms.s2_take_a_break|We have been working for hours, so let's take a break.|We've been working for hours, so let's take a break.;We have been working for hours, so let us take a break.|Saatlerdir çalışıyoruz, hadi biraz mola verelim.|
+idioms.s2_keep_in_touch|It was great to see you, let's keep in touch.|It was great to see you, let's stay in touch.;It was great to see you. Let's keep in touch.|Seni görmek harikaydı, iletişimi koparmayalım.|Seni görmek harikaydı, haberleşelim.
+idioms.s2_by_the_way|By the way, did you call your mother back yesterday?|By the way, did you call back your mother yesterday?;Did you call your mother back yesterday, by the way?;By the way, did you call your mom back yesterday?;By the way, did you call back your mom yesterday?|Bu arada, dün anneni geri aradın mı?|Bu arada, dün annene geri döndün mü?
+idioms.s2_same_boat|Don't worry about the exam, we are all in the same boat.|Don't worry about the exam, we're all in the same boat.;Do not worry about the exam, we are all in the same boat.|Sınavı dert etme, hepimiz aynı gemideyiz.|
+idioms.s2_hit_the_road|It is getting late, so we should hit the road now.|It's getting late, so we should hit the road now.;It is getting late, so we should hit the road.;It's getting late, so we should hit the road.|Geç oluyor, artık yola koyulsak iyi olur.|Geç oluyor, artık yola çıkmalıyız.
+idioms.s2_make_up_mind|You need to make up your mind before the store closes.|You have to make up your mind before the store closes.;You need to make up your mind before the shop closes.;You have to make up your mind before the shop closes.|Mağaza kapanmadan kararını vermen gerekiyor.|
+
+@sentences 3
+idioms.s3_lose_temper|My father rarely loses his temper, but he got really angry when someone damaged his new car.|My father rarely loses his temper, but he got very angry when someone damaged his new car.|Babamın pek tepesi atmaz ama biri yeni arabasına zarar verince çok kızdı.|
+idioms.s3_blue_moon|We only see our cousins once in a blue moon, because they live on the other side of the country.|We only see our cousins once in a blue moon because they live on the other side of the country.;We see our cousins only once in a blue moon, because they live on the other side of the country.|Kuzenlerimiz ülkenin öbür ucunda yaşadığı için onları ancak kırk yılda bir görüyoruz.|
+idioms.s3_break_the_ice|At the first meeting nobody said a word, so our manager told a funny story to break the ice.|At the first meeting, nobody said a word, so our manager told a funny story to break the ice.;At the first meeting no one said a word, so our manager told a funny story to break the ice.|İlk toplantıda kimse tek kelime etmedi, bu yüzden müdürümüz buzları eritmek için komik bir hikâye anlattı.|
+idioms.s3_keep_an_eye|Could you keep an eye on my bag for a minute while I go and buy a coffee?|Can you keep an eye on my bag for a minute while I go and buy a coffee?;Could you keep an eye on my bag for a minute while I go to buy a coffee?|Ben gidip bir kahve alırken bir dakika çantama göz kulak olur musun?|
+idioms.s3_better_late|He arrived at the party two hours late, but as his friends said, better late than never.|She arrived at the party two hours late, but as her friends said, better late than never.;He came to the party two hours late, but as his friends said, better late than never.;She came to the party two hours late, but as her friends said, better late than never.|Partiye iki saat geç geldi ama arkadaşlarının dediği gibi, geç olsun, güç olmasın.|
+idioms.s3_feel_at_home|Our hosts were so friendly and kind that we felt at home from the moment we arrived.|Our hosts were so kind and friendly that we felt at home from the moment we arrived.|Ev sahiplerimiz o kadar cana yakın ve nazikti ki geldiğimiz andan itibaren kendimizi evimizde hissettik.|
+idioms.s3_time_flies|Time flies when you are having fun, and our two weeks at the beach were over too quickly.|Time flies when you're having fun, and our two weeks at the beach were over too quickly.;Time flies when you are having fun, and our two weeks at the beach ended too quickly.|Eğlenirken zaman su gibi akıyor, plajdaki iki haftamız da çok çabuk bitti.|
+idioms.s3_practice_perfect|My first cakes were terrible, but I baked one every weekend, and practice really does make perfect.|My first cakes were awful, but I baked one every weekend, and practice really does make perfect.|İlk pastalarım berbattı ama her hafta sonu bir tane yaptım, gerçekten de pratik yapan ustalaşıyor.|

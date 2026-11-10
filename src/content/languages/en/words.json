@@ -2986,5 +2986,1636 @@
   "restaurant.accommodate": {
     "text": "accommodate",
     "alt": ["host"]
+  },
+  "greetings.how_are_you": {
+    "text": "how are you",
+    "alt": ["how are you doing"]
+  },
+  "greetings.im_fine": {
+    "text": "I'm fine",
+    "alt": [
+      "I am fine",
+      "fine",
+      "I'm good",
+      "I am good",
+      "I'm well",
+      "I am well",
+      "I'm OK",
+      "I'm okay"
+    ]
+  },
+  "greetings.my_name_is": {
+    "text": "my name is",
+    "alt": ["I am", "I'm"]
+  },
+  "greetings.okay": {
+    "text": "okay",
+    "alt": ["OK", "all right", "alright"]
+  },
+  "greetings.thanks_a_lot": {
+    "text": "thanks a lot",
+    "alt": [
+      "thank you very much",
+      "thanks very much",
+      "many thanks",
+      "thank you so much",
+      "thanks so much"
+    ]
+  },
+  "greetings.how_about_you": {
+    "text": "and you",
+    "alt": ["how about you", "what about you", "and yourself"]
+  },
+  "greetings.you_too": {
+    "text": "you too",
+    "alt": ["same to you", "you as well"]
+  },
+  "greetings.me_too": {
+    "text": "me too",
+    "alt": ["so do I", "so am I", "I do too"]
+  },
+  "greetings.see_you_soon": {
+    "text": "see you soon"
+  },
+  "greetings.nice_to_see_you": {
+    "text": "nice to see you",
+    "alt": ["good to see you", "it's nice to see you", "it's good to see you"]
+  },
+  "greetings.have_a_good_weekend": {
+    "text": "have a nice weekend",
+    "alt": ["have a good weekend", "enjoy your weekend", "have a great weekend"]
+  },
+  "greetings.enjoy_your_meal": {
+    "text": "enjoy your meal",
+    "alt": ["bon appetit", "bon appétit", "enjoy"]
+  },
+  "greetings.bless_you": {
+    "text": "bless you",
+    "alt": ["God bless you"]
+  },
+  "greetings.happy_birthday": {
+    "text": "happy birthday"
+  },
+  "numbers.fourth": {
+    "text": "fourth"
+  },
+  "numbers.fifth": {
+    "text": "fifth"
+  },
+  "numbers.number": {
+    "text": "number"
+  },
+  "numbers.half": {
+    "text": "half"
+  },
+  "numbers.million": {
+    "text": "million",
+    "alt": ["one million", "a million"]
+  },
+  "numbers.phone_number": {
+    "text": "phone number",
+    "alt": ["telephone number", "number"]
+  },
+  "numbers.count": {
+    "text": "count"
+  },
+  "time.quarter": {
+    "text": "quarter",
+    "alt": ["quarter of an hour", "a quarter"]
+  },
+  "time.half_hour": {
+    "text": "half an hour",
+    "alt": ["half hour", "thirty minutes"]
+  },
+  "time.midnight": {
+    "text": "midnight"
+  },
+  "time.date": {
+    "text": "date"
+  },
+  "time.weekday": {
+    "text": "weekday",
+    "alt": ["weekdays"]
+  },
+  "time.tonight": {
+    "text": "tonight",
+    "alt": ["this evening"]
+  },
+  "time.every_day": {
+    "text": "every day",
+    "alt": ["daily", "each day"]
+  },
+  "time.day_after_tomorrow": {
+    "text": "the day after tomorrow",
+    "alt": ["day after tomorrow"]
+  },
+  "time.day_before_yesterday": {
+    "text": "the day before yesterday",
+    "alt": ["day before yesterday"]
+  },
+  "time.half_past": {
+    "text": "half past"
+  },
+  "time.hurry": {
+    "text": "hurry",
+    "alt": ["hurry up", "rush"]
+  },
+  "calendar_colors.calendar": {
+    "text": "calendar"
+  },
+  "calendar_colors.season": {
+    "text": "season"
+  },
+  "calendar_colors.color": {
+    "text": "color",
+    "alt": ["colour"]
+  },
+  "calendar_colors.new_year": {
+    "text": "New Year",
+    "alt": ["New Year's", "New Year's Eve"]
+  },
+  "calendar_colors.public_holiday": {
+    "text": "public holiday",
+    "alt": ["national holiday", "bank holiday", "holiday"]
+  },
+  "calendar_colors.anniversary": {
+    "text": "anniversary",
+    "alt": ["wedding anniversary"]
+  },
+  "calendar_colors.date_of_birth": {
+    "text": "date of birth",
+    "alt": ["birth date", "birthdate"]
+  },
+  "calendar_colors.colorful": {
+    "text": "colorful",
+    "alt": ["colourful"]
+  },
+  "calendar_colors.light_blue": {
+    "text": "light blue",
+    "alt": ["pale blue"]
+  },
+  "calendar_colors.navy": {
+    "text": "navy blue",
+    "alt": ["navy", "dark blue"]
+  },
+  "calendar_colors.gold": {
+    "text": "gold",
+    "alt": ["golden"]
+  },
+  "calendar_colors.silver": {
+    "text": "silver"
+  },
+  "calendar_colors.beige": {
+    "text": "beige"
+  },
+  "body_weather.skin": {
+    "text": "skin"
+  },
+  "body_weather.sunny": {
+    "text": "sunny"
+  },
+  "body_weather.cloudy": {
+    "text": "cloudy"
+  },
+  "body_weather.rainy": {
+    "text": "rainy"
+  },
+  "body_weather.windy": {
+    "text": "windy"
+  },
+  "body_weather.snowy": {
+    "text": "snowy"
+  },
+  "body_weather.foggy": {
+    "text": "foggy"
+  },
+  "restaurant.cafe": {
+    "text": "cafe",
+    "alt": ["café", "coffee shop"]
+  },
+  "restaurant.book_table": {
+    "text": "book a table",
+    "alt": ["reserve a table", "make a reservation"]
+  },
+  "restaurant.todays_special": {
+    "text": "today's special",
+    "alt": ["daily special", "special of the day", "dish of the day", "special"]
+  },
+  "restaurant.soft_drink": {
+    "text": "soft drink",
+    "alt": ["soda", "fizzy drink", "pop"]
+  },
+  "restaurant.sparkling_water": {
+    "text": "sparkling water",
+    "alt": ["mineral water", "soda water"]
+  },
+  "restaurant.kebab": {
+    "text": "kebab",
+    "alt": ["kebap", "kabob"]
+  },
+  "restaurant.steak": {
+    "text": "steak"
+  },
+  "restaurant.serve": {
+    "text": "serve"
+  },
+  "restaurant.taste": {
+    "text": "taste"
+  },
+  "restaurant.buffet": {
+    "text": "buffet",
+    "alt": ["open buffet"]
+  },
+  "restaurant.reserved": {
+    "text": "reserved",
+    "alt": ["booked"]
+  },
+  "restaurant.homemade": {
+    "text": "homemade",
+    "alt": ["home-made"]
+  },
+  "restaurant.boiled": {
+    "text": "boiled"
+  },
+  "restaurant.baked": {
+    "text": "baked",
+    "alt": ["oven-baked"]
+  },
+  "restaurant.terrace": {
+    "text": "terrace",
+    "alt": ["patio", "outdoor seating"]
+  },
+  "restaurant.high_chair": {
+    "text": "high chair",
+    "alt": ["highchair"]
+  },
+  "restaurant.straw": {
+    "text": "straw",
+    "alt": ["drinking straw"]
+  },
+  "restaurant.tablecloth": {
+    "text": "tablecloth",
+    "alt": ["table cloth"]
+  },
+  "restaurant.toothpick": {
+    "text": "toothpick"
+  },
+  "city_directions.building": {
+    "text": "building"
+  },
+  "city_directions.address": {
+    "text": "address"
+  },
+  "city_directions.post_office": {
+    "text": "post office"
+  },
+  "city_directions.mosque": {
+    "text": "mosque"
+  },
+  "work_school.exam": {
+    "text": "exam",
+    "alt": ["test"]
+  },
+  "describing.high": {
+    "text": "high"
+  },
+  "describing.low": {
+    "text": "low"
+  },
+  "describing.warm": {
+    "text": "warm"
+  },
+  "describing.cool": {
+    "text": "cool"
+  },
+  "describing.closed": {
+    "text": "closed"
+  },
+  "describing.ready": {
+    "text": "ready"
+  },
+  "describing.great": {
+    "text": "great",
+    "alt": ["wonderful"]
+  },
+  "describing.terrible": {
+    "text": "terrible",
+    "alt": ["awful"]
+  },
+  "describing.perfect": {
+    "text": "perfect"
+  },
+  "describing.simple": {
+    "text": "simple"
+  },
+  "describing.special": {
+    "text": "special"
+  },
+  "describing.comfortable": {
+    "text": "comfortable",
+    "alt": ["comfy"]
+  },
+  "describing.careful": {
+    "text": "careful"
+  },
+  "describing.strange": {
+    "text": "strange",
+    "alt": ["weird", "odd"]
+  },
+  "describing.lucky": {
+    "text": "lucky"
+  },
+  "describing.handsome": {
+    "text": "handsome"
+  },
+  "daily_actions.take_a_shower": {
+    "text": "take a shower",
+    "alt": ["have a shower", "shower"]
+  },
+  "daily_actions.get_dressed": {
+    "text": "get dressed"
+  },
+  "shopping.shopping": {
+    "text": "shopping"
+  },
+  "shopping.mall": {
+    "text": "mall",
+    "alt": ["shopping mall", "shopping center", "shopping centre"]
+  },
+  "shopping.cashier": {
+    "text": "cashier"
+  },
+  "shopping.checkout": {
+    "text": "checkout",
+    "alt": ["cash register", "register", "till"]
+  },
+  "shopping.basket": {
+    "text": "basket",
+    "alt": ["shopping basket"]
+  },
+  "shopping.shopping_cart": {
+    "text": "shopping cart",
+    "alt": ["cart", "trolley", "shopping trolley"]
+  },
+  "shopping.change": {
+    "text": "change"
+  },
+  "shopping.line": {
+    "text": "line",
+    "alt": ["queue"]
+  },
+  "shopping.salesperson": {
+    "text": "salesperson",
+    "alt": ["sales assistant", "shop assistant", "salesclerk"]
+  },
+  "shopping.fitting_room": {
+    "text": "fitting room",
+    "alt": ["changing room", "dressing room"]
+  },
+  "shopping.product": {
+    "text": "product"
+  },
+  "shopping.brand": {
+    "text": "brand"
+  },
+  "shopping.quality": {
+    "text": "quality"
+  },
+  "shopping.bargain": {
+    "text": "bargain",
+    "alt": ["good deal", "deal"]
+  },
+  "shopping.bookstore": {
+    "text": "bookstore",
+    "alt": ["bookshop"]
+  },
+  "shopping.butcher": {
+    "text": "butcher",
+    "alt": ["butcher shop", "butcher's"]
+  },
+  "shopping.on_sale": {
+    "text": "on sale"
+  },
+  "shopping.online": {
+    "text": "online"
+  },
+  "shopping.return": {
+    "text": "return",
+    "alt": ["take back", "bring back"]
+  },
+  "shopping.deliver": {
+    "text": "deliver"
+  },
+  "shopping.compare": {
+    "text": "compare"
+  },
+  "shopping.afford": {
+    "text": "afford"
+  },
+  "work_tech.team": {
+    "text": "team"
+  },
+  "work_tech.contract": {
+    "text": "contract"
+  },
+  "work_tech.deadline": {
+    "text": "deadline"
+  },
+  "work_tech.file": {
+    "text": "file"
+  },
+  "work_tech.printer": {
+    "text": "printer"
+  },
+  "work_tech.log_in": {
+    "text": "log in",
+    "alt": ["sign in"]
+  },
+  "work_tech.upload": {
+    "text": "upload"
+  },
+  "travel.luggage": {
+    "text": "luggage",
+    "alt": ["baggage"]
+  },
+  "travel.passenger": {
+    "text": "passenger"
+  },
+  "travel.seat": {
+    "text": "seat"
+  },
+  "travel.boarding_pass": {
+    "text": "boarding pass"
+  },
+  "travel.gate": {
+    "text": "gate",
+    "alt": ["boarding gate"]
+  },
+  "travel.departure": {
+    "text": "departure"
+  },
+  "travel.delay": {
+    "text": "delay"
+  },
+  "travel.platform": {
+    "text": "platform"
+  },
+  "travel.customs": {
+    "text": "customs"
+  },
+  "travel.backpack": {
+    "text": "backpack",
+    "alt": ["rucksack"]
+  },
+  "travel.souvenir": {
+    "text": "souvenir"
+  },
+  "travel.round_trip": {
+    "text": "round trip",
+    "alt": ["round-trip", "return"]
+  },
+  "travel.book": {
+    "text": "book",
+    "alt": ["reserve"]
+  },
+  "travel.miss": {
+    "text": "miss"
+  },
+  "travel.pack": {
+    "text": "pack"
+  },
+  "health.cold": {
+    "text": "cold",
+    "alt": ["a cold"]
+  },
+  "health.sore_throat": {
+    "text": "sore throat"
+  },
+  "health.toothache": {
+    "text": "toothache"
+  },
+  "health.pill": {
+    "text": "pill",
+    "alt": ["tablet"]
+  },
+  "health.injury": {
+    "text": "injury"
+  },
+  "health.bandage": {
+    "text": "bandage",
+    "alt": ["Band-Aid"]
+  },
+  "health.patient": {
+    "text": "patient"
+  },
+  "health.checkup": {
+    "text": "checkup",
+    "alt": ["check-up", "medical checkup"]
+  },
+  "health.broken": {
+    "text": "broken"
+  },
+  "health.dizzy": {
+    "text": "dizzy"
+  },
+  "health.sneeze": {
+    "text": "sneeze"
+  },
+  "health.get_better": {
+    "text": "get better",
+    "alt": ["recover"]
+  },
+  "health.examine": {
+    "text": "examine"
+  },
+  "home_life.drawer": {
+    "text": "drawer"
+  },
+  "home_life.doorbell": {
+    "text": "doorbell",
+    "alt": ["bell"]
+  },
+  "home_life.vacuum_cleaner": {
+    "text": "vacuum cleaner",
+    "alt": ["vacuum", "hoover"]
+  },
+  "home_life.iron": {
+    "text": "iron"
+  },
+  "home_life.heating": {
+    "text": "heating",
+    "alt": ["central heating", "radiator"]
+  },
+  "home_life.landlord": {
+    "text": "landlord",
+    "alt": ["landlady"]
+  },
+  "home_life.laundry": {
+    "text": "laundry",
+    "alt": ["washing"]
+  },
+  "home_life.tidy_up": {
+    "text": "tidy up",
+    "alt": ["tidy", "clean up"]
+  },
+  "people_feelings.proud": {
+    "text": "proud"
+  },
+  "people_feelings.jealous": {
+    "text": "jealous"
+  },
+  "people_feelings.disappointed": {
+    "text": "disappointed"
+  },
+  "people_feelings.embarrassed": {
+    "text": "embarrassed"
+  },
+  "people_feelings.relaxed": {
+    "text": "relaxed"
+  },
+  "people_feelings.curious": {
+    "text": "curious"
+  },
+  "people_feelings.patient": {
+    "text": "patient"
+  },
+  "people_feelings.polite": {
+    "text": "polite"
+  },
+  "people_feelings.generous": {
+    "text": "generous"
+  },
+  "people_feelings.selfish": {
+    "text": "selfish"
+  },
+  "people_feelings.hard_working": {
+    "text": "hard-working",
+    "alt": ["hardworking", "hard working"]
+  },
+  "people_feelings.confident": {
+    "text": "confident",
+    "alt": ["self-confident"]
+  },
+  "people_feelings.relative": {
+    "text": "relative",
+    "alt": ["relation"]
+  },
+  "people_feelings.nephew": {
+    "text": "nephew",
+    "alt": ["niece"]
+  },
+  "describing_2.useful": {
+    "text": "useful",
+    "alt": ["helpful"]
+  },
+  "describing_2.crowded": {
+    "text": "crowded"
+  },
+  "describing_2.deep": {
+    "text": "deep"
+  },
+  "describing_2.bright": {
+    "text": "bright"
+  },
+  "describing_2.sharp": {
+    "text": "sharp"
+  },
+  "describing_2.clear": {
+    "text": "clear"
+  },
+  "actions_2.jump": {
+    "text": "jump"
+  },
+  "actions_2.climb": {
+    "text": "climb"
+  },
+  "actions_2.fly": {
+    "text": "fly"
+  },
+  "actions_2.hold": {
+    "text": "hold"
+  },
+  "actions_2.hide": {
+    "text": "hide"
+  },
+  "actions_2.cut": {
+    "text": "cut"
+  },
+  "actions_2.move": {
+    "text": "move"
+  },
+  "actions_2.enter": {
+    "text": "enter",
+    "alt": ["go in", "come in"]
+  },
+  "actions_2.follow": {
+    "text": "follow"
+  },
+  "actions_2.miss": {
+    "text": "miss"
+  },
+  "actions_2.share": {
+    "text": "share"
+  },
+  "actions_2.repeat": {
+    "text": "repeat"
+  },
+  "actions_2.practice": {
+    "text": "practice",
+    "alt": ["practise"]
+  },
+  "actions_2.relax": {
+    "text": "relax"
+  },
+  "actions_2.lie_down": {
+    "text": "lie down"
+  },
+  "actions_3.accept": {
+    "text": "accept"
+  },
+  "actions_3.refuse": {
+    "text": "refuse"
+  },
+  "actions_3.allow": {
+    "text": "allow",
+    "alt": ["let", "permit"]
+  },
+  "actions_3.promise": {
+    "text": "promise"
+  },
+  "actions_3.prefer": {
+    "text": "prefer"
+  },
+  "actions_3.forgive": {
+    "text": "forgive"
+  },
+  "actions_3.describe": {
+    "text": "describe"
+  },
+  "actions_3.discuss": {
+    "text": "discuss"
+  },
+  "actions_3.improve": {
+    "text": "improve"
+  },
+  "actions_3.protect": {
+    "text": "protect"
+  },
+  "actions_3.collect": {
+    "text": "collect"
+  },
+  "actions_3.join": {
+    "text": "join"
+  },
+  "actions_3.happen": {
+    "text": "happen"
+  },
+  "leisure_world.exhibition": {
+    "text": "exhibition",
+    "alt": ["exhibit"]
+  },
+  "leisure_world.painting": {
+    "text": "painting"
+  },
+  "leisure_world.hiking": {
+    "text": "hiking",
+    "alt": ["hike"]
+  },
+  "time_links.just": {
+    "text": "just",
+    "alt": ["just now"]
+  },
+  "time_links.ever": {
+    "text": "ever"
+  },
+  "time_links.recently": {
+    "text": "recently",
+    "alt": ["lately"]
+  },
+  "time_links.suddenly": {
+    "text": "suddenly"
+  },
+  "time_links.finally": {
+    "text": "finally",
+    "alt": ["at last"]
+  },
+  "time_links.rarely": {
+    "text": "rarely",
+    "alt": ["seldom"]
+  },
+  "time_links.also": {
+    "text": "also",
+    "alt": ["too"]
+  },
+  "time_links.especially": {
+    "text": "especially"
+  },
+  "time_links.probably": {
+    "text": "probably"
+  },
+  "time_links.at_least": {
+    "text": "at least"
+  },
+  "time_links.since": {
+    "text": "since"
+  },
+  "time_links.while": {
+    "text": "while"
+  },
+  "time_links.however": {
+    "text": "however"
+  },
+  "time_links.although": {
+    "text": "although",
+    "alt": ["though", "even though"]
+  },
+  "idioms.call_it_a_day": {
+    "text": "call it a day"
+  },
+  "idioms.under_the_weather": {
+    "text": "under the weather",
+    "alt": ["be under the weather", "feel under the weather"]
+  },
+  "idioms.same_boat": {
+    "text": "in the same boat",
+    "alt": ["be in the same boat"]
+  },
+  "idioms.cats_and_dogs": {
+    "text": "rain cats and dogs",
+    "alt": ["raining cats and dogs", "it's raining cats and dogs"]
+  },
+  "idioms.make_up_mind": {
+    "text": "make up your mind",
+    "alt": ["make up one's mind"]
+  },
+  "idioms.kill_time": {
+    "text": "kill time"
+  },
+  "idioms.take_a_break": {
+    "text": "take a break"
+  },
+  "idioms.lose_temper": {
+    "text": "lose your temper",
+    "alt": ["lose one's temper"]
+  },
+  "idioms.knock_on_wood": {
+    "text": "knock on wood",
+    "alt": ["touch wood"]
+  },
+  "idioms.hit_the_road": {
+    "text": "hit the road"
+  },
+  "idioms.take_your_time": {
+    "text": "take your time"
+  },
+  "idioms.keep_in_touch": {
+    "text": "keep in touch",
+    "alt": ["stay in touch"]
+  },
+  "idioms.up_to_you": {
+    "text": "it's up to you",
+    "alt": ["it is up to you", "up to you"]
+  },
+  "idioms.no_way": {
+    "text": "no way"
+  },
+  "idioms.by_the_way": {
+    "text": "by the way"
+  },
+  "idioms.in_a_hurry": {
+    "text": "be in a hurry",
+    "alt": ["in a hurry"]
+  },
+  "restaurant_2.undercooked": {
+    "text": "undercooked",
+    "alt": ["not cooked enough"]
+  },
+  "restaurant_2.stale": {
+    "text": "stale"
+  },
+  "restaurant_2.split_the_bill": {
+    "text": "split the bill",
+    "alt": ["split the check"]
+  },
+  "restaurant_2.leftovers": {
+    "text": "leftovers"
+  },
+  "restaurant_2.tap_water": {
+    "text": "tap water"
+  },
+  "idioms_2.spill_the_beans": {
+    "text": "spill the beans",
+    "alt": ["let the cat out of the bag"]
+  },
+  "idioms_2.last_straw": {
+    "text": "the last straw",
+    "alt": ["the final straw", "last straw"]
+  },
+  "idioms_2.middle_of_nowhere": {
+    "text": "in the middle of nowhere",
+    "alt": ["the middle of nowhere"]
+  },
+  "idioms_2.see_eye_to_eye": {
+    "text": "see eye to eye"
+  },
+  "idioms_2.blessing_in_disguise": {
+    "text": "a blessing in disguise",
+    "alt": ["blessing in disguise"]
+  },
+  "idioms_2.bite_off_more": {
+    "text": "bite off more than you can chew",
+    "alt": ["bite off more than one can chew"]
+  },
+  "idioms_2.ball_in_your_court": {
+    "text": "the ball is in your court",
+    "alt": ["the ball's in your court"]
+  },
+  "idioms_2.beat_around_the_bush": {
+    "text": "beat around the bush",
+    "alt": ["beat about the bush"]
+  },
+  "idioms_2.pull_your_leg": {
+    "text": "pull someone's leg",
+    "alt": ["pull your leg"]
+  },
+  "idioms_2.hit_the_nail": {
+    "text": "hit the nail on the head"
+  },
+  "idioms_2.sleeping_dogs": {
+    "text": "let sleeping dogs lie"
+  },
+  "idioms_2.count_chickens": {
+    "text": "don't count your chickens before they hatch",
+    "alt": ["do not count your chickens before they hatch", "don't count your chickens"]
+  },
+  "idioms_2.actions_speak": {
+    "text": "actions speak louder than words"
+  },
+  "idioms_2.when_pigs_fly": {
+    "text": "when pigs fly",
+    "alt": ["pigs might fly"]
+  },
+  "idioms_2.drop_in_the_ocean": {
+    "text": "a drop in the bucket",
+    "alt": ["a drop in the ocean", "drop in the bucket", "drop in the ocean"]
+  },
+  "idioms_2.out_of_sight": {
+    "text": "out of sight, out of mind"
+  },
+  "idioms_2.midnight_oil": {
+    "text": "burn the midnight oil"
+  },
+  "idioms_2.once_bitten": {
+    "text": "once bitten, twice shy"
+  },
+  "idioms_2.too_many_cooks": {
+    "text": "too many cooks spoil the broth",
+    "alt": ["too many cooks spoil the soup"]
+  },
+  "idioms_2.cloud_nine": {
+    "text": "be on cloud nine",
+    "alt": ["on cloud nine"]
+  },
+  "idioms_2.cut_corners": {
+    "text": "cut corners"
+  },
+  "idioms_2.out_of_hand": {
+    "text": "get out of hand"
+  },
+  "idioms_2.needle_in_haystack": {
+    "text": "look for a needle in a haystack",
+    "alt": ["a needle in a haystack", "like looking for a needle in a haystack"]
+  },
+  "idioms_2.speak_of_the_devil": {
+    "text": "speak of the devil"
+  },
+  "idioms_2.tip_of_the_iceberg": {
+    "text": "the tip of the iceberg",
+    "alt": ["tip of the iceberg"]
+  },
+  "idioms_2.storm_in_a_teacup": {
+    "text": "a tempest in a teapot",
+    "alt": ["a storm in a teacup", "tempest in a teapot", "storm in a teacup"]
+  },
+  "idioms_2.full_plate": {
+    "text": "have a lot on your plate",
+    "alt": ["have a lot on one's plate", "a lot on my plate"]
+  },
+  "idioms_2.bury_the_hatchet": {
+    "text": "bury the hatchet"
+  },
+  "idioms_2.two_heads": {
+    "text": "two heads are better than one"
+  },
+  "kid_greetings.hi": {
+    "text": "hi",
+    "alt": ["hey"]
+  },
+  "kid_greetings.happy_birthday": {
+    "text": "happy birthday"
+  },
+  "kid_colors_shapes.color": {
+    "text": "color"
+  },
+  "kid_colors_shapes.shape": {
+    "text": "shape"
+  },
+  "kid_colors_shapes.colorful": {
+    "text": "colorful"
+  },
+  "kid_colors_shapes.light_blue": {
+    "text": "light blue"
+  },
+  "kid_colors_shapes.dark_blue": {
+    "text": "dark blue",
+    "alt": ["navy blue", "navy"]
+  },
+  "kid_colors_shapes.gold": {
+    "text": "gold",
+    "alt": ["golden"]
+  },
+  "kid_colors_shapes.silver": {
+    "text": "silver"
+  },
+  "kid_colors_shapes.turquoise": {
+    "text": "turquoise"
+  },
+  "kid_colors_shapes.line": {
+    "text": "line"
+  },
+  "kid_colors_shapes.dot": {
+    "text": "dot",
+    "alt": ["spot"]
+  },
+  "kid_colors_shapes.arrow": {
+    "text": "arrow"
+  },
+  "kid_colors_shapes.diamond": {
+    "text": "diamond"
+  },
+  "kid_colors_shapes.crescent": {
+    "text": "crescent"
+  },
+  "kid_colors_shapes.pentagon": {
+    "text": "pentagon"
+  },
+  "kid_colors_shapes.hexagon": {
+    "text": "hexagon"
+  },
+  "kid_colors_shapes.cube": {
+    "text": "cube"
+  },
+  "kid_colors_shapes.sphere": {
+    "text": "sphere"
+  },
+  "kid_colors_shapes.cone": {
+    "text": "cone"
+  },
+  "kid_colors_shapes.cylinder": {
+    "text": "cylinder"
+  },
+  "kid_colors_shapes.pyramid": {
+    "text": "pyramid"
+  },
+  "kid_numbers.number": {
+    "text": "number"
+  },
+  "kid_numbers.count": {
+    "text": "count"
+  },
+  "kid_numbers.plus": {
+    "text": "plus"
+  },
+  "kid_numbers.minus": {
+    "text": "minus"
+  },
+  "kid_numbers.equals": {
+    "text": "equals"
+  },
+  "kid_numbers.half": {
+    "text": "half"
+  },
+  "kid_fruits_vegetables.melon": {
+    "text": "melon",
+    "alt": ["cantaloupe"]
+  },
+  "kid_fruits_vegetables.tangerine": {
+    "text": "tangerine",
+    "alt": ["mandarin"]
+  },
+  "kid_fruits_vegetables.kiwi": {
+    "text": "kiwi"
+  },
+  "kid_fruits_vegetables.pomegranate": {
+    "text": "pomegranate"
+  },
+  "kid_fruits_vegetables.blueberry": {
+    "text": "blueberry"
+  },
+  "kid_fruits_vegetables.coconut": {
+    "text": "coconut"
+  },
+  "kid_fruits_vegetables.walnut": {
+    "text": "walnut"
+  },
+  "kid_fruits_vegetables.eggplant": {
+    "text": "eggplant"
+  },
+  "kid_fruits_vegetables.lettuce": {
+    "text": "lettuce"
+  },
+  "kid_fruits_vegetables.cabbage": {
+    "text": "cabbage"
+  },
+  "kid_fruits_vegetables.spinach": {
+    "text": "spinach"
+  },
+  "kid_fruits_vegetables.broccoli": {
+    "text": "broccoli"
+  },
+  "kid_fruits_vegetables.garlic": {
+    "text": "garlic"
+  },
+  "kid_food.meatball": {
+    "text": "meatball",
+    "alt": ["meatballs"]
+  },
+  "kid_food.french_fries": {
+    "text": "french fries",
+    "alt": ["fries"]
+  },
+  "kid_food.hamburger": {
+    "text": "hamburger",
+    "alt": ["burger"]
+  },
+  "kid_food.sausage": {
+    "text": "sausage"
+  },
+  "kid_food.pancake": {
+    "text": "pancake",
+    "alt": ["pancakes"]
+  },
+  "kid_food.omelet": {
+    "text": "omelet"
+  },
+  "kid_food.cereal": {
+    "text": "cereal"
+  },
+  "kid_food.chips": {
+    "text": "chips",
+    "alt": ["potato chips"]
+  },
+  "kid_food.lemonade": {
+    "text": "lemonade"
+  },
+  "kid_food.hot_chocolate": {
+    "text": "hot chocolate"
+  },
+  "kid_family.grandparents": {
+    "text": "grandparents"
+  },
+  "kid_family.grandchild": {
+    "text": "grandchild"
+  },
+  "kid_family.twins": {
+    "text": "twins"
+  },
+  "kid_family.relatives": {
+    "text": "relatives"
+  },
+  "kid_family.age": {
+    "text": "age"
+  },
+  "kid_family.last_name": {
+    "text": "last name",
+    "alt": ["surname"]
+  },
+  "kid_family.stroller": {
+    "text": "stroller",
+    "alt": ["baby stroller"]
+  },
+  "kid_family.family_tree": {
+    "text": "family tree"
+  },
+  "kid_family.hug": {
+    "text": "hug"
+  },
+  "kid_family.kiss": {
+    "text": "kiss"
+  },
+  "kid_family.love": {
+    "text": "love"
+  },
+  "kid_pets_farm.pet": {
+    "text": "pet"
+  },
+  "kid_pets_farm.paw": {
+    "text": "paw"
+  },
+  "kid_pets_farm.puppy": {
+    "text": "puppy"
+  },
+  "kid_pets_farm.kitten": {
+    "text": "kitten"
+  },
+  "kid_pets_farm.chick": {
+    "text": "chick"
+  },
+  "kid_pets_farm.lamb": {
+    "text": "lamb"
+  },
+  "kid_pets_farm.calf": {
+    "text": "calf"
+  },
+  "kid_pets_farm.goose": {
+    "text": "goose"
+  },
+  "kid_pets_farm.turkey": {
+    "text": "turkey"
+  },
+  "kid_pets_farm.hamster": {
+    "text": "hamster"
+  },
+  "kid_pets_farm.goldfish": {
+    "text": "goldfish"
+  },
+  "kid_pets_farm.bug": {
+    "text": "bug",
+    "alt": ["insect"]
+  },
+  "kid_pets_farm.tail": {
+    "text": "tail"
+  },
+  "kid_pets_farm.feather": {
+    "text": "feather"
+  },
+  "kid_pets_farm.wool": {
+    "text": "wool"
+  },
+  "kid_pets_farm.cage": {
+    "text": "cage"
+  },
+  "kid_pets_farm.barn": {
+    "text": "barn"
+  },
+  "kid_zoo.koala": {
+    "text": "koala"
+  },
+  "kid_zoo.gorilla": {
+    "text": "gorilla"
+  },
+  "kid_zoo.rhino": {
+    "text": "rhino",
+    "alt": ["rhinoceros"]
+  },
+  "kid_zoo.polar_bear": {
+    "text": "polar bear"
+  },
+  "kid_zoo.flamingo": {
+    "text": "flamingo"
+  },
+  "kid_zoo.peacock": {
+    "text": "peacock"
+  },
+  "kid_zoo.ostrich": {
+    "text": "ostrich"
+  },
+  "kid_zoo.seal": {
+    "text": "seal"
+  },
+  "kid_zoo.leopard": {
+    "text": "leopard"
+  },
+  "kid_zoo.cheetah": {
+    "text": "cheetah"
+  },
+  "kid_zoo.sloth": {
+    "text": "sloth"
+  },
+  "kid_zoo.jellyfish": {
+    "text": "jellyfish"
+  },
+  "kid_body.body": {
+    "text": "body"
+  },
+  "kid_body.thumb": {
+    "text": "thumb"
+  },
+  "kid_body.nail": {
+    "text": "nail",
+    "alt": ["fingernail"]
+  },
+  "kid_body.muscle": {
+    "text": "muscle"
+  },
+  "kid_body.bone": {
+    "text": "bone"
+  },
+  "kid_body.skin": {
+    "text": "skin"
+  },
+  "kid_body.brain": {
+    "text": "brain"
+  },
+  "kid_body.forehead": {
+    "text": "forehead"
+  },
+  "kid_body.eyelash": {
+    "text": "eyelash"
+  },
+  "kid_body.wrist": {
+    "text": "wrist"
+  },
+  "kid_body.ankle": {
+    "text": "ankle"
+  },
+  "kid_body.chest": {
+    "text": "chest"
+  },
+  "kid_body.heel": {
+    "text": "heel"
+  },
+  "kid_body.throat": {
+    "text": "throat"
+  },
+  "kid_body.hip": {
+    "text": "hip"
+  },
+  "kid_clothes.sneakers": {
+    "text": "sneakers"
+  },
+  "kid_clothes.sandals": {
+    "text": "sandals"
+  },
+  "kid_clothes.jeans": {
+    "text": "jeans"
+  },
+  "kid_clothes.vest": {
+    "text": "vest"
+  },
+  "kid_clothes.tie": {
+    "text": "tie",
+    "alt": ["necktie"]
+  },
+  "kid_clothes.cap": {
+    "text": "cap",
+    "alt": ["baseball cap"]
+  },
+  "kid_clothes.sunglasses": {
+    "text": "sunglasses"
+  },
+  "kid_clothes.pocket": {
+    "text": "pocket"
+  },
+  "kid_clothes.watch": {
+    "text": "watch",
+    "alt": ["wristwatch"]
+  },
+  "kid_clothes.ring": {
+    "text": "ring"
+  },
+  "kid_clothes.necklace": {
+    "text": "necklace"
+  },
+  "kid_clothes.earrings": {
+    "text": "earrings"
+  },
+  "kid_clothes.bracelet": {
+    "text": "bracelet"
+  },
+  "kid_clothes.uniform": {
+    "text": "uniform",
+    "alt": ["school uniform"]
+  },
+  "kid_clothes.apron": {
+    "text": "apron"
+  },
+  "kid_school.backpack": {
+    "text": "backpack",
+    "alt": ["school bag"]
+  },
+  "kid_school.pencil_case": {
+    "text": "pencil case"
+  },
+  "kid_school.sharpener": {
+    "text": "pencil sharpener",
+    "alt": ["sharpener"]
+  },
+  "kid_school.glue": {
+    "text": "glue"
+  },
+  "kid_school.board": {
+    "text": "board",
+    "alt": ["whiteboard", "blackboard"]
+  },
+  "kid_school.paper": {
+    "text": "paper"
+  },
+  "kid_school.classmate": {
+    "text": "classmate"
+  },
+  "kid_school.test": {
+    "text": "test",
+    "alt": ["exam"]
+  },
+  "kid_school.letter": {
+    "text": "letter"
+  },
+  "kid_school.math": {
+    "text": "math"
+  },
+  "kid_school.science": {
+    "text": "science"
+  },
+  "kid_school.bell": {
+    "text": "bell"
+  },
+  "kid_school.recess": {
+    "text": "recess",
+    "alt": ["break"]
+  },
+  "kid_school.lunchbox": {
+    "text": "lunchbox"
+  },
+  "kid_school.paintbrush": {
+    "text": "paintbrush"
+  },
+  "kid_school.marker": {
+    "text": "marker"
+  },
+  "kid_school.calculator": {
+    "text": "calculator"
+  },
+  "kid_school.globe": {
+    "text": "globe"
+  },
+  "kid_school.sticker": {
+    "text": "sticker"
+  },
+  "kid_school.principal": {
+    "text": "principal"
+  },
+  "kid_toys.marbles": {
+    "text": "marbles"
+  },
+  "kid_toys.spinning_top": {
+    "text": "spinning top"
+  },
+  "kid_toys.whistle": {
+    "text": "whistle"
+  },
+  "kid_toys.guitar": {
+    "text": "guitar"
+  },
+  "kid_toys.piano": {
+    "text": "piano"
+  },
+  "kid_toys.play_dough": {
+    "text": "play dough",
+    "alt": ["modeling clay"]
+  },
+  "kid_toys.dice": {
+    "text": "dice"
+  },
+  "kid_toys.chess": {
+    "text": "chess"
+  },
+  "kid_toys.board_game": {
+    "text": "board game"
+  },
+  "kid_toys.puppet": {
+    "text": "puppet"
+  },
+  "kid_toys.dollhouse": {
+    "text": "dollhouse"
+  },
+  "kid_toys.toy_box": {
+    "text": "toy box"
+  },
+  "kid_toys.rocking_horse": {
+    "text": "rocking horse"
+  },
+  "kid_toys.water_gun": {
+    "text": "water gun",
+    "alt": ["squirt gun"]
+  },
+  "kid_toys.paper_plane": {
+    "text": "paper plane",
+    "alt": ["paper airplane"]
+  },
+  "kid_toys.toy_boat": {
+    "text": "toy boat"
+  },
+  "kid_toys.dinosaur": {
+    "text": "dinosaur"
+  },
+  "kid_toys.trampoline": {
+    "text": "trampoline"
+  },
+  "kid_toys.bucket": {
+    "text": "bucket",
+    "alt": ["pail"]
+  },
+  "kid_toys.shovel": {
+    "text": "shovel"
+  },
+  "kid_toys.video_game": {
+    "text": "video game"
+  },
+  "kid_toys.mask": {
+    "text": "mask"
+  },
+  "kid_toys.carousel": {
+    "text": "carousel",
+    "alt": ["merry-go-round"]
+  },
+  "kid_days_time.calendar": {
+    "text": "calendar"
+  },
+  "kid_days_time.alarm_clock": {
+    "text": "alarm clock"
+  },
+  "kid_days_time.bedtime": {
+    "text": "bedtime"
+  },
+  "kid_days_time.date": {
+    "text": "date"
+  },
+  "kid_days_time.midnight": {
+    "text": "midnight"
+  },
+  "kid_days_time.second": {
+    "text": "second"
+  },
+  "kid_days_time.quarter": {
+    "text": "quarter",
+    "alt": ["quarter hour"]
+  },
+  "kid_days_time.tonight": {
+    "text": "tonight"
+  },
+  "kid_days_time.lunchtime": {
+    "text": "lunchtime"
+  },
+  "kid_vehicles.passenger": {
+    "text": "passenger"
+  },
+  "kid_vehicles.seat_belt": {
+    "text": "seat belt",
+    "alt": ["seatbelt"]
+  },
+  "kid_months_weather.sunny": {
+    "text": "sunny"
+  },
+  "kid_months_weather.rainy": {
+    "text": "rainy"
+  },
+  "kid_months_weather.snowy": {
+    "text": "snowy"
+  },
+  "kid_months_weather.cloudy": {
+    "text": "cloudy"
+  },
+  "kid_months_weather.windy": {
+    "text": "windy"
+  },
+  "kid_months_weather.warm": {
+    "text": "warm"
+  },
+  "kid_months_weather.cool": {
+    "text": "cool"
+  },
+  "kid_months_weather.snowman": {
+    "text": "snowman"
+  },
+  "kid_months_weather.thunder": {
+    "text": "thunder"
+  },
+  "kid_nature.ocean": {
+    "text": "ocean"
+  },
+  "kid_nature.wave": {
+    "text": "wave"
+  },
+  "kid_nature.hill": {
+    "text": "hill"
+  },
+  "kid_nature.cave": {
+    "text": "cave"
+  },
+  "kid_nature.waterfall": {
+    "text": "waterfall"
+  },
+  "kid_nature.desert": {
+    "text": "desert"
+  },
+  "kid_nature.plant": {
+    "text": "plant"
+  },
+  "kid_nature.branch": {
+    "text": "branch"
+  },
+  "kid_nature.nest": {
+    "text": "nest"
+  },
+  "kid_nature.shell": {
+    "text": "seashell",
+    "alt": ["shell"]
+  },
+  "kid_nature.mud": {
+    "text": "mud"
+  },
+  "kid_nature.pond": {
+    "text": "pond"
+  },
+  "kid_nature.bush": {
+    "text": "bush"
+  },
+  "kid_nature.seed": {
+    "text": "seed"
+  },
+  "kid_nature.root": {
+    "text": "root"
+  },
+  "kid_nature.field": {
+    "text": "field"
+  },
+  "kid_nature.valley": {
+    "text": "valley"
+  },
+  "kid_nature.planet": {
+    "text": "planet"
+  },
+  "kid_places.zoo": {
+    "text": "zoo"
+  },
+  "kid_places.farm": {
+    "text": "farm"
+  },
+  "kid_places.playground": {
+    "text": "playground"
+  },
+  "kid_places.swimming_pool": {
+    "text": "swimming pool",
+    "alt": ["pool"]
+  },
+  "kid_places.toy_store": {
+    "text": "toy store",
+    "alt": ["toy shop"]
+  },
+  "kid_places.police_station": {
+    "text": "police station"
+  },
+  "kid_places.fire_station": {
+    "text": "fire station"
+  },
+  "kid_places.post_office": {
+    "text": "post office"
+  },
+  "kid_actions.jump": {
+    "text": "jump"
+  },
+  "kid_actions.climb": {
+    "text": "climb"
   }
 }

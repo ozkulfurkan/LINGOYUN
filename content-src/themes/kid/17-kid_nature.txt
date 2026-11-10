@@ -23,3 +23,54 @@ nature.beach # beach = plaj
 nature.sand # sand = kum
 nature.rock # rock = kaya
 nature.fire # fire = ateş
+@kind word noun
+kid_nature.ocean|ocean||okyanus|
+kid_nature.wave|wave||dalga|
+kid_nature.hill|hill||tepe|
+kid_nature.cave|cave||mağara|
+kid_nature.waterfall|waterfall||şelale|
+kid_nature.desert|desert||çöl|
+kid_nature.plant|plant||bitki|
+kid_nature.branch|branch||dal|
+kid_nature.nest|nest||yuva|kuş yuvası
+kid_nature.shell|seashell|shell|deniz kabuğu|kabuk
+kid_nature.mud|mud||çamur|
+kid_nature.pond|pond||gölet|
+kid_nature.bush|bush||çalı|
+kid_nature.seed|seed||tohum|
+kid_nature.root|root||kök|
+kid_nature.field|field||tarla|çayır
+kid_nature.valley|valley||vadi|
+nature.world # world = dünya
+kid_nature.planet|planet||gezegen|
+action.grow # grow = büyümek
+
+@sentences 1
+kid_nature.s1_sky_blue|The sky is blue.||Gökyüzü mavi.|Gökyüzü mavidir.
+kid_nature.s1_tree_tall|The tree is very tall.||Ağaç çok uzun.|Ağaç çok yüksek.
+kid_nature.s1_moon_big|The moon is big tonight.|Tonight the moon is big.|Bu gece ay büyük.|Ay bu gece büyük.
+kid_nature.s1_fire_hot|Fire is hot!||Ateş sıcak!|Ateş sıcaktır!;Ateş sıcak.
+kid_nature.s1_flowers_red|The flowers are red.||Çiçekler kırmızı.|Çiçekler kırmızıdır.
+kid_nature.s1_fish_river|Fish live in the river.||Balıklar nehirde yaşar.|Nehirde balıklar yaşar.
+kid_nature.s1_play_beach|We play on the beach.||Plajda oynarız.|Biz plajda oynarız.;Plajda oynuyoruz.
+kid_nature.s1_leaves_green|The leaves are green.||Yapraklar yeşil.|Yapraklar yeşildir.
+
+@sentences 2
+kid_nature.s2_hill_sunday|We walk up the hill every Sunday.|Every Sunday we walk up the hill.;Every Sunday, we walk up the hill.|Her pazar tepeye yürürüz.|Her pazar tepeye çıkarız.;Her pazar tepeye tırmanırız.
+kid_nature.s2_bird_nest|The bird makes a nest in the tree.|In the tree the bird makes a nest.|Kuş ağaçta yuva yapar.|Kuş ağaçta bir yuva yapar.;Kuş ağaçta yuva yapıyor.
+kid_nature.s2_shells_beach|I find pretty shells on the beach.|On the beach I find pretty shells.;I find pretty seashells on the beach.|Plajda güzel deniz kabukları bulurum.|Plajda güzel deniz kabukları buluyorum.;Plajda güzel kabuklar bulurum.
+kid_nature.s2_plants_water|Plants need water and sun to grow.|Plants need sun and water to grow.|Bitkiler büyümek için suya ve güneşe ihtiyaç duyar.|Bitkilerin büyümek için suya ve güneşe ihtiyacı var.;Bitkiler büyümek için güneşe ve suya ihtiyaç duyar.
+kid_nature.s2_desert_hot|The desert is very hot and dry.|The desert is very dry and hot.|Çöl çok sıcak ve kurudur.|Çöl çok sıcak ve kuru.;Çöl çok kuru ve sıcak.
+kid_nature.s2_waves_big|The waves in the ocean are big.||Okyanustaki dalgalar büyük.|Okyanusta dalgalar büyük.;Okyanustaki dalgalar büyüktür.
+kid_nature.s2_mud_boots|My boots are dirty from the mud.||Çizmelerim çamurdan kirlendi.|Çizmelerim çamurdan kirli.
+kid_nature.s2_cave_dark|It is very dark inside the cave.|Inside the cave it is very dark.;It's very dark inside the cave.|Mağaranın içi çok karanlık.|Mağarada çok karanlık.;Mağaranın içi çok karanlıktır.
+
+@sentences 3
+kid_nature.s3_seed_tree|If you water a small seed, it can grow into a tree.|If you water a small seed it can grow into a tree.;A small seed can grow into a tree if you water it.|Küçük bir tohumu sularsan ağaca dönüşebilir.|Küçük bir tohumu sularsan büyüyüp ağaç olabilir.
+kid_nature.s3_waterfall|There is a big waterfall between the two mountains.|Between the two mountains there is a big waterfall.|İki dağın arasında büyük bir şelale var.|İki dağ arasında büyük bir şelale var.
+kid_nature.s3_island_boat|We go to the island by boat in the summer.|In the summer we go to the island by boat.;In the summer, we go to the island by boat.;We go by boat to the island in the summer.|Yazın adaya tekneyle gideriz.|Yazın tekneyle adaya gideriz.;Yaz aylarında adaya tekneyle gideriz.
+kid_nature.s3_forest_animals|Many animals live in the forest near our village.||Köyümüzün yakınındaki ormanda birçok hayvan yaşar.|Köyümüzün yakınındaki ormanda çok hayvan yaşar.;Köyümüzün yanındaki ormanda birçok hayvan yaşar.
+kid_nature.s3_volcano|Long ago, fire came out of this old volcano.|Long ago fire came out of this old volcano.;Fire came out of this old volcano long ago.|Uzun zaman önce bu eski yanardağdan ateş çıktı.|Çok eskiden bu yanardağdan ateş çıktı.;Uzun zaman önce bu eski yanardağdan ateş çıkardı.
+kid_nature.s3_our_world|Our world is a beautiful planet with blue oceans and green forests.|Our world is a beautiful planet with green forests and blue oceans.|Dünyamız mavi okyanusları ve yeşil ormanları olan güzel bir gezegen.|Dünyamız yeşil ormanları ve mavi okyanusları olan güzel bir gezegen.;Dünyamız mavi okyanusları ve yeşil ormanlarıyla güzel bir gezegen.
+kid_nature.s3_lightning|We stay inside when there is lightning in the sky.|When there is lightning in the sky we stay inside.;When there is lightning in the sky, we stay inside.|Gökyüzünde şimşek çakınca içeride kalırız.|Gökyüzünde şimşek çaktığında içeride kalırız.;Şimşek çakınca içeride kalırız.
+kid_nature.s3_frogs_pond|Little frogs jump into the pond when they see us.|When they see us, little frogs jump into the pond.;When they see us little frogs jump into the pond.|Küçük kurbağalar bizi görünce gölete atlar.|Küçük kurbağalar bizi gördüklerinde gölete atlar.;Küçük kurbağalar bizi görünce gölete atlıyor.

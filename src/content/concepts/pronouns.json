@@ -66,42 +66,42 @@
     "id": "pronoun.it",
     "topic": "pronoun",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["pronoun"]
   },
   {
     "id": "pronoun.his",
     "topic": "pronoun",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["pronoun"]
   },
   {
     "id": "pronoun.her",
     "topic": "pronoun",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["pronoun"]
   },
   {
     "id": "pronoun.our",
     "topic": "pronoun",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["pronoun"]
   },
   {
     "id": "pronoun.their",
     "topic": "pronoun",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["pronoun"]
   },
   {
     "id": "pronoun.that",
     "topic": "pronoun",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["pronoun"]
   },
   {

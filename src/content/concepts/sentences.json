@@ -465,7 +465,7 @@
     "id": "sentence.a1_what_time",
     "topic": "sentence",
     "kind": "sentence",
-    "ageGroups": ["adult"]
+    "ageGroups": ["adult", "kid"]
   },
   {
     "id": "sentence.a1_seven_oclock",

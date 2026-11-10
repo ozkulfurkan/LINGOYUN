@@ -29,6 +29,22 @@ person.single # single = bekâr
 person.thin # thin = zayıf
 person.guest # guest = misafir
 person.beard # beard = sakal
+@kind word adjective
+people_feelings.proud|proud||gururlu|
+people_feelings.jealous|jealous||kıskanç|
+people_feelings.disappointed|disappointed||hayal kırıklığına uğramış|hayal kırıklığı içinde
+people_feelings.embarrassed|embarrassed||mahcup|utanmış
+people_feelings.relaxed|relaxed||rahatlamış|rahat
+people_feelings.curious|curious||meraklı|
+people_feelings.patient|patient||sabırlı|
+people_feelings.polite|polite||kibar|
+people_feelings.generous|generous||cömert|
+people_feelings.selfish|selfish||bencil|
+people_feelings.hard_working|hard-working|hardworking;hard working|çalışkan|
+people_feelings.confident|confident|self-confident|kendinden emin|özgüvenli
+@kind word noun
+people_feelings.relative|relative|relation|akraba|
+people_feelings.nephew|nephew|niece|yeğen|
 
 @sentences 1
 sentence.a2_visit_uncle # We visited my uncle last week. = Geçen hafta amcamı ziyaret ettik.
@@ -37,3 +53,25 @@ sentence.a2_afraid_dogs # My daughter is afraid of dogs. = Kızım köpeklerden 
 sentence.a2_bored_home # I am bored at home. = Evde sıkılıyorum.
 sentence.a2_excited_wedding # We are excited about the wedding. = Düğün için heyecanlıyız.
 sentence.a2_kind_neighbor # Our neighbor is a very kind person. = Komşumuz çok nazik biri.
+people_feelings.s1_proud_son|I am proud of my son.|I'm proud of my son.|Oğlumla gurur duyuyorum.|Oğlumla gururluyum.
+people_feelings.s1_cousin_shy|My cousin is very shy.|My cousin is really shy.;My cousin is so shy.|Kuzenim çok utangaç.|
+
+@sentences 2
+people_feelings.s2_aunt_generous|My aunt is a generous woman who always helps her neighbors.|My aunt is a generous woman who always helps her neighbours.|Teyzem her zaman komşularına yardım eden cömert bir kadındır.|Teyzem komşularına her zaman yardım eden cömert bir kadın.
+people_feelings.s2_disappointed_results|She was disappointed because her exam results were not very good.|He was disappointed because his exam results were not very good.;She was disappointed because her exam results weren't very good.;He was disappointed because his exam results weren't very good.|Sınav sonuçları pek iyi olmadığı için hayal kırıklığına uğradı.|
+people_feelings.s2_patient_children|You need to be very patient when you work with small children.|You have to be very patient when you work with small children.;You should be very patient when you work with small children.;You must be very patient when you work with small children.;You need to be very patient when working with small children.;You have to be very patient when working with small children.;You should be very patient when working with small children.;When you work with small children, you need to be very patient.;When you work with small children, you have to be very patient.;When you work with small children, you should be very patient.|Küçük çocuklarla çalışırken çok sabırlı olmalısın.|
+people_feelings.s2_relatives_holiday|All our relatives come to my grandmother's house during the holiday.|During the holiday, all our relatives come to my grandmother's house.;All of our relatives come to my grandmother's house during the holiday.;During the holiday, all of our relatives come to my grandmother's house.;All our relatives come to my grandmother's house for the holiday.;All of our relatives come to my grandmother's house for the holiday.;All our relatives come to my grandma's house during the holiday.|Bayramda bütün akrabalarımız büyükannemin evine gelir.|Tatilde bütün akrabalarımız büyükannemin evine gelir.
+people_feelings.s2_nephew_curious|My little nephew is curious about everything and asks many questions.|My little niece is curious about everything and asks many questions.;My little nephew is curious about everything and asks a lot of questions.;My little niece is curious about everything and asks a lot of questions.|Küçük yeğenim her şeyi merak ediyor ve çok soru soruyor.|
+people_feelings.s2_embarrassed_name|I felt embarrassed when I forgot my new colleague's name.|I was embarrassed when I forgot my new colleague's name.;When I forgot my new colleague's name, I felt embarrassed.;When I forgot my new colleague's name, I was embarrassed.|Yeni iş arkadaşımın adını unutunca mahcup oldum.|Yeni iş arkadaşımın adını unuttuğumda utandım.
+people_feelings.s2_jealous_brother|He is a little jealous of his older brother's success.|She is a little jealous of her older brother's success.;He is a bit jealous of his older brother's success.;She is a bit jealous of her older brother's success.|Ağabeyinin başarısını biraz kıskanıyor.|
+people_feelings.s2_polite_guests|Our guests were very polite and thanked us for the dinner.|Our guests were really polite and thanked us for the dinner.|Misafirlerimiz çok kibardı ve akşam yemeği için bize teşekkür etti.|
+
+@sentences 3
+people_feelings.s3_confident_interview|Before the interview I was very nervous, but after the first few questions I felt much more confident.|Before the interview I was really nervous, but after the first few questions I felt much more confident.;I was very nervous before the interview, but after the first few questions I felt much more confident.;I was really nervous before the interview, but after the first few questions I felt much more confident.|Görüşmeden önce çok gergindim ama ilk birkaç sorudan sonra kendimi çok daha özgüvenli hissettim.|Mülakattan önce çok gergindim ama ilk birkaç sorudan sonra kendime çok daha fazla güvendim.;Görüşmeden önce çok gergindim ama ilk birkaç sorudan sonra kendimden çok daha emin oldum.
+people_feelings.s3_selfish_share|My brother can be a bit selfish, because he never shares his things with anyone in the family.|My brother can be a little selfish, because he never shares his things with anyone in the family.;My brother can be a bit selfish because he never shares his things with anyone in the family.|Erkek kardeşim biraz bencil olabiliyor, çünkü eşyalarını ailede hiç kimseyle paylaşmıyor.|
+people_feelings.s3_hard_working_promotion|Everyone in the office was happy when the most hard-working employee finally got the promotion she deserved.|Everyone in the office was happy when the most hard-working employee finally got the promotion he deserved.;Everyone in the office was happy when the hardest-working employee finally got the promotion she deserved.|En çalışkan çalışan sonunda hak ettiği terfiyi alınca ofisteki herkes mutlu oldu.|
+people_feelings.s3_relaxed_vacation|After two weeks at the beach with my family, I came back to work relaxed and full of energy.|After two weeks at the beach with my family I came back to work relaxed and full of energy.;I came back to work relaxed and full of energy after two weeks at the beach with my family.|Ailemle plajda geçen iki haftanın ardından işe rahatlamış ve enerji dolu döndüm.|
+people_feelings.s3_lonely_city|When we first moved to the city, my mother felt lonely because she did not know any of our neighbors.|When we first moved to the city, my mother felt lonely because she didn't know any of our neighbors.;When we first moved to the city, my mother felt lonely because she did not know any of our neighbours.;When we first moved to the city, my mother felt lonely because she didn't know any of our neighbours.|Şehre ilk taşındığımızda annem kendini yalnız hissetti, çünkü komşularımızın hiçbirini tanımıyordu.|
+people_feelings.s3_honest_friend|A good friend is someone who is honest with you, even when the truth is not easy to hear.|A good friend is someone who is honest with you, even when the truth isn't easy to hear.|İyi bir arkadaş, gerçeği duymak kolay olmasa bile sana karşı dürüst olan kişidir.|
+people_feelings.s3_surprised_party|My wife was really surprised when she opened the door and saw all her friends waiting with a cake.|My husband was really surprised when he opened the door and saw all his friends waiting with a cake.;My wife was very surprised when she opened the door and saw all her friends waiting with a cake.;My husband was very surprised when he opened the door and saw all his friends waiting with a cake.|Eşim kapıyı açıp bütün arkadaşlarını elinde pastayla beklerken görünce çok şaşırdı.|
+people_feelings.s3_calm_angry|My father always stays calm, but when someone is rude to my mother, he gets very angry.|My father always stays calm, but when someone is rude to my mother he gets very angry.;My father always stays calm, but he gets very angry when someone is rude to my mother.|Babam her zaman sakin kalır ama biri anneme kaba davrandığında çok kızar.|

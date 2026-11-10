@@ -367,49 +367,49 @@
     "id": "food.salt",
     "topic": "food",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "food.breakfast",
     "topic": "food",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "food.lunch",
     "topic": "food",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "food.dinner",
     "topic": "food",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "food.food",
     "topic": "food",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "fruit.fruit",
     "topic": "fruit",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "vegetable.vegetable",
     "topic": "vegetable",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   }
 ]

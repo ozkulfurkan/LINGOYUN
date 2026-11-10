@@ -19,6 +19,58 @@ toy.bubbles # bubbles = baloncuk
 toy.slide # slide = kaydırak
 toy.swing # swing = salıncak
 toy.jump_rope # jump rope = atlama ipi
+leisure.game # game = oyun
+@kind word noun
+kid_toys.marbles|marbles||bilye|misket;bilyeler;misketler
+kid_toys.spinning_top|spinning top||topaç|
+kid_toys.whistle|whistle||düdük|
+kid_toys.guitar|guitar||gitar|
+kid_toys.piano|piano||piyano|
+kid_toys.play_dough|play dough|modeling clay|oyun hamuru|
+kid_toys.dice|dice||zar|zarlar
+kid_toys.chess|chess||satranç|
+kid_toys.board_game|board game||kutu oyunu|
+kid_toys.puppet|puppet||kukla|
+kid_toys.dollhouse|dollhouse||oyuncak ev|bebek evi
+kid_toys.toy_box|toy box||oyuncak kutusu|
+kid_toys.rocking_horse|rocking horse||sallanan at|
+kid_toys.water_gun|water gun|squirt gun|su tabancası|
+kid_toys.paper_plane|paper plane|paper airplane|kâğıt uçak|kağıt uçak
+kid_toys.toy_boat|toy boat||oyuncak tekne|oyuncak gemi
+kid_toys.dinosaur|dinosaur||dinozor|
+kid_toys.trampoline|trampoline||trambolin|
+kid_toys.bucket|bucket|pail|kova|
+kid_toys.shovel|shovel||kürek|
+kid_toys.video_game|video game||video oyunu|bilgisayar oyunu
+kid_toys.mask|mask||maske|
+kid_toys.carousel|carousel|merry-go-round|atlıkarınca|
 
 @sentences 1
-sentence.l2_he_plays # He plays with the ball. = O topla oynar.
+sentence.l2_he_plays|He plays with the ball.|She plays with the ball.|O topla oynar.|Topla oynar.;O topla oynuyor.;Topla oynuyor.
+kid_toys.s1_kite_high|My kite flies high.||Uçurtmam yükseğe uçar.|Uçurtmam yükseğe uçuyor.;Uçurtmam yüksekte uçuyor.
+kid_toys.s1_new_robot|I have a new robot.||Yeni bir robotum var.|Benim yeni bir robotum var.
+kid_toys.s1_ball_red|The ball is red.||Top kırmızı.|Top kırmızıdır.
+kid_toys.s1_lets_play|Let's play a game!||Hadi oyun oynayalım!|Haydi oyun oynayalım!;Hadi bir oyun oynayalım!;Haydi bir oyun oynayalım!
+kid_toys.s1_doll_sleeping|My doll is sleeping.||Bebeğim uyuyor.|Oyuncak bebeğim uyuyor.
+kid_toys.s1_blow_bubbles|We blow bubbles.||Baloncuk üfleriz.|Baloncuk üflüyoruz.;Biz baloncuk üfleriz.;Baloncuk yaparız.
+kid_toys.s1_my_turn|It is my turn.|It's my turn.|Sıra bende.|Sıra benim.;Sıra bende!
+
+@sentences 2
+kid_toys.s2_teddy_sleep|I sleep with my teddy bear.||Oyuncak ayımla uyurum.|Oyuncak ayımla uyuyorum.;Ayıcığımla uyurum.
+kid_toys.s2_go_down_slide|The children go down the slide.||Çocuklar kaydıraktan kayar.|Çocuklar kaydıraktan kayıyor.
+kid_toys.s2_tower_blocks|We build a tall tower with blocks.||Küplerle yüksek bir kule yaparız.|Küplerle uzun bir kule yaparız.;Küplerle yüksek bir kule yapıyoruz.;Küplerle yüksek bir kule inşa ederiz.
+kid_toys.s2_your_toy_car|Can I play with your toy car?||Oyuncak arabanla oynayabilir miyim?|Senin oyuncak arabanla oynayabilir miyim?
+kid_toys.s2_throw_dice|It is your turn to roll the dice.|It's your turn to roll the dice.;It is your turn to throw the dice.;It's your turn to throw the dice.|Zar atma sırası sende.|Zarı atma sırası sende.;Sıra sende, zarı at.
+kid_toys.s2_balloon_sky|The blue balloon flew into the sky.||Mavi balon gökyüzüne uçtu.|Mavi balon gökyüzüne uçup gitti.;Mavi balon göğe uçtu.
+kid_toys.s2_push_swing|Can you push me on the swing?||Salıncakta beni iter misin?|Beni salıncakta iter misin?;Salıncakta beni sallar mısın?;Beni salıncakta sallar mısın?
+kid_toys.s2_drum_loud|My brother plays the drum very loudly.||Kardeşim davulu çok yüksek sesle çalar.|Erkek kardeşim davulu çok yüksek sesle çalar.;Ağabeyim davulu çok yüksek sesle çalar.;Kardeşim çok yüksek sesle davul çalar.
+
+@sentences 3
+kid_toys.s3_toys_box|Please put all your toys back in the toy box.|Put all your toys back in the toy box, please.|Lütfen bütün oyuncaklarını oyuncak kutusuna geri koy.|Lütfen tüm oyuncaklarını oyuncak kutusuna geri koy.;Bütün oyuncaklarını oyuncak kutusuna geri koy lütfen.;Lütfen bütün oyuncaklarını oyuncak kutusuna koy.
+kid_toys.s3_puzzle_pieces|This puzzle has one hundred pieces, and it is very hard.|This puzzle has one hundred pieces, and it's very hard.|Bu yapbozun yüz parçası var ve çok zor.|Bu yapboz yüz parçalı ve çok zor.;Bu yapbozun yüz parçası var, çok zor.
+kid_toys.s3_grandpa_robot|My grandfather gave me a robot for my birthday.|For my birthday my grandfather gave me a robot.;For my birthday, my grandfather gave me a robot.|Dedem doğum günümde bana bir robot hediye etti.|Dedem bana doğum günümde bir robot hediye etti.;Dedem doğum günümde bana bir robot verdi.;Dedem doğum günüm için bana bir robot aldı.
+kid_toys.s3_kites_windy|When it is windy, we fly our kites in the park.|When it's windy, we fly our kites in the park.;We fly our kites in the park when it is windy.;We fly our kites in the park when it's windy.|Rüzgârlı havalarda parkta uçurtmalarımızı uçururuz.|Rüzgarlı havalarda parkta uçurtmalarımızı uçururuz.;Hava rüzgârlı olunca parkta uçurtma uçururuz.;Hava rüzgarlı olunca parkta uçurtma uçururuz.
+kid_toys.s3_chess_saturday|My grandfather and I play chess every Saturday afternoon.|Every Saturday afternoon my grandfather and I play chess.;Every Saturday afternoon, my grandfather and I play chess.|Dedemle her cumartesi öğleden sonra satranç oynarız.|Dedem ve ben her cumartesi öğleden sonra satranç oynarız.;Her cumartesi öğleden sonra dedemle satranç oynarız.;Dedemle her cumartesi öğleden sonra satranç oynuyoruz.
+kid_toys.s3_sand_castle|We made a big sand castle with a bucket and a shovel.|With a bucket and a shovel we made a big sand castle.;We made a big sand castle with a shovel and a bucket.;With a shovel and a bucket we made a big sand castle.|Kova ve kürekle büyük bir kumdan kale yaptık.|Bir kova ve bir kürekle büyük bir kumdan kale yaptık.;Kova ve kürekle kocaman bir kumdan kale yaptık.
+kid_toys.s3_video_games|I can play video games for one hour after my homework.|After my homework I can play video games for one hour.;After my homework, I can play video games for one hour.|Ödevimden sonra bir saat video oyunu oynayabilirim.|Ödevimden sonra bir saat bilgisayar oyunu oynayabilirim.;Ödevimi bitirince bir saat video oyunu oynayabilirim.;Ödevden sonra bir saat video oyunu oynayabilirim.
+kid_toys.s3_paper_plane|My paper plane flew across the room and landed on the bed.||Kâğıt uçağım odanın öbür ucuna uçup yatağa kondu.|Kağıt uçağım odanın öbür ucuna uçup yatağa kondu.;Kâğıt uçağım odanın içinde uçup yatağın üstüne kondu.;Kağıt uçağım odanın içinde uçup yatağın üstüne kondu.

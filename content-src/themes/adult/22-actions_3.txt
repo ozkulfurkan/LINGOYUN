@@ -30,7 +30,47 @@ action.pull # pull = çekmek
 action.push # push = itmek
 action.wear # wear = giymek
 action.prepare # prepare = hazırlamak
+@kind word verb
+actions_3.accept|accept||kabul etmek|
+actions_3.refuse|refuse||reddetmek|
+actions_3.allow|allow|let;permit|izin vermek|
+actions_3.promise|promise||söz vermek|
+actions_3.prefer|prefer||tercih etmek|
+actions_3.forgive|forgive||affetmek|bağışlamak
+actions_3.describe|describe||betimlemek|tarif etmek
+actions_3.discuss|discuss||tartışmak|görüşmek
+actions_3.improve|improve||geliştirmek|iyileştirmek
+actions_3.protect|protect||korumak|
+actions_3.collect|collect||toplamak|biriktirmek
+actions_3.join|join||katılmak|
+actions_3.happen|happen||meydana gelmek|olmak
 
 @sentences 1
 sentence.a2_explain_word # Could you explain this word? = Bu kelimeyi açıklayabilir misin?
 sentence.a2_agree_you # I agree with you. = Sana katılıyorum.
+actions_3.s1_what_happened|What happened last night?||Dün gece ne oldu?|
+actions_3.s1_prefer_tea|I prefer tea to coffee.||Çayı kahveye tercih ederim.|Çayı kahveye tercih ediyorum.
+actions_3.s1_promise_call|I promise I will call.|I promise I'll call.;I promise that I will call.;I promise that I'll call.|Arayacağıma söz veriyorum.|Söz veriyorum, arayacağım.
+actions_3.s1_join_us|Would you like to join us?|Do you want to join us?|Bize katılmak ister misin?|Bize katılmak ister misiniz?
+actions_3.s1_baby_laughed|The baby laughed at the dog.||Bebek köpeğe güldü.|
+actions_3.s1_fix_bike|Can you fix my bike?|Could you fix my bike?;Can you fix my bicycle?;Could you fix my bicycle?;Can you repair my bike?;Can you repair my bicycle?|Bisikletimi tamir edebilir misin?|Bisikletimi tamir eder misin?
+
+@sentences 2
+actions_3.s2_accept_job|She accepted the job because the salary was much better.|He accepted the job because the salary was much better.;She accepted the job, because the salary was much better.;He accepted the job, because the salary was much better.|Maaş çok daha iyi olduğu için işi kabul etti.|
+actions_3.s2_refuse_invitation|He refused our invitation because he had to work that evening.|She refused our invitation because she had to work that evening.;He refused our invitation, because he had to work that evening.;She refused our invitation, because she had to work that evening.|O akşam çalışması gerektiği için davetimizi reddetti.|
+actions_3.s2_allow_phones|Our teacher does not allow phones in the classroom during lessons.|Our teacher doesn't allow phones in the classroom during lessons.;During lessons our teacher does not allow phones in the classroom.;During lessons our teacher doesn't allow phones in the classroom.|Öğretmenimiz derslerde sınıfta telefona izin vermiyor.|
+actions_3.s2_compare_prices|We always compare prices online before we buy a new phone.|Before we buy a new phone, we always compare prices online.;We always compare prices online before buying a new phone.|Yeni bir telefon almadan önce her zaman internette fiyatları karşılaştırırız.|
+actions_3.s2_describe_man|Can you describe the man who took your bag?|Could you describe the man who took your bag?;Can you describe the man that took your bag?;Could you describe the man that took your bag?|Çantanızı alan adamı tarif edebilir misiniz?|Çantanı alan adamı tarif edebilir misin?
+actions_3.s2_discuss_plan|Let's discuss the plan for the trip over dinner tonight.|Let us discuss the plan for the trip over dinner tonight.;Tonight let's discuss the plan for the trip over dinner.;Let's discuss the plan for the trip at dinner tonight.|Bu akşam yemekte gezi planını konuşalım.|Bu akşam yemekte gezinin planını tartışalım.
+actions_3.s2_collect_stamps|My grandfather has collected stamps from many countries since he was young.|Since he was young, my grandfather has collected stamps from many countries.;My grandfather has been collecting stamps from many countries since he was young.;Since he was young, my grandfather has been collecting stamps from many countries.|Dedem gençliğinden beri birçok ülkeden pul biriktiriyor.|Dedem gençliğinden beri birçok ülkenin pulunu topluyor.
+actions_3.s2_dance_wedding|Everybody danced and sang at my cousin's wedding until midnight.|Everyone danced and sang at my cousin's wedding until midnight.;Everybody sang and danced at my cousin's wedding until midnight.;Everyone sang and danced at my cousin's wedding until midnight.|Kuzenimin düğününde herkes gece yarısına kadar dans edip şarkı söyledi.|
+
+@sentences 3
+actions_3.s3_improve_english|If you want to improve your English, you should read and listen to something in English every day.|You should read and listen to something in English every day if you want to improve your English.;If you want to improve your English you should read and listen to something in English every day.|İngilizceni geliştirmek istiyorsan her gün İngilizce bir şeyler okumalı ve dinlemelisin.|
+actions_3.s3_protect_skin|In summer you should wear a hat and use sunscreen to protect your skin from the sun.|In summer you should wear a hat and use sun cream to protect your skin from the sun.;You should wear a hat and use sunscreen in summer to protect your skin from the sun.;You should wear a hat and use sun cream in summer to protect your skin from the sun.|Yazın cildini güneşten korumak için şapka takmalı ve güneş kremi kullanmalısın.|
+actions_3.s3_decide_stay|After a long conversation with my family, I decided to stay in my hometown and not move abroad.|After a long conversation with my family I decided to stay in my hometown and not move abroad.;I decided to stay in my hometown and not move abroad after a long conversation with my family.|Ailemle uzun bir konuşmadan sonra memleketimde kalmaya ve yurt dışına taşınmamaya karar verdim.|
+actions_3.s3_teach_cook|My mother taught me how to cook when I was twelve, and now I prepare dinner for the whole family.|My mother taught me how to cook when I was twelve and now I prepare dinner for the whole family.;When I was twelve, my mother taught me how to cook, and now I prepare dinner for the whole family.;My mom taught me how to cook when I was twelve, and now I prepare dinner for the whole family.;When I was twelve, my mom taught me how to cook, and now I prepare dinner for the whole family.|Ben on iki yaşındayken annem bana yemek yapmayı öğretti, şimdi bütün aileye akşam yemeğini ben hazırlıyorum.|On iki yaşımdayken annem bana yemek yapmayı öğretti, şimdi bütün ailenin akşam yemeğini ben hazırlıyorum.
+actions_3.s3_window_broke|Somebody threw a ball and broke our kitchen window, but nobody wanted to tell us what happened.|Someone threw a ball and broke our kitchen window, but nobody wanted to tell us what happened.;Somebody threw a ball and broke our kitchen window, but no one wanted to tell us what happened.;Someone threw a ball and broke our kitchen window, but no one wanted to tell us what happened.|Biri top atıp mutfak penceremizi kırdı ama kimse bize ne olduğunu anlatmak istemedi.|
+actions_3.s3_win_prize|She did not expect to win, so she started to cry when they called her name on the stage.|He did not expect to win, so he started to cry when they called his name on the stage.;She didn't expect to win, so she started to cry when they called her name on the stage.;He didn't expect to win, so he started to cry when they called his name on the stage.|Kazanmayı beklemiyordu, bu yüzden sahnede adını okuduklarında ağlamaya başladı.|
+actions_3.s3_meet_invite|We met our new neighbors yesterday and invited them to our house for coffee on Sunday afternoon.|We met our new neighbours yesterday and invited them to our house for coffee on Sunday afternoon.;Yesterday we met our new neighbors and invited them to our house for coffee on Sunday afternoon.;Yesterday we met our new neighbours and invited them to our house for coffee on Sunday afternoon.|Dün yeni komşularımızla tanıştık ve onları pazar öğleden sonra kahve içmeye evimize davet ettik.|
+actions_3.s3_earn_build|He earned enough money in ten years to build a small house near the sea for his parents.|She earned enough money in ten years to build a small house near the sea for her parents.;In ten years he earned enough money to build a small house near the sea for his parents.;In ten years she earned enough money to build a small house near the sea for her parents.|On yılda anne babası için deniz kenarında küçük bir ev yaptıracak kadar para kazandı.|

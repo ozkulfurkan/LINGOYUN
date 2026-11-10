@@ -28,9 +28,48 @@ opposite.long # long = uzun
 opposite.short # short = kısa
 opposite.fast # fast = hızlı
 opposite.slow # slow = yavaş
+quality.heavy # heavy = ağır
+quality.light # light = hafif
+quality.soft # soft = yumuşak
+quality.hard # hard = sert
+quality.full # full = dolu
+quality.empty # empty = boş
+quality.quiet # quiet = sessiz
+quality.noisy # noisy = gürültülü
+quality.dark # dark = karanlık
+feeling.angry # angry = kızgın
+feeling.afraid # afraid = korkmuş
+person.funny # funny = komik
+person.brave # brave = cesur
+quality.dangerous # dangerous = tehlikeli
+quality.safe # safe = güvenli
 
 @sentences 1
 sentence.l1_i_happy # I am happy. = Ben mutluyum.
 sentence.l2_hungry # I am hungry. = Ben açım.
 sentence.l2_tired # I am tired. = Ben yorgunum.
 sentence.l2_not_tired # I am not tired. = Ben yorgun değilim.
+kid_describing.s1_box_heavy|This box is heavy.||Bu kutu ağır.|Bu kutu ağırdır.
+kid_describing.s1_bag_empty|My bag is empty.||Çantam boş.|
+kid_describing.s1_cat_soft|The cat is soft.||Kedi yumuşak.|Kedi yumuşacık.
+kid_describing.s1_are_afraid|Are you afraid?|Are you scared?|Korkuyor musun?|Korktun mu?;Korkmuş musun?
+
+@sentences 2
+kid_describing.s2_elephant_strong|The elephant is big and very strong.|The elephant is very strong and big.|Fil büyük ve çok güçlü.|Fil büyüktür ve çok güçlüdür.
+kid_describing.s2_quiet_baby|Be quiet, the baby is sleeping.|Be quiet. The baby is sleeping.;The baby is sleeping, be quiet.|Sessiz ol, bebek uyuyor.|Sessiz olun, bebek uyuyor.
+kid_describing.s2_old_bicycle|My old bicycle is still very fast.|My old bike is still very fast.|Eski bisikletim hâlâ çok hızlı.|Eski bisikletim hala çok hızlı.
+kid_describing.s2_glass_full|My glass is full of cold water.||Bardağım soğuk suyla dolu.|Bardağım soğuk su dolu.
+kid_describing.s2_dark_afraid|It is dark and I am afraid.|It's dark and I'm afraid.;It is dark and I am scared.;I am afraid and it is dark.|Karanlık ve korkuyorum.|Hava karanlık ve korkuyorum.;Ortalık karanlık ve korkuyorum.
+kid_describing.s2_grandfather_funny|My grandfather is very funny and kind.|My grandfather is very kind and funny.;My grandpa is very funny and kind.|Dedem çok komik ve nazik.|Büyükbabam çok komik ve nazik.;Dedem çok nazik ve komik.
+kid_describing.s2_street_dangerous|Playing in the street is dangerous.|It is dangerous to play in the street.|Sokakta oynamak tehlikelidir.|Sokakta oynamak tehlikeli.
+kid_describing.s2_bread_soft|This bread is soft and warm.|This bread is warm and soft.|Bu ekmek yumuşak ve sıcak.|Bu ekmek sıcak ve yumuşak.;Bu ekmek yumuşacık ve sıcak.;Bu ekmek yumuşak ve ılık.
+
+@sentences 3
+kid_describing.s3_library_noisy|The library is quiet, but the playground is very noisy.|The library is quiet but the playground is very noisy.;The playground is very noisy, but the library is quiet.|Kütüphane sessiz ama çocuk parkı çok gürültülü.|Kütüphane sessizdir ama çocuk parkı çok gürültülüdür.;Çocuk parkı çok gürültülü ama kütüphane sessiz.;Kütüphane sessiz ama oyun parkı çok gürültülü.;Kütüphane sessiz ama park çok gürültülü.
+kid_describing.s3_brave_sister|My sister is brave because she is not afraid of the dark.|My sister is brave because she isn't afraid of the dark.|Kız kardeşim cesur çünkü karanlıktan korkmuyor.|Kız kardeşim cesurdur çünkü karanlıktan korkmaz.;Kız kardeşim cesur çünkü karanlıktan korkmaz.
+kid_describing.s3_heavy_light|The big box is heavy, but the small box is light.|The big box is heavy but the small box is light.;The small box is light, but the big box is heavy.|Büyük kutu ağır ama küçük kutu hafif.|Küçük kutu hafif ama büyük kutu ağır.;Büyük kutu ağırdır ama küçük kutu hafiftir.
+kid_describing.s3_park_safe|The park is safe because there are no cars in it.||Park güvenli çünkü içinde hiç araba yok.|Park güvenlidir çünkü içinde araba yok.;Park güvenli çünkü içinde araba yok.
+kid_describing.s3_angry_toys|I get angry when my brother takes my toys.|When my brother takes my toys, I get angry.;When my brother takes my toys I get angry.|Erkek kardeşim oyuncaklarımı alınca kızarım.|Kardeşim oyuncaklarımı alınca kızarım.;Erkek kardeşim oyuncaklarımı aldığında kızıyorum.
+kid_describing.s3_long_day|After a long day at school, I am hungry and tired.|After a long day at school I am hungry and tired.;I am hungry and tired after a long day at school.;After a long day at school, I am tired and hungry.;I am tired and hungry after a long day at school.|Okulda uzun bir günden sonra aç ve yorgunum.|Okulda uzun bir günün ardından aç ve yorgunum.;Okulda uzun bir günden sonra yorgun ve açım.
+kid_describing.s3_soup_hot|The soup is very hot, so I wait a little.|The soup is very hot so I wait a little.|Çorba çok sıcak, bu yüzden biraz beklerim.|Çorba çok sıcak, o yüzden biraz bekliyorum.;Çorba çok sıcak, bu yüzden biraz bekliyorum.
+kid_describing.s3_dirty_hands|My hands are dirty, so I wash them before I eat.|My hands are dirty so I wash them before I eat.;My hands are dirty, so before I eat I wash them.|Ellerim kirli, bu yüzden yemekten önce yıkarım.|Ellerim kirli, o yüzden yemekten önce yıkarım.;Ellerim kirli, bu yüzden yemeden önce yıkarım.;Ellerim kirli, bu yüzden yemekten önce onları yıkarım.

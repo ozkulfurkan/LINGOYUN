@@ -1,1 +1,8777 @@
-[]
+[
+  {
+    "id": "greetings.how_are_you",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.im_fine",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.my_name_is",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.okay",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.thanks_a_lot",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.how_about_you",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.you_too",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.me_too",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.see_you_soon",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.nice_to_see_you",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.have_a_good_weekend",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.enjoy_your_meal",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.bless_you",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.happy_birthday",
+    "topic": "greetings",
+    "kind": "phrase",
+    "ageGroups": ["adult"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "greetings.s2_new_neighbor",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s2_how_weekend",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s2_nice_meet_finally",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s2_long_time",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s2_thanks_dinner",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s2_sorry_name",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s2_this_is_colleague",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s2_have_good_trip",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s3_team_manager",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s3_forgot_name",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s3_welcome_home",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s3_heard_about_you",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s3_thanks_everything",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s3_late_meeting",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s3_wedding",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "greetings.s3_call_back",
+    "topic": "greetings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s2_older_brother",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s2_parents_retired",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s2_how_many_children",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s2_neighbors_friendly",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s2_sister_teacher",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s2_grandmother_stories",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s2_who_that_woman",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s2_best_friend_name",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s3_family_sunday",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s3_cousin_wedding",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s3_son_university",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s3_neighbor_cat",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s3_twins",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s3_grandfather_fisherman",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s3_friends_school",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people.s3_met_at_work",
+    "topic": "people",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.fourth",
+    "topic": "numbers",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "numbers.fifth",
+    "topic": "numbers",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "numbers.number",
+    "topic": "numbers",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "numbers.half",
+    "topic": "numbers",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "numbers.million",
+    "topic": "numbers",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "numbers.phone_number",
+    "topic": "numbers",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "numbers.count",
+    "topic": "numbers",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "numbers.s1_phone_number",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s1_three_children",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s1_room_twelve",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s1_twenty_liras",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s1_bus_ten",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s2_born_1990",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s2_fifth_floor",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s2_half_price",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s2_call_number",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s2_two_million",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s2_second_time",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s2_twice_week",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s2_father_sixty",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s3_total_four",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s3_door_code",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s3_marathon",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s3_repeat_number",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s3_child_tickets",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s3_twice_year",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s3_million_views",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "numbers.s3_eight_years",
+    "topic": "numbers",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s1_eggs_breakfast",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s1_bread_fresh",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s1_no_sugar",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s1_love_fruit",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s1_vegetable_soup",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s2_shopping_list",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s2_cut_tomatoes",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s2_turkish_breakfast",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s2_less_sugar",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s2_cheese_sandwich",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s2_fruit_saturday",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s2_lemon_tea",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s2_pasta_tonight",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s3_healthy_breakfast",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s3_fresh_bread",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s3_hide_vegetables",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s3_run_out",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s3_birthday_cake",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s3_fish_friday",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s3_village_cheese",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "food.s3_fruit_snack",
+    "topic": "food",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.quarter",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.half_hour",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.midnight",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.date",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.weekday",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "time.tonight",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.every_day",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.day_after_tomorrow",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.day_before_yesterday",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time.half_past",
+    "topic": "time",
+    "kind": "phrase",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.hurry",
+    "topic": "time",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "time.s1_meeting_noon",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s2_half_past",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s2_quarter_to",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s2_next_bus",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s2_monday_friday",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s2_late_tonight",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s2_day_after_tomorrow",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s2_walk_every_day",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s2_until_midnight",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s3_alarm",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s3_bus_traffic",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s3_weekdays",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s3_appointment",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s3_hurry",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s3_day_before",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s3_whole_trip",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time.s3_never_time",
+    "topic": "time",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.calendar",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "calendar_colors.season",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "calendar_colors.color",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "calendar_colors.new_year",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "calendar_colors.public_holiday",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "calendar_colors.anniversary",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "calendar_colors.date_of_birth",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "calendar_colors.colorful",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "calendar_colors.light_blue",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "calendar_colors.navy",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "calendar_colors.gold",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "calendar_colors.silver",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "calendar_colors.beige",
+    "topic": "calendar_colors",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "calendar_colors.s1_birthday_may",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s1_favorite_color",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s1_car_red",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s1_spring_istanbul",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s1_cold_january",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s1_black_coat",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s1_school_september",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s2_august_vacation",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s2_dress_blue",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s2_leaves_fall",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s2_anniversary",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s2_public_holiday",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s2_paint_room",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s2_new_year_eve",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s2_date_of_birth",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s3_hot_dry",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s3_party_saturday",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s3_kitchen_calendar",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s3_navy_suit",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s3_favorite_season",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s3_school_holidays",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s3_born_october",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "calendar_colors.s3_white_house",
+    "topic": "calendar_colors",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s1_wear_jacket",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s1_where_keys",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s1_shoes_door",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s2_three_bedrooms",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s2_plates_glasses",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s2_sweater_scarf",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s2_bigger_shirt",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s2_phone_bedroom",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s2_big_window",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s2_gloves_hat",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s2_red_dress",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s3_bigger_apartment",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s3_lost_keys",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s3_living_room",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s3_packing",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s3_after_dinner",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s3_garden_dream",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s3_dress_code",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_clothes.s3_empty_fridge",
+    "topic": "home_clothes",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.skin",
+    "topic": "body_weather",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "body_weather.sunny",
+    "topic": "body_weather",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "body_weather.cloudy",
+    "topic": "body_weather",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "body_weather.rainy",
+    "topic": "body_weather",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "body_weather.windy",
+    "topic": "body_weather",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "body_weather.snowy",
+    "topic": "body_weather",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "body_weather.foggy",
+    "topic": "body_weather",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "body_weather.s1_head_hurts",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s1_sunny_today",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s1_wash_hands",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s1_cold_wind",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s1_blue_eyes",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s1_take_umbrella",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s1_back_hurts",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s1_snow_mountains",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s2_weather_tomorrow",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s2_cloudy_rainy",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s2_broke_arm",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s2_sunscreen",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s2_toothache",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s2_cold_hands",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s2_rainbow_sea",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s2_lightning",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s3_forecast",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s3_ice_roads",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s3_red_face",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s3_tired_eyes",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s3_april",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s3_cut_finger",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s3_snow_play",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "body_weather.s3_hot_summer",
+    "topic": "body_weather",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.cafe",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.book_table",
+    "topic": "restaurant",
+    "kind": "phrase",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.todays_special",
+    "topic": "restaurant",
+    "kind": "phrase",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant.soft_drink",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.sparkling_water",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.kebab",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.steak",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.serve",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.taste",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "restaurant.buffet",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.reserved",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.homemade",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.boiled",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.baked",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant.terrace",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.high_chair",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.straw",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.tablecloth",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant.toothpick",
+    "topic": "restaurant",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "city_directions.building",
+    "topic": "city_directions",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "city_directions.address",
+    "topic": "city_directions",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "city_directions.post_office",
+    "topic": "city_directions",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "city_directions.mosque",
+    "topic": "city_directions",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "city_directions.s2_excuse_station",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s2_straight_two_blocks",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s2_pharmacy_near",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s2_museum_far",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s2_bus_center",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s2_hotel_address",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s2_taxi_airport",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s3_lost_hotel",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s3_walk_bridge",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s3_bus_stop_corner",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s3_village_market",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s3_library_park",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s3_subway_traffic",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s3_post_office",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "city_directions.s3_ask_police",
+    "topic": "city_directions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.exam",
+    "topic": "work_school",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "work_school.s1_lesson_nine",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s2_teacher_question",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s2_homework_page",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s2_sister_nurse",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s2_word_mean",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s2_english_job",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s2_teacher_not_here",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s2_which_language",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s2_pencil_under",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s3_exam_friday",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s3_teacher_fast",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s3_mother_nurse",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s3_brother_taxi",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s3_homework_late",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s3_where_when",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s3_how_many",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_school.s3_doctor_engineer",
+    "topic": "work_school",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.high",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.low",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.warm",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.cool",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.closed",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.ready",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.great",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.terrible",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.perfect",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.simple",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.special",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.comfortable",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.careful",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.strange",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.lucky",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.handsome",
+    "topic": "describing",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing.s1_room_small",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s1_coffee_hot",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s1_store_closed",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s1_look_tired",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s1_room_ready",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s1_great_idea",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s2_hotel_cheap",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s2_warm_cool",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s2_brother_handsome",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s2_old_house",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s2_lucky_wedding",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s2_long_hair",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s2_english_easy",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s2_answer_perfect",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s3_apartment",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s3_terrible_weather",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s3_grandfather_old",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s3_careful_road",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s3_special_day",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s3_chair_comfortable",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s3_busy_happy",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing.s3_lucky_tickets",
+    "topic": "describing",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.take_a_shower",
+    "topic": "daily_actions",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "daily_actions.get_dressed",
+    "topic": "daily_actions",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "daily_actions.s1_get_up_seven",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s1_coffee_morning",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s2_shower_breakfast",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s2_call_mother",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s2_help_kitchen",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s2_children_bed",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s2_music_drive",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s2_son_dishes",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s2_start_finish",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s2_read_before_sleep",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s3_morning_routine",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s3_walk_or_bus",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s3_learn_cook",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s3_call_later",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s3_open_window",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s3_wait_friends",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s3_speak_slowly",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "daily_actions.s3_saturday",
+    "topic": "daily_actions",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.shopping",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.mall",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.cashier",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.checkout",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.basket",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.shopping_cart",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.change",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.line",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.salesperson",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.fitting_room",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.product",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.brand",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.quality",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.bargain",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.bookstore",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.butcher",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "shopping.on_sale",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "shopping.online",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "shopping.return",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "shopping.deliver",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "shopping.compare",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "shopping.afford",
+    "topic": "shopping",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "shopping.s2_fitting_room",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s2_bigger_size",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s2_return_shirt",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s2_cash_or_card",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s2_line_checkout",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s2_coats_sale",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s2_afford_watch",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s2_clothes_online",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s3_return_receipt",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s3_compare_prices",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s3_wrong_change",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s3_brand_quality",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s3_mall_crowded",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s3_deliver_tomorrow",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s3_bargain_market",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "shopping.s3_salesperson_helpful",
+    "topic": "shopping",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.team",
+    "topic": "work_tech",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "work_tech.contract",
+    "topic": "work_tech",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "work_tech.deadline",
+    "topic": "work_tech",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "work_tech.file",
+    "topic": "work_tech",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "work_tech.printer",
+    "topic": "work_tech",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "work_tech.log_in",
+    "topic": "work_tech",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "work_tech.upload",
+    "topic": "work_tech",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "work_tech.s2_battery_low",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s2_printer",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s2_deadline",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s2_upload_file",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s2_new_team",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s3_contract_salary",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s3_log_in",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s3_meeting_thursday",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s3_work_from_home",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s3_interview_experience",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s3_screen_broken",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s3_boss_late",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "work_tech.s3_video_call",
+    "topic": "work_tech",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.luggage",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.passenger",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.seat",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.boarding_pass",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.gate",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.departure",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.delay",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.platform",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.customs",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.backpack",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.souvenir",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.round_trip",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "travel.book",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "travel.miss",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "travel.pack",
+    "topic": "travel",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "travel.s2_window_seat",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s2_flight_delay",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s2_missed_train",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s2_which_platform",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s3_customs",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s3_backpack",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s3_book_hotel",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s3_boarding_pass",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s3_souvenirs",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s3_round_trip",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s3_rent_car",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "travel.s3_gate_changed",
+    "topic": "travel",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.cold",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.sore_throat",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.toothache",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.pill",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.injury",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.bandage",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.patient",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.checkup",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "health.broken",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "health.dizzy",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "health.sneeze",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "health.get_better",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "health.examine",
+    "topic": "health",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "health.s2_call_ambulance",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s2_sore_throat",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s2_pills",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s2_dizzy",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s2_arm_not_broken",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s2_checkup",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s2_get_better",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s3_back_pain",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s3_sneeze_allergy",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s3_toothache",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s3_elbow",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s3_patients_waiting",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s3_bandage",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s3_stay_healthy",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "health.s3_prescription",
+    "topic": "health",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.drawer",
+    "topic": "home_life",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "home_life.doorbell",
+    "topic": "home_life",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "home_life.vacuum_cleaner",
+    "topic": "home_life",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "home_life.iron",
+    "topic": "home_life",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "home_life.heating",
+    "topic": "home_life",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "home_life.landlord",
+    "topic": "home_life",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "home_life.laundry",
+    "topic": "home_life",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "home_life.tidy_up",
+    "topic": "home_life",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "home_life.s1_keys_drawer",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s1_doorbell",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s1_clean_kitchen",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s1_heating",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s2_move_apartment",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s2_towels_shelf",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s2_rent_balcony",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s2_tidy_room",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s2_elevator_broken",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s2_iron_shirt",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s2_box_books",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s2_washing_machine",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s3_landlord",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s3_vacuum",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s3_moving_boxes",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s3_neighbors",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s3_bathtub",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s3_no_furniture",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s3_rainy_weekend",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "home_life.s3_curtains",
+    "topic": "home_life",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.proud",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.jealous",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.disappointed",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.embarrassed",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.relaxed",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.curious",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.patient",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.polite",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.generous",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.selfish",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.hard_working",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.confident",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "people_feelings.relative",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "people_feelings.nephew",
+    "topic": "people_feelings",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "people_feelings.s1_proud_son",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s1_cousin_shy",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s2_aunt_generous",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s2_disappointed_results",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s2_patient_children",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s2_relatives_holiday",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s2_nephew_curious",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s2_embarrassed_name",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s2_jealous_brother",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s2_polite_guests",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s3_confident_interview",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s3_selfish_share",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s3_hard_working_promotion",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s3_relaxed_vacation",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s3_lonely_city",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s3_honest_friend",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s3_surprised_party",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "people_feelings.s3_calm_angry",
+    "topic": "people_feelings",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.useful",
+    "topic": "describing_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing_2.crowded",
+    "topic": "describing_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing_2.deep",
+    "topic": "describing_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing_2.bright",
+    "topic": "describing_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing_2.sharp",
+    "topic": "describing_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing_2.clear",
+    "topic": "describing_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "describing_2.s1_bag_heavy",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s1_bus_crowded",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s1_lake_deep",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s1_sofa_comfortable",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s1_museum_free",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s1_street_dark",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s2_road_dangerous",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s2_fridge_empty",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s2_same_different",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s2_room_bright",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s2_bread_fresh",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s2_weather_terrible",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s2_simple_recipe",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s2_famous_singer",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s3_quiet_hotel",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s3_important_safe",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s3_boring_film",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s3_enough_chairs",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s3_possible_fast",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s3_rich_neighborhood",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s3_dry_cake",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "describing_2.s3_strong_light",
+    "topic": "describing_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.jump",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.climb",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.fly",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.hold",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.hide",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.cut",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.move",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.enter",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.follow",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.miss",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.share",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.repeat",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.practice",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.relax",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.lie_down",
+    "topic": "actions_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_2.s1_miss_you",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s1_lost_keys",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s1_please_repeat",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s1_hold_hand",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s1_cat_hides",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s1_lie_down",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s1_choose_one",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s2_moving_house",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s2_climb_mountain",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s2_share_room",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s2_follow_me",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s2_practice_english",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s2_cut_bread",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s2_fly_istanbul",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s2_relax_weekend",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s3_jump_water",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s3_remember_name",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s3_enter_building",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s3_send_receive",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s3_try_change",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s3_believe_hope",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s3_carry_bags",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_2.s3_wake_up_early",
+    "topic": "actions_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.accept",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.refuse",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.allow",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.promise",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.prefer",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.forgive",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.describe",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.discuss",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.improve",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.protect",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.collect",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.join",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.happen",
+    "topic": "actions_3",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "actions_3.s1_what_happened",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s1_prefer_tea",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s1_promise_call",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s1_join_us",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s1_baby_laughed",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s1_fix_bike",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s2_accept_job",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s2_refuse_invitation",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s2_allow_phones",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s2_compare_prices",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s2_describe_man",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s2_discuss_plan",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s2_collect_stamps",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s2_dance_wedding",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s3_improve_english",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s3_protect_skin",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s3_decide_stay",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s3_teach_cook",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s3_window_broke",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s3_win_prize",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s3_meet_invite",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "actions_3.s3_earn_build",
+    "topic": "actions_3",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.exhibition",
+    "topic": "leisure_world",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure_world.painting",
+    "topic": "leisure_world",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure_world.hiking",
+    "topic": "leisure_world",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "leisure_world.s1_love_song",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s1_sky_clear",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s1_hobby",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s1_storm_coming",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s1_hiking_sunday",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s2_concert_tickets",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s2_island_ferry",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s2_fog_flight",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s2_temperature_degrees",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s2_exhibition_paintings",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s2_picnic_lake",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s2_newspaper_morning",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s2_horses_village",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s3_football_match",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s3_forest_river",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s3_environment",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s3_birthday_party",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s3_north_south",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s3_magazine_story",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s3_theater_weekend",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "leisure_world.s3_moon_east",
+    "topic": "leisure_world",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.just",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.ever",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.recently",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.suddenly",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.finally",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.rarely",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.also",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.especially",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.probably",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.at_least",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adverb"]
+  },
+  {
+    "id": "time_links.since",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "time_links.while",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "time_links.however",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "time_links.although",
+    "topic": "time_links",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["conjunction"]
+  },
+  {
+    "id": "time_links.s1_just_arrived",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s1_finally_home",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s2_ever_been",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s2_since_2020",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s2_while_cooking",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s2_recently_tired",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s2_suddenly_lights",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s2_rarely_eat_out",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s2_at_least_water",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s2_probably_rain",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s3_although_tired",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s3_however_expensive",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s3_especially_winter",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s3_still_not_finished",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s3_together_weekend",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s3_if_without",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s3_also_speaks",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "time_links.s3_often_between",
+    "topic": "time_links",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.call_it_a_day",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.under_the_weather",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.same_boat",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.cats_and_dogs",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.make_up_mind",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.kill_time",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.take_a_break",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.lose_temper",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.knock_on_wood",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.hit_the_road",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.take_your_time",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.keep_in_touch",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.up_to_you",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.no_way",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.by_the_way",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.in_a_hurry",
+    "topic": "idioms",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s1_call_it_a_day",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s1_piece_of_cake",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s1_take_your_time",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s1_up_to_you",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s1_in_a_hurry",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s1_under_weather",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s1_no_way",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s1_knock_on_wood",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s2_cats_and_dogs",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s2_kill_time",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s2_take_a_break",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s2_keep_in_touch",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s2_by_the_way",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s2_same_boat",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s2_hit_the_road",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s2_make_up_mind",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s3_lose_temper",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s3_blue_moon",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s3_break_the_ice",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s3_keep_an_eye",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s3_better_late",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s3_feel_at_home",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s3_time_flies",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms.s3_practice_perfect",
+    "topic": "idioms",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant_2.undercooked",
+    "topic": "restaurant_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant_2.stale",
+    "topic": "restaurant_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "restaurant_2.split_the_bill",
+    "topic": "restaurant_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["phrase"]
+  },
+  {
+    "id": "restaurant_2.leftovers",
+    "topic": "restaurant_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant_2.tap_water",
+    "topic": "restaurant_2",
+    "kind": "word",
+    "ageGroups": ["adult"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "restaurant_2.s1_chicken_undercooked",
+    "topic": "restaurant_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant_2.s1_bread_stale",
+    "topic": "restaurant_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant_2.s1_split_bill",
+    "topic": "restaurant_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant_2.s1_tap_water",
+    "topic": "restaurant_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant_2.s1_wrong_order",
+    "topic": "restaurant_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant_2.s1_waiting_hour",
+    "topic": "restaurant_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant_2.s1_soup_cold",
+    "topic": "restaurant_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "restaurant_2.s1_leftovers_home",
+    "topic": "restaurant_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.spill_the_beans",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.last_straw",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.middle_of_nowhere",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.see_eye_to_eye",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.blessing_in_disguise",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.bite_off_more",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.ball_in_your_court",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.beat_around_the_bush",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.pull_your_leg",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.hit_the_nail",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.sleeping_dogs",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.count_chickens",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.actions_speak",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.when_pigs_fly",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.drop_in_the_ocean",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.out_of_sight",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.midnight_oil",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.once_bitten",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.too_many_cooks",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.cloud_nine",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.cut_corners",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.out_of_hand",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.needle_in_haystack",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.speak_of_the_devil",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.tip_of_the_iceberg",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.storm_in_a_teacup",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.full_plate",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.bury_the_hatchet",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.two_heads",
+    "topic": "idioms_2",
+    "kind": "idiom",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s1_spill_beans",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s1_ball_court",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s1_pulling_leg",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s1_speak_devil",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s1_cloud_nine",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s1_when_pigs_fly",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s1_hit_the_nail",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s1_full_plate",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s2_middle_nowhere",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s2_last_straw",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s2_see_eye_to_eye",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s2_beat_bush",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s2_drop_ocean",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s2_midnight_oil",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s2_cut_corners",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s2_bury_hatchet",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s3_out_of_hand",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s3_blessing_disguise",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s3_bite_off_more",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s3_sleeping_dogs",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s3_count_chickens",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s3_tip_iceberg",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s3_two_heads",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "idioms_2.s3_actions_speak",
+    "topic": "idioms_2",
+    "kind": "sentence",
+    "ageGroups": ["adult"]
+  },
+  {
+    "id": "kid_greetings.hi",
+    "topic": "kid_greetings",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "kid_greetings.happy_birthday",
+    "topic": "kid_greetings",
+    "kind": "phrase",
+    "ageGroups": ["kid"],
+    "tags": ["interjection"]
+  },
+  {
+    "id": "kid_greetings.s2_nice_meet",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_greetings.s3_morning_names",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_greetings.s3_hello_nice",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_greetings.s3_sorry_late",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_greetings.s3_good_night",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_greetings.s3_thanks_help",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_greetings.s3_excuse_door",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_greetings.s3_welcome_home",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_greetings.s3_goodbye_school",
+    "topic": "kid_greetings",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.color",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.shape",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.colorful",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_colors_shapes.light_blue",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_colors_shapes.dark_blue",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_colors_shapes.gold",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_colors_shapes.silver",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_colors_shapes.turquoise",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_colors_shapes.line",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.dot",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.arrow",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.diamond",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.crescent",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.pentagon",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.hexagon",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.cube",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.sphere",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.cone",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.cylinder",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.pyramid",
+    "topic": "kid_colors_shapes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_colors_shapes.s1_sun_yellow",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s1_circle_red",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s1_heart_pink",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s2_grass_sky",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s2_draw_circle",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s2_square_sides",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s2_rainbow_seven",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s2_gold_star",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s2_blue_yellow",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s2_pink_dress",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s2_dark_blue_bike",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s3_ball_box",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s3_draw_house",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s3_traffic_light",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s3_silver_moon",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s3_favorite_color",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s3_arrows",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s3_pizza_slice",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_colors_shapes.s3_turkish_flag",
+    "topic": "kid_colors_shapes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.number",
+    "topic": "kid_numbers",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_numbers.count",
+    "topic": "kid_numbers",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "kid_numbers.plus",
+    "topic": "kid_numbers",
+    "kind": "word",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.minus",
+    "topic": "kid_numbers",
+    "kind": "word",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.equals",
+    "topic": "kid_numbers",
+    "kind": "word",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.half",
+    "topic": "kid_numbers",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_numbers.s1_eight_years",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s1_two_cats",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s1_count_ten",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s1_five_fingers",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s1_one_plus_one",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s1_three_apples",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s1_how_many_books",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s1_i_am_first",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s2_three_plus_four",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s2_twenty_students",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s2_grandmother_seventy",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s2_half_cake",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s2_count_hundred",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s2_third_grade",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s2_phone_zero",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s2_fifty_pages",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s3_count_stars",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s3_race_second",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s3_spider_legs",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s3_year_months",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s3_pages_read",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s3_two_hundred",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s3_dolls_cars",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_numbers.s3_birthday_ten",
+    "topic": "kid_numbers",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.melon",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.tangerine",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.kiwi",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.pomegranate",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.blueberry",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.coconut",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.walnut",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.eggplant",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.lettuce",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.cabbage",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.spinach",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.broccoli",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.garlic",
+    "topic": "kid_fruits_vegetables",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s1_banana_yellow",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s1_like_grapes",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s1_carrots_orange",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s1_eat_pear",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s1_lemon_sour",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s1_watermelon_big",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s1_tomatoes_red",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s1_want_cherries",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s2_apple_every_day",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s2_sweet_strawberries",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s2_potatoes_onions",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s2_salad",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s2_rabbit_carrots",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s2_big_pumpkin",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s2_figs_peaches",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s2_no_onions",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s3_fruit_salad",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s3_spinach",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s3_orange_juice",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s3_grandfather_grows",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s3_watermelon_inside",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s3_market_saturday",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s3_soup_vegetables",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_fruits_vegetables.s3_apples_or_pears",
+    "topic": "kid_fruits_vegetables",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.meatball",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.french_fries",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.hamburger",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.sausage",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.pancake",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.omelet",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.cereal",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.chips",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.lemonade",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.hot_chocolate",
+    "topic": "kid_food",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_food.s1_hungry",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s1_cake_sweet",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s2_breakfast_eggs",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s2_ice_cream",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s2_honey_butter",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s2_pizza_tonight",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s2_glass_water",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s2_cookies_tea",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s2_meatballs_rice",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s2_lemonade",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s3_pass_salt",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s3_birthday_cake",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s3_hamburger_fries",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s3_turkish_breakfast",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s3_popcorn_movie",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s3_too_much_candy",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s3_sunday_pancakes",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_food.s3_hot_chocolate",
+    "topic": "kid_food",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.grandparents",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.grandchild",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.twins",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.relatives",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.age",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.last_name",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.stroller",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.family_tree",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.hug",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "kid_family.kiss",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "kid_family.love",
+    "topic": "kid_family",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_family.s2_big_family",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s2_twins",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s2_uncle_children",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s2_hug_mother",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s2_visit_grandparents",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s3_family_photo",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s3_dinner_together",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s3_bedtime_story",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s3_ages",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s3_aunt_visits",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s3_father_reads",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s3_wedding",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_family.s3_parents_love",
+    "topic": "kid_family",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.pet",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.paw",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.puppy",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.kitten",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.chick",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.lamb",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.calf",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.goose",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.turkey",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.hamster",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.goldfish",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.bug",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.tail",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.feather",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.wool",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.cage",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.barn",
+    "topic": "kid_pets_farm",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_pets_farm.s1_cow_milk",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s1_bird_sings",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s1_love_dog",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s1_horse_fast",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s1_fish_swims",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s2_chicken_eggs",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s2_cat_mouse",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s2_puppy_tail",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s2_white_ducks",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s2_bee_flower",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s2_rabbit_carrots",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s2_rooster_morning",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s2_kitten_milk",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s3_grandfather_farm",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s3_farmer_early",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s3_hamster_cage",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s3_bird_nest",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s3_walk_dog",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s3_wool_milk",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s3_ladybug_hand",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_pets_farm.s3_frog_jumps",
+    "topic": "kid_pets_farm",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.koala",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.gorilla",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.rhino",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.polar_bear",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.flamingo",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.peacock",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.ostrich",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.seal",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.leopard",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.cheetah",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.sloth",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.jellyfish",
+    "topic": "kid_zoo",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_zoo.s1_lion_big",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s1_monkey_funny",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s1_snake_long",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s1_like_pandas",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s1_turtle_slow",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s1_giraffe_tall",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s1_see_tiger",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s1_dolphins_swim",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s2_elephant_nose",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s2_go_zoo",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s2_monkey_banana",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s2_penguins_cold",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s2_kangaroo_jump",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s2_zebra_stripes",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s2_parrot_name",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s2_crocodile_teeth",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s3_giraffe_leaves",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s3_lion_sleeps",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s3_polar_bear_fish",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s3_whale_biggest",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s3_monkeys_jump",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s3_octopus_arms",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s3_ostrich_run",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_zoo.s3_favorite_animal",
+    "topic": "kid_zoo",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.body",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.thumb",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.nail",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.muscle",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.bone",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.skin",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.brain",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.forehead",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.eyelash",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.wrist",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.ankle",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.chest",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.heel",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.throat",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.hip",
+    "topic": "kid_body",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_body.s1_two_eyes",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s1_hair_long",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s1_wash_face",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s1_touch_nose",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s1_knee_hurts",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s1_clap_hands",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s1_ten_fingers",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s1_brush_teeth",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s2_heart_beats",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s2_wash_hands_eat",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s2_blue_eyes",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s2_one_foot",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s2_hurt_arm",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s2_hands_knees",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s2_bones_strong",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s2_close_eyes",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s3_see_hear",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s3_brush_twice",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s3_heart_chest",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s3_brain_think",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s3_cut_nails",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s3_tooth_dentist",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s3_skin_sun",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_body.s3_hurt_ankle",
+    "topic": "kid_body",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.sneakers",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.sandals",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.jeans",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.vest",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.tie",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.cap",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.sunglasses",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.pocket",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.watch",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.ring",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.necklace",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.earrings",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.bracelet",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.uniform",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.apron",
+    "topic": "kid_clothes",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_clothes.s1_wear_hat",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s1_dress_red",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s1_put_on_socks",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s1_coat_warm",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s1_where_scarf",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s1_like_jacket",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s2_raincoat_rain",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s2_gloves_cold",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s2_tie_shoes",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s2_pajamas_bed",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s2_swimsuit_beach",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s2_button_shirt",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s2_dad_sunglasses",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s2_school_uniform",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s3_zip_coat",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s3_party_dress",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s3_winter_boots",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s3_jeans_pocket",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s3_pants_belt",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s3_grandma_sweater",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s3_slippers_home",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_clothes.s3_lost_glove",
+    "topic": "kid_clothes",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s1_door_open",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s1_sit_chair",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s1_bed_soft",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s1_close_window",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s1_mom_kitchen",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s1_turn_on_lamp",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s2_tv_living_room",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s2_cat_sofa",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s2_milk_fridge",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s2_face_mirror",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s2_plates_table",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s2_soup_spoon",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s2_dad_shower",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s3_our_house",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s3_toothbrush_sink",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s3_pillow_blanket",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s3_cake_oven",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s3_clock_wall",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s3_towel_bath",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s3_lost_key",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_home.s3_roof_nest",
+    "topic": "kid_home",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.backpack",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.pencil_case",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.sharpener",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.glue",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.board",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.paper",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.classmate",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.test",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.letter",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.math",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.science",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.bell",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.recess",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.lunchbox",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.paintbrush",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.marker",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.calculator",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.globe",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.sticker",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.principal",
+    "topic": "kid_school",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_school.s1_open_books",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s1_red_pencil",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s1_bell_ringing",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s1_need_eraser",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s2_teacher_board",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s2_backpack_heavy",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s2_recess_outside",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s2_raise_hand",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s2_math_favorite",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s2_words_page",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s2_cut_paper",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s2_learn_english",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s3_math_test",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s3_pencil_case",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s3_map_wall",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s3_answer_question",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s3_computers_friday",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s3_lunchbox",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s3_homework_tv",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_school.s3_alphabet",
+    "topic": "kid_school",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.marbles",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.spinning_top",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.whistle",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.guitar",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.piano",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.play_dough",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.dice",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.chess",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.board_game",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.puppet",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.dollhouse",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.toy_box",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.rocking_horse",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.water_gun",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.paper_plane",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.toy_boat",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.dinosaur",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.trampoline",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.bucket",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.shovel",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.video_game",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.mask",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.carousel",
+    "topic": "kid_toys",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_toys.s1_kite_high",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s1_new_robot",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s1_ball_red",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s1_lets_play",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s1_doll_sleeping",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s1_blow_bubbles",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s1_my_turn",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s2_teddy_sleep",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s2_go_down_slide",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s2_tower_blocks",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s2_your_toy_car",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s2_throw_dice",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s2_balloon_sky",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s2_push_swing",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s2_drum_loud",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s3_toys_box",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s3_puzzle_pieces",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s3_grandpa_robot",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s3_kites_windy",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s3_chess_saturday",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s3_sand_castle",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s3_video_games",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_toys.s3_paper_plane",
+    "topic": "kid_toys",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.calendar",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.alarm_clock",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.bedtime",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.date",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.midnight",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.second",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.quarter",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.tonight",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.lunchtime",
+    "topic": "kid_days_time",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_days_time.s1_today_friday",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s1_late_now",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s1_weekend_fun",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s1_wake_up_early",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s2_monday_friday",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s2_seven_days",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s2_lunch_noon",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s2_party_saturday",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s2_wait_minutes",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s2_yesterday_park",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s2_afternoon_book",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s2_never_late",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s3_alarm_seven",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s3_calendar",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s3_vacation_sea",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s3_dad_late",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s3_quarter_past",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s3_tonight_stars",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s3_three_days",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_days_time.s3_sixty_seconds",
+    "topic": "kid_days_time",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.passenger",
+    "topic": "kid_vehicles",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_vehicles.seat_belt",
+    "topic": "kid_vehicles",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_vehicles.s1_red_car",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s1_big_bus",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s1_plane_fast",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s1_ride_bicycle",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s1_train_long",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s1_stop_red",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s1_go_bus",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s1_taxi_yellow",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s2_bus_school",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s2_driver_slow",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s2_ticket_train",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s2_ambulance_fast",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s2_seat_belt",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s2_plane_airport",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s2_turn_left",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s2_fire_truck",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s3_bus_stop",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s3_rocket_moon",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s3_tractor_farm",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s3_train_station",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s3_police_car",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s3_map_trip",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s3_subway_crowded",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_vehicles.s3_skateboard_park",
+    "topic": "kid_vehicles",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.sunny",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_months_weather.rainy",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_months_weather.snowy",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_months_weather.cloudy",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_months_weather.windy",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_months_weather.warm",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_months_weather.cool",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["adjective"]
+  },
+  {
+    "id": "kid_months_weather.snowman",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_months_weather.thunder",
+    "topic": "kid_months_weather",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_months_weather.s1_sunny_today",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s1_rains_april",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s1_birthday_may",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s1_weather_cold",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s1_wind_strong",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s1_snowman",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s2_umbrella",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s2_summer_vacation",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s2_leaves_fall",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s2_fog_morning",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s2_storm_thunder",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s2_wet_shoes",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s2_picnic_warm",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s2_december_cold",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s3_rainbow",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s3_temperature",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s3_snow_school",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s3_winter_coat",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s3_birthday_october",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s3_windy_kites",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s3_july_hot",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_months_weather.s3_spring_flowers",
+    "topic": "kid_months_weather",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.ocean",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.wave",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.hill",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.cave",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.waterfall",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.desert",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.plant",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.branch",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.nest",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.shell",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.mud",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.pond",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.bush",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.seed",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.root",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.field",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.valley",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.planet",
+    "topic": "kid_nature",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_nature.s1_sky_blue",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s1_tree_tall",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s1_moon_big",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s1_fire_hot",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s1_flowers_red",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s1_fish_river",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s1_play_beach",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s1_leaves_green",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s2_hill_sunday",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s2_bird_nest",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s2_shells_beach",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s2_plants_water",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s2_desert_hot",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s2_waves_big",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s2_mud_boots",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s2_cave_dark",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s3_seed_tree",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s3_waterfall",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s3_island_boat",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s3_forest_animals",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s3_volcano",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s3_our_world",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s3_lightning",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_nature.s3_frogs_pond",
+    "topic": "kid_nature",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.zoo",
+    "topic": "kid_places",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_places.farm",
+    "topic": "kid_places",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_places.playground",
+    "topic": "kid_places",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_places.swimming_pool",
+    "topic": "kid_places",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_places.toy_store",
+    "topic": "kid_places",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_places.police_station",
+    "topic": "kid_places",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_places.fire_station",
+    "topic": "kid_places",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_places.post_office",
+    "topic": "kid_places",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["noun"]
+  },
+  {
+    "id": "kid_places.s1_park_big",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s1_go_zoo",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s1_under_bed",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s1_store_near",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s1_why_here",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s1_what_place",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s1_live_village",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s2_hospital_park",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s2_bread_supermarket",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s2_post_office",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s2_mother_bank",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s2_pool_saturday",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s2_library_books",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s2_toy_store_corner",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s2_school_far",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s3_movie_saturday",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s3_bridge_river",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s3_grandma_farm",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s3_pharmacy_between",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s3_fire_station",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s3_police_lost",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s3_museum_bones",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_places.s3_hotel_beach",
+    "topic": "kid_places",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.jump",
+    "topic": "kid_actions",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "kid_actions.climb",
+    "topic": "kid_actions",
+    "kind": "word",
+    "ageGroups": ["kid"],
+    "tags": ["verb"]
+  },
+  {
+    "id": "kid_actions.s1_run_fast",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s1_dance_sing",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s1_draws_cat",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s1_sit_chair",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s1_drink_water",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s1_baby_sleeping",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s1_catch_ball",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s1_wait_me",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s2_help_kitchen",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s2_music_car",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s2_sand_castle",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s2_find_pencil",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s2_brother_jumps",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s2_father_cooks",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s2_wake_seven",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s2_push_door",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s3_cartoons",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s3_carry_bag",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s3_throw_ball",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s3_baby_cries",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s3_laugh_story",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s3_climb_tree",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s3_story_bed",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_actions.s3_summer_sea",
+    "topic": "kid_actions",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s1_box_heavy",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s1_bag_empty",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s1_cat_soft",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s1_are_afraid",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s2_elephant_strong",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s2_quiet_baby",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s2_old_bicycle",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s2_glass_full",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s2_dark_afraid",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s2_grandfather_funny",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s2_street_dangerous",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s2_bread_soft",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s3_library_noisy",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s3_brave_sister",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s3_heavy_light",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s3_park_safe",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s3_angry_toys",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s3_long_day",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s3_soup_hot",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  },
+  {
+    "id": "kid_describing.s3_dirty_hands",
+    "topic": "kid_describing",
+    "kind": "sentence",
+    "ageGroups": ["kid"]
+  }
+]

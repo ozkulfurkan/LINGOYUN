@@ -52,28 +52,28 @@
     "id": "position.under",
     "topic": "position",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["preposition"]
   },
   {
     "id": "position.behind",
     "topic": "position",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["preposition"]
   },
   {
     "id": "position.next_to",
     "topic": "position",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["preposition"]
   },
   {
     "id": "position.in_front_of",
     "topic": "position",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["preposition"]
   },
   {
@@ -94,7 +94,7 @@
     "id": "function.together",
     "topic": "function",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adverb"]
   },
   {
@@ -171,7 +171,7 @@
     "id": "position.between",
     "topic": "position",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["preposition"]
   },
   {

@@ -5,9 +5,9 @@ import type { ContentBundle, ContentIssue, Entry } from './types';
 
 const CONCEPT_ID = /^[a-z][a-z0-9_]*(\.[a-z0-9_]+)+$/;
 const KINDS = ['word', 'phrase', 'idiom', 'sentence'];
-/** Below this a theme cannot fill its steps with new words (warning only). */
-const MIN_THEME_WORDS = 20;
-/** Four steps with two sentences each (warning only). */
+/** Four steps of ten new words each, so no step repeats an earlier one. */
+const THEME_WORDS = 40;
+/** Four steps with two sentences each, at every difficulty. */
 const MIN_THEME_SENTENCES = 8;
 
 /**
@@ -140,12 +140,14 @@ export function validateContent(bundle: ContentBundle): ContentIssue[] {
         if (band < 0) error(where, `band must be one of ${scale.join(', ')}`);
         else if (band < lastBand) error(where, 'themes must not get easier along the path');
         else lastBand = band;
-        if (theme.words.length === 0) error(where, 'theme has no words');
-        else if (theme.words.length < MIN_THEME_WORDS) {
-          warn(where, `only ${theme.words.length} words (a theme teaches up to 40)`);
+        if (theme.words.length !== THEME_WORDS) {
+          error(where, `${theme.words.length} words (a theme teaches ${THEME_WORDS})`);
         }
-        if ((theme.sentences['1']?.length ?? 0) < MIN_THEME_SENTENCES) {
-          warn(where, 'few easy sentences: steps borrow from other themes of the band');
+        for (const tier of ['1', '2', '3'] as const) {
+          const n = theme.sentences[tier]?.length ?? 0;
+          if (n < MIN_THEME_SENTENCES) {
+            error(where, `${n} sentences at difficulty ${tier} (needs ${MIN_THEME_SENTENCES})`);
+          }
         }
         const check = (id: string, wantSentence: boolean) => {
           const other = taughtIn.get(id);

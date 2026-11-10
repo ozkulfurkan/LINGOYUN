@@ -164,14 +164,14 @@
     "id": "quality.dangerous",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.safe",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
@@ -199,28 +199,28 @@
     "id": "quality.empty",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.full",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.heavy",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.light",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
@@ -241,21 +241,21 @@
     "id": "quality.dark",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.quiet",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.noisy",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
@@ -290,28 +290,28 @@
     "id": "quality.soft",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.hard",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.wet",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "quality.dry",
     "topic": "quality",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {

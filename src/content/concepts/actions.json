@@ -262,14 +262,14 @@
     "id": "action.cook",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
     "id": "action.drive",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
@@ -290,14 +290,14 @@
     "id": "action.watch",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
     "id": "action.wait",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
@@ -325,7 +325,7 @@
     "id": "action.wake_up",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
@@ -346,14 +346,14 @@
     "id": "action.stop",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
     "id": "action.carry",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
@@ -381,7 +381,7 @@
     "id": "action.find",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
@@ -535,7 +535,7 @@
     "id": "action.laugh",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
@@ -549,14 +549,14 @@
     "id": "action.cry",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
     "id": "action.dance",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
@@ -591,14 +591,14 @@
     "id": "action.build",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
     "id": "action.grow",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
@@ -612,28 +612,28 @@
     "id": "action.throw",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
     "id": "action.catch",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
     "id": "action.pull",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {
     "id": "action.push",
     "topic": "action",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["verb"]
   },
   {

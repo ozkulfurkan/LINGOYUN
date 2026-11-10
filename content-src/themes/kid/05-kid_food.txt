@@ -28,6 +28,22 @@ drink.milk # milk = süt
 drink.water # water = su
 drink.juice # juice = meyve suyu
 drink.tea # tea = çay
+food.breakfast # breakfast = kahvaltı
+food.lunch # lunch = öğle yemeği
+food.dinner # dinner = akşam yemeği
+food.food # food = yiyecek
+food.salt # salt = tuz
+@kind word noun
+kid_food.meatball|meatball|meatballs|köfte|
+kid_food.french_fries|french fries|fries|patates kızartması|
+kid_food.hamburger|hamburger|burger|hamburger|
+kid_food.sausage|sausage||sosis|
+kid_food.pancake|pancake|pancakes|pankek|
+kid_food.omelet|omelet||omlet|
+kid_food.cereal|cereal||mısır gevreği|kahvaltılık gevrek
+kid_food.chips|chips|potato chips|cips|
+kid_food.lemonade|lemonade||limonata|
+kid_food.hot_chocolate|hot chocolate||sıcak çikolata|
 
 @sentences 1
 sentence.l1_water_cold # The water is cold. = Su soğuk.
@@ -35,3 +51,26 @@ sentence.l2_eat_bread # I eat bread. = Ben ekmek yerim.
 sentence.l2_drink_milk # I drink milk. = Ben süt içerim.
 sentence.l2_like_chocolate # I like chocolate. = Ben çikolata severim.
 sentence.l2_soup_hot # The soup is hot. = Çorba sıcak.
+sentence.l2_glass_clean # This glass is clean. = Bu bardak temiz.
+kid_food.s1_hungry|I am hungry, Mom.|I'm hungry, Mom.|Acıktım, anne.|Anne, acıktım.;Açım, anne.;Anne, açım.
+kid_food.s1_cake_sweet|The cake is sweet.||Pasta tatlı.|Pasta tatlıdır.
+
+@sentences 2
+kid_food.s2_breakfast_eggs|I eat eggs and cheese for breakfast.|For breakfast I eat eggs and cheese.;I eat cheese and eggs for breakfast.|Kahvaltıda yumurta ve peynir yerim.|Kahvaltıda yumurta ve peynir yiyorum.;Kahvaltıda peynir ve yumurta yerim.;Ben kahvaltıda yumurta ve peynir yerim.
+kid_food.s2_ice_cream|Ice cream is cold and sweet.|Ice cream is sweet and cold.|Dondurma soğuk ve tatlıdır.|Dondurma soğuk ve tatlı.;Dondurma tatlı ve soğuk.
+kid_food.s2_honey_butter|I put honey and butter on bread.|I put butter and honey on bread.|Ekmeğe bal ve tereyağı sürerim.|Ekmeğe tereyağı ve bal sürerim.;Ekmeğe bal ve tereyağı sürüyorum.
+kid_food.s2_pizza_tonight|We have pizza for dinner tonight.|Tonight we have pizza for dinner.|Bu akşam yemekte pizza var.|Bu akşam yemekte pizza yiyoruz.;Bu akşam akşam yemeğinde pizza var.;Bu akşam yemekte pizza yeriz.
+kid_food.s2_glass_water|Please drink a glass of water.|Drink a glass of water, please.|Lütfen bir bardak su iç.|Bir bardak su iç lütfen.;Lütfen bir bardak su için.
+kid_food.s2_cookies_tea|My grandmother makes cookies and tea.|My grandmother makes tea and cookies.|Büyükannem kurabiye ve çay yapar.|Anneannem kurabiye ve çay yapar.;Babaannem kurabiye ve çay yapar.;Ninem kurabiye ve çay yapar.;Büyükannem çay ve kurabiye yapar.
+kid_food.s2_meatballs_rice|I love meatballs and rice for lunch.|For lunch I love meatballs and rice.|Öğle yemeğinde köfte ve pilavı çok severim.|Öğle yemeğinde köfteyle pilavı çok severim.;Öğle yemeğinde köfte pilava bayılırım.;Öğle yemeğinde köfte ve pilava bayılırım.
+kid_food.s2_lemonade|This lemonade is cold and delicious.|This lemonade is delicious and cold.|Bu limonata soğuk ve lezzetli.|Bu limonata lezzetli ve soğuk.;Bu limonata soğuk ve çok lezzetli.
+
+@sentences 3
+kid_food.s3_pass_salt|Can you give me the salt for my soup, please?|Can you please give me the salt for my soup?|Çorbam için tuzu bana verebilir misin lütfen?|Lütfen çorbam için tuzu bana verir misin?;Çorbam için bana tuzu verebilir misin lütfen?;Çorbam için tuzu verir misin lütfen?
+kid_food.s3_birthday_cake|On my birthday we eat chocolate cake and ice cream.|We eat chocolate cake and ice cream on my birthday.;On my birthday we eat ice cream and chocolate cake.;We eat ice cream and chocolate cake on my birthday.|Doğum günümde çikolatalı pasta ve dondurma yeriz.|Doğum günümde çikolatalı pasta ve dondurma yiyoruz.;Doğum günümde dondurma ve çikolatalı pasta yeriz.
+kid_food.s3_hamburger_fries|My brother wants a hamburger and french fries for lunch.|For lunch my brother wants a hamburger and french fries.|Erkek kardeşim öğle yemeğinde hamburger ve patates kızartması istiyor.|Kardeşim öğle yemeğinde hamburger ve patates kızartması istiyor.;Erkek kardeşim öğle yemeği için hamburger ve patates kızartması istiyor.;Kardeşim öğle yemeği için hamburger ve patates kızartması istiyor.
+kid_food.s3_turkish_breakfast|We eat olives, cheese, eggs and bread at breakfast.|At breakfast we eat olives, cheese, eggs and bread.|Kahvaltıda zeytin, peynir, yumurta ve ekmek yeriz.|Kahvaltıda zeytin, peynir, yumurta ve ekmek yiyoruz.
+kid_food.s3_popcorn_movie|We eat popcorn and drink juice when we watch a movie.|When we watch a movie we eat popcorn and drink juice.|Film izlerken patlamış mısır yer, meyve suyu içeriz.|Film izlerken patlamış mısır yeriz ve meyve suyu içeriz.;Film izlerken patlamış mısır yiyip meyve suyu içeriz.
+kid_food.s3_too_much_candy|Do not eat too much candy, it is bad for your teeth.|Don't eat too much candy, it's bad for your teeth.;Don't eat too much candy, it is bad for your teeth.|Çok fazla şeker yeme, dişlerine zararlı.|Çok şeker yeme, dişlerine zararlı.;Fazla şeker yeme, dişlerine kötü gelir.;Çok fazla şeker yeme, dişlerin için kötü.
+kid_food.s3_sunday_pancakes|On Sunday mornings my mother makes pancakes with jam and honey.|My mother makes pancakes with jam and honey on Sunday mornings.|Pazar sabahları annem reçelli ve ballı pankek yapar.|Annem pazar sabahları reçelli ve ballı pankek yapar.;Pazar sabahları annem reçelli ve ballı pankek yapıyor.;Pazar sabahları annem reçelli ballı pankek yapar.
+kid_food.s3_hot_chocolate|When it is cold outside, I drink a cup of hot chocolate.|When it's cold outside, I drink a cup of hot chocolate.;I drink a cup of hot chocolate when it is cold outside.|Dışarısı soğukken bir fincan sıcak çikolata içerim.|Dışarısı soğuk olunca bir fincan sıcak çikolata içerim.;Dışarısı soğukken bir kupa sıcak çikolata içerim.;Hava soğukken bir fincan sıcak çikolata içerim.

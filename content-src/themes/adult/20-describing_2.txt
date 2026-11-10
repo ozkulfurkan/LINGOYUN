@@ -37,7 +37,41 @@ quality.famous # famous = ünlü
 quality.free # free = ücretsiz
 quality.nice # nice = hoş
 quality.enough # enough = yeterli
+@kind word adjective
+describing_2.useful|useful|helpful|yararlı|kullanışlı;faydalı
+describing_2.crowded|crowded||kalabalık|
+describing_2.deep|deep||derin|
+describing_2.bright|bright||parlak|aydınlık
+describing_2.sharp|sharp||keskin|
+describing_2.clear|clear||berrak|açık
 
 @sentences 1
 sentence.a2_soup_delicious # This soup is delicious. = Bu çorba lezzetli.
 sentence.a2_too_salty # The food is too salty. = Yemek çok tuzlu.
+describing_2.s1_bag_heavy|This bag is very heavy.|This bag is really heavy.;This bag is so heavy.|Bu çanta çok ağır.|
+describing_2.s1_bus_crowded|The bus is always crowded.||Otobüs her zaman kalabalık.|
+describing_2.s1_lake_deep|Is the lake very deep?|Is the lake really deep?|Göl çok derin mi?|
+describing_2.s1_sofa_comfortable|This sofa is really comfortable.|This sofa is very comfortable.;This couch is really comfortable.;This couch is very comfortable.|Bu kanepe gerçekten rahat.|
+describing_2.s1_museum_free|The museum is free today.|Today the museum is free.|Müze bugün ücretsiz.|
+describing_2.s1_street_dark|The street is dark and quiet.|The street is quiet and dark.|Sokak karanlık ve sessiz.|
+sentence.a2_hotel_bigger # moved from shopping/travel (LNG-45)
+
+@sentences 2
+describing_2.s2_road_dangerous|This road is narrow and dangerous, so please drive slowly.|This road is dangerous and narrow, so please drive slowly.;This road is narrow and dangerous, so drive slowly, please.;This road is narrow and dangerous, please drive slowly.;This road is dangerous and narrow, please drive slowly.|Bu yol dar ve tehlikeli, o yüzden lütfen yavaş sür.|Bu yol dar ve tehlikeli, lütfen yavaş sür.
+describing_2.s2_fridge_empty|The fridge is almost empty, so we need to go shopping.|The fridge is nearly empty, so we need to go shopping.;The refrigerator is almost empty, so we need to go shopping.;The fridge is almost empty, so we have to go shopping.;The fridge is almost empty, so we should go shopping.;The fridge is almost empty, we need to go shopping.|Buzdolabı neredeyse boş, bu yüzden alışverişe gitmemiz gerekiyor.|Buzdolabı neredeyse boş, alışverişe gitmemiz gerekiyor.;Buzdolabı neredeyse boş, bu yüzden alışverişe gitmeliyiz.
+describing_2.s2_same_different|We bought the same phone, but in different colors.|We bought the same phone but in different colours.;We bought the same phone, but in different colours.|Aynı telefonu aldık ama farklı renklerde.|
+describing_2.s2_room_bright|Our new apartment has a bright and spacious living room.|Our new apartment has a spacious and bright living room.;Our new apartment has a bright, spacious living room.;Our new apartment has a large and bright living room.;Our new apartment has a bright and large living room.;Our new flat has a bright and spacious living room.;Our new flat has a spacious and bright living room.|Yeni dairemizin aydınlık ve geniş bir oturma odası var.|
+describing_2.s2_bread_fresh|The bread at this bakery is always fresh and soft.|The bread at this bakery is always soft and fresh.;The bread in this bakery is always fresh and soft.|Bu fırının ekmeği her zaman taze ve yumuşaktır.|
+describing_2.s2_weather_terrible|The weather was terrible, and all our clothes got wet.|The weather was terrible and all our clothes got wet.;The weather was awful, and all our clothes got wet.|Hava berbattı ve bütün kıyafetlerimiz ıslandı.|
+describing_2.s2_simple_recipe|This recipe is very simple, but the result is delicious.|This recipe is really simple, but the result is delicious.;This recipe is very easy, but the result is delicious.|Bu tarif çok basit ama sonucu çok lezzetli.|
+describing_2.s2_famous_singer|The singer is famous now, but she was poor as a child.|The singer is famous now, but he was poor as a child.;Now the singer is famous, but she was poor as a child.;Now the singer is famous, but he was poor as a child.|Şarkıcı artık ünlü ama çocukken fakirdi.|
+
+@sentences 3
+describing_2.s3_quiet_hotel|We wanted a quiet hotel, but our room was next to a noisy street and we could not sleep.|We wanted a quiet hotel, but our room was next to a noisy street and we couldn't sleep.;We wanted a quiet hotel but our room was next to a noisy street and we could not sleep.|Sessiz bir otel istedik ama odamız gürültülü bir caddenin yanındaydı ve uyuyamadık.|
+describing_2.s3_important_safe|It is important to keep your passport in a safe place when you travel to a different country.|It's important to keep your passport in a safe place when you travel to a different country.;When you travel to a different country, it is important to keep your passport in a safe place.;When you travel to a different country, it's important to keep your passport in a safe place.|Farklı bir ülkeye seyahat ederken pasaportunu güvenli bir yerde tutman önemlidir.|
+describing_2.s3_boring_film|Everyone said the movie was interesting, but I found it so boring that I fell asleep after twenty minutes.|Everyone said the film was interesting, but I found it so boring that I fell asleep after twenty minutes.;Everybody said the movie was interesting, but I found it so boring that I fell asleep after twenty minutes.;Everybody said the film was interesting, but I found it so boring that I fell asleep after twenty minutes.|Herkes filmin ilginç olduğunu söyledi ama ben o kadar sıkıcı buldum ki yirmi dakika sonra uyuyakaldım.|
+describing_2.s3_enough_chairs|We do not have enough chairs for everyone, so some guests will have to sit on the floor.|We don't have enough chairs for everyone, so some guests will have to sit on the floor.;We do not have enough chairs for everybody, so some guests will have to sit on the floor.;We don't have enough chairs for everybody, so some guests will have to sit on the floor.|Herkes için yeterli sandalyemiz yok, bu yüzden bazı misafirler yere oturmak zorunda kalacak.|
+describing_2.s3_possible_fast|Is it possible to send this heavy box by a faster service, or will it take two weeks?|Is it possible to send this heavy box with a faster service, or will it take two weeks?|Bu ağır kutuyu daha hızlı bir hizmetle göndermek mümkün mü, yoksa iki hafta mı sürer?|
+describing_2.s3_rich_neighborhood|The houses in this neighborhood are beautiful, but only rich people can afford to live here.|The houses in this neighbourhood are beautiful, but only rich people can afford to live here.;The houses in this neighborhood are beautiful, but only rich people can live here.;The houses in this neighbourhood are beautiful, but only rich people can live here.;The houses in this neighborhood are very beautiful, but only rich people can afford to live here.;The houses in this neighborhood are very beautiful, but only rich people can live here.|Bu mahalledeki evler çok güzel ama burada yalnızca zengin insanlar yaşayabilir.|Bu mahalledeki evler çok güzel ama burada oturmaya ancak zenginlerin gücü yeter.
+describing_2.s3_dry_cake|The cake looked nice in the window, but it was very dry and much too sweet for me.|The cake looked nice in the window, but it was really dry and much too sweet for me.;The cake looked nice in the window, but it was very dry and far too sweet for me.|Pasta vitrinde hoş görünüyordu ama benim için çok kuru ve fazlasıyla tatlıydı.|
+describing_2.s3_strong_light|My grandfather is not as strong as he used to be, so he can only carry light bags now.|My grandfather isn't as strong as he used to be, so he can only carry light bags now.;My grandfather is not as strong as he used to be, so now he can only carry light bags.;My grandfather isn't as strong as he used to be, so now he can only carry light bags.|Dedem eskisi kadar güçlü değil, bu yüzden artık sadece hafif çantalar taşıyabiliyor.|

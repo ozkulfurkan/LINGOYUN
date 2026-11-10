@@ -23,6 +23,29 @@ shape.rectangle # rectangle = dikdörtgen
 shape.oval # oval = oval
 opposite.up # up = yukarı
 opposite.down # down = aşağı
+@kind word noun
+kid_colors_shapes.color|color||renk|
+kid_colors_shapes.shape|shape||şekil|
+@kind word adjective
+kid_colors_shapes.colorful|colorful||renkli|
+kid_colors_shapes.light_blue|light blue||açık mavi|
+kid_colors_shapes.dark_blue|dark blue|navy blue;navy|koyu mavi|lacivert
+kid_colors_shapes.gold|gold|golden|altın rengi|altın;altın sarısı
+kid_colors_shapes.silver|silver||gümüş rengi|gümüş
+kid_colors_shapes.turquoise|turquoise||turkuaz|
+@kind word noun
+kid_colors_shapes.line|line||çizgi|
+kid_colors_shapes.dot|dot|spot|nokta|benek
+kid_colors_shapes.arrow|arrow||ok|
+kid_colors_shapes.diamond|diamond||baklava dilimi|eşkenar dörtgen
+kid_colors_shapes.crescent|crescent||hilal|
+kid_colors_shapes.pentagon|pentagon||beşgen|
+kid_colors_shapes.hexagon|hexagon||altıgen|
+kid_colors_shapes.cube|cube||küp|
+kid_colors_shapes.sphere|sphere||küre|
+kid_colors_shapes.cone|cone||koni|
+kid_colors_shapes.cylinder|cylinder||silindir|
+kid_colors_shapes.pyramid|pyramid||piramit|
 
 @sentences 1
 sentence.l1_apple_red # The apple is red. = Elma kırmızı.
@@ -30,3 +53,26 @@ sentence.l1_milk_white # The milk is white. = Süt beyaz.
 sentence.l1_ball_blue # The ball is blue. = Top mavi.
 sentence.l1_bear_brown # The bear is brown. = Ayı kahverengi.
 sentence.l1_bag_black # My bag is black. = Çantam siyah.
+kid_colors_shapes.s1_sun_yellow|The sun is yellow.||Güneş sarı.|Güneş sarıdır.
+kid_colors_shapes.s1_circle_red|The circle is red.||Daire kırmızı.|Daire kırmızıdır.
+kid_colors_shapes.s1_heart_pink|The heart is pink.||Kalp pembe.|Kalp pembedir.
+
+@sentences 2
+kid_colors_shapes.s2_grass_sky|The grass is green, the sky is blue.|The sky is blue, the grass is green.|Çimen yeşil, gökyüzü mavi.|Çimenler yeşil, gökyüzü mavi.;Gökyüzü mavi, çimen yeşil.;Gökyüzü mavi, çimenler yeşil.
+kid_colors_shapes.s2_draw_circle|I draw a big red circle.||Büyük kırmızı bir daire çizerim.|Büyük kırmızı bir daire çiziyorum.;Ben büyük kırmızı bir daire çizerim.;Kırmızı büyük bir daire çizerim.;Kocaman kırmızı bir daire çiziyorum.
+kid_colors_shapes.s2_square_sides|A square has four corners and four sides.|A square has four sides and four corners.|Karenin dört köşesi ve dört kenarı var.|Karenin dört köşesi ve dört kenarı vardır.;Bir karenin dört köşesi ve dört kenarı vardır.;Karenin dört kenarı ve dört köşesi var.
+kid_colors_shapes.s2_rainbow_seven|There are seven colors in a rainbow.|In a rainbow there are seven colors.|Gökkuşağında yedi renk vardır.|Gökkuşağında yedi renk var.;Bir gökkuşağında yedi renk vardır.
+kid_colors_shapes.s2_gold_star|I see a gold star on my notebook.|On my notebook I see a gold star.|Defterimde altın rengi bir yıldız görüyorum.|Defterimde altın bir yıldız görüyorum.;Defterimde altın rengi bir yıldız görürüm.;Defterimin üstünde altın rengi bir yıldız görüyorum.
+kid_colors_shapes.s2_blue_yellow|Blue and yellow together make green.|Yellow and blue together make green.|Mavi ve sarı birlikte yeşil yapar.|Mavi ile sarı birlikte yeşil yapar.;Sarı ve mavi birlikte yeşil yapar.;Mavi ve sarı karışınca yeşil olur.;Mavi ile sarı karışınca yeşil olur.
+kid_colors_shapes.s2_pink_dress|She has a pink dress with white dots.|He has a pink dress with white dots.|Onun beyaz noktalı pembe bir elbisesi var.|Beyaz noktalı pembe bir elbisesi var.;Onun beyaz puantiyeli pembe bir elbisesi var.;Beyaz puantiyeli pembe bir elbisesi var.
+kid_colors_shapes.s2_dark_blue_bike|My bike is dark blue, not light blue.||Bisikletim koyu mavi, açık mavi değil.|Benim bisikletim koyu mavi, açık mavi değil.;Bisikletim lacivert, açık mavi değil.
+
+@sentences 3
+kid_colors_shapes.s3_ball_box|A ball is a sphere and a box is a cube.|A box is a cube and a ball is a sphere.|Top bir küredir, kutu ise bir küptür.|Top bir küre, kutu da bir küp.;Top küredir, kutu ise küptür.;Top bir küredir ve kutu bir küptür.;Kutu bir küptür, top ise bir küredir.
+kid_colors_shapes.s3_draw_house|I draw a house with a square and a triangle.|I draw a house with a triangle and a square.|Bir kare ve bir üçgenle bir ev çizerim.|Bir kare ve bir üçgenle bir ev çiziyorum.;Kare ve üçgenle bir ev çizerim.;Kare ve üçgenle bir ev çiziyorum.;Bir üçgen ve bir kareyle bir ev çizerim.
+kid_colors_shapes.s3_traffic_light|A traffic light has three colors: red, yellow and green.||Trafik ışığının üç rengi var: kırmızı, sarı ve yeşil.|Trafik ışığının üç rengi vardır: kırmızı, sarı ve yeşil.;Trafik ışığında üç renk var: kırmızı, sarı ve yeşil.
+kid_colors_shapes.s3_silver_moon|Tonight the moon looks like a silver crescent.|The moon looks like a silver crescent tonight.|Bu gece ay gümüş rengi bir hilale benziyor.|Ay bu gece gümüş rengi bir hilale benziyor.;Bu gece ay gümüş bir hilale benziyor.;Bu gece ay gümüş rengi bir hilal gibi görünüyor.;Bu gece ay gümüş bir hilal gibi görünüyor.
+kid_colors_shapes.s3_favorite_color|My favorite color is purple, but my brother likes orange.||En sevdiğim renk mor, ama kardeşim turuncuyu sever.|En sevdiğim renk mor ama erkek kardeşim turuncuyu sever.;En sevdiğim renk mor, ama kardeşim turuncuyu seviyor.;Benim en sevdiğim renk mor, ama kardeşim turuncuyu sever.;En sevdiğim renk mor, ama abim turuncuyu sever.
+kid_colors_shapes.s3_arrows|The green arrow points up and the red arrow points down.|The red arrow points down and the green arrow points up.|Yeşil ok yukarıyı, kırmızı ok aşağıyı gösterir.|Yeşil ok yukarıyı gösterir, kırmızı ok aşağıyı gösterir.;Yeşil ok yukarıyı, kırmızı ok da aşağıyı gösteriyor.;Kırmızı ok aşağıyı, yeşil ok yukarıyı gösterir.
+kid_colors_shapes.s3_pizza_slice|A pizza is a circle and a slice is a triangle.||Pizza bir dairedir, bir dilim ise bir üçgendir.|Pizza bir daire, bir dilim de bir üçgen.;Pizza dairedir, dilim ise üçgendir.;Pizza bir dairedir ve bir dilim bir üçgendir.
+kid_colors_shapes.s3_turkish_flag|The Turkish flag is red with a white crescent and star.||Türk bayrağı kırmızıdır, üstünde beyaz bir hilal ve yıldız var.|Türk bayrağı kırmızı, üstünde beyaz bir ay yıldız var.;Türk bayrağı kırmızı, üzerinde beyaz bir hilal ve yıldız var.;Türk bayrağı beyaz ay yıldızlı ve kırmızıdır.

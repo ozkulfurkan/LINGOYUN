@@ -52,7 +52,7 @@
     "id": "leisure.game",
     "topic": "leisure",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -101,21 +101,21 @@
     "id": "leisure.birthday",
     "topic": "leisure",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "leisure.wedding",
     "topic": "leisure",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "leisure.picnic",
     "topic": "leisure",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   }
 ]

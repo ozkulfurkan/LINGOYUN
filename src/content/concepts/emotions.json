@@ -16,14 +16,14 @@
     "id": "feeling.angry",
     "topic": "feeling",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {
     "id": "feeling.afraid",
     "topic": "feeling",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["adjective"]
   },
   {

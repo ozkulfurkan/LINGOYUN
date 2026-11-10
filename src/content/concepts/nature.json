@@ -353,35 +353,35 @@
     "id": "nature.weather",
     "topic": "nature",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "nature.storm",
     "topic": "nature",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "nature.fog",
     "topic": "nature",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "nature.temperature",
     "topic": "nature",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
     "id": "nature.degree",
     "topic": "nature",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -395,7 +395,7 @@
     "id": "nature.world",
     "topic": "nature",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {

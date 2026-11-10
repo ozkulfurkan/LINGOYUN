@@ -28,3 +28,49 @@ vegetable.corn # corn = mısır
 vegetable.peas # peas = bezelye
 vegetable.mushroom # mushroom = mantar
 vegetable.pumpkin # pumpkin = balkabağı
+fruit.fruit # fruit = meyve
+vegetable.vegetable # vegetable = sebze
+@kind word noun
+kid_fruits_vegetables.melon|melon|cantaloupe|kavun|
+kid_fruits_vegetables.tangerine|tangerine|mandarin|mandalina|
+kid_fruits_vegetables.kiwi|kiwi||kivi|
+kid_fruits_vegetables.pomegranate|pomegranate||nar|
+kid_fruits_vegetables.blueberry|blueberry||yaban mersini|
+kid_fruits_vegetables.coconut|coconut||Hindistan cevizi|hindistan cevizi
+kid_fruits_vegetables.walnut|walnut||ceviz|
+kid_fruits_vegetables.eggplant|eggplant||patlıcan|
+kid_fruits_vegetables.lettuce|lettuce||marul|
+kid_fruits_vegetables.cabbage|cabbage||lahana|
+kid_fruits_vegetables.spinach|spinach||ıspanak|
+kid_fruits_vegetables.broccoli|broccoli||brokoli|
+kid_fruits_vegetables.garlic|garlic||sarımsak|
+
+@sentences 1
+kid_fruits_vegetables.s1_banana_yellow|The banana is yellow.||Muz sarı.|Muz sarıdır.
+kid_fruits_vegetables.s1_like_grapes|I like grapes.||Üzüm severim.|Ben üzüm severim.;Üzümü severim.;Üzüm seviyorum.;Üzümü seviyorum.
+kid_fruits_vegetables.s1_carrots_orange|Carrots are orange.||Havuçlar turuncu.|Havuçlar turuncudur.;Havuç turuncu.;Havuç turuncudur.
+kid_fruits_vegetables.s1_eat_pear|I eat a pear.||Bir armut yerim.|Armut yerim.;Bir armut yiyorum.;Armut yiyorum.;Ben bir armut yerim.
+kid_fruits_vegetables.s1_lemon_sour|The lemon is sour.||Limon ekşi.|Limon ekşidir.
+kid_fruits_vegetables.s1_watermelon_big|This watermelon is big.||Bu karpuz büyük.|Bu karpuz çok büyük.
+kid_fruits_vegetables.s1_tomatoes_red|Tomatoes are red.||Domatesler kırmızı.|Domatesler kırmızıdır.;Domates kırmızı.;Domates kırmızıdır.
+kid_fruits_vegetables.s1_want_cherries|I want cherries, please.||Kiraz istiyorum, lütfen.|Lütfen kiraz istiyorum.;Kiraz istiyorum lütfen.
+
+@sentences 2
+kid_fruits_vegetables.s2_apple_every_day|I eat an apple every day.|Every day I eat an apple.|Her gün bir elma yerim.|Her gün elma yerim.;Ben her gün bir elma yerim.;Her gün bir elma yiyorum.
+kid_fruits_vegetables.s2_sweet_strawberries|These strawberries are red and sweet.|These strawberries are sweet and red.|Bu çilekler kırmızı ve tatlı.|Bu çilekler tatlı ve kırmızı.
+kid_fruits_vegetables.s2_potatoes_onions|My mother buys potatoes and onions.|My mother buys onions and potatoes.|Annem patates ve soğan alır.|Annem patates ve soğan alıyor.;Annem patatesle soğan alır.;Annem soğan ve patates alır.
+kid_fruits_vegetables.s2_salad|We put cucumbers and tomatoes in the salad.|We put tomatoes and cucumbers in the salad.|Salataya salatalık ve domates koyarız.|Salataya salatalık ve domates koyuyoruz.;Salataya domates ve salatalık koyarız.
+kid_fruits_vegetables.s2_rabbit_carrots|The rabbit likes to eat carrots.||Tavşan havuç yemeyi sever.|Tavşan havuç yemeyi seviyor.
+kid_fruits_vegetables.s2_big_pumpkin|There is a big pumpkin in the garden.|In the garden there is a big pumpkin.|Bahçede büyük bir balkabağı var.|Bahçede kocaman bir balkabağı var.
+kid_fruits_vegetables.s2_figs_peaches|We eat figs and peaches in summer.|In summer we eat figs and peaches.;We eat peaches and figs in summer.|Yazın incir ve şeftali yeriz.|Yazın incir ve şeftali yiyoruz.;Yazın şeftali ve incir yeriz.
+kid_fruits_vegetables.s2_no_onions|My brother does not like onions.|My brother doesn't like onions.|Erkek kardeşim soğan sevmez.|Kardeşim soğan sevmez.;Erkek kardeşim soğanı sevmez.;Kardeşim soğanı sevmez.;Erkek kardeşim soğan sevmiyor.;Kardeşim soğan sevmiyor.
+
+@sentences 3
+kid_fruits_vegetables.s3_fruit_salad|We make a fruit salad with bananas, apples and strawberries.|With bananas, apples and strawberries we make a fruit salad.|Muz, elma ve çilekle meyve salatası yaparız.|Muz, elma ve çilekle meyve salatası yapıyoruz.;Muzla, elmayla ve çilekle meyve salatası yaparız.
+kid_fruits_vegetables.s3_spinach|Vegetables are good for you, so please eat your spinach.|Vegetables are good for you, so eat your spinach, please.|Sebzeler sana iyi gelir, o yüzden lütfen ıspanağını ye.|Sebzeler sana iyi gelir, bu yüzden lütfen ıspanağını ye.;Sebzeler sağlığına iyi gelir, bu yüzden lütfen ıspanağını ye.;Sebzeler sana iyi gelir, o yüzden ıspanağını ye lütfen.
+kid_fruits_vegetables.s3_orange_juice|In the morning my father makes orange juice for us.|My father makes orange juice for us in the morning.|Babam sabahları bize portakal suyu yapar.|Sabahları babam bize portakal suyu yapar.;Babam sabah bize portakal suyu yapar.;Babam sabahları bize portakal suyu sıkar.;Sabahları babam bize portakal suyu sıkar.
+kid_fruits_vegetables.s3_grandfather_grows|My grandfather grows tomatoes, peppers and cucumbers in his garden.|In his garden my grandfather grows tomatoes, peppers and cucumbers.|Dedem bahçesinde domates, biber ve salatalık yetiştirir.|Büyükbabam bahçesinde domates, biber ve salatalık yetiştirir.;Dedem bahçesinde domates, biber ve salatalık yetiştiriyor.;Büyükbabam bahçesinde domates, biber ve salatalık yetiştiriyor.
+kid_fruits_vegetables.s3_watermelon_inside|A watermelon is green on the outside and red inside.|A watermelon is red inside and green on the outside.|Karpuzun dışı yeşil, içi kırmızıdır.|Karpuzun dışı yeşil, içi kırmızı.;Karpuzun dışı yeşil ve içi kırmızıdır.;Karpuzun içi kırmızı, dışı yeşildir.
+kid_fruits_vegetables.s3_market_saturday|We buy fresh fruit and vegetables at the market on Saturday.|On Saturday we buy fresh fruit and vegetables at the market.;We buy fresh fruit and vegetables on Saturday at the market.|Cumartesi günü pazardan taze meyve ve sebze alırız.|Cumartesi pazardan taze meyve ve sebze alırız.;Cumartesi günü pazardan taze meyve sebze alırız.;Cumartesi günleri pazardan taze meyve ve sebze alırız.
+kid_fruits_vegetables.s3_soup_vegetables|My mother puts potatoes, peas and carrots in the soup.|My mother puts potatoes, carrots and peas in the soup.|Annem çorbaya patates, bezelye ve havuç koyar.|Annem çorbaya patates, bezelye ve havuç koyuyor.;Annem çorbaya patates, havuç ve bezelye koyar.
+kid_fruits_vegetables.s3_apples_or_pears|Which fruit do you like more, apples or pears?|Which fruit do you like more, pears or apples?|Hangi meyveyi daha çok seversin, elmayı mı armudu mu?|Hangi meyveyi daha çok seviyorsun, elmayı mı armudu mu?;Hangi meyveyi daha çok seversin, elma mı armut mu?;Hangi meyveyi daha çok seversin, armudu mu elmayı mı?

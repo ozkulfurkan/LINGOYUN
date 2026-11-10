@@ -25,7 +25,52 @@ animal.snail # snail = salyangoz
 animal.ladybug # ladybug = uğur böceği
 animal.worm # worm = solucan
 animal.frog # frog = kurbağa
+@kind word noun
+kid_pets_farm.pet|pet||evcil hayvan|
+kid_pets_farm.paw|paw||pati|
+work.farmer # farmer = çiftçi
+kid_pets_farm.puppy|puppy||yavru köpek|köpek yavrusu
+kid_pets_farm.kitten|kitten||yavru kedi|kedi yavrusu
+kid_pets_farm.chick|chick||civciv|
+kid_pets_farm.lamb|lamb||kuzu|
+kid_pets_farm.calf|calf||buzağı|dana
+kid_pets_farm.goose|goose||kaz|
+kid_pets_farm.turkey|turkey||hindi|
+kid_pets_farm.hamster|hamster||hamster|
+kid_pets_farm.goldfish|goldfish||japon balığı|
+kid_pets_farm.bug|bug|insect|böcek|
+kid_pets_farm.tail|tail||kuyruk|
+kid_pets_farm.feather|feather||tüy|
+kid_pets_farm.wool|wool||yün|
+kid_pets_farm.cage|cage||kafes|
+kid_pets_farm.barn|barn||ahır|ambar
 
 @sentences 1
 sentence.l1_dog_big # The dog is big. = Köpek büyük.
 sentence.l1_cat_small # The cat is small. = Kedi küçük.
+sentence.l1_this_cat # This is a cat. = Bu bir kedi.
+kid_pets_farm.s1_cow_milk|The cow gives milk.||İnek süt verir.|İnek süt veriyor.
+kid_pets_farm.s1_bird_sings|The bird sings.||Kuş öter.|Kuş ötüyor.;Kuş şakıyor.;Kuş şarkı söylüyor.
+kid_pets_farm.s1_love_dog|I love my dog.||Köpeğimi seviyorum.|Köpeğimi severim.;Ben köpeğimi seviyorum.;Ben köpeğimi severim.
+kid_pets_farm.s1_horse_fast|The horse runs fast.||At hızlı koşar.|At hızlı koşuyor.
+kid_pets_farm.s1_fish_swims|My fish swims.||Balığım yüzüyor.|Balığım yüzer.
+
+@sentences 2
+kid_pets_farm.s2_chicken_eggs|The chickens give us eggs every day.|Every day the chickens give us eggs.|Tavuklar bize her gün yumurta verir.|Tavuklar her gün bize yumurta verir.;Tavuklar bize her gün yumurta veriyor.
+kid_pets_farm.s2_cat_mouse|The cat runs after the little mouse.||Kedi küçük farenin peşinden koşar.|Kedi küçük farenin peşinden koşuyor.;Kedi küçük farenin arkasından koşar.;Kedi küçük farenin arkasından koşuyor.
+kid_pets_farm.s2_puppy_tail|My puppy wags its tail when I come home.|When I come home my puppy wags its tail.|Ben eve gelince yavru köpeğim kuyruğunu sallar.|Ben eve gelince köpek yavrum kuyruğunu sallar.;Eve geldiğimde yavru köpeğim kuyruğunu sallar.;Ben eve geldiğimde yavru köpeğim kuyruğunu sallıyor.
+kid_pets_farm.s2_white_ducks|Three white ducks swim in the lake.||Gölde üç beyaz ördek yüzer.|Gölde üç beyaz ördek yüzüyor.;Üç beyaz ördek gölde yüzüyor.;Üç beyaz ördek gölde yüzer.
+kid_pets_farm.s2_bee_flower|The bee lands on a yellow flower.||Arı sarı bir çiçeğe konar.|Arı sarı bir çiçeğe konuyor.;Arı sarı bir çiçeğin üstüne konar.
+kid_pets_farm.s2_rabbit_carrots|I give carrots to my rabbit.|I give my rabbit carrots.|Tavşanıma havuç veririm.|Tavşanıma havuç veriyorum.;Ben tavşanıma havuç veririm.
+kid_pets_farm.s2_rooster_morning|The rooster wakes us up in the morning.|In the morning the rooster wakes us up.|Horoz sabahları bizi uyandırır.|Horoz sabah bizi uyandırır.;Sabahları horoz bizi uyandırır.;Horoz sabahları bizi uyandırıyor.
+kid_pets_farm.s2_kitten_milk|The little kitten drinks milk from its mother.||Küçük yavru kedi annesinin sütünü içer.|Yavru kedi annesinin sütünü içer.;Küçük yavru kedi annesinden süt emer.;Yavru kedi annesinden süt emer.
+
+@sentences 3
+kid_pets_farm.s3_grandfather_farm|My grandfather has cows, sheep and goats on his farm.|On his farm my grandfather has cows, sheep and goats.|Dedemin çiftliğinde inekler, koyunlar ve keçiler var.|Büyükbabamın çiftliğinde inekler, koyunlar ve keçiler var.;Dedemin çiftliğinde inek, koyun ve keçi var.;Büyükbabamın çiftliğinde inek, koyun ve keçi var.
+kid_pets_farm.s3_farmer_early|The farmer gets up early and gives food to the animals.||Çiftçi erken kalkar ve hayvanlara yem verir.|Çiftçi erkenden kalkar ve hayvanlara yem verir.;Çiftçi erken kalkıp hayvanlara yem verir.;Çiftçi erken kalkar ve hayvanlara yiyecek verir.
+kid_pets_farm.s3_hamster_cage|My hamster sleeps all day and plays in its cage at night.||Hamsterim bütün gün uyur, geceleri kafesinde oynar.|Hamsterim bütün gün uyur ve geceleri kafesinde oynar.;Hamsterim tüm gün uyur, gece kafesinde oynar.;Hamsterım bütün gün uyur, geceleri kafesinde oynar.
+kid_pets_farm.s3_bird_nest|The bird builds a nest in the tree for its babies.|The bird builds a nest for its babies in the tree.|Kuş yavruları için ağaçta bir yuva yapar.|Kuş yavruları için ağaca bir yuva yapar.;Kuş yavruları için ağaçta yuva yapar.;Kuş yavruları için ağaçta bir yuva yapıyor.
+kid_pets_farm.s3_walk_dog|Every evening I walk my dog in the park with my father.|I walk my dog in the park with my father every evening.|Her akşam babamla birlikte köpeğimi parkta gezdiririm.|Her akşam babamla köpeğimi parkta gezdiririm.;Her akşam köpeğimi babamla parkta gezdiririm.;Her akşam babamla birlikte köpeğimi parkta yürüyüşe çıkarırım.
+kid_pets_farm.s3_wool_milk|Sheep give us wool, and cows give us milk.|Cows give us milk, and sheep give us wool.|Koyunlar bize yün, inekler süt verir.|Koyunlar bize yün verir, inekler de süt verir.;Koyunlar bize yün, inekler de süt verir.;İnekler bize süt, koyunlar yün verir.
+kid_pets_farm.s3_ladybug_hand|A small red ladybug with black dots is on my hand.||Elimde siyah noktalı küçük kırmızı bir uğur böceği var.|Elimin üstünde siyah noktalı küçük kırmızı bir uğur böceği var.;Elimde siyah benekli küçük kırmızı bir uğur böceği var.
+kid_pets_farm.s3_frog_jumps|The frog jumps into the water when it sees the duck.|When it sees the duck, the frog jumps into the water.|Kurbağa ördeği görünce suya atlar.|Kurbağa ördeği görünce suya atlıyor.;Kurbağa, ördeği görünce suya atlar.

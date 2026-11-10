@@ -1115,5 +1115,4458 @@
   },
   "restaurant.a1_two_coffees": {
     "text": "İki kahve istiyoruz."
+  },
+  "greetings.s2_new_neighbor": {
+    "text": "Merhaba, benim adım Deniz, yeni komşunuzum.",
+    "alt": ["Merhaba, adım Deniz ve yeni komşunuzum.", "Merhaba, ben Deniz, yeni komşunuzum."]
+  },
+  "greetings.s2_how_weekend": {
+    "text": "Günaydın, aileyle hafta sonun nasıldı?",
+    "alt": [
+      "Günaydın, ailenle hafta sonun nasıl geçti?",
+      "Günaydın, aileyle hafta sonunuz nasıldı?"
+    ]
+  },
+  "greetings.s2_nice_meet_finally": {
+    "text": "Sonunda sizinle yüz yüze tanışmak çok güzel.",
+    "alt": [
+      "Sonunda seninle yüz yüze tanışmak çok güzel.",
+      "Nihayet sizinle yüz yüze tanıştığımıza çok sevindim."
+    ]
+  },
+  "greetings.s2_long_time": {
+    "text": "Selam, görüşmeyeli uzun zaman oldu, bu aralar nasılsın?",
+    "alt": [
+      "Merhaba, görüşmeyeli çok oldu, bu aralar nasılsın?",
+      "Selam, uzun zamandır görüşemedik, bu aralar nasılsın?"
+    ]
+  },
+  "greetings.s2_thanks_dinner": {
+    "text": "Güzel akşam yemeği için teşekkürler, haftaya görüşürüz!",
+    "alt": [
+      "Güzel yemek için teşekkür ederim, gelecek hafta görüşürüz!",
+      "Nefis akşam yemeği için teşekkürler, haftaya görüşürüz!"
+    ]
+  },
+  "greetings.s2_sorry_name": {
+    "text": "Özür dilerim, adınızı tekrar söyler misiniz, lütfen?",
+    "alt": [
+      "Pardon, adınızı bir daha söyler misiniz lütfen?",
+      "Kusura bakmayın, adınızı tekrar söyleyebilir misiniz?",
+      "Özür dilerim, adını tekrar söyler misin, lütfen?"
+    ]
+  },
+  "greetings.s2_this_is_colleague": {
+    "text": "Bu Elif, Ankara'daki ofisten iş arkadaşım.",
+    "alt": [
+      "Bu Elif, Ankara ofisinden iş arkadaşım.",
+      "Size Elif'i tanıştırayım, Ankara ofisinden iş arkadaşım."
+    ]
+  },
+  "greetings.s2_have_good_trip": {
+    "text": "Hoşça kal, iyi yolculuklar, varınca bizi ara.",
+    "alt": [
+      "Güle güle, iyi yolculuklar, varınca bizi ara.",
+      "Hoşça kalın, iyi yolculuklar, varınca bizi arayın.",
+      "Hoşça kal, iyi yolculuklar, vardığında bizi ara."
+    ]
+  },
+  "greetings.s3_team_manager": {
+    "text": "Herkese iyi günler, adım Selin Kaya ve pazartesiden itibaren yeni ekip yöneticiniz olacağım.",
+    "alt": [
+      "İyi günler herkese, benim adım Selin Kaya, pazartesiden itibaren yeni ekip müdürünüz olacağım.",
+      "Herkese iyi günler, adım Selin Kaya, pazartesiden itibaren yeni takım yöneticiniz benim."
+    ]
+  },
+  "greetings.s3_forgot_name": {
+    "text": "Gerçekten çok özür dilerim ama adınızı unuttum, gerçi geçen ay partide tanışmıştık.",
+    "alt": [
+      "Çok özür dilerim ama adınızı unuttum, oysa geçen ay partide tanışmıştık.",
+      "Gerçekten kusura bakma ama adını unuttum, gerçi geçen ay partide tanışmıştık."
+    ]
+  },
+  "greetings.s3_welcome_home": {
+    "text": "Evimize hoş geldiniz, lütfen içeri girin ve ben çay yaparken rahatınıza bakın.",
+    "alt": [
+      "Evimize hoş geldin, lütfen içeri gir ve ben çay yaparken rahatına bak.",
+      "Evimize hoş geldiniz, buyurun içeri, ben çay demlerken rahatınıza bakın."
+    ]
+  },
+  "greetings.s3_heard_about_you": {
+    "text": "Sizinle tanıştığıma çok memnun oldum, çünkü kız kardeşim bana sizden çok bahsetti.",
+    "alt": [
+      "Tanıştığımıza memnun oldum, kız kardeşim bana sizden çok söz etti.",
+      "Sizinle tanıştığıma çok memnun oldum, çünkü ablam bana sizden çok bahsetti."
+    ]
+  },
+  "greetings.s3_thanks_everything": {
+    "text": "Her şey için teşekkürler, burada harika vakit geçirdik ve yakında tekrar görüşmeyi umuyoruz.",
+    "alt": [
+      "Her şey için teşekkür ederiz, burada çok güzel zaman geçirdik, umarız yakında yine görüşürüz."
+    ]
+  },
+  "greetings.s3_late_meeting": {
+    "text": "Günaydın, geç kaldığım için özür dilerim, trafik berbattı, önemli bir şey kaçırdım mı?",
+    "alt": [
+      "Günaydın, kusura bakmayın geç kaldım, trafik korkunçtu, önemli bir şey kaçırdım mı?",
+      "Günaydın, geç kaldım, özür dilerim, trafik berbattı, önemli bir şey kaçırdım mı?"
+    ]
+  },
+  "greetings.s3_wedding": {
+    "text": "Düğününüz için tebrikler arkadaşlar, ikinize birlikte uzun ve mutlu bir ömür dilerim.",
+    "alt": [
+      "Evliliğiniz için tebrikler arkadaşlarım, ikinize de uzun ve mutlu bir hayat dilerim.",
+      "Düğününüz kutlu olsun arkadaşlar, ikinize de birlikte uzun ve mutlu bir ömür dilerim."
+    ]
+  },
+  "greetings.s3_call_back": {
+    "text": "Merhaba, ben bankadan Mert, vaktiniz olduğunda beni geri arayabilir misiniz, lütfen?",
+    "alt": [
+      "Merhaba, ben bankadan Mert, müsait olduğunuzda lütfen beni geri arar mısınız?",
+      "Merhaba, bankadan arıyorum, adım Mert, vaktiniz olunca beni arayabilir misiniz?"
+    ]
+  },
+  "people.s2_older_brother": {
+    "text": "Ağabeyim eşi ve çocuklarıyla Almanya'da yaşıyor.",
+    "alt": [
+      "Abim eşi ve çocuklarıyla Almanya'da yaşıyor.",
+      "Büyük erkek kardeşim karısı ve çocuklarıyla Almanya'da yaşıyor."
+    ]
+  },
+  "people.s2_parents_retired": {
+    "text": "Annemle babam emekli ve küçük bir köyde yaşıyorlar.",
+    "alt": [
+      "Annem ve babam emekli, küçük bir köyde yaşıyorlar.",
+      "Annemle babam emekli, küçük bir köyde oturuyorlar."
+    ]
+  },
+  "people.s2_how_many_children": {
+    "text": "Kaç çocuğunuz var ve kaç yaşındalar?",
+    "alt": ["Kaç çocuğun var ve kaç yaşındalar?", "Kaç çocuğunuz var, kaç yaşındalar?"]
+  },
+  "people.s2_neighbors_friendly": {
+    "text": "Komşularımız çok cana yakın ve bize sık sık yardım ediyorlar.",
+    "alt": [
+      "Komşularımız çok samimi ve bize sık sık yardım ederler.",
+      "Komşularımız çok cana yakındır, bize sık sık yardım ederler."
+    ]
+  },
+  "people.s2_sister_teacher": {
+    "text": "Kız kardeşim öğretmen, kocası da doktor.",
+    "alt": ["Kız kardeşim öğretmen ve eşi doktor.", "Ablam öğretmen, kocası da doktor."]
+  },
+  "people.s2_grandmother_stories": {
+    "text": "Büyükannem her gece yatmadan önce çocuklara masal anlatıyor.",
+    "alt": [
+      "Babaannem her gece yatmadan önce çocuklara masal anlatır.",
+      "Anneannem her gece yatmadan önce çocuklara masal anlatır."
+    ]
+  },
+  "people.s2_who_that_woman": {
+    "text": "Babanın yanındaki kırmızı montlu kadın kim?",
+    "alt": [
+      "Babanızın yanındaki kırmızı paltolu kadın kim?",
+      "Babanın yanındaki kırmızı paltolu kadın kim?"
+    ]
+  },
+  "people.s2_best_friend_name": {
+    "text": "Okuldaki en iyi arkadaşının adı ne?",
+    "alt": ["Okuldan en yakın arkadaşının adı ne?", "Okuldaki en yakın arkadaşının adı ne?"]
+  },
+  "people.s3_family_sunday": {
+    "text": "Her pazar bütün aile uzun bir akşam yemeği için annemlerin evinde toplanıyor.",
+    "alt": [
+      "Her pazar tüm aile birlikte uzun bir akşam yemeği yemek için annemlerin evine geliyor.",
+      "Her pazar bütün aile annemle babamın evine uzun bir akşam yemeğine geliyor."
+    ]
+  },
+  "people.s3_cousin_wedding": {
+    "text": "Kuzenim gelecek ay evleniyor ve köydeki bütün akrabalarımız geliyor.",
+    "alt": [
+      "Kuzenim önümüzdeki ay evleniyor, köydeki tüm akrabalarımız da gelecek.",
+      "Kuzenim gelecek ay evleniyor, köydeki bütün akrabalarımız gelecek."
+    ]
+  },
+  "people.s3_son_university": {
+    "text": "Oğlumuz İzmir'de bir üniversitede mühendislik okuyor, bu yüzden onu sadece tatillerde görüyoruz.",
+    "alt": [
+      "Oğlumuz İzmir'de üniversitede mühendislik okuyor, onu yalnızca tatillerde görebiliyoruz."
+    ]
+  },
+  "people.s3_neighbor_cat": {
+    "text": "Komşumuz, biz tatildeyken kedimizi besleyen nazik, yaşlı bir adam.",
+    "alt": [
+      "Komşumuz nazik, yaşlı bir adam ve biz tatildeyken kedimize bakıyor.",
+      "Komşumuz biz tatildeyken kedimizi besleyen nazik bir amca."
+    ]
+  },
+  "people.s3_twins": {
+    "text": "Kız kardeşimin ikiz oğulları var ve okulda öğretmenleri bile onları ayırt edemiyor.",
+    "alt": [
+      "Ablamın ikiz oğulları var, okulda öğretmenleri bile onları birbirinden ayıramıyor.",
+      "Kız kardeşimin ikiz oğlu var, okulda öğretmenleri bile onları ayırt edemiyor."
+    ]
+  },
+  "people.s3_grandfather_fisherman": {
+    "text": "Büyükbabam gençken balıkçıydı ve bize hâlâ denizle ilgili hikâyeler anlatıyor.",
+    "alt": [
+      "Dedem gençken balıkçıymış, bize hâlâ denizle ilgili hikâyeler anlatır.",
+      "Dedem gençken balıkçıydı ve bize hâlâ deniz hikâyeleri anlatıyor."
+    ]
+  },
+  "people.s3_friends_school": {
+    "text": "İlkokuldan beri arkadaşız ve hâlâ her cumartesi sabahı kahve içmek için buluşuyoruz.",
+    "alt": ["İlkokuldan beri arkadaşız, hâlâ her cumartesi sabahı kahve içmeye buluşuruz."]
+  },
+  "people.s3_met_at_work": {
+    "text": "Eşimle on iki yıl önce iş yerinde tanıştık ve şimdi üç çocuğumuz var.",
+    "alt": [
+      "Kocamla on iki yıl önce işte tanıştık, şimdi üç çocuğumuz var.",
+      "Eşimle on iki yıl önce işte tanıştık, şimdi üç çocuğumuz var."
+    ]
+  },
+  "numbers.s1_phone_number": {
+    "text": "Telefon numaran ne?",
+    "alt": ["Telefon numaranız ne?", "Telefon numaran kaç?", "Telefon numaranız kaç?"]
+  },
+  "numbers.s1_three_children": {
+    "text": "Üç çocuğumuz var."
+  },
+  "numbers.s1_room_twelve": {
+    "text": "Odam on iki numara.",
+    "alt": ["Oda numaram on iki."]
+  },
+  "numbers.s1_twenty_liras": {
+    "text": "Bu yirmi lira.",
+    "alt": ["Bunun fiyatı yirmi lira.", "Bu yirmi lira tutuyor."]
+  },
+  "numbers.s1_bus_ten": {
+    "text": "On numaralı otobüs gecikti.",
+    "alt": ["On numaralı otobüs geç kaldı."]
+  },
+  "numbers.s2_born_1990": {
+    "text": "Bin dokuz yüz doksanda küçük bir kasabada doğdum.",
+    "alt": ["1990'da küçük bir kasabada doğdum.", "1990 yılında küçük bir kasabada doğdum."]
+  },
+  "numbers.s2_fifth_floor": {
+    "text": "Dairemiz o binanın beşinci katında.",
+    "alt": ["Bizim daire şu binanın beşinci katında.", "Dairemiz şu binanın beşinci katında."]
+  },
+  "numbers.s2_half_price": {
+    "text": "Bu mağazadaki her şey pazara kadar yarı fiyatına.",
+    "alt": [
+      "Pazara kadar bu mağazadaki her şey yarı fiyatına.",
+      "Bu mağazada pazara kadar her şey yarı fiyatına."
+    ]
+  },
+  "numbers.s2_call_number": {
+    "text": "Saat altıdan sonra beni bu numaradan arayabilir misin?",
+    "alt": [
+      "Beni saat altıdan sonra bu numaradan arayabilir misiniz?",
+      "Altıdan sonra beni bu numaradan arar mısın?"
+    ]
+  },
+  "numbers.s2_two_million": {
+    "text": "Bu güzel şehirde iki milyondan fazla insan yaşıyor.",
+    "alt": [
+      "Bu güzel şehirde iki milyonun üzerinde insan yaşıyor.",
+      "Bu güzel şehirde iki milyondan fazla kişi yaşıyor."
+    ]
+  },
+  "numbers.s2_second_time": {
+    "text": "Bu müzeyi ikinci kez ziyaret ediyorum.",
+    "alt": ["Bu müzeyi ikinci kez geziyorum.", "Bu müzeye ikinci kez geliyorum."]
+  },
+  "numbers.s2_twice_week": {
+    "text": "Haftada iki kez işten sonra spor salonuna gidiyorum.",
+    "alt": [
+      "İşten sonra haftada iki kez spor salonuna giderim.",
+      "Haftada iki gün işten sonra spora gidiyorum."
+    ]
+  },
+  "numbers.s2_father_sixty": {
+    "text": "Babam gelecek ay altmış yaşına girecek.",
+    "alt": ["Babam önümüzdeki ay altmış yaşında olacak.", "Babam gelecek ay altmış yaşına basacak."]
+  },
+  "numbers.s3_total_four": {
+    "text": "Toplam yüz yirmi lira, bu yüzden dördümüzün her biri otuz lira ödemeli.",
+    "alt": [
+      "Toplam yüz yirmi lira, yani dördümüz de otuzar lira ödemeliyiz.",
+      "Hepsi yüz yirmi lira, dört kişiyiz, her birimiz otuz lira ödemeliyiz."
+    ]
+  },
+  "numbers.s3_door_code": {
+    "text": "Kırk beş numarada, üçüncü katta oturuyoruz ve kapı şifresi yedi sekiz iki.",
+    "alt": ["Kırk beş numarada, üçüncü katta yaşıyoruz, kapı kodu yedi sekiz iki."]
+  },
+  "numbers.s3_marathon": {
+    "text": "Şehir maratonunda on binden fazla kişi koştu ve erkek kardeşim ilk yüz içinde bitirdi.",
+    "alt": [
+      "Şehir maratonunda on binden fazla insan koştu, kardeşim de ilk yüze girdi.",
+      "Şehir maratonunda on binden fazla kişi koştu, ağabeyim ilk yüze girdi."
+    ]
+  },
+  "numbers.s3_repeat_number": {
+    "text": "Telefon numaranızı yavaşça tekrar eder misiniz, çünkü yalnızca ilk beş rakamı yazabildim.",
+    "alt": ["Telefon numaranı yavaşça tekrarlar mısın, çünkü sadece ilk beş rakamı yazdım."]
+  },
+  "numbers.s3_child_tickets": {
+    "text": "On iki yaşından küçük çocuklar yarı fiyat ödüyor, bu yüzden iki yetişkin ve iki çocuk bileti altmış lira.",
+    "alt": [
+      "On iki yaş altı çocuklar yarım bilet ödüyor, yani iki tam iki çocuk bileti altmış lira tutuyor."
+    ]
+  },
+  "numbers.s3_twice_year": {
+    "text": "Büyükanne ve büyükbabamı yılda iki kez ziyaret ediyoruz, bir kez yazın, bir kez de yılbaşı tatilinde.",
+    "alt": [
+      "Dedemleri yılda iki kez ziyaret ediyoruz, bir kez yazın, bir kez de yılbaşı tatilinde.",
+      "Dedemle ninemi yılda iki kez ziyaret ediyoruz, yazın bir kez ve yılbaşı tatilinde bir kez."
+    ]
+  },
+  "numbers.s3_million_views": {
+    "text": "İlk videosu yalnızca elli kez izlenmişti ama bir yıl sonra bir milyondan fazla izlenmeye ulaştı.",
+    "alt": ["İlk videosunun sadece elli izlenmesi vardı, ama bir yıl sonra bir milyonu geçti."]
+  },
+  "numbers.s3_eight_years": {
+    "text": "Ağabeyim kırk, ben otuz iki yaşındayım, yani aramızda sekiz yaş var.",
+    "alt": [
+      "Abim kırk yaşında, ben otuz iki yaşındayım, aramızda sekiz yaş fark var.",
+      "Erkek kardeşim kırk, ben otuz iki yaşındayım, aramızda sekiz yaş var."
+    ]
+  },
+  "food.s1_eggs_breakfast": {
+    "text": "Kahvaltıda iki yumurta yerim.",
+    "alt": ["Kahvaltıda iki yumurta yiyorum."]
+  },
+  "food.s1_bread_fresh": {
+    "text": "Bu ekmek taze mi?"
+  },
+  "food.s1_no_sugar": {
+    "text": "Çayıma şeker koymayın, lütfen.",
+    "alt": ["Çayım şekersiz olsun, lütfen.", "Çayıma şeker koyma, lütfen."]
+  },
+  "food.s1_love_fruit": {
+    "text": "Çocuklarım meyveyi çok sever.",
+    "alt": ["Çocuklarım meyveye bayılır.", "Çocuklarım meyveyi çok seviyor."]
+  },
+  "food.s1_vegetable_soup": {
+    "text": "Sebze çorbası yapıyoruz.",
+    "alt": ["Sebze çorbası pişiriyoruz."]
+  },
+  "food.s2_shopping_list": {
+    "text": "Marketten yumurta, süt, ekmek ve peynir lazım.",
+    "alt": [
+      "Marketten yumurta, süt, ekmek ve peynir almamız gerekiyor.",
+      "Marketten yumurta, süt, ekmek ve peynir almalıyız."
+    ]
+  },
+  "food.s2_cut_tomatoes": {
+    "text": "Salata için domatesleri ve soğanları doğrar mısın?",
+    "alt": [
+      "Salata için domatesle soğanı keser misin?",
+      "Salata için domatesleri ve soğanları doğrayabilir misin?"
+    ]
+  },
+  "food.s2_turkish_breakfast": {
+    "text": "Türk kahvaltısında genellikle peynir, zeytin, yumurta ve çay olur.",
+    "alt": ["Bir Türk kahvaltısında genelde peynir, zeytin, yumurta ve çay bulunur."]
+  },
+  "food.s2_less_sugar": {
+    "text": "Doktor daha az şeker ve tuz yemem gerektiğini söylüyor.",
+    "alt": [
+      "Doktor daha az şekerle tuz yemem gerektiğini söylüyor.",
+      "Doktor şeker ve tuzu azaltmam gerektiğini söylüyor."
+    ]
+  },
+  "food.s2_cheese_sandwich": {
+    "text": "Her gün oğlumun öğle yemeği için peynirli sandviç hazırlıyorum.",
+    "alt": ["Oğlumun öğle yemeği için her gün peynirli sandviç yapıyorum."]
+  },
+  "food.s2_fruit_saturday": {
+    "text": "Cumartesileri pazarda meyve çok daha ucuz.",
+    "alt": [
+      "Pazarda meyve cumartesi günleri çok daha ucuz.",
+      "Cumartesi günleri pazarda meyveler çok daha ucuz."
+    ]
+  },
+  "food.s2_lemon_tea": {
+    "text": "Çayına biraz limon ister misin, yoksa sadece şeker mi?",
+    "alt": [
+      "Çayınıza limon ister misiniz, yoksa yalnızca şeker mi?",
+      "Çayına limon ister misin, yoksa sadece şeker mi?"
+    ]
+  },
+  "food.s2_pasta_tonight": {
+    "text": "Bu akşam yemekte domates soslu makarna var.",
+    "alt": [
+      "Bu akşam yemeğinde domates soslu makarna yiyoruz.",
+      "Bu akşam yemekte domates soslu makarna yiyoruz."
+    ]
+  },
+  "food.s3_healthy_breakfast": {
+    "text": "Yumurta, peynir ve meyveyle sağlıklı bir kahvaltı yapmaya çalışıyorum ama bazı sabahlar sadece kahve içiyorum.",
+    "alt": [
+      "Yumurtalı, peynirli ve meyveli sağlıklı bir kahvaltı yapmaya çalışıyorum, ama bazı sabahlar yalnızca kahve içiyorum."
+    ]
+  },
+  "food.s3_fresh_bread": {
+    "text": "Büyükannem her sabah taze ekmek yapıyor ve uyandığımızda bütün ev harika kokuyor.",
+    "alt": [
+      "Anneannem her sabah taze ekmek pişiriyor, biz uyandığımızda bütün ev mis gibi kokuyor.",
+      "Babaannem her sabah taze ekmek yapıyor, uyandığımızda bütün ev harika kokuyor."
+    ]
+  },
+  "food.s3_hide_vegetables": {
+    "text": "Çocuklarıma sebze yedirmek zor, bu yüzden havuçla biberi sosun içine saklıyorum.",
+    "alt": ["Çocuklarıma sebze yedirmek zor olduğu için havuç ve biberleri sosa gizliyorum."]
+  },
+  "food.s3_run_out": {
+    "text": "Süt ve yumurtamız bitti, eve gelirken markete uğrayabilir misin?",
+    "alt": ["Sütümüz ve yumurtamız bitti, eve dönerken markete uğrar mısın?"]
+  },
+  "food.s3_birthday_cake": {
+    "text": "Kızımın doğum günü için çikolatalı pasta yapıyorum ama şeker ve tereyağı almayı unuttum.",
+    "alt": [
+      "Kızımın doğum günü için çikolatalı pasta pişiriyorum, ama şekerle tereyağı almayı unuttum."
+    ]
+  },
+  "food.s3_fish_friday": {
+    "text": "Ailemizde cuma günleri genellikle pilav ve taze yeşil salatayla balık yeriz.",
+    "alt": ["Bizim ailede cumaları genelde pilav ve taze yeşil salatayla balık yenir."]
+  },
+  "food.s3_village_cheese": {
+    "text": "Köy pazarındaki peynir daha pahalı ama süpermarketlerdeki peynirden çok daha lezzetli.",
+    "alt": ["Köy pazarındaki peynir daha pahalı, ama tadı süpermarketlerdekinden çok daha güzel."]
+  },
+  "food.s3_fruit_snack": {
+    "text": "Kurabiye ve şeker yerine, acıktığımda yemek için çantamda elma ve muz taşıyorum.",
+    "alt": ["Acıkınca yemek için çantamda kurabiye ve şeker yerine elma ve muz bulunduruyorum."]
+  },
+  "time.s1_meeting_noon": {
+    "text": "Toplantı öğlen.",
+    "alt": ["Toplantı öğle saatinde.", "Toplantı saat on ikide."]
+  },
+  "time.s2_half_past": {
+    "text": "Tren her sabah dokuz buçukta kalkıyor.",
+    "alt": [
+      "Tren her sabah saat dokuz buçukta kalkar.",
+      "Tren her sabah dokuz buçukta hareket ediyor."
+    ]
+  },
+  "time.s2_quarter_to": {
+    "text": "Toplantı yarın saat ona çeyrek kala başlıyor.",
+    "alt": [
+      "Toplantı yarın ona çeyrek kala başlayacak.",
+      "Yarın toplantı saat ona çeyrek kala başlıyor."
+    ]
+  },
+  "time.s2_next_bus": {
+    "text": "Bir sonraki otobüs yaklaşık on beş dakika içinde geliyor, o yüzden bekleyelim.",
+    "alt": [
+      "Sonraki otobüs aşağı yukarı on beş dakikaya gelir, bekleyelim.",
+      "Bir sonraki otobüs on beş dakika kadar sonra geliyor, bekleyelim."
+    ]
+  },
+  "time.s2_monday_friday": {
+    "text": "Pazartesiden cumaya çalışıyorum, hafta sonları dinleniyorum.",
+    "alt": ["Pazartesiden cumaya kadar çalışır, hafta sonları dinlenirim."]
+  },
+  "time.s2_late_tonight": {
+    "text": "Bu akşam eve geç geleceğim, o yüzden beni bekleme.",
+    "alt": [
+      "Bu gece eve geç geleceğim, beni beklemeyin.",
+      "Bu akşam eve geç geleceğim, beni bekleme."
+    ]
+  },
+  "time.s2_day_after_tomorrow": {
+    "text": "Annemle babam öbür gün bizi ziyarete geliyor.",
+    "alt": ["Annemler öbür gün bizi ziyarete gelecek.", "Annem ve babam öbür gün bize geliyor."]
+  },
+  "time.s2_walk_every_day": {
+    "text": "Her gün kahvaltıdan önce otuz dakika yürüyorum.",
+    "alt": [
+      "Her gün kahvaltıdan önce yarım saat yürürüm.",
+      "Her gün kahvaltıdan önce otuz dakika yürüyüş yapıyorum."
+    ]
+  },
+  "time.s2_until_midnight": {
+    "text": "Mağaza cuma ve cumartesi günleri gece yarısına kadar açık.",
+    "alt": [
+      "Dükkân cuma ve cumartesileri gece yarısına kadar açık.",
+      "Mağaza cuma ve cumartesileri gece yarısına kadar açık."
+    ]
+  },
+  "time.s3_alarm": {
+    "text": "Alarmım her sabah altıda çalıyor ama genellikle on dakika daha yatakta kalıyorum.",
+    "alt": ["Her sabah alarmım saat altıda çalar ama genelde on dakika daha yatakta kalırım."]
+  },
+  "time.s3_bus_traffic": {
+    "text": "Geç kaldığım için özür dilerim, otobüs yirmi dakika gelmedi, sonra da trafik berbattı.",
+    "alt": ["Kusura bakma geç kaldım, otobüs yirmi dakika gelmedi, sonra trafik çok kötüydü."]
+  },
+  "time.s3_weekdays": {
+    "text": "Hafta içi altı buçukta kalkıyorum ama cumartesi ve pazar günleri dokuza kadar uyuyorum.",
+    "alt": ["Hafta içi saat altı buçukta kalkarım, cumartesi ve pazarları ise dokuza kadar uyurum."]
+  },
+  "time.s3_appointment": {
+    "text": "Randevum salı saat ondaydı ama doktor onu perşembe öğleden sonraya aldı.",
+    "alt": ["Randevum salı günü saat ondaydı, ama doktor perşembe öğleden sonraya erteledi."]
+  },
+  "time.s3_hurry": {
+    "text": "Acele etmemiz lazım, çünkü trenimiz on beş dakika sonra kalkıyor ve istasyon hâlâ uzakta.",
+    "alt": ["Acele etmeliyiz, trenimiz on beş dakikaya kalkıyor ve istasyon hâlâ uzak."]
+  },
+  "time.s3_day_before": {
+    "text": "Evvelsi gün gece yarısına kadar çalıştım, bu yüzden dün bütün gün evde kalıp dinlendim.",
+    "alt": ["Önceki gün gece yarısına kadar çalıştım, o yüzden dün bütün gün evde dinlendim."]
+  },
+  "time.s3_whole_trip": {
+    "text": "Uçuş sadece iki saat sürüyor ama havalimanı ve trafikle birlikte bütün yolculuk neredeyse altı saat sürüyor.",
+    "alt": [
+      "Uçuş yalnızca iki saat, ama havalimanı ve trafikle tüm yolculuk aşağı yukarı altı saati buluyor."
+    ]
+  },
+  "time.s3_never_time": {
+    "text": "Hep sabahları koşmaya başlayacağımı söylüyorum ama nedense hiç yeterli zaman olmuyor.",
+    "alt": ["Her zaman sabahları koşuya başlayacağım diyorum, ama nedense hiç vakit olmuyor."]
+  },
+  "calendar_colors.s1_birthday_may": {
+    "text": "Doğum günüm mayısta.",
+    "alt": ["Benim doğum günüm mayıs ayında.", "Doğum günüm mayıs ayında."]
+  },
+  "calendar_colors.s1_favorite_color": {
+    "text": "En sevdiğin renk ne?",
+    "alt": ["En sevdiğiniz renk ne?", "En sevdiğin renk hangisi?"]
+  },
+  "calendar_colors.s1_car_red": {
+    "text": "Yeni arabamız kırmızı.",
+    "alt": ["Bizim yeni arabamız kırmızı."]
+  },
+  "calendar_colors.s1_spring_istanbul": {
+    "text": "İstanbul'da baharı çok severim.",
+    "alt": ["İstanbul'da ilkbaharı çok seviyorum.", "İstanbul'da baharı çok seviyorum."]
+  },
+  "calendar_colors.s1_cold_january": {
+    "text": "Burada ocak çok soğuk.",
+    "alt": ["Burada ocak ayı çok soğuk geçer.", "Burada ocak ayı çok soğuk."]
+  },
+  "calendar_colors.s1_black_coat": {
+    "text": "Siyah bir mont istiyorum.",
+    "alt": ["Siyah bir palto istiyorum.", "Siyah mont istiyorum."]
+  },
+  "calendar_colors.s1_school_september": {
+    "text": "Okul eylülde başlıyor.",
+    "alt": ["Okullar eylülde açılıyor.", "Okul eylülde başlar."]
+  },
+  "calendar_colors.s2_august_vacation": {
+    "text": "Genellikle ağustosta iki haftalığına tatile gideriz.",
+    "alt": [
+      "Genelde ağustos ayında iki hafta tatile gidiyoruz.",
+      "Genellikle ağustosta iki hafta tatile gidiyoruz."
+    ]
+  },
+  "calendar_colors.s2_dress_blue": {
+    "text": "Bu elbisenin mavisi ya da yeşili var mı, lütfen?",
+    "alt": [
+      "Bu elbise mavi ya da yeşil renkte var mı acaba?",
+      "Bu elbisenin mavisi veya yeşili var mı?"
+    ]
+  },
+  "calendar_colors.s2_leaves_fall": {
+    "text": "Sonbaharda yapraklar sarı, turuncu ve kahverengi olur.",
+    "alt": [
+      "Sonbaharda yapraklar sararır, turuncuya ve kahverengiye döner.",
+      "Sonbaharda yapraklar sarıya, turuncuya ve kahverengiye döner."
+    ]
+  },
+  "calendar_colors.s2_anniversary": {
+    "text": "Evlilik yıl dönümümüz on iki haziranda.",
+    "alt": ["Evlilik yıldönümümüz on iki haziran.", "Evlilik yıl dönümümüz 12 haziranda."]
+  },
+  "calendar_colors.s2_public_holiday": {
+    "text": "Gelecek pazartesi resmî tatil, bu yüzden bankalar kapalı.",
+    "alt": [
+      "Önümüzdeki pazartesi resmi tatil, bankalar kapalı olacak.",
+      "Gelecek pazartesi resmi tatil, bu yüzden bankalar kapalı."
+    ]
+  },
+  "calendar_colors.s2_paint_room": {
+    "text": "Çocuk odasını açık maviye boyamak istiyoruz.",
+    "alt": [
+      "Çocukların odasını açık mavi boyamak istiyoruz.",
+      "Çocuk odasını açık mavi boyamak istiyoruz."
+    ]
+  },
+  "calendar_colors.s2_new_year_eve": {
+    "text": "Yılbaşı gecesini her zaman bütün aileyle geçiririz.",
+    "alt": [
+      "Yılbaşını hep tüm aileyle birlikte geçiriyoruz.",
+      "Yılbaşı gecesini hep bütün aileyle geçiriyoruz."
+    ]
+  },
+  "calendar_colors.s2_date_of_birth": {
+    "text": "Lütfen bu forma adınızı ve doğum tarihinizi yazın.",
+    "alt": [
+      "Lütfen adınızı ve doğum tarihinizi bu forma yazınız.",
+      "Lütfen bu forma adını ve doğum tarihini yaz."
+    ]
+  },
+  "calendar_colors.s3_hot_dry": {
+    "text": "Bu şehirde yazlar sıcak ve kuru geçer, ama kışın aralıktan marta kadar sık sık kar yağar.",
+    "alt": [
+      "Bu şehirde yazlar sıcak ve kurudur, kışın ise aralıktan marta kadar sık sık kar yağar."
+    ]
+  },
+  "calendar_colors.s3_party_saturday": {
+    "text": "Bu yıl doğum günüm perşembeye denk geliyor, bu yüzden partiyi onun yerine cumartesi yapıyoruz.",
+    "alt": ["Doğum günüm bu yıl perşembeye denk geldiği için partiyi cumartesi yapacağız."]
+  },
+  "calendar_colors.s3_kitchen_calendar": {
+    "text": "Mutfakta büyük bir takvim tutuyoruz ve herkesin randevularını üzerine farklı renklerle yazıyoruz.",
+    "alt": [
+      "Mutfakta büyük bir takvimimiz var, herkesin randevularını farklı renklerle onun üstüne yazarız."
+    ]
+  },
+  "calendar_colors.s3_navy_suit": {
+    "text": "Hazirandaki düğün için beyaz bir gömlek ve altın rengi bir kravatla lacivert bir takım elbise giymek istiyor.",
+    "alt": [
+      "Hazirandaki düğünde beyaz gömlek, altın rengi kravat ve lacivert takım elbise giymek istiyor."
+    ]
+  },
+  "calendar_colors.s3_favorite_season": {
+    "text": "İlkbahar en sevdiğim mevsim, çünkü günler uzuyor ve parklar rengârenk çiçeklerle doluyor.",
+    "alt": ["En sevdiğim mevsim ilkbahar, çünkü günler uzar ve parklar renkli çiçeklerle dolar."]
+  },
+  "calendar_colors.s3_school_holidays": {
+    "text": "Okul tatili haziran sonunda başlıyor ve eylülün ikinci haftasında bitiyor.",
+    "alt": ["Okullar haziran sonunda tatile giriyor ve eylülün ikinci haftasında açılıyor."]
+  },
+  "calendar_colors.s3_born_october": {
+    "text": "Üç Ekim bin dokuz yüz seksen beşte denize yakın küçük bir köyde doğdum.",
+    "alt": [
+      "3 Ekim 1985'te denize yakın küçük bir köyde doğdum.",
+      "3 Ekim 1985'te deniz kenarında küçük bir köyde doğdum."
+    ]
+  },
+  "calendar_colors.s3_white_house": {
+    "text": "Geçen yaz evi beyaza boyadık, ama kış yağmurlarından sonra şimdiden gri ve kirli görünüyor.",
+    "alt": [
+      "Evi geçen yaz beyaza boyadık ama kış yağmurundan sonra şimdiden griye dönmüş, kirli görünüyor."
+    ]
+  },
+  "home_clothes.s1_wear_jacket": {
+    "text": "Ceket giy, hava soğuk.",
+    "alt": ["Bir ceket giy, hava soğuk.", "Ceketini giy, hava soğuk."]
+  },
+  "home_clothes.s1_where_keys": {
+    "text": "Anahtarlarım nerede?"
+  },
+  "home_clothes.s1_shoes_door": {
+    "text": "Ayakkabılarını kapının yanına bırak.",
+    "alt": ["Ayakkabılarınızı kapının yanına bırakın."]
+  },
+  "home_clothes.s2_three_bedrooms": {
+    "text": "Dairemizde üç yatak odası, bir mutfak ve küçük bir balkon var.",
+    "alt": ["Bizim dairenin üç yatak odası, bir mutfağı ve küçük bir balkonu var."]
+  },
+  "home_clothes.s2_plates_glasses": {
+    "text": "Tabakları ve bardakları masaya koyar mısın, lütfen?",
+    "alt": [
+      "Lütfen tabaklarla bardakları masaya koyar mısın?",
+      "Tabakları ve bardakları masaya koyabilir misin, lütfen?"
+    ]
+  },
+  "home_clothes.s2_sweater_scarf": {
+    "text": "Dışarısı soğuk, kazağını ve atkını al.",
+    "alt": [
+      "Dışarıda hava soğuk, kazağını ve atkını yanına al.",
+      "Dışarısı soğuk, o yüzden kazağını ve atkını al."
+    ]
+  },
+  "home_clothes.s2_bigger_shirt": {
+    "text": "Bu gömlek çok küçük, daha büyüğü var mı?",
+    "alt": [
+      "Bu gömlek bana küçük, daha büyük bedeni var mı?",
+      "Bu gömlek fazla küçük, daha büyüğü var mı?"
+    ]
+  },
+  "home_clothes.s2_phone_bedroom": {
+    "text": "Sanırım telefonumu yine yatak odasında unuttum.",
+    "alt": [
+      "Galiba telefonumu yine yatak odasında bıraktım.",
+      "Sanırım telefonumu yine yatak odasında bıraktım."
+    ]
+  },
+  "home_clothes.s2_big_window": {
+    "text": "Mutfak küçük ama büyük bir penceresi var.",
+    "alt": ["Mutfak küçük, ama büyük bir penceresi var."]
+  },
+  "home_clothes.s2_gloves_hat": {
+    "text": "Eldivenlerini ve şapkanı unutma, kar yağıyor.",
+    "alt": [
+      "Eldivenini ve şapkanı unutma, kar yağıyor.",
+      "Kar yağıyor, eldivenlerini ve şapkanı unutma."
+    ]
+  },
+  "home_clothes.s2_red_dress": {
+    "text": "Bu akşam partiye uzun kırmızı bir elbise giyiyor.",
+    "alt": [
+      "Bu gece partiye uzun kırmızı bir elbise giyecek.",
+      "Bu akşam partide uzun kırmızı bir elbise giyecek."
+    ]
+  },
+  "home_clothes.s3_bigger_apartment": {
+    "text": "Geçen ay daha büyük bir daireye taşındık ama mutfak için hâlâ yeterince sandalyemiz yok.",
+    "alt": [
+      "Geçen ay daha büyük bir daireye taşındık, ama hâlâ mutfağa yetecek kadar sandalyemiz yok."
+    ]
+  },
+  "home_clothes.s3_lost_keys": {
+    "text": "Anahtarlarımı bulamıyorum, o yüzden mont ceplerime bakacağım, sonra da yatağın altına bakacağım.",
+    "alt": ["Anahtarlarımı bulamıyorum, önce montumun ceplerine, sonra yatağın altına bakacağım."]
+  },
+  "home_clothes.s3_living_room": {
+    "text": "Oturma odası evdeki en büyük oda ve her akşam orada televizyon izliyoruz.",
+    "alt": ["Oturma odası evin en büyük odası, her akşam orada televizyon seyrederiz."]
+  },
+  "home_clothes.s3_packing": {
+    "text": "Gezi için iki pantolon, beş tişört, kalın bir kazak ve eski botlarımı hazırlıyorum.",
+    "alt": [
+      "Yolculuk için valizime iki pantolon, beş tişört, sıcak bir kazak ve eski çizmelerimi koyuyorum."
+    ]
+  },
+  "home_clothes.s3_after_dinner": {
+    "text": "Akşam yemeğinden sonra eşim tabakları ve bardakları yıkıyor, ben de bıçakları, çatalları ve kaşıkları kaldırıyorum.",
+    "alt": [
+      "Yemekten sonra kocam tabaklarla bardakları yıkar, ben de çatal, bıçak ve kaşıkları yerine koyarım."
+    ]
+  },
+  "home_clothes.s3_garden_dream": {
+    "text": "Bahçeli bir ev çok isterdik ama öyle evler çok pahalı, bu yüzden küçük bir dairede yaşıyoruz.",
+    "alt": [
+      "Bahçeli bir evimiz olsun isterdik, ama böyle evler fazla pahalı, o yüzden küçük bir dairede oturuyoruz."
+    ]
+  },
+  "home_clothes.s3_dress_code": {
+    "text": "Yeni işimde pazartesiden perşembeye gömlek ve ceket giyiyorum, ama cuma günleri kot pantolon da olur.",
+    "alt": [
+      "Yeni işimde pazartesiden perşembeye kadar gömlekle ceket giyerim, cumaları kot giymek serbest."
+    ]
+  },
+  "home_clothes.s3_empty_fridge": {
+    "text": "Buzdolabı neredeyse boş, bu yüzden işten sonra süt, yumurta ve birkaç şişe su alacağım.",
+    "alt": ["Buzdolabı neredeyse boş, işten sonra süt, yumurta ve birkaç şişe su alacağım."]
+  },
+  "body_weather.s1_head_hurts": {
+    "text": "Başım ağrıyor."
+  },
+  "body_weather.s1_sunny_today": {
+    "text": "Bugün hava güneşli.",
+    "alt": ["Bugün güneşli."]
+  },
+  "body_weather.s1_wash_hands": {
+    "text": "Ellerini yıka, lütfen.",
+    "alt": ["Lütfen ellerini yıka.", "Lütfen ellerinizi yıkayın."]
+  },
+  "body_weather.s1_cold_wind": {
+    "text": "Rüzgâr çok soğuk.",
+    "alt": ["Rüzgar çok soğuk."]
+  },
+  "body_weather.s1_blue_eyes": {
+    "text": "Onun mavi gözleri var.",
+    "alt": ["Mavi gözleri var.", "Gözleri mavi."]
+  },
+  "body_weather.s1_take_umbrella": {
+    "text": "Yanına bir şemsiye al.",
+    "alt": ["Yanına şemsiye al.", "Şemsiyeni yanına al."]
+  },
+  "body_weather.s1_back_hurts": {
+    "text": "Sırtım çok ağrıyor.",
+    "alt": ["Belim çok ağrıyor."]
+  },
+  "body_weather.s1_snow_mountains": {
+    "text": "Dağlarda kar yağıyor."
+  },
+  "body_weather.s2_weather_tomorrow": {
+    "text": "Yarın Ankara'da hava nasıl olacak?",
+    "alt": ["Ankara'da yarın hava nasıl olacak?"]
+  },
+  "body_weather.s2_cloudy_rainy": {
+    "text": "Sabah hava bulutluydu, öğleden sonra yağmurluydu.",
+    "alt": [
+      "Sabah bulutluydu, öğleden sonra da yağmur yağdı.",
+      "Sabah hava bulutluydu, öğleden sonra yağmur yağdı."
+    ]
+  },
+  "body_weather.s2_broke_arm": {
+    "text": "Oğlum bisikletten düşünce kolunu kırdı.",
+    "alt": ["Oğlum bisikletten düştüğünde kolunu kırdı."]
+  },
+  "body_weather.s2_sunscreen": {
+    "text": "Güneş kremi sür, çünkü bugün güneş çok güçlü.",
+    "alt": [
+      "Güneş kremi sürün, bugün güneş çok yakıyor.",
+      "Güneş kremi sür, bugün güneş çok yakıcı."
+    ]
+  },
+  "body_weather.s2_toothache": {
+    "text": "Dişim çok kötü ağrıyor, bu yüzden dişçiye gidiyorum.",
+    "alt": [
+      "Dişim berbat ağrıyor, o yüzden dişçiye gideceğim.",
+      "Dişim çok fena ağrıyor, diş hekimine gidiyorum."
+    ]
+  },
+  "body_weather.s2_cold_hands": {
+    "text": "Kışın ellerim ve ayaklarım hep soğuk olur.",
+    "alt": ["Kışın ellerim ayaklarım her zaman üşür.", "Kışın ellerim ve ayaklarım hep üşür."]
+  },
+  "body_weather.s2_rainbow_sea": {
+    "text": "Bak, yağmurdan sonra denizin üstünde bir gökkuşağı var!",
+    "alt": [
+      "Bak, yağmurdan sonra denizin üzerinde gökkuşağı çıktı!",
+      "Bak, yağmurdan sonra denizin üstünde gökkuşağı var!"
+    ]
+  },
+  "body_weather.s2_lightning": {
+    "text": "Dağların üzerinde şimşek gördük, bu yüzden eve döndük.",
+    "alt": [
+      "Dağların üstünde şimşek çaktığını gördük ve eve geri döndük.",
+      "Dağların üstünde şimşek gördük, o yüzden eve döndük."
+    ]
+  },
+  "body_weather.s3_forecast": {
+    "text": "Hava durumuna göre yarın rüzgârlı ve serin olacak, öğleden sonra da biraz yağmur yağacak.",
+    "alt": [
+      "Hava tahminine göre yarın hava rüzgarlı ve serin olacak, öğleden sonra biraz yağmur bekleniyor."
+    ]
+  },
+  "body_weather.s3_ice_roads": {
+    "text": "İşe yürürken dikkatli ol, çünkü dün geceki kardan sonra yollarda buz var.",
+    "alt": ["İşe yürüyerek giderken dikkatli olun, dün geceki kar yüzünden yollar buz tuttu."]
+  },
+  "body_weather.s3_red_face": {
+    "text": "Bütün günü plajda geçirdik, şimdi de yüzüm ve kollarım güneşten kıpkırmızı.",
+    "alt": ["Tüm günü sahilde geçirdik ve şimdi yüzüm ile kollarım güneşten kızardı."]
+  },
+  "body_weather.s3_tired_eyes": {
+    "text": "Bütün gün bilgisayara baktığımda gözlerim yoruluyor, bu yüzden her saat kısa molalar veriyorum.",
+    "alt": [
+      "Gün boyu bilgisayara bakınca gözlerim yoruluyor, o yüzden saatte bir kısa mola veriyorum."
+    ]
+  },
+  "body_weather.s3_april": {
+    "text": "Nisanda hava her gün değişiyor, bu yüzden yanımda her zaman bir şemsiye ve ince bir ceket taşıyorum.",
+    "alt": [
+      "Nisan ayında hava her gün değişir, o yüzden hep yanımda şemsiye ve hafif bir ceket bulundururum."
+    ]
+  },
+  "body_weather.s3_cut_finger": {
+    "text": "Akşam yemeği yaparken parmağımı kestim ve şimdi kalem tuttuğumda acıyor.",
+    "alt": ["Yemek yaparken parmağımı kestim, şimdi kalem tutunca acıyor."]
+  },
+  "body_weather.s3_snow_play": {
+    "text": "Kar yağınca çocuklar dışarı koşuyor ve elleri donana kadar bahçede oynuyorlar.",
+    "alt": ["Kar yağdığında çocuklar dışarı koşar ve elleri buz kesene kadar bahçede oynar."]
+  },
+  "body_weather.s3_hot_summer": {
+    "text": "Geçen yaz hava o kadar sıcaktı ki öğlenleri evde kalıp akşamları denize gidiyorduk.",
+    "alt": ["Geçen yaz öyle sıcaktı ki öğlen içeride kaldık, akşam denize gittik."]
+  },
+  "city_directions.s2_excuse_station": {
+    "text": "Affedersiniz, tren istasyonuna nasıl gidebilirim?",
+    "alt": [
+      "Pardon, tren istasyonuna nasıl gidebilirim?",
+      "Affedersiniz, tren garına nasıl gidebilirim?"
+    ]
+  },
+  "city_directions.s2_straight_two_blocks": {
+    "text": "İki sokak düz gidin, sonra sağa dönün.",
+    "alt": ["İki sokak düz git, sonra sağa dön.", "İki blok düz gidin, sonra sağa dönün."]
+  },
+  "city_directions.s2_pharmacy_near": {
+    "text": "Buralarda bir eczane ya da süpermarket var mı?",
+    "alt": [
+      "Yakında bir eczane veya süpermarket var mı?",
+      "Buraya yakın bir eczane ya da süpermarket var mı?"
+    ]
+  },
+  "city_directions.s2_museum_far": {
+    "text": "Müze buradan uzak mı, yoksa yürüyebilir miyiz?",
+    "alt": ["Müze buraya uzak mı, yoksa yürüyerek gidebilir miyiz?"]
+  },
+  "city_directions.s2_bus_center": {
+    "text": "Buradan hangi otobüs şehir merkezine gidiyor?",
+    "alt": [
+      "Hangi otobüs buradan şehir merkezine gider?",
+      "Şehir merkezine buradan hangi otobüs gidiyor?"
+    ]
+  },
+  "city_directions.s2_hotel_address": {
+    "text": "Otelin adresini benim için yazabilir misiniz?",
+    "alt": ["Otelin adresini bana yazabilir misiniz?", "Otelin adresini benim için yazar mısınız?"]
+  },
+  "city_directions.s2_taxi_airport": {
+    "text": "Taksiyle havalimanına ne kadar sürer?",
+    "alt": ["Havalimanına taksiyle ne kadar sürer?", "Taksiyle havaalanına ne kadar sürer?"]
+  },
+  "city_directions.s3_lost_hotel": {
+    "text": "Affedersiniz, sanırım kayboldum, bana bu haritada otelimin yolunu gösterebilir misiniz?",
+    "alt": [
+      "Affedersiniz, galiba kayboldum, bana bu haritada otelimin yolunu gösterebilir misiniz?",
+      "Pardon, sanırım kayboldum, bu haritada bana otelimin yolunu gösterebilir misiniz?"
+    ]
+  },
+  "city_directions.s3_walk_bridge": {
+    "text": "Bu caddeden düz yürüyün, köprüyü geçin, müze solunuzda olacak.",
+    "alt": [
+      "Bu sokaktan düz yürüyün, köprüyü geçin, müze solunuzda kalacak.",
+      "Bu caddeden düz yürü, köprüyü geç, müze solunda olacak."
+    ]
+  },
+  "city_directions.s3_bus_stop_corner": {
+    "text": "Otobüs durağı bir sonraki köşede ama havalimanı otobüsleri yalnızca otuz dakikada bir geliyor.",
+    "alt": [
+      "Otobüs durağı sonraki köşede ama havalimanına giden otobüsler sadece yarım saatte bir geliyor."
+    ]
+  },
+  "city_directions.s3_village_market": {
+    "text": "Küçük bir köyde yaşıyoruz ama her cumartesi pazara gitmek için arabayla şehre gidiyoruz.",
+    "alt": [
+      "Küçük bir köyde yaşıyoruz ama her cumartesi alışveriş için arabayla şehre gidiyoruz.",
+      "Küçük bir köyde oturuyoruz ama her cumartesi pazara gitmek için arabayla şehre iniyoruz."
+    ]
+  },
+  "city_directions.s3_library_park": {
+    "text": "Yeni kütüphane parkla hastanenin arasında, buradan yürüyerek yaklaşık on dakika.",
+    "alt": ["Yeni kütüphane park ile hastane arasında, buradan yürüyerek on dakika kadar."]
+  },
+  "city_directions.s3_subway_traffic": {
+    "text": "Trafik yoğun olduğunda bu şehirde metro taksiden çok daha hızlı.",
+    "alt": [
+      "Bu şehirde trafik yoğunken metro taksiden çok daha hızlıdır.",
+      "Trafik çok olduğunda bu şehirde metro taksiden çok daha hızlı."
+    ]
+  },
+  "city_directions.s3_post_office": {
+    "text": "İstasyonun yakınındaki postane saat beşte kapanıyor, bu yüzden oraya öğle yemeğinden önce gitmelisin.",
+    "alt": [
+      "İstasyonun yanındaki postane beşte kapanıyor, o yüzden öğle yemeğinden önce oraya gitmelisiniz."
+    ]
+  },
+  "city_directions.s3_ask_police": {
+    "text": "Adresi bulamazsan bankanın önündeki polis memuruna yolu sor.",
+    "alt": [
+      "Adresi bulamazsanız bankanın önündeki polis memuruna yolu sorun.",
+      "Adresi bulamazsan bankanın önündeki polise yolu sor."
+    ]
+  },
+  "work_school.s1_lesson_nine": {
+    "text": "Ders saat dokuzda başlıyor.",
+    "alt": ["Ders dokuzda başlıyor.", "Ders saat dokuzda başlar."]
+  },
+  "work_school.s2_teacher_question": {
+    "text": "Dersten sonra öğretmene bir soru sorabilir miyim?",
+    "alt": ["Ders bittikten sonra öğretmene bir soru sorabilir miyim?"]
+  },
+  "work_school.s2_homework_page": {
+    "text": "Ödev olarak lütfen yirminci sayfayı okuyun ve soruları cevaplayın.",
+    "alt": [
+      "Ödev için lütfen yirminci sayfayı okuyup soruları cevaplayın.",
+      "Ödev olarak lütfen yirminci sayfayı oku ve soruları cevapla."
+    ]
+  },
+  "work_school.s2_sister_nurse": {
+    "text": "Kız kardeşim hemşire ve geceleri çalışıyor.",
+    "alt": ["Ablam hemşire ve geceleri çalışıyor.", "Kız kardeşim hemşire, geceleri çalışıyor."]
+  },
+  "work_school.s2_word_mean": {
+    "text": "Bu kelime İngilizcede ne demek?",
+    "alt": ["Bu kelime İngilizcede ne anlama geliyor?"]
+  },
+  "work_school.s2_english_job": {
+    "text": "İngilizce öğreniyorum çünkü işim için gerekli.",
+    "alt": [
+      "İngilizce öğreniyorum çünkü işimde lazım.",
+      "İşim için gerektiğinden İngilizce öğreniyorum.",
+      "İngilizce öğreniyorum çünkü işim için ihtiyacım var."
+    ]
+  },
+  "work_school.s2_teacher_not_here": {
+    "text": "Öğrenciler sınıfta ama öğretmen burada değil.",
+    "alt": ["Öğrenciler sınıfta, ama öğretmen yok."]
+  },
+  "work_school.s2_which_language": {
+    "text": "İşte hangi dili konuşuyorsun, İngilizce mi Türkçe mi?",
+    "alt": [
+      "İş yerinde hangi dili konuşuyorsunuz, İngilizce mi Türkçe mi?",
+      "İşte hangi dili konuşuyorsun, Türkçe mi İngilizce mi?"
+    ]
+  },
+  "work_school.s2_pencil_under": {
+    "text": "Kurşun kalemim masanın altında mı, yoksa defterin yanında mı?",
+    "alt": ["Kalemim masanın altında mı, defterin yanında mı?"]
+  },
+  "work_school.s3_exam_friday": {
+    "text": "Cuma günü önemli bir İngilizce sınavımız var, bu yüzden her akşam iki saat ders çalışıyorum.",
+    "alt": ["Cuma önemli bir İngilizce sınavımız var, o yüzden her akşam iki saat çalışıyorum."]
+  },
+  "work_school.s3_teacher_fast": {
+    "text": "Öğretmen her soruyu cevaplıyor ama bazen çok hızlı konuşuyor ve ben anlamıyorum.",
+    "alt": ["Öğretmen her soruya cevap veriyor ama bazen çok hızlı konuşuyor, ben de anlamıyorum."]
+  },
+  "work_school.s3_mother_nurse": {
+    "text": "Annem hastanede hemşire ve sık sık geceleri ve hafta sonları çalışıyor.",
+    "alt": ["Annem hastanede hemşire, sık sık gece ve hafta sonu çalışıyor."]
+  },
+  "work_school.s3_brother_taxi": {
+    "text": "Ağabeyim taksi şoförü, bu yüzden şehirdeki her sokağı çok iyi biliyor.",
+    "alt": [
+      "Erkek kardeşim taksi şoförü, bu yüzden şehirdeki her sokağı çok iyi biliyor.",
+      "Abim taksici, o yüzden şehirdeki her sokağı çok iyi biliyor."
+    ]
+  },
+  "work_school.s3_homework_late": {
+    "text": "Ödevimi bitiremedim çünkü dün gece restoranda geç saate kadar çalıştım.",
+    "alt": ["Dün gece restoranda geç saate kadar çalıştığım için ödevimi bitiremedim."]
+  },
+  "work_school.s3_where_when": {
+    "text": "Son İngilizce dersini kaçırdım, bir sonraki dersin nerede ve ne zaman olduğunu söyler misin?",
+    "alt": [
+      "Son İngilizce dersini kaçırdım, bir sonraki dersin nerede ve ne zaman olduğunu söyleyebilir misin?",
+      "Geçen İngilizce dersini kaçırdım, bir sonraki ders nerede ve ne zaman, söyler misin?"
+    ]
+  },
+  "work_school.s3_how_many": {
+    "text": "Sınıfınızda kaç öğrenci var ve kaçı biraz İngilizce konuşuyor?",
+    "alt": ["Sınıfında kaç öğrenci var ve kaçı biraz İngilizce konuşabiliyor?"]
+  },
+  "work_school.s3_doctor_engineer": {
+    "text": "Kızım doktor ya da mühendis olmak istiyor ama matematikte pek iyi değil.",
+    "alt": ["Kızım doktor veya mühendis olmak istiyor ama matematiği pek iyi değil."]
+  },
+  "describing.s1_room_small": {
+    "text": "Bu oda çok küçük."
+  },
+  "describing.s1_coffee_hot": {
+    "text": "Dikkat et, kahve sıcak.",
+    "alt": ["Dikkatli ol, kahve sıcak.", "Dikkat edin, kahve sıcak."]
+  },
+  "describing.s1_store_closed": {
+    "text": "Mağaza bugün kapalı.",
+    "alt": ["Dükkân bugün kapalı.", "Bugün mağaza kapalı."]
+  },
+  "describing.s1_look_tired": {
+    "text": "Bugün çok yorgun görünüyorsun.",
+    "alt": ["Bugün çok yorgun görünüyorsunuz."]
+  },
+  "describing.s1_room_ready": {
+    "text": "Odamız henüz hazır değil.",
+    "alt": ["Odamız daha hazır değil."]
+  },
+  "describing.s1_great_idea": {
+    "text": "Bu harika bir fikir!",
+    "alt": ["Harika bir fikir!"]
+  },
+  "describing.s2_hotel_cheap": {
+    "text": "Otel ucuzdu ama odalar temiz ve rahattı.",
+    "alt": ["Otel ucuzdu ama odaları temiz ve rahattı."]
+  },
+  "describing.s2_warm_cool": {
+    "text": "Bugün hava ılık ama akşamlar hâlâ serin.",
+    "alt": ["Hava bugün ılık ama akşamlar hâlâ serin."]
+  },
+  "describing.s2_brother_handsome": {
+    "text": "Ağabeyim uzun boylu ve yakışıklı ama çok utangaç.",
+    "alt": [
+      "Erkek kardeşim uzun boylu ve yakışıklı ama çok utangaç.",
+      "Abim uzun boylu ve yakışıklı ama çok utangaç."
+    ]
+  },
+  "describing.s2_old_house": {
+    "text": "Evleri eski ama mutfak yeni ve çok büyük.",
+    "alt": ["Onların evi eski ama mutfağı yeni ve çok büyük."]
+  },
+  "describing.s2_lucky_wedding": {
+    "text": "Şanslıydık çünkü düğün günümüzde hava mükemmeldi.",
+    "alt": ["Şanslıydık, düğün günümüzde hava harikaydı."]
+  },
+  "describing.s2_long_hair": {
+    "text": "Uzun siyah saçları ve güzel yeşil gözleri var.",
+    "alt": ["Onun uzun siyah saçları ve güzel yeşil gözleri var."]
+  },
+  "describing.s2_english_easy": {
+    "text": "İngilizce senin için kolay mı yoksa zor bir dil mi?",
+    "alt": ["İngilizce sizin için kolay mı yoksa zor bir dil mi?"]
+  },
+  "describing.s2_answer_perfect": {
+    "text": "Cevabın yanlış değil ama mükemmel de değil.",
+    "alt": ["Cevabınız yanlış değil ama mükemmel de değil."]
+  },
+  "describing.s3_apartment": {
+    "text": "Yeni daire küçük ve biraz pahalı ama çok temiz ve ofisime yakın.",
+    "alt": ["Yeni ev küçük ve biraz pahalı ama çok temiz ve ofisime yakın."]
+  },
+  "describing.s3_terrible_weather": {
+    "text": "Pazartesi hava berbattı ama salı günü yine ılık ve güneşliydi.",
+    "alt": ["Pazartesi hava berbattı ama salı yine ılık ve güneşliydi."]
+  },
+  "describing.s3_grandfather_old": {
+    "text": "Dedem çok yaşlı ama hâlâ güçlü ve her sabah parkta yürüyor.",
+    "alt": ["Büyükbabam çok yaşlı ama hâlâ güçlü ve her sabah parkta yürüyüş yapıyor."]
+  },
+  "describing.s3_careful_road": {
+    "text": "Geceleri bu yolda dikkatli ol, çünkü dar ve kışın çok tehlikeli.",
+    "alt": ["Gece bu yolda dikkatli olun, çünkü yol dar ve kışın çok tehlikeli."]
+  },
+  "describing.s3_special_day": {
+    "text": "Yarın ailemiz için özel bir gün, çünkü küçük kız kardeşim evleniyor.",
+    "alt": ["Yarın ailemiz için özel bir gün, kız kardeşim evleniyor."]
+  },
+  "describing.s3_chair_comfortable": {
+    "text": "Bu sandalye güzel ama pek rahat değil, bu yüzden başka bir tane istiyorum.",
+    "alt": ["Bu sandalye güzel ama çok rahat değil, o yüzden başka bir tane istiyorum."]
+  },
+  "describing.s3_busy_happy": {
+    "text": "İşim zor ve hep meşgulüm ama mutluyum çünkü iş arkadaşlarım çok nazik.",
+    "alt": ["İşim zor ve her zaman meşgulüm ama mutluyum, çünkü iş arkadaşlarım çok kibar."]
+  },
+  "describing.s3_lucky_tickets": {
+    "text": "Çok şanslıydık, çünkü şehre giden son tren için ucuz bilet bulduk.",
+    "alt": ["Çok şanslıydık, şehre giden son trene ucuz bilet bulduk."]
+  },
+  "daily_actions.s1_get_up_seven": {
+    "text": "Saat yedide kalkarım.",
+    "alt": ["Yedide kalkarım.", "Saat yedide kalkıyorum."]
+  },
+  "daily_actions.s1_coffee_morning": {
+    "text": "Her sabah kahve içerim.",
+    "alt": ["Her sabah kahve içiyorum."]
+  },
+  "daily_actions.s2_shower_breakfast": {
+    "text": "Duş alıyorum, sonra kahvaltı ediyorum.",
+    "alt": ["Duş alırım, sonra kahvaltı ederim.", "Önce duş alıyorum, sonra kahvaltı yapıyorum."]
+  },
+  "daily_actions.s2_call_mother": {
+    "text": "Her pazar öğle yemeğinden sonra annemi ararım.",
+    "alt": ["Her pazar öğle yemeğinden sonra annemi arıyorum."]
+  },
+  "daily_actions.s2_help_kitchen": {
+    "text": "Mutfakta bana yardım edebilir misin, lütfen?",
+    "alt": [
+      "Lütfen mutfakta bana yardım eder misin?",
+      "Mutfakta bana yardım edebilir misiniz, lütfen?"
+    ]
+  },
+  "daily_actions.s2_children_bed": {
+    "text": "Okul günlerinde çocuklar saat dokuzda yatar.",
+    "alt": [
+      "Çocuklar okul günlerinde dokuzda yatıyor.",
+      "Okul olan günlerde çocuklar dokuzda yatar."
+    ]
+  },
+  "daily_actions.s2_music_drive": {
+    "text": "İşe arabayla giderken müzik dinlerim.",
+    "alt": ["Arabayla işe giderken müzik dinlerim.", "İşe arabayla giderken müzik dinliyorum."]
+  },
+  "daily_actions.s2_son_dishes": {
+    "text": "Akşam yemeğinden sonra oğlum bulaşıkları yıkar, ben de masayı temizlerim.",
+    "alt": ["Akşam yemeğinden sonra bulaşıkları oğlum yıkar, masayı da ben silerim."]
+  },
+  "daily_actions.s2_start_finish": {
+    "text": "İşe genellikle saat kaçta başlıyorsun ve kaçta bitiriyorsun?",
+    "alt": ["Genellikle işe saat kaçta başlayıp kaçta bitiriyorsunuz?"]
+  },
+  "daily_actions.s2_read_before_sleep": {
+    "text": "Uyumadan önce hep kitap okurum.",
+    "alt": ["Uyumadan önce her zaman kitap okurum.", "Yatmadan önce hep kitap okurum."]
+  },
+  "daily_actions.s3_morning_routine": {
+    "text": "Her sabah altıda kalkarım, duş alırım, giyinirim ve bir fincan kahve içerim.",
+    "alt": ["Her sabah altıda kalkıyorum, duş alıyorum, giyiniyorum ve bir fincan kahve içiyorum."]
+  },
+  "daily_actions.s3_walk_or_bus": {
+    "text": "Hava güzel olduğunda işe yürüyerek giderim ama yağmur yağdığında otobüse binerim.",
+    "alt": ["Hava güzelken işe yürüyerek gidiyorum ama yağmur yağınca otobüse biniyorum."]
+  },
+  "daily_actions.s3_learn_cook": {
+    "text": "Yemek yapmayı öğrenmek istiyorum çünkü neredeyse her gün restoranlarda yemek yiyorum.",
+    "alt": ["Yemek pişirmeyi öğrenmek istiyorum, çünkü neredeyse her gün dışarıda yiyorum."]
+  },
+  "daily_actions.s3_call_later": {
+    "text": "Şu an konuşamam çünkü araba kullanıyorum, eve varınca seni ararım.",
+    "alt": ["Şimdi konuşamam, araba sürüyorum, eve gidince seni ararım."]
+  },
+  "daily_actions.s3_open_window": {
+    "text": "Bu oda çok sıcak, pencereyi açıp kapıyı kapatabilir misin?",
+    "alt": ["Bu odada çok sıcak var, pencereyi açıp kapıyı kapatır mısın?"]
+  },
+  "daily_actions.s3_wait_friends": {
+    "text": "İstasyonda arkadaşlarımızı bir saat bekledik ama gelmediler.",
+    "alt": ["Arkadaşlarımızı istasyonda bir saat bekledik ama gelmediler."]
+  },
+  "daily_actions.s3_speak_slowly": {
+    "text": "Söylediğin her şeyi anlamıyorum, bu yüzden lütfen daha yavaş konuş ve basit kelimeler kullan.",
+    "alt": [
+      "Söylediğiniz her şeyi anlamıyorum, lütfen daha yavaş konuşun ve basit kelimeler kullanın."
+    ]
+  },
+  "daily_actions.s3_saturday": {
+    "text": "Cumartesi günleri genellikle geç saate kadar uyur, büyük bir kahvaltı yapar ve birlikte film izleriz.",
+    "alt": ["Cumartesileri genelde geç kalkar, büyük bir kahvaltı yapar ve birlikte film izleriz."]
+  },
+  "shopping.s2_fitting_room": {
+    "text": "Affedersiniz, bu kattaki deneme kabini nerede?",
+    "alt": [
+      "Pardon, bu kattaki deneme kabini nerede?",
+      "Affedersiniz, bu katta deneme kabini nerede?"
+    ]
+  },
+  "shopping.s2_bigger_size": {
+    "text": "Bu ayakkabılar çok küçük. Daha büyük bir numaranız var mı?",
+    "alt": [
+      "Bu ayakkabılar bana küçük. Daha büyük numaranız var mı?",
+      "Bu ayakkabılar çok küçük. Bir büyük numarası var mı?"
+    ]
+  },
+  "shopping.s2_return_shirt": {
+    "text": "Bu gömlek üstüme olmazsa iade edebilir miyim?",
+    "alt": [
+      "Bu gömlek olmazsa iade edebilir miyim?",
+      "Gömlek üstüme olmazsa onu iade edebilir miyim?"
+    ]
+  },
+  "shopping.s2_cash_or_card": {
+    "text": "Nakit mi yoksa kartla mı ödemek istersiniz?",
+    "alt": ["Nakit mi ödemek istersiniz, kartla mı?", "Nakit mi kart mı?"]
+  },
+  "shopping.s2_line_checkout": {
+    "text": "Bugün kasadaki sıra çok uzun.",
+    "alt": ["Kasadaki sıra bugün çok uzun.", "Bugün kasada çok uzun bir kuyruk var."]
+  },
+  "shopping.s2_coats_sale": {
+    "text": "Bu hafta bütün kışlık montlar indirimde.",
+    "alt": ["Bu hafta tüm kış montları indirimde.", "Bütün kışlık montlar bu hafta indirimde."]
+  },
+  "shopping.s2_afford_watch": {
+    "text": "Bu saati beğeniyorum ama almaya param yetmiyor.",
+    "alt": [
+      "Bu saati beğendim ama param yetmiyor.",
+      "Bu saat hoşuma gidiyor ama alamam, param yetmez."
+    ]
+  },
+  "shopping.s2_clothes_online": {
+    "text": "Sık sık internetten kıyafet alırım çünkü daha ucuz.",
+    "alt": ["Kıyafetleri sık sık internetten alırım, çünkü daha ucuz."]
+  },
+  "shopping.s3_return_receipt": {
+    "text": "Ürünü otuz gün içinde iade edebilirsiniz ama fişi yanınızda getirmeniz gerekir.",
+    "alt": ["Ürünü otuz gün içinde iade edebilirsiniz, yalnız fişi de getirmelisiniz."]
+  },
+  "shopping.s3_compare_prices": {
+    "text": "Yeni bir telefon almadan önce fiyatları her zaman farklı mağazalarda ve internette karşılaştırırım.",
+    "alt": [
+      "Yeni telefon almadan önce hep farklı mağazalardaki ve internetteki fiyatları karşılaştırırım."
+    ]
+  },
+  "shopping.s3_wrong_change": {
+    "text": "Kasiyer para üstünü yanlış verdi, bu yüzden geri gidip ona fişimi gösterdim.",
+    "alt": ["Kasiyer bana para üstünü yanlış verdi, ben de geri dönüp fişimi gösterdim."]
+  },
+  "shopping.s3_brand_quality": {
+    "text": "Bu marka daha pahalı ama kalitesi çok daha iyi ve ayakkabıları daha uzun dayanıyor.",
+    "alt": ["Bu marka daha pahalı ama kalitesi çok daha iyi, ayakkabıları da daha uzun ömürlü."]
+  },
+  "shopping.s3_mall_crowded": {
+    "text": "Genellikle cumartesi günü alışveriş merkezine gideriz ama öğleden sonra hep çok kalabalık oluyor.",
+    "alt": ["Cumartesileri genelde AVM'ye gideriz ama öğleden sonra her zaman çok kalabalık olur."]
+  },
+  "shopping.s3_deliver_tomorrow": {
+    "text": "Akşam altıdan önce sipariş verirseniz paketi yarın evinize teslim ederiz.",
+    "alt": ["Akşam saat altıdan önce sipariş verirseniz paketiniz yarın evinize gelir."]
+  },
+  "shopping.s3_bargain_market": {
+    "text": "Eski çarşıda satıcılarla pazarlık yapabilir ve çoğu zaman çok daha iyi bir fiyat alabilirsiniz.",
+    "alt": [
+      "Eski çarşıda satıcılarla pazarlık edip çoğu zaman çok daha uygun fiyata alabilirsiniz."
+    ]
+  },
+  "shopping.s3_salesperson_helpful": {
+    "text": "Satış görevlisi çok yardımseverdi ve aynı ceketi başka bir mağazada benim bedenimde buldu.",
+    "alt": [
+      "Satış görevlisi çok yardımcı oldu ve aynı ceketin benim bedenimi başka bir mağazada buldu."
+    ]
+  },
+  "work_tech.s2_battery_low": {
+    "text": "Dizüstü bilgisayarımın şarjı az. Şarj aletin var mı?",
+    "alt": [
+      "Laptopumun şarjı bitmek üzere. Şarj aletin var mı?",
+      "Dizüstü bilgisayarımın şarjı azaldı. Şarj aletiniz var mı?"
+    ]
+  },
+  "work_tech.s2_printer": {
+    "text": "Bizim kattaki yazıcı yine çalışmıyor.",
+    "alt": ["Kattaki yazıcı yine çalışmıyor.", "Bizim kattaki yazıcı gene bozuldu."]
+  },
+  "work_tech.s2_deadline": {
+    "text": "Bu projenin son teslim tarihi gelecek cuma.",
+    "alt": ["Bu projenin teslim tarihi önümüzdeki cuma.", "Bu proje gelecek cuma teslim edilecek."]
+  },
+  "work_tech.s2_upload_file": {
+    "text": "Dosyayı bugün web sitesine yükleyebilir misin?",
+    "alt": [
+      "Dosyayı bugün siteye yükleyebilir misin?",
+      "Bugün dosyayı web sitesine yükleyebilir misiniz?"
+    ]
+  },
+  "work_tech.s2_new_team": {
+    "text": "Yeni bir işe başladım ve ekibim çok cana yakın.",
+    "alt": ["Yeni bir işe başladım, ekibim çok samimi."]
+  },
+  "work_tech.s3_contract_salary": {
+    "text": "Sözleşmeyi imzalamadan önce maaş ve çalışma saatleri hakkında konuşmak istiyorum.",
+    "alt": ["Sözleşmeyi imzalamadan önce maaşı ve çalışma saatlerini konuşmak isterim."]
+  },
+  "work_tech.s3_log_in": {
+    "text": "E-postama giriş yapamıyorum çünkü bu sabah şifremi yine unuttum.",
+    "alt": ["Bu sabah şifremi yine unuttuğum için e-postama giremiyorum."]
+  },
+  "work_tech.s3_meeting_thursday": {
+    "text": "Müşteriyle toplantı perşembeye alındı, bu yüzden lütfen raporu bana çarşambaya kadar gönder.",
+    "alt": [
+      "Müşteriyle toplantı artık perşembe günü, bu yüzden lütfen raporu bana çarşambaya kadar gönder.",
+      "Müşteri toplantısı perşembeye alındı, lütfen raporu çarşambaya kadar bana gönderin."
+    ]
+  },
+  "work_tech.s3_work_from_home": {
+    "text": "Haftada iki gün evden çalışıyorum, bu yüzden hızlı bir internet bağlantısına ve iyi bir dizüstü bilgisayara ihtiyacım var.",
+    "alt": [
+      "Haftada iki kez evden çalışıyorum, o yüzden hızlı internete ve iyi bir dizüstü bilgisayara ihtiyacım var."
+    ]
+  },
+  "work_tech.s3_interview_experience": {
+    "text": "Görüşmede bana deneyimimi ve neden onların şirketinde çalışmak istediğimi sordular.",
+    "alt": ["İş görüşmesinde deneyimimi ve neden şirketlerinde çalışmak istediğimi sordular."]
+  },
+  "work_tech.s3_screen_broken": {
+    "text": "Bu sabah telefonumu düşürdüm ve şimdi ekranı kırık, bu yüzden mesajlarımı okuyamıyorum.",
+    "alt": ["Bu sabah telefonumu düşürdüm, ekranı kırıldı, o yüzden mesajlarımı okuyamıyorum."]
+  },
+  "work_tech.s3_boss_late": {
+    "text": "Patronum çok kızgındı çünkü raporu son teslim tarihinden iki gün sonra gönderdim.",
+    "alt": ["Raporu teslim tarihinden iki gün sonra gönderdiğim için patronum çok kızdı."]
+  },
+  "work_tech.s3_video_call": {
+    "text": "Her pazartesi sabah saat onda Londra'daki müşterilerimizle görüntülü görüşme yapıyoruz.",
+    "alt": ["Her pazartesi sabah onda Londra'daki müşterilerimizle görüntülü toplantımız var."]
+  },
+  "travel.s2_window_seat": {
+    "text": "Bu uçuşta cam kenarı bir koltuk alabilir miyim, lütfen?",
+    "alt": [
+      "Bu uçuşta pencere kenarında bir koltuk alabilir miyim, lütfen?",
+      "Lütfen bu uçuşta cam kenarı bir yer alabilir miyim?"
+    ]
+  },
+  "travel.s2_flight_delay": {
+    "text": "Kar yüzünden uçuşumuzda iki saatlik rötar var.",
+    "alt": ["Kar yüzünden uçuşumuz iki saat rötarlı.", "Kar nedeniyle uçuşumuz iki saat gecikmeli."]
+  },
+  "travel.s2_missed_train": {
+    "text": "Son treni kaçırdık, bu yüzden taksiye bindik.",
+    "alt": ["Son treni kaçırdık, o yüzden taksiyle gittik."]
+  },
+  "travel.s2_which_platform": {
+    "text": "Ankara treni hangi perondan kalkıyor?",
+    "alt": ["Ankara'ya giden tren hangi perondan kalkıyor?"]
+  },
+  "travel.s3_customs": {
+    "text": "İndikten sonra gümrükte neredeyse bir saat bekledik çünkü her bavulu kontrol ettiler.",
+    "alt": [
+      "Uçak indikten sonra gümrükte bir saate yakın bekledik, çünkü bütün bavulları kontrol ettiler."
+    ]
+  },
+  "travel.s3_backpack": {
+    "text": "Kısa geziler için hep küçük bir sırt çantası hazırlarım, çünkü ağır bir bavul taşımak çok yorucu.",
+    "alt": [
+      "Kısa yolculuklarda hep küçük bir sırt çantası hazırlıyorum, çünkü ağır bavul taşımak çok yorucu."
+    ]
+  },
+  "travel.s3_book_hotel": {
+    "text": "Eski şehir meydanına yakın bir otel ayırttık, böylece müzelerin çoğuna yürüyerek gidebiliriz.",
+    "alt": [
+      "Eski şehir meydanının yakınında otel ayırttık, böylece çoğu müzeye yürüyerek gidebiliriz."
+    ]
+  },
+  "travel.s3_boarding_pass": {
+    "text": "Lütfen pasaportunuzu ve biniş kartınızı hazır bulundurun, çünkü biniş on dakika sonra on iki numaralı kapıda başlıyor.",
+    "alt": [
+      "Lütfen pasaportunuzu ve biniş kartınızı hazırlayın, biniş on dakika içinde on ikinci kapıda başlıyor."
+    ]
+  },
+  "travel.s3_souvenirs": {
+    "text": "Gezimizin son gününde köprünün yanındaki pazardan arkadaşlarımıza hediyelik eşya aldık.",
+    "alt": ["Gezinin son günü köprünün yakınındaki pazardan arkadaşlarımıza hediyelik eşya aldık."]
+  },
+  "travel.s3_round_trip": {
+    "text": "İnternetten alırsan gidiş-dönüş bilet, iki tek yön biletten çok daha ucuza gelir.",
+    "alt": [
+      "İnternetten alırsanız gidiş-dönüş bilet iki tek yön biletten çok daha ucuza gelir.",
+      "İnternetten ayırtırsan gidiş-dönüş bilet iki tek yön biletten çok daha ucuza gelir."
+    ]
+  },
+  "travel.s3_rent_car": {
+    "text": "Havalimanında araba kiralarsak sahile yakın küçük köyleri gezebiliriz.",
+    "alt": ["Havalimanından araba kiralarsak sahile yakın küçük köyleri gezebiliriz."]
+  },
+  "travel.s3_gate_changed": {
+    "text": "Londra uçuşundaki tüm yolcular beş numaralı kapıya gitmeli, çünkü kalkış saati değişti.",
+    "alt": ["Londra uçuşunun bütün yolcuları beşinci kapıya gitmeli, çünkü kalkış saati değişti."]
+  },
+  "health.s2_call_ambulance": {
+    "text": "Lütfen ambulans çağırın, babam merdivenden düştü!",
+    "alt": ["Lütfen bir ambulans çağırın, babam merdivenlerden düştü!"]
+  },
+  "health.s2_sore_throat": {
+    "text": "Dünden beri boğazım ağrıyor ve ateşim var.",
+    "alt": ["Dünden beri boğaz ağrım ve ateşim var."]
+  },
+  "health.s2_pills": {
+    "text": "Günde iki kez yemeklerden sonra iki hap alın.",
+    "alt": [
+      "Yemeklerden sonra günde iki kez iki hap al.",
+      "Günde iki defa yemekten sonra iki tablet alın."
+    ]
+  },
+  "health.s2_dizzy": {
+    "text": "Başım dönüyor. Bir dakika oturabilir miyim?",
+    "alt": ["Başım dönüyor. Biraz oturabilir miyim?"]
+  },
+  "health.s2_arm_not_broken": {
+    "text": "Doktor kolumun kırık olmadığını söyledi.",
+    "alt": ["Doktor, kolum kırık değil dedi."]
+  },
+  "health.s2_checkup": {
+    "text": "Yılda bir kez kontrol için doktora giderim.",
+    "alt": ["Yılda bir kere kontrole giderim.", "Senede bir doktora kontrole gidiyorum."]
+  },
+  "health.s2_get_better": {
+    "text": "Bol su iç, yakında iyileşirsin.",
+    "alt": ["Bol bol su iç, kısa sürede iyileşirsin.", "Bol su için, yakında iyileşirsiniz."]
+  },
+  "health.s3_back_pain": {
+    "text": "İki haftadır sırtım ağrıyor, bu yüzden doktor beni pazartesi tekrar muayene etmek istiyor.",
+    "alt": [
+      "İki haftadır sırt ağrım var, o yüzden doktor pazartesi beni yeniden muayene etmek istiyor."
+    ]
+  },
+  "health.s3_sneeze_allergy": {
+    "text": "İlkbaharda her sabah hapşırıyorum ama doktor bunun soğuk algınlığı değil, alerji olduğunu söylüyor.",
+    "alt": ["Baharda her sabah hapşırıyorum ama doktor bunun nezle değil alerji olduğunu söylüyor."]
+  },
+  "health.s3_toothache": {
+    "text": "Dişim çok kötü ağrıyor, bu yüzden en kısa zamanda diş hekiminden randevu almam lazım.",
+    "alt": ["Korkunç bir diş ağrım var, o yüzden bir an önce dişçiden randevu almam gerekiyor."]
+  },
+  "health.s3_elbow": {
+    "text": "Futbol oynarken dirseğini incitti, bu yüzden cumartesi günkü maçta oynayamaz.",
+    "alt": ["Futbol oynarken dirseğini sakatladı, o yüzden cumartesi maçında oynayamayacak."]
+  },
+  "health.s3_patients_waiting": {
+    "text": "Bekleme salonunda çok hasta var, bu yüzden yaklaşık bir saat beklemeniz gerekebilir.",
+    "alt": ["Bekleme salonunda çok fazla hasta var, bir saat kadar beklemeniz gerekebilir."]
+  },
+  "health.s3_bandage": {
+    "text": "Ben eve gitmeden önce hemşire parmağımdaki kesiği temizleyip üstüne bandaj sardı.",
+    "alt": [
+      "Hemşire, ben eve gitmeden önce parmağımdaki kesiği temizleyip sardı.",
+      "Ben eve gitmeden önce hemşire parmağımdaki kesiği temizledi ve üstüne yara bandı yapıştırdı."
+    ]
+  },
+  "health.s3_stay_healthy": {
+    "text": "Sağlıklı kalmak için haftada üç kez egzersiz yapmalı ve daha çok taze sebze yemelisin.",
+    "alt": [
+      "Sağlıklı kalmak için haftada üç gün spor yapmalı ve daha fazla taze sebze yemelisiniz."
+    ]
+  },
+  "health.s3_prescription": {
+    "text": "Bu reçeteyi eczaneye götürün ve ilacınızı her yemekten sonra almayı unutmayın.",
+    "alt": ["Bu reçeteyi eczaneye götür ve ilacını her yemekten sonra almayı unutma."]
+  },
+  "home_life.s1_keys_drawer": {
+    "text": "Anahtarlar çekmecede.",
+    "alt": ["Anahtarlar çekmecenin içinde."]
+  },
+  "home_life.s1_doorbell": {
+    "text": "Kapı zili çalıyor.",
+    "alt": ["Kapı çalıyor.", "Zil çalıyor."]
+  },
+  "home_life.s1_clean_kitchen": {
+    "text": "Mutfağı her gün temizlerim.",
+    "alt": ["Her gün mutfağı temizliyorum.", "Mutfağı her gün temizliyorum."]
+  },
+  "home_life.s1_heating": {
+    "text": "Kalorifer çalışmıyor.",
+    "alt": ["Isıtma çalışmıyor.", "Kalorifer bozuk."]
+  },
+  "home_life.s2_move_apartment": {
+    "text": "Gelecek ay daha büyük bir daireye taşınacağız.",
+    "alt": [
+      "Önümüzdeki ay daha büyük bir daireye taşınacağız.",
+      "Gelecek ay daha büyük bir eve taşınıyoruz."
+    ]
+  },
+  "home_life.s2_towels_shelf": {
+    "text": "Duşun yanındaki rafta temiz havlular var.",
+    "alt": ["Duşun yanındaki rafta temiz havlu var."]
+  },
+  "home_life.s2_rent_balcony": {
+    "text": "Kira yüksek ama dairenin büyük bir balkonu var.",
+    "alt": ["Kirası yüksek ama dairenin büyük bir balkonu var."]
+  },
+  "home_life.s2_tidy_room": {
+    "text": "Lütfen büyükannen gelmeden önce odanı topla.",
+    "alt": [
+      "Lütfen anneannen gelmeden önce odanı topla.",
+      "Lütfen babaannen gelmeden önce odanı topla.",
+      "Büyükannen gelmeden önce lütfen odanı topla."
+    ]
+  },
+  "home_life.s2_elevator_broken": {
+    "text": "Asansör bozuk, bu yüzden merdivenleri kullanmak zorundayız.",
+    "alt": ["Asansör bozuk, o yüzden merdivenden çıkmak zorundayız."]
+  },
+  "home_life.s2_iron_shirt": {
+    "text": "Yarınki toplantı için beyaz gömleğimi ütüleyebilir misin?",
+    "alt": ["Yarınki toplantı için beyaz gömleğimi ütüler misin?"]
+  },
+  "home_life.s2_box_books": {
+    "text": "Lütfen bütün eski kitapları bu büyük kutuya koy.",
+    "alt": ["Lütfen tüm eski kitapları bu büyük kutuya koyun."]
+  },
+  "home_life.s2_washing_machine": {
+    "text": "Çamaşır makinesi çalışmaya başlayınca garip bir ses çıkarıyor.",
+    "alt": ["Çamaşır makinesi çalışmaya başladığında tuhaf bir ses çıkarıyor."]
+  },
+  "home_life.s3_landlord": {
+    "text": "Kalorifer için ev sahibini üç kez aradım ama henüz kimse tamir etmeye gelmedi.",
+    "alt": ["Kalorifer yüzünden ev sahibini üç kere aradım ama hâlâ kimse tamire gelmedi."]
+  },
+  "home_life.s3_vacuum": {
+    "text": "Her cumartesi evi birlikte temizleriz ve salonda elektrik süpürgesini hep ben kullanırım.",
+    "alt": ["Her cumartesi evi beraber temizliyoruz, salonu da hep ben süpürüyorum."]
+  },
+  "home_life.s3_moving_boxes": {
+    "text": "Gelecek hafta taşınıyoruz, bu yüzden salon kutularla dolu ve hiçbir şey bulamıyoruz.",
+    "alt": ["Haftaya taşınıyoruz, o yüzden salon kutu dolu ve hiçbir şeyi bulamıyoruz."]
+  },
+  "home_life.s3_neighbors": {
+    "text": "Yeni komşularımız çok iyi ama köpekleri bütün gece havlıyor ve uyuyamıyoruz.",
+    "alt": ["Yeni komşularımız çok hoş insanlar ama köpekleri bütün gece havlıyor, uyuyamıyoruz."]
+  },
+  "home_life.s3_bathtub": {
+    "text": "Banyomuz küçük, bu yüzden eski küveti söküp büyük bir duş koydurduk.",
+    "alt": ["Banyomuz küçük olduğu için eski küveti çıkarıp yerine büyük bir duş koyduk."]
+  },
+  "home_life.s3_no_furniture": {
+    "text": "Daireyi aldığımızda hiç mobilya yoktu, yalnızca bir buzdolabı, bir fırın ve bir bulaşık makinesi vardı.",
+    "alt": [
+      "Daireyi satın aldığımızda hiç eşya yoktu, sadece buzdolabı, fırın ve bulaşık makinesi vardı."
+    ]
+  },
+  "home_life.s3_rainy_weekend": {
+    "text": "Bu hafta sonu yine yağmur yağarsa evde kalıp film izleyecek ve pizza sipariş edeceğiz.",
+    "alt": ["Bu hafta sonu yine yağmur yağarsa evde kalacağız, film izleyip pizza söyleyeceğiz."]
+  },
+  "home_life.s3_curtains": {
+    "text": "Yatak odası için yeni perdeler ve bir halı almak istiyorum, çünkü eskileri çok kirli.",
+    "alt": ["Yatak odasına yeni perde ve halı almak istiyorum, eskiler çok kirli."]
+  },
+  "people_feelings.s1_proud_son": {
+    "text": "Oğlumla gurur duyuyorum.",
+    "alt": ["Oğlumla gururluyum."]
+  },
+  "people_feelings.s1_cousin_shy": {
+    "text": "Kuzenim çok utangaç."
+  },
+  "people_feelings.s2_aunt_generous": {
+    "text": "Teyzem her zaman komşularına yardım eden cömert bir kadındır.",
+    "alt": ["Teyzem komşularına her zaman yardım eden cömert bir kadın."]
+  },
+  "people_feelings.s2_disappointed_results": {
+    "text": "Sınav sonuçları pek iyi olmadığı için hayal kırıklığına uğradı."
+  },
+  "people_feelings.s2_patient_children": {
+    "text": "Küçük çocuklarla çalışırken çok sabırlı olmalısın."
+  },
+  "people_feelings.s2_relatives_holiday": {
+    "text": "Bayramda bütün akrabalarımız büyükannemin evine gelir.",
+    "alt": ["Tatilde bütün akrabalarımız büyükannemin evine gelir."]
+  },
+  "people_feelings.s2_nephew_curious": {
+    "text": "Küçük yeğenim her şeyi merak ediyor ve çok soru soruyor."
+  },
+  "people_feelings.s2_embarrassed_name": {
+    "text": "Yeni iş arkadaşımın adını unutunca mahcup oldum.",
+    "alt": ["Yeni iş arkadaşımın adını unuttuğumda utandım."]
+  },
+  "people_feelings.s2_jealous_brother": {
+    "text": "Ağabeyinin başarısını biraz kıskanıyor."
+  },
+  "people_feelings.s2_polite_guests": {
+    "text": "Misafirlerimiz çok kibardı ve akşam yemeği için bize teşekkür etti."
+  },
+  "people_feelings.s3_confident_interview": {
+    "text": "Görüşmeden önce çok gergindim ama ilk birkaç sorudan sonra kendimi çok daha özgüvenli hissettim.",
+    "alt": [
+      "Mülakattan önce çok gergindim ama ilk birkaç sorudan sonra kendime çok daha fazla güvendim.",
+      "Görüşmeden önce çok gergindim ama ilk birkaç sorudan sonra kendimden çok daha emin oldum."
+    ]
+  },
+  "people_feelings.s3_selfish_share": {
+    "text": "Erkek kardeşim biraz bencil olabiliyor, çünkü eşyalarını ailede hiç kimseyle paylaşmıyor."
+  },
+  "people_feelings.s3_hard_working_promotion": {
+    "text": "En çalışkan çalışan sonunda hak ettiği terfiyi alınca ofisteki herkes mutlu oldu."
+  },
+  "people_feelings.s3_relaxed_vacation": {
+    "text": "Ailemle plajda geçen iki haftanın ardından işe rahatlamış ve enerji dolu döndüm."
+  },
+  "people_feelings.s3_lonely_city": {
+    "text": "Şehre ilk taşındığımızda annem kendini yalnız hissetti, çünkü komşularımızın hiçbirini tanımıyordu."
+  },
+  "people_feelings.s3_honest_friend": {
+    "text": "İyi bir arkadaş, gerçeği duymak kolay olmasa bile sana karşı dürüst olan kişidir."
+  },
+  "people_feelings.s3_surprised_party": {
+    "text": "Eşim kapıyı açıp bütün arkadaşlarını elinde pastayla beklerken görünce çok şaşırdı."
+  },
+  "people_feelings.s3_calm_angry": {
+    "text": "Babam her zaman sakin kalır ama biri anneme kaba davrandığında çok kızar."
+  },
+  "describing_2.s1_bag_heavy": {
+    "text": "Bu çanta çok ağır."
+  },
+  "describing_2.s1_bus_crowded": {
+    "text": "Otobüs her zaman kalabalık."
+  },
+  "describing_2.s1_lake_deep": {
+    "text": "Göl çok derin mi?"
+  },
+  "describing_2.s1_sofa_comfortable": {
+    "text": "Bu kanepe gerçekten rahat."
+  },
+  "describing_2.s1_museum_free": {
+    "text": "Müze bugün ücretsiz."
+  },
+  "describing_2.s1_street_dark": {
+    "text": "Sokak karanlık ve sessiz."
+  },
+  "describing_2.s2_road_dangerous": {
+    "text": "Bu yol dar ve tehlikeli, o yüzden lütfen yavaş sür.",
+    "alt": ["Bu yol dar ve tehlikeli, lütfen yavaş sür."]
+  },
+  "describing_2.s2_fridge_empty": {
+    "text": "Buzdolabı neredeyse boş, bu yüzden alışverişe gitmemiz gerekiyor.",
+    "alt": [
+      "Buzdolabı neredeyse boş, alışverişe gitmemiz gerekiyor.",
+      "Buzdolabı neredeyse boş, bu yüzden alışverişe gitmeliyiz."
+    ]
+  },
+  "describing_2.s2_same_different": {
+    "text": "Aynı telefonu aldık ama farklı renklerde."
+  },
+  "describing_2.s2_room_bright": {
+    "text": "Yeni dairemizin aydınlık ve geniş bir oturma odası var."
+  },
+  "describing_2.s2_bread_fresh": {
+    "text": "Bu fırının ekmeği her zaman taze ve yumuşaktır."
+  },
+  "describing_2.s2_weather_terrible": {
+    "text": "Hava berbattı ve bütün kıyafetlerimiz ıslandı."
+  },
+  "describing_2.s2_simple_recipe": {
+    "text": "Bu tarif çok basit ama sonucu çok lezzetli."
+  },
+  "describing_2.s2_famous_singer": {
+    "text": "Şarkıcı artık ünlü ama çocukken fakirdi."
+  },
+  "describing_2.s3_quiet_hotel": {
+    "text": "Sessiz bir otel istedik ama odamız gürültülü bir caddenin yanındaydı ve uyuyamadık."
+  },
+  "describing_2.s3_important_safe": {
+    "text": "Farklı bir ülkeye seyahat ederken pasaportunu güvenli bir yerde tutman önemlidir."
+  },
+  "describing_2.s3_boring_film": {
+    "text": "Herkes filmin ilginç olduğunu söyledi ama ben o kadar sıkıcı buldum ki yirmi dakika sonra uyuyakaldım."
+  },
+  "describing_2.s3_enough_chairs": {
+    "text": "Herkes için yeterli sandalyemiz yok, bu yüzden bazı misafirler yere oturmak zorunda kalacak."
+  },
+  "describing_2.s3_possible_fast": {
+    "text": "Bu ağır kutuyu daha hızlı bir hizmetle göndermek mümkün mü, yoksa iki hafta mı sürer?"
+  },
+  "describing_2.s3_rich_neighborhood": {
+    "text": "Bu mahalledeki evler çok güzel ama burada yalnızca zengin insanlar yaşayabilir.",
+    "alt": ["Bu mahalledeki evler çok güzel ama burada oturmaya ancak zenginlerin gücü yeter."]
+  },
+  "describing_2.s3_dry_cake": {
+    "text": "Pasta vitrinde hoş görünüyordu ama benim için çok kuru ve fazlasıyla tatlıydı."
+  },
+  "describing_2.s3_strong_light": {
+    "text": "Dedem eskisi kadar güçlü değil, bu yüzden artık sadece hafif çantalar taşıyabiliyor."
+  },
+  "actions_2.s1_miss_you": {
+    "text": "Seni çok özledim.",
+    "alt": ["Seni çok özlüyorum."]
+  },
+  "actions_2.s1_lost_keys": {
+    "text": "Anahtarlarımı yine kaybettim.",
+    "alt": ["Anahtarlarımı gene kaybettim."]
+  },
+  "actions_2.s1_please_repeat": {
+    "text": "Bunu tekrar eder misiniz, lütfen?",
+    "alt": ["Lütfen bunu tekrarlar mısınız?"]
+  },
+  "actions_2.s1_hold_hand": {
+    "text": "Lütfen elimi tut.",
+    "alt": ["Elimi tut, lütfen."]
+  },
+  "actions_2.s1_cat_hides": {
+    "text": "Kedi yatağın altına saklanıyor.",
+    "alt": ["Kedi yatağın altına saklanır."]
+  },
+  "actions_2.s1_lie_down": {
+    "text": "Uzanmam lazım.",
+    "alt": ["Uzanmam gerekiyor."]
+  },
+  "actions_2.s1_choose_one": {
+    "text": "Beğendiğini seç.",
+    "alt": ["Hangisini beğendiysen onu seç."]
+  },
+  "actions_2.s2_moving_house": {
+    "text": "Ay sonunda yeni bir daireye taşınıyoruz."
+  },
+  "actions_2.s2_climb_mountain": {
+    "text": "Geçen yaz bir dağa tırmandık ve çadırda uyuduk."
+  },
+  "actions_2.s2_share_room": {
+    "text": "Çocukken kız kardeşimle aynı odayı paylaşırdım.",
+    "alt": ["Çocukken odamı kız kardeşimle paylaşırdım."]
+  },
+  "actions_2.s2_follow_me": {
+    "text": "Beni takip edin, size istasyonun yolunu göstereyim.",
+    "alt": ["Peşimden gelin, size istasyonun yolunu göstereceğim."]
+  },
+  "actions_2.s2_practice_english": {
+    "text": "Her gün yirmi dakika İngilizce pratik yapmaya çalışıyorum."
+  },
+  "actions_2.s2_cut_bread": {
+    "text": "Ben salatayı yaparken ekmeği keser misin?"
+  },
+  "actions_2.s2_fly_istanbul": {
+    "text": "İstanbul'a uçakla gideceğiz, sonra kıyıya otobüsle geçeceğiz.",
+    "alt": ["İstanbul'a uçacağız ve sonra kıyıya otobüsle gideceğiz."]
+  },
+  "actions_2.s2_relax_weekend": {
+    "text": "Hafta sonları evde dinlenmeyi ve kitap okumayı severim.",
+    "alt": ["Hafta sonları evde dinlenip kitap okumayı severim."]
+  },
+  "actions_2.s3_jump_water": {
+    "text": "Çocuklar soğuk suya atladılar ama sadece birkaç saniye sonra tekrar çıktılar."
+  },
+  "actions_2.s3_remember_name": {
+    "text": "Yüzünü çok iyi hatırlıyorum ama geçen hafta tanışmamıza rağmen adını hatırlayamıyorum."
+  },
+  "actions_2.s3_enter_building": {
+    "text": "Kart olmadan binaya giremezsin, o yüzden lütfen beni ön kapıda bekle.",
+    "alt": ["Kartsız binaya giremezsiniz, lütfen beni ön kapıda bekleyin."]
+  },
+  "actions_2.s3_send_receive": {
+    "text": "Belgeleri pazartesi gönderdim ama ofis hâlâ hiçbir şey almadıklarını söylüyor."
+  },
+  "actions_2.s3_try_change": {
+    "text": "Bu telefon işinize yaramazsa iki hafta içinde başka bir telefonla değiştirebilirsiniz."
+  },
+  "actions_2.s3_believe_hope": {
+    "text": "Şansa pek inanmam ama yarınki görüşmede her şeyin iyi geçeceğini umuyorum."
+  },
+  "actions_2.s3_carry_bags": {
+    "text": "Bu çantaları arabaya taşımama yardım eder misin, tek başıma taşıyamayacağım kadar ağırlar."
+  },
+  "actions_2.s3_wake_up_early": {
+    "text": "Genellikle altıda uyanırım ama kalkmadan önce on dakika yatakta kalırım."
+  },
+  "actions_3.s1_what_happened": {
+    "text": "Dün gece ne oldu?"
+  },
+  "actions_3.s1_prefer_tea": {
+    "text": "Çayı kahveye tercih ederim.",
+    "alt": ["Çayı kahveye tercih ediyorum."]
+  },
+  "actions_3.s1_promise_call": {
+    "text": "Arayacağıma söz veriyorum.",
+    "alt": ["Söz veriyorum, arayacağım."]
+  },
+  "actions_3.s1_join_us": {
+    "text": "Bize katılmak ister misin?",
+    "alt": ["Bize katılmak ister misiniz?"]
+  },
+  "actions_3.s1_baby_laughed": {
+    "text": "Bebek köpeğe güldü."
+  },
+  "actions_3.s1_fix_bike": {
+    "text": "Bisikletimi tamir edebilir misin?",
+    "alt": ["Bisikletimi tamir eder misin?"]
+  },
+  "actions_3.s2_accept_job": {
+    "text": "Maaş çok daha iyi olduğu için işi kabul etti."
+  },
+  "actions_3.s2_refuse_invitation": {
+    "text": "O akşam çalışması gerektiği için davetimizi reddetti."
+  },
+  "actions_3.s2_allow_phones": {
+    "text": "Öğretmenimiz derslerde sınıfta telefona izin vermiyor."
+  },
+  "actions_3.s2_compare_prices": {
+    "text": "Yeni bir telefon almadan önce her zaman internette fiyatları karşılaştırırız."
+  },
+  "actions_3.s2_describe_man": {
+    "text": "Çantanızı alan adamı tarif edebilir misiniz?",
+    "alt": ["Çantanı alan adamı tarif edebilir misin?"]
+  },
+  "actions_3.s2_discuss_plan": {
+    "text": "Bu akşam yemekte gezi planını konuşalım.",
+    "alt": ["Bu akşam yemekte gezinin planını tartışalım."]
+  },
+  "actions_3.s2_collect_stamps": {
+    "text": "Dedem gençliğinden beri birçok ülkeden pul biriktiriyor.",
+    "alt": ["Dedem gençliğinden beri birçok ülkenin pulunu topluyor."]
+  },
+  "actions_3.s2_dance_wedding": {
+    "text": "Kuzenimin düğününde herkes gece yarısına kadar dans edip şarkı söyledi."
+  },
+  "actions_3.s3_improve_english": {
+    "text": "İngilizceni geliştirmek istiyorsan her gün İngilizce bir şeyler okumalı ve dinlemelisin."
+  },
+  "actions_3.s3_protect_skin": {
+    "text": "Yazın cildini güneşten korumak için şapka takmalı ve güneş kremi kullanmalısın."
+  },
+  "actions_3.s3_decide_stay": {
+    "text": "Ailemle uzun bir konuşmadan sonra memleketimde kalmaya ve yurt dışına taşınmamaya karar verdim."
+  },
+  "actions_3.s3_teach_cook": {
+    "text": "Ben on iki yaşındayken annem bana yemek yapmayı öğretti, şimdi bütün aileye akşam yemeğini ben hazırlıyorum.",
+    "alt": [
+      "On iki yaşımdayken annem bana yemek yapmayı öğretti, şimdi bütün ailenin akşam yemeğini ben hazırlıyorum."
+    ]
+  },
+  "actions_3.s3_window_broke": {
+    "text": "Biri top atıp mutfak penceremizi kırdı ama kimse bize ne olduğunu anlatmak istemedi."
+  },
+  "actions_3.s3_win_prize": {
+    "text": "Kazanmayı beklemiyordu, bu yüzden sahnede adını okuduklarında ağlamaya başladı."
+  },
+  "actions_3.s3_meet_invite": {
+    "text": "Dün yeni komşularımızla tanıştık ve onları pazar öğleden sonra kahve içmeye evimize davet ettik."
+  },
+  "actions_3.s3_earn_build": {
+    "text": "On yılda anne babası için deniz kenarında küçük bir ev yaptıracak kadar para kazandı."
+  },
+  "leisure_world.s1_love_song": {
+    "text": "Bu şarkıyı çok seviyorum.",
+    "alt": ["Bu şarkıya bayılıyorum."]
+  },
+  "leisure_world.s1_sky_clear": {
+    "text": "Bu gece gökyüzü açık."
+  },
+  "leisure_world.s1_hobby": {
+    "text": "En sevdiğin hobi ne?",
+    "alt": ["En sevdiğiniz hobi nedir?"]
+  },
+  "leisure_world.s1_storm_coming": {
+    "text": "Büyük bir fırtına geliyor."
+  },
+  "leisure_world.s1_hiking_sunday": {
+    "text": "Her pazar doğa yürüyüşüne gideriz.",
+    "alt": ["Her pazar doğa yürüyüşü yapıyoruz."]
+  },
+  "leisure_world.s2_concert_tickets": {
+    "text": "Cumartesi gecesi konser için iki bilet aldık.",
+    "alt": ["Cumartesi akşamki konser için iki bilet aldık."]
+  },
+  "leisure_world.s2_island_ferry": {
+    "text": "Kışın adaya sadece tekneyle gidilebilir.",
+    "alt": ["Kışın adaya yalnızca tekneyle ulaşabilirsin."]
+  },
+  "leisure_world.s2_fog_flight": {
+    "text": "Bu sabah yoğun sis yüzünden uçağımız rötar yaptı.",
+    "alt": ["Bu sabahki yoğun sis yüzünden uçuşumuz gecikti."]
+  },
+  "leisure_world.s2_temperature_degrees": {
+    "text": "Bu gece sıcaklık sıfırın altında beş dereceye düşecek.",
+    "alt": ["Sıcaklık bu gece eksi beş dereceye düşecek."]
+  },
+  "leisure_world.s2_exhibition_paintings": {
+    "text": "Müzede eski tablolardan oluşan yeni bir sergi var.",
+    "alt": ["Müzede eski tabloların yer aldığı yeni bir sergi var."]
+  },
+  "leisure_world.s2_picnic_lake": {
+    "text": "Pazar günü göl kenarında piknik yaptık."
+  },
+  "leisure_world.s2_newspaper_morning": {
+    "text": "Babam her sabah çayıyla birlikte gazete okur.",
+    "alt": ["Babam her sabah çayını içerken gazete okur."]
+  },
+  "leisure_world.s2_horses_village": {
+    "text": "Amcamın köyde üç atı ve birkaç koyunu var."
+  },
+  "leisure_world.s3_football_match": {
+    "text": "Eşim televizyondaki her futbol maçını izler ama hayatında hiç spor yapmamıştır."
+  },
+  "leisure_world.s3_forest_river": {
+    "text": "Sonunda soğuk sulu küçük bir nehre ulaşana kadar üç saat boyunca ormanda yürüdük."
+  },
+  "leisure_world.s3_environment": {
+    "text": "Çevreyi korumak istiyorsak daha az plastik kullanmalı, otobüs ya da trenle seyahat etmeliyiz."
+  },
+  "leisure_world.s3_birthday_party": {
+    "text": "Kırkıncı doğum günü için arkadaşları plaj kenarındaki küçük bir restoranda sürpriz parti düzenledi."
+  },
+  "leisure_world.s3_north_south": {
+    "text": "Ülkenin kuzeyi soğuk ve yağmurlu, güneyi ise neredeyse bütün yıl sıcak ve güneşli."
+  },
+  "leisure_world.s3_magazine_story": {
+    "text": "Bir dergide bisikletle dünyayı dolaşan bir kadın hakkında ilginç bir hikâye okudum."
+  },
+  "leisure_world.s3_theater_weekend": {
+    "text": "Hafta sonu tiyatroya gitmek istedik ama biletlerin hepsi çoktan tükenmişti."
+  },
+  "leisure_world.s3_moon_east": {
+    "text": "Akşam balkonda oturup ayın doğudaki tepelerin üzerinde yavaşça yükselişini izledik."
+  },
+  "time_links.s1_just_arrived": {
+    "text": "Eve az önce geldim.",
+    "alt": ["Eve yeni geldim."]
+  },
+  "time_links.s1_finally_home": {
+    "text": "Sonunda evdeyiz.",
+    "alt": ["Nihayet evdeyiz."]
+  },
+  "time_links.s2_ever_been": {
+    "text": "Hiç başka bir ülkede konsere gittin mi?",
+    "alt": ["Hiç başka bir ülkede bir konsere gittiniz mi?"]
+  },
+  "time_links.s2_since_2020": {
+    "text": "2020 yazından beri bu dairede oturuyoruz.",
+    "alt": ["2020 yazından beri bu dairede yaşıyoruz."]
+  },
+  "time_links.s2_while_cooking": {
+    "text": "Mutfakta akşam yemeği pişirirken telefonum çaldı."
+  },
+  "time_links.s2_recently_tired": {
+    "text": "Son zamanlarda kendimi çok yorgun hissediyorum, bu yüzden doktora gideceğim.",
+    "alt": ["Son zamanlarda çok yorgun hissediyorum, bu yüzden doktora gideceğim."]
+  },
+  "time_links.s2_suddenly_lights": {
+    "text": "Film izliyorduk ki birden bütün ışıklar söndü.",
+    "alt": ["Film izlerken aniden bütün ışıklar söndü."]
+  },
+  "time_links.s2_rarely_eat_out": {
+    "text": "Restoranlar artık çok pahalı olduğu için nadiren dışarıda yemek yiyoruz."
+  },
+  "time_links.s2_at_least_water": {
+    "text": "Her gün en az iki litre su içmelisin.",
+    "alt": ["Her gün en azından iki litre su içmelisin."]
+  },
+  "time_links.s2_probably_rain": {
+    "text": "Yarın muhtemelen yağmur yağacak, o yüzden şemsiyeni yanına al.",
+    "alt": [
+      "Yarın muhtemelen yağmur yağacak, şemsiyeni yanına al.",
+      "Yarın büyük ihtimalle yağmur yağacak, o yüzden şemsiyeni yanına al."
+    ]
+  },
+  "time_links.s3_although_tired": {
+    "text": "İşten sonra çok yorgun olmama rağmen kız kardeşime söz verdiğim için onunla spor salonuna gittim."
+  },
+  "time_links.s3_however_expensive": {
+    "text": "Otel temizdi ve plaja yakındı. Ancak odalar küçüktü ve kahvaltı çok pahalıydı."
+  },
+  "time_links.s3_especially_winter": {
+    "text": "Deniz kenarında yürümeyi çok severim, özellikle de plajların boş olduğu ve her yerin sessiz olduğu kışın."
+  },
+  "time_links.s3_still_not_finished": {
+    "text": "Yeni köprüyü üç yıl önce yapmaya başladılar ama hâlâ bitirmediler."
+  },
+  "time_links.s3_together_weekend": {
+    "text": "Hafta sonunu genellikle birlikte geçiririz ama bu cumartesi eşim akşam geç saate kadar çalışmak zorunda."
+  },
+  "time_links.s3_if_without": {
+    "text": "Bu havada evden montsuz çıkarsan neredeyse kesin yine hasta olursun."
+  },
+  "time_links.s3_also_speaks": {
+    "text": "Yeni iş arkadaşım çok iyi İngilizce konuşuyor, annesi İzmirli olduğu için biraz Türkçe de anlıyor."
+  },
+  "time_links.s3_often_between": {
+    "text": "Ofisin kapalı ve trenlerin daha ucuz olduğu Noel ile yılbaşı arasında sık sık annemle babamı ziyaret ederim.",
+    "alt": [
+      "Noel ile yılbaşı arasında, ofis kapalıyken ve trenler daha ucuzken sık sık ailemi ziyaret ederim."
+    ]
+  },
+  "idioms.s1_call_it_a_day": {
+    "text": "Bugünlük paydos edelim.",
+    "alt": ["Bugünlük bu kadar yeter."]
+  },
+  "idioms.s1_piece_of_cake": {
+    "text": "Sınav çocuk oyuncağıydı."
+  },
+  "idioms.s1_take_your_time": {
+    "text": "Acele etme, sorun değil."
+  },
+  "idioms.s1_up_to_you": {
+    "text": "Pizza mı makarna mı? Sana kalmış."
+  },
+  "idioms.s1_in_a_hurry": {
+    "text": "Kusura bakma, acelem var.",
+    "alt": ["Özür dilerim, acelem var."]
+  },
+  "idioms.s1_under_weather": {
+    "text": "Bugün biraz keyifsizim.",
+    "alt": ["Bugün kendimi pek iyi hissetmiyorum."]
+  },
+  "idioms.s1_no_way": {
+    "text": "Hayatta olmaz, bu imkânsız!",
+    "alt": ["Olamaz, bu imkânsız!"]
+  },
+  "idioms.s1_knock_on_wood": {
+    "text": "Her şey yolunda, şeytan kulağına kurşun.",
+    "alt": ["Her şey yolunda, tahtaya vurayım."]
+  },
+  "idioms.s2_cats_and_dogs": {
+    "text": "Şemsiye al, çünkü dışarıda bardaktan boşanırcasına yağmur yağıyor."
+  },
+  "idioms.s2_kill_time": {
+    "text": "Trenimiz gecikti, biz de küçük bir kafede vakit öldürdük."
+  },
+  "idioms.s2_take_a_break": {
+    "text": "Saatlerdir çalışıyoruz, hadi biraz mola verelim."
+  },
+  "idioms.s2_keep_in_touch": {
+    "text": "Seni görmek harikaydı, iletişimi koparmayalım.",
+    "alt": ["Seni görmek harikaydı, haberleşelim."]
+  },
+  "idioms.s2_by_the_way": {
+    "text": "Bu arada, dün anneni geri aradın mı?",
+    "alt": ["Bu arada, dün annene geri döndün mü?"]
+  },
+  "idioms.s2_same_boat": {
+    "text": "Sınavı dert etme, hepimiz aynı gemideyiz."
+  },
+  "idioms.s2_hit_the_road": {
+    "text": "Geç oluyor, artık yola koyulsak iyi olur.",
+    "alt": ["Geç oluyor, artık yola çıkmalıyız."]
+  },
+  "idioms.s2_make_up_mind": {
+    "text": "Mağaza kapanmadan kararını vermen gerekiyor."
+  },
+  "idioms.s3_lose_temper": {
+    "text": "Babamın pek tepesi atmaz ama biri yeni arabasına zarar verince çok kızdı."
+  },
+  "idioms.s3_blue_moon": {
+    "text": "Kuzenlerimiz ülkenin öbür ucunda yaşadığı için onları ancak kırk yılda bir görüyoruz."
+  },
+  "idioms.s3_break_the_ice": {
+    "text": "İlk toplantıda kimse tek kelime etmedi, bu yüzden müdürümüz buzları eritmek için komik bir hikâye anlattı."
+  },
+  "idioms.s3_keep_an_eye": {
+    "text": "Ben gidip bir kahve alırken bir dakika çantama göz kulak olur musun?"
+  },
+  "idioms.s3_better_late": {
+    "text": "Partiye iki saat geç geldi ama arkadaşlarının dediği gibi, geç olsun, güç olmasın."
+  },
+  "idioms.s3_feel_at_home": {
+    "text": "Ev sahiplerimiz o kadar cana yakın ve nazikti ki geldiğimiz andan itibaren kendimizi evimizde hissettik."
+  },
+  "idioms.s3_time_flies": {
+    "text": "Eğlenirken zaman su gibi akıyor, plajdaki iki haftamız da çok çabuk bitti."
+  },
+  "idioms.s3_practice_perfect": {
+    "text": "İlk pastalarım berbattı ama her hafta sonu bir tane yaptım, gerçekten de pratik yapan ustalaşıyor."
+  },
+  "restaurant_2.s1_chicken_undercooked": {
+    "text": "Bu tavuk yeterince pişmemiş.",
+    "alt": ["Bu tavuk iyi pişmemiş.", "Bu tavuk çiğ kalmış."]
+  },
+  "restaurant_2.s1_bread_stale": {
+    "text": "Maalesef ekmek bayat.",
+    "alt": ["Korkarım ekmek bayat."]
+  },
+  "restaurant_2.s1_split_bill": {
+    "text": "Hesabı bölüşebilir miyiz?",
+    "alt": ["Hesabı bölebilir miyiz?"]
+  },
+  "restaurant_2.s1_tap_water": {
+    "text": "Musluk suyu güvenli mi?",
+    "alt": ["Musluk suyu içilebilir mi?"]
+  },
+  "restaurant_2.s1_wrong_order": {
+    "text": "Bu benim siparişim değil."
+  },
+  "restaurant_2.s1_waiting_hour": {
+    "text": "Bir saattir bekliyoruz."
+  },
+  "restaurant_2.s1_soup_cold": {
+    "text": "Çorbam buz gibi olmuş.",
+    "alt": ["Çorbam tamamen soğumuş."]
+  },
+  "restaurant_2.s1_leftovers_home": {
+    "text": "Artan yemeği eve götürebilir miyim?",
+    "alt": ["Artanları eve götürebilir miyim?"]
+  },
+  "idioms_2.s1_spill_beans": {
+    "text": "Hadi, baklayı ağzından çıkar!"
+  },
+  "idioms_2.s1_ball_court": {
+    "text": "Artık top sende.",
+    "alt": ["Top artık sende."]
+  },
+  "idioms_2.s1_pulling_leg": {
+    "text": "Rahat ol, sadece seni işletiyorum.",
+    "alt": ["Sakin ol, sadece seni işletiyorum."]
+  },
+  "idioms_2.s1_speak_devil": {
+    "text": "İti an çomağı hazırla, işte geldi!"
+  },
+  "idioms_2.s1_cloud_nine": {
+    "text": "Havalara uçuyor.",
+    "alt": ["Sevinçten havalara uçuyor."]
+  },
+  "idioms_2.s1_when_pigs_fly": {
+    "text": "Tabii, balık kavağa çıkınca!",
+    "alt": ["Elbette, balık kavağa çıkınca!"]
+  },
+  "idioms_2.s1_hit_the_nail": {
+    "text": "Tam üstüne bastın.",
+    "alt": ["Taşı gediğine koydun."]
+  },
+  "idioms_2.s1_full_plate": {
+    "text": "Başımı kaşıyacak vaktim yok."
+  },
+  "idioms_2.s2_middle_nowhere": {
+    "text": "Gece geç saatte arabamız kuş uçmaz kervan geçmez bir yerde bozuldu."
+  },
+  "idioms_2.s2_last_straw": {
+    "text": "Yine geç kalması patronu için bardağı taşıran son damla oldu."
+  },
+  "idioms_2.s2_see_eye_to_eye": {
+    "text": "Ağabeyimle siyaset konusunda pek aynı telden çalmayız.",
+    "alt": ["Kardeşimle siyasette nadiren aynı fikirdeyiz."]
+  },
+  "idioms_2.s2_beat_bush": {
+    "text": "Lütfen lafı dolandırmayı bırak ve bana ne olduğunu anlat."
+  },
+  "idioms_2.s2_drop_ocean": {
+    "text": "Topladığımız para devede kulak.",
+    "alt": ["Topladığımız para sadece devede kulak kalıyor."]
+  },
+  "idioms_2.s2_midnight_oil": {
+    "text": "Final sınavlarından önce haftalarca geceyi gündüze kattı.",
+    "alt": ["Final sınavlarından önce haftalarca geceyi gündüze katarak çalıştı."]
+  },
+  "idioms_2.s2_cut_corners": {
+    "text": "Şimdi işi baştan savma yaparsan sonra sorun yaşarsın."
+  },
+  "idioms_2.s2_bury_hatchet": {
+    "text": "Yıllarca konuşmadıktan sonra iki kız kardeş sonunda baltayı gömdü.",
+    "alt": ["İki kız kardeş yıllar süren küslüğün ardından sonunda barıştı."]
+  },
+  "idioms_2.s3_out_of_hand": {
+    "text": "Küçük dairemize yüzden fazla kişi gelince doğum günü partisi çığırından çıktı."
+  },
+  "idioms_2.s3_blessing_disguise": {
+    "text": "O işi kaybetmem aslında hayırlı oldu, çünkü kendi işimi kurma cesaretini bana o verdi.",
+    "alt": ["Her işte bir hayır vardır, o işi kaybetmek bana kendi işimi kurma cesareti verdi."]
+  },
+  "idioms_2.s3_bite_off_more": {
+    "text": "Aynı anda üç büyük projeyi yönetmeyi kabul ederek boyundan büyük işe kalkıştı."
+  },
+  "idioms_2.s3_sleeping_dogs": {
+    "text": "Amcama eski aile kavgasını sormak istedim ama annem uyuyan yılanın kuyruğuna basmamamı söyledi."
+  },
+  "idioms_2.s3_count_chickens": {
+    "text": "Şirket henüz sözleşmeyi imzalamadı, o yüzden dereyi görmeden paçaları sıvama."
+  },
+  "idioms_2.s3_tip_iceberg": {
+    "text": "Raporda gördüğün sorunlar buzdağının sadece görünen yüzü, gerçek durum çok daha kötü."
+  },
+  "idioms_2.s3_two_heads": {
+    "text": "Bu soruna birlikte bakalım, çünkü akıl akıldan üstündür ve bugün bir çözüme ihtiyacımız var."
+  },
+  "idioms_2.s3_actions_speak": {
+    "text": "Belediye başkanı her yıl yeni bir park yapacağına söz verdi ama lafla peynir gemisi yürümüyor, hiçbir şey değişmedi."
+  },
+  "kid_greetings.s2_nice_meet": {
+    "text": "Memnun oldum, arkadaşım.",
+    "alt": [
+      "Tanıştığımıza memnun oldum, arkadaşım.",
+      "Seninle tanıştığıma memnun oldum, arkadaşım."
+    ]
+  },
+  "kid_greetings.s3_morning_names": {
+    "text": "Günaydın öğretmenim, benim adım Kerem ve bu da Nehir.",
+    "alt": [
+      "Günaydın öğretmenim, adım Kerem ve bu da Nehir.",
+      "Günaydın öğretmenim, benim adım Kerem, bu da Nehir.",
+      "Günaydın öğretmenim, adım Kerem, bu da Nehir."
+    ]
+  },
+  "kid_greetings.s3_hello_nice": {
+    "text": "Merhaba, ben Zeynep ve tanıştığımıza memnun oldum.",
+    "alt": [
+      "Merhaba, ben Zeynep, tanıştığımıza memnun oldum.",
+      "Merhaba, ben Zeynep ve seninle tanıştığıma memnun oldum.",
+      "Merhaba, ben Zeynep, memnun oldum."
+    ]
+  },
+  "kid_greetings.s3_sorry_late": {
+    "text": "Özür dilerim öğretmenim, bu sabah geç kaldım.",
+    "alt": [
+      "Özür dilerim öğretmenim, bu sabah geciktim.",
+      "Kusura bakmayın öğretmenim, bu sabah geç kaldım."
+    ]
+  },
+  "kid_greetings.s3_good_night": {
+    "text": "İyi geceler anne, baba, sabah görüşürüz.",
+    "alt": [
+      "İyi geceler anneciğim, babacığım, sabah görüşürüz.",
+      "İyi geceler anne baba, sabah görüşürüz.",
+      "İyi geceler baba, anne, sabah görüşürüz.",
+      "İyi geceler anne ve baba, sabah görüşürüz."
+    ]
+  },
+  "kid_greetings.s3_thanks_help": {
+    "text": "Yardımın için teşekkür ederim, sen iyi bir arkadaşsın.",
+    "alt": [
+      "Yardımın için teşekkürler, sen iyi bir arkadaşsın.",
+      "Yardımın için teşekkür ederim, iyi bir arkadaşsın.",
+      "Yardımın için teşekkürler, iyi bir arkadaşsın."
+    ]
+  },
+  "kid_greetings.s3_excuse_door": {
+    "text": "Affedersiniz, bizim için kapıyı açabilir misiniz lütfen?",
+    "alt": [
+      "Affedersiniz, lütfen bizim için kapıyı açar mısınız?",
+      "Affedersiniz, bize kapıyı açar mısınız lütfen?",
+      "Affedersin, bizim için kapıyı açabilir misin lütfen?"
+    ]
+  },
+  "kid_greetings.s3_welcome_home": {
+    "text": "Evimize hoş geldin, lütfen içeri gel ve otur.",
+    "alt": [
+      "Evimize hoş geldiniz, lütfen içeri gelin ve oturun.",
+      "Evimize hoş geldin, lütfen gel ve otur.",
+      "Evimize hoş geldin, içeri gel ve otur lütfen."
+    ]
+  },
+  "kid_greetings.s3_goodbye_school": {
+    "text": "Hoşça kalın arkadaşlar, yarın okulda görüşürüz.",
+    "alt": [
+      "Hoşça kalın arkadaşlarım, yarın okulda görüşürüz.",
+      "Hoşça kalın arkadaşlar, okulda yarın görüşürüz.",
+      "Hoşça kalın arkadaşlar, sizi yarın okulda göreceğim."
+    ]
+  },
+  "kid_colors_shapes.s1_sun_yellow": {
+    "text": "Güneş sarı.",
+    "alt": ["Güneş sarıdır."]
+  },
+  "kid_colors_shapes.s1_circle_red": {
+    "text": "Daire kırmızı.",
+    "alt": ["Daire kırmızıdır."]
+  },
+  "kid_colors_shapes.s1_heart_pink": {
+    "text": "Kalp pembe.",
+    "alt": ["Kalp pembedir."]
+  },
+  "kid_colors_shapes.s2_grass_sky": {
+    "text": "Çimen yeşil, gökyüzü mavi.",
+    "alt": [
+      "Çimenler yeşil, gökyüzü mavi.",
+      "Gökyüzü mavi, çimen yeşil.",
+      "Gökyüzü mavi, çimenler yeşil."
+    ]
+  },
+  "kid_colors_shapes.s2_draw_circle": {
+    "text": "Büyük kırmızı bir daire çizerim.",
+    "alt": [
+      "Büyük kırmızı bir daire çiziyorum.",
+      "Ben büyük kırmızı bir daire çizerim.",
+      "Kırmızı büyük bir daire çizerim.",
+      "Kocaman kırmızı bir daire çiziyorum."
+    ]
+  },
+  "kid_colors_shapes.s2_square_sides": {
+    "text": "Karenin dört köşesi ve dört kenarı var.",
+    "alt": [
+      "Karenin dört köşesi ve dört kenarı vardır.",
+      "Bir karenin dört köşesi ve dört kenarı vardır.",
+      "Karenin dört kenarı ve dört köşesi var."
+    ]
+  },
+  "kid_colors_shapes.s2_rainbow_seven": {
+    "text": "Gökkuşağında yedi renk vardır.",
+    "alt": ["Gökkuşağında yedi renk var.", "Bir gökkuşağında yedi renk vardır."]
+  },
+  "kid_colors_shapes.s2_gold_star": {
+    "text": "Defterimde altın rengi bir yıldız görüyorum.",
+    "alt": [
+      "Defterimde altın bir yıldız görüyorum.",
+      "Defterimde altın rengi bir yıldız görürüm.",
+      "Defterimin üstünde altın rengi bir yıldız görüyorum."
+    ]
+  },
+  "kid_colors_shapes.s2_blue_yellow": {
+    "text": "Mavi ve sarı birlikte yeşil yapar.",
+    "alt": [
+      "Mavi ile sarı birlikte yeşil yapar.",
+      "Sarı ve mavi birlikte yeşil yapar.",
+      "Mavi ve sarı karışınca yeşil olur.",
+      "Mavi ile sarı karışınca yeşil olur."
+    ]
+  },
+  "kid_colors_shapes.s2_pink_dress": {
+    "text": "Onun beyaz noktalı pembe bir elbisesi var.",
+    "alt": [
+      "Beyaz noktalı pembe bir elbisesi var.",
+      "Onun beyaz puantiyeli pembe bir elbisesi var.",
+      "Beyaz puantiyeli pembe bir elbisesi var."
+    ]
+  },
+  "kid_colors_shapes.s2_dark_blue_bike": {
+    "text": "Bisikletim koyu mavi, açık mavi değil.",
+    "alt": ["Benim bisikletim koyu mavi, açık mavi değil.", "Bisikletim lacivert, açık mavi değil."]
+  },
+  "kid_colors_shapes.s3_ball_box": {
+    "text": "Top bir küredir, kutu ise bir küptür.",
+    "alt": [
+      "Top bir küre, kutu da bir küp.",
+      "Top küredir, kutu ise küptür.",
+      "Top bir küredir ve kutu bir küptür.",
+      "Kutu bir küptür, top ise bir küredir."
+    ]
+  },
+  "kid_colors_shapes.s3_draw_house": {
+    "text": "Bir kare ve bir üçgenle bir ev çizerim.",
+    "alt": [
+      "Bir kare ve bir üçgenle bir ev çiziyorum.",
+      "Kare ve üçgenle bir ev çizerim.",
+      "Kare ve üçgenle bir ev çiziyorum.",
+      "Bir üçgen ve bir kareyle bir ev çizerim."
+    ]
+  },
+  "kid_colors_shapes.s3_traffic_light": {
+    "text": "Trafik ışığının üç rengi var: kırmızı, sarı ve yeşil.",
+    "alt": [
+      "Trafik ışığının üç rengi vardır: kırmızı, sarı ve yeşil.",
+      "Trafik ışığında üç renk var: kırmızı, sarı ve yeşil."
+    ]
+  },
+  "kid_colors_shapes.s3_silver_moon": {
+    "text": "Bu gece ay gümüş rengi bir hilale benziyor.",
+    "alt": [
+      "Ay bu gece gümüş rengi bir hilale benziyor.",
+      "Bu gece ay gümüş bir hilale benziyor.",
+      "Bu gece ay gümüş rengi bir hilal gibi görünüyor.",
+      "Bu gece ay gümüş bir hilal gibi görünüyor."
+    ]
+  },
+  "kid_colors_shapes.s3_favorite_color": {
+    "text": "En sevdiğim renk mor, ama kardeşim turuncuyu sever.",
+    "alt": [
+      "En sevdiğim renk mor ama erkek kardeşim turuncuyu sever.",
+      "En sevdiğim renk mor, ama kardeşim turuncuyu seviyor.",
+      "Benim en sevdiğim renk mor, ama kardeşim turuncuyu sever.",
+      "En sevdiğim renk mor, ama abim turuncuyu sever."
+    ]
+  },
+  "kid_colors_shapes.s3_arrows": {
+    "text": "Yeşil ok yukarıyı, kırmızı ok aşağıyı gösterir.",
+    "alt": [
+      "Yeşil ok yukarıyı gösterir, kırmızı ok aşağıyı gösterir.",
+      "Yeşil ok yukarıyı, kırmızı ok da aşağıyı gösteriyor.",
+      "Kırmızı ok aşağıyı, yeşil ok yukarıyı gösterir."
+    ]
+  },
+  "kid_colors_shapes.s3_pizza_slice": {
+    "text": "Pizza bir dairedir, bir dilim ise bir üçgendir.",
+    "alt": [
+      "Pizza bir daire, bir dilim de bir üçgen.",
+      "Pizza dairedir, dilim ise üçgendir.",
+      "Pizza bir dairedir ve bir dilim bir üçgendir."
+    ]
+  },
+  "kid_colors_shapes.s3_turkish_flag": {
+    "text": "Türk bayrağı kırmızıdır, üstünde beyaz bir hilal ve yıldız var.",
+    "alt": [
+      "Türk bayrağı kırmızı, üstünde beyaz bir ay yıldız var.",
+      "Türk bayrağı kırmızı, üzerinde beyaz bir hilal ve yıldız var.",
+      "Türk bayrağı beyaz ay yıldızlı ve kırmızıdır."
+    ]
+  },
+  "kid_numbers.s1_eight_years": {
+    "text": "Sekiz yaşındayım.",
+    "alt": ["Ben sekiz yaşındayım."]
+  },
+  "kid_numbers.s1_two_cats": {
+    "text": "İki kedim var.",
+    "alt": ["Benim iki kedim var.", "İki tane kedim var."]
+  },
+  "kid_numbers.s1_count_ten": {
+    "text": "Ona kadar say.",
+    "alt": ["Ona kadar sayın."]
+  },
+  "kid_numbers.s1_five_fingers": {
+    "text": "Elimde beş parmak var.",
+    "alt": ["Elimin beş parmağı var.", "Benim elimde beş parmak var."]
+  },
+  "kid_numbers.s1_one_plus_one": {
+    "text": "Bir artı bir iki eder.",
+    "alt": ["Bir artı bir ikidir.", "Bir artı bir eşittir iki."]
+  },
+  "kid_numbers.s1_three_apples": {
+    "text": "Üç elma, lütfen.",
+    "alt": ["Lütfen üç elma.", "Üç tane elma, lütfen."]
+  },
+  "kid_numbers.s1_how_many_books": {
+    "text": "Kaç kitap var?",
+    "alt": ["Kaç tane kitap var?"]
+  },
+  "kid_numbers.s1_i_am_first": {
+    "text": "Ben birinciyim!",
+    "alt": ["Birinciyim!", "İlk benim!"]
+  },
+  "kid_numbers.s2_three_plus_four": {
+    "text": "Üç artı dört yedi eder, sekiz değil.",
+    "alt": ["Üç artı dört eşittir yedi, sekiz değil.", "Üç artı dört yedidir, sekiz değil."]
+  },
+  "kid_numbers.s2_twenty_students": {
+    "text": "Sınıfımda yirmi öğrenci var.",
+    "alt": ["Benim sınıfımda yirmi öğrenci var.", "Sınıfımızda yirmi öğrenci var."]
+  },
+  "kid_numbers.s2_grandmother_seventy": {
+    "text": "Büyükannem yetmiş yaşında.",
+    "alt": ["Anneannem yetmiş yaşında.", "Babaannem yetmiş yaşında.", "Ninem yetmiş yaşında."]
+  },
+  "kid_numbers.s2_half_cake": {
+    "text": "Pastanın yarısını yerim.",
+    "alt": ["Pastanın yarısını yiyorum.", "Ben pastanın yarısını yerim."]
+  },
+  "kid_numbers.s2_count_hundred": {
+    "text": "Yüze kadar sayabilir misin?",
+    "alt": ["Yüze kadar sayabilir misiniz?", "Yüze kadar sayar mısın?"]
+  },
+  "kid_numbers.s2_third_grade": {
+    "text": "Erkek kardeşim üçüncü sınıfta.",
+    "alt": ["Kardeşim üçüncü sınıfta.", "Abim üçüncü sınıfta.", "Ağabeyim üçüncü sınıfta."]
+  },
+  "kid_numbers.s2_phone_zero": {
+    "text": "Telefon numaram sıfırla başlar.",
+    "alt": [
+      "Benim telefon numaram sıfırla başlar.",
+      "Telefon numaram sıfır ile başlar.",
+      "Telefon numaram sıfırla başlıyor."
+    ]
+  },
+  "kid_numbers.s2_fifty_pages": {
+    "text": "Bu büyük kitabın elli sayfası var.",
+    "alt": ["Bu büyük kitapta elli sayfa var.", "Bu büyük kitap elli sayfa."]
+  },
+  "kid_numbers.s3_count_stars": {
+    "text": "Geceleri gökyüzündeki yıldızları birlikte sayarız.",
+    "alt": [
+      "Gece gökyüzündeki yıldızları birlikte sayarız.",
+      "Geceleri gökyüzündeki yıldızları beraber sayarız.",
+      "Geceleri birlikte gökyüzündeki yıldızları sayarız."
+    ]
+  },
+  "kid_numbers.s3_race_second": {
+    "text": "Yarışta Kerem birinci, ben ikinciyim.",
+    "alt": [
+      "Kerem yarışta birinci, ben de ikinciyim.",
+      "Yarışta Kerem birinci ve ben ikinciyim.",
+      "Yarışta Kerem birinci, ben de ikinciyim."
+    ]
+  },
+  "kid_numbers.s3_spider_legs": {
+    "text": "Bir örümceğin kaç bacağı var, altı mı sekiz mi?",
+    "alt": [
+      "Örümceğin kaç bacağı var, altı mı sekiz mi?",
+      "Bir örümceğin kaç bacağı vardır, altı mı sekiz mi?"
+    ]
+  },
+  "kid_numbers.s3_year_months": {
+    "text": "Bir yılda on iki ay ve dört mevsim vardır.",
+    "alt": [
+      "Bir yılda on iki ay ve dört mevsim var.",
+      "Bir yılda dört mevsim ve on iki ay vardır.",
+      "Bir yılda dört mevsim ve on iki ay var."
+    ]
+  },
+  "kid_numbers.s3_pages_read": {
+    "text": "Bugün otuz sayfa, dün yirmi sayfa okudum.",
+    "alt": [
+      "Bugün otuz sayfa okudum, dün de yirmi sayfa.",
+      "Bugün otuz sayfa ve dün yirmi sayfa okudum.",
+      "Dün yirmi sayfa, bugün otuz sayfa okudum."
+    ]
+  },
+  "kid_numbers.s3_two_hundred": {
+    "text": "Yüz elli artı elli iki yüz eder.",
+    "alt": ["Yüz elli artı elli eşittir iki yüz.", "Yüz elli artı elli iki yüzdür."]
+  },
+  "kid_numbers.s3_dolls_cars": {
+    "text": "Kız kardeşimin üç oyuncak bebeği, benim dört oyuncak arabam var.",
+    "alt": [
+      "Kız kardeşimin üç oyuncak bebeği var, benim de dört oyuncak arabam var.",
+      "Kız kardeşimin üç bebeği, benim dört oyuncak arabam var.",
+      "Ablamın üç oyuncak bebeği, benim dört oyuncak arabam var."
+    ]
+  },
+  "kid_numbers.s3_birthday_ten": {
+    "text": "Yarın benim doğum günüm ve on yaşına gireceğim.",
+    "alt": [
+      "Yarın doğum günüm ve on yaşına gireceğim.",
+      "Yarın doğum günüm, on yaşında olacağım.",
+      "Yarın benim doğum günüm ve on yaşında olacağım."
+    ]
+  },
+  "kid_fruits_vegetables.s1_banana_yellow": {
+    "text": "Muz sarı.",
+    "alt": ["Muz sarıdır."]
+  },
+  "kid_fruits_vegetables.s1_like_grapes": {
+    "text": "Üzüm severim.",
+    "alt": ["Ben üzüm severim.", "Üzümü severim.", "Üzüm seviyorum.", "Üzümü seviyorum."]
+  },
+  "kid_fruits_vegetables.s1_carrots_orange": {
+    "text": "Havuçlar turuncu.",
+    "alt": ["Havuçlar turuncudur.", "Havuç turuncu.", "Havuç turuncudur."]
+  },
+  "kid_fruits_vegetables.s1_eat_pear": {
+    "text": "Bir armut yerim.",
+    "alt": ["Armut yerim.", "Bir armut yiyorum.", "Armut yiyorum.", "Ben bir armut yerim."]
+  },
+  "kid_fruits_vegetables.s1_lemon_sour": {
+    "text": "Limon ekşi.",
+    "alt": ["Limon ekşidir."]
+  },
+  "kid_fruits_vegetables.s1_watermelon_big": {
+    "text": "Bu karpuz büyük.",
+    "alt": ["Bu karpuz çok büyük."]
+  },
+  "kid_fruits_vegetables.s1_tomatoes_red": {
+    "text": "Domatesler kırmızı.",
+    "alt": ["Domatesler kırmızıdır.", "Domates kırmızı.", "Domates kırmızıdır."]
+  },
+  "kid_fruits_vegetables.s1_want_cherries": {
+    "text": "Kiraz istiyorum, lütfen.",
+    "alt": ["Lütfen kiraz istiyorum.", "Kiraz istiyorum lütfen."]
+  },
+  "kid_fruits_vegetables.s2_apple_every_day": {
+    "text": "Her gün bir elma yerim.",
+    "alt": ["Her gün elma yerim.", "Ben her gün bir elma yerim.", "Her gün bir elma yiyorum."]
+  },
+  "kid_fruits_vegetables.s2_sweet_strawberries": {
+    "text": "Bu çilekler kırmızı ve tatlı.",
+    "alt": ["Bu çilekler tatlı ve kırmızı."]
+  },
+  "kid_fruits_vegetables.s2_potatoes_onions": {
+    "text": "Annem patates ve soğan alır.",
+    "alt": [
+      "Annem patates ve soğan alıyor.",
+      "Annem patatesle soğan alır.",
+      "Annem soğan ve patates alır."
+    ]
+  },
+  "kid_fruits_vegetables.s2_salad": {
+    "text": "Salataya salatalık ve domates koyarız.",
+    "alt": ["Salataya salatalık ve domates koyuyoruz.", "Salataya domates ve salatalık koyarız."]
+  },
+  "kid_fruits_vegetables.s2_rabbit_carrots": {
+    "text": "Tavşan havuç yemeyi sever.",
+    "alt": ["Tavşan havuç yemeyi seviyor."]
+  },
+  "kid_fruits_vegetables.s2_big_pumpkin": {
+    "text": "Bahçede büyük bir balkabağı var.",
+    "alt": ["Bahçede kocaman bir balkabağı var."]
+  },
+  "kid_fruits_vegetables.s2_figs_peaches": {
+    "text": "Yazın incir ve şeftali yeriz.",
+    "alt": ["Yazın incir ve şeftali yiyoruz.", "Yazın şeftali ve incir yeriz."]
+  },
+  "kid_fruits_vegetables.s2_no_onions": {
+    "text": "Erkek kardeşim soğan sevmez.",
+    "alt": [
+      "Kardeşim soğan sevmez.",
+      "Erkek kardeşim soğanı sevmez.",
+      "Kardeşim soğanı sevmez.",
+      "Erkek kardeşim soğan sevmiyor.",
+      "Kardeşim soğan sevmiyor."
+    ]
+  },
+  "kid_fruits_vegetables.s3_fruit_salad": {
+    "text": "Muz, elma ve çilekle meyve salatası yaparız.",
+    "alt": [
+      "Muz, elma ve çilekle meyve salatası yapıyoruz.",
+      "Muzla, elmayla ve çilekle meyve salatası yaparız."
+    ]
+  },
+  "kid_fruits_vegetables.s3_spinach": {
+    "text": "Sebzeler sana iyi gelir, o yüzden lütfen ıspanağını ye.",
+    "alt": [
+      "Sebzeler sana iyi gelir, bu yüzden lütfen ıspanağını ye.",
+      "Sebzeler sağlığına iyi gelir, bu yüzden lütfen ıspanağını ye.",
+      "Sebzeler sana iyi gelir, o yüzden ıspanağını ye lütfen."
+    ]
+  },
+  "kid_fruits_vegetables.s3_orange_juice": {
+    "text": "Babam sabahları bize portakal suyu yapar.",
+    "alt": [
+      "Sabahları babam bize portakal suyu yapar.",
+      "Babam sabah bize portakal suyu yapar.",
+      "Babam sabahları bize portakal suyu sıkar.",
+      "Sabahları babam bize portakal suyu sıkar."
+    ]
+  },
+  "kid_fruits_vegetables.s3_grandfather_grows": {
+    "text": "Dedem bahçesinde domates, biber ve salatalık yetiştirir.",
+    "alt": [
+      "Büyükbabam bahçesinde domates, biber ve salatalık yetiştirir.",
+      "Dedem bahçesinde domates, biber ve salatalık yetiştiriyor.",
+      "Büyükbabam bahçesinde domates, biber ve salatalık yetiştiriyor."
+    ]
+  },
+  "kid_fruits_vegetables.s3_watermelon_inside": {
+    "text": "Karpuzun dışı yeşil, içi kırmızıdır.",
+    "alt": [
+      "Karpuzun dışı yeşil, içi kırmızı.",
+      "Karpuzun dışı yeşil ve içi kırmızıdır.",
+      "Karpuzun içi kırmızı, dışı yeşildir."
+    ]
+  },
+  "kid_fruits_vegetables.s3_market_saturday": {
+    "text": "Cumartesi günü pazardan taze meyve ve sebze alırız.",
+    "alt": [
+      "Cumartesi pazardan taze meyve ve sebze alırız.",
+      "Cumartesi günü pazardan taze meyve sebze alırız.",
+      "Cumartesi günleri pazardan taze meyve ve sebze alırız."
+    ]
+  },
+  "kid_fruits_vegetables.s3_soup_vegetables": {
+    "text": "Annem çorbaya patates, bezelye ve havuç koyar.",
+    "alt": [
+      "Annem çorbaya patates, bezelye ve havuç koyuyor.",
+      "Annem çorbaya patates, havuç ve bezelye koyar."
+    ]
+  },
+  "kid_fruits_vegetables.s3_apples_or_pears": {
+    "text": "Hangi meyveyi daha çok seversin, elmayı mı armudu mu?",
+    "alt": [
+      "Hangi meyveyi daha çok seviyorsun, elmayı mı armudu mu?",
+      "Hangi meyveyi daha çok seversin, elma mı armut mu?",
+      "Hangi meyveyi daha çok seversin, armudu mu elmayı mı?"
+    ]
+  },
+  "kid_food.s1_hungry": {
+    "text": "Acıktım, anne.",
+    "alt": ["Anne, acıktım.", "Açım, anne.", "Anne, açım."]
+  },
+  "kid_food.s1_cake_sweet": {
+    "text": "Pasta tatlı.",
+    "alt": ["Pasta tatlıdır."]
+  },
+  "kid_food.s2_breakfast_eggs": {
+    "text": "Kahvaltıda yumurta ve peynir yerim.",
+    "alt": [
+      "Kahvaltıda yumurta ve peynir yiyorum.",
+      "Kahvaltıda peynir ve yumurta yerim.",
+      "Ben kahvaltıda yumurta ve peynir yerim."
+    ]
+  },
+  "kid_food.s2_ice_cream": {
+    "text": "Dondurma soğuk ve tatlıdır.",
+    "alt": ["Dondurma soğuk ve tatlı.", "Dondurma tatlı ve soğuk."]
+  },
+  "kid_food.s2_honey_butter": {
+    "text": "Ekmeğe bal ve tereyağı sürerim.",
+    "alt": ["Ekmeğe tereyağı ve bal sürerim.", "Ekmeğe bal ve tereyağı sürüyorum."]
+  },
+  "kid_food.s2_pizza_tonight": {
+    "text": "Bu akşam yemekte pizza var.",
+    "alt": [
+      "Bu akşam yemekte pizza yiyoruz.",
+      "Bu akşam akşam yemeğinde pizza var.",
+      "Bu akşam yemekte pizza yeriz."
+    ]
+  },
+  "kid_food.s2_glass_water": {
+    "text": "Lütfen bir bardak su iç.",
+    "alt": ["Bir bardak su iç lütfen.", "Lütfen bir bardak su için."]
+  },
+  "kid_food.s2_cookies_tea": {
+    "text": "Büyükannem kurabiye ve çay yapar.",
+    "alt": [
+      "Anneannem kurabiye ve çay yapar.",
+      "Babaannem kurabiye ve çay yapar.",
+      "Ninem kurabiye ve çay yapar.",
+      "Büyükannem çay ve kurabiye yapar."
+    ]
+  },
+  "kid_food.s2_meatballs_rice": {
+    "text": "Öğle yemeğinde köfte ve pilavı çok severim.",
+    "alt": [
+      "Öğle yemeğinde köfteyle pilavı çok severim.",
+      "Öğle yemeğinde köfte pilava bayılırım.",
+      "Öğle yemeğinde köfte ve pilava bayılırım."
+    ]
+  },
+  "kid_food.s2_lemonade": {
+    "text": "Bu limonata soğuk ve lezzetli.",
+    "alt": ["Bu limonata lezzetli ve soğuk.", "Bu limonata soğuk ve çok lezzetli."]
+  },
+  "kid_food.s3_pass_salt": {
+    "text": "Çorbam için tuzu bana verebilir misin lütfen?",
+    "alt": [
+      "Lütfen çorbam için tuzu bana verir misin?",
+      "Çorbam için bana tuzu verebilir misin lütfen?",
+      "Çorbam için tuzu verir misin lütfen?"
+    ]
+  },
+  "kid_food.s3_birthday_cake": {
+    "text": "Doğum günümde çikolatalı pasta ve dondurma yeriz.",
+    "alt": [
+      "Doğum günümde çikolatalı pasta ve dondurma yiyoruz.",
+      "Doğum günümde dondurma ve çikolatalı pasta yeriz."
+    ]
+  },
+  "kid_food.s3_hamburger_fries": {
+    "text": "Erkek kardeşim öğle yemeğinde hamburger ve patates kızartması istiyor.",
+    "alt": [
+      "Kardeşim öğle yemeğinde hamburger ve patates kızartması istiyor.",
+      "Erkek kardeşim öğle yemeği için hamburger ve patates kızartması istiyor.",
+      "Kardeşim öğle yemeği için hamburger ve patates kızartması istiyor."
+    ]
+  },
+  "kid_food.s3_turkish_breakfast": {
+    "text": "Kahvaltıda zeytin, peynir, yumurta ve ekmek yeriz.",
+    "alt": ["Kahvaltıda zeytin, peynir, yumurta ve ekmek yiyoruz."]
+  },
+  "kid_food.s3_popcorn_movie": {
+    "text": "Film izlerken patlamış mısır yer, meyve suyu içeriz.",
+    "alt": [
+      "Film izlerken patlamış mısır yeriz ve meyve suyu içeriz.",
+      "Film izlerken patlamış mısır yiyip meyve suyu içeriz."
+    ]
+  },
+  "kid_food.s3_too_much_candy": {
+    "text": "Çok fazla şeker yeme, dişlerine zararlı.",
+    "alt": [
+      "Çok şeker yeme, dişlerine zararlı.",
+      "Fazla şeker yeme, dişlerine kötü gelir.",
+      "Çok fazla şeker yeme, dişlerin için kötü."
+    ]
+  },
+  "kid_food.s3_sunday_pancakes": {
+    "text": "Pazar sabahları annem reçelli ve ballı pankek yapar.",
+    "alt": [
+      "Annem pazar sabahları reçelli ve ballı pankek yapar.",
+      "Pazar sabahları annem reçelli ve ballı pankek yapıyor.",
+      "Pazar sabahları annem reçelli ballı pankek yapar."
+    ]
+  },
+  "kid_food.s3_hot_chocolate": {
+    "text": "Dışarısı soğukken bir fincan sıcak çikolata içerim.",
+    "alt": [
+      "Dışarısı soğuk olunca bir fincan sıcak çikolata içerim.",
+      "Dışarısı soğukken bir kupa sıcak çikolata içerim.",
+      "Hava soğukken bir fincan sıcak çikolata içerim."
+    ]
+  },
+  "kid_family.s2_big_family": {
+    "text": "Büyük bir ailem ve çok kuzenim var.",
+    "alt": [
+      "Benim büyük bir ailem ve çok kuzenim var.",
+      "Büyük bir ailem ve bir sürü kuzenim var.",
+      "Kalabalık bir ailem ve çok kuzenim var."
+    ]
+  },
+  "kid_family.s2_twins": {
+    "text": "Kuzenlerim ikiz, Nehir ve Zeynep.",
+    "alt": ["Kuzenlerim ikizler, Nehir ve Zeynep.", "Kuzenlerim ikiz, Zeynep ve Nehir."]
+  },
+  "kid_family.s2_uncle_children": {
+    "text": "Amcamın bir oğlu ve bir kızı var.",
+    "alt": [
+      "Dayımın bir oğlu ve bir kızı var.",
+      "Amcamın bir kızı ve bir oğlu var.",
+      "Dayımın bir kızı ve bir oğlu var."
+    ]
+  },
+  "kid_family.s2_hug_mother": {
+    "text": "Her sabah anneme sarılırım.",
+    "alt": ["Her sabah anneme sarılıyorum.", "Ben her sabah anneme sarılırım."]
+  },
+  "kid_family.s2_visit_grandparents": {
+    "text": "Pazar günü büyükanne ve büyükbabamızı ziyaret ederiz.",
+    "alt": [
+      "Pazar günleri büyükanne ve büyükbabamızı ziyaret ederiz.",
+      "Pazar günü dedemizle ninemizi ziyaret ederiz.",
+      "Pazar günü büyükannemizle büyükbabamızı ziyaret ederiz."
+    ]
+  },
+  "kid_family.s3_family_photo": {
+    "text": "Bu fotoğrafta annemi, babamı, kız kardeşimi ve beni görebilirsin.",
+    "alt": [
+      "Bu fotoğrafta anne babamı, kız kardeşimi ve beni görebilirsin.",
+      "Bu fotoğrafta annemi, babamı, kardeşimi ve beni görebilirsin.",
+      "Bu fotoğrafta annemi, babamı, ablamı ve beni görebilirsin."
+    ]
+  },
+  "kid_family.s3_dinner_together": {
+    "text": "Ailem her akşam masada birlikte akşam yemeği yer.",
+    "alt": [
+      "Her akşam ailem masada birlikte akşam yemeği yer.",
+      "Ailem her akşam birlikte masada akşam yemeği yer.",
+      "Ailem her akşam masada beraber akşam yemeği yer."
+    ]
+  },
+  "kid_family.s3_bedtime_story": {
+    "text": "Büyükannem uyumadan önce bize bir hikâye anlatır.",
+    "alt": [
+      "Anneannem uyumadan önce bize bir hikâye anlatır.",
+      "Babaannem uyumadan önce bize bir hikâye anlatır.",
+      "Ninem uyumadan önce bize bir hikâye anlatır.",
+      "Büyükannem uyumadan önce bize bir masal anlatır.",
+      "Büyükannem uyumadan önce bize hikâye anlatır."
+    ]
+  },
+  "kid_family.s3_ages": {
+    "text": "Ağabeyim on iki, kız kardeşim ise sadece beş yaşında.",
+    "alt": [
+      "Abim on iki, kız kardeşim ise sadece beş yaşında.",
+      "Erkek kardeşim on iki, kız kardeşim ise sadece beş yaşında.",
+      "Ağabeyim on iki yaşında, kız kardeşim ise sadece beş yaşında."
+    ]
+  },
+  "kid_family.s3_aunt_visits": {
+    "text": "Cumartesi günü teyzem ve çocukları bize gelir.",
+    "alt": [
+      "Cumartesi günü teyzemle çocukları bize gelir.",
+      "Cumartesi teyzem ve çocukları bize gelir.",
+      "Cumartesi günü halam ve çocukları bize gelir.",
+      "Cumartesi günü teyzem ve çocukları evimize gelir."
+    ]
+  },
+  "kid_family.s3_father_reads": {
+    "text": "Babam her gece bebek kardeşime kitap okur.",
+    "alt": [
+      "Babam her gece bebek kardeşime bir kitap okur.",
+      "Babam her gece küçük kardeşime kitap okur.",
+      "Babam her gece küçük kardeşime bir kitap okur.",
+      "Her gece babam bebek kardeşime kitap okur."
+    ]
+  },
+  "kid_family.s3_wedding": {
+    "text": "Bugün bütün aile mutlu, çünkü bir düğün var.",
+    "alt": [
+      "Bugün tüm aile mutlu çünkü düğün var.",
+      "Bugün bütün aile mutlu çünkü bir düğün var.",
+      "Bütün aile bugün mutlu, çünkü bir düğün var."
+    ]
+  },
+  "kid_family.s3_parents_love": {
+    "text": "Annem ve babam beni sever, ben de onları severim.",
+    "alt": [
+      "Anne babam beni sever, ben de onları severim.",
+      "Annem ve babam beni seviyor, ben de onları seviyorum.",
+      "Anne babam beni seviyor, ben de onları seviyorum."
+    ]
+  },
+  "kid_pets_farm.s1_cow_milk": {
+    "text": "İnek süt verir.",
+    "alt": ["İnek süt veriyor."]
+  },
+  "kid_pets_farm.s1_bird_sings": {
+    "text": "Kuş öter.",
+    "alt": ["Kuş ötüyor.", "Kuş şakıyor.", "Kuş şarkı söylüyor."]
+  },
+  "kid_pets_farm.s1_love_dog": {
+    "text": "Köpeğimi seviyorum.",
+    "alt": ["Köpeğimi severim.", "Ben köpeğimi seviyorum.", "Ben köpeğimi severim."]
+  },
+  "kid_pets_farm.s1_horse_fast": {
+    "text": "At hızlı koşar.",
+    "alt": ["At hızlı koşuyor."]
+  },
+  "kid_pets_farm.s1_fish_swims": {
+    "text": "Balığım yüzüyor.",
+    "alt": ["Balığım yüzer."]
+  },
+  "kid_pets_farm.s2_chicken_eggs": {
+    "text": "Tavuklar bize her gün yumurta verir.",
+    "alt": ["Tavuklar her gün bize yumurta verir.", "Tavuklar bize her gün yumurta veriyor."]
+  },
+  "kid_pets_farm.s2_cat_mouse": {
+    "text": "Kedi küçük farenin peşinden koşar.",
+    "alt": [
+      "Kedi küçük farenin peşinden koşuyor.",
+      "Kedi küçük farenin arkasından koşar.",
+      "Kedi küçük farenin arkasından koşuyor."
+    ]
+  },
+  "kid_pets_farm.s2_puppy_tail": {
+    "text": "Ben eve gelince yavru köpeğim kuyruğunu sallar.",
+    "alt": [
+      "Ben eve gelince köpek yavrum kuyruğunu sallar.",
+      "Eve geldiğimde yavru köpeğim kuyruğunu sallar.",
+      "Ben eve geldiğimde yavru köpeğim kuyruğunu sallıyor."
+    ]
+  },
+  "kid_pets_farm.s2_white_ducks": {
+    "text": "Gölde üç beyaz ördek yüzer.",
+    "alt": [
+      "Gölde üç beyaz ördek yüzüyor.",
+      "Üç beyaz ördek gölde yüzüyor.",
+      "Üç beyaz ördek gölde yüzer."
+    ]
+  },
+  "kid_pets_farm.s2_bee_flower": {
+    "text": "Arı sarı bir çiçeğe konar.",
+    "alt": ["Arı sarı bir çiçeğe konuyor.", "Arı sarı bir çiçeğin üstüne konar."]
+  },
+  "kid_pets_farm.s2_rabbit_carrots": {
+    "text": "Tavşanıma havuç veririm.",
+    "alt": ["Tavşanıma havuç veriyorum.", "Ben tavşanıma havuç veririm."]
+  },
+  "kid_pets_farm.s2_rooster_morning": {
+    "text": "Horoz sabahları bizi uyandırır.",
+    "alt": [
+      "Horoz sabah bizi uyandırır.",
+      "Sabahları horoz bizi uyandırır.",
+      "Horoz sabahları bizi uyandırıyor."
+    ]
+  },
+  "kid_pets_farm.s2_kitten_milk": {
+    "text": "Küçük yavru kedi annesinin sütünü içer.",
+    "alt": [
+      "Yavru kedi annesinin sütünü içer.",
+      "Küçük yavru kedi annesinden süt emer.",
+      "Yavru kedi annesinden süt emer."
+    ]
+  },
+  "kid_pets_farm.s3_grandfather_farm": {
+    "text": "Dedemin çiftliğinde inekler, koyunlar ve keçiler var.",
+    "alt": [
+      "Büyükbabamın çiftliğinde inekler, koyunlar ve keçiler var.",
+      "Dedemin çiftliğinde inek, koyun ve keçi var.",
+      "Büyükbabamın çiftliğinde inek, koyun ve keçi var."
+    ]
+  },
+  "kid_pets_farm.s3_farmer_early": {
+    "text": "Çiftçi erken kalkar ve hayvanlara yem verir.",
+    "alt": [
+      "Çiftçi erkenden kalkar ve hayvanlara yem verir.",
+      "Çiftçi erken kalkıp hayvanlara yem verir.",
+      "Çiftçi erken kalkar ve hayvanlara yiyecek verir."
+    ]
+  },
+  "kid_pets_farm.s3_hamster_cage": {
+    "text": "Hamsterim bütün gün uyur, geceleri kafesinde oynar.",
+    "alt": [
+      "Hamsterim bütün gün uyur ve geceleri kafesinde oynar.",
+      "Hamsterim tüm gün uyur, gece kafesinde oynar.",
+      "Hamsterım bütün gün uyur, geceleri kafesinde oynar."
+    ]
+  },
+  "kid_pets_farm.s3_bird_nest": {
+    "text": "Kuş yavruları için ağaçta bir yuva yapar.",
+    "alt": [
+      "Kuş yavruları için ağaca bir yuva yapar.",
+      "Kuş yavruları için ağaçta yuva yapar.",
+      "Kuş yavruları için ağaçta bir yuva yapıyor."
+    ]
+  },
+  "kid_pets_farm.s3_walk_dog": {
+    "text": "Her akşam babamla birlikte köpeğimi parkta gezdiririm.",
+    "alt": [
+      "Her akşam babamla köpeğimi parkta gezdiririm.",
+      "Her akşam köpeğimi babamla parkta gezdiririm.",
+      "Her akşam babamla birlikte köpeğimi parkta yürüyüşe çıkarırım."
+    ]
+  },
+  "kid_pets_farm.s3_wool_milk": {
+    "text": "Koyunlar bize yün, inekler süt verir.",
+    "alt": [
+      "Koyunlar bize yün verir, inekler de süt verir.",
+      "Koyunlar bize yün, inekler de süt verir.",
+      "İnekler bize süt, koyunlar yün verir."
+    ]
+  },
+  "kid_pets_farm.s3_ladybug_hand": {
+    "text": "Elimde siyah noktalı küçük kırmızı bir uğur böceği var.",
+    "alt": [
+      "Elimin üstünde siyah noktalı küçük kırmızı bir uğur böceği var.",
+      "Elimde siyah benekli küçük kırmızı bir uğur böceği var."
+    ]
+  },
+  "kid_pets_farm.s3_frog_jumps": {
+    "text": "Kurbağa ördeği görünce suya atlar.",
+    "alt": ["Kurbağa ördeği görünce suya atlıyor.", "Kurbağa, ördeği görünce suya atlar."]
+  },
+  "kid_zoo.s1_lion_big": {
+    "text": "Aslan büyük.",
+    "alt": ["Aslan büyüktür."]
+  },
+  "kid_zoo.s1_monkey_funny": {
+    "text": "Maymun komik.",
+    "alt": ["Maymun komiktir."]
+  },
+  "kid_zoo.s1_snake_long": {
+    "text": "Yılan uzun.",
+    "alt": ["Yılan uzundur."]
+  },
+  "kid_zoo.s1_like_pandas": {
+    "text": "Pandaları severim.",
+    "alt": ["Ben pandaları severim.", "Pandaları seviyorum.", "Ben pandaları seviyorum."]
+  },
+  "kid_zoo.s1_turtle_slow": {
+    "text": "Kaplumbağa yavaş.",
+    "alt": ["Kaplumbağa yavaştır."]
+  },
+  "kid_zoo.s1_giraffe_tall": {
+    "text": "Zürafa uzun.",
+    "alt": ["Zürafa uzun boylu.", "Zürafa uzundur."]
+  },
+  "kid_zoo.s1_see_tiger": {
+    "text": "Bir kaplan görüyorum.",
+    "alt": ["Kaplan görüyorum.", "Ben bir kaplan görüyorum."]
+  },
+  "kid_zoo.s1_dolphins_swim": {
+    "text": "Yunuslar hızlı yüzer.",
+    "alt": ["Yunuslar hızlı yüzerler.", "Yunuslar hızlı yüzüyor."]
+  },
+  "kid_zoo.s2_elephant_nose": {
+    "text": "Filin uzun bir burnu var.",
+    "alt": ["Filin burnu uzun.", "Filin uzun burnu var.", "Filin uzun bir hortumu var."]
+  },
+  "kid_zoo.s2_go_zoo": {
+    "text": "Bugün hayvanat bahçesine gidiyoruz.",
+    "alt": ["Bugün hayvanat bahçesine gideceğiz.", "Biz bugün hayvanat bahçesine gidiyoruz."]
+  },
+  "kid_zoo.s2_monkey_banana": {
+    "text": "Maymun ağaçta muz yer.",
+    "alt": [
+      "Maymun ağaçta bir muz yer.",
+      "Maymun ağaçta muz yiyor.",
+      "Maymun ağaçta bir muz yiyor."
+    ]
+  },
+  "kid_zoo.s2_penguins_cold": {
+    "text": "Penguenler soğuk yerlerde yaşar.",
+    "alt": ["Penguenler soğuk yerlerde yaşarlar."]
+  },
+  "kid_zoo.s2_kangaroo_jump": {
+    "text": "Kanguru çok yükseğe zıplayabilir.",
+    "alt": ["Kanguru çok yüksek zıplayabilir.", "Kanguru çok yükseğe sıçrayabilir."]
+  },
+  "kid_zoo.s2_zebra_stripes": {
+    "text": "Zebranın siyah beyaz çizgileri var.",
+    "alt": ["Zebranın siyah ve beyaz çizgileri var.", "Zebranın beyaz ve siyah çizgileri var."]
+  },
+  "kid_zoo.s2_parrot_name": {
+    "text": "Papağan benim adımı söyleyebilir.",
+    "alt": ["Papağan adımı söyleyebilir."]
+  },
+  "kid_zoo.s2_crocodile_teeth": {
+    "text": "Timsahın çok keskin dişleri var.",
+    "alt": ["Timsahın dişleri çok keskin."]
+  },
+  "kid_zoo.s3_giraffe_leaves": {
+    "text": "Zürafa ağacın tepesindeki yaprakları yer.",
+    "alt": ["Zürafa ağacın tepesinden yaprak yer.", "Zürafa ağacın tepesindeki yaprakları yiyor."]
+  },
+  "kid_zoo.s3_lion_sleeps": {
+    "text": "Aslan bütün gün ağacın altında uyur.",
+    "alt": ["Aslan bütün gün ağacın altında uyuyor.", "Aslan tüm gün ağacın altında uyur."]
+  },
+  "kid_zoo.s3_polar_bear_fish": {
+    "text": "Kutup ayısı soğuk suda yüzer ve balık yakalar.",
+    "alt": ["Kutup ayısı soğuk suda yüzer ve balık tutar."]
+  },
+  "kid_zoo.s3_whale_biggest": {
+    "text": "Mavi balina dünyanın en büyük hayvanıdır.",
+    "alt": ["Mavi balina dünyadaki en büyük hayvandır.", "Mavi balina dünyanın en büyük hayvanı."]
+  },
+  "kid_zoo.s3_monkeys_jump": {
+    "text": "Küçük maymunlar bütün gün ağaçtan ağaca zıplar.",
+    "alt": [
+      "Küçük maymunlar bütün gün ağaçtan ağaca atlar.",
+      "Küçük maymunlar bütün gün ağaçtan ağaca zıplıyor."
+    ]
+  },
+  "kid_zoo.s3_octopus_arms": {
+    "text": "Ahtapotun sekiz kolu vardır ve denizde yaşar.",
+    "alt": ["Ahtapotun sekiz kolu var ve denizde yaşar."]
+  },
+  "kid_zoo.s3_ostrich_run": {
+    "text": "Devekuşu uçamaz ama çok hızlı koşabilir.",
+    "alt": ["Devekuşu uçamaz ama çok hızlı koşar.", "Deve kuşu uçamaz ama çok hızlı koşabilir."]
+  },
+  "kid_zoo.s3_favorite_animal": {
+    "text": "Hayvanat bahçesinde en sevdiğim hayvan büyük gri fil.",
+    "alt": [
+      "Hayvanat bahçesindeki en sevdiğim hayvan büyük gri fil.",
+      "Hayvanat bahçesinde en sevdiğim hayvan büyük gri bir fil."
+    ]
+  },
+  "kid_body.s1_two_eyes": {
+    "text": "İki gözüm var.",
+    "alt": ["Benim iki gözüm var."]
+  },
+  "kid_body.s1_hair_long": {
+    "text": "Onun saçı uzun.",
+    "alt": ["Saçı uzun.", "Onun saçları uzun.", "Saçları uzun."]
+  },
+  "kid_body.s1_wash_face": {
+    "text": "Yüzümü yıkarım.",
+    "alt": ["Yüzümü yıkıyorum.", "Ben yüzümü yıkarım.", "Ben yüzümü yıkıyorum."]
+  },
+  "kid_body.s1_touch_nose": {
+    "text": "Burnuna dokun!"
+  },
+  "kid_body.s1_knee_hurts": {
+    "text": "Dizim ağrıyor.",
+    "alt": ["Dizim acıyor."]
+  },
+  "kid_body.s1_clap_hands": {
+    "text": "Ellerini çırp!",
+    "alt": ["El çırp!"]
+  },
+  "kid_body.s1_ten_fingers": {
+    "text": "On parmağım var.",
+    "alt": ["Benim on parmağım var."]
+  },
+  "kid_body.s1_brush_teeth": {
+    "text": "Dişlerimi fırçalarım.",
+    "alt": ["Dişlerimi fırçalıyorum.", "Ben dişlerimi fırçalarım.", "Ben dişlerimi fırçalıyorum."]
+  },
+  "kid_body.s2_heart_beats": {
+    "text": "Koşunca kalbim hızlı atar.",
+    "alt": [
+      "Koşarken kalbim hızlı atar.",
+      "Koştuğumda kalbim hızlı atar.",
+      "Koşunca kalbim hızlı atıyor."
+    ]
+  },
+  "kid_body.s2_wash_hands_eat": {
+    "text": "Yemekten önce ellerimi yıkarım.",
+    "alt": ["Yemek yemeden önce ellerimi yıkarım.", "Yemeden önce ellerimi yıkarım."]
+  },
+  "kid_body.s2_blue_eyes": {
+    "text": "Kız kardeşimin büyük mavi gözleri var.",
+    "alt": ["Kardeşimin büyük mavi gözleri var.", "Ablamın büyük mavi gözleri var."]
+  },
+  "kid_body.s2_one_foot": {
+    "text": "Tek ayak üstünde durabilirim.",
+    "alt": [
+      "Tek ayağımın üstünde durabilirim.",
+      "Bir ayak üstünde durabilirim.",
+      "Tek ayak üzerinde durabilirim."
+    ]
+  },
+  "kid_body.s2_hurt_arm": {
+    "text": "Düştü ve kolunu incitti.",
+    "alt": ["O düştü ve kolunu incitti.", "Düşüp kolunu incitti."]
+  },
+  "kid_body.s2_hands_knees": {
+    "text": "Ellerini dizlerine koy.",
+    "alt": ["Ellerini dizlerine koy!"]
+  },
+  "kid_body.s2_bones_strong": {
+    "text": "Süt kemiklerimizi ve dişlerimizi güçlendirir.",
+    "alt": [
+      "Süt kemiklerimizi ve dişlerimizi güçlü yapar.",
+      "Süt dişlerimizi ve kemiklerimizi güçlendirir."
+    ]
+  },
+  "kid_body.s2_close_eyes": {
+    "text": "Gözlerini kapat ve ona kadar say.",
+    "alt": ["Gözlerini kapa ve ona kadar say.", "Gözlerini kapat, ona kadar say."]
+  },
+  "kid_body.s3_see_hear": {
+    "text": "Gözlerimizle görür, kulaklarımızla duyarız.",
+    "alt": [
+      "Gözlerimizle görürüz ve kulaklarımızla duyarız.",
+      "Kulaklarımızla duyar, gözlerimizle görürüz."
+    ]
+  },
+  "kid_body.s3_brush_twice": {
+    "text": "Her sabah ve her gece dişlerimi fırçalarım.",
+    "alt": [
+      "Her sabah ve her akşam dişlerimi fırçalarım.",
+      "Dişlerimi her sabah ve her gece fırçalarım.",
+      "Dişlerimi her sabah ve her akşam fırçalarım."
+    ]
+  },
+  "kid_body.s3_heart_chest": {
+    "text": "Kalbin göğsündedir ve hiç durmaz.",
+    "alt": [
+      "Kalbin göğsünde ve hiç durmaz.",
+      "Kalbin göğsündedir ve asla durmaz.",
+      "Kalbin göğsünde ve asla durmaz."
+    ]
+  },
+  "kid_body.s3_brain_think": {
+    "text": "Düşünmek, öğrenmek ve hatırlamak için beynimizi kullanırız.",
+    "alt": ["Beynimizi düşünmek, öğrenmek ve hatırlamak için kullanırız."]
+  },
+  "kid_body.s3_cut_nails": {
+    "text": "Annem her pazar banyodan sonra tırnaklarımı keser.",
+    "alt": [
+      "Annem tırnaklarımı her pazar banyodan sonra keser.",
+      "Annem her pazar banyodan sonra tırnaklarımı kesiyor."
+    ]
+  },
+  "kid_body.s3_tooth_dentist": {
+    "text": "Dişim ağrıyor, bu yüzden dişçiye gidiyoruz.",
+    "alt": [
+      "Dişim ağrıyor, o yüzden dişçiye gidiyoruz.",
+      "Dişim ağrıyor, bu yüzden diş hekimine gidiyoruz.",
+      "Dişim ağrıyor, o yüzden diş hekimine gidiyoruz."
+    ]
+  },
+  "kid_body.s3_skin_sun": {
+    "text": "Cildimizi güneşten korumak için şapka takarız.",
+    "alt": [
+      "Derimizi güneşten korumak için şapka takarız.",
+      "Cildimizi güneşten korumak için şapka giyeriz."
+    ]
+  },
+  "kid_body.s3_hurt_ankle": {
+    "text": "Futbol oynarken ayak bileğini incitti.",
+    "alt": ["O futbol oynarken ayak bileğini incitti.", "Futbol oynarken bileğini incitti."]
+  },
+  "kid_clothes.s1_wear_hat": {
+    "text": "Şapka takarım.",
+    "alt": ["Ben şapka takarım.", "Şapka giyerim.", "Şapka takıyorum.", "Bir şapka takıyorum."]
+  },
+  "kid_clothes.s1_dress_red": {
+    "text": "Onun elbisesi kırmızı.",
+    "alt": ["Elbisesi kırmızı."]
+  },
+  "kid_clothes.s1_put_on_socks": {
+    "text": "Çoraplarını giy.",
+    "alt": ["Çoraplarını giy!"]
+  },
+  "kid_clothes.s1_coat_warm": {
+    "text": "Montum sıcak.",
+    "alt": ["Benim montum sıcak.", "Montum sıcacık."]
+  },
+  "kid_clothes.s1_where_scarf": {
+    "text": "Atkım nerede?",
+    "alt": ["Benim atkım nerede?"]
+  },
+  "kid_clothes.s1_like_jacket": {
+    "text": "Ceketini beğendim.",
+    "alt": ["Senin ceketini beğendim.", "Ceketini sevdim."]
+  },
+  "kid_clothes.s2_raincoat_rain": {
+    "text": "Yağmur yağınca yağmurluğumu giyerim.",
+    "alt": ["Yağmur yağdığında yağmurluğumu giyerim."]
+  },
+  "kid_clothes.s2_gloves_cold": {
+    "text": "Hava soğuk, eldivenlerini tak.",
+    "alt": [
+      "Hava soğuk, eldivenlerini giy.",
+      "Hava soğuk, o yüzden eldivenlerini tak.",
+      "Hava soğuk, bu yüzden eldivenlerini tak."
+    ]
+  },
+  "kid_clothes.s2_tie_shoes": {
+    "text": "Ayakkabılarımı bağlamama yardım eder misin?",
+    "alt": [
+      "Ayakkabımı bağlamama yardım eder misin?",
+      "Ayakkabı bağcıklarımı bağlamama yardım eder misin?"
+    ]
+  },
+  "kid_clothes.s2_pajamas_bed": {
+    "text": "Yatmadan önce pijamamı giyerim.",
+    "alt": ["Yatmadan önce pijamalarımı giyerim.", "Uyumadan önce pijamamı giyerim."]
+  },
+  "kid_clothes.s2_swimsuit_beach": {
+    "text": "Plaja mayolarımızı götürürüz.",
+    "alt": ["Mayolarımızı plaja götürürüz.", "Denize mayolarımızı götürürüz."]
+  },
+  "kid_clothes.s2_button_shirt": {
+    "text": "Gömleğimin bir düğmesi düştü.",
+    "alt": ["Gömleğimden bir düğme düştü.", "Gömleğimin düğmesi düştü."]
+  },
+  "kid_clothes.s2_dad_sunglasses": {
+    "text": "Babam yazın güneş gözlüğü takar.",
+    "alt": ["Babam yazın güneş gözlüğü takıyor.", "Babam yaz aylarında güneş gözlüğü takar."]
+  },
+  "kid_clothes.s2_school_uniform": {
+    "text": "Okulda üniforma giyeriz.",
+    "alt": ["Okulda forma giyeriz.", "Biz okulda üniforma giyeriz."]
+  },
+  "kid_clothes.s3_zip_coat": {
+    "text": "Montunun fermuarını çek çünkü dışarısı çok soğuk.",
+    "alt": [
+      "Montunun fermuarını kapat çünkü dışarısı çok soğuk.",
+      "Montunun fermuarını çek, dışarısı çok soğuk."
+    ]
+  },
+  "kid_clothes.s3_party_dress": {
+    "text": "Partiye yeni mavi elbisesini giyecek.",
+    "alt": ["O partiye yeni mavi elbisesini giyecek."]
+  },
+  "kid_clothes.s3_winter_boots": {
+    "text": "Kışın sıcak çizmeler ve kalın bir kazak giyerim.",
+    "alt": [
+      "Kışın sıcak bir çizme ve kalın bir kazak giyerim.",
+      "Kışın sıcak çizme ve kalın kazak giyerim."
+    ]
+  },
+  "kid_clothes.s3_jeans_pocket": {
+    "text": "Kot pantolonumun cebinde küçük bir top var.",
+    "alt": ["Kotumun cebinde küçük bir top var."]
+  },
+  "kid_clothes.s3_pants_belt": {
+    "text": "Bu pantolon çok bol, o yüzden kemere ihtiyacım var.",
+    "alt": [
+      "Bu pantolon çok bol, bu yüzden kemere ihtiyacım var.",
+      "Bu pantolon çok büyük, o yüzden kemere ihtiyacım var.",
+      "Bu pantolon bana büyük, o yüzden bir kemer lazım."
+    ]
+  },
+  "kid_clothes.s3_grandma_sweater": {
+    "text": "Büyükannem bu kırmızı kazağı geçen kış bana ördü.",
+    "alt": [
+      "Anneannem bu kırmızı kazağı geçen kış bana ördü.",
+      "Babaannem bu kırmızı kazağı geçen kış bana ördü.",
+      "Büyükannem geçen kış bana bu kırmızı kazağı ördü.",
+      "Anneannem geçen kış bana bu kırmızı kazağı ördü.",
+      "Babaannem geçen kış bana bu kırmızı kazağı ördü.",
+      "Büyükannem geçen kış bana bu kırmızı kazağı yaptı."
+    ]
+  },
+  "kid_clothes.s3_slippers_home": {
+    "text": "Evde ayakkabılarımı çıkarır, terliklerimi giyerim.",
+    "alt": [
+      "Evde ayakkabılarımı çıkarıp terliklerimi giyerim.",
+      "Evde ayakkabılarımı çıkarırım ve terliklerimi giyerim."
+    ]
+  },
+  "kid_clothes.s3_lost_glove": {
+    "text": "Dün parkta eldivenlerimden birini kaybettim.",
+    "alt": ["Dün parkta bir eldivenimi kaybettim.", "Eldivenlerimden birini dün parkta kaybettim."]
+  },
+  "kid_home.s1_door_open": {
+    "text": "Kapı açık."
+  },
+  "kid_home.s1_sit_chair": {
+    "text": "Sandalyeye otur.",
+    "alt": ["Sandalyeye otur!"]
+  },
+  "kid_home.s1_bed_soft": {
+    "text": "Yatağım yumuşak.",
+    "alt": ["Benim yatağım yumuşak."]
+  },
+  "kid_home.s1_close_window": {
+    "text": "Lütfen pencereyi kapat.",
+    "alt": ["Pencereyi kapat lütfen."]
+  },
+  "kid_home.s1_mom_kitchen": {
+    "text": "Annem mutfakta.",
+    "alt": ["Anne mutfakta."]
+  },
+  "kid_home.s1_turn_on_lamp": {
+    "text": "Lambayı aç.",
+    "alt": ["Lambayı yak."]
+  },
+  "kid_home.s2_tv_living_room": {
+    "text": "Televizyon oturma odasında.",
+    "alt": ["Televizyon salonda."]
+  },
+  "kid_home.s2_cat_sofa": {
+    "text": "Kedi kanepede uyuyor.",
+    "alt": ["Kedi kanepenin üstünde uyuyor."]
+  },
+  "kid_home.s2_milk_fridge": {
+    "text": "Süt buzdolabında.",
+    "alt": ["Süt buzdolabının içinde."]
+  },
+  "kid_home.s2_face_mirror": {
+    "text": "Aynada yüzüme bakarım.",
+    "alt": ["Aynada yüzüme bakıyorum."]
+  },
+  "kid_home.s2_plates_table": {
+    "text": "Tabakları masaya koyarım.",
+    "alt": ["Tabakları masaya koyuyorum.", "Tabakları masaya koydum."]
+  },
+  "kid_home.s2_soup_spoon": {
+    "text": "Çorbamı kaşıkla içerim.",
+    "alt": ["Çorbamı kaşıkla yerim.", "Çorbamı kaşıkla içiyorum."]
+  },
+  "kid_home.s2_dad_shower": {
+    "text": "Babam her sabah duş alır.",
+    "alt": ["Babam her sabah duş alıyor."]
+  },
+  "kid_home.s3_our_house": {
+    "text": "Evimizde üç yatak odası, bir mutfak ve büyük bir bahçe var.",
+    "alt": ["Evimizin üç yatak odası, bir mutfağı ve büyük bir bahçesi var."]
+  },
+  "kid_home.s3_toothbrush_sink": {
+    "text": "Diş fırçamı ve sabunu lavabonun yanına koyarım.",
+    "alt": [
+      "Diş fırçamı ve sabunu lavabonun yanına koyuyorum.",
+      "Diş fırçamla sabunu lavabonun yanına koyarım."
+    ]
+  },
+  "kid_home.s3_pillow_blanket": {
+    "text": "Geceleri yumuşak bir yastık ve sıcak bir battaniyeyle uyurum.",
+    "alt": [
+      "Geceleri yumuşak bir yastık ve sıcak bir battaniye ile uyurum.",
+      "Gece yumuşak bir yastık ve sıcak bir battaniyeyle uyurum."
+    ]
+  },
+  "kid_home.s3_cake_oven": {
+    "text": "Annem doğum günüm için fırında pasta pişiriyor.",
+    "alt": [
+      "Annem doğum günüm için fırında kek pişiriyor.",
+      "Annem doğum günüm için fırında pasta yapıyor.",
+      "Annem doğum günüm için fırında bir pasta yapıyor."
+    ]
+  },
+  "kid_home.s3_clock_wall": {
+    "text": "Mutfak duvarında büyük bir saat var.",
+    "alt": ["Mutfağın duvarında büyük bir saat var."]
+  },
+  "kid_home.s3_towel_bath": {
+    "text": "Banyodan sonra büyük bir havluyla kurulanırım.",
+    "alt": [
+      "Banyodan sonra büyük bir havlu ile kurulanırım.",
+      "Banyo yaptıktan sonra büyük bir havluyla kurulanırım."
+    ]
+  },
+  "kid_home.s3_lost_key": {
+    "text": "Anahtarı kaybettiğimiz için kapıyı açamıyoruz.",
+    "alt": [
+      "Kapıyı açamıyoruz çünkü anahtarı kaybettik.",
+      "Anahtarı kaybettik, o yüzden kapıyı açamıyoruz."
+    ]
+  },
+  "kid_home.s3_roof_nest": {
+    "text": "İki küçük kuş evimizin çatısına yuva yaptı.",
+    "alt": ["Evimizin çatısına iki küçük kuş yuva yaptı."]
+  },
+  "kid_school.s1_open_books": {
+    "text": "Kitaplarınızı açın.",
+    "alt": ["Kitaplarını açın.", "Kitabını aç."]
+  },
+  "kid_school.s1_red_pencil": {
+    "text": "Kırmızı bir kurşun kalemim var.",
+    "alt": ["Bir kırmızı kurşun kalemim var.", "Kırmızı bir kalemim var.", "Kırmızı kalemim var."]
+  },
+  "kid_school.s1_bell_ringing": {
+    "text": "Zil çalıyor."
+  },
+  "kid_school.s1_need_eraser": {
+    "text": "Bir silgiye ihtiyacım var.",
+    "alt": ["Silgiye ihtiyacım var.", "Bana bir silgi lazım.", "Bir silgi lazım."]
+  },
+  "kid_school.s2_teacher_board": {
+    "text": "Öğretmen tahtaya yazar.",
+    "alt": ["Öğretmen tahtaya yazıyor."]
+  },
+  "kid_school.s2_backpack_heavy": {
+    "text": "Bugün sırt çantam çok ağır.",
+    "alt": ["Sırt çantam bugün çok ağır.", "Bugün çantam çok ağır."]
+  },
+  "kid_school.s2_recess_outside": {
+    "text": "Teneffüste dışarıda oynarız.",
+    "alt": ["Teneffüste dışarıda oynuyoruz.", "Teneffüste bahçede oynarız."]
+  },
+  "kid_school.s2_raise_hand": {
+    "text": "Soru sormak için elini kaldır.",
+    "alt": ["Soru sormak için parmak kaldır."]
+  },
+  "kid_school.s2_math_favorite": {
+    "text": "Matematik en sevdiğim ders.",
+    "alt": ["En sevdiğim ders matematik.", "Matematik en sevdiğim derstir."]
+  },
+  "kid_school.s2_words_page": {
+    "text": "Lütfen onuncu sayfadaki kelimeleri oku.",
+    "alt": [
+      "Lütfen on numaralı sayfadaki kelimeleri oku.",
+      "Lütfen onuncu sayfadaki kelimeleri okuyun.",
+      "Onuncu sayfadaki kelimeleri oku lütfen."
+    ]
+  },
+  "kid_school.s2_cut_paper": {
+    "text": "Kâğıdı makasla keserim.",
+    "alt": ["Kağıdı makasla keserim.", "Kâğıdı makasla kesiyorum.", "Kağıdı makasla kesiyorum."]
+  },
+  "kid_school.s2_learn_english": {
+    "text": "Okulda İngilizce öğreniyoruz.",
+    "alt": ["Okulda İngilizce öğreniriz.", "Biz okulda İngilizce öğreniyoruz."]
+  },
+  "kid_school.s3_math_test": {
+    "text": "Yarın matematik sınavımız var, o yüzden ders çalışıyorum.",
+    "alt": [
+      "Yarın matematik sınavımız var, bu yüzden ders çalışıyorum.",
+      "Yarın matematik sınavımız var, o yüzden çalışıyorum."
+    ]
+  },
+  "kid_school.s3_pencil_case": {
+    "text": "Kalem kutumda kurşun kalemler, bir silgi ve bir kalemtıraş var.",
+    "alt": [
+      "Kalem kutumda kalemler, bir silgi ve bir kalemtıraş var.",
+      "Kalem kutumda kurşun kalemler, silgi ve kalemtıraş var."
+    ]
+  },
+  "kid_school.s3_map_wall": {
+    "text": "Sınıfın duvarında büyük bir dünya haritası var.",
+    "alt": ["Sınıf duvarında büyük bir dünya haritası var."]
+  },
+  "kid_school.s3_answer_question": {
+    "text": "Öğretmen bir soru sorar ve ben cevaplarım.",
+    "alt": [
+      "Öğretmen soru sorar, ben de cevaplarım.",
+      "Öğretmen bir soru sorar ve ben onu cevaplarım.",
+      "Öğretmen bir soru soruyor ve ben cevaplıyorum."
+    ]
+  },
+  "kid_school.s3_computers_friday": {
+    "text": "Cuma günleri sınıfımızdaki bilgisayarları kullanırız.",
+    "alt": [
+      "Cumaları sınıfımızdaki bilgisayarları kullanırız.",
+      "Cuma günleri sınıfımızda bilgisayar kullanırız."
+    ]
+  },
+  "kid_school.s3_lunchbox": {
+    "text": "Annem beslenme çantama bir elma ve bir sandviç koyar.",
+    "alt": [
+      "Annem beslenme çantama elma ve sandviç koyar.",
+      "Annem beslenme çantama bir sandviç ve bir elma koyar.",
+      "Annem beslenme çantama bir elma ve bir sandviç koyuyor."
+    ]
+  },
+  "kid_school.s3_homework_tv": {
+    "text": "Televizyon izlemeden önce her zaman ödevimi yaparım.",
+    "alt": [
+      "Televizyon izlemeden önce hep ödevimi yaparım.",
+      "Her zaman televizyon izlemeden önce ödevimi yaparım.",
+      "Televizyon seyretmeden önce her zaman ödevimi yaparım."
+    ]
+  },
+  "kid_school.s3_alphabet": {
+    "text": "Küçük kardeşim alfabedeki harfleri öğreniyor.",
+    "alt": [
+      "Küçük erkek kardeşim alfabedeki harfleri öğreniyor.",
+      "Erkek kardeşim alfabedeki harfleri öğreniyor.",
+      "Küçük kardeşim alfabenin harflerini öğreniyor."
+    ]
+  },
+  "kid_toys.s1_kite_high": {
+    "text": "Uçurtmam yükseğe uçar.",
+    "alt": ["Uçurtmam yükseğe uçuyor.", "Uçurtmam yüksekte uçuyor."]
+  },
+  "kid_toys.s1_new_robot": {
+    "text": "Yeni bir robotum var.",
+    "alt": ["Benim yeni bir robotum var."]
+  },
+  "kid_toys.s1_ball_red": {
+    "text": "Top kırmızı.",
+    "alt": ["Top kırmızıdır."]
+  },
+  "kid_toys.s1_lets_play": {
+    "text": "Hadi oyun oynayalım!",
+    "alt": ["Haydi oyun oynayalım!", "Hadi bir oyun oynayalım!", "Haydi bir oyun oynayalım!"]
+  },
+  "kid_toys.s1_doll_sleeping": {
+    "text": "Bebeğim uyuyor.",
+    "alt": ["Oyuncak bebeğim uyuyor."]
+  },
+  "kid_toys.s1_blow_bubbles": {
+    "text": "Baloncuk üfleriz.",
+    "alt": ["Baloncuk üflüyoruz.", "Biz baloncuk üfleriz.", "Baloncuk yaparız."]
+  },
+  "kid_toys.s1_my_turn": {
+    "text": "Sıra bende.",
+    "alt": ["Sıra benim.", "Sıra bende!"]
+  },
+  "kid_toys.s2_teddy_sleep": {
+    "text": "Oyuncak ayımla uyurum.",
+    "alt": ["Oyuncak ayımla uyuyorum.", "Ayıcığımla uyurum."]
+  },
+  "kid_toys.s2_go_down_slide": {
+    "text": "Çocuklar kaydıraktan kayar.",
+    "alt": ["Çocuklar kaydıraktan kayıyor."]
+  },
+  "kid_toys.s2_tower_blocks": {
+    "text": "Küplerle yüksek bir kule yaparız.",
+    "alt": [
+      "Küplerle uzun bir kule yaparız.",
+      "Küplerle yüksek bir kule yapıyoruz.",
+      "Küplerle yüksek bir kule inşa ederiz."
+    ]
+  },
+  "kid_toys.s2_your_toy_car": {
+    "text": "Oyuncak arabanla oynayabilir miyim?",
+    "alt": ["Senin oyuncak arabanla oynayabilir miyim?"]
+  },
+  "kid_toys.s2_throw_dice": {
+    "text": "Zar atma sırası sende.",
+    "alt": ["Zarı atma sırası sende.", "Sıra sende, zarı at."]
+  },
+  "kid_toys.s2_balloon_sky": {
+    "text": "Mavi balon gökyüzüne uçtu.",
+    "alt": ["Mavi balon gökyüzüne uçup gitti.", "Mavi balon göğe uçtu."]
+  },
+  "kid_toys.s2_push_swing": {
+    "text": "Salıncakta beni iter misin?",
+    "alt": [
+      "Beni salıncakta iter misin?",
+      "Salıncakta beni sallar mısın?",
+      "Beni salıncakta sallar mısın?"
+    ]
+  },
+  "kid_toys.s2_drum_loud": {
+    "text": "Kardeşim davulu çok yüksek sesle çalar.",
+    "alt": [
+      "Erkek kardeşim davulu çok yüksek sesle çalar.",
+      "Ağabeyim davulu çok yüksek sesle çalar.",
+      "Kardeşim çok yüksek sesle davul çalar."
+    ]
+  },
+  "kid_toys.s3_toys_box": {
+    "text": "Lütfen bütün oyuncaklarını oyuncak kutusuna geri koy.",
+    "alt": [
+      "Lütfen tüm oyuncaklarını oyuncak kutusuna geri koy.",
+      "Bütün oyuncaklarını oyuncak kutusuna geri koy lütfen.",
+      "Lütfen bütün oyuncaklarını oyuncak kutusuna koy."
+    ]
+  },
+  "kid_toys.s3_puzzle_pieces": {
+    "text": "Bu yapbozun yüz parçası var ve çok zor.",
+    "alt": ["Bu yapboz yüz parçalı ve çok zor.", "Bu yapbozun yüz parçası var, çok zor."]
+  },
+  "kid_toys.s3_grandpa_robot": {
+    "text": "Dedem doğum günümde bana bir robot hediye etti.",
+    "alt": [
+      "Dedem bana doğum günümde bir robot hediye etti.",
+      "Dedem doğum günümde bana bir robot verdi.",
+      "Dedem doğum günüm için bana bir robot aldı."
+    ]
+  },
+  "kid_toys.s3_kites_windy": {
+    "text": "Rüzgârlı havalarda parkta uçurtmalarımızı uçururuz.",
+    "alt": [
+      "Rüzgarlı havalarda parkta uçurtmalarımızı uçururuz.",
+      "Hava rüzgârlı olunca parkta uçurtma uçururuz.",
+      "Hava rüzgarlı olunca parkta uçurtma uçururuz."
+    ]
+  },
+  "kid_toys.s3_chess_saturday": {
+    "text": "Dedemle her cumartesi öğleden sonra satranç oynarız.",
+    "alt": [
+      "Dedem ve ben her cumartesi öğleden sonra satranç oynarız.",
+      "Her cumartesi öğleden sonra dedemle satranç oynarız.",
+      "Dedemle her cumartesi öğleden sonra satranç oynuyoruz."
+    ]
+  },
+  "kid_toys.s3_sand_castle": {
+    "text": "Kova ve kürekle büyük bir kumdan kale yaptık.",
+    "alt": [
+      "Bir kova ve bir kürekle büyük bir kumdan kale yaptık.",
+      "Kova ve kürekle kocaman bir kumdan kale yaptık."
+    ]
+  },
+  "kid_toys.s3_video_games": {
+    "text": "Ödevimden sonra bir saat video oyunu oynayabilirim.",
+    "alt": [
+      "Ödevimden sonra bir saat bilgisayar oyunu oynayabilirim.",
+      "Ödevimi bitirince bir saat video oyunu oynayabilirim.",
+      "Ödevden sonra bir saat video oyunu oynayabilirim."
+    ]
+  },
+  "kid_toys.s3_paper_plane": {
+    "text": "Kâğıt uçağım odanın öbür ucuna uçup yatağa kondu.",
+    "alt": [
+      "Kağıt uçağım odanın öbür ucuna uçup yatağa kondu.",
+      "Kâğıt uçağım odanın içinde uçup yatağın üstüne kondu.",
+      "Kağıt uçağım odanın içinde uçup yatağın üstüne kondu."
+    ]
+  },
+  "kid_days_time.s1_today_friday": {
+    "text": "Bugün cuma.",
+    "alt": ["Bugün cumadır."]
+  },
+  "kid_days_time.s1_late_now": {
+    "text": "Artık geç oldu.",
+    "alt": ["Şimdi geç oldu.", "Geç oldu."]
+  },
+  "kid_days_time.s1_weekend_fun": {
+    "text": "Hafta sonu eğlenceli.",
+    "alt": ["Hafta sonu eğlencelidir."]
+  },
+  "kid_days_time.s1_wake_up_early": {
+    "text": "Erken kalkarım.",
+    "alt": ["Erken uyanırım.", "Ben erken kalkarım.", "Erken kalkıyorum."]
+  },
+  "kid_days_time.s2_monday_friday": {
+    "text": "Pazartesiden cumaya okula gideriz.",
+    "alt": ["Pazartesiden cumaya kadar okula gideriz.", "Pazartesiden cumaya okula gidiyoruz."]
+  },
+  "kid_days_time.s2_seven_days": {
+    "text": "Bir haftada yedi gün var.",
+    "alt": ["Bir haftada yedi gün vardır.", "Bir hafta yedi gündür."]
+  },
+  "kid_days_time.s2_lunch_noon": {
+    "text": "Her gün öğlen yemek yeriz.",
+    "alt": [
+      "Her gün öğle yemeğini öğlen yeriz.",
+      "Her gün öğlen öğle yemeği yeriz.",
+      "Öğle yemeğini her gün öğlen yeriz."
+    ]
+  },
+  "kid_days_time.s2_party_saturday": {
+    "text": "Doğum günü partim gelecek cumartesi.",
+    "alt": ["Doğum günü partim önümüzdeki cumartesi.", "Doğum günü partim haftaya cumartesi."]
+  },
+  "kid_days_time.s2_wait_minutes": {
+    "text": "Lütfen burada beş dakika bekle.",
+    "alt": ["Burada beş dakika bekle lütfen.", "Lütfen beş dakika burada bekle."]
+  },
+  "kid_days_time.s2_yesterday_park": {
+    "text": "Dün parkta oynadık.",
+    "alt": ["Dün parkta oyun oynadık."]
+  },
+  "kid_days_time.s2_afternoon_book": {
+    "text": "Her öğleden sonra kitap okurum.",
+    "alt": ["Her öğleden sonra bir kitap okurum.", "Öğleden sonraları kitap okurum."]
+  },
+  "kid_days_time.s2_never_late": {
+    "text": "Okula asla geç kalmam.",
+    "alt": ["Okula hiç geç kalmam.", "Ben okula asla geç kalmam."]
+  },
+  "kid_days_time.s3_alarm_seven": {
+    "text": "Çalar saatim her sabah saat yedide çalar.",
+    "alt": ["Çalar saatim her sabah yedide çalar.", "Her sabah çalar saatim saat yedide çalar."]
+  },
+  "kid_days_time.s3_calendar": {
+    "text": "Arkadaşlarımın doğum günlerini odamdaki takvime yazarım.",
+    "alt": ["Odamdaki takvime arkadaşlarımın doğum günlerini yazarım."]
+  },
+  "kid_days_time.s3_vacation_sea": {
+    "text": "Gelecek hafta denize tatile gidiyoruz.",
+    "alt": [
+      "Haftaya denize tatile gidiyoruz.",
+      "Önümüzdeki hafta deniz tatiline gidiyoruz.",
+      "Gelecek hafta tatile denize gidiyoruz."
+    ]
+  },
+  "kid_days_time.s3_dad_late": {
+    "text": "Babam bazen akşam eve geç gelir.",
+    "alt": ["Babam bazen akşamları eve geç gelir.", "Bazen babam akşam eve geç gelir."]
+  },
+  "kid_days_time.s3_quarter_past": {
+    "text": "Film bu öğleden sonra dördü çeyrek geçe başlıyor.",
+    "alt": [
+      "Film bugün öğleden sonra dördü çeyrek geçe başlıyor.",
+      "Film bu öğleden sonra saat dördü çeyrek geçe başlıyor."
+    ]
+  },
+  "kid_days_time.s3_tonight_stars": {
+    "text": "Bu gece geç yatıp yıldızlara bakabiliriz.",
+    "alt": [
+      "Bu gece geç saate kadar oturup yıldızlara bakabiliriz.",
+      "Bu gece geç saate kadar uyumayıp yıldızlara bakabiliriz."
+    ]
+  },
+  "kid_days_time.s3_three_days": {
+    "text": "Dün çarşambaydı, bugün perşembe ve yarın cuma.",
+    "alt": [
+      "Dün çarşambaydı, bugün perşembe, yarın da cuma.",
+      "Dün çarşambaydı, bugün perşembe, yarın cuma."
+    ]
+  },
+  "kid_days_time.s3_sixty_seconds": {
+    "text": "Bir dakikada altmış saniye, bir saatte altmış dakika var.",
+    "alt": [
+      "Bir dakikada altmış saniye ve bir saatte altmış dakika vardır.",
+      "Bir dakika altmış saniye, bir saat altmış dakikadır."
+    ]
+  },
+  "kid_vehicles.s1_red_car": {
+    "text": "Araba kırmızı.",
+    "alt": ["Araba kırmızıdır."]
+  },
+  "kid_vehicles.s1_big_bus": {
+    "text": "Büyük bir otobüs görüyorum.",
+    "alt": ["Büyük bir otobüs görürüm.", "Ben büyük bir otobüs görüyorum."]
+  },
+  "kid_vehicles.s1_plane_fast": {
+    "text": "Uçak hızlı.",
+    "alt": ["Uçak hızlıdır."]
+  },
+  "kid_vehicles.s1_ride_bicycle": {
+    "text": "Bisikletime binerim.",
+    "alt": ["Bisikletime biniyorum.", "Ben bisikletime binerim."]
+  },
+  "kid_vehicles.s1_train_long": {
+    "text": "Tren uzun.",
+    "alt": ["Tren uzundur."]
+  },
+  "kid_vehicles.s1_stop_red": {
+    "text": "Kırmızı ışıkta dur!",
+    "alt": ["Kırmızı ışıkta dur."]
+  },
+  "kid_vehicles.s1_go_bus": {
+    "text": "Otobüsle gideriz.",
+    "alt": ["Otobüsle gidiyoruz.", "Biz otobüsle gideriz."]
+  },
+  "kid_vehicles.s1_taxi_yellow": {
+    "text": "Taksi sarı.",
+    "alt": ["Taksi sarıdır."]
+  },
+  "kid_vehicles.s2_bus_school": {
+    "text": "Okula otobüsle giderim.",
+    "alt": ["Ben okula otobüsle giderim.", "Okula otobüsle gidiyorum."]
+  },
+  "kid_vehicles.s2_driver_slow": {
+    "text": "Şoför otobüsü yavaş sürer.",
+    "alt": ["Şoför otobüsü yavaşça sürer.", "Şoför otobüsü yavaş sürüyor."]
+  },
+  "kid_vehicles.s2_ticket_train": {
+    "text": "Tren için bir bilete ihtiyacımız var.",
+    "alt": ["Tren için bir bilet lazım.", "Trene bir bilet lazım."]
+  },
+  "kid_vehicles.s2_ambulance_fast": {
+    "text": "Ambulans hastaneye hızlı gider.",
+    "alt": ["Ambulans hastaneye hızla gider.", "Ambulans hızla hastaneye gider."]
+  },
+  "kid_vehicles.s2_seat_belt": {
+    "text": "Lütfen emniyet kemerini tak.",
+    "alt": ["Lütfen emniyet kemerini bağla.", "Emniyet kemerini tak, lütfen."]
+  },
+  "kid_vehicles.s2_plane_airport": {
+    "text": "Büyük uçak havalimanında.",
+    "alt": ["Büyük uçak havaalanında."]
+  },
+  "kid_vehicles.s2_turn_left": {
+    "text": "Trafik ışığında sola dön.",
+    "alt": ["Trafik ışığından sola dön.", "Işıkta sola dön."]
+  },
+  "kid_vehicles.s2_fire_truck": {
+    "text": "İtfaiye aracı büyük ve kırmızı.",
+    "alt": ["İtfaiye aracı kırmızı ve büyük.", "İtfaiye arabası büyük ve kırmızı."]
+  },
+  "kid_vehicles.s3_bus_stop": {
+    "text": "Okul otobüsünü otobüs durağında bekleriz.",
+    "alt": [
+      "Otobüs durağında okul otobüsünü bekleriz.",
+      "Okul otobüsünü durakta bekleriz.",
+      "Okul otobüsünü otobüs durağında bekliyoruz."
+    ]
+  },
+  "kid_vehicles.s3_rocket_moon": {
+    "text": "Bir gün roketle aya gitmek istiyorum.",
+    "alt": ["Bir gün aya roketle gitmek istiyorum."]
+  },
+  "kid_vehicles.s3_tractor_farm": {
+    "text": "Çiftçi kırmızı traktörünü çiftlikte sürer.",
+    "alt": [
+      "Çiftçi çiftlikte kırmızı traktörünü sürer.",
+      "Çiftçi kırmızı traktörünü tarlada sürer."
+    ]
+  },
+  "kid_vehicles.s3_train_station": {
+    "text": "Tren sabah sekizde istasyondan kalkar.",
+    "alt": ["Tren sabah saat sekizde istasyondan kalkar.", "Tren istasyondan sabah sekizde kalkar."]
+  },
+  "kid_vehicles.s3_police_car": {
+    "text": "Polis arabası gelince bütün arabalar durur.",
+    "alt": [
+      "Polis arabası geldiğinde bütün arabalar durur.",
+      "Polis arabası gelince tüm arabalar durur."
+    ]
+  },
+  "kid_vehicles.s3_map_trip": {
+    "text": "Babam uzun yolculuğumuzdan önce haritaya bakar.",
+    "alt": [
+      "Babam uzun yolculuktan önce haritaya bakar.",
+      "Uzun yolculuğumuzdan önce babam haritaya bakar."
+    ]
+  },
+  "kid_vehicles.s3_subway_crowded": {
+    "text": "Metro hızlı ama sabahları çok kalabalık.",
+    "alt": [
+      "Metro hızlıdır ama sabahları çok kalabalıktır.",
+      "Metro hızlı ama sabah çok kalabalık."
+    ]
+  },
+  "kid_vehicles.s3_skateboard_park": {
+    "text": "Kız kardeşim her gün parkta kaykay sürer.",
+    "alt": [
+      "Kız kardeşim her gün parkta kaykayına biner.",
+      "Kız kardeşim parkta her gün kaykay sürer."
+    ]
+  },
+  "kid_months_weather.s1_sunny_today": {
+    "text": "Bugün hava güneşli.",
+    "alt": ["Bugün güneşli."]
+  },
+  "kid_months_weather.s1_rains_april": {
+    "text": "Nisanda yağmur yağar.",
+    "alt": ["Nisan ayında yağmur yağar."]
+  },
+  "kid_months_weather.s1_birthday_may": {
+    "text": "Doğum günüm mayısta.",
+    "alt": ["Doğum günüm mayıs ayında."]
+  },
+  "kid_months_weather.s1_weather_cold": {
+    "text": "Hava soğuk.",
+    "alt": ["Hava soğuktur."]
+  },
+  "kid_months_weather.s1_wind_strong": {
+    "text": "Rüzgâr güçlü.",
+    "alt": ["Rüzgar güçlü.", "Rüzgâr sert.", "Rüzgar sert."]
+  },
+  "kid_months_weather.s1_snowman": {
+    "text": "Kardan adam yaparız.",
+    "alt": ["Biz kardan adam yaparız.", "Kardan adam yapıyoruz."]
+  },
+  "kid_months_weather.s2_umbrella": {
+    "text": "Yağmurlu günlerde şemsiyemi alırım.",
+    "alt": ["Yağmurlu günlerde şemsiyemi yanıma alırım."]
+  },
+  "kid_months_weather.s2_summer_vacation": {
+    "text": "Yaz tatilimiz haziranda başlar.",
+    "alt": ["Yaz tatilimiz haziran ayında başlar."]
+  },
+  "kid_months_weather.s2_leaves_fall": {
+    "text": "Sonbaharda yapraklar ağaçlardan düşer.",
+    "alt": ["Sonbaharda ağaçlardan yapraklar düşer.", "Yapraklar sonbaharda ağaçlardan düşer."]
+  },
+  "kid_months_weather.s2_fog_morning": {
+    "text": "Bu sabah çok sis var.",
+    "alt": ["Bu sabah hava çok sisli."]
+  },
+  "kid_months_weather.s2_storm_thunder": {
+    "text": "Fırtınada gök gürültüsü duyuyorum.",
+    "alt": ["Fırtına sırasında gök gürültüsü duyuyorum.", "Fırtınada gök gürültüsünü duyuyorum."]
+  },
+  "kid_months_weather.s2_wet_shoes": {
+    "text": "Ayakkabılarım yağmurdan ıslandı.",
+    "alt": ["Ayakkabılarım yağmurdan ıslak."]
+  },
+  "kid_months_weather.s2_picnic_warm": {
+    "text": "Ilık günlerde piknik yaparız.",
+    "alt": ["Sıcak günlerde piknik yaparız.", "Ilık günlerde piknik yapıyoruz."]
+  },
+  "kid_months_weather.s2_december_cold": {
+    "text": "Aralık ve ocak çok soğuk.",
+    "alt": [
+      "Ocak ve aralık çok soğuk.",
+      "Aralık ve ocak çok soğuktur.",
+      "Aralık ve ocak ayları çok soğuktur."
+    ]
+  },
+  "kid_months_weather.s3_rainbow": {
+    "text": "Yağmurdan sonra gökyüzünde bir gökkuşağı görebiliriz.",
+    "alt": ["Yağmurdan sonra gökyüzünde gökkuşağı görebiliriz."]
+  },
+  "kid_months_weather.s3_temperature": {
+    "text": "Bugün sıcaklık yirmi derece, yani hava ılık.",
+    "alt": [
+      "Bugün sıcaklık yirmi derece, bu yüzden hava ılık.",
+      "Bugün hava yirmi derece, yani ılık."
+    ]
+  },
+  "kid_months_weather.s3_snow_school": {
+    "text": "Çok kar yağınca okula gitmeyiz.",
+    "alt": ["Çok kar yağdığında okula gitmeyiz."]
+  },
+  "kid_months_weather.s3_winter_coat": {
+    "text": "Kışın montumu giyer, atkımı ve eldivenlerimi takarım.",
+    "alt": ["Kışın montumu, atkımı ve eldivenlerimi giyerim."]
+  },
+  "kid_months_weather.s3_birthday_october": {
+    "text": "Erkek kardeşim ekimde doğdu, bu yüzden doğum günü sonbaharda.",
+    "alt": [
+      "Kardeşim ekimde doğdu, bu yüzden doğum günü sonbaharda.",
+      "Erkek kardeşim ekim ayında doğdu, yani doğum günü sonbaharda."
+    ]
+  },
+  "kid_months_weather.s3_windy_kites": {
+    "text": "Rüzgârlı günlerde parkta uçurtmalarımızı uçururuz.",
+    "alt": [
+      "Rüzgarlı günlerde parkta uçurtmalarımızı uçururuz.",
+      "Rüzgârlı günlerde parkta uçurtma uçururuz.",
+      "Rüzgarlı günlerde parkta uçurtma uçururuz."
+    ]
+  },
+  "kid_months_weather.s3_july_hot": {
+    "text": "Temmuz ve ağustosta hava çok sıcak ve kurudur.",
+    "alt": [
+      "Temmuz ve ağustosta hava çok sıcak ve kuru.",
+      "Temmuzda ve ağustosta hava çok sıcak ve kuru."
+    ]
+  },
+  "kid_months_weather.s3_spring_flowers": {
+    "text": "İlkbaharda ağaçlar yeşildir ve çok çiçek vardır.",
+    "alt": [
+      "İlkbaharda ağaçlar yeşil olur ve çok çiçek açar.",
+      "İlkbaharda ağaçlar yeşil ve çok çiçek var."
+    ]
+  },
+  "kid_nature.s1_sky_blue": {
+    "text": "Gökyüzü mavi.",
+    "alt": ["Gökyüzü mavidir."]
+  },
+  "kid_nature.s1_tree_tall": {
+    "text": "Ağaç çok uzun.",
+    "alt": ["Ağaç çok yüksek."]
+  },
+  "kid_nature.s1_moon_big": {
+    "text": "Bu gece ay büyük.",
+    "alt": ["Ay bu gece büyük."]
+  },
+  "kid_nature.s1_fire_hot": {
+    "text": "Ateş sıcak!",
+    "alt": ["Ateş sıcaktır!", "Ateş sıcak."]
+  },
+  "kid_nature.s1_flowers_red": {
+    "text": "Çiçekler kırmızı.",
+    "alt": ["Çiçekler kırmızıdır."]
+  },
+  "kid_nature.s1_fish_river": {
+    "text": "Balıklar nehirde yaşar.",
+    "alt": ["Nehirde balıklar yaşar."]
+  },
+  "kid_nature.s1_play_beach": {
+    "text": "Plajda oynarız.",
+    "alt": ["Biz plajda oynarız.", "Plajda oynuyoruz."]
+  },
+  "kid_nature.s1_leaves_green": {
+    "text": "Yapraklar yeşil.",
+    "alt": ["Yapraklar yeşildir."]
+  },
+  "kid_nature.s2_hill_sunday": {
+    "text": "Her pazar tepeye yürürüz.",
+    "alt": ["Her pazar tepeye çıkarız.", "Her pazar tepeye tırmanırız."]
+  },
+  "kid_nature.s2_bird_nest": {
+    "text": "Kuş ağaçta yuva yapar.",
+    "alt": ["Kuş ağaçta bir yuva yapar.", "Kuş ağaçta yuva yapıyor."]
+  },
+  "kid_nature.s2_shells_beach": {
+    "text": "Plajda güzel deniz kabukları bulurum.",
+    "alt": ["Plajda güzel deniz kabukları buluyorum.", "Plajda güzel kabuklar bulurum."]
+  },
+  "kid_nature.s2_plants_water": {
+    "text": "Bitkiler büyümek için suya ve güneşe ihtiyaç duyar.",
+    "alt": [
+      "Bitkilerin büyümek için suya ve güneşe ihtiyacı var.",
+      "Bitkiler büyümek için güneşe ve suya ihtiyaç duyar."
+    ]
+  },
+  "kid_nature.s2_desert_hot": {
+    "text": "Çöl çok sıcak ve kurudur.",
+    "alt": ["Çöl çok sıcak ve kuru.", "Çöl çok kuru ve sıcak."]
+  },
+  "kid_nature.s2_waves_big": {
+    "text": "Okyanustaki dalgalar büyük.",
+    "alt": ["Okyanusta dalgalar büyük.", "Okyanustaki dalgalar büyüktür."]
+  },
+  "kid_nature.s2_mud_boots": {
+    "text": "Çizmelerim çamurdan kirlendi.",
+    "alt": ["Çizmelerim çamurdan kirli."]
+  },
+  "kid_nature.s2_cave_dark": {
+    "text": "Mağaranın içi çok karanlık.",
+    "alt": ["Mağarada çok karanlık.", "Mağaranın içi çok karanlıktır."]
+  },
+  "kid_nature.s3_seed_tree": {
+    "text": "Küçük bir tohumu sularsan ağaca dönüşebilir.",
+    "alt": ["Küçük bir tohumu sularsan büyüyüp ağaç olabilir."]
+  },
+  "kid_nature.s3_waterfall": {
+    "text": "İki dağın arasında büyük bir şelale var.",
+    "alt": ["İki dağ arasında büyük bir şelale var."]
+  },
+  "kid_nature.s3_island_boat": {
+    "text": "Yazın adaya tekneyle gideriz.",
+    "alt": ["Yazın tekneyle adaya gideriz.", "Yaz aylarında adaya tekneyle gideriz."]
+  },
+  "kid_nature.s3_forest_animals": {
+    "text": "Köyümüzün yakınındaki ormanda birçok hayvan yaşar.",
+    "alt": [
+      "Köyümüzün yakınındaki ormanda çok hayvan yaşar.",
+      "Köyümüzün yanındaki ormanda birçok hayvan yaşar."
+    ]
+  },
+  "kid_nature.s3_volcano": {
+    "text": "Uzun zaman önce bu eski yanardağdan ateş çıktı.",
+    "alt": [
+      "Çok eskiden bu yanardağdan ateş çıktı.",
+      "Uzun zaman önce bu eski yanardağdan ateş çıkardı."
+    ]
+  },
+  "kid_nature.s3_our_world": {
+    "text": "Dünyamız mavi okyanusları ve yeşil ormanları olan güzel bir gezegen.",
+    "alt": [
+      "Dünyamız yeşil ormanları ve mavi okyanusları olan güzel bir gezegen.",
+      "Dünyamız mavi okyanusları ve yeşil ormanlarıyla güzel bir gezegen."
+    ]
+  },
+  "kid_nature.s3_lightning": {
+    "text": "Gökyüzünde şimşek çakınca içeride kalırız.",
+    "alt": ["Gökyüzünde şimşek çaktığında içeride kalırız.", "Şimşek çakınca içeride kalırız."]
+  },
+  "kid_nature.s3_frogs_pond": {
+    "text": "Küçük kurbağalar bizi görünce gölete atlar.",
+    "alt": [
+      "Küçük kurbağalar bizi gördüklerinde gölete atlar.",
+      "Küçük kurbağalar bizi görünce gölete atlıyor."
+    ]
+  },
+  "kid_places.s1_park_big": {
+    "text": "Park çok büyük.",
+    "alt": ["Park çok büyüktür."]
+  },
+  "kid_places.s1_go_zoo": {
+    "text": "Hayvanat bahçesine gideriz.",
+    "alt": ["Hayvanat bahçesine gidiyoruz.", "Biz hayvanat bahçesine gideriz."]
+  },
+  "kid_places.s1_under_bed": {
+    "text": "Yatağın altında.",
+    "alt": ["O yatağın altında."]
+  },
+  "kid_places.s1_store_near": {
+    "text": "Mağaza buraya yakın.",
+    "alt": ["Mağaza yakın.", "Mağaza yakında."]
+  },
+  "kid_places.s1_why_here": {
+    "text": "Neden buradasın?",
+    "alt": ["Niye buradasın?", "Sen neden buradasın?"]
+  },
+  "kid_places.s1_what_place": {
+    "text": "Burası neresi?",
+    "alt": ["Burası ne?", "Bu yer ne?"]
+  },
+  "kid_places.s1_live_village": {
+    "text": "Bir köyde yaşıyorum.",
+    "alt": ["Köyde yaşıyorum.", "Ben bir köyde yaşıyorum.", "Bir köyde yaşarım."]
+  },
+  "kid_places.s2_hospital_park": {
+    "text": "Hastane parkın yanında.",
+    "alt": ["Hastane parkın yanındadır."]
+  },
+  "kid_places.s2_bread_supermarket": {
+    "text": "Süpermarketten ekmek alırız.",
+    "alt": ["Süpermarketten ekmek alıyoruz.", "Ekmeği süpermarketten alırız."]
+  },
+  "kid_places.s2_post_office": {
+    "text": "Affedersiniz, postane nerede?",
+    "alt": ["Affedersin, postane nerede?", "Pardon, postane nerede?", "Postane nerede?"]
+  },
+  "kid_places.s2_mother_bank": {
+    "text": "Annem bankada çalışır.",
+    "alt": ["Annem bankada çalışıyor."]
+  },
+  "kid_places.s2_pool_saturday": {
+    "text": "Cumartesi havuzda yüzerim.",
+    "alt": ["Cumartesi günü havuzda yüzerim.", "Cumartesileri havuzda yüzerim."]
+  },
+  "kid_places.s2_library_books": {
+    "text": "Kütüphanede çok kitap var.",
+    "alt": ["Kütüphanede birçok kitap var.", "Kütüphanede bir sürü kitap var."]
+  },
+  "kid_places.s2_toy_store_corner": {
+    "text": "Oyuncakçı köşede.",
+    "alt": ["Oyuncak mağazası köşede.", "Oyuncakçı köşededir."]
+  },
+  "kid_places.s2_school_far": {
+    "text": "Okulum buradan uzak değil.",
+    "alt": ["Okulum buraya uzak değil."]
+  },
+  "kid_places.s3_movie_saturday": {
+    "text": "Cumartesi sinemada film izleriz.",
+    "alt": ["Cumartesi günü sinemada film izleriz.", "Cumartesi sinemada film izliyoruz."]
+  },
+  "kid_places.s3_bridge_river": {
+    "text": "Şehrimizde nehrin üstünde eski bir köprü var.",
+    "alt": ["Şehrimizde nehrin üzerinde eski bir köprü var."]
+  },
+  "kid_places.s3_grandma_farm": {
+    "text": "Büyükannemin köyde inekleri ve tavukları olan bir çiftliği var.",
+    "alt": [
+      "Anneannemin köyde inekleri ve tavukları olan bir çiftliği var.",
+      "Babaannemin köyde inekleri ve tavukları olan bir çiftliği var."
+    ]
+  },
+  "kid_places.s3_pharmacy_between": {
+    "text": "Eczane bankayla postanenin arasında.",
+    "alt": [
+      "Eczane postaneyle bankanın arasında.",
+      "Eczane banka ile postanenin arasında.",
+      "Eczane bankayla postane arasında."
+    ]
+  },
+  "kid_places.s3_fire_station": {
+    "text": "İtfaiye araçları okulumuzun yakınındaki itfaiye istasyonunda bekler.",
+    "alt": [
+      "İtfaiye araçları okulumuzun yanındaki itfaiye istasyonunda bekler.",
+      "İtfaiye araçları okulumuzun yakınındaki itfaiyede bekler."
+    ]
+  },
+  "kid_places.s3_police_lost": {
+    "text": "Kaybolursan bir polisten yardım iste.",
+    "alt": [
+      "Kaybolursan bir polis memurundan yardım iste.",
+      "Kaybolduğunda bir polisten yardım iste."
+    ]
+  },
+  "kid_places.s3_museum_bones": {
+    "text": "Müzede çok eski dinozor kemikleri görebiliriz.",
+    "alt": ["Müzede çok eski dinozor kemiklerini görebiliriz."]
+  },
+  "kid_places.s3_hotel_beach": {
+    "text": "Yazın plaja yakın bir otelde kalırız.",
+    "alt": ["Yazın plaja yakın bir otelde kalıyoruz.", "Yazları plaja yakın bir otelde kalırız."]
+  },
+  "kid_actions.s1_run_fast": {
+    "text": "Hızlı koşarım.",
+    "alt": ["Hızlı koşuyorum.", "Ben hızlı koşarım."]
+  },
+  "kid_actions.s1_dance_sing": {
+    "text": "Dans eder ve şarkı söyleriz.",
+    "alt": [
+      "Dans edip şarkı söyleriz.",
+      "Şarkı söyler ve dans ederiz.",
+      "Biz dans eder ve şarkı söyleriz."
+    ]
+  },
+  "kid_actions.s1_draws_cat": {
+    "text": "O bir kedi çizer.",
+    "alt": ["O kedi çizer.", "Bir kedi çiziyor.", "O bir kedi çiziyor."]
+  },
+  "kid_actions.s1_sit_chair": {
+    "text": "Lütfen sandalyeye otur.",
+    "alt": ["Sandalyeye otur, lütfen."]
+  },
+  "kid_actions.s1_drink_water": {
+    "text": "Su içerim.",
+    "alt": ["Su içiyorum.", "Ben su içerim."]
+  },
+  "kid_actions.s1_baby_sleeping": {
+    "text": "Bebek uyuyor."
+  },
+  "kid_actions.s1_catch_ball": {
+    "text": "Topu yakala!",
+    "alt": ["Topu yakala."]
+  },
+  "kid_actions.s1_wait_me": {
+    "text": "Beni bekle!",
+    "alt": ["Beni bekle."]
+  },
+  "kid_actions.s2_help_kitchen": {
+    "text": "Mutfakta anneme yardım ederim.",
+    "alt": ["Mutfakta anneme yardım ediyorum.", "Anneme mutfakta yardım ederim."]
+  },
+  "kid_actions.s2_music_car": {
+    "text": "Arabada müzik dinleriz.",
+    "alt": ["Arabada müzik dinliyoruz."]
+  },
+  "kid_actions.s2_sand_castle": {
+    "text": "Plajda kumdan kale yaparız.",
+    "alt": ["Plajda kumdan bir kale yaparız.", "Plajda kumdan kale yapıyoruz."]
+  },
+  "kid_actions.s2_find_pencil": {
+    "text": "Mavi kalemimi bulamıyorum.",
+    "alt": ["Mavi kurşun kalemimi bulamıyorum."]
+  },
+  "kid_actions.s2_brother_jumps": {
+    "text": "Küçük erkek kardeşim yatakta zıplar.",
+    "alt": [
+      "Küçük kardeşim yatakta zıplar.",
+      "Küçük erkek kardeşim yatakta zıplıyor.",
+      "Küçük kardeşim yatakta zıplıyor."
+    ]
+  },
+  "kid_actions.s2_father_cooks": {
+    "text": "Babam her akşam yemek pişirir.",
+    "alt": ["Babam her akşam yemek yapar.", "Babam her akşam akşam yemeği pişirir."]
+  },
+  "kid_actions.s2_wake_seven": {
+    "text": "Her gün yedide uyanırım.",
+    "alt": ["Her gün saat yedide uyanırım."]
+  },
+  "kid_actions.s2_push_door": {
+    "text": "Kapıyı it, çekme.",
+    "alt": ["Kapıyı it, çekme!"]
+  },
+  "kid_actions.s3_cartoons": {
+    "text": "Okuldan sonra çizgi film izlerim, sonra ödevimi yaparım.",
+    "alt": [
+      "Okuldan sonra çizgi film izleyip ödevimi yaparım.",
+      "Okuldan sonra çizgi film izlerim ve sonra ödevimi yaparım."
+    ]
+  },
+  "kid_actions.s3_carry_bag": {
+    "text": "Bu ağır çantayı taşımama yardım eder misin, lütfen?",
+    "alt": ["Lütfen bu ağır çantayı taşımama yardım eder misin?"]
+  },
+  "kid_actions.s3_throw_ball": {
+    "text": "Topu atarım ve köpeğim onu yakalamak için koşar.",
+    "alt": [
+      "Topu atarım, köpeğim onu yakalamak için koşar.",
+      "Topu atıyorum ve köpeğim onu yakalamak için koşuyor."
+    ]
+  },
+  "kid_actions.s3_baby_cries": {
+    "text": "Bebek acıktığında ya da yorulduğunda ağlar.",
+    "alt": ["Bebek aç ya da yorgun olunca ağlar.", "Bebek aç veya yorgun olduğunda ağlar."]
+  },
+  "kid_actions.s3_laugh_story": {
+    "text": "Öğretmenimiz komik bir hikâye anlatınca çok güleriz.",
+    "alt": [
+      "Öğretmenimiz komik bir hikaye anlatınca çok güleriz.",
+      "Öğretmenimiz komik bir hikâye anlattığında çok güleriz."
+    ]
+  },
+  "kid_actions.s3_climb_tree": {
+    "text": "Arkadaşımla bahçedeki büyük ağaca tırmanırız.",
+    "alt": [
+      "Arkadaşım ve ben bahçedeki büyük ağaca tırmanırız.",
+      "Arkadaşımla bahçedeki büyük ağaca tırmanıyoruz."
+    ]
+  },
+  "kid_actions.s3_story_bed": {
+    "text": "Ben uyumadan önce annem bana bir hikâye okur.",
+    "alt": [
+      "Annem ben uyumadan önce bana bir hikâye okur.",
+      "Ben uyumadan önce annem bana bir hikaye okur.",
+      "Annem ben uyumadan önce bana bir hikaye okur."
+    ]
+  },
+  "kid_actions.s3_summer_sea": {
+    "text": "Yazın denizde yüzer ve kumda oynarız.",
+    "alt": ["Yazın denizde yüzüp kumda oynarız.", "Yazın denizde yüzeriz ve kumda oynarız."]
+  },
+  "kid_describing.s1_box_heavy": {
+    "text": "Bu kutu ağır.",
+    "alt": ["Bu kutu ağırdır."]
+  },
+  "kid_describing.s1_bag_empty": {
+    "text": "Çantam boş."
+  },
+  "kid_describing.s1_cat_soft": {
+    "text": "Kedi yumuşak.",
+    "alt": ["Kedi yumuşacık."]
+  },
+  "kid_describing.s1_are_afraid": {
+    "text": "Korkuyor musun?",
+    "alt": ["Korktun mu?", "Korkmuş musun?"]
+  },
+  "kid_describing.s2_elephant_strong": {
+    "text": "Fil büyük ve çok güçlü.",
+    "alt": ["Fil büyüktür ve çok güçlüdür."]
+  },
+  "kid_describing.s2_quiet_baby": {
+    "text": "Sessiz ol, bebek uyuyor.",
+    "alt": ["Sessiz olun, bebek uyuyor."]
+  },
+  "kid_describing.s2_old_bicycle": {
+    "text": "Eski bisikletim hâlâ çok hızlı.",
+    "alt": ["Eski bisikletim hala çok hızlı."]
+  },
+  "kid_describing.s2_glass_full": {
+    "text": "Bardağım soğuk suyla dolu.",
+    "alt": ["Bardağım soğuk su dolu."]
+  },
+  "kid_describing.s2_dark_afraid": {
+    "text": "Karanlık ve korkuyorum.",
+    "alt": ["Hava karanlık ve korkuyorum.", "Ortalık karanlık ve korkuyorum."]
+  },
+  "kid_describing.s2_grandfather_funny": {
+    "text": "Dedem çok komik ve nazik.",
+    "alt": ["Büyükbabam çok komik ve nazik.", "Dedem çok nazik ve komik."]
+  },
+  "kid_describing.s2_street_dangerous": {
+    "text": "Sokakta oynamak tehlikelidir.",
+    "alt": ["Sokakta oynamak tehlikeli."]
+  },
+  "kid_describing.s2_bread_soft": {
+    "text": "Bu ekmek yumuşak ve sıcak.",
+    "alt": [
+      "Bu ekmek sıcak ve yumuşak.",
+      "Bu ekmek yumuşacık ve sıcak.",
+      "Bu ekmek yumuşak ve ılık."
+    ]
+  },
+  "kid_describing.s3_library_noisy": {
+    "text": "Kütüphane sessiz ama çocuk parkı çok gürültülü.",
+    "alt": [
+      "Kütüphane sessizdir ama çocuk parkı çok gürültülüdür.",
+      "Çocuk parkı çok gürültülü ama kütüphane sessiz.",
+      "Kütüphane sessiz ama oyun parkı çok gürültülü.",
+      "Kütüphane sessiz ama park çok gürültülü."
+    ]
+  },
+  "kid_describing.s3_brave_sister": {
+    "text": "Kız kardeşim cesur çünkü karanlıktan korkmuyor.",
+    "alt": [
+      "Kız kardeşim cesurdur çünkü karanlıktan korkmaz.",
+      "Kız kardeşim cesur çünkü karanlıktan korkmaz."
+    ]
+  },
+  "kid_describing.s3_heavy_light": {
+    "text": "Büyük kutu ağır ama küçük kutu hafif.",
+    "alt": ["Küçük kutu hafif ama büyük kutu ağır.", "Büyük kutu ağırdır ama küçük kutu hafiftir."]
+  },
+  "kid_describing.s3_park_safe": {
+    "text": "Park güvenli çünkü içinde hiç araba yok.",
+    "alt": ["Park güvenlidir çünkü içinde araba yok.", "Park güvenli çünkü içinde araba yok."]
+  },
+  "kid_describing.s3_angry_toys": {
+    "text": "Erkek kardeşim oyuncaklarımı alınca kızarım.",
+    "alt": [
+      "Kardeşim oyuncaklarımı alınca kızarım.",
+      "Erkek kardeşim oyuncaklarımı aldığında kızıyorum."
+    ]
+  },
+  "kid_describing.s3_long_day": {
+    "text": "Okulda uzun bir günden sonra aç ve yorgunum.",
+    "alt": [
+      "Okulda uzun bir günün ardından aç ve yorgunum.",
+      "Okulda uzun bir günden sonra yorgun ve açım."
+    ]
+  },
+  "kid_describing.s3_soup_hot": {
+    "text": "Çorba çok sıcak, bu yüzden biraz beklerim.",
+    "alt": [
+      "Çorba çok sıcak, o yüzden biraz bekliyorum.",
+      "Çorba çok sıcak, bu yüzden biraz bekliyorum."
+    ]
+  },
+  "kid_describing.s3_dirty_hands": {
+    "text": "Ellerim kirli, bu yüzden yemekten önce yıkarım.",
+    "alt": [
+      "Ellerim kirli, o yüzden yemekten önce yıkarım.",
+      "Ellerim kirli, bu yüzden yemeden önce yıkarım.",
+      "Ellerim kirli, bu yüzden yemekten önce onları yıkarım."
+    ]
   }
 }

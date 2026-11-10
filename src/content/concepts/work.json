@@ -31,7 +31,7 @@
     "id": "work.driver",
     "topic": "work",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {
@@ -150,7 +150,7 @@
     "id": "work.farmer",
     "topic": "work",
     "kind": "word",
-    "ageGroups": ["adult"],
+    "ageGroups": ["adult", "kid"],
     "tags": ["noun"]
   },
   {

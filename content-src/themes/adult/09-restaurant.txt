@@ -23,6 +23,34 @@ restaurant.vegetarian # vegetarian = vejetaryen
 restaurant.spicy # spicy = acı
 restaurant.grilled # grilled = ızgara
 restaurant.fried # fried = kızartma
+@kind word noun
+restaurant.cafe|cafe|café;coffee shop|kafe|kafeterya
+@kind phrase
+restaurant.book_table|book a table|reserve a table;make a reservation|masa ayırtmak|yer ayırtmak;rezervasyon yaptırmak
+restaurant.todays_special|today's special|daily special;special of the day;dish of the day;special|günün yemeği|günün menüsü;günün spesiyali
+@kind word noun
+restaurant.soft_drink|soft drink|soda;fizzy drink;pop|gazlı içecek|meşrubat
+restaurant.sparkling_water|sparkling water|mineral water;soda water|maden suyu|soda
+nature.ice
+restaurant.kebab|kebab|kebap;kabob|kebap|
+restaurant.steak|steak||biftek|
+@kind word verb
+restaurant.serve|serve||servis yapmak|servis etmek;sunmak
+restaurant.taste|taste||tadına bakmak|tatmak
+@kind word noun
+restaurant.buffet|buffet|open buffet|açık büfe|büfe
+@kind word adjective
+restaurant.reserved|reserved|booked|rezerve|ayrılmış;rezerveli
+restaurant.homemade|homemade|home-made|ev yapımı|
+restaurant.boiled|boiled||haşlanmış|haşlama
+restaurant.baked|baked|oven-baked|fırında|fırınlanmış;fırında pişmiş
+@kind word noun
+restaurant.terrace|terrace|patio;outdoor seating|teras|
+@kind word noun
+restaurant.high_chair|high chair|highchair|mama sandalyesi|bebek sandalyesi
+restaurant.straw|straw|drinking straw|pipet|kamış
+restaurant.tablecloth|tablecloth|table cloth|masa örtüsü|
+restaurant.toothpick|toothpick||kürdan|
 
 @sentences 1
 restaurant.a1_table_two # A table for two, please. = İki kişilik bir masa, lütfen.
@@ -35,6 +63,9 @@ restaurant.a1_food_good # The food is very good. = Yemek çok güzel.
 restaurant.a1_where_restaurant # Where is the restaurant? = Restoran nerede?
 restaurant.a1_meat_cold # This meat is cold. = Bu et soğuk.
 restaurant.a1_two_coffees # We would like two coffees. = İki kahve istiyoruz.
+sentence.a2_table_two # moved from shopping/travel (LNG-45)
+sentence.a2_the_bill # moved from shopping/travel (LNG-45)
+sentence.a2_ate_fish # moved from shopping/travel (LNG-45)
 
 @sentences 2
 restaurant.a2_see_menu # Can we see the menu for today, please? = Bugünkü menüyü görebilir miyiz, lütfen?

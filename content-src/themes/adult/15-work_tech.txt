@@ -36,14 +36,42 @@ tech.screen # screen = ekran
 tech.keyboard # keyboard = klavye
 tech.charger # charger = şarj aleti
 tech.download # download = indirmek
+@kind word noun
+work_tech.team|team||ekip|takım
+work_tech.contract|contract||sözleşme|kontrat
+work_tech.deadline|deadline||son teslim tarihi|teslim tarihi;son tarih
+work_tech.file|file||dosya|
+work_tech.printer|printer||yazıcı|
+@kind word verb
+work_tech.log_in|log in|sign in|giriş yapmak|oturum açmak
+work_tech.upload|upload||yüklemek|karşıya yüklemek
 
 @sentences 1
 sentence.a2_forgot_password # I forgot my password. = Şifremi unuttum.
 sentence.a2_meeting_long # The meeting was very long. = Toplantı çok uzundu.
 sentence.a2_meeting_nine # The meeting will start at nine. = Toplantı saat dokuzda başlayacak.
-sentence.a2_meet_manager # I have a meeting with my manager. = Müdürümle toplantım var.
-sentence.a2_company_office # Our company has a new office. = Şirketimizin yeni bir ofisi var.
-sentence.a2_colleague_report # My colleague helped me with the report. = İş arkadaşım raporda bana yardım etti.
 sentence.a2_send_email # Please send me an email. = Lütfen bana bir e-posta gönder.
-sentence.a2_salary_good # The salary is good but the work is difficult. = Maaş iyi ama iş zor.
+sentence.a2_company_office # Our company has a new office. = Şirketimizin yeni bir ofisi var.
+sentence.a2_meet_manager # I have a meeting with my manager. = Müdürümle toplantım var.
+sentence.a2_work_saturday # I have to work on Saturday. = Cumartesi çalışmak zorundayım.
 sentence.a2_interview_friday # She has a job interview on Friday. = Cuma günü iş görüşmesi var.
+
+@sentences 2
+sentence.a2_salary_good # The salary is good but the work is difficult. = Maaş iyi ama iş zor.
+sentence.a2_colleague_report # My colleague helped me with the report. = İş arkadaşım raporda bana yardım etti.
+sentence.a2_speaking_phone # She is speaking on the phone now. = Şu anda telefonda konuşuyor.
+work_tech.s2_battery_low|My laptop battery is low. Do you have a charger?|My laptop battery is low. Have you got a charger?;The battery of my laptop is low. Do you have a charger?|Dizüstü bilgisayarımın şarjı az. Şarj aletin var mı?|Laptopumun şarjı bitmek üzere. Şarj aletin var mı?;Dizüstü bilgisayarımın şarjı azaldı. Şarj aletiniz var mı?
+work_tech.s2_printer|The printer on our floor is not working again.|The printer on our floor isn't working again.;The printer on our floor is not working again today.|Bizim kattaki yazıcı yine çalışmıyor.|Kattaki yazıcı yine çalışmıyor.;Bizim kattaki yazıcı gene bozuldu.
+work_tech.s2_deadline|The deadline for this project is next Friday.|The deadline for the project is next Friday.;Next Friday is the deadline for this project.;This project's deadline is next Friday.|Bu projenin son teslim tarihi gelecek cuma.|Bu projenin teslim tarihi önümüzdeki cuma.;Bu proje gelecek cuma teslim edilecek.
+work_tech.s2_upload_file|Can you upload the file to the website today?|Could you upload the file to the website today?;Can you upload the file today to the website?;Today can you upload the file to the website?|Dosyayı bugün web sitesine yükleyebilir misin?|Dosyayı bugün siteye yükleyebilir misin?;Bugün dosyayı web sitesine yükleyebilir misiniz?
+work_tech.s2_new_team|I started a new job, and my team is very friendly.|I have started a new job, and my team is very friendly.;I've started a new job, and my team is very friendly.;I started a new job, and my team is really friendly.|Yeni bir işe başladım ve ekibim çok cana yakın.|Yeni bir işe başladım, ekibim çok samimi.
+
+@sentences 3
+work_tech.s3_contract_salary|Before I sign the contract, I would like to talk about the salary and the working hours.|Before I sign the contract, I'd like to talk about the salary and the working hours.;I would like to talk about the salary and the working hours before I sign the contract.;I'd like to talk about the salary and the working hours before I sign the contract.;Before I sign the contract, I would like to talk about the working hours and the salary.;Before I sign the contract, I want to talk about the salary and the working hours.|Sözleşmeyi imzalamadan önce maaş ve çalışma saatleri hakkında konuşmak istiyorum.|Sözleşmeyi imzalamadan önce maaşı ve çalışma saatlerini konuşmak isterim.
+work_tech.s3_log_in|I cannot log in to my email because I forgot my password again this morning.|I can't log in to my email because I forgot my password again this morning.;I cannot log in to my email because this morning I forgot my password again.;I can't log in to my email because this morning I forgot my password again.;I cannot sign in to my email because I forgot my password again this morning.;I can't sign in to my email because I forgot my password again this morning.|E-postama giriş yapamıyorum çünkü bu sabah şifremi yine unuttum.|Bu sabah şifremi yine unuttuğum için e-postama giremiyorum.
+work_tech.s3_meeting_thursday|The meeting with the customer is now on Thursday, so please send me the report by Wednesday.|The meeting with the customer is now on Thursday, so please send the report to me by Wednesday.;The meeting with the customer is on Thursday now, so please send me the report by Wednesday.;The meeting with the client is now on Thursday, so please send me the report by Wednesday.;The meeting with the customer has been moved to Thursday, so please send me the report by Wednesday.;The meeting with the client has been moved to Thursday, so please send me the report by Wednesday.;The meeting with the customer was moved to Thursday, so please send me the report by Wednesday.|Müşteriyle toplantı perşembeye alındı, bu yüzden lütfen raporu bana çarşambaya kadar gönder.|Müşteriyle toplantı artık perşembe günü, bu yüzden lütfen raporu bana çarşambaya kadar gönder.;Müşteri toplantısı perşembeye alındı, lütfen raporu çarşambaya kadar bana gönderin.
+work_tech.s3_work_from_home|Twice a week I work from home, so I need a fast internet connection and a good laptop.|I work from home twice a week, so I need a fast internet connection and a good laptop.;Twice a week I work from home, so I need a good laptop and a fast internet connection.;I work from home twice a week, so I need a good laptop and a fast internet connection.|Haftada iki gün evden çalışıyorum, bu yüzden hızlı bir internet bağlantısına ve iyi bir dizüstü bilgisayara ihtiyacım var.|Haftada iki kez evden çalışıyorum, o yüzden hızlı internete ve iyi bir dizüstü bilgisayara ihtiyacım var.
+work_tech.s3_interview_experience|In the interview, they asked me about my experience and why I wanted to work for their company.|At the interview, they asked me about my experience and why I wanted to work for their company.;In the interview, they asked me about my experience and why I wanted to work at their company.;They asked me about my experience and why I wanted to work for their company in the interview.|Görüşmede bana deneyimimi ve neden onların şirketinde çalışmak istediğimi sordular.|İş görüşmesinde deneyimimi ve neden şirketlerinde çalışmak istediğimi sordular.
+work_tech.s3_screen_broken|I dropped my phone this morning and now the screen is broken, so I cannot read my messages.|I dropped my phone this morning and now the screen is broken, so I can't read my messages.;This morning I dropped my phone and now the screen is broken, so I cannot read my messages.;This morning I dropped my phone and now the screen is broken, so I can't read my messages.|Bu sabah telefonumu düşürdüm ve şimdi ekranı kırık, bu yüzden mesajlarımı okuyamıyorum.|Bu sabah telefonumu düşürdüm, ekranı kırıldı, o yüzden mesajlarımı okuyamıyorum.
+work_tech.s3_boss_late|My boss was very angry because I sent the report two days after the deadline.|My boss was really angry because I sent the report two days after the deadline.;Because I sent the report two days after the deadline, my boss was very angry.;My boss was very angry because I sent the report two days late.|Patronum çok kızgındı çünkü raporu son teslim tarihinden iki gün sonra gönderdim.|Raporu teslim tarihinden iki gün sonra gönderdiğim için patronum çok kızdı.
+work_tech.s3_video_call|We have a video call with our customers in London every Monday at ten in the morning.|Every Monday at ten in the morning we have a video call with our customers in London.;We have a video call with our customers in London at ten in the morning every Monday.;Every Monday we have a video call with our customers in London at ten in the morning.;We have a video call with our clients in London every Monday at ten in the morning.|Her pazartesi sabah saat onda Londra'daki müşterilerimizle görüntülü görüşme yapıyoruz.|Her pazartesi sabah onda Londra'daki müşterilerimizle görüntülü toplantımız var.

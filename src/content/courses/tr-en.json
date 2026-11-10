@@ -2331,7 +2331,21 @@
           "idiom.never_mind",
           "idiom.get_well_soon",
           "idiom.congratulations",
-          "idiom.wait_a_minute"
+          "idiom.wait_a_minute",
+          "greetings.how_are_you",
+          "greetings.im_fine",
+          "greetings.my_name_is",
+          "greetings.okay",
+          "greetings.thanks_a_lot",
+          "greetings.how_about_you",
+          "greetings.you_too",
+          "greetings.me_too",
+          "greetings.see_you_soon",
+          "greetings.nice_to_see_you",
+          "greetings.have_a_good_weekend",
+          "greetings.enjoy_your_meal",
+          "greetings.bless_you",
+          "greetings.happy_birthday"
         ],
         "sentences": {
           "1": [
@@ -2355,6 +2369,26 @@
             "sentence.a1_sorry_late",
             "sentence.a1_thanks_help",
             "sentence.a1_see_tomorrow"
+          ],
+          "2": [
+            "greetings.s2_new_neighbor",
+            "greetings.s2_how_weekend",
+            "greetings.s2_nice_meet_finally",
+            "greetings.s2_long_time",
+            "greetings.s2_thanks_dinner",
+            "greetings.s2_sorry_name",
+            "greetings.s2_this_is_colleague",
+            "greetings.s2_have_good_trip"
+          ],
+          "3": [
+            "greetings.s3_team_manager",
+            "greetings.s3_forgot_name",
+            "greetings.s3_welcome_home",
+            "greetings.s3_heard_about_you",
+            "greetings.s3_thanks_everything",
+            "greetings.s3_late_meeting",
+            "greetings.s3_wedding",
+            "greetings.s3_call_back"
           ]
         }
       },
@@ -2419,6 +2453,26 @@
             "sentence.a1_grandfather_old",
             "sentence.a1_man_tall",
             "sentence.a1_woman_neighbor"
+          ],
+          "2": [
+            "people.s2_older_brother",
+            "people.s2_parents_retired",
+            "people.s2_how_many_children",
+            "people.s2_neighbors_friendly",
+            "people.s2_sister_teacher",
+            "people.s2_grandmother_stories",
+            "people.s2_who_that_woman",
+            "people.s2_best_friend_name"
+          ],
+          "3": [
+            "people.s3_family_sunday",
+            "people.s3_cousin_wedding",
+            "people.s3_son_university",
+            "people.s3_neighbor_cat",
+            "people.s3_twins",
+            "people.s3_grandfather_fisherman",
+            "people.s3_friends_school",
+            "people.s3_met_at_work"
           ]
         }
       },
@@ -2459,13 +2513,45 @@
           "number.thousand",
           "number.first",
           "number.second",
-          "number.third"
+          "number.third",
+          "numbers.fourth",
+          "numbers.fifth",
+          "numbers.number",
+          "numbers.half",
+          "numbers.million",
+          "numbers.phone_number",
+          "numbers.count"
         ],
         "sentences": {
           "1": [
             "sentence.a1_seven_oclock",
             "sentence.a1_dinner_seven",
-            "sentence.a1_kitchen_windows"
+            "sentence.a1_kitchen_windows",
+            "numbers.s1_phone_number",
+            "numbers.s1_three_children",
+            "numbers.s1_room_twelve",
+            "numbers.s1_twenty_liras",
+            "numbers.s1_bus_ten"
+          ],
+          "2": [
+            "numbers.s2_born_1990",
+            "numbers.s2_fifth_floor",
+            "numbers.s2_half_price",
+            "numbers.s2_call_number",
+            "numbers.s2_two_million",
+            "numbers.s2_second_time",
+            "numbers.s2_twice_week",
+            "numbers.s2_father_sixty"
+          ],
+          "3": [
+            "numbers.s3_total_four",
+            "numbers.s3_door_code",
+            "numbers.s3_marathon",
+            "numbers.s3_repeat_number",
+            "numbers.s3_child_tickets",
+            "numbers.s3_twice_year",
+            "numbers.s3_million_views",
+            "numbers.s3_eight_years"
           ]
         }
       },
@@ -2502,10 +2588,50 @@
           "food.dinner",
           "food.food",
           "fruit.fruit",
-          "vegetable.vegetable"
+          "vegetable.vegetable",
+          "food.pasta",
+          "food.sandwich",
+          "food.yogurt",
+          "food.butter",
+          "food.olive",
+          "food.honey",
+          "fruit.lemon",
+          "fruit.grapes",
+          "vegetable.cucumber",
+          "vegetable.pepper",
+          "vegetable.carrot"
         ],
         "sentences": {
-          "1": ["sentence.a1_breakfast_home", "sentence.a1_coffee_milk", "sentence.a1_not_like_tea"]
+          "1": [
+            "sentence.a1_breakfast_home",
+            "sentence.a1_coffee_milk",
+            "sentence.a1_not_like_tea",
+            "food.s1_eggs_breakfast",
+            "food.s1_bread_fresh",
+            "food.s1_no_sugar",
+            "food.s1_love_fruit",
+            "food.s1_vegetable_soup"
+          ],
+          "2": [
+            "food.s2_shopping_list",
+            "food.s2_cut_tomatoes",
+            "food.s2_turkish_breakfast",
+            "food.s2_less_sugar",
+            "food.s2_cheese_sandwich",
+            "food.s2_fruit_saturday",
+            "food.s2_lemon_tea",
+            "food.s2_pasta_tonight"
+          ],
+          "3": [
+            "food.s3_healthy_breakfast",
+            "food.s3_fresh_bread",
+            "food.s3_hide_vegetables",
+            "food.s3_run_out",
+            "food.s3_birthday_cake",
+            "food.s3_fish_friday",
+            "food.s3_village_cheese",
+            "food.s3_fruit_snack"
+          ]
         }
       },
       {
@@ -2541,7 +2667,18 @@
           "time.late",
           "time.always",
           "time.sometimes",
-          "time.never"
+          "time.never",
+          "time.quarter",
+          "time.half_hour",
+          "time.midnight",
+          "time.date",
+          "time.weekday",
+          "time.tonight",
+          "time.every_day",
+          "time.day_after_tomorrow",
+          "time.day_before_yesterday",
+          "time.half_past",
+          "time.hurry"
         ],
         "sentences": {
           "1": [
@@ -2551,7 +2688,28 @@
             "sentence.a1_rain_today",
             "sentence.a1_busy_today",
             "sentence.a1_today_tuesday",
-            "sentence.a1_always_late"
+            "sentence.a1_always_late",
+            "time.s1_meeting_noon"
+          ],
+          "2": [
+            "time.s2_half_past",
+            "time.s2_quarter_to",
+            "time.s2_next_bus",
+            "time.s2_monday_friday",
+            "time.s2_late_tonight",
+            "time.s2_day_after_tomorrow",
+            "time.s2_walk_every_day",
+            "time.s2_until_midnight"
+          ],
+          "3": [
+            "time.s3_alarm",
+            "time.s3_bus_traffic",
+            "time.s3_weekdays",
+            "time.s3_appointment",
+            "time.s3_hurry",
+            "time.s3_day_before",
+            "time.s3_whole_trip",
+            "time.s3_never_time"
           ]
         }
       },
@@ -2586,10 +2744,52 @@
           "color.brown",
           "color.black",
           "color.white",
-          "color.gray"
+          "color.gray",
+          "calendar_colors.calendar",
+          "calendar_colors.season",
+          "calendar_colors.color",
+          "calendar_colors.new_year",
+          "calendar_colors.public_holiday",
+          "calendar_colors.anniversary",
+          "calendar_colors.date_of_birth",
+          "calendar_colors.colorful",
+          "calendar_colors.light_blue",
+          "calendar_colors.navy",
+          "calendar_colors.gold",
+          "calendar_colors.silver",
+          "calendar_colors.beige"
         ],
         "sentences": {
-          "1": ["sentence.a1_holiday_july"]
+          "1": [
+            "sentence.a1_holiday_july",
+            "calendar_colors.s1_birthday_may",
+            "calendar_colors.s1_favorite_color",
+            "calendar_colors.s1_car_red",
+            "calendar_colors.s1_spring_istanbul",
+            "calendar_colors.s1_cold_january",
+            "calendar_colors.s1_black_coat",
+            "calendar_colors.s1_school_september"
+          ],
+          "2": [
+            "calendar_colors.s2_august_vacation",
+            "calendar_colors.s2_dress_blue",
+            "calendar_colors.s2_leaves_fall",
+            "calendar_colors.s2_anniversary",
+            "calendar_colors.s2_public_holiday",
+            "calendar_colors.s2_paint_room",
+            "calendar_colors.s2_new_year_eve",
+            "calendar_colors.s2_date_of_birth"
+          ],
+          "3": [
+            "calendar_colors.s3_hot_dry",
+            "calendar_colors.s3_party_saturday",
+            "calendar_colors.s3_kitchen_calendar",
+            "calendar_colors.s3_navy_suit",
+            "calendar_colors.s3_favorite_season",
+            "calendar_colors.s3_school_holidays",
+            "calendar_colors.s3_born_october",
+            "calendar_colors.s3_white_house"
+          ]
         }
       },
       {
@@ -2634,7 +2834,9 @@
           "clothes.shoes",
           "clothes.socks",
           "clothes.hat",
-          "clothes.bag"
+          "clothes.bag",
+          "clothes.scarf",
+          "clothes.gloves"
         ],
         "sentences": {
           "1": [
@@ -2642,7 +2844,30 @@
             "sentence.a1_cat_under_bed",
             "sentence.a1_car_behind_house",
             "sentence.a1_small_apartment",
-            "sentence.a1_room_clean"
+            "sentence.a1_room_clean",
+            "home_clothes.s1_wear_jacket",
+            "home_clothes.s1_where_keys",
+            "home_clothes.s1_shoes_door"
+          ],
+          "2": [
+            "home_clothes.s2_three_bedrooms",
+            "home_clothes.s2_plates_glasses",
+            "home_clothes.s2_sweater_scarf",
+            "home_clothes.s2_bigger_shirt",
+            "home_clothes.s2_phone_bedroom",
+            "home_clothes.s2_big_window",
+            "home_clothes.s2_gloves_hat",
+            "home_clothes.s2_red_dress"
+          ],
+          "3": [
+            "home_clothes.s3_bigger_apartment",
+            "home_clothes.s3_lost_keys",
+            "home_clothes.s3_living_room",
+            "home_clothes.s3_packing",
+            "home_clothes.s3_after_dinner",
+            "home_clothes.s3_garden_dream",
+            "home_clothes.s3_dress_code",
+            "home_clothes.s3_empty_fridge"
           ]
         }
       },
@@ -2675,9 +2900,56 @@
           "animal.cat",
           "animal.dog",
           "animal.bird",
-          "nature.weather"
+          "nature.weather",
+          "body.eyebrow",
+          "body.lips",
+          "body.tongue",
+          "body.chin",
+          "body.toe",
+          "body_weather.skin",
+          "body_weather.sunny",
+          "body_weather.cloudy",
+          "body_weather.rainy",
+          "body_weather.windy",
+          "body_weather.snowy",
+          "body_weather.foggy",
+          "nature.lightning",
+          "nature.rainbow",
+          "clothes.umbrella"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "body_weather.s1_head_hurts",
+            "body_weather.s1_sunny_today",
+            "body_weather.s1_wash_hands",
+            "body_weather.s1_cold_wind",
+            "body_weather.s1_blue_eyes",
+            "body_weather.s1_take_umbrella",
+            "body_weather.s1_back_hurts",
+            "body_weather.s1_snow_mountains",
+            "sentence.a2_rain_tomorrow"
+          ],
+          "2": [
+            "body_weather.s2_weather_tomorrow",
+            "body_weather.s2_cloudy_rainy",
+            "body_weather.s2_broke_arm",
+            "body_weather.s2_sunscreen",
+            "body_weather.s2_toothache",
+            "body_weather.s2_cold_hands",
+            "body_weather.s2_rainbow_sea",
+            "body_weather.s2_lightning"
+          ],
+          "3": [
+            "body_weather.s3_forecast",
+            "body_weather.s3_ice_roads",
+            "body_weather.s3_red_face",
+            "body_weather.s3_tired_eyes",
+            "body_weather.s3_april",
+            "body_weather.s3_cut_finger",
+            "body_weather.s3_snow_play",
+            "body_weather.s3_hot_summer"
+          ]
+        }
       },
       {
         "id": "adult.restaurant",
@@ -2703,7 +2975,27 @@
           "restaurant.vegetarian",
           "restaurant.spicy",
           "restaurant.grilled",
-          "restaurant.fried"
+          "restaurant.fried",
+          "restaurant.cafe",
+          "restaurant.book_table",
+          "restaurant.todays_special",
+          "restaurant.soft_drink",
+          "restaurant.sparkling_water",
+          "nature.ice",
+          "restaurant.kebab",
+          "restaurant.steak",
+          "restaurant.serve",
+          "restaurant.taste",
+          "restaurant.buffet",
+          "restaurant.reserved",
+          "restaurant.homemade",
+          "restaurant.boiled",
+          "restaurant.baked",
+          "restaurant.terrace",
+          "restaurant.high_chair",
+          "restaurant.straw",
+          "restaurant.tablecloth",
+          "restaurant.toothpick"
         ],
         "sentences": {
           "1": [
@@ -2716,7 +3008,10 @@
             "restaurant.a1_food_good",
             "restaurant.a1_where_restaurant",
             "restaurant.a1_meat_cold",
-            "restaurant.a1_two_coffees"
+            "restaurant.a1_two_coffees",
+            "sentence.a2_table_two",
+            "sentence.a2_the_bill",
+            "sentence.a2_ate_fish"
           ],
           "2": [
             "restaurant.a2_see_menu",
@@ -2783,7 +3078,12 @@
           "travel.here",
           "travel.there",
           "travel.near",
-          "travel.far"
+          "travel.far",
+          "vehicle.tram",
+          "city_directions.building",
+          "city_directions.address",
+          "city_directions.post_office",
+          "city_directions.mosque"
         ],
         "sentences": {
           "1": [
@@ -2795,6 +3095,26 @@
             "sentence.a1_work_bus",
             "sentence.a1_work_office",
             "sentence.a1_hotel_next_bank"
+          ],
+          "2": [
+            "city_directions.s2_excuse_station",
+            "city_directions.s2_straight_two_blocks",
+            "city_directions.s2_pharmacy_near",
+            "city_directions.s2_museum_far",
+            "city_directions.s2_bus_center",
+            "city_directions.s2_hotel_address",
+            "sentence.a2_best_restaurant",
+            "city_directions.s2_taxi_airport"
+          ],
+          "3": [
+            "city_directions.s3_lost_hotel",
+            "city_directions.s3_walk_bridge",
+            "city_directions.s3_bus_stop_corner",
+            "city_directions.s3_village_market",
+            "city_directions.s3_library_park",
+            "city_directions.s3_subway_traffic",
+            "city_directions.s3_post_office",
+            "city_directions.s3_ask_police"
           ]
         }
       },
@@ -2841,7 +3161,8 @@
           "position.under",
           "position.behind",
           "position.next_to",
-          "position.in_front_of"
+          "position.in_front_of",
+          "work_school.exam"
         ],
         "sentences": {
           "1": [
@@ -2851,7 +3172,28 @@
             "sentence.a1_ticket_price",
             "sentence.a1_what_job",
             "sentence.a1_learn_english",
-            "sentence.a1_know_answer"
+            "sentence.a1_know_answer",
+            "work_school.s1_lesson_nine"
+          ],
+          "2": [
+            "work_school.s2_teacher_question",
+            "work_school.s2_homework_page",
+            "work_school.s2_sister_nurse",
+            "work_school.s2_word_mean",
+            "work_school.s2_english_job",
+            "work_school.s2_teacher_not_here",
+            "work_school.s2_which_language",
+            "work_school.s2_pencil_under"
+          ],
+          "3": [
+            "work_school.s3_exam_friday",
+            "work_school.s3_teacher_fast",
+            "work_school.s3_mother_nurse",
+            "work_school.s3_brother_taxi",
+            "work_school.s3_homework_late",
+            "work_school.s3_where_when",
+            "work_school.s3_how_many",
+            "work_school.s3_doctor_engineer"
           ]
         }
       },
@@ -2883,9 +3225,56 @@
           "quality.cheap",
           "quality.busy",
           "quality.correct",
-          "quality.wrong"
+          "quality.wrong",
+          "describing.high",
+          "describing.low",
+          "describing.warm",
+          "describing.cool",
+          "describing.closed",
+          "describing.ready",
+          "describing.great",
+          "describing.terrible",
+          "describing.perfect",
+          "describing.simple",
+          "describing.special",
+          "describing.comfortable",
+          "describing.careful",
+          "describing.strange",
+          "describing.lucky",
+          "describing.handsome"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "describing.s1_room_small",
+            "describing.s1_coffee_hot",
+            "sentence.a2_tired_yesterday",
+            "describing.s1_store_closed",
+            "describing.s1_look_tired",
+            "sentence.a2_brother_older",
+            "describing.s1_room_ready",
+            "describing.s1_great_idea"
+          ],
+          "2": [
+            "describing.s2_hotel_cheap",
+            "describing.s2_warm_cool",
+            "describing.s2_brother_handsome",
+            "describing.s2_old_house",
+            "describing.s2_lucky_wedding",
+            "describing.s2_long_hair",
+            "describing.s2_english_easy",
+            "describing.s2_answer_perfect"
+          ],
+          "3": [
+            "describing.s3_apartment",
+            "describing.s3_terrible_weather",
+            "describing.s3_grandfather_old",
+            "describing.s3_careful_road",
+            "describing.s3_special_day",
+            "describing.s3_chair_comfortable",
+            "describing.s3_busy_happy",
+            "describing.s3_lucky_tickets"
+          ]
+        }
       },
       {
         "id": "adult.daily_actions",
@@ -2929,10 +3318,41 @@
           "action.call",
           "action.ask",
           "action.watch",
-          "action.wait"
+          "action.wait",
+          "daily_actions.take_a_shower",
+          "daily_actions.get_dressed"
         ],
         "sentences": {
-          "1": ["sentence.a1_not_understand", "sentence.a1_buy_phone", "sentence.a1_sometimes_walk"]
+          "1": [
+            "sentence.a1_not_understand",
+            "sentence.a1_buy_phone",
+            "sentence.a1_sometimes_walk",
+            "daily_actions.s1_get_up_seven",
+            "daily_actions.s1_coffee_morning",
+            "sentence.a2_call_tomorrow",
+            "sentence.a2_this_evening",
+            "sentence.a2_can_drive"
+          ],
+          "2": [
+            "daily_actions.s2_shower_breakfast",
+            "daily_actions.s2_call_mother",
+            "daily_actions.s2_help_kitchen",
+            "daily_actions.s2_children_bed",
+            "daily_actions.s2_music_drive",
+            "daily_actions.s2_son_dishes",
+            "daily_actions.s2_start_finish",
+            "daily_actions.s2_read_before_sleep"
+          ],
+          "3": [
+            "daily_actions.s3_morning_routine",
+            "daily_actions.s3_walk_or_bus",
+            "daily_actions.s3_learn_cook",
+            "daily_actions.s3_call_later",
+            "daily_actions.s3_open_window",
+            "daily_actions.s3_wait_friends",
+            "daily_actions.s3_speak_slowly",
+            "daily_actions.s3_saturday"
+          ]
         }
       },
       {
@@ -2957,39 +3377,60 @@
           "money.borrow",
           "money.lend",
           "money.cost",
-          "action.try_on"
+          "action.try_on",
+          "shopping.shopping",
+          "shopping.mall",
+          "shopping.cashier",
+          "shopping.checkout",
+          "shopping.basket",
+          "shopping.shopping_cart",
+          "shopping.change",
+          "shopping.line",
+          "shopping.salesperson",
+          "shopping.fitting_room",
+          "shopping.product",
+          "shopping.brand",
+          "shopping.quality",
+          "shopping.bargain",
+          "shopping.bookstore",
+          "shopping.butcher",
+          "shopping.on_sale",
+          "shopping.online",
+          "shopping.return",
+          "shopping.deliver",
+          "shopping.compare",
+          "shopping.afford"
         ],
         "sentences": {
           "1": [
-            "sentence.a2_cinema_yesterday",
             "sentence.a2_bought_dress",
-            "sentence.a2_ate_fish",
-            "sentence.a2_tired_yesterday",
-            "sentence.a2_home_sunday",
-            "sentence.a2_where_holiday",
-            "sentence.a2_call_tomorrow",
-            "sentence.a2_rain_tomorrow",
-            "sentence.a2_buy_house",
-            "sentence.a2_this_evening",
-            "sentence.a2_hotel_bigger",
-            "sentence.a2_train_cheaper",
-            "sentence.a2_best_restaurant",
-            "sentence.a2_most_expensive",
-            "sentence.a2_brother_older",
-            "sentence.a2_can_drive",
             "sentence.a2_pay_card",
-            "sentence.a2_should_doctor",
-            "sentence.a2_work_saturday",
-            "sentence.a2_table_two",
-            "sentence.a2_may_open",
             "sentence.a2_try_jacket",
             "sentence.a2_what_size",
             "sentence.a2_discount",
-            "sentence.a2_the_bill",
             "sentence.a2_enough_money",
             "sentence.a2_sold_car",
-            "sentence.a2_speaking_phone",
-            "sentence.a2_cold_so_home"
+            "sentence.a2_buy_house"
+          ],
+          "2": [
+            "shopping.s2_fitting_room",
+            "shopping.s2_bigger_size",
+            "shopping.s2_return_shirt",
+            "shopping.s2_cash_or_card",
+            "shopping.s2_line_checkout",
+            "shopping.s2_coats_sale",
+            "shopping.s2_afford_watch",
+            "shopping.s2_clothes_online"
+          ],
+          "3": [
+            "shopping.s3_return_receipt",
+            "shopping.s3_compare_prices",
+            "shopping.s3_wrong_change",
+            "shopping.s3_brand_quality",
+            "shopping.s3_mall_crowded",
+            "shopping.s3_deliver_tomorrow",
+            "shopping.s3_bargain_market",
+            "shopping.s3_salesperson_helpful"
           ]
         }
       },
@@ -3030,19 +3471,45 @@
           "tech.screen",
           "tech.keyboard",
           "tech.charger",
-          "tech.download"
+          "tech.download",
+          "work_tech.team",
+          "work_tech.contract",
+          "work_tech.deadline",
+          "work_tech.file",
+          "work_tech.printer",
+          "work_tech.log_in",
+          "work_tech.upload"
         ],
         "sentences": {
           "1": [
             "sentence.a2_forgot_password",
             "sentence.a2_meeting_long",
             "sentence.a2_meeting_nine",
-            "sentence.a2_meet_manager",
-            "sentence.a2_company_office",
-            "sentence.a2_colleague_report",
             "sentence.a2_send_email",
-            "sentence.a2_salary_good",
+            "sentence.a2_company_office",
+            "sentence.a2_meet_manager",
+            "sentence.a2_work_saturday",
             "sentence.a2_interview_friday"
+          ],
+          "2": [
+            "sentence.a2_salary_good",
+            "sentence.a2_colleague_report",
+            "sentence.a2_speaking_phone",
+            "work_tech.s2_battery_low",
+            "work_tech.s2_printer",
+            "work_tech.s2_deadline",
+            "work_tech.s2_upload_file",
+            "work_tech.s2_new_team"
+          ],
+          "3": [
+            "work_tech.s3_contract_salary",
+            "work_tech.s3_log_in",
+            "work_tech.s3_meeting_thursday",
+            "work_tech.s3_work_from_home",
+            "work_tech.s3_interview_experience",
+            "work_tech.s3_screen_broken",
+            "work_tech.s3_boss_late",
+            "work_tech.s3_video_call"
           ]
         }
       },
@@ -3074,23 +3541,54 @@
           "travel.travel",
           "travel.rent",
           "travel.turn",
-          "travel.lost"
+          "travel.lost",
+          "vehicle.boat",
+          "travel.luggage",
+          "travel.passenger",
+          "travel.seat",
+          "travel.boarding_pass",
+          "travel.gate",
+          "travel.departure",
+          "travel.delay",
+          "travel.platform",
+          "travel.customs",
+          "travel.backpack",
+          "travel.souvenir",
+          "travel.round_trip",
+          "travel.book",
+          "travel.miss",
+          "travel.pack"
         ],
         "sentences": {
           "1": [
-            "sentence.a2_see_film",
-            "sentence.a2_lost_wallet",
             "sentence.a2_how_trip",
-            "sentence.a2_travel_summer",
-            "sentence.a2_book_interesting",
-            "sentence.a2_reservation",
-            "sentence.a2_flight_eight",
             "sentence.a2_suitcase_heavy",
             "sentence.a2_turn_left",
             "sentence.a2_nearest_stop",
             "sentence.a2_i_am_lost",
-            "sentence.a2_think_boring",
-            "sentence.a2_film_weekend"
+            "sentence.a2_reservation",
+            "sentence.a2_where_holiday",
+            "sentence.a2_lost_wallet"
+          ],
+          "2": [
+            "sentence.a2_travel_summer",
+            "sentence.a2_flight_eight",
+            "sentence.a2_most_expensive",
+            "sentence.a2_train_cheaper",
+            "travel.s2_window_seat",
+            "travel.s2_flight_delay",
+            "travel.s2_missed_train",
+            "travel.s2_which_platform"
+          ],
+          "3": [
+            "travel.s3_customs",
+            "travel.s3_backpack",
+            "travel.s3_book_hotel",
+            "travel.s3_boarding_pass",
+            "travel.s3_souvenirs",
+            "travel.s3_round_trip",
+            "travel.s3_rent_car",
+            "travel.s3_gate_changed"
           ]
         }
       },
@@ -3122,18 +3620,54 @@
           "health.sick",
           "health.healthy",
           "health.hurt",
-          "health.rest"
+          "health.rest",
+          "vehicle.ambulance",
+          "body.back",
+          "body.elbow",
+          "health.cold",
+          "health.sore_throat",
+          "health.toothache",
+          "health.pill",
+          "health.injury",
+          "health.bandage",
+          "health.patient",
+          "health.checkup",
+          "health.broken",
+          "health.dizzy",
+          "health.sneeze",
+          "health.get_better",
+          "health.examine"
         ],
         "sentences": {
           "1": [
             "sentence.a2_must_rest",
             "sentence.a2_headache",
             "sentence.a2_son_fever",
-            "sentence.a2_dentist",
-            "sentence.a2_medicine",
             "sentence.a2_stomach",
             "sentence.a2_fresh_fruit",
-            "sentence.a2_stayed_sick"
+            "sentence.a2_should_doctor",
+            "sentence.a2_medicine",
+            "sentence.a2_dentist"
+          ],
+          "2": [
+            "sentence.a2_stayed_sick",
+            "health.s2_call_ambulance",
+            "health.s2_sore_throat",
+            "health.s2_pills",
+            "health.s2_dizzy",
+            "health.s2_arm_not_broken",
+            "health.s2_checkup",
+            "health.s2_get_better"
+          ],
+          "3": [
+            "health.s3_back_pain",
+            "health.s3_sneeze_allergy",
+            "health.s3_toothache",
+            "health.s3_elbow",
+            "health.s3_patients_waiting",
+            "health.s3_bandage",
+            "health.s3_stay_healthy",
+            "health.s3_prescription"
           ]
         }
       },
@@ -3171,10 +3705,49 @@
           "home.trash",
           "home.rent",
           "action.clean",
-          "action.stay"
+          "action.stay",
+          "home.bathtub",
+          "home.box",
+          "home_life.drawer",
+          "home_life.doorbell",
+          "home_life.vacuum_cleaner",
+          "home_life.iron",
+          "home_life.heating",
+          "home_life.landlord",
+          "home_life.laundry",
+          "home_life.tidy_up"
         ],
         "sentences": {
-          "1": ["sentence.a2_if_rains"]
+          "1": [
+            "sentence.a2_if_rains",
+            "sentence.a2_home_sunday",
+            "sentence.a2_may_open",
+            "sentence.a2_cold_so_home",
+            "home_life.s1_keys_drawer",
+            "home_life.s1_doorbell",
+            "home_life.s1_clean_kitchen",
+            "home_life.s1_heating"
+          ],
+          "2": [
+            "home_life.s2_move_apartment",
+            "home_life.s2_towels_shelf",
+            "home_life.s2_rent_balcony",
+            "home_life.s2_tidy_room",
+            "home_life.s2_elevator_broken",
+            "home_life.s2_iron_shirt",
+            "home_life.s2_box_books",
+            "home_life.s2_washing_machine"
+          ],
+          "3": [
+            "home_life.s3_landlord",
+            "home_life.s3_vacuum",
+            "home_life.s3_moving_boxes",
+            "home_life.s3_neighbors",
+            "home_life.s3_bathtub",
+            "home_life.s3_no_furniture",
+            "home_life.s3_rainy_weekend",
+            "home_life.s3_curtains"
+          ]
         }
       },
       {
@@ -3207,7 +3780,21 @@
           "person.single",
           "person.thin",
           "person.guest",
-          "person.beard"
+          "person.beard",
+          "people_feelings.proud",
+          "people_feelings.jealous",
+          "people_feelings.disappointed",
+          "people_feelings.embarrassed",
+          "people_feelings.relaxed",
+          "people_feelings.curious",
+          "people_feelings.patient",
+          "people_feelings.polite",
+          "people_feelings.generous",
+          "people_feelings.selfish",
+          "people_feelings.hard_working",
+          "people_feelings.confident",
+          "people_feelings.relative",
+          "people_feelings.nephew"
         ],
         "sentences": {
           "1": [
@@ -3216,7 +3803,29 @@
             "sentence.a2_afraid_dogs",
             "sentence.a2_bored_home",
             "sentence.a2_excited_wedding",
-            "sentence.a2_kind_neighbor"
+            "sentence.a2_kind_neighbor",
+            "people_feelings.s1_proud_son",
+            "people_feelings.s1_cousin_shy"
+          ],
+          "2": [
+            "people_feelings.s2_aunt_generous",
+            "people_feelings.s2_disappointed_results",
+            "people_feelings.s2_patient_children",
+            "people_feelings.s2_relatives_holiday",
+            "people_feelings.s2_nephew_curious",
+            "people_feelings.s2_embarrassed_name",
+            "people_feelings.s2_jealous_brother",
+            "people_feelings.s2_polite_guests"
+          ],
+          "3": [
+            "people_feelings.s3_confident_interview",
+            "people_feelings.s3_selfish_share",
+            "people_feelings.s3_hard_working_promotion",
+            "people_feelings.s3_relaxed_vacation",
+            "people_feelings.s3_lonely_city",
+            "people_feelings.s3_honest_friend",
+            "people_feelings.s3_surprised_party",
+            "people_feelings.s3_calm_angry"
           ]
         }
       },
@@ -3258,10 +3867,46 @@
           "quality.famous",
           "quality.free",
           "quality.nice",
-          "quality.enough"
+          "quality.enough",
+          "describing_2.useful",
+          "describing_2.crowded",
+          "describing_2.deep",
+          "describing_2.bright",
+          "describing_2.sharp",
+          "describing_2.clear"
         ],
         "sentences": {
-          "1": ["sentence.a2_soup_delicious", "sentence.a2_too_salty"]
+          "1": [
+            "sentence.a2_soup_delicious",
+            "sentence.a2_too_salty",
+            "describing_2.s1_bag_heavy",
+            "describing_2.s1_bus_crowded",
+            "describing_2.s1_lake_deep",
+            "describing_2.s1_sofa_comfortable",
+            "describing_2.s1_museum_free",
+            "describing_2.s1_street_dark",
+            "sentence.a2_hotel_bigger"
+          ],
+          "2": [
+            "describing_2.s2_road_dangerous",
+            "describing_2.s2_fridge_empty",
+            "describing_2.s2_same_different",
+            "describing_2.s2_room_bright",
+            "describing_2.s2_bread_fresh",
+            "describing_2.s2_weather_terrible",
+            "describing_2.s2_simple_recipe",
+            "describing_2.s2_famous_singer"
+          ],
+          "3": [
+            "describing_2.s3_quiet_hotel",
+            "describing_2.s3_important_safe",
+            "describing_2.s3_boring_film",
+            "describing_2.s3_enough_chairs",
+            "describing_2.s3_possible_fast",
+            "describing_2.s3_rich_neighborhood",
+            "describing_2.s3_dry_cake",
+            "describing_2.s3_strong_light"
+          ]
         }
       },
       {
@@ -3293,10 +3938,54 @@
           "action.try",
           "action.use",
           "action.change",
-          "action.choose"
+          "action.choose",
+          "actions_2.jump",
+          "actions_2.climb",
+          "actions_2.fly",
+          "actions_2.hold",
+          "actions_2.hide",
+          "actions_2.cut",
+          "actions_2.move",
+          "actions_2.enter",
+          "actions_2.follow",
+          "actions_2.miss",
+          "actions_2.share",
+          "actions_2.repeat",
+          "actions_2.practice",
+          "actions_2.relax",
+          "actions_2.lie_down"
         ],
         "sentences": {
-          "1": ["sentence.a2_not_forget"]
+          "1": [
+            "sentence.a2_not_forget",
+            "actions_2.s1_miss_you",
+            "actions_2.s1_lost_keys",
+            "actions_2.s1_please_repeat",
+            "actions_2.s1_hold_hand",
+            "actions_2.s1_cat_hides",
+            "actions_2.s1_lie_down",
+            "actions_2.s1_choose_one"
+          ],
+          "2": [
+            "actions_2.s2_moving_house",
+            "actions_2.s2_climb_mountain",
+            "actions_2.s2_share_room",
+            "actions_2.s2_follow_me",
+            "actions_2.s2_practice_english",
+            "actions_2.s2_cut_bread",
+            "actions_2.s2_fly_istanbul",
+            "actions_2.s2_relax_weekend"
+          ],
+          "3": [
+            "actions_2.s3_jump_water",
+            "actions_2.s3_remember_name",
+            "actions_2.s3_enter_building",
+            "actions_2.s3_send_receive",
+            "actions_2.s3_try_change",
+            "actions_2.s3_believe_hope",
+            "actions_2.s3_carry_bags",
+            "actions_2.s3_wake_up_early"
+          ]
         }
       },
       {
@@ -3330,10 +4019,52 @@
           "action.pull",
           "action.push",
           "action.wear",
-          "action.prepare"
+          "action.prepare",
+          "actions_3.accept",
+          "actions_3.refuse",
+          "actions_3.allow",
+          "actions_3.promise",
+          "actions_3.prefer",
+          "actions_3.forgive",
+          "actions_3.describe",
+          "actions_3.discuss",
+          "actions_3.improve",
+          "actions_3.protect",
+          "actions_3.collect",
+          "actions_3.join",
+          "actions_3.happen"
         ],
         "sentences": {
-          "1": ["sentence.a2_explain_word", "sentence.a2_agree_you"]
+          "1": [
+            "sentence.a2_explain_word",
+            "sentence.a2_agree_you",
+            "actions_3.s1_what_happened",
+            "actions_3.s1_prefer_tea",
+            "actions_3.s1_promise_call",
+            "actions_3.s1_join_us",
+            "actions_3.s1_baby_laughed",
+            "actions_3.s1_fix_bike"
+          ],
+          "2": [
+            "actions_3.s2_accept_job",
+            "actions_3.s2_refuse_invitation",
+            "actions_3.s2_allow_phones",
+            "actions_3.s2_compare_prices",
+            "actions_3.s2_describe_man",
+            "actions_3.s2_discuss_plan",
+            "actions_3.s2_collect_stamps",
+            "actions_3.s2_dance_wedding"
+          ],
+          "3": [
+            "actions_3.s3_improve_english",
+            "actions_3.s3_protect_skin",
+            "actions_3.s3_decide_stay",
+            "actions_3.s3_teach_cook",
+            "actions_3.s3_window_broke",
+            "actions_3.s3_win_prize",
+            "actions_3.s3_meet_invite",
+            "actions_3.s3_earn_build"
+          ]
         }
       },
       {
@@ -3377,10 +4108,47 @@
           "nature.north",
           "nature.south",
           "nature.east",
-          "nature.west"
+          "nature.west",
+          "leisure_world.exhibition",
+          "leisure_world.painting",
+          "leisure_world.hiking"
         ],
         "sentences": {
-          "1": ["sentence.a2_cannot_party", "sentence.a2_gift_wife", "sentence.a2_photos_beach"]
+          "1": [
+            "sentence.a2_cannot_party",
+            "sentence.a2_gift_wife",
+            "sentence.a2_photos_beach",
+            "leisure_world.s1_love_song",
+            "leisure_world.s1_sky_clear",
+            "leisure_world.s1_hobby",
+            "leisure_world.s1_storm_coming",
+            "leisure_world.s1_hiking_sunday",
+            "sentence.a2_cinema_yesterday",
+            "sentence.a2_see_film",
+            "sentence.a2_book_interesting",
+            "sentence.a2_think_boring",
+            "sentence.a2_film_weekend"
+          ],
+          "2": [
+            "leisure_world.s2_concert_tickets",
+            "leisure_world.s2_island_ferry",
+            "leisure_world.s2_fog_flight",
+            "leisure_world.s2_temperature_degrees",
+            "leisure_world.s2_exhibition_paintings",
+            "leisure_world.s2_picnic_lake",
+            "leisure_world.s2_newspaper_morning",
+            "leisure_world.s2_horses_village"
+          ],
+          "3": [
+            "leisure_world.s3_football_match",
+            "leisure_world.s3_forest_river",
+            "leisure_world.s3_environment",
+            "leisure_world.s3_birthday_party",
+            "leisure_world.s3_north_south",
+            "leisure_world.s3_magazine_story",
+            "leisure_world.s3_theater_weekend",
+            "leisure_world.s3_moon_east"
+          ]
         }
       },
       {
@@ -3413,7 +4181,21 @@
           "function.without",
           "position.between",
           "function.during",
-          "function.until"
+          "function.until",
+          "time_links.just",
+          "time_links.ever",
+          "time_links.recently",
+          "time_links.suddenly",
+          "time_links.finally",
+          "time_links.rarely",
+          "time_links.also",
+          "time_links.especially",
+          "time_links.probably",
+          "time_links.at_least",
+          "time_links.since",
+          "time_links.while",
+          "time_links.however",
+          "time_links.although"
         ],
         "sentences": {
           "1": [
@@ -3422,7 +4204,29 @@
             "sentence.a2_not_sleep_well",
             "sentence.a2_weather_bad",
             "sentence.a2_new_job",
-            "sentence.a2_wash_before_dinner"
+            "sentence.a2_wash_before_dinner",
+            "time_links.s1_just_arrived",
+            "time_links.s1_finally_home"
+          ],
+          "2": [
+            "time_links.s2_ever_been",
+            "time_links.s2_since_2020",
+            "time_links.s2_while_cooking",
+            "time_links.s2_recently_tired",
+            "time_links.s2_suddenly_lights",
+            "time_links.s2_rarely_eat_out",
+            "time_links.s2_at_least_water",
+            "time_links.s2_probably_rain"
+          ],
+          "3": [
+            "time_links.s3_although_tired",
+            "time_links.s3_however_expensive",
+            "time_links.s3_especially_winter",
+            "time_links.s3_still_not_finished",
+            "time_links.s3_together_weekend",
+            "time_links.s3_if_without",
+            "time_links.s3_also_speaks",
+            "time_links.s3_often_between"
           ]
         }
       },
@@ -3454,9 +4258,56 @@
           "false_friend.smoking",
           "false_friend.nervous",
           "false_friend.recipe",
-          "false_friend.billion"
+          "false_friend.billion",
+          "idioms.call_it_a_day",
+          "idioms.under_the_weather",
+          "idioms.same_boat",
+          "idioms.cats_and_dogs",
+          "idioms.make_up_mind",
+          "idioms.kill_time",
+          "idioms.take_a_break",
+          "idioms.lose_temper",
+          "idioms.knock_on_wood",
+          "idioms.hit_the_road",
+          "idioms.take_your_time",
+          "idioms.keep_in_touch",
+          "idioms.up_to_you",
+          "idioms.no_way",
+          "idioms.by_the_way",
+          "idioms.in_a_hurry"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "idioms.s1_call_it_a_day",
+            "idioms.s1_piece_of_cake",
+            "idioms.s1_take_your_time",
+            "idioms.s1_up_to_you",
+            "idioms.s1_in_a_hurry",
+            "idioms.s1_under_weather",
+            "idioms.s1_no_way",
+            "idioms.s1_knock_on_wood"
+          ],
+          "2": [
+            "idioms.s2_cats_and_dogs",
+            "idioms.s2_kill_time",
+            "idioms.s2_take_a_break",
+            "idioms.s2_keep_in_touch",
+            "idioms.s2_by_the_way",
+            "idioms.s2_same_boat",
+            "idioms.s2_hit_the_road",
+            "idioms.s2_make_up_mind"
+          ],
+          "3": [
+            "idioms.s3_lose_temper",
+            "idioms.s3_blue_moon",
+            "idioms.s3_break_the_ice",
+            "idioms.s3_keep_an_eye",
+            "idioms.s3_better_late",
+            "idioms.s3_feel_at_home",
+            "idioms.s3_time_flies",
+            "idioms.s3_practice_perfect"
+          ]
+        }
       },
       {
         "id": "adult.restaurant_2",
@@ -3497,9 +4348,24 @@
           "restaurant.pair",
           "restaurant.cater",
           "restaurant.garnish",
-          "restaurant.accommodate"
+          "restaurant.accommodate",
+          "restaurant_2.undercooked",
+          "restaurant_2.stale",
+          "restaurant_2.split_the_bill",
+          "restaurant_2.leftovers",
+          "restaurant_2.tap_water"
         ],
         "sentences": {
+          "1": [
+            "restaurant_2.s1_chicken_undercooked",
+            "restaurant_2.s1_bread_stale",
+            "restaurant_2.s1_split_bill",
+            "restaurant_2.s1_tap_water",
+            "restaurant_2.s1_wrong_order",
+            "restaurant_2.s1_waiting_hour",
+            "restaurant_2.s1_soup_cold",
+            "restaurant_2.s1_leftovers_home"
+          ],
           "2": [
             "restaurant.b2_quiet_anniversary",
             "restaurant.b2_reviews_bland",
@@ -3539,9 +4405,69 @@
           "false_friend.sensible",
           "false_friend.realize",
           "false_friend.pension",
-          "emotion.reluctant"
+          "emotion.reluctant",
+          "idioms_2.spill_the_beans",
+          "idioms_2.last_straw",
+          "idioms_2.middle_of_nowhere",
+          "idioms_2.see_eye_to_eye",
+          "idioms_2.blessing_in_disguise",
+          "idioms_2.bite_off_more",
+          "idioms_2.ball_in_your_court",
+          "idioms_2.beat_around_the_bush",
+          "idioms_2.pull_your_leg",
+          "idioms_2.hit_the_nail",
+          "idioms_2.sleeping_dogs",
+          "idioms_2.count_chickens",
+          "idioms_2.actions_speak",
+          "idioms_2.when_pigs_fly",
+          "idioms_2.drop_in_the_ocean",
+          "idioms_2.out_of_sight",
+          "idioms_2.midnight_oil",
+          "idioms_2.once_bitten",
+          "idioms_2.too_many_cooks",
+          "idioms_2.cloud_nine",
+          "idioms_2.cut_corners",
+          "idioms_2.out_of_hand",
+          "idioms_2.needle_in_haystack",
+          "idioms_2.speak_of_the_devil",
+          "idioms_2.tip_of_the_iceberg",
+          "idioms_2.storm_in_a_teacup",
+          "idioms_2.full_plate",
+          "idioms_2.bury_the_hatchet",
+          "idioms_2.two_heads"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "idioms_2.s1_spill_beans",
+            "idioms_2.s1_ball_court",
+            "idioms_2.s1_pulling_leg",
+            "idioms_2.s1_speak_devil",
+            "idioms_2.s1_cloud_nine",
+            "idioms_2.s1_when_pigs_fly",
+            "idioms_2.s1_hit_the_nail",
+            "idioms_2.s1_full_plate"
+          ],
+          "2": [
+            "idioms_2.s2_middle_nowhere",
+            "idioms_2.s2_last_straw",
+            "idioms_2.s2_see_eye_to_eye",
+            "idioms_2.s2_beat_bush",
+            "idioms_2.s2_drop_ocean",
+            "idioms_2.s2_midnight_oil",
+            "idioms_2.s2_cut_corners",
+            "idioms_2.s2_bury_hatchet"
+          ],
+          "3": [
+            "idioms_2.s3_out_of_hand",
+            "idioms_2.s3_blessing_disguise",
+            "idioms_2.s3_bite_off_more",
+            "idioms_2.s3_sleeping_dogs",
+            "idioms_2.s3_count_chickens",
+            "idioms_2.s3_tip_iceberg",
+            "idioms_2.s3_two_heads",
+            "idioms_2.s3_actions_speak"
+          ]
+        }
       }
     ],
     "kid": [
@@ -3575,30 +4501,52 @@
           "pronoun.this",
           "pronoun.we",
           "pronoun.they",
-          "family.name"
+          "family.name",
+          "kid_greetings.hi",
+          "pronoun.it",
+          "pronoun.that",
+          "pronoun.our",
+          "pronoun.their",
+          "pronoun.his",
+          "pronoun.her",
+          "idiom.of_course",
+          "idiom.no_problem",
+          "idiom.good_luck",
+          "idiom.congratulations",
+          "kid_greetings.happy_birthday",
+          "idiom.get_well_soon",
+          "idiom.take_care"
         ],
         "sentences": {
           "1": [
-            "sentence.l1_this_cat",
-            "sentence.l1_you_friend",
-            "sentence.l1_she_sister",
-            "sentence.l1_this_mother",
-            "sentence.l1_this_father",
-            "sentence.l1_this_book",
-            "sentence.l1_thanks_teacher",
-            "sentence.l1_morning_friend",
-            "sentence.l2_she_reads",
-            "sentence.l2_she_sits",
-            "sentence.l2_glass_clean",
-            "sentence.l2_they_come",
+            "sentence.l3_how_you",
             "sentence.l3_what_name",
-            "sentence.l3_sings_morning",
+            "sentence.l1_morning_friend",
+            "sentence.l1_thanks_teacher",
+            "sentence.l1_you_friend",
             "sentence.l3_who_boy",
             "sentence.l3_why_sad",
-            "sentence.l3_how_you",
+            "sentence.l1_this_book"
+          ],
+          "2": [
             "sentence.l3_open_window",
             "sentence.l3_close_door",
-            "sentence.l3_lesson_easy"
+            "sentence.l2_she_reads",
+            "sentence.l2_she_sits",
+            "sentence.l2_they_come",
+            "sentence.l3_sings_morning",
+            "sentence.l3_lesson_easy",
+            "kid_greetings.s2_nice_meet"
+          ],
+          "3": [
+            "kid_greetings.s3_morning_names",
+            "kid_greetings.s3_hello_nice",
+            "kid_greetings.s3_sorry_late",
+            "kid_greetings.s3_good_night",
+            "kid_greetings.s3_thanks_help",
+            "kid_greetings.s3_excuse_door",
+            "kid_greetings.s3_welcome_home",
+            "kid_greetings.s3_goodbye_school"
           ]
         }
       },
@@ -3626,7 +4574,27 @@
           "shape.rectangle",
           "shape.oval",
           "opposite.up",
-          "opposite.down"
+          "opposite.down",
+          "kid_colors_shapes.color",
+          "kid_colors_shapes.shape",
+          "kid_colors_shapes.colorful",
+          "kid_colors_shapes.light_blue",
+          "kid_colors_shapes.dark_blue",
+          "kid_colors_shapes.gold",
+          "kid_colors_shapes.silver",
+          "kid_colors_shapes.turquoise",
+          "kid_colors_shapes.line",
+          "kid_colors_shapes.dot",
+          "kid_colors_shapes.arrow",
+          "kid_colors_shapes.diamond",
+          "kid_colors_shapes.crescent",
+          "kid_colors_shapes.pentagon",
+          "kid_colors_shapes.hexagon",
+          "kid_colors_shapes.cube",
+          "kid_colors_shapes.sphere",
+          "kid_colors_shapes.cone",
+          "kid_colors_shapes.cylinder",
+          "kid_colors_shapes.pyramid"
         ],
         "sentences": {
           "1": [
@@ -3634,7 +4602,30 @@
             "sentence.l1_milk_white",
             "sentence.l1_ball_blue",
             "sentence.l1_bear_brown",
-            "sentence.l1_bag_black"
+            "sentence.l1_bag_black",
+            "kid_colors_shapes.s1_sun_yellow",
+            "kid_colors_shapes.s1_circle_red",
+            "kid_colors_shapes.s1_heart_pink"
+          ],
+          "2": [
+            "kid_colors_shapes.s2_grass_sky",
+            "kid_colors_shapes.s2_draw_circle",
+            "kid_colors_shapes.s2_square_sides",
+            "kid_colors_shapes.s2_rainbow_seven",
+            "kid_colors_shapes.s2_gold_star",
+            "kid_colors_shapes.s2_blue_yellow",
+            "kid_colors_shapes.s2_pink_dress",
+            "kid_colors_shapes.s2_dark_blue_bike"
+          ],
+          "3": [
+            "kid_colors_shapes.s3_ball_box",
+            "kid_colors_shapes.s3_draw_house",
+            "kid_colors_shapes.s3_traffic_light",
+            "kid_colors_shapes.s3_silver_moon",
+            "kid_colors_shapes.s3_favorite_color",
+            "kid_colors_shapes.s3_arrows",
+            "kid_colors_shapes.s3_pizza_slice",
+            "kid_colors_shapes.s3_turkish_flag"
           ]
         }
       },
@@ -3662,9 +4653,60 @@
           "number.seventeen",
           "number.eighteen",
           "number.nineteen",
-          "number.twenty"
+          "number.twenty",
+          "kid_numbers.number",
+          "kid_numbers.count",
+          "number.zero",
+          "number.thirty",
+          "number.forty",
+          "number.fifty",
+          "number.sixty",
+          "number.seventy",
+          "number.eighty",
+          "number.ninety",
+          "number.hundred",
+          "number.thousand",
+          "number.first",
+          "number.second",
+          "number.third",
+          "question.how_many",
+          "kid_numbers.plus",
+          "kid_numbers.minus",
+          "kid_numbers.equals",
+          "kid_numbers.half"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "kid_numbers.s1_eight_years",
+            "kid_numbers.s1_two_cats",
+            "kid_numbers.s1_count_ten",
+            "kid_numbers.s1_five_fingers",
+            "kid_numbers.s1_one_plus_one",
+            "kid_numbers.s1_three_apples",
+            "kid_numbers.s1_how_many_books",
+            "kid_numbers.s1_i_am_first"
+          ],
+          "2": [
+            "kid_numbers.s2_three_plus_four",
+            "kid_numbers.s2_twenty_students",
+            "kid_numbers.s2_grandmother_seventy",
+            "kid_numbers.s2_half_cake",
+            "kid_numbers.s2_count_hundred",
+            "kid_numbers.s2_third_grade",
+            "kid_numbers.s2_phone_zero",
+            "kid_numbers.s2_fifty_pages"
+          ],
+          "3": [
+            "kid_numbers.s3_count_stars",
+            "kid_numbers.s3_race_second",
+            "kid_numbers.s3_spider_legs",
+            "kid_numbers.s3_year_months",
+            "kid_numbers.s3_pages_read",
+            "kid_numbers.s3_two_hundred",
+            "kid_numbers.s3_dolls_cars",
+            "kid_numbers.s3_birthday_ten"
+          ]
+        }
       },
       {
         "id": "kid.fruits_vegetables",
@@ -3695,9 +4737,55 @@
           "vegetable.corn",
           "vegetable.peas",
           "vegetable.mushroom",
-          "vegetable.pumpkin"
+          "vegetable.pumpkin",
+          "fruit.fruit",
+          "vegetable.vegetable",
+          "kid_fruits_vegetables.melon",
+          "kid_fruits_vegetables.tangerine",
+          "kid_fruits_vegetables.kiwi",
+          "kid_fruits_vegetables.pomegranate",
+          "kid_fruits_vegetables.blueberry",
+          "kid_fruits_vegetables.coconut",
+          "kid_fruits_vegetables.walnut",
+          "kid_fruits_vegetables.eggplant",
+          "kid_fruits_vegetables.lettuce",
+          "kid_fruits_vegetables.cabbage",
+          "kid_fruits_vegetables.spinach",
+          "kid_fruits_vegetables.broccoli",
+          "kid_fruits_vegetables.garlic"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "kid_fruits_vegetables.s1_banana_yellow",
+            "kid_fruits_vegetables.s1_like_grapes",
+            "kid_fruits_vegetables.s1_carrots_orange",
+            "kid_fruits_vegetables.s1_eat_pear",
+            "kid_fruits_vegetables.s1_lemon_sour",
+            "kid_fruits_vegetables.s1_watermelon_big",
+            "kid_fruits_vegetables.s1_tomatoes_red",
+            "kid_fruits_vegetables.s1_want_cherries"
+          ],
+          "2": [
+            "kid_fruits_vegetables.s2_apple_every_day",
+            "kid_fruits_vegetables.s2_sweet_strawberries",
+            "kid_fruits_vegetables.s2_potatoes_onions",
+            "kid_fruits_vegetables.s2_salad",
+            "kid_fruits_vegetables.s2_rabbit_carrots",
+            "kid_fruits_vegetables.s2_big_pumpkin",
+            "kid_fruits_vegetables.s2_figs_peaches",
+            "kid_fruits_vegetables.s2_no_onions"
+          ],
+          "3": [
+            "kid_fruits_vegetables.s3_fruit_salad",
+            "kid_fruits_vegetables.s3_spinach",
+            "kid_fruits_vegetables.s3_orange_juice",
+            "kid_fruits_vegetables.s3_grandfather_grows",
+            "kid_fruits_vegetables.s3_watermelon_inside",
+            "kid_fruits_vegetables.s3_market_saturday",
+            "kid_fruits_vegetables.s3_soup_vegetables",
+            "kid_fruits_vegetables.s3_apples_or_pears"
+          ]
+        }
       },
       {
         "id": "kid.food",
@@ -3728,7 +4816,22 @@
           "drink.milk",
           "drink.water",
           "drink.juice",
-          "drink.tea"
+          "drink.tea",
+          "food.breakfast",
+          "food.lunch",
+          "food.dinner",
+          "food.food",
+          "food.salt",
+          "kid_food.meatball",
+          "kid_food.french_fries",
+          "kid_food.hamburger",
+          "kid_food.sausage",
+          "kid_food.pancake",
+          "kid_food.omelet",
+          "kid_food.cereal",
+          "kid_food.chips",
+          "kid_food.lemonade",
+          "kid_food.hot_chocolate"
         ],
         "sentences": {
           "1": [
@@ -3736,7 +4839,30 @@
             "sentence.l2_eat_bread",
             "sentence.l2_drink_milk",
             "sentence.l2_like_chocolate",
-            "sentence.l2_soup_hot"
+            "sentence.l2_soup_hot",
+            "sentence.l2_glass_clean",
+            "kid_food.s1_hungry",
+            "kid_food.s1_cake_sweet"
+          ],
+          "2": [
+            "kid_food.s2_breakfast_eggs",
+            "kid_food.s2_ice_cream",
+            "kid_food.s2_honey_butter",
+            "kid_food.s2_pizza_tonight",
+            "kid_food.s2_glass_water",
+            "kid_food.s2_cookies_tea",
+            "kid_food.s2_meatballs_rice",
+            "kid_food.s2_lemonade"
+          ],
+          "3": [
+            "kid_food.s3_pass_salt",
+            "kid_food.s3_birthday_cake",
+            "kid_food.s3_hamburger_fries",
+            "kid_food.s3_turkish_breakfast",
+            "kid_food.s3_popcorn_movie",
+            "kid_food.s3_too_much_candy",
+            "kid_food.s3_sunday_pancakes",
+            "kid_food.s3_hot_chocolate"
           ]
         }
       },
@@ -3759,18 +4885,63 @@
           "family.uncle",
           "family.aunt",
           "family.cousin",
-          "family.child"
+          "family.child",
+          "family.family",
+          "family.parents",
+          "family.son",
+          "family.daughter",
+          "kid_family.grandparents",
+          "kid_family.grandchild",
+          "kid_family.twins",
+          "person.man",
+          "person.woman",
+          "person.people",
+          "person.neighbor",
+          "person.guest",
+          "family.husband",
+          "family.wife",
+          "kid_family.relatives",
+          "kid_family.age",
+          "kid_family.last_name",
+          "kid_family.stroller",
+          "tech.photo",
+          "leisure.wedding",
+          "kid_family.family_tree",
+          "function.together",
+          "kid_family.hug",
+          "kid_family.kiss",
+          "kid_family.love"
         ],
         "sentences": {
           "1": [
             "sentence.l1_he_brother",
+            "sentence.l1_she_sister",
+            "sentence.l1_this_mother",
+            "sentence.l1_this_father",
             "sentence.l1_baby_happy",
-            "sentence.l2_baby_sleeps",
+            "sentence.l3_listen_teacher",
             "sentence.l2_teacher_sees",
-            "sentence.l3_grandmother_garden",
+            "sentence.l3_grandmother_garden"
+          ],
+          "2": [
+            "sentence.l2_baby_sleeps",
             "sentence.l3_grandfather_walks",
             "sentence.l3_aunt_helps",
-            "sentence.l3_listen_teacher"
+            "kid_family.s2_big_family",
+            "kid_family.s2_twins",
+            "kid_family.s2_uncle_children",
+            "kid_family.s2_hug_mother",
+            "kid_family.s2_visit_grandparents"
+          ],
+          "3": [
+            "kid_family.s3_family_photo",
+            "kid_family.s3_dinner_together",
+            "kid_family.s3_bedtime_story",
+            "kid_family.s3_ages",
+            "kid_family.s3_aunt_visits",
+            "kid_family.s3_father_reads",
+            "kid_family.s3_wedding",
+            "kid_family.s3_parents_love"
           ]
         }
       },
@@ -3800,10 +4971,57 @@
           "animal.snail",
           "animal.ladybug",
           "animal.worm",
-          "animal.frog"
+          "animal.frog",
+          "kid_pets_farm.pet",
+          "kid_pets_farm.paw",
+          "work.farmer",
+          "kid_pets_farm.puppy",
+          "kid_pets_farm.kitten",
+          "kid_pets_farm.chick",
+          "kid_pets_farm.lamb",
+          "kid_pets_farm.calf",
+          "kid_pets_farm.goose",
+          "kid_pets_farm.turkey",
+          "kid_pets_farm.hamster",
+          "kid_pets_farm.goldfish",
+          "kid_pets_farm.bug",
+          "kid_pets_farm.tail",
+          "kid_pets_farm.feather",
+          "kid_pets_farm.wool",
+          "kid_pets_farm.cage",
+          "kid_pets_farm.barn"
         ],
         "sentences": {
-          "1": ["sentence.l1_dog_big", "sentence.l1_cat_small"]
+          "1": [
+            "sentence.l1_dog_big",
+            "sentence.l1_cat_small",
+            "sentence.l1_this_cat",
+            "kid_pets_farm.s1_cow_milk",
+            "kid_pets_farm.s1_bird_sings",
+            "kid_pets_farm.s1_love_dog",
+            "kid_pets_farm.s1_horse_fast",
+            "kid_pets_farm.s1_fish_swims"
+          ],
+          "2": [
+            "kid_pets_farm.s2_chicken_eggs",
+            "kid_pets_farm.s2_cat_mouse",
+            "kid_pets_farm.s2_puppy_tail",
+            "kid_pets_farm.s2_white_ducks",
+            "kid_pets_farm.s2_bee_flower",
+            "kid_pets_farm.s2_rabbit_carrots",
+            "kid_pets_farm.s2_rooster_morning",
+            "kid_pets_farm.s2_kitten_milk"
+          ],
+          "3": [
+            "kid_pets_farm.s3_grandfather_farm",
+            "kid_pets_farm.s3_farmer_early",
+            "kid_pets_farm.s3_hamster_cage",
+            "kid_pets_farm.s3_bird_nest",
+            "kid_pets_farm.s3_walk_dog",
+            "kid_pets_farm.s3_wool_milk",
+            "kid_pets_farm.s3_ladybug_hand",
+            "kid_pets_farm.s3_frog_jumps"
+          ]
         }
       },
       {
@@ -3838,9 +5056,52 @@
           "animal.parrot",
           "animal.eagle",
           "animal.crocodile",
-          "animal.hippo"
+          "animal.hippo",
+          "kid_zoo.koala",
+          "kid_zoo.gorilla",
+          "kid_zoo.rhino",
+          "kid_zoo.polar_bear",
+          "kid_zoo.flamingo",
+          "kid_zoo.peacock",
+          "kid_zoo.ostrich",
+          "kid_zoo.seal",
+          "kid_zoo.leopard",
+          "kid_zoo.cheetah",
+          "kid_zoo.sloth",
+          "kid_zoo.jellyfish"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "kid_zoo.s1_lion_big",
+            "kid_zoo.s1_monkey_funny",
+            "kid_zoo.s1_snake_long",
+            "kid_zoo.s1_like_pandas",
+            "kid_zoo.s1_turtle_slow",
+            "kid_zoo.s1_giraffe_tall",
+            "kid_zoo.s1_see_tiger",
+            "kid_zoo.s1_dolphins_swim"
+          ],
+          "2": [
+            "kid_zoo.s2_elephant_nose",
+            "kid_zoo.s2_go_zoo",
+            "kid_zoo.s2_monkey_banana",
+            "kid_zoo.s2_penguins_cold",
+            "kid_zoo.s2_kangaroo_jump",
+            "kid_zoo.s2_zebra_stripes",
+            "kid_zoo.s2_parrot_name",
+            "kid_zoo.s2_crocodile_teeth"
+          ],
+          "3": [
+            "kid_zoo.s3_giraffe_leaves",
+            "kid_zoo.s3_lion_sleeps",
+            "kid_zoo.s3_polar_bear_fish",
+            "kid_zoo.s3_whale_biggest",
+            "kid_zoo.s3_monkeys_jump",
+            "kid_zoo.s3_octopus_arms",
+            "kid_zoo.s3_ostrich_run",
+            "kid_zoo.s3_favorite_animal"
+          ]
+        }
       },
       {
         "id": "kid.body",
@@ -3871,9 +5132,55 @@
           "body.elbow",
           "body.tummy",
           "body.back",
-          "body.toe"
+          "body.toe",
+          "kid_body.body",
+          "kid_body.thumb",
+          "kid_body.nail",
+          "kid_body.muscle",
+          "kid_body.bone",
+          "kid_body.skin",
+          "kid_body.brain",
+          "kid_body.forehead",
+          "kid_body.eyelash",
+          "kid_body.wrist",
+          "kid_body.ankle",
+          "kid_body.chest",
+          "kid_body.heel",
+          "kid_body.throat",
+          "kid_body.hip"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "kid_body.s1_two_eyes",
+            "kid_body.s1_hair_long",
+            "kid_body.s1_wash_face",
+            "kid_body.s1_touch_nose",
+            "kid_body.s1_knee_hurts",
+            "kid_body.s1_clap_hands",
+            "kid_body.s1_ten_fingers",
+            "kid_body.s1_brush_teeth"
+          ],
+          "2": [
+            "kid_body.s2_heart_beats",
+            "kid_body.s2_wash_hands_eat",
+            "kid_body.s2_blue_eyes",
+            "kid_body.s2_one_foot",
+            "kid_body.s2_hurt_arm",
+            "kid_body.s2_hands_knees",
+            "kid_body.s2_bones_strong",
+            "kid_body.s2_close_eyes"
+          ],
+          "3": [
+            "kid_body.s3_see_hear",
+            "kid_body.s3_brush_twice",
+            "kid_body.s3_heart_chest",
+            "kid_body.s3_brain_think",
+            "kid_body.s3_cut_nails",
+            "kid_body.s3_tooth_dentist",
+            "kid_body.s3_skin_sun",
+            "kid_body.s3_hurt_ankle"
+          ]
+        }
       },
       {
         "id": "kid.clothes",
@@ -3904,10 +5211,54 @@
           "clothes.belt",
           "clothes.umbrella",
           "clothes.button",
-          "clothes.zipper"
+          "clothes.zipper",
+          "kid_clothes.sneakers",
+          "kid_clothes.sandals",
+          "kid_clothes.jeans",
+          "kid_clothes.vest",
+          "kid_clothes.tie",
+          "kid_clothes.cap",
+          "kid_clothes.sunglasses",
+          "kid_clothes.pocket",
+          "kid_clothes.watch",
+          "kid_clothes.ring",
+          "kid_clothes.necklace",
+          "kid_clothes.earrings",
+          "kid_clothes.bracelet",
+          "kid_clothes.uniform",
+          "kid_clothes.apron"
         ],
         "sentences": {
-          "1": ["sentence.l2_shoes_new", "sentence.l2_phone_bag"]
+          "1": [
+            "sentence.l2_shoes_new",
+            "sentence.l2_phone_bag",
+            "kid_clothes.s1_wear_hat",
+            "kid_clothes.s1_dress_red",
+            "kid_clothes.s1_put_on_socks",
+            "kid_clothes.s1_coat_warm",
+            "kid_clothes.s1_where_scarf",
+            "kid_clothes.s1_like_jacket"
+          ],
+          "2": [
+            "kid_clothes.s2_raincoat_rain",
+            "kid_clothes.s2_gloves_cold",
+            "kid_clothes.s2_tie_shoes",
+            "kid_clothes.s2_pajamas_bed",
+            "kid_clothes.s2_swimsuit_beach",
+            "kid_clothes.s2_button_shirt",
+            "kid_clothes.s2_dad_sunglasses",
+            "kid_clothes.s2_school_uniform"
+          ],
+          "3": [
+            "kid_clothes.s3_zip_coat",
+            "kid_clothes.s3_party_dress",
+            "kid_clothes.s3_winter_boots",
+            "kid_clothes.s3_jeans_pocket",
+            "kid_clothes.s3_pants_belt",
+            "kid_clothes.s3_grandma_sweater",
+            "kid_clothes.s3_slippers_home",
+            "kid_clothes.s3_lost_glove"
+          ]
         }
       },
       {
@@ -3949,10 +5300,44 @@
           "place.kitchen",
           "place.bathroom",
           "place.bedroom",
-          "place.garden"
+          "place.garden",
+          "home.living_room",
+          "home.shower",
+          "home.stairs",
+          "home.wall",
+          "home.roof"
         ],
         "sentences": {
-          "1": ["sentence.l1_house_big", "sentence.l2_key_table", "sentence.l3_wash_hands"]
+          "1": [
+            "sentence.l1_house_big",
+            "sentence.l2_key_table",
+            "kid_home.s1_door_open",
+            "kid_home.s1_sit_chair",
+            "kid_home.s1_bed_soft",
+            "kid_home.s1_close_window",
+            "kid_home.s1_mom_kitchen",
+            "kid_home.s1_turn_on_lamp"
+          ],
+          "2": [
+            "sentence.l3_wash_hands",
+            "kid_home.s2_tv_living_room",
+            "kid_home.s2_cat_sofa",
+            "kid_home.s2_milk_fridge",
+            "kid_home.s2_face_mirror",
+            "kid_home.s2_plates_table",
+            "kid_home.s2_soup_spoon",
+            "kid_home.s2_dad_shower"
+          ],
+          "3": [
+            "kid_home.s3_our_house",
+            "kid_home.s3_toothbrush_sink",
+            "kid_home.s3_pillow_blanket",
+            "kid_home.s3_cake_oven",
+            "kid_home.s3_clock_wall",
+            "kid_home.s3_towel_bath",
+            "kid_home.s3_lost_key",
+            "kid_home.s3_roof_nest"
+          ]
         }
       },
       {
@@ -3973,14 +5358,64 @@
           "home.book",
           "home.pencil",
           "home.crayon",
-          "home.scissors"
+          "home.scissors",
+          "school.question",
+          "school.answer",
+          "school.page",
+          "school.word",
+          "school.english",
+          "home.computer",
+          "kid_school.backpack",
+          "kid_school.pencil_case",
+          "kid_school.sharpener",
+          "kid_school.glue",
+          "kid_school.board",
+          "kid_school.paper",
+          "kid_school.classmate",
+          "kid_school.test",
+          "kid_school.letter",
+          "kid_school.math",
+          "kid_school.science",
+          "kid_school.bell",
+          "kid_school.recess",
+          "kid_school.lunchbox",
+          "kid_school.paintbrush",
+          "kid_school.marker",
+          "kid_school.calculator",
+          "kid_school.globe",
+          "kid_school.sticker",
+          "kid_school.principal"
         ],
         "sentences": {
           "1": [
             "sentence.l2_go_school",
             "sentence.l2_write_notebook",
             "sentence.l3_when_lesson",
-            "sentence.l3_homework_difficult"
+            "sentence.l3_homework_difficult",
+            "kid_school.s1_open_books",
+            "kid_school.s1_red_pencil",
+            "kid_school.s1_bell_ringing",
+            "kid_school.s1_need_eraser"
+          ],
+          "2": [
+            "kid_school.s2_teacher_board",
+            "kid_school.s2_backpack_heavy",
+            "kid_school.s2_recess_outside",
+            "kid_school.s2_raise_hand",
+            "kid_school.s2_math_favorite",
+            "kid_school.s2_words_page",
+            "kid_school.s2_cut_paper",
+            "kid_school.s2_learn_english"
+          ],
+          "3": [
+            "kid_school.s3_math_test",
+            "kid_school.s3_pencil_case",
+            "kid_school.s3_map_wall",
+            "kid_school.s3_answer_question",
+            "kid_school.s3_computers_friday",
+            "kid_school.s3_lunchbox",
+            "kid_school.s3_homework_tv",
+            "kid_school.s3_alphabet"
           ]
         }
       },
@@ -4004,10 +5439,63 @@
           "toy.bubbles",
           "toy.slide",
           "toy.swing",
-          "toy.jump_rope"
+          "toy.jump_rope",
+          "leisure.game",
+          "kid_toys.marbles",
+          "kid_toys.spinning_top",
+          "kid_toys.whistle",
+          "kid_toys.guitar",
+          "kid_toys.piano",
+          "kid_toys.play_dough",
+          "kid_toys.dice",
+          "kid_toys.chess",
+          "kid_toys.board_game",
+          "kid_toys.puppet",
+          "kid_toys.dollhouse",
+          "kid_toys.toy_box",
+          "kid_toys.rocking_horse",
+          "kid_toys.water_gun",
+          "kid_toys.paper_plane",
+          "kid_toys.toy_boat",
+          "kid_toys.dinosaur",
+          "kid_toys.trampoline",
+          "kid_toys.bucket",
+          "kid_toys.shovel",
+          "kid_toys.video_game",
+          "kid_toys.mask",
+          "kid_toys.carousel"
         ],
         "sentences": {
-          "1": ["sentence.l2_he_plays"]
+          "1": [
+            "sentence.l2_he_plays",
+            "kid_toys.s1_kite_high",
+            "kid_toys.s1_new_robot",
+            "kid_toys.s1_ball_red",
+            "kid_toys.s1_lets_play",
+            "kid_toys.s1_doll_sleeping",
+            "kid_toys.s1_blow_bubbles",
+            "kid_toys.s1_my_turn"
+          ],
+          "2": [
+            "kid_toys.s2_teddy_sleep",
+            "kid_toys.s2_go_down_slide",
+            "kid_toys.s2_tower_blocks",
+            "kid_toys.s2_your_toy_car",
+            "kid_toys.s2_throw_dice",
+            "kid_toys.s2_balloon_sky",
+            "kid_toys.s2_push_swing",
+            "kid_toys.s2_drum_loud"
+          ],
+          "3": [
+            "kid_toys.s3_toys_box",
+            "kid_toys.s3_puzzle_pieces",
+            "kid_toys.s3_grandpa_robot",
+            "kid_toys.s3_kites_windy",
+            "kid_toys.s3_chess_saturday",
+            "kid_toys.s3_sand_castle",
+            "kid_toys.s3_video_games",
+            "kid_toys.s3_paper_plane"
+          ]
         }
       },
       {
@@ -4031,10 +5519,62 @@
           "time.night",
           "time.week",
           "time.month",
-          "time.year"
+          "time.year",
+          "time.afternoon",
+          "time.noon",
+          "time.weekend",
+          "time.hour",
+          "time.minute",
+          "time.now",
+          "time.early",
+          "time.late",
+          "time.later",
+          "time.soon",
+          "time.time",
+          "time.always",
+          "time.sometimes",
+          "time.never",
+          "kid_days_time.calendar",
+          "kid_days_time.alarm_clock",
+          "kid_days_time.bedtime",
+          "kid_days_time.date",
+          "kid_days_time.midnight",
+          "kid_days_time.second",
+          "kid_days_time.quarter",
+          "kid_days_time.tonight",
+          "kid_days_time.lunchtime"
         ],
         "sentences": {
-          "1": ["sentence.l2_monday_good", "sentence.l3_cold_today", "sentence.l3_tomorrow_monday"]
+          "1": [
+            "sentence.l2_monday_good",
+            "sentence.l3_cold_today",
+            "sentence.l3_tomorrow_monday",
+            "sentence.a1_what_time",
+            "kid_days_time.s1_today_friday",
+            "kid_days_time.s1_late_now",
+            "kid_days_time.s1_weekend_fun",
+            "kid_days_time.s1_wake_up_early"
+          ],
+          "2": [
+            "kid_days_time.s2_monday_friday",
+            "kid_days_time.s2_seven_days",
+            "kid_days_time.s2_lunch_noon",
+            "kid_days_time.s2_party_saturday",
+            "kid_days_time.s2_wait_minutes",
+            "kid_days_time.s2_yesterday_park",
+            "kid_days_time.s2_afternoon_book",
+            "kid_days_time.s2_never_late"
+          ],
+          "3": [
+            "kid_days_time.s3_alarm_seven",
+            "kid_days_time.s3_calendar",
+            "kid_days_time.s3_vacation_sea",
+            "kid_days_time.s3_dad_late",
+            "kid_days_time.s3_quarter_past",
+            "kid_days_time.s3_tonight_stars",
+            "kid_days_time.s3_three_days",
+            "kid_days_time.s3_sixty_seconds"
+          ]
         }
       },
       {
@@ -4066,9 +5606,55 @@
           "vehicle.skateboard",
           "vehicle.wheel",
           "vehicle.road",
-          "vehicle.traffic_light"
+          "vehicle.traffic_light",
+          "work.driver",
+          "travel.ticket",
+          "travel.bus_stop",
+          "place.station",
+          "place.airport",
+          "travel.traffic",
+          "travel.map",
+          "travel.suitcase",
+          "action.drive",
+          "action.stop",
+          "travel.turn",
+          "travel.left",
+          "travel.right",
+          "kid_vehicles.passenger",
+          "kid_vehicles.seat_belt"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "kid_vehicles.s1_red_car",
+            "kid_vehicles.s1_big_bus",
+            "kid_vehicles.s1_plane_fast",
+            "kid_vehicles.s1_ride_bicycle",
+            "kid_vehicles.s1_train_long",
+            "kid_vehicles.s1_stop_red",
+            "kid_vehicles.s1_go_bus",
+            "kid_vehicles.s1_taxi_yellow"
+          ],
+          "2": [
+            "kid_vehicles.s2_bus_school",
+            "kid_vehicles.s2_driver_slow",
+            "kid_vehicles.s2_ticket_train",
+            "kid_vehicles.s2_ambulance_fast",
+            "kid_vehicles.s2_seat_belt",
+            "kid_vehicles.s2_plane_airport",
+            "kid_vehicles.s2_turn_left",
+            "kid_vehicles.s2_fire_truck"
+          ],
+          "3": [
+            "kid_vehicles.s3_bus_stop",
+            "kid_vehicles.s3_rocket_moon",
+            "kid_vehicles.s3_tractor_farm",
+            "kid_vehicles.s3_train_station",
+            "kid_vehicles.s3_police_car",
+            "kid_vehicles.s3_map_trip",
+            "kid_vehicles.s3_subway_crowded",
+            "kid_vehicles.s3_skateboard_park"
+          ]
+        }
       },
       {
         "id": "kid.months_weather",
@@ -4095,10 +5681,58 @@
           "nature.rain",
           "nature.snow",
           "nature.wind",
-          "nature.cloud"
+          "nature.cloud",
+          "nature.weather",
+          "nature.storm",
+          "nature.fog",
+          "kid_months_weather.sunny",
+          "kid_months_weather.rainy",
+          "kid_months_weather.snowy",
+          "kid_months_weather.cloudy",
+          "kid_months_weather.windy",
+          "kid_months_weather.warm",
+          "kid_months_weather.cool",
+          "quality.wet",
+          "quality.dry",
+          "kid_months_weather.snowman",
+          "kid_months_weather.thunder",
+          "nature.temperature",
+          "nature.degree",
+          "leisure.birthday",
+          "travel.holiday",
+          "leisure.picnic"
         ],
         "sentences": {
-          "1": ["sentence.l3_swim_summer", "sentence.l3_snows_winter"]
+          "1": [
+            "sentence.l3_swim_summer",
+            "sentence.l3_snows_winter",
+            "kid_months_weather.s1_sunny_today",
+            "kid_months_weather.s1_rains_april",
+            "kid_months_weather.s1_birthday_may",
+            "kid_months_weather.s1_weather_cold",
+            "kid_months_weather.s1_wind_strong",
+            "kid_months_weather.s1_snowman"
+          ],
+          "2": [
+            "kid_months_weather.s2_umbrella",
+            "kid_months_weather.s2_summer_vacation",
+            "kid_months_weather.s2_leaves_fall",
+            "kid_months_weather.s2_fog_morning",
+            "kid_months_weather.s2_storm_thunder",
+            "kid_months_weather.s2_wet_shoes",
+            "kid_months_weather.s2_picnic_warm",
+            "kid_months_weather.s2_december_cold"
+          ],
+          "3": [
+            "kid_months_weather.s3_rainbow",
+            "kid_months_weather.s3_temperature",
+            "kid_months_weather.s3_snow_school",
+            "kid_months_weather.s3_winter_coat",
+            "kid_months_weather.s3_birthday_october",
+            "kid_months_weather.s3_windy_kites",
+            "kid_months_weather.s3_july_hot",
+            "kid_months_weather.s3_spring_flowers"
+          ]
         }
       },
       {
@@ -4125,9 +5759,60 @@
           "nature.beach",
           "nature.sand",
           "nature.rock",
-          "nature.fire"
+          "nature.fire",
+          "kid_nature.ocean",
+          "kid_nature.wave",
+          "kid_nature.hill",
+          "kid_nature.cave",
+          "kid_nature.waterfall",
+          "kid_nature.desert",
+          "kid_nature.plant",
+          "kid_nature.branch",
+          "kid_nature.nest",
+          "kid_nature.shell",
+          "kid_nature.mud",
+          "kid_nature.pond",
+          "kid_nature.bush",
+          "kid_nature.seed",
+          "kid_nature.root",
+          "kid_nature.field",
+          "kid_nature.valley",
+          "nature.world",
+          "kid_nature.planet",
+          "action.grow"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "kid_nature.s1_sky_blue",
+            "kid_nature.s1_tree_tall",
+            "kid_nature.s1_moon_big",
+            "kid_nature.s1_fire_hot",
+            "kid_nature.s1_flowers_red",
+            "kid_nature.s1_fish_river",
+            "kid_nature.s1_play_beach",
+            "kid_nature.s1_leaves_green"
+          ],
+          "2": [
+            "kid_nature.s2_hill_sunday",
+            "kid_nature.s2_bird_nest",
+            "kid_nature.s2_shells_beach",
+            "kid_nature.s2_plants_water",
+            "kid_nature.s2_desert_hot",
+            "kid_nature.s2_waves_big",
+            "kid_nature.s2_mud_boots",
+            "kid_nature.s2_cave_dark"
+          ],
+          "3": [
+            "kid_nature.s3_seed_tree",
+            "kid_nature.s3_waterfall",
+            "kid_nature.s3_island_boat",
+            "kid_nature.s3_forest_animals",
+            "kid_nature.s3_volcano",
+            "kid_nature.s3_our_world",
+            "kid_nature.s3_lightning",
+            "kid_nature.s3_frogs_pond"
+          ]
+        }
       },
       {
         "id": "kid.places",
@@ -4146,10 +5831,66 @@
           "question.where",
           "question.when",
           "question.why",
-          "question.how"
+          "question.how",
+          "kid_places.zoo",
+          "kid_places.farm",
+          "kid_places.playground",
+          "kid_places.swimming_pool",
+          "place.supermarket",
+          "place.restaurant",
+          "place.cinema",
+          "place.museum",
+          "kid_places.toy_store",
+          "kid_places.police_station",
+          "kid_places.fire_station",
+          "kid_places.post_office",
+          "place.pharmacy",
+          "place.bank",
+          "place.hotel",
+          "travel.bridge",
+          "travel.corner",
+          "place.country",
+          "travel.here",
+          "travel.there",
+          "travel.near",
+          "travel.far",
+          "position.under",
+          "position.behind",
+          "position.next_to",
+          "position.in_front_of",
+          "position.between"
         ],
         "sentences": {
-          "1": ["sentence.l3_where_library"]
+          "1": [
+            "sentence.l3_where_library",
+            "kid_places.s1_park_big",
+            "kid_places.s1_go_zoo",
+            "kid_places.s1_under_bed",
+            "kid_places.s1_store_near",
+            "kid_places.s1_why_here",
+            "kid_places.s1_what_place",
+            "kid_places.s1_live_village"
+          ],
+          "2": [
+            "kid_places.s2_hospital_park",
+            "kid_places.s2_bread_supermarket",
+            "kid_places.s2_post_office",
+            "kid_places.s2_mother_bank",
+            "kid_places.s2_pool_saturday",
+            "kid_places.s2_library_books",
+            "kid_places.s2_toy_store_corner",
+            "kid_places.s2_school_far"
+          ],
+          "3": [
+            "kid_places.s3_movie_saturday",
+            "kid_places.s3_bridge_river",
+            "kid_places.s3_grandma_farm",
+            "kid_places.s3_pharmacy_between",
+            "kid_places.s3_fire_station",
+            "kid_places.s3_police_lost",
+            "kid_places.s3_museum_bones",
+            "kid_places.s3_hotel_beach"
+          ]
         }
       },
       {
@@ -4180,9 +5921,56 @@
           "action.listen",
           "action.speak",
           "action.help",
-          "action.wash"
+          "action.wash",
+          "action.dance",
+          "action.laugh",
+          "action.cry",
+          "kid_actions.jump",
+          "kid_actions.climb",
+          "action.throw",
+          "action.catch",
+          "action.push",
+          "action.pull",
+          "action.carry",
+          "action.build",
+          "action.find",
+          "action.cook",
+          "action.watch",
+          "action.wait",
+          "action.wake_up"
         ],
-        "sentences": {}
+        "sentences": {
+          "1": [
+            "kid_actions.s1_run_fast",
+            "kid_actions.s1_dance_sing",
+            "kid_actions.s1_draws_cat",
+            "kid_actions.s1_sit_chair",
+            "kid_actions.s1_drink_water",
+            "kid_actions.s1_baby_sleeping",
+            "kid_actions.s1_catch_ball",
+            "kid_actions.s1_wait_me"
+          ],
+          "2": [
+            "kid_actions.s2_help_kitchen",
+            "kid_actions.s2_music_car",
+            "kid_actions.s2_sand_castle",
+            "kid_actions.s2_find_pencil",
+            "kid_actions.s2_brother_jumps",
+            "kid_actions.s2_father_cooks",
+            "kid_actions.s2_wake_seven",
+            "kid_actions.s2_push_door"
+          ],
+          "3": [
+            "kid_actions.s3_cartoons",
+            "kid_actions.s3_carry_bag",
+            "kid_actions.s3_throw_ball",
+            "kid_actions.s3_baby_cries",
+            "kid_actions.s3_laugh_story",
+            "kid_actions.s3_climb_tree",
+            "kid_actions.s3_story_bed",
+            "kid_actions.s3_summer_sea"
+          ]
+        }
       },
       {
         "id": "kid.describing",
@@ -4213,14 +6001,53 @@
           "opposite.long",
           "opposite.short",
           "opposite.fast",
-          "opposite.slow"
+          "opposite.slow",
+          "quality.heavy",
+          "quality.light",
+          "quality.soft",
+          "quality.hard",
+          "quality.full",
+          "quality.empty",
+          "quality.quiet",
+          "quality.noisy",
+          "quality.dark",
+          "feeling.angry",
+          "feeling.afraid",
+          "person.funny",
+          "person.brave",
+          "quality.dangerous",
+          "quality.safe"
         ],
         "sentences": {
           "1": [
             "sentence.l1_i_happy",
             "sentence.l2_hungry",
             "sentence.l2_tired",
-            "sentence.l2_not_tired"
+            "sentence.l2_not_tired",
+            "kid_describing.s1_box_heavy",
+            "kid_describing.s1_bag_empty",
+            "kid_describing.s1_cat_soft",
+            "kid_describing.s1_are_afraid"
+          ],
+          "2": [
+            "kid_describing.s2_elephant_strong",
+            "kid_describing.s2_quiet_baby",
+            "kid_describing.s2_old_bicycle",
+            "kid_describing.s2_glass_full",
+            "kid_describing.s2_dark_afraid",
+            "kid_describing.s2_grandfather_funny",
+            "kid_describing.s2_street_dangerous",
+            "kid_describing.s2_bread_soft"
+          ],
+          "3": [
+            "kid_describing.s3_library_noisy",
+            "kid_describing.s3_brave_sister",
+            "kid_describing.s3_heavy_light",
+            "kid_describing.s3_park_safe",
+            "kid_describing.s3_angry_toys",
+            "kid_describing.s3_long_day",
+            "kid_describing.s3_soup_hot",
+            "kid_describing.s3_dirty_hands"
           ]
         }
       }

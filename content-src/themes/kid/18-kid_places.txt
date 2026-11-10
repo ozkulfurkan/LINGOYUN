@@ -16,6 +16,61 @@ question.where # where = nerede
 question.when # when = ne zaman
 question.why # why = neden
 question.how # how = nasıl
+@kind word noun
+kid_places.zoo|zoo||hayvanat bahçesi|
+kid_places.farm|farm||çiftlik|
+kid_places.playground|playground||çocuk parkı|oyun parkı;oyun alanı;park
+kid_places.swimming_pool|swimming pool|pool|yüzme havuzu|havuz
+place.supermarket # supermarket = süpermarket
+place.restaurant # restaurant = restoran
+place.cinema # movie theater = sinema
+place.museum # museum = müze
+kid_places.toy_store|toy store|toy shop|oyuncakçı|oyuncak mağazası;oyuncak dükkânı;oyuncak dükkanı
+kid_places.police_station|police station||karakol|polis karakolu;polis merkezi
+kid_places.fire_station|fire station||itfaiye istasyonu|itfaiye
+kid_places.post_office|post office||postane|
+place.pharmacy # pharmacy = eczane
+place.bank # bank = banka
+place.hotel # hotel = otel
+travel.bridge # bridge = köprü
+travel.corner # corner = köşe
+place.country # country = ülke
+travel.here # here = burada
+travel.there # there = orada
+travel.near # near = yakın
+travel.far # far = uzak
+position.under # under = altında
+position.behind # behind = arkasında
+position.next_to # next to = yanında
+position.in_front_of # in front of = önünde
+position.between # between = arasında
 
 @sentences 1
 sentence.l3_where_library # Where is the library? = Kütüphane nerede?
+kid_places.s1_park_big|The park is very big.||Park çok büyük.|Park çok büyüktür.
+kid_places.s1_go_zoo|We go to the zoo.||Hayvanat bahçesine gideriz.|Hayvanat bahçesine gidiyoruz.;Biz hayvanat bahçesine gideriz.
+kid_places.s1_under_bed|It is under the bed.|It's under the bed.|Yatağın altında.|O yatağın altında.
+kid_places.s1_store_near|The store is near here.|The store is close.|Mağaza buraya yakın.|Mağaza yakın.;Mağaza yakında.
+kid_places.s1_why_here|Why are you here?||Neden buradasın?|Niye buradasın?;Sen neden buradasın?
+kid_places.s1_what_place|What is this place?||Burası neresi?|Burası ne?;Bu yer ne?
+kid_places.s1_live_village|I live in a village.||Bir köyde yaşıyorum.|Köyde yaşıyorum.;Ben bir köyde yaşıyorum.;Bir köyde yaşarım.
+
+@sentences 2
+kid_places.s2_hospital_park|The hospital is next to the park.||Hastane parkın yanında.|Hastane parkın yanındadır.
+kid_places.s2_bread_supermarket|We buy bread at the supermarket.|At the supermarket we buy bread.;At the supermarket, we buy bread.|Süpermarketten ekmek alırız.|Süpermarketten ekmek alıyoruz.;Ekmeği süpermarketten alırız.
+kid_places.s2_post_office|Excuse me, where is the post office?||Affedersiniz, postane nerede?|Affedersin, postane nerede?;Pardon, postane nerede?;Postane nerede?
+kid_places.s2_mother_bank|My mother works at the bank.|My mother works in the bank.;My mom works at the bank.|Annem bankada çalışır.|Annem bankada çalışıyor.
+kid_places.s2_pool_saturday|I swim in the pool on Saturday.|On Saturday I swim in the pool.;On Saturday, I swim in the pool.|Cumartesi havuzda yüzerim.|Cumartesi günü havuzda yüzerim.;Cumartesileri havuzda yüzerim.
+kid_places.s2_library_books|There are many books in the library.|In the library there are many books.;In the library, there are many books.|Kütüphanede çok kitap var.|Kütüphanede birçok kitap var.;Kütüphanede bir sürü kitap var.
+kid_places.s2_toy_store_corner|The toy store is on the corner.||Oyuncakçı köşede.|Oyuncak mağazası köşede.;Oyuncakçı köşededir.
+kid_places.s2_school_far|My school is not far from here.|My school isn't far from here.|Okulum buradan uzak değil.|Okulum buraya uzak değil.
+
+@sentences 3
+kid_places.s3_movie_saturday|We watch a movie at the movie theater on Saturday.|On Saturday we watch a movie at the movie theater.;On Saturday, we watch a movie at the movie theater.;We watch a movie on Saturday at the movie theater.|Cumartesi sinemada film izleriz.|Cumartesi günü sinemada film izleriz.;Cumartesi sinemada film izliyoruz.
+kid_places.s3_bridge_river|There is an old bridge over the river in our city.|In our city there is an old bridge over the river.;In our city, there is an old bridge over the river.|Şehrimizde nehrin üstünde eski bir köprü var.|Şehrimizde nehrin üzerinde eski bir köprü var.
+kid_places.s3_grandma_farm|My grandmother has a farm with cows and chickens in the village.|In the village my grandmother has a farm with cows and chickens.;My grandma has a farm with cows and chickens in the village.;My grandmother has a farm with chickens and cows in the village.;In the village my grandmother has a farm with chickens and cows.;My grandmother has a farm in the village with cows and chickens.;My grandmother has a farm in the village with chickens and cows.|Büyükannemin köyde inekleri ve tavukları olan bir çiftliği var.|Anneannemin köyde inekleri ve tavukları olan bir çiftliği var.;Babaannemin köyde inekleri ve tavukları olan bir çiftliği var.
+kid_places.s3_pharmacy_between|The pharmacy is between the bank and the post office.|The pharmacy is between the post office and the bank.|Eczane bankayla postanenin arasında.|Eczane postaneyle bankanın arasında.;Eczane banka ile postanenin arasında.;Eczane bankayla postane arasında.
+kid_places.s3_fire_station|The fire trucks wait at the fire station near our school.||İtfaiye araçları okulumuzun yakınındaki itfaiye istasyonunda bekler.|İtfaiye araçları okulumuzun yanındaki itfaiye istasyonunda bekler.;İtfaiye araçları okulumuzun yakınındaki itfaiyede bekler.
+kid_places.s3_police_lost|If you are lost, ask a police officer for help.|If you are lost ask a police officer for help.;If you're lost, ask a police officer for help.;Ask a police officer for help if you are lost.|Kaybolursan bir polisten yardım iste.|Kaybolursan bir polis memurundan yardım iste.;Kaybolduğunda bir polisten yardım iste.
+kid_places.s3_museum_bones|At the museum we can see very old dinosaur bones.|At the museum, we can see very old dinosaur bones.;We can see very old dinosaur bones at the museum.|Müzede çok eski dinozor kemikleri görebiliriz.|Müzede çok eski dinozor kemiklerini görebiliriz.
+kid_places.s3_hotel_beach|We stay at a hotel near the beach in summer.|In summer we stay at a hotel near the beach.;In summer, we stay at a hotel near the beach.|Yazın plaja yakın bir otelde kalırız.|Yazın plaja yakın bir otelde kalıyoruz.;Yazları plaja yakın bir otelde kalırız.
