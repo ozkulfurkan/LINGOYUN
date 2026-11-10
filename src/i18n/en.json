@@ -212,7 +212,8 @@
     "check": "Check",
     "dontKnow": "I don't know",
     "nearMiss": "Almost! Mind the special letters: {{answer}}",
-    "typo": "A small typo. It's: {{answer}}"
+    "typo": "A small typo. It's: {{answer}}",
+    "otherWord": "That's a real answer too, but the word asked for is: {{answer}}"
   },
   "themes": {
     "names": {

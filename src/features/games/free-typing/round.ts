@@ -1,5 +1,11 @@
 import { findConcept, getEntry, type ContentBundle } from '@/content';
-import { acceptedAnswers, checkAnswer, knownForms, type Verdict } from '@/features/answer-check';
+import {
+  acceptedAnswers,
+  checkAnswerWithTwins,
+  knownForms,
+  twinAnswers,
+  type Verdict,
+} from '@/features/answer-check';
 import { planConcepts } from '@/features/games/multiple-choice/round';
 import { findCourse, getLanguage, type CourseId, type LanguageCode } from '@/features/languages';
 import { shuffle, type Rng } from '@/features/quiz/rng';
@@ -16,6 +22,8 @@ export type TypingItem = {
   answerLang: LanguageCode;
   /** Main answer first, then alternatives. */
   accepted: string[];
+  /** Answers of other concepts with the same prompt: right idea, not the word asked. */
+  otherAnswers: string[];
   isSentence: boolean;
 };
 
@@ -50,6 +58,7 @@ export function buildTypingItem(
     promptLang: course.nativeLang,
     answerLang: course.targetLang,
     accepted,
+    otherAnswers: twinAnswers(bundle, course.nativeLang, course.targetLang, conceptId),
     isSentence: concept.kind === 'sentence',
   };
 }
@@ -107,6 +116,21 @@ export function cachedKnownForms(bundle: ContentBundle, lang: LanguageCode): Set
   return forms;
 }
 
+/** Checks what was typed for an item ("" = I don't know). */
+export function checkTyping(bundle: ContentBundle, item: TypingItem, typed: string): TypingResult {
+  if (!typed.trim()) return { verdict: 'wrong', expected: item.accepted[0], typed: '' };
+  return {
+    ...checkAnswerWithTwins(
+      getLanguage(item.answerLang),
+      typed,
+      item.accepted,
+      item.otherAnswers,
+      cachedKnownForms(bundle, item.answerLang),
+    ),
+    typed,
+  };
+}
+
 /** Checks what was typed for the current item ("" = I don't know). */
 export function answerTyping(
   bundle: ContentBundle,
@@ -115,17 +139,7 @@ export function answerTyping(
 ): TypingRound {
   const item = currentItem(round);
   if (!item) return round;
-  const result: TypingResult = typed.trim()
-    ? {
-        ...checkAnswer(
-          getLanguage(item.answerLang),
-          typed,
-          item.accepted,
-          cachedKnownForms(bundle, item.answerLang),
-        ),
-        typed,
-      }
-    : { verdict: 'wrong', expected: item.accepted[0], typed: '' };
+  const result = checkTyping(bundle, item, typed);
   return { ...round, results: [...round.results, result] };
 }
 

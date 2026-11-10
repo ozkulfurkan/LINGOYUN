@@ -5,10 +5,12 @@ import { foldAnswer, normalizeAnswer, type LanguageDef } from '@/features/langua
  *            leading article ignored).
  * nearMiss – differs only by special letters (kisi ↔ kişi): show the right spelling.
  * typo     – one small slip (or two in long answers): show the right spelling.
+ * otherWord – the answer of another concept with the same prompt ("hiç" can
+ *            be "ever" or "never"): right idea, but show the one asked for.
  * wrong    – anything else.
- * Whether nearMiss/typo earn points is a game decision, not made here.
+ * Whether nearMiss/typo/otherWord earn points is a game decision, not made here.
  */
-export type Verdict = 'correct' | 'nearMiss' | 'typo' | 'wrong';
+export type Verdict = 'correct' | 'nearMiss' | 'typo' | 'otherWord' | 'wrong';
 
 export type CheckResult = {
   verdict: Verdict;
@@ -95,4 +97,24 @@ export function checkAnswer(
   if (best) return { verdict: 'typo', expected: best.text };
 
   return { verdict: 'wrong', expected: main };
+}
+
+/**
+ * Like checkAnswer, but a wrong answer that another concept with the same
+ * prompt accepts (`otherAnswers`) is `otherWord` instead of `wrong`.
+ */
+export function checkAnswerWithTwins(
+  lang: LanguageDef,
+  given: string,
+  accepted: readonly string[],
+  otherAnswers: readonly string[],
+  knownForms: ReadonlySet<string> = new Set(),
+): CheckResult {
+  const result = checkAnswer(lang, given, accepted, knownForms);
+  if (result.verdict !== 'wrong') return result;
+  const input = canonical(lang, given);
+  if (input && otherAnswers.some((a) => canonical(lang, a) === input)) {
+    return { verdict: 'otherWord', expected: accepted[0] ?? '' };
+  }
+  return result;
 }

@@ -62,7 +62,7 @@ sentence.l2_baby_sleeps # The baby sleeps in the bed. = Bebek yatakta uyur.
 sentence.l3_grandfather_walks # My grandfather walks in the park. = Dedem parkta yürür.
 sentence.l3_aunt_helps # My aunt helps my mother in the kitchen. = Teyzem mutfakta anneme yardım eder.
 kid_family.s2_big_family|I have a big family and many cousins.||Büyük bir ailem ve çok kuzenim var.|Benim büyük bir ailem ve çok kuzenim var.;Büyük bir ailem ve bir sürü kuzenim var.;Kalabalık bir ailem ve çok kuzenim var.
-kid_family.s2_twins|My cousins are twins, Nehir and Zeynep.|My cousins are twins, Zeynep and Nehir.|Kuzenlerim ikiz, Nehir ve Zeynep.|Kuzenlerim ikizler, Nehir ve Zeynep.;Kuzenlerim ikiz, Zeynep ve Nehir.
+kid_family.s2_twins|My cousins are twins, Elif and Deniz.||Kuzenlerim ikiz, Elif ve Deniz.|Kuzenlerim ikizler, Elif ve Deniz.;Kuzenlerim ikiz, Deniz ve Elif.;Kuzenlerim ikizler, Deniz ve Elif.|Elif;Deniz
 kid_family.s2_uncle_children|My uncle has a son and a daughter.|My uncle has a daughter and a son.|Amcamın bir oğlu ve bir kızı var.|Dayımın bir oğlu ve bir kızı var.;Amcamın bir kızı ve bir oğlu var.;Dayımın bir kızı ve bir oğlu var.
 kid_family.s2_hug_mother|I hug my mother every morning.|Every morning I hug my mother.|Her sabah anneme sarılırım.|Her sabah anneme sarılıyorum.;Ben her sabah anneme sarılırım.
 kid_family.s2_visit_grandparents|We visit our grandparents on Sunday.|On Sunday we visit our grandparents.|Pazar günü büyükanne ve büyükbabamızı ziyaret ederiz.|Pazar günleri büyükanne ve büyükbabamızı ziyaret ederiz.;Pazar günü dedemizle ninemizi ziyaret ederiz.;Pazar günü büyükannemizle büyükbabamızı ziyaret ederiz.

@@ -186,10 +186,11 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - ✅ Her parti `ceviri-editoru` denetiminden geçti, HATA ve DÜZELT bulguları uygulandı. Raporlar `docs/content/reviews/`.
   - ✅ Furkan cihazda onayladı (2026-11-10), main'e alındı.
   - Furkan'ın kararları: karakter adları çocuk cümlelerinde kalır (ikiz kuzen cümlesi düzeltilir); "teacher" hitabı ABD'ye uygun hitapla değişir; "cake/pasta" tuzağı ve seviye üstü cümleler olduğu gibi kalır; başka kavramın cevabı ve liste sırası LNG-46'da.
-- [ ] **LNG-46** BULUT — Cevap kontrolü inceliği ve içerik kararları (Furkan'ın kararları, LNG-45 denetimlerinden).
-  - Yazarak çevirmede başka bir kavramın doğru cevabı (ör. "hiç" için "never" yerine "ever") can götürmez: "Doğru bir kelime, ama aranan: X" der, `hard` sayılır.
-  - Cümle kurma ve yazmada virgül ve "and" ile ayrılmış liste öğelerinin her sırası doğru sayılır.
-  - İçerik: Nehir ile Zeynep'i ikiz kuzen yapan cümle değişir; "Thank you, teacher." gibi hitaplar ABD'ye uygun olur. `ceviri-editoru` denetler.
+- [x] **LNG-46** BULUT — Cevap kontrolü inceliği ve içerik kararları (Furkan'ın kararları, LNG-45 denetimlerinden).
+  - ✅ Yazarak çevirmede, aynı Türkçeyi paylaşan başka bir kavramın cevabı (ör. "hiç" sorusuna "ever" yerine "never") can götürmez: "Bu da doğru bir kelime, ama aranan: X" der, `hard` sayılır (`otherWord`). Adım ekranı ve serbest yazma aynı kontrolü kullanır.
+  - ✅ Sırası serbest listeler: tema dosyasında cümle satırına isteğe bağlı 6. alan (`…|eggs;milk;bread;cheese`). Cümle kurma ve yazmada öğelerin her sırası doğru sayılır. Otomatik değil, çünkü bazı listeler bir sıra anlatır ("kalkarım, duş alırım, giyinirim"). 8 cümle işaretlendi; doğrulayıcı öğelerin metinde geçtiğini denetler.
+  - ✅ İçerik: ikiz kuzen cümlesi Elif ve Deniz oldu; "teacher" hitabı "Ms. Brown" (Türkçesi "Brown Öğretmen").
+  - Cihazda nasıl test edilir (isteğe bağlı): yetişkin "Zaman ve bağlaçlar" temasında "hiç" sorusuna "never" yaz → kalp gitmez, "aranan: ever" yazar. "Yiyecek ve içecek" temasında alışveriş listesi cümlesini farklı sırayla kur → doğru sayılır.
   - Derleme: yeni yerel paket yok. Metro'yu `--clear` ile yeniden başlat.
   - Cihazda nasıl test edilir:
     1. Bir temayı aç, 1'den 4'e basamakları oyna: her basamakta 10 yeni kelime, öncekilerin tekrarı yok (yalnızca önceki hataların).

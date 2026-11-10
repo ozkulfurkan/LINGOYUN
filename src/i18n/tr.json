@@ -212,7 +212,8 @@
     "check": "Kontrol et",
     "dontKnow": "Bilmiyorum",
     "nearMiss": "Neredeyse! Özel harflere dikkat: {{answer}}",
-    "typo": "Küçük bir yazım hatası. Doğrusu: {{answer}}"
+    "typo": "Küçük bir yazım hatası. Doğrusu: {{answer}}",
+    "otherWord": "Bu da doğru bir kelime, ama aranan: {{answer}}"
   },
   "themes": {
     "names": {

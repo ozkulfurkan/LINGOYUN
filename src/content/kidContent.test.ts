@@ -11,7 +11,22 @@ const conceptsAt = (level: string) =>
   unitsFor(content, 'tr-en', 'kid', level).flatMap((u) => conceptsOf(content, u));
 
 // Grammar glue that is not taught as a vocabulary card.
-const GLUE = new Set(['a', 'an', 'the', 'am', 'is', 'are', 'in', 'on', 'to', 'with', 'not', 'it']);
+// "ms" is a title that goes with a name ("Ms. Brown"), like the name itself.
+const GLUE = new Set([
+  'a',
+  'an',
+  'the',
+  'am',
+  'is',
+  'are',
+  'in',
+  'on',
+  'to',
+  'with',
+  'not',
+  'it',
+  'ms',
+]);
 
 const tokens = (text: string) =>
   lower(text)

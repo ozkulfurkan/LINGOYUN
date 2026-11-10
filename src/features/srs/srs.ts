@@ -33,6 +33,7 @@ export function gradeFromVerdict(verdict: Verdict): Grade {
       return 'good';
     case 'nearMiss':
     case 'typo':
+    case 'otherWord':
       return 'hard';
     case 'wrong':
       return 'again';

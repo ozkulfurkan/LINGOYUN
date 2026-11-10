@@ -33,6 +33,12 @@ export type Entry = {
   trap?: string;
   /** Short explanation shown after answering, in this language. */
   note?: string;
+  /**
+   * Items of a list whose order is free, as written in `text`: "eggs, milk,
+   * bread and cheese" → ["eggs", "milk", "bread", "cheese"]. Every order of
+   * them is accepted (sentences only).
+   */
+  anyOrder?: string[];
 };
 
 export type LanguageContent = {

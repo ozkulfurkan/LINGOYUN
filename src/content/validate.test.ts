@@ -110,6 +110,16 @@ describe('validateContent', () => {
       /duplicate unit id/,
     ],
     ['unknown course', (b) => (b.courses[0].id = 'tr-tr'), /no CourseDef/],
+    [
+      'free-order items missing from the text',
+      (b) => (b.languages.en.sentences['fruit.apple_red'].anyOrder = ['apple', 'green']),
+      /anyOrder items must appear/,
+    ],
+    [
+      'free-order items on a word',
+      (b) => (b.languages.en.words['fruit.apple'].anyOrder = ['a', 'b']),
+      /anyOrder is for sentences only/,
+    ],
   ])('reports %s', (_name, breakIt, pattern) => {
     const bundle = makeBundle();
     breakIt(bundle);

@@ -61,7 +61,8 @@
     "text": "My bag is black."
   },
   "sentence.l1_thanks_teacher": {
-    "text": "Thank you, teacher."
+    "text": "Thank you, Ms. Brown.",
+    "alt": ["Thanks, Ms. Brown."]
   },
   "sentence.l1_morning_friend": {
     "text": "Good morning, my friend."
@@ -1798,7 +1799,8 @@
       "We need eggs, milk, bread and cheese from the store.",
       "We need eggs, milk, bread, and cheese from the market.",
       "From the market we need eggs, milk, bread and cheese."
-    ]
+    ],
+    "anyOrder": ["eggs", "milk", "bread", "cheese"]
   },
   "food.s2_cut_tomatoes": {
     "text": "Can you cut the tomatoes and onions for the salad?",
@@ -1816,7 +1818,8 @@
       "A Turkish breakfast usually includes cheese, olives, eggs and tea.",
       "Usually a Turkish breakfast has cheese, olives, eggs and tea.",
       "A Turkish breakfast usually has cheese, olives, eggs, and tea."
-    ]
+    ],
+    "anyOrder": ["cheese", "olives", "eggs", "tea"]
   },
   "food.s2_less_sugar": {
     "text": "The doctor says I should eat less sugar and salt.",
@@ -2416,7 +2419,8 @@
       "I am packing two pairs of pants, five T-shirts, a warm sweater and my old boots for the trip.",
       "For the trip I am packing two pairs of trousers, five T-shirts, a warm sweater and my old boots.",
       "For the trip I'm packing two pairs of pants, five t-shirts, a warm sweater, and my old boots."
-    ]
+    ],
+    "anyOrder": ["two pairs of pants", "five T-shirts", "a warm sweater", "my old boots"]
   },
   "home_clothes.s3_after_dinner": {
     "text": "After dinner my husband washes the plates and glasses, and I put the knives, forks and spoons away.",
@@ -2426,7 +2430,8 @@
       "After dinner my wife washes the plates and glasses, and I put away the knives, forks and spoons.",
       "My husband washes the plates and glasses after dinner, and I put the knives, forks and spoons away.",
       "After dinner my husband washes the glasses and plates, and I put the knives, forks and spoons away."
-    ]
+    ],
+    "anyOrder": ["knives", "forks", "spoons"]
   },
   "home_clothes.s3_garden_dream": {
     "text": "We would love a house with a garden, but houses like that are too expensive, so we live in a small apartment.",
@@ -2454,7 +2459,8 @@
       "The fridge is almost empty, so I'll buy milk, eggs and some bottles of water after work.",
       "The fridge is nearly empty, so after work I'll buy milk, eggs and some bottles of water.",
       "The fridge is almost empty, so after work I'm going to buy milk, eggs and some bottles of water."
-    ]
+    ],
+    "anyOrder": ["milk", "eggs", "some bottles of water"]
   },
   "body_weather.s1_head_hurts": {
     "text": "My head hurts.",
@@ -3876,7 +3882,8 @@
       "When we bought the apartment, there was no furniture, only a fridge, a dishwasher and an oven.",
       "When we bought the flat, there was no furniture, only a fridge, an oven and a dishwasher.",
       "When we bought the apartment, there wasn't any furniture, only a fridge, an oven and a dishwasher."
-    ]
+    ],
+    "anyOrder": ["a fridge", "an oven", "a dishwasher"]
   },
   "home_life.s3_rainy_weekend": {
     "text": "If it rains again this weekend, we will stay at home, watch movies and order some pizza.",
@@ -5158,8 +5165,8 @@
     "text": "Nice to meet you, my friend."
   },
   "kid_greetings.s3_morning_names": {
-    "text": "Good morning, teacher, my name is Kerem and this is Nehir.",
-    "alt": ["Good morning, teacher, my name's Kerem and this is Nehir."]
+    "text": "Good morning, Ms. Brown, my name is Kerem and this is Nehir.",
+    "alt": ["Good morning, Ms. Brown, my name's Kerem and this is Nehir."]
   },
   "kid_greetings.s3_hello_nice": {
     "text": "Hello, I am Zeynep and it is nice to meet you.",
@@ -5169,10 +5176,10 @@
     ]
   },
   "kid_greetings.s3_sorry_late": {
-    "text": "I am sorry, teacher, I am late this morning.",
+    "text": "I am sorry, Ms. Brown, I am late this morning.",
     "alt": [
-      "I'm sorry, teacher, I'm late this morning.",
-      "I am sorry, teacher, this morning I am late."
+      "I'm sorry, Ms. Brown, I'm late this morning.",
+      "I am sorry, Ms. Brown, this morning I am late."
     ]
   },
   "kid_greetings.s3_good_night": {
@@ -5512,7 +5519,8 @@
   },
   "kid_food.s3_turkish_breakfast": {
     "text": "We eat olives, cheese, eggs and bread at breakfast.",
-    "alt": ["At breakfast we eat olives, cheese, eggs and bread."]
+    "alt": ["At breakfast we eat olives, cheese, eggs and bread."],
+    "anyOrder": ["olives", "cheese", "eggs", "bread"]
   },
   "kid_food.s3_popcorn_movie": {
     "text": "We eat popcorn and drink juice when we watch a movie.",
@@ -5540,8 +5548,8 @@
     "text": "I have a big family and many cousins."
   },
   "kid_family.s2_twins": {
-    "text": "My cousins are twins, Nehir and Zeynep.",
-    "alt": ["My cousins are twins, Zeynep and Nehir."]
+    "text": "My cousins are twins, Elif and Deniz.",
+    "anyOrder": ["Elif", "Deniz"]
   },
   "kid_family.s2_uncle_children": {
     "text": "My uncle has a son and a daughter.",

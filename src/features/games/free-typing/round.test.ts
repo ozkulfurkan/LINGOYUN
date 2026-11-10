@@ -5,6 +5,7 @@ import { seededRng } from '@/features/quiz/rng';
 import {
   answerTyping,
   buildTypingItem,
+  checkTyping,
   currentItem,
   isTypingFinished,
   startTypingRound,
@@ -34,8 +35,15 @@ describe('buildTypingItem', () => {
       promptLang: 'tr',
       answerLang: 'en',
       accepted: ['apple'],
+      otherAnswers: [],
       isSentence: false,
     });
+  });
+
+  it('accepts the answer of a concept with the same prompt as a near answer', () => {
+    const item = buildTypingItem(content, 'tr-en', 'time_links.ever')!;
+    expect(checkTyping(content, item, 'never').verdict).toBe('otherWord');
+    expect(checkTyping(content, item, '').verdict).toBe('wrong');
   });
 
   it('keeps alternatives and marks sentences', () => {

@@ -150,7 +150,9 @@ function Game({ profileId, nickname, courseId, level, onPlayAgain }: GameProps) 
         ? t('typing.nearMiss', { answer: shown.expected })
         : shown.verdict === 'typo'
           ? t('typing.typo', { answer: shown.expected })
-          : t('game.answerWas', { answer: shown.expected });
+          : shown.verdict === 'otherWord'
+            ? t('typing.otherWord', { answer: shown.expected })
+            : t('game.answerWas', { answer: shown.expected });
 
   const answered = round.results.length - (shown ? 1 : 0);
 

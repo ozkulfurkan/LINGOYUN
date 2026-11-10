@@ -41,9 +41,8 @@ import {
   sentenceGrade,
   type SentencePuzzle,
 } from '@/features/games/sentence-builder';
-import { checkAnswer } from '@/features/answer-check';
-import { cachedKnownForms, type TypingResult } from '@/features/games/free-typing';
-import { getLanguage, type CourseId } from '@/features/languages';
+import { checkTyping, type TypingResult } from '@/features/games/free-typing';
+import { type CourseId } from '@/features/languages';
 import {
   buildStep,
   EXAM_STEP,
@@ -299,18 +298,8 @@ function Step(props: StepProps) {
   /** Checks a typed answer ("" = I don't know). Spelling slips cost no life. */
   const submitTyping = (value: string) => {
     if (item.kind !== 'typing' || typingResult) return;
-    const { accepted, answerLang } = item.item;
-    const result: TypingResult = value.trim()
-      ? {
-          ...checkAnswer(
-            getLanguage(answerLang),
-            value,
-            accepted,
-            cachedKnownForms(content, answerLang),
-          ),
-          typed: value,
-        }
-      : { verdict: 'wrong', expected: accepted[0], typed: '' };
+    const { answerLang } = item.item;
+    const result = checkTyping(content, item.item, value);
     const grade = gradeFromVerdict(result.verdict);
     if (grade === 'again') lose();
     setTypingResult(result);
@@ -505,6 +494,7 @@ function feedbackText(
     if (typingResult.verdict === 'correct') return t(`game.correct.${profileType}`);
     if (typingResult.verdict === 'nearMiss') return t('typing.nearMiss', { answer });
     if (typingResult.verdict === 'typo') return t('typing.typo', { answer });
+    if (typingResult.verdict === 'otherWord') return t('typing.otherWord', { answer });
     return t('game.answerWas', { answer });
   }
   if (!answered) {

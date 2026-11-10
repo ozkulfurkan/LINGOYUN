@@ -19,6 +19,8 @@
 //   sentence.x|I am here.|I'm here.|Buradayım.|
 //
 // Alternatives are separated by ";". Text after " # " is a comment.
+// A sentence may add a sixth field: the English list items whose order is free,
+// as written in the text, e.g. ...|eggs;milk;bread;cheese
 
 import { execSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -125,12 +127,20 @@ function build() {
           const id = parts[0].trim();
           if (parts.length > 1) {
             // Defines or changes a concept and its two texts.
-            if (parts.length !== 5) return void problems.push(`${at} needs id|en|enAlts|tr|trAlts`);
-            const [, enText, enAlts, trText, trAlts] = parts;
+            if (parts.length !== 5 && !(parts.length === 6 && isSentence)) {
+              return void problems.push(`${at} needs id|en|enAlts|tr|trAlts (sentences: |anyOrder)`);
+            }
+            const [, enText, enAlts, trText, trAlts, anyOrder = ''] = parts;
             if (!enText.trim() || !trText.trim()) return void problems.push(`${at} empty text`);
             const bucket = isSentence ? 'sentences' : 'words';
             en[bucket][id] = { ...en[bucket][id], ...entry(enText, enAlts) };
             if (!entry(enText, enAlts).alt) delete en[bucket][id].alt;
+            const items = entry('', anyOrder).alt;
+            if (items) {
+              en[bucket][id].anyOrder = items;
+              const missing = items.filter((item) => !enText.includes(item));
+              if (missing.length) problems.push(`${at} anyOrder not in the text: ${missing.join(', ')}`);
+            } else delete en[bucket][id].anyOrder;
             tr[bucket][id] = { ...tr[bucket][id], ...entry(trText, trAlts) };
             if (!entry(trText, trAlts).alt) delete tr[bucket][id].alt;
             if (!concepts.has(id)) {

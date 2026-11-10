@@ -64,8 +64,8 @@
     "alt": ["Benim çantam siyah."]
   },
   "sentence.l1_thanks_teacher": {
-    "text": "Teşekkür ederim, öğretmenim.",
-    "alt": ["Teşekkürler, öğretmenim.", "Sağ ol, öğretmenim."]
+    "text": "Teşekkür ederim, Brown Öğretmen.",
+    "alt": ["Teşekkürler, Brown Öğretmen.", "Sağ ol, Brown Öğretmen."]
   },
   "sentence.l1_morning_friend": {
     "text": "Günaydın, arkadaşım."
@@ -3313,12 +3313,8 @@
     ]
   },
   "kid_greetings.s3_morning_names": {
-    "text": "Günaydın öğretmenim, benim adım Kerem ve bu da Nehir.",
-    "alt": [
-      "Günaydın öğretmenim, adım Kerem ve bu da Nehir.",
-      "Günaydın öğretmenim, benim adım Kerem, bu da Nehir.",
-      "Günaydın öğretmenim, adım Kerem, bu da Nehir."
-    ]
+    "text": "Günaydın Brown Öğretmen, benim adım Kerem ve bu da Nehir.",
+    "alt": ["Günaydın Brown Öğretmen, adım Kerem ve bu da Nehir."]
   },
   "kid_greetings.s3_hello_nice": {
     "text": "Merhaba, ben Zeynep ve tanıştığımıza memnun oldum.",
@@ -3329,11 +3325,8 @@
     ]
   },
   "kid_greetings.s3_sorry_late": {
-    "text": "Özür dilerim öğretmenim, bu sabah geç kaldım.",
-    "alt": [
-      "Özür dilerim öğretmenim, bu sabah geciktim.",
-      "Kusura bakmayın öğretmenim, bu sabah geç kaldım."
-    ]
+    "text": "Özür dilerim Brown Öğretmen, bu sabah geç kaldım.",
+    "alt": ["Özür dilerim Brown Öğretmen, bu sabah geciktim."]
   },
   "kid_greetings.s3_good_night": {
     "text": "İyi geceler anne, baba, sabah görüşürüz.",
@@ -3901,8 +3894,12 @@
     ]
   },
   "kid_family.s2_twins": {
-    "text": "Kuzenlerim ikiz, Nehir ve Zeynep.",
-    "alt": ["Kuzenlerim ikizler, Nehir ve Zeynep.", "Kuzenlerim ikiz, Zeynep ve Nehir."]
+    "text": "Kuzenlerim ikiz, Elif ve Deniz.",
+    "alt": [
+      "Kuzenlerim ikizler, Elif ve Deniz.",
+      "Kuzenlerim ikiz, Deniz ve Elif.",
+      "Kuzenlerim ikizler, Deniz ve Elif."
+    ]
   },
   "kid_family.s2_uncle_children": {
     "text": "Amcamın bir oğlu ve bir kızı var.",

@@ -6,6 +6,7 @@ import {
   type CourseId,
   type LanguageCode,
 } from '@/features/languages';
+import { withFreeOrders } from '@/features/answer-check';
 import { shuffle, type Rng } from '@/features/quiz/rng';
 import type { Grade } from '@/features/srs';
 
@@ -82,9 +83,10 @@ export function buildSentencePuzzle({
   if (words.length < 2 || words.length > MAX_WORDS) return null;
 
   const lang = getLanguage(course.targetLang);
-  const accepted = [answerEntry.text, ...(answerEntry.alt ?? [])].map((t) =>
-    normalizeAnswer(lang, t),
-  );
+  const accepted = withFreeOrders(
+    [answerEntry.text, ...(answerEntry.alt ?? [])],
+    answerEntry.anyOrder,
+  ).map((t) => normalizeAnswer(lang, t));
 
   // Decoys: words from other sentences that are not in this one (in any case).
   const inSentence = new Set(words.map((w) => normalizeAnswer(lang, w)));

@@ -1,3 +1,5 @@
+// The file itself, not the folder: answer-check reads content (import cycle).
+import { MAX_FREE_ITEMS, splitAroundItems } from '@/features/answer-check/freeOrder';
 import { findCourse, LANGUAGE_CODES } from '@/features/languages';
 import { PROFILE_TYPES } from '@/features/profiles/types';
 
@@ -61,6 +63,14 @@ export function validateContent(bundle: ContentBundle): ContentIssue[] {
           );
         }
         checkEntry(entry, where, error);
+        if (entry.anyOrder !== undefined) {
+          if (!isSentence) error(where, 'anyOrder is for sentences only');
+          if (entry.anyOrder.length < 2 || entry.anyOrder.length > MAX_FREE_ITEMS) {
+            error(where, `anyOrder needs 2 to ${MAX_FREE_ITEMS} items`);
+          } else if (!splitAroundItems(entry.text, entry.anyOrder)) {
+            error(where, 'anyOrder items must appear in the text, in this order, as whole words');
+          }
+        }
         if (entry.review) warn(where, 'translation marked for review');
       }
     }
