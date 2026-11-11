@@ -54,6 +54,6 @@ describe.each(Object.entries(listings))('%s listing', (_locale, listing) => {
     // The listing is a promise to App Review: keep it in step with the product rules.
     expect(listing.description).toMatch(/3/); // family subscription: up to 3 profiles
     expect(listing.description).toMatch(/7/); // 7-day free trial
-    expect(listing.description).toContain('{{PRIVACY_URL}}');
+    expect(listing.description).toContain('https://ozkulfurkan.github.io/LINGOYUN/privacy/');
   });
 });

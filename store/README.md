@@ -1,20 +1,11 @@
 # Mağaza dosyaları
 
-- `listings.json` — App Store ve Play metinleri (TR, EN). Karakter sınırlarını `listings.test.ts` denetler. `{{PRIVACY_URL}}` yerine yayımlanan gizlilik adresi yazılır.
+- `listings.json` — App Store ve Play metinleri (TR, EN). Karakter sınırlarını `listings.test.ts` denetler.
 - `privacy-labels.md` — App Store "App Privacy" cevapları.
 - `data-safety.md` — Play "Veri güvenliği" ve Aileler politikası cevapları.
-- Gizlilik politikası: `docs/privacy/index.html` (EN), `docs/privacy/tr.html` (TR).
+- Gizlilik politikası: `docs/privacy/index.html` (EN), `docs/privacy/tr.html` (TR). Geliştirici Furkan Özkul, iletişim ozkulfurkann@gmail.com, yürürlük 11 Kasım 2026. Adres: `https://ozkulfurkan.github.io/LINGOYUN/privacy/` (Türkçe: `…/privacy/tr.html`); uygulamadaki bağlantı `src/lib/links.ts`.
 
-## Furkan'ın doldurması gerekenler
-
-| Yer tutucu                                    | Nerede                                                                                    |
-| --------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| `{{GELISTIRICI_ADI}}` / `{{DEVELOPER_NAME}}`  | `docs/privacy/*.html` — App Store'daki satıcı adıyla aynı                                 |
-| `{{ILETISIM_EPOSTASI}}` / `{{CONTACT_EMAIL}}` | `docs/privacy/*.html` — destek e-postası                                                  |
-| `{{YURURLUK_TARIHI}}` / `{{EFFECTIVE_DATE}}`  | `docs/privacy/*.html` — yayın günü                                                        |
-| `{{PRIVACY_URL}}`                             | `listings.json` — GitHub Pages açılınca `https://ozkulfurkan.github.io/LINGOYUN/privacy/` |
-
-GitHub Pages: repo → Settings → Pages → Source: `main` dalı, `/docs` klasörü.
+GitHub Pages (Furkan): repo → Settings → Pages → Source: `main` dalı, `/docs` klasörü. Politika değişirse yürürlük tarihini de güncelle.
 
 ## İkon
 
