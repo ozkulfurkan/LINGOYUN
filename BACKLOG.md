@@ -225,6 +225,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Zeynep (7, uzun dalgalı saç + çiçekli toka, limon sarısı; soruları sorar), Nehir (5–6, iki topuz, nane yeşili tulum; haritada rehber ve kutlama), Kerem (4, ters kep + gözlük, ahududu; yanlışta cesaret verir). İfade listesi, Rive durum makinesi, görsel üretim istemleri, siluet taslağı (`docs/art-direction/characters-lineup.png`). Gece çalışmasında Furkan'a sorulmadan yazıldı; LNG-31'den önce gözden geçirilmeli.
 - [ ] **LNG-31** BULUT + FURKAN — Karakterler ve 300 kelime resmi. Furkan'ın kararı (2026-11-12): hepsi **kodla SVG**, kil (Oyun Hamuru) stilinde; karakter hareketleri Reanimated ile (Rive kullanılmıyor). Grafiker agent partiler hâlinde çizer, Furkan PNG önizlemelerden onaylar. 2–7 yaş ilk sürümle birlikte çıkacak.
 - [ ] **LNG-32** BULUT + FURKAN — Sesler: 300 kelime × EN + TR ve karakter yönergeleri. Furkan'ın kararı: kaliteli bir TTS servisiyle bir kez üretilip uygulamaya gömülür (internetsiz çalışır). Servis hesabını ve anahtarı Furkan açar; anahtar yalnızca `.env`'de durur, uygulamaya girmez.
+  - Bekliyor (2026-11-12): Furkan Azure'a şimdilik giremedi, adım ertelendi. Önerilen servis Azure Speech (Free F0, West Europe); adımlar: Speech services → Create → Keys and Endpoint → `.env`'e `AZURE_SPEECH_KEY` ve `AZURE_SPEECH_REGION`.
 - [ ] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
 - [ ] **LNG-34** CİHAZ — Çıkartma albümü (ödül). Önkoşul: LNG-33.
 
