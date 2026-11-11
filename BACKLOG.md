@@ -44,7 +44,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [x] **LNG-16** CİHAZ — Onboarding: profil oluştur → yaş grubu → (kid/adult) kendi beyanı. iPhone'da test edildi (Furkan); Android denemesi LNG-3'teki ilk Android derlemesiyle yapılacak. Önkoşul: LNG-6, LNG-2.
 - [x] **LNG-17** CİHAZ — Seviye tespit ekranları (20 soru, ilerleme çubuğu, "Bilmiyorum", sesli okuma) + sonuç ekranı. iPhone'da test edildi (Furkan); Android denemesi LNG-3'teki ilk Android derlemesiyle yapılacak. Önkoşul: LNG-10, LNG-16.
 - [x] **LNG-18** CİHAZ — Oyun: Çoktan seçmeli (EN→TR / TR→EN). iPhone'da test edildi (Furkan); Android denemesi LNG-3'teki ilk Android derlemesiyle yapılacak. Önkoşul: LNG-7.
-- [~] **LNG-19** CİHAZ — Oyun: Harf dizme. Önkoşul: LNG-7.
+- [x] **LNG-19** CİHAZ — Oyun: Harf dizme. Önkoşul: LNG-7.
   - ✅ Ana ekranda "Harf dizme" (7–12 ve yetişkin). Türkçe kelime gösterilir, İngilizcesi karışık harflerden dizilir; boşluk ve tire sabit. 8 kelimelik tur, tekrar kutularına ve XP/taş/seriye bağlı, tur özetiyle. Mantık `src/features/games/letter-order/`, kurallar `docs/game-design.md`.
   - Kararlar (Furkan'a sorulmadan, gece çalışması): kutular dolunca otomatik kontrol; yanlışta doğru yerdeki harfler kalır; 2 yanlıştan sonra sıradaki harf parlar; 1 yanlıştan sonra "Göster" çıkar. İlk denemede doğru = tam puan, denemeyle doğru = kutuda kalır, "Göster" = yanlış. Harfler küçük harf. 2–10 harfli kelimeler (cümle ve deyim yok).
   - Derleme: yeni yerel paket yok; Metro'yu `--clear` ile yeniden başlatman yeterli.
@@ -58,7 +58,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     7. 8 kelimeyi bitir → özet ekranı (XP, taş, seri). "Bir tur daha" yeni tur başlatır.
     8. Uzun kelimelerde (ör. "watermelon") kutular iki satıra sığıyor mu, küçük telefonda taşma var mı?
     9. Yetişkin profilinde koyu moda al: kutular ve harfler okunur kalır.
-- [~] **LNG-20** CİHAZ — Oyun: Cümle kurma (kelime blokları sürükle-bırak). Önkoşul: LNG-7.
+- [x] **LNG-20** CİHAZ — Oyun: Cümle kurma (kelime blokları sürükle-bırak). Önkoşul: LNG-7.
   - ✅ Ana ekranda "Cümle kurma" (7–12 ve yetişkin). Türkçe cümle gösterilir, İngilizcesi kelime bloklarından kurulur: blok sürüklenir ya da dokunulur. Cevap alanının yakınına bırakılan blok yerine oturur. 6 cümlelik tur, tekrar kutularına ve XP/taş/seriye bağlı. Mantık `src/features/games/sentence-builder/`, sürükleme `src/components/DraggableBlock.tsx`.
   - Kararlar (gece çalışması, Furkan'a sorulmadan): sürükleme React Native'in kendi PanResponder'ı ile (yeni yerel paket yok → yeni derleme gerekmez; gesture-handler package.json'da değil). Yetişkine 2 şaşırtmaca kelime + "Kontrol et"; çocukta şaşırtmaca yok, cümle tamamlanınca otomatik kontrol. Eşdeğer söylenişler (`alt`) doğru sayılır. Yanlışta doğru başlangıç kalır; 2 yanlıştan sonra sıradaki kelime parlar; 1 yanlıştan sonra "Göster". Puan harf dizmeyle aynı.
   - Derleme: yeni yerel paket yok; Metro'yu `--clear` ile yeniden başlat.
@@ -71,7 +71,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     6. Yetişkin profilinde: 2 fazla kelime var, cümle dolunca "Kontrol et"e basman gerekir.
     7. 6 cümleyi bitir → özet ekranı.
     8. Sürüklerken ekran kayıyor mu, blok parmağı takip ediyor mu (iOS ve Android)? Uzun cümlede bloklar iki satıra sığıyor mu?
-- [~] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
+- [x] **LNG-21** CİHAZ — Nehir boyunca bölüm haritası (Skia). Önkoşul: LNG-11.
   - ✅ 7–12 ve yetişkin profillerinde ana ekran artık nehir haritası: seviyeler nehir boyunca taşlar (tamamlanan yeşil ve tikli, şu anki büyük ve öğrenme halkalı, kilitliler silik, içeriği henüz yazılmamışlar kesikli çizgili). Üstte taş ve seri; altta üç oyun butonu. Taslak görsel: `docs/art-direction/river-map-preview.png`.
   - ✅ Seviye ilerlemesi: şu anki seviyenin kelimelerinin %80'i tekrar kutusu 3+'ya ulaşınca tur sonunda bir sonraki seviye açılır (+10 taş, "Seviye atlama" rozeti, özet ekranında "Yeni seviye açıldı"). Üç oyun ortak `src/features/games/finishRound.ts`'i kullanıyor.
   - Düzeltme: bir seviyeye geçmek (ve haritada açık görünmesi) için seviye testiyle aynı ölçüt: en az 20 kavram (`MIN_LEVEL_CONCEPTS`). Önceden 1 kavram yetiyordu ve B1'deki 2 örnek kavram yüzünden A2'yi bitiren yetişkin neredeyse boş bir B1'e geçerdi.
@@ -84,7 +84,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     4. Yetişkin profilinde koyu moda al → harita koyu temada okunur kalıyor mu?
     5. VoiceOver/TalkBack açıkken taşlara dokun → "L2: şu anki seviye, %35 öğrenildi" gibi okunmalı.
     6. (Uzun) Bir seviyenin kelimelerini öğrenince tur sonunda "Yeni seviye açıldı" çıkmalı ve haritada bir sonraki taş pembe olmalı.
-- [~] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
+- [x] **LNG-22** CİHAZ — Oyun hissi paketi: doğru/yanlış animasyonları, haptics, ses efektleri (`game-feel` skill). Önkoşul: LNG-18.
   - ✅ Ses efektleri (doğru, yanlış, 3/5/10'lu seri, tur sonu, seviye atlama, çocuk temasında dokunma "tık"ı) `scripts/generate-sounds.mjs` ile sentezlendi → `assets/audio/sfx/` (lisans derdi yok, ~150 KB). Çalma `src/lib/sound.ts` (expo-audio), titreşim + ses tek yerden `src/lib/feedback.ts`.
   - ✅ Animasyonlar (`src/components/Motion.tsx`): yanlışta 3 salınımlı sallanma, doğruda zıplama, taş sayacı artınca sıçrama; hatasız turda ve seviye atlamada konfeti (`Confetti.tsx`, 24 parça). "Hareketi azalt" açıkken hepsi kapalı.
   - ✅ 3, 5 ve 10 doğru üst üste: geri bildirimde "3 doğru üst üste!" + yükselen arpej + orta titreşim. Ses ve titreşim ayarı `settings.v1`'de (varsayılan açık; ayar ekranı yok, LNG-26 ile birlikte).
@@ -124,7 +124,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     7. Satın alma penceresinde "İptal" → paywall'da kalır, hata yazmaz. "Satın alımları geri yükle" → abonelik varsa ana ekrana döner.
     8. Uçak modunda uygulamayı aç: abone/deneme durumu korunur, kilit düşmez.
     9. 7–12 yaş profilinde kilit ekranı: "Ebeveyn: paketleri gör" → çarpma sorusu çıkmadan paket görünmemeli.
-- [~] **LNG-26** CİHAZ — Ebeveyn kapısı (satın alma + ayarlar önünde). Önkoşul: LNG-1.
+- [x] **LNG-26** CİHAZ — Ebeveyn kapısı (satın alma + ayarlar önünde). Önkoşul: LNG-1.
   - ✅ Ana ekranda sağ üstte ayar butonu → ebeveyn kapısı: çarpma işlemi **yazıyla** sorulur ("yedi çarpı sekiz", çarpanlar 3–9, her seferinde rastgele), cevap ekrandaki rakam tuşlarıyla girilir; yanlışta yeni soru. Geçince 1 dakika açık kalır (yalnızca bellekte), Ayarlar adresine doğrudan gidilirse kapıya yönlendirilir. Mantık `src/features/parental-gate/`.
   - ✅ Yeni **Ayarlar** ekranı (kapının arkasında): ses efektleri ve titreşim anahtarları; profiller arasında geçiş ve iki adımlı onaylı profil silme (ilerlemesiyle birlikte).
   - Kararlar (gece çalışması): satın alma ekranı (LNG-25) henüz yok; o geldiğinde aynı kapı kullanılacak (`/parent-gate`, geçince `isGateOpen()`). Profil ekleme ayarlara konmadı (onboarding'den).
@@ -140,7 +140,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 5 — Yetişkin
 
-- [~] **LNG-27** CİHAZ — Serbest yazma oyunu (cümle çevirisi). Önkoşul: LNG-8.
+- [x] **LNG-27** CİHAZ — Serbest yazma oyunu (cümle çevirisi). Önkoşul: LNG-8.
   - ✅ Yetişkin ana ekranında "Yazarak çevir": Türkçe kelime ya da cümle gösterilir, İngilizcesi klavyeyle yazılır. LNG-8 cevap kontrolü: doğru / neredeyse doğru (özel harf) / yazım hatası / yanlış; eş anlamlılar ve a/an/the kabul; içerikte bilinen başka bir kelime asla yazım hatası sayılmaz. "Bilmiyorum" butonu. 8 maddelik tur, tekrar kutuları, XP/taş/seri, seviye atlama. Mantık `src/features/games/free-typing/`.
   - Kararlar (gece çalışması): yalnızca yetişkin (7–12 için klavyeyle cümle yazmak ağır). Yön her zaman Türkçe → İngilizce (üretim pratiği). Puan: doğru = tam, neredeyse/yazım hatası = `hard` (kutuda kalır, 5 XP), yanlış/bilmiyorum = `again`. Doğru yazılış her durumda gösterilir ve sesli okunur.
   - Derleme: yeni yerel paket yok.
@@ -153,7 +153,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     6. Cümlelerde kutu çok satırlı; klavyedeki "Bitti" tuşu kontrol eder.
     7. Klavye açıkken alttaki butonlar klavyenin üstünde kalıyor mu (iOS ve Android)?
     8. 7–12 profilinde bu buton görünmez.
-- [~] **LNG-28** CİHAZ — Deyimler ve yanıltıcı benzer kelimeler modu.
+- [x] **LNG-28** CİHAZ — Deyimler ve yanıltıcı benzer kelimeler modu.
   - ✅ Yetişkin ana ekranında "Deyimler ve tuzaklar": çoktan seçmeli oyun, kursun bütün deyimleri (30) ve yanıltıcı benzer kelimeleri (15) İngilizce → Türkçe sorar; her yanıltıcı kelimede "tuzak" şık (ör. magazine → **mağaza**) her zaman seçeneklerdedir, cevaptan sonra kısa açıklama gösterilir.
   - ✅ İçerik: 15 yanıltıcı benzer kelime (`src/content/concepts/false_friends.json`, A2 ünitesi) — sympathetic, actual, sensible, pathetic, fabric, library, magazine, agenda, pension, smoking, parole, nervous, realize, recipe, billion. İçerik şemasına `trap` ve `note` alanları eklendi (doğrulayıcı: tuzak doğru cevaplardan biri olamaz).
   - Kararlar (gece çalışması, **Furkan kontrol etmeli**): liste ve açıklamalar benim; "pathetic → patetik" ve "realize → gerçekleştirmek" `review: true` (ince anlam farkı). Yanıltıcı kelimeler A2'ye kondu (A2 seviye atlaması için öğrenilmesi gereken kelime sayısı biraz arttı). Bu mod seviyeden bağımsız: bütün deyimler açık.
@@ -163,7 +163,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     2. "magazine", "library" gibi bir soru gelince şıklarda tuzak (mağaza, kitapçı) var mı?
     3. Cevapladıktan sonra geri bildirim kutusunda açıklama ikinci satırda görünüyor mu, uzun açıklama taşmadan sığıyor mu?
     4. Normal "Oyna" turunda da A2 seviyesindeysen yanıltıcı kelimeler çıkabilir; Türkçe → İngilizce sorulduğunda açıklama yine görünmeli.
-- [~] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
+- [x] **LNG-29** CİHAZ — Günlük tekrar ekranı (SRS kuyruğu). Önkoşul: LNG-9.
   - ✅ Haritada (7–12 ve yetişkin) tekrar kartı: "Bugün N kelime tekrar bekliyor" + "Tekrar et"; yoksa "Bugün tekrar yok, harika!". "Tekrar et" yalnızca bugün vadesi gelen kelimeleri (bütün seviyelerden, en çok geciken önce, en fazla 10) çoktan seçmeliyle sorar; şıklar az ise mevcut seviyeden tamamlanır. Mantık `dailyReviewConcepts` (`src/features/games/multiple-choice/round.ts`).
   - Derleme: yeni yerel paket yok.
   - Cihazda nasıl test edilir:
@@ -223,8 +223,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 - [x] **LNG-30** BULUT — Karakter tasarım dokümanı (`docs/characters.md`): kişilik, renk, siluet, ifade sayfası tarifi. Önkoşul: LNG-4.
   - Zeynep (7, uzun dalgalı saç + çiçekli toka, limon sarısı; soruları sorar), Nehir (5–6, iki topuz, nane yeşili tulum; haritada rehber ve kutlama), Kerem (4, ters kep + gözlük, ahududu; yanlışta cesaret verir). İfade listesi, Rive durum makinesi, görsel üretim istemleri, siluet taslağı (`docs/art-direction/characters-lineup.png`). Gece çalışmasında Furkan'a sorulmadan yazıldı; LNG-31'den önce gözden geçirilmeli.
-- [ ] **LNG-31** FURKAN — Karakter görsellerinin üretimi/onayı (illüstratör veya yapay zekâ + seçim) ve Rive animasyonları.
-- [ ] **LNG-32** FURKAN — Ses kayıtları (300 kelime × EN + TR) — kayıt mı TTS mi kararı.
+- [ ] **LNG-31** BULUT + FURKAN — Karakterler ve 300 kelime resmi. Furkan'ın kararı (2026-11-12): hepsi **kodla SVG**, kil (Oyun Hamuru) stilinde; karakter hareketleri Reanimated ile (Rive kullanılmıyor). Grafiker agent partiler hâlinde çizer, Furkan PNG önizlemelerden onaylar. 2–7 yaş ilk sürümle birlikte çıkacak.
+- [ ] **LNG-32** BULUT + FURKAN — Sesler: 300 kelime × EN + TR ve karakter yönergeleri. Furkan'ın kararı: kaliteli bir TTS servisiyle bir kez üretilip uygulamaya gömülür (internetsiz çalışır). Servis hesabını ve anahtarı Furkan açar; anahtar yalnızca `.env`'de durur, uygulamaya girmez.
 - [ ] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
 - [ ] **LNG-34** CİHAZ — Çıkartma albümü (ödül). Önkoşul: LNG-33.
 

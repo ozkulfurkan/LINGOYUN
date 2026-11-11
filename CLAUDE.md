@@ -35,7 +35,7 @@ Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları
 - Navigasyon: **Expo Router** (`src/app/`)
 - Animasyon: **react-native-reanimated** (UI thread) + **react-native-gesture-handler**
 - Özel grafik / efekt: **@shopify/react-native-skia**
-- Karakter animasyonu: **Rive** (`rive-react-native`) — durum makineli (idle / sevinç / üzgün / konuşma)
+- Karakter animasyonu: katmanlı **SVG + Reanimated** (Furkan'ın kararı, LNG-31; Rive kullanılmıyor) — durumlar: idle / sevinç / üzgün / konuşma
 - Ses: **expo-audio** (kaydedilmiş sesler), **expo-speech** (yedek TTS), **expo-haptics**
 - Yerel depolama: **react-native-mmkv**
 - Abonelik: **react-native-purchases** (RevenueCat)
@@ -66,9 +66,8 @@ src/
   storage/               # MMKV sarmalayıcıları
   lib/
 assets/
-  characters/            # Rive dosyaları
-  illustrations/         # SVG / PNG
-  audio/en, audio/tr
+  audio/en, audio/tr     # TTS ile üretilmiş kelime ve yönerge sesleri (LNG-32)
+# Karakterler ve kelime resimleri kodla çizilir (SVG bileşenleri, src/ altında; LNG-31)
 docs/                    # art-direction.md, characters.md, game-design.md, languages.md
 __tests__/               # ekran testleri; mantık testleri ilgili dosyanın yanında (*.test.ts)
 ```
