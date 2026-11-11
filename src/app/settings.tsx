@@ -20,6 +20,8 @@ import {
   useProfiles,
   type Profile,
 } from '@/features/profiles';
+import { manageSubscription } from '@/lib/purchases';
+import { useAccess } from '@/lib/useAccess';
 import { loadPath, savePath } from '@/storage/path';
 import { loadSettings, saveSettings, type Settings } from '@/storage/settings';
 import { space, stroke, useTheme } from '@/theme';
@@ -64,6 +66,8 @@ function SettingsBody() {
         onChange={(haptics) => update({ haptics })}
       />
 
+      <SubscriptionPanel />
+
       <DifficultyPicker />
 
       <ThemedText variant="label" color="accentText">
@@ -89,6 +93,50 @@ function SettingsBody() {
         </ThemedText>
       )}
     </Screen>
+  );
+}
+
+/** The family subscription or trial, with a way to the plans or the store page. */
+function SubscriptionPanel() {
+  const { t, i18n } = useTranslation();
+  const access = useAccess();
+  const date = (ms: number) =>
+    new Intl.DateTimeFormat(i18n.language, { dateStyle: 'long' }).format(new Date(ms));
+
+  let status: string;
+  let detail: string | null = null;
+  if (access.kind === 'subscribed') {
+    status = t('subscription.subscribed');
+    if (access.expiresAt !== null) {
+      const key = access.willRenew ? 'subscription.renews' : 'subscription.ends';
+      detail = t(key, { date: date(access.expiresAt) });
+    }
+  } else if (access.kind === 'trial') {
+    status = t('subscription.trial', { count: access.daysLeft });
+  } else if (access.kind === 'trialEnded') {
+    status = t('subscription.trialEnded');
+  } else {
+    status = t('subscription.notStarted');
+  }
+
+  return (
+    <View style={styles.profile}>
+      <ThemedText variant="label" color="accentText">
+        {t('subscription.title')}
+      </ThemedText>
+      <ThemedText variant="option" testID="subscription-status">
+        {status}
+      </ThemedText>
+      {detail ? <ThemedText color="textMuted">{detail}</ThemedText> : null}
+      {access.kind === 'subscribed' ? (
+        <SecondaryButton
+          label={t('subscription.manage')}
+          onPress={() => void manageSubscription()}
+        />
+      ) : (
+        <SecondaryButton label={t('subscription.plans')} onPress={() => router.push('/paywall')} />
+      )}
+    </View>
   );
 }
 

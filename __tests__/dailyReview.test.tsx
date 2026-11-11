@@ -11,6 +11,7 @@ import { addProfile, deleteProfile, profilesStore, setCourseLevel } from '@/feat
 import { localDay, recordAnswer, type Deck } from '@/features/srs';
 import i18n from '@/i18n';
 import { saveDeck } from '@/storage/srs';
+import { startTestTrial } from '../test-support/access';
 
 jest.mock('expo-speech', () => ({ speak: jest.fn(), stop: jest.fn(() => Promise.resolve()) }));
 
@@ -49,6 +50,7 @@ describe('dailyReviewConcepts', () => {
 describe('daily review', () => {
   beforeEach(async () => {
     await i18n.changeLanguage('tr');
+    startTestTrial();
   });
 
   afterEach(() => profilesStore.getState().profiles.forEach((p) => deleteProfile(p.id)));

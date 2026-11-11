@@ -1,4 +1,4 @@
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
@@ -23,11 +23,13 @@ import { space, stroke, touchTarget, useTheme } from '@/theme';
 const KEYS = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', 'back'] as const;
 
 /**
- * Grown-up check in front of settings (and later purchases): a multiplication
+ * Grown-up check in front of settings and purchases: a multiplication
  * in words, answered on an on-screen keypad. Passing opens the next screen.
  */
 export default function ParentGateScreen() {
   const { t } = useTranslation();
+  // Where the gate leads: settings by default, or the family plans.
+  const { next: target } = useLocalSearchParams<{ next?: string }>();
   const { colors, radii } = useTheme();
   const [rng] = useState(() => seededRng(Date.now()));
   const [challenge, setChallenge] = useState<Challenge>(() => createChallenge(rng));
@@ -43,7 +45,7 @@ export default function ParentGateScreen() {
     if (next.length < String(answerOf(challenge)).length) return;
     if (isGateAnswer(challenge, next)) {
       markGatePassed();
-      router.replace('/settings');
+      router.replace(target === 'paywall' ? '/paywall' : '/settings');
       return;
     }
     playFeedback('wrong');

@@ -3,7 +3,7 @@ import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
-import { SettingsIcon } from '@/components/illustrations';
+import { RiverHero, SettingsIcon } from '@/components/illustrations';
 import { PressScale } from '@/components/PressScale';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { RiverMap } from '@/components/RiverMap';
@@ -23,7 +23,9 @@ import {
 } from '@/features/profiles';
 import { visibleStreak } from '@/features/progress';
 import { localDay } from '@/features/srs';
+import { canPlay } from '@/features/subscription';
 import { themeName } from '@/lib/themeName';
+import { useAccess } from '@/lib/useAccess';
 import { loadPath } from '@/storage/path';
 import { loadProgress } from '@/storage/progress';
 import { loadDeck } from '@/storage/srs';
@@ -86,6 +88,17 @@ function MapHome({ profile, profileType }: MapHomeProps) {
   const [data, setData] = useState(read);
   const [selected, setSelected] = useState<number | null>(null);
   useFocusEffect(useCallback(() => setData(read()), [read]));
+  const access = useAccess();
+
+  if (!canPlay(access)) {
+    return (
+      <LockedHome
+        ended={access.kind === 'trialEnded'}
+        grownUp={profileType === 'adult'}
+        nickname={profile.nickname}
+      />
+    );
+  }
 
   const complete = data.path.themeIndex >= themes.length;
   const open = (index: number) => router.push({ pathname: '/play/theme', params: { index } });
@@ -121,6 +134,11 @@ function MapHome({ profile, profileType }: MapHomeProps) {
           <ThemedText color="textMuted">
             {t('home.stats', { gems: data.gems, streak: data.streak })}
           </ThemedText>
+          {access.kind === 'trial' && access.endingSoon ? (
+            <ThemedText color="accentText">
+              {t('subscription.ending', { count: access.daysLeft })}
+            </ThemedText>
+          ) : null}
         </View>
         <SettingsButton />
       </View>
@@ -133,6 +151,47 @@ function MapHome({ profile, profileType }: MapHomeProps) {
         />
       ) : null}
       <RiverMap nodes={data.nodes} shortLabel={(l) => l} onSelect={setSelected} />
+    </Screen>
+  );
+}
+
+/**
+ * No trial and no subscription: the games wait. A child is asked to fetch a
+ * grown-up; the plans themselves sit behind the parental gate.
+ */
+function LockedHome({
+  ended,
+  grownUp,
+  nickname,
+}: {
+  ended: boolean;
+  grownUp: boolean;
+  nickname: string;
+}) {
+  const { t } = useTranslation();
+  const body = grownUp
+    ? t(ended ? 'paywall.trialEnded' : 'paywall.trialBody')
+    : t(ended ? 'lock.endedBody' : 'lock.notStartedBody');
+  return (
+    <Screen
+      hero={<RiverHero />}
+      footer={
+        <PrimaryButton
+          label={grownUp ? t('subscription.plans') : t('lock.parent')}
+          onPress={() => router.push('/paywall')}
+        />
+      }
+    >
+      <View style={styles.header}>
+        <View style={styles.grow}>
+          <ThemedText color="textMuted">{t('home.hello', { nickname })}</ThemedText>
+          <ThemedText variant="title" accessibilityRole="header">
+            {t(ended ? 'lock.endedTitle' : 'lock.notStartedTitle')}
+          </ThemedText>
+        </View>
+        <SettingsButton />
+      </View>
+      <ThemedText>{body}</ThemedText>
     </Screen>
   );
 }

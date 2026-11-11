@@ -17,6 +17,7 @@ import {
 import i18n from '@/i18n';
 import { loadProgress } from '@/storage/progress';
 import { loadDeck } from '@/storage/srs';
+import { startTestTrial } from '../test-support/access';
 
 jest.mock('expo-speech', () => ({
   speak: jest.fn(),
@@ -81,6 +82,7 @@ describe('multiple choice game', () => {
   beforeEach(async () => {
     await i18n.changeLanguage('tr');
     jest.clearAllMocks();
+    startTestTrial();
   });
 
   afterEach(() => {

@@ -314,5 +314,56 @@
   "who": {
     "title": "Who's playing?",
     "switch": "Switch profile"
+  },
+  "paywall": {
+    "title": "LINGOYUN for the whole family",
+    "lead": "One subscription for every profile on this device.",
+    "benefit1": "All themes and games for adults and ages 7–12",
+    "benefit2": "No ads, no account to create",
+    "benefit3": "Cancel any time",
+    "trialTitle": "Try it free for 7 days",
+    "trialBody": "No card, no payment. The trial does not turn into a paid subscription by itself.",
+    "trialStart": "Start the free trial",
+    "trialEnded": "The free trial has ended. Choose a plan to keep playing.",
+    "plans": "Plans",
+    "orSubscribe": "Or subscribe now",
+    "yearly": "Yearly",
+    "monthly": "Monthly",
+    "perYear": "{{price}} / year",
+    "perMonth": "{{price}} / month",
+    "saving": "Save {{percent}}%",
+    "subscribe": "Subscribe",
+    "restore": "Restore purchases",
+    "notNow": "Not now",
+    "loading": "Loading plans…",
+    "loadFailed": "Plans could not be loaded. Check your internet connection and try again.",
+    "retry": "Try again",
+    "failed": "That did not go through. Please try again.",
+    "restoreNone": "No subscription to restore was found on this account.",
+    "legalIos": "The subscription renews automatically for the same period and price unless cancelled at least 24 hours before the period ends. Payment is charged to your Apple ID account when you confirm the purchase. You can manage or cancel it in your App Store account settings.",
+    "legalAndroid": "The subscription renews automatically for the same period and price unless cancelled. Payment is charged to your Google Play account. You can manage or cancel it under Subscriptions in Google Play.",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy"
+  },
+  "lock": {
+    "notStartedTitle": "Try it free for 7 days",
+    "notStartedBody": "You can start playing once a grown-up starts the free trial.",
+    "endedTitle": "The free trial has ended",
+    "endedBody": "Ask a grown-up for help to keep playing.",
+    "parent": "Parent: see plans"
+  },
+  "subscription": {
+    "title": "Subscription",
+    "subscribed": "Family subscription is active",
+    "renews": "Renews on {{date}}",
+    "ends": "Ends on {{date}}",
+    "trial_one": "Free trial: {{count}} day left",
+    "trial_other": "Free trial: {{count}} days left",
+    "trialEnded": "The free trial has ended",
+    "notStarted": "The free trial has not started yet",
+    "plans": "See plans",
+    "manage": "Manage subscription",
+    "ending_one": "Your free trial ends in {{count}} day",
+    "ending_other": "Your free trial ends in {{count}} days"
   }
 }

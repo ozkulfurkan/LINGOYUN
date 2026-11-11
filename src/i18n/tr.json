@@ -314,5 +314,56 @@
   "who": {
     "title": "Kim oynuyor?",
     "switch": "Profil değiştir"
+  },
+  "paywall": {
+    "title": "Bütün aile için LINGOYUN",
+    "lead": "Tek abonelik, aynı cihazdaki bütün profiller.",
+    "benefit1": "Yetişkin ve 7–12 yaş için bütün temalar ve oyunlar",
+    "benefit2": "Reklam yok, hesap açmak yok",
+    "benefit3": "İstediğin zaman iptal edebilirsin",
+    "trialTitle": "7 gün ücretsiz dene",
+    "trialBody": "Kart gerekmez, ödeme alınmaz. Deneme bitince kendiliğinden ücretli aboneliğe geçmez.",
+    "trialStart": "Ücretsiz denemeyi başlat",
+    "trialEnded": "Ücretsiz deneme bitti. Devam etmek için bir paket seç.",
+    "plans": "Paketler",
+    "orSubscribe": "Ya da hemen abone ol",
+    "yearly": "Yıllık",
+    "monthly": "Aylık",
+    "perYear": "{{price}} / yıl",
+    "perMonth": "{{price}} / ay",
+    "saving": "%{{percent}} tasarruf",
+    "subscribe": "Abone ol",
+    "restore": "Satın alımları geri yükle",
+    "notNow": "Şimdi değil",
+    "loading": "Paketler yükleniyor…",
+    "loadFailed": "Paketler yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.",
+    "retry": "Tekrar dene",
+    "failed": "İşlem tamamlanamadı. Lütfen tekrar dene.",
+    "restoreNone": "Bu hesapta geri yüklenecek bir abonelik bulunamadı.",
+    "legalIos": "Abonelik, dönem bitmeden en az 24 saat önce iptal edilmezse aynı süre ve fiyatla kendiliğinden yenilenir. Ödeme, satın alma onaylanınca Apple Kimliği hesabından alınır. Aboneliği App Store hesap ayarlarından yönetebilir ya da iptal edebilirsin.",
+    "legalAndroid": "Abonelik, iptal edilmezse dönem sonunda aynı süre ve fiyatla kendiliğinden yenilenir. Ödeme Google Play hesabından alınır. Aboneliği Google Play'deki Abonelikler bölümünden yönetebilir ya da iptal edebilirsin.",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Politikası"
+  },
+  "lock": {
+    "notStartedTitle": "7 gün ücretsiz dene",
+    "notStartedBody": "Bir yetişkin ücretsiz denemeyi başlatınca oynamaya başlayabilirsin.",
+    "endedTitle": "Ücretsiz deneme bitti",
+    "endedBody": "Devam etmek için bir yetişkinden yardım iste.",
+    "parent": "Ebeveyn: paketleri gör"
+  },
+  "subscription": {
+    "title": "Abonelik",
+    "subscribed": "Aile aboneliği etkin",
+    "renews": "{{date}} tarihinde yenilenir",
+    "ends": "{{date}} tarihinde sona erer",
+    "trial_one": "Ücretsiz deneme: {{count}} gün kaldı",
+    "trial_other": "Ücretsiz deneme: {{count}} gün kaldı",
+    "trialEnded": "Ücretsiz deneme bitti",
+    "notStarted": "Ücretsiz deneme henüz başlamadı",
+    "plans": "Paketleri gör",
+    "manage": "Aboneliği yönet",
+    "ending_one": "Ücretsiz denemenin bitmesine {{count}} gün kaldı",
+    "ending_other": "Ücretsiz denemenin bitmesine {{count}} gün kaldı"
   }
 }

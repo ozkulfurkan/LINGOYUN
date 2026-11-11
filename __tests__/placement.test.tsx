@@ -11,6 +11,7 @@ import PlacementResultScreen from '@/app/placement/result';
 import { content } from '@/content/bundle';
 import { addProfile, deleteProfile, profilesStore, type ProfileType } from '@/features/profiles';
 import i18n from '@/i18n';
+import { startTestTrial } from '../test-support/access';
 
 jest.mock('expo-speech', () => ({
   speak: jest.fn(),
@@ -74,6 +75,7 @@ describe('placement test', () => {
   beforeEach(async () => {
     await i18n.changeLanguage('tr');
     jest.clearAllMocks();
+    startTestTrial();
   });
 
   afterEach(() => {

@@ -19,6 +19,7 @@ import {
 } from '@/features/profiles';
 import i18n from '@/i18n';
 import { loadPath, savePath } from '@/storage/path';
+import { startTestTrial } from '../test-support/access';
 
 jest.mock('expo-speech', () => ({ speak: jest.fn(), stop: jest.fn(() => Promise.resolve()) }));
 
@@ -41,6 +42,7 @@ async function press(label: string | RegExp) {
 describe('learning path home', () => {
   beforeEach(async () => {
     await i18n.changeLanguage('tr');
+    startTestTrial();
   });
 
   afterEach(() => profilesStore.getState().profiles.forEach((p) => deleteProfile(p.id)));

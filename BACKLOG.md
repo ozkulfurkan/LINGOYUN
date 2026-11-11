@@ -14,7 +14,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 - [~] **LNG-3** FURKAN — EAS hesabı, bundle id, Apple Developer ve Google Play hesapları, Sentry projesi.
   - ✅ Bundle id `com.ozkulfurkan.lingoyun`, EAS projesi `@ozkulfurkan/lingoyun` (`3fa95618-…`), `eas.json` (development / preview / production + Play gönderim profilleri), Sentry bağlantısı (DSN yoksa kapalı; kişisel veri, ekran görüntüsü, kullanıcı bilgisi gönderilmez).
   - ✅ Apple Developer üyeliği var (Furkan).
-  - Kalan (Furkan): expo.dev → lingoyun → Environment variables'a `EXPO_PUBLIC_SENTRY_DSN` ve `SENTRY_AUTH_TOKEN`; ilk Android ve iOS geliştirici derlemelerini cihazda açmak.
+  - ✅ Sentry projesi ve EAS ortam değişkenleri (`EXPO_PUBLIC_SENTRY_DSN`, `SENTRY_AUTH_TOKEN`) eklendi (Furkan, 2026-11-11). iOS geliştirici derlemesi cihazda çalışıyor.
+  - Kalan (Furkan): Google Play hesabı var; Android cihaz olmadığı için Android derlemesi sonraya kaldı.
   - Cihazda nasıl test edilir (Android): bilgisayarda `npx eas-cli@latest build --profile development --platform android` → çıkan APK'yı telefona kur → uygulama açılıyor, "LINGOYUN / Yakında" görünüyor, Türkçe telefonda "Yakında", İngilizce telefonda "Coming soon".
   - Cihazda nasıl test edilir (iOS): `npx eas-cli@latest device:create` → çıkan bağlantıyı iPhone'da aç, profili yükle → iPhone'da Ayarlar → Gizlilik ve Güvenlik → Geliştirici Modu'nu aç → `npx eas-cli@latest build --profile development --platform ios` (Apple ID ile giriş ister; sertifikaları EAS oluşturur) → derleme bitince gelen bağlantıdan kur → aynı kontroller.
 - [x] **LNG-4** FURKAN — Çocuk teması onayı: C — Oyun Hamuru, görsel öncelikli. Yetişkin teması ayrı (LNG-39).
@@ -102,10 +103,27 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Faz 4 — Abonelik
 
-- [ ] **LNG-23** FURKAN — App Store Connect + Play Console ürünleri: `family_monthly`, `family_yearly`, iOS `trial_7_days` (0 TL non-consumable); RevenueCat hesabı ve anahtarları; fiyatlar.
+- [x] **LNG-23** FURKAN — App Store Connect + Play Console ürünleri; RevenueCat hesabı ve anahtarları; fiyatlar.
+  - ✅ iOS (2026-11-11): App Store Connect'te uygulama kaydı, Paid Apps sözleşmesi + banka + vergi, abonelik grubu "LINGOYUN Aile" içinde `lingoyun.family_monthly` (1 ay) ve `lingoyun.family_yearly` (1 yıl), 0 TL tüketilemez `lingoyun.trial_7_days`. Aile Paylaşımı kapalı. AB (DSA tacir beyanı) şimdilik yok.
+  - ✅ RevenueCat: proje LINGOYUN, uygulama `LINGOYUN iOS` (In-App Purchase Key bağlı), entitlement `family` = aylık + yıllık (deneme ürünü bağlı DEĞİL), offering `default` = `$rc_monthly` + `$rc_annual`. Sandbox test hesabı açıldı.
+  - Kalan: Android ürünleri ve RevenueCat Android anahtarı (Android cihaz olunca). Fiyatlar App Store Connect'te.
 - [x] **LNG-24** BULUT — Deneme/entitlement mantığı (saf fonksiyon + test): deneme başlangıcı, kalan gün, süre doldu, abone. Önkoşul: LNG-1.
   - `src/features/subscription/access.ts`: `accessState` → `subscribed` / `trial` (kalan gün, bitmek üzere uyarısı ≤ 2 gün) / `trialEnded` / `notStarted`; `canPlay`. Deneme tam 7×24 saat; abonelik her durumda önce gelir. Saat geri alınarak deneme uzatılamaz (`lastSeenAt`). Deneme bir kez başlar. iOS'ta başlangıç App Store'daki 0 TL ürünün satın alma tarihi, Android'de yerel kayıt (`resolveTrialStart`). Kayıt: `src/storage/trial.ts` (`trial.v1`, cihaz geneli).
-- [ ] **LNG-25** CİHAZ — RevenueCat entegrasyonu, paywall ekranı, satın al / geri yükle, kilit. Önkoşul: LNG-23, LNG-24.
+- [~] **LNG-25** CİHAZ — RevenueCat entegrasyonu, paywall ekranı, satın al / geri yükle, kilit. Önkoşul: LNG-23, LNG-24.
+  - ✅ `react-native-purchases` (yerel paket: **yeni derleme gerekir**). Bağlantı `src/lib/purchases.ts` (iOS anahtarı kodda; Android anahtarı yok, Android'de deneme yerel tutulur). Mağazanın son cevabı cihazda saklanır (`subscription.v1`): internetsiz açılışta bilinen durum kullanılır, süresi geçmiş abonelik güvenilmez. Saf mantık `src/features/subscription/store.ts`.
+  - ✅ Paywall (`/paywall`, ebeveyn kapısının arkasında): 7 gün ücretsiz deneme (iOS'ta 0 TL ürün satın alınır), yıllık / aylık paket (fiyat mağazadan, yıllıkta "%X tasarruf"), satın alımları geri yükle, yenileme metni (iOS ve Android ayrı), Kullanım Koşulları (Apple standart EULA) ve Gizlilik Politikası bağlantısı.
+  - ✅ Seviye sonucundan sonra deneme/abonelik yoksa paywall açılır. Ana ekran kilitlenir: çocuğa "bir yetişkinden yardım iste", yetişkine "Paketleri gör". Denemenin son 2 gününde ana ekranda uyarı. Ayarlarda abonelik durumu, "Paketleri gör" / "Aboneliği yönet". 2–7 yaş ana ekranı henüz "yakında" olduğu için kilitlenmiyor.
+  - Furkan: Gizlilik bağlantısı GitHub Pages'te yayımlanınca çalışır (`store/README.md`); App Review bu bağlantıyı açar.
+  - Cihazda nasıl test edilir (yeni iOS geliştirici derlemesiyle):
+    1. iPhone → Ayarlar → App Store → en altta **Sandbox Hesabı** → LNG-23'te açılan test hesabıyla giriş yap (gerçek Apple ID'den çıkmak gerekmez).
+    2. Uygulamayı silip yeniden kur (ya da yeni bir yetişkin profiliyle) → seviye testini bitir → "Başla" → ebeveyn kapısı → paywall: yıllık ve aylık fiyatlar TL görünüyor mu, yıllıkta "%X tasarruf" doğru mu?
+    3. "Ücretsiz denemeyi başlat" → Apple'ın satın alma penceresi 0 TL ile açılır ("Sandbox" yazar) → onayla → harita açılır. Ayarlar → Abonelik: "Ücretsiz deneme: 7 gün kaldı".
+    4. Uygulamayı silip yeniden kur, aynı profili oluştur: deneme sıfırlanmamalı (Apple hesabına bağlı) — ayarlarda yine kalan gün görünmeli.
+    5. Ayarlar → "Paketleri gör" → yıllık seç → "Abone ol" → sandbox onayı → ana ekran. Ayarlar: "Aile aboneliği etkin", yenileme tarihi (sandbox'ta 1 yıl ≈ 1 saat sürer).
+    6. "Aboneliği yönet" → Apple'ın abonelik sayfası açılır.
+    7. Satın alma penceresinde "İptal" → paywall'da kalır, hata yazmaz. "Satın alımları geri yükle" → abonelik varsa ana ekrana döner.
+    8. Uçak modunda uygulamayı aç: abone/deneme durumu korunur, kilit düşmez.
+    9. 7–12 yaş profilinde kilit ekranı: "Ebeveyn: paketleri gör" → çarpma sorusu çıkmadan paket görünmemeli.
 - [~] **LNG-26** CİHAZ — Ebeveyn kapısı (satın alma + ayarlar önünde). Önkoşul: LNG-1.
   - ✅ Ana ekranda sağ üstte ayar butonu → ebeveyn kapısı: çarpma işlemi **yazıyla** sorulur ("yedi çarpı sekiz", çarpanlar 3–9, her seferinde rastgele), cevap ekrandaki rakam tuşlarıyla girilir; yanlışta yeni soru. Geçince 1 dakika açık kalır (yalnızca bellekte), Ayarlar adresine doğrudan gidilirse kapıya yönlendirilir. Mantık `src/features/parental-gate/`.
   - ✅ Yeni **Ayarlar** ekranı (kapının arkasında): ses efektleri ve titreşim anahtarları; profiller arasında geçiş ve iki adımlı onaylı profil silme (ilerlemesiyle birlikte).

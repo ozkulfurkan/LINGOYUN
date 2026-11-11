@@ -13,6 +13,8 @@ import { ThemedText } from '@/components/ThemedText';
 import { pathOf } from '@/content';
 import { content } from '@/content/bundle';
 import { useActiveProfile } from '@/features/profiles';
+import { canPlay } from '@/features/subscription';
+import { currentAccess } from '@/lib/purchases';
 import { themeLabel } from '@/lib/themeName';
 import { loadPath } from '@/storage/path';
 import { space } from '@/theme';
@@ -36,7 +38,11 @@ export default function PlacementResultScreen() {
   return (
     <Screen
       footer={
-        <PrimaryButton label={t('placement.result.start')} onPress={() => router.replace('/')} />
+        <PrimaryButton
+          label={t('placement.result.start')}
+          // The family plans come right after the first level result (CLAUDE.md).
+          onPress={() => router.replace(canPlay(currentAccess()) ? '/' : '/paywall')}
+        />
       }
     >
       <View style={styles.medal}>
