@@ -35,6 +35,13 @@
       "android": {
         "track": "internal",
         "releaseStatus": "draft"
+      },
+      "ios": {
+        "ascAppId": "6832894575",
+        "appleTeamId": "9PQ3CYV264",
+        "ascApiKeyPath": "./.secrets/AuthKey_6964RK3KS6.p8",
+        "ascApiKeyIssuerId": "d6eeaa56-2ebd-4d14-86db-ead2e8950ad5",
+        "ascApiKeyId": "6964RK3KS6"
       }
     },
     "closed-test": {
