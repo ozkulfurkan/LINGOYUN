@@ -7,6 +7,8 @@
 
 GitHub Pages (Furkan): repo → Settings → Pages → Source: `main` dalı, `/docs` klasörü. Politika değişirse yürürlük tarihini de güncelle.
 
+Destek sayfası (App Store "Support URL", Play "Web sitesi"): `https://ozkulfurkan.github.io/LINGOYUN/support/` (`docs/support/index.html`, TR + EN: iletişim e-postası, deneme, iptal, geri yükleme, veriler, ebeveyn sorusu). Uygulamadaki menü adları değişirse bu sayfayı da güncelle.
+
 ## İkon
 
 Kaynak: `assets/source/glyph.svg` (nehri geçen üç hamur basamak taşı: bir dilden öbürüne). Düzenledikten sonra bütün boyutları üret:
