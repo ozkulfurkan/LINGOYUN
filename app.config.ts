@@ -10,7 +10,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   slug: 'lingoyun',
   owner: 'ozkulfurkan',
   scheme: 'lingoyun',
-  version: '0.1.0',
+  version: '1.0.0',
   orientation: 'portrait',
   icon: './assets/icon.png',
   // Kids profiles use a single light theme; the adult profile follows the
@@ -18,7 +18,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   userInterfaceStyle: 'automatic',
   ios: {
     bundleIdentifier: BUNDLE_ID,
-    supportsTablet: true,
+    // iPhone only for the first release: the layouts are not tested on iPad, and
+    // an iPad app needs its own App Store screenshots. iPads still run it in
+    // iPhone mode.
+    supportsTablet: false,
+    config: {
+      // Only standard HTTPS (Apple's exemption): no export compliance question per build.
+      usesNonExemptEncryption: false,
+    },
   },
   android: {
     package: BUNDLE_ID,
