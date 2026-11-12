@@ -88,9 +88,9 @@ describe('sessionWords', () => {
   it('lists the asked words first, then the memory pairs, once each', () => {
     expect(
       sessionWords([
-        { kind: 'listen', target: 'a', options: ['a', 'b'] },
-        { kind: 'memory', pairs: ['c', 'a'] },
-        { kind: 'basket', target: 'b', options: ['b', 'd'] },
+        { kind: 'listen', intro: true, target: 'a', options: ['a', 'b'] },
+        { kind: 'memory', intro: true, pairs: ['c', 'a'] },
+        { kind: 'basket', intro: true, target: 'b', options: ['b', 'd'] },
       ]),
     ).toEqual(['a', 'b', 'c']);
   });

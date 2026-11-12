@@ -6,6 +6,7 @@ import Svg, { Ellipse, G, Path, Rect } from 'react-native-svg';
 import { WordPicture } from '@/components/art/words/WordPicture';
 import { CloseIcon } from '@/components/illustrations';
 import { PressScale } from '@/components/PressScale';
+import { ThemedText } from '@/components/ThemedText';
 import { artPalette } from '@/theme/artPalette';
 import { dimmedOpacity, space, stroke, touchTarget, useTheme } from '@/theme';
 
@@ -65,6 +66,62 @@ export function PictureCard({
       ]}
     >
       <WordPicture image={image} size={size * 0.8} />
+    </PressScale>
+  );
+}
+
+type WordCardProps = {
+  /** The written word (target language); also what screen readers say. */
+  word: string;
+  width: number;
+  state?: PictureState;
+  /** Tapped once: read out and waiting for a second tap to answer. */
+  selected?: boolean;
+  disabled?: boolean;
+  onPress: () => void;
+};
+
+/**
+ * A big clay card with one written word, for "find the word". Same states as
+ * PictureCard; a selected card gets a thick border and grows a little.
+ */
+export function WordCard({
+  word,
+  width,
+  state = 'idle',
+  selected = false,
+  disabled = false,
+  onPress,
+}: WordCardProps) {
+  const { colors, radii, elevation } = useTheme();
+  const marked = selected || state === 'right' || state === 'hint';
+  const background =
+    state === 'right' ? colors.correct : state === 'hint' ? colors.highlight : colors.surface;
+  return (
+    <PressScale
+      accessibilityRole="button"
+      accessibilityLabel={word}
+      accessibilityState={{ disabled, selected: selected || state === 'right' }}
+      disabled={disabled}
+      onPress={onPress}
+      style={[
+        styles.wordCard,
+        {
+          width,
+          backgroundColor: background,
+          borderColor: marked ? colors.accentText : colors.border,
+          borderWidth: marked ? stroke.thick : stroke.thin,
+          borderRadius: radii.lg,
+          boxShadow:
+            state === 'right' ? (elevation.correct ?? undefined) : (elevation.surface ?? undefined),
+          opacity: state === 'wrong' ? dimmedOpacity : 1,
+          transform: [{ scale: selected && state === 'idle' ? 1.05 : 1 }],
+        },
+      ]}
+    >
+      <ThemedText variant="title" numberOfLines={2} adjustsFontSizeToFit style={styles.wordText}>
+        {word}
+      </ThemedText>
     </PressScale>
   );
 }
@@ -293,6 +350,16 @@ const styles = StyleSheet.create({
     minHeight: touchTarget.mini,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  wordCard: {
+    // kids-ux: at least 64 pt; a little taller so two lines still fit.
+    minHeight: touchTarget.mini * 1.4,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: space.sm,
+  },
+  wordText: {
+    textAlign: 'center',
   },
   sticker: {
     alignItems: 'center',

@@ -243,7 +243,11 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     6. Telefon dili İngilizce: yönergeler Jenny'nin sesiyle İngilizce.
 - [~] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
   - ✅ 2–7 yaş ana ekranı: Nehir selam verir ve sesli sorar ("Merhaba …! Hangi dünyaya gidelim?"); 6 büyük dünya kartı (hayvanlar, yiyecekler, renkler ve şekiller, vücudum, evim, doğa), kapak = dünyanın ilk kelimesinin resmi. Okuma gerekmez.
-  - ✅ Oturum = 8 etkinlik (`src/features/games/mini/session.ts`): resmi bul ×5 (4 resim, 2×2), sepet ×2 (3 resim; sürükle-bırak ya da dokun), hafıza ×1 (3 çift, 6 kart; açılan kartın kelimesi seslendirilir). Kelimeler aralıklı tekrar destesinden seçilir (önce vadesi gelenler).
+  - ✅ Oturum = 8 etkinlik (`src/features/games/mini/session.ts`): resmi bul ×3 (4 resim, 2×2), **kelimeyi bul ×2**, sepet ×2 (3 resim; sürükle-bırak ya da dokun), hafıza ×1 (3 çift, 6 kart; açılan kartın kelimesi seslendirilir). Kelimeler aralıklı tekrar destesinden seçilir (önce vadesi gelenler).
+  - ✅ Furkan'ın cihaz geri bildirimi (2026-11-13):
+    - Oyun açılınca ilk soru sessiz kalıyordu (ana ekran odağı kaybedince oyunun sesini de kesiyordu). Artık her ekran yalnızca kendi sesini durdurur (`speakSequence` iptal fonksiyonu döndürür).
+    - Yönergeler ("Hangisi?", "Sepete koy:", "Resmin adını bul!") oturumda yalnızca o türün ilk etkinliğinde; sonrakilerde yalnızca kelime.
+    - Yeni oyun **kelimeyi bul**: üstte resim, altta 4 yazılı İngilizce kelime. İlk dokunuş kelimeyi okur ve işaretler, aynı kelimeye ikinci dokunuş cevap verir. Yanlışta "Hadi bir daha!" (kelime söylenmez, cevap olurdu); 2 yanlıştan sonra doğru kelime parlar.
   - ✅ Yönerge arayüz dilinde, ardından İngilizce kelime seslendirilir; "Tekrar dinle" butonu. Yanlışta ceza yok: kart sallanır ve solar, Kerem "Hadi bir daha!" der, kelime tekrar edilir; 2 yanlıştan sonra doğru resim limon rengiyle parlar. Doğruda "Aferin!" + kelime, zıplama, büyük "Devam" butonu (çocuk hızı belirler). Can, süre yok.
   - ✅ Çıkış basılı tutarak (0,7 sn): tek dokunuş bir şey yapmaz. Tur sonu: üç karakter sevinir, "Harika! Yarın görüşürüz." seslendirilir, hatasız turda konfeti; ilerleme, taş ve deste kaydedilir (hafıza kartları desteye yazılmaz, yalnızca tekrar).
   - ✅ İlk oturum ücretsiz (CLAUDE.md: mini'de paywall ilk oyundan sonra). Deneme/abonelik yoksa tur sonunda "Ebeveyn: paketleri gör" (ebeveyn kapısı arkasında), ana ekranda kilit ekranı.
@@ -251,7 +255,9 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Derleme: yeni yerel paket yok; mevcut geliştirici derlemesi yeterli (`npx expo start` ile JS güncellemesi).
   - Cihazda nasıl test edilir:
     1. 2–7 yaş profiliyle aç → Nehir görünür, selamı sesli duyulur; altında 6 resimli kart. Ses kapalıysa (iPhone sessiz modu) TTS duyulmayabilir: sessiz modu kapat.
-    2. Hayvanlar'a dokun → "Hangisi?" + İngilizce kelime duyulur; 4 resimden doğruya dokun → "Aferin!" + kelime, kart yeşil ve zıplar, "Devam" çıkar.
+    2. Hayvanlar'a dokun → hiçbir şeye basmadan "Hangisi?" + İngilizce kelime duyulur; 4 resimden doğruya dokun → "Aferin!" + kelime, kart yeşil ve zıplar, "Devam" çıkar. Sonraki "resmi bul" sorularında yalnız kelime söylenir.
+       2b. Kelimeyi bul: ilk seferde "Resmin adını bul!" duyulur. Bir kelimeye dokun → okunur ve kalın kenarla işaretlenir, cevap sayılmaz; başka kelimeye dokun → o okunur ve işaretlenir. İşaretli kelimeye tekrar dokun → cevap: doğruysa "Aferin!" + kelime; yanlışsa kart sallanır, "Hadi bir daha!" (doğru kelime söylenmez). Uzun kelimeler ("hot air balloon") kartta okunuyor mu?
+       2c. Ana ekran ↔ dünya arasında hızlı git gel: sesler birbirini kesmemeli, karışmamalı.
     3. Yanlış resme dokun → kart sallanır ve solar, "Hadi bir daha!" duyulur; ikinci yanlıştan sonra doğru resim sarı parlar.
     4. Sepet etkinliğinde resmi parmakla sepete sürükle → sepete girer; sepetin dışına bırakınca yerine döner; dokunmak da işe yarar.
     5. Hafıza kartlarında iki farklı kart açınca ~1 sn sonra kapanır; eşleşen çift yeşil kalır; her açılışta kelime söylenir.

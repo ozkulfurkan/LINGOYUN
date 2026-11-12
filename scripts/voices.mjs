@@ -35,6 +35,7 @@ const LINE_KEYS = [
   'mini.homeHelloSpoken',
   'mini.listen',
   'mini.basket',
+  'mini.read',
   'mini.memory',
   'mini.right',
   'mini.tryAgain',

@@ -25,8 +25,18 @@ export function clipFor(
 let generation = 0;
 let current: AudioPlayerLike | null = null;
 
+/** Stops one utterance, and only while it is still the one playing. */
+export type CancelSpeech = () => void;
+
+function cancelFor(run: number): CancelSpeech {
+  // A screen that goes away stops its own words, never the next screen's.
+  return () => {
+    if (run === generation) stopSpeaking();
+  };
+}
+
 /** Reads text aloud in the given language, cutting off anything still playing. */
-export function speak(text: string, language: LanguageCode, { slow = false } = {}): void {
+export function speak(text: string, language: LanguageCode, { slow = false } = {}): CancelSpeech {
   // The slow button is for the phone's speech: recordings have one speed.
   if (!slow && clipFor(text, language) !== null) return speakSequence([{ text, language }]);
   stopSpeaking();
@@ -34,6 +44,7 @@ export function speak(text: string, language: LanguageCode, { slow = false } = {
     language: getLanguage(language).ttsVoice,
     ...(slow ? { rate: SLOW_RATE } : {}),
   });
+  return cancelFor(generation);
 }
 
 export function stopSpeaking(): void {
@@ -56,17 +67,19 @@ export function stopSpeaking(): void {
  * Turkish instruction followed by the English word. Recorded clips play where
  * they exist; the rest is read by the phone's speech engine.
  */
-export function speakSequence(parts: readonly SpokenPart[]): void {
+export function speakSequence(parts: readonly SpokenPart[]): CancelSpeech {
   stopSpeaking();
+  const cancel = cancelFor(generation);
   const said = parts.filter((p) => p.text.trim());
   if (!said.some((p) => clipFor(p.text, p.language) !== null)) {
     // No recordings: the platform engines queue utterances themselves.
     for (const { text, language } of said) {
       Speech.speak(text, { language: getLanguage(language).ttsVoice });
     }
-    return;
+    return cancel;
   }
   void playParts(said, generation);
+  return cancel;
 }
 
 async function playParts(parts: readonly SpokenPart[], run: number): Promise<void> {

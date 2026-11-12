@@ -14,6 +14,7 @@ import {
   MemoryCardView,
   PictureCard,
   Sticker,
+  WordCard,
 } from '@/components/mini/MiniParts';
 import { Bounce, Shake } from '@/components/Motion';
 import { PrimaryButton } from '@/components/PrimaryButton';
@@ -35,6 +36,7 @@ import {
   showHint,
   START_CHOICE,
   startMemory,
+  tapWord,
   type ChoiceState,
   type MemoryState,
   type MiniActivity,
@@ -48,7 +50,7 @@ import { seededRng } from '@/features/quiz/rng';
 import { learnedCount, localDay, recordAnswer, type Grade } from '@/features/srs';
 import { playFeedback } from '@/lib/feedback';
 import { comboEvent, trailingRun } from '@/lib/feedbackEvents';
-import { speakSequence, stopSpeaking } from '@/lib/speech';
+import { speakSequence, type CancelSpeech } from '@/lib/speech';
 import { useAccess } from '@/lib/useAccess';
 import { loadProgress, saveProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
@@ -110,6 +112,8 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
   const [reward, setReward] = useState<SessionReward | null>(null);
   const [stickers, setStickers] = useState<string[]>([]);
   const [misses, setMisses] = useState(0);
+  // "find the word": the word tapped once, read out and waiting for a second tap.
+  const [selected, setSelected] = useState<string | null>(null);
   const access = useAccess();
 
   const activity = activities[index];
@@ -117,22 +121,31 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
   const label = (id: string) => getEntry(content, course.nativeLang, id)?.text ?? word(id);
   const image = (id: string) => content.concepts.find((c) => c.id === id)?.image;
 
-  const ask = (a: MiniActivity | undefined) => {
-    if (!a) return;
-    if (a.kind === 'memory') {
-      speakSequence([{ text: t('mini.memory'), language: uiLang }]);
-    } else {
-      speakSequence([
-        { text: t(a.kind === 'listen' ? 'mini.listen' : 'mini.basket'), language: uiLang },
-        { text: word(a.target), language: course.targetLang },
-      ]);
+  /**
+   * Says what an activity asks. The instruction ("Which one?") only the first
+   * time in a session; later ones just say the word. "Find the word" never
+   * says its word (that would give the answer away); replaying it repeats the
+   * instruction.
+   */
+  const ask = (a: MiniActivity | undefined, replay = false): CancelSpeech | undefined => {
+    if (!a) return undefined;
+    if (a.kind === 'memory') return speakSequence([{ text: t('mini.memory'), language: uiLang }]);
+    if (a.kind === 'read') {
+      return a.intro || replay
+        ? speakSequence([{ text: t('mini.read'), language: uiLang }])
+        : undefined;
     }
+    const instruction = t(a.kind === 'listen' ? 'mini.listen' : 'mini.basket');
+    return speakSequence([
+      ...(a.intro ? [{ text: instruction, language: uiLang }] : []),
+      { text: word(a.target), language: course.targetLang },
+    ]);
   };
 
   // Each activity is spoken when it comes up (the children cannot read yet).
+  // Leaving stops only these words, never what the next screen says.
   useEffect(() => {
-    ask(activity);
-    return stopSpeaking;
+    return ask(activity);
     // Only when a new activity starts.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index]);
@@ -184,12 +197,28 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
     } else if (!choice.wrong.includes(picked)) {
       setMisses((m) => m + 1);
       playFeedback('wrong');
-      // Kerem encourages, then the word is said again.
+      // Kerem encourages, then the word is said again (not in "find the word":
+      // there the word is the answer).
       speakSequence([
         { text: t('mini.tryAgain'), language: uiLang },
-        { text: word(activity.target), language: course.targetLang },
+        ...(activity.kind === 'read'
+          ? []
+          : [{ text: word(activity.target), language: course.targetLang }]),
       ]);
     }
+  };
+
+  /** "Find the word": a first tap reads the word out, a second tap on it answers. */
+  const tapReadWord = (id: string) => {
+    if (choice.solved) return;
+    const tap = tapWord(selected, id);
+    if (tap.kind === 'select') {
+      setSelected(tap.selected);
+      speakSequence([{ text: word(id), language: course.targetLang }]);
+      return;
+    }
+    setSelected(null);
+    answer(tap.picked);
   };
 
   const flip = (i: number) => {
@@ -209,6 +238,7 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
       setChoice(START_CHOICE);
       setMemory(memoryFor(activities[index + 1]));
       setMisses(0);
+      setSelected(null);
       return;
     }
     // Rewards only for a finished session; no level-up for ages 2–7.
@@ -242,7 +272,7 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
         done ? (
           <PrimaryButton label={t('mini.next')} onPress={next} />
         ) : (
-          <SecondaryButton label={t('mini.replay')} onPress={() => ask(activity)} />
+          <SecondaryButton label={t('mini.replay')} onPress={() => ask(activity, true)} />
         )
       }
     >
@@ -265,6 +295,16 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
           label={label}
           image={image}
           onPick={answer}
+        />
+      ) : activity.kind === 'read' ? (
+        <ReadGame
+          options={activity.options}
+          target={activity.target}
+          choice={choice}
+          selected={selected}
+          word={word}
+          image={image}
+          onTap={tapReadWord}
         />
       ) : activity.kind === 'basket' ? (
         <BasketGame
@@ -330,6 +370,57 @@ function Pictures({ options, target, choice, label, image, onPick }: ChoiceProps
           </Bounce>
         </Shake>
       ))}
+    </View>
+  );
+}
+
+type ReadProps = {
+  options: string[];
+  target: string;
+  choice: ChoiceState;
+  selected: string | null;
+  word: (id: string) => string;
+  image: (id: string) => string | undefined;
+  onTap: (id: string) => void;
+};
+
+/** See a picture, find its written word among four; a tap reads a word out. */
+function ReadGame({ options, target, choice, selected, word, image, onTap }: ReadProps) {
+  const { width } = useWindowDimensions();
+  const cardWidth = (width - space.xl * 2 - space.lg) / 2;
+  const pictureSize = Math.min(width - space.xl * 2, 190);
+  return (
+    <View style={styles.read}>
+      {/* testID only: tests read the asked word; screen readers never get it. */}
+      <View testID={`read-target:${target}`}>
+        <Bounce trigger={choice.solved}>
+          <PictureCard
+            image={image(target)}
+            // Not the word: a screen reader would give the answer away.
+            label=""
+            size={pictureSize}
+            state={choice.solved ? 'right' : 'idle'}
+            disabled
+            onPress={() => undefined}
+          />
+        </Bounce>
+      </View>
+      <View style={styles.grid}>
+        {options.map((id) => (
+          <Shake key={id} trigger={choice.wrong.includes(id) ? choice.wrong.indexOf(id) + 1 : 0}>
+            <Bounce trigger={choice.solved && id === target}>
+              <WordCard
+                word={word(id)}
+                width={cardWidth}
+                state={pictureState(id, target, choice)}
+                selected={selected === id}
+                disabled={choice.solved}
+                onPress={() => onTap(id)}
+              />
+            </Bounce>
+          </Shake>
+        ))}
+      </View>
     </View>
   );
 }
@@ -457,8 +548,7 @@ function Summary({
   ]);
   useEffect(() => {
     playFeedback('complete');
-    speakSequence(said);
-    return stopSpeaking;
+    return speakSequence(said);
   }, [said]);
   const size = Math.min((width - space.xl * 2 - space.md * 2) / 3, 120);
   return (
@@ -525,6 +615,10 @@ const styles = StyleSheet.create({
   },
   basketGame: {
     gap: space.xxl,
+  },
+  read: {
+    alignItems: 'center',
+    gap: space.xl,
   },
   row: {
     flexDirection: 'row',

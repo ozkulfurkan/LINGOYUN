@@ -21,7 +21,7 @@ import {
 } from '@/features/games/mini';
 import { findCourse, isLanguageCode } from '@/features/languages';
 import { useActiveProfile } from '@/features/profiles';
-import { speakSequence, stopSpeaking } from '@/lib/speech';
+import { speakSequence } from '@/lib/speech';
 import { loadAlbum } from '@/storage/stickers';
 import { space, stroke, touchTarget, useTheme } from '@/theme';
 
@@ -69,8 +69,7 @@ function Album({
   );
 
   useEffect(() => {
-    speakSequence([{ text: t('mini.albumHello'), language: uiLang }]);
-    return stopSpeaking;
+    return speakSequence([{ text: t('mini.albumHello'), language: uiLang }]);
   }, [t, uiLang]);
 
   if (!world) return <Redirect href="/" />;

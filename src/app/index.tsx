@@ -29,7 +29,7 @@ import {
 import { visibleStreak } from '@/features/progress';
 import { localDay } from '@/features/srs';
 import { canPlay } from '@/features/subscription';
-import { speakSequence, stopSpeaking } from '@/lib/speech';
+import { speakSequence } from '@/lib/speech';
 import { themeName } from '@/lib/themeName';
 import { useAccess } from '@/lib/useAccess';
 import { loadPath } from '@/storage/path';
@@ -90,13 +90,10 @@ function MiniHome({ profile }: { profile: Profile }) {
   useFocusEffect(
     useCallback(() => {
       setSessions(loadProgress(profile.id).stats.sessions);
-      if (open && uiLang) {
-        speakSequence([
-          // Spoken without the nickname: that line is a recording (the screen shows the name).
-          { text: t('mini.homeHelloSpoken'), language: uiLang },
-        ]);
-      }
-      return stopSpeaking;
+      if (!open || !uiLang) return;
+      // Spoken without the nickname: that line is a recording (the screen shows the name).
+      // Leaving the screen stops only this greeting, never the game it opens.
+      return speakSequence([{ text: t('mini.homeHelloSpoken'), language: uiLang }]);
     }, [profile, open, uiLang, t]),
   );
 

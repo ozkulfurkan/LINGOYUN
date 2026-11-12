@@ -99,10 +99,23 @@ async function solveMemory() {
   }
 }
 
+/** The asked concept of a "find the word" activity, or null if none is showing. */
+function readTarget(): string | null {
+  const view = screen.queryByTestId(/^read-target:/);
+  return view ? String(view.props.testID).slice('read-target:'.length) : null;
+}
+
+const englishWord = (id: string) => content.languages.en.words[id].text;
+
 /** Plays whatever activity is showing, answering right the first time. */
 async function playActivity() {
+  const target = readTarget();
   if (screen.queryByLabelText(i18n.t('mini.cardBack', { n: 1 }))) {
     await solveMemory();
+  } else if (target) {
+    // First tap reads the word out, the second answers.
+    await press(englishWord(target));
+    await press(englishWord(target));
   } else {
     await press(labelOf(lastSpoken()));
   }
@@ -171,6 +184,38 @@ describe('ages 2–7: picture worlds (LNG-33)', () => {
     expect(loadProgress(id).stats.sessions).toBe(1);
     expect(Object.keys(loadDeck(id, 'tr-en')).length).toBeGreaterThan(0);
     expect(screen.getByLabelText(i18n.t('mini.again'))).toBeTruthy();
+    // Each instruction once per session; later activities only say the word.
+    for (const key of ['mini.listen', 'mini.basket', 'mini.read'] as const) {
+      expect(spoken().filter((text) => text === i18n.t(key))).toHaveLength(1);
+    }
+  });
+
+  it('find the word: a tap reads a word, a second tap answers; a miss never says the answer', async () => {
+    startTestTrial();
+    seedMini();
+    await renderRouter(ROUTES, { initialUrl: '/play/mini?world=animals' });
+    await playActivity(); // the session opens with "which one?"
+    const target = readTarget()!;
+    expect(spoken()).toContain(i18n.t('mini.read'));
+    const other = screen
+      .getAllByRole('button')
+      .map((b) => b.props.accessibilityLabel as string)
+      .find((label) => label && label !== englishWord(target) && /^[a-z ]+$/i.test(label))!;
+
+    jest.mocked(Speech.speak).mockClear();
+    await press(other);
+    expect(spoken()).toEqual([other]);
+    expect(screen.queryByLabelText(i18n.t('mini.next'))).toBeNull();
+
+    await press(other);
+    expect(spoken()).toContain(i18n.t('mini.tryAgain'));
+    expect(spoken()).not.toContain(englishWord(target));
+
+    await press(englishWord(target));
+    expect(screen.queryByLabelText(i18n.t('mini.next'))).toBeNull();
+    await press(englishWord(target));
+    expect(spoken()).toContain(i18n.t('mini.right'));
+    expect(await screen.findByLabelText(i18n.t('mini.next'))).toBeTruthy();
   });
 
   it('the first session is free; then a grown-up sees the plans', async () => {

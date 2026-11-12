@@ -12,6 +12,7 @@ import {
   pickChoice,
   SESSION_PLAN,
   showHint,
+  tapWord,
   START_CHOICE,
 } from './session';
 import { findWorld, miniWorlds } from './worlds';
@@ -44,6 +45,19 @@ describe('buildMiniSession', () => {
 
   it('follows the session plan', () => {
     expect(session().map((a) => a.kind)).toEqual(SESSION_PLAN);
+  });
+
+  it('has two find-the-word activities among eight', () => {
+    expect(SESSION_PLAN).toHaveLength(8);
+    expect(SESSION_PLAN.filter((k) => k === 'read')).toHaveLength(2);
+  });
+
+  it('marks only the first activity of each kind for its spoken instruction', () => {
+    const firsts = new Set<string>();
+    for (const a of session()) {
+      expect(a.intro).toBe(!firsts.has(a.kind));
+      firsts.add(a.kind);
+    }
   });
 
   it('offers the target among distinct pictures of the same world', () => {
@@ -170,5 +184,13 @@ describe('miniCanStart', () => {
     expect(miniCanStart(none, 1)).toBe(false);
     expect(miniCanStart(ended, 4)).toBe(false);
     expect(miniCanStart(trial, 4)).toBe(true);
+  });
+});
+
+describe('tapWord', () => {
+  it('selects on the first tap and answers on a second tap on the same word', () => {
+    expect(tapWord(null, 'cat')).toEqual({ kind: 'select', selected: 'cat' });
+    expect(tapWord('cat', 'dog')).toEqual({ kind: 'select', selected: 'dog' });
+    expect(tapWord('cat', 'cat')).toEqual({ kind: 'answer', picked: 'cat' });
   });
 });

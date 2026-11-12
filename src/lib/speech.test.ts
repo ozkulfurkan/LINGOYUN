@@ -78,6 +78,32 @@ describe('speakSequence', () => {
     expect(spoken()).toEqual(['Hangisi?', 'Aferin!']);
   });
 
+  it("a screen's cancel stops only its own words, never the next screen's", async () => {
+    const cancelHome = speakSequence([{ text: 'Merhaba!', language: 'tr' }]);
+    // The game opens and speaks; then the home screen loses focus and cleans up.
+    const cancelGame = speakSequence([
+      { text: 'apple', language: 'en' },
+      { text: 'Aferin!', language: 'tr' },
+    ]);
+    cancelHome();
+    await flush();
+    expect(played).toEqual([7]);
+    players[0].listener?.({ didJustFinish: true });
+    await flush();
+    expect(spoken()).toEqual(['Merhaba!', 'Aferin!']);
+
+    jest.mocked(Speech.speak).mockClear();
+    speakSequence([
+      { text: 'apple', language: 'en' },
+      { text: 'Aferin!', language: 'tr' },
+    ]);
+    cancelGame(); // an old cancel: the new words keep going
+    await flush();
+    players[1].listener?.({ didJustFinish: true });
+    await flush();
+    expect(spoken()).toEqual(['Aferin!']);
+  });
+
   it('drops the rest when stopped', async () => {
     speakSequence([
       { text: 'apple', language: 'en' },
