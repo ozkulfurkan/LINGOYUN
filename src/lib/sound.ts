@@ -11,21 +11,31 @@ const SOURCES: Record<FeedbackEvent, number> = {
   levelUp: require('../../assets/audio/sfx/levelUp.wav'),
 };
 
-type Player = { play(): void; seekTo(seconds: number): unknown };
+/** The parts of an expo-audio player this app uses (effects and voice clips). */
+export type AudioPlayerLike = {
+  play(): void;
+  pause(): void;
+  remove(): void;
+  seekTo(seconds: number): unknown;
+  addListener?(
+    event: 'playbackStatusUpdate',
+    listener: (status: { didJustFinish: boolean }) => void,
+  ): { remove(): void };
+};
 type AudioModule = {
-  createAudioPlayer(source: number): Player;
+  createAudioPlayer(source: number): AudioPlayerLike;
   setAudioModeAsync(mode: { playsInSilentMode: boolean }): Promise<void>;
 };
 
 let audio: AudioModule | null | undefined;
-const players = new Map<FeedbackEvent, Player>();
+const players = new Map<FeedbackEvent, AudioPlayerLike>();
 
 /**
  * expo-audio is loaded lazily and guarded: a development build made before it
  * was added has no native module, and sound must then fail silently instead of
  * crashing the app.
  */
-function loadAudio(): AudioModule | null {
+export function loadAudio(): AudioModule | null {
   if (audio !== undefined) return audio;
   try {
     // eslint-disable-next-line @typescript-eslint/no-require-imports

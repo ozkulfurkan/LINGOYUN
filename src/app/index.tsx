@@ -92,7 +92,8 @@ function MiniHome({ profile }: { profile: Profile }) {
       setSessions(loadProgress(profile.id).stats.sessions);
       if (open && uiLang) {
         speakSequence([
-          { text: t('mini.homeHello', { nickname: profile.nickname }), language: uiLang },
+          // Spoken without the nickname: that line is a recording (the screen shows the name).
+          { text: t('mini.homeHelloSpoken'), language: uiLang },
         ]);
       }
       return stopSpeaking;

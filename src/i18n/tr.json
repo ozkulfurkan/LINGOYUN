@@ -376,6 +376,7 @@
       "nature": "Doğa"
     },
     "homeHello": "Merhaba {{nickname}}! Hangi dünyaya gidelim?",
+    "homeHelloSpoken": "Merhaba! Hangi dünyaya gidelim?",
     "worldLabel": "{{world}} dünyası",
     "listen": "Hangisi?",
     "basket": "Sepete koy:",

@@ -127,7 +127,9 @@ describe('ages 2–7: picture worlds (LNG-33)', () => {
       const world = i18n.t(`mini.worlds.${id}` as 'mini.worlds.animals');
       expect(await screen.findByLabelText(i18n.t('mini.worldLabel', { world }))).toBeTruthy();
     }
-    expect(spoken()).toContain('Merhaba Deniz! Hangi dünyaya gidelim?');
+    // The screen shows the name; the spoken greeting is a recording without it.
+    expect(screen.getByText('Merhaba Deniz! Hangi dünyaya gidelim?')).toBeTruthy();
+    expect(spoken()).toContain('Merhaba! Hangi dünyaya gidelim?');
   });
 
   it('opens a world and says the instruction, then the English word', async () => {

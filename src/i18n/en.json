@@ -376,6 +376,7 @@
       "nature": "Nature"
     },
     "homeHello": "Hello {{nickname}}! Which world shall we visit?",
+    "homeHelloSpoken": "Hello! Which world shall we visit?",
     "worldLabel": "{{world}} world",
     "listen": "Which one?",
     "basket": "Put it in the basket:",

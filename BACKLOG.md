@@ -230,7 +230,17 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Önizleme aracı (geçici, repoda yok): `react-native-svg` düz SVG etiketlerine eşlenip `react-dom/server` ile SVG'ye çevrilir, Chromium ile resme dönüştürülür.
   - ✅ Furkan onayladı (2026-11-12): 9–11. partiler ve varsayılan küçük seçimler (biber, peynir, et, deve, ay, şapka, çanta, mayo) olduğu gibi; tekne değişmiyor.
 - [ ] **LNG-32** BULUT + FURKAN — Sesler: 300 kelime × EN + TR ve karakter yönergeleri. Furkan'ın kararı: kaliteli bir TTS servisiyle bir kez üretilip uygulamaya gömülür (internetsiz çalışır). Servis hesabını ve anahtarı Furkan açar; anahtar yalnızca `.env`'de durur, uygulamaya girmez.
-  - Bekliyor (2026-11-12): Furkan Azure'a şimdilik giremedi, adım ertelendi. Önerilen servis Azure Speech (Free F0, West Europe); adımlar: Speech services → Create → Keys and Endpoint → `.env`'e `AZURE_SPEECH_KEY` ve `AZURE_SPEECH_REGION`.
+  - ✅ Azure Speech (Free F0, East US; West Europe yeni müşteri almıyor) Furkan'ın hesabında; anahtar yalnızca `.env`'de.
+  - ✅ Sesler Furkan'ın seçimi (2026-11-13): Türkçe **Emel**, İngilizce **Jenny**, %10 yavaş. `npm run voices` eksik sesleri kaydeder (`--force` hepsini yeniden): 300 kelimenin İngilizcesi + 2–7 ekranlarının yönergeleri (TR ve EN: Hangisi?, Sepete koy:, Eşlerini bul!, Aferin!, Hadi bir daha!, Harika! Yarın görüşürüz., dünya adları, albüm, "2/3 yeni çıkartma!"). Dosyalar `assets/audio/voice/<dil>/`, dizin `src/lib/voiceClips.ts` (üretilir).
+  - ✅ `speak` / `speakSequence` önce kayıtlı sesi çalar (expo-audio, sırayla), kaydı olmayan metni telefonun sesi okur. Karşılama sesli olarak adsız ("Merhaba! Hangi dünyaya gidelim?"); ad ekranda yazar.
+  - Türkçe kelime sesleri üretilmedi: 2–7 modunda kelimeler yalnızca İngilizce söyleniyor.
+  - Cihazda nasıl test edilir (yeni derleme gerekmez; ses dosyaları JS paketiyle gelir):
+    1. Sessiz mod kapalı, 2–7 profili → ana ekranda Emel'in sesiyle "Merhaba! Hangi dünyaya gidelim?".
+    2. Bir dünya → "Hangisi?" (Emel) ardından kelime (Jenny); doğruda "Aferin!" + kelime; yanlışta "Hadi bir daha!" + kelime. Parçalar üst üste binmemeli, arada uzun boşluk olmamalı.
+    3. "Tekrar dinle" ve hafıza kartları: kelime Jenny'nin sesiyle.
+    4. Hızlı hızlı farklı kartlara dokun → önceki ses kesilip yenisi başlamalı.
+    5. Tur sonu ve albüm: "Harika! Yarın görüşürüz.", "3 yeni çıkartma!", dünya adları Emel'in sesiyle.
+    6. Telefon dili İngilizce: yönergeler Jenny'nin sesiyle İngilizce.
 - [~] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
   - ✅ 2–7 yaş ana ekranı: Nehir selam verir ve sesli sorar ("Merhaba …! Hangi dünyaya gidelim?"); 6 büyük dünya kartı (hayvanlar, yiyecekler, renkler ve şekiller, vücudum, evim, doğa), kapak = dünyanın ilk kelimesinin resmi. Okuma gerekmez.
   - ✅ Oturum = 8 etkinlik (`src/features/games/mini/session.ts`): resmi bul ×5 (4 resim, 2×2), sepet ×2 (3 resim; sürükle-bırak ya da dokun), hafıza ×1 (3 çift, 6 kart; açılan kartın kelimesi seslendirilir). Kelimeler aralıklı tekrar destesinden seçilir (önce vadesi gelenler).

@@ -59,7 +59,8 @@
     "typecheck": "tsc --noEmit",
     "test": "jest",
     "test:watch": "jest --watch",
-    "content": "node scripts/content.mjs"
+    "content": "node scripts/content.mjs",
+    "voices": "node scripts/voices.mjs"
   },
   "private": true,
   "jest": {
@@ -70,7 +71,8 @@
     "moduleNameMapper": {
       "^react-native-reanimated$": "<rootDir>/test-support/reanimated-entry.js",
       "^react-native-reanimated/mock$": "<rootDir>/test-support/reanimated.js",
-      "^react-native-purchases$": "<rootDir>/test-support/purchases.js"
+      "^react-native-purchases$": "<rootDir>/test-support/purchases.js",
+      "^\\./voiceClips$":"<rootDir>/test-support/voiceClips.js"
     }
   }
 }
