@@ -89,6 +89,14 @@ describe('parental gate and settings', () => {
     expect(gateAnswer()).not.toBe(right);
   });
 
+  it("opens settings straight away on a grown-up's own profile", async () => {
+    seed('Furkan', 'adult', 'A1');
+    await renderRouter(ROUTES);
+    await fireEvent.press(screen.getByLabelText('Ayarlar (ebeveyn)'));
+    expect(screen.queryByTestId('gate-question')).toBeNull();
+    expect(screen.getByText('Ayarlar')).toBeTruthy();
+  });
+
   it('sends a direct visit to settings through the gate', async () => {
     seed('Deniz', 'kid', 'L1');
     await renderRouter(ROUTES, { initialUrl: '/settings' });

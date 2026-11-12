@@ -12,7 +12,7 @@ import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
 import { defaultCourseId } from '@/features/onboarding/flow';
-import { closeGate, isGateOpen } from '@/features/parental-gate';
+import { closeGate } from '@/features/parental-gate';
 import {
   addProfile,
   CHILD_TYPES,
@@ -23,6 +23,7 @@ import {
   type Profile,
   type ProfileError,
 } from '@/features/profiles';
+import { useGateAllowed } from '@/lib/useGateAllowed';
 import { space } from '@/theme';
 
 const ART = { mini: MiniArt, kid: KidArt } as const;
@@ -35,7 +36,7 @@ type ChildType = (typeof CHILD_TYPES)[number];
  */
 export default function NewChildScreen() {
   // Checked once when the screen opens: a direct link without the gate is sent there.
-  const [allowed] = useState(() => isGateOpen());
+  const allowed = useGateAllowed();
   if (!allowed) return <Redirect href="/parent-gate" />;
   return <NewChild />;
 }

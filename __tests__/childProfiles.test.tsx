@@ -16,6 +16,7 @@ import {
   getActiveProfile,
   profilesStore,
   resetProfileChoice,
+  setActiveProfile,
   setCourseLevel,
   type ProfileType,
 } from '@/features/profiles';
@@ -105,11 +106,20 @@ describe('child profiles', () => {
     expect(profilesStore.getState().profiles).toHaveLength(1);
   });
 
-  it('cannot be reached without the parental gate', async () => {
-    seed('Furkan', 'adult', 'A1');
+  it('cannot be reached without the parental gate while a child plays', async () => {
+    const child = seed('Deniz', 'kid', 'L1');
+    profilesStore.update((s) => setActiveProfile(s, child));
     closeGate();
     await renderRouter(ROUTES, { initialUrl: '/child-new' });
     expect(screen.getByText('Ebeveyn kontrolü')).toBeTruthy();
+  });
+
+  it("opens without the gate on a grown-up's own profile", async () => {
+    seed('Furkan', 'adult', 'A1');
+    closeGate();
+    await renderRouter(ROUTES, { initialUrl: '/child-new' });
+    expect(screen.queryByText('Ebeveyn kontrolü')).toBeNull();
+    expect(screen.getByLabelText(/^7–12 yaş/)).toBeTruthy();
   });
 
   it('stops offering new profiles at the family limit', async () => {

@@ -8,7 +8,7 @@ import { PrimaryButton } from '@/components/PrimaryButton';
 import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
-import { closeGate, isGateOpen } from '@/features/parental-gate';
+import { closeGate } from '@/features/parental-gate';
 import { DIFFICULTIES, setDifficulty, type Difficulty } from '@/features/path';
 import {
   canAddProfile,
@@ -22,14 +22,15 @@ import {
 } from '@/features/profiles';
 import { manageSubscription } from '@/lib/purchases';
 import { useAccess } from '@/lib/useAccess';
+import { useGateAllowed } from '@/lib/useGateAllowed';
 import { loadPath, savePath } from '@/storage/path';
 import { loadSettings, saveSettings, type Settings } from '@/storage/settings';
 import { space, stroke, useTheme } from '@/theme';
 
-/** Grown-ups' settings. Only reachable through the parental gate. */
+/** Grown-ups' settings. Behind the parental gate while a child plays. */
 export default function SettingsScreen() {
-  // Checked once when the screen opens: a direct link without the gate is sent there.
-  const [allowed] = useState(() => isGateOpen());
+  // A direct link without the gate is sent there (not on a grown-up's profile).
+  const allowed = useGateAllowed();
   if (!allowed) return <Redirect href="/parent-gate" />;
   return <SettingsBody />;
 }

@@ -10,9 +10,10 @@ import { PrimaryButton } from '@/components/PrimaryButton';
 import { Screen } from '@/components/Screen';
 import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
-import { closeGate, isGateOpen } from '@/features/parental-gate';
+import { closeGate } from '@/features/parental-gate';
 import { canPlay, yearlySavingPercent, type Plan } from '@/features/subscription';
 import { privacyUrl, TERMS_URL } from '@/lib/links';
+import { useGateAllowed } from '@/lib/useGateAllowed';
 import {
   buyPlan,
   currentAccess,
@@ -29,7 +30,8 @@ import { space, touchTarget } from '@/theme';
  * (kids-ux): a direct visit without the gate is sent there first.
  */
 export default function PaywallScreen() {
-  const [allowed] = useState(() => isGateOpen());
+  // Not on a grown-up's own profile: there the parent is the one playing.
+  const allowed = useGateAllowed();
   if (!allowed)
     return <Redirect href={{ pathname: '/parent-gate', params: { next: 'paywall' } }} />;
   return <PaywallBody />;

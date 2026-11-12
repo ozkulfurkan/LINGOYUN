@@ -85,7 +85,7 @@ describe('family plans', () => {
 
   afterEach(() => profilesStore.getState().profiles.forEach((p) => deleteProfile(p.id)));
 
-  it('locks the map until a grown-up starts the free trial behind the gate', async () => {
+  it("locks the map until a grown-up starts the free trial; a grown-up's profile has no gate", async () => {
     seedProfile('adult', 'A1');
     store.getProducts.mockResolvedValue([{ identifier: PRODUCT_IDS.trial }] as never);
     store.purchaseStoreProduct.mockImplementation(async () => storeAnswers(trialStarted));
@@ -95,7 +95,7 @@ describe('family plans', () => {
     expect(screen.queryByLabelText(/^1\. Selamlaşma/)).toBeNull();
 
     await press('Paketleri gör');
-    await passGate();
+    expect(screen.queryByTestId('gate-question')).toBeNull();
     expect(await screen.findByText('Bütün aile için LINGOYUN')).toBeTruthy();
     expect(await screen.findByLabelText('Yıllık. ₺840,00 / yıl · %30 tasarruf')).toBeTruthy();
     expect(screen.getByLabelText('Aylık. ₺100,00 / ay')).toBeTruthy();
@@ -133,7 +133,6 @@ describe('family plans', () => {
     startTestTrial(Date.now() - 8 * DAY);
     store.purchasePackage.mockRejectedValue({ code: '1', userCancelled: true });
     await renderRouter(ROUTES, { initialUrl: '/paywall' });
-    await passGate();
 
     await screen.findByLabelText('Yıllık. ₺840,00 / yıl · %30 tasarruf');
     await press('Abone ol');
@@ -151,7 +150,6 @@ describe('family plans', () => {
     seedProfile('adult', 'A1');
     store.getOfferings.mockRejectedValue(new Error('offline'));
     await renderRouter(ROUTES, { initialUrl: '/paywall' });
-    await passGate();
     expect(await screen.findByText(/Paketler yüklenemedi/)).toBeTruthy();
     await press('Şimdi değil');
     expect(await screen.findByText('7 gün ücretsiz dene')).toBeTruthy();

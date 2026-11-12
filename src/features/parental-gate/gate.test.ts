@@ -9,6 +9,7 @@ import {
   isGateAnswer,
   isGateOpen,
   markGatePassed,
+  needsParentGate,
   MAX_FACTOR,
   MIN_FACTOR,
 } from './gate';
@@ -58,5 +59,14 @@ describe('parental gate', () => {
     expect(isGateOpen(500)).toBe(false); // clock moved back
     closeGate();
     expect(isGateOpen(1001)).toBe(false);
+  });
+});
+
+describe('needsParentGate', () => {
+  it('asks while a child plays, not on a grown-up profile', () => {
+    expect(needsParentGate('mini')).toBe(true);
+    expect(needsParentGate('kid')).toBe(true);
+    expect(needsParentGate('adult')).toBe(false);
+    expect(needsParentGate(null)).toBe(true);
   });
 });

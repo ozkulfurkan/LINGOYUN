@@ -125,6 +125,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     8. Uçak modunda uygulamayı aç: abone/deneme durumu korunur, kilit düşmez.
     9. 7–12 yaş profilinde kilit ekranı: "Ebeveyn: paketleri gör" → çarpma sorusu çıkmadan paket görünmemeli.
 - [x] **LNG-26** CİHAZ — Ebeveyn kapısı (satın alma + ayarlar önünde). Önkoşul: LNG-1.
+  - Furkan'ın kararı (2026-11-13): kapı yalnızca çocuk profili (2–7, 7–12) oynarken. Yetişkin profilinde ayarlar, "Çocuğum için profil oluştur" ve paketler doğrudan açılır (`needsParentGate`, `src/lib/useGateAllowed.ts`). Bilinen sınır: "Kim oynuyor?" kapısız olduğundan çocuk yetişkin profilini seçerse ayarlara girebilir.
+  - Cihazda: yetişkin profilinde ayarlar ve "Paketleri gör" sorusuz açılmalı; 7–12 ve 2–7 profillerinde çarpma sorusu çıkmalı.
   - ✅ Ana ekranda sağ üstte ayar butonu → ebeveyn kapısı: çarpma işlemi **yazıyla** sorulur ("yedi çarpı sekiz", çarpanlar 3–9, her seferinde rastgele), cevap ekrandaki rakam tuşlarıyla girilir; yanlışta yeni soru. Geçince 1 dakika açık kalır (yalnızca bellekte), Ayarlar adresine doğrudan gidilirse kapıya yönlendirilir. Mantık `src/features/parental-gate/`.
   - ✅ Yeni **Ayarlar** ekranı (kapının arkasında): ses efektleri ve titreşim anahtarları; profiller arasında geçiş ve iki adımlı onaylı profil silme (ilerlemesiyle birlikte).
   - Kararlar (gece çalışması): satın alma ekranı (LNG-25) henüz yok; o geldiğinde aynı kapı kullanılacak (`/parent-gate`, geçince `isGateOpen()`). Profil ekleme ayarlara konmadı (onboarding'den).

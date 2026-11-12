@@ -25,7 +25,7 @@ description: 2–7 ve 7–12 yaş için ekran ve oyun tasarım kuralları — do
 
 ## Tüm çocuk profilleri
 
-- **Ebeveyn kapısı**: satın alma, ayarlar, dış bağlantı, profil silme öncesinde. Rastgele çarpma sorusu ("7 × 8 = ?") veya sayıları yazıyla gösterip rakamla girdirme; sabit cevap kullanma.
+- **Ebeveyn kapısı**: satın alma, ayarlar, dış bağlantı, profil silme öncesinde — aktif profil çocuk (`mini`, `kid`) iken. Yetişkin profilinde kapı yok (`needsParentGate`, Furkan 2026-11-13). Rastgele çarpma sorusu ("7 × 8 = ?") veya sayıları yazıyla gösterip rakamla girdirme; sabit cevap kullanma.
 - Reklam yok, dış bağlantı yok, sosyal paylaşım yok, sohbet yok.
 - **Karanlık örüntü (dark pattern) yok**: sahte geri sayım, suçlama metni, çocuğa satın alma baskısı yok. Paywall çocuğa değil ebeveyne konuşur ve kapının arkasındadır.
 - Kişisel veri toplanmaz: profilde yalnızca takma ad + avatar + yaş grubu, cihazda kalır. Analitik/çökme raporuna çocuk adı gitmez.

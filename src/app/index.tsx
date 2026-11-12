@@ -408,7 +408,8 @@ function SettingsButton() {
     <PressScale
       accessibilityRole="button"
       accessibilityLabel={t('settings.open')}
-      onPress={() => router.push('/parent-gate')}
+      // Settings send a child through the gate; a grown-up's profile opens them directly.
+      onPress={() => router.push('/settings')}
       style={[
         styles.settings,
         { backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radii.sm },

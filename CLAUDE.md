@@ -15,7 +15,7 @@ Kullanıcıyla **Türkçe** konuş. Kod, değişken adları ve commit mesajları
 - **Temalar:** Çocuk profilleri (`mini`, `kid`) **Oyun Hamuru** temasını kullanır, görseller ön planda. Yetişkin profili (`adult`) **Sözlük** temasını kullanır: açık mod + Gece Nehri renkleriyle koyu mod (sistem ayarını izler). Tema profil tipinden seçilir; bileşenler yalnızca aktif temanın token'larını okur.
 - **Karakterler (2–7 modu):** Zeynep, Nehir, Kerem — üç çocuk karakter. Görünüşleri `docs/characters.md` içinde tanımlanır; tutarlılık zorunlu.
 - **Abonelik:** Tek aile aboneliği (tüm profiller). **7 gün ücretsiz, kartsız**; sonra aylık veya yıllık paket.
-- **Mağaza kategorisi:** Eğitim (Kids kategorisi DEĞİL). Satın alma ve ayarlar **ebeveyn kapısı** arkasında.
+- **Mağaza kategorisi:** Eğitim (Kids kategorisi DEĞİL). Satın alma ve ayarlar, çocuk profili (`mini`, `kid`) oynarken **ebeveyn kapısı** arkasında; yetişkin profilinde kapı yok (Furkan, 2026-11-13).
 - **Seviye tespiti (kid + adult):** Profil oluşturulunca kendi beyanı (4 seçenek) → 20 soruluk uyarlamalı test (5 blok × 4 soru). Algoritma `src/features/placement/` içinde saf fonksiyon.
   - Blokta 3–4 doğru → bir üst seviye · 2 doğru → aynı · 0–1 doğru → bir alt.
   - Sonuç: 3/4 ile geçilen en yüksek seviye; hiç geçilmediyse en düşük seviye.

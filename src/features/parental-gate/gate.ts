@@ -1,3 +1,4 @@
+import type { ProfileType } from '@/features/profiles/types';
 import type { Rng } from '@/features/quiz/rng';
 
 /**
@@ -54,4 +55,13 @@ export function isGateOpen(now: number = Date.now()): boolean {
 
 export function closeGate(): void {
   openedAt = null;
+}
+
+/**
+ * Settings, new profiles and purchases sit behind the gate only while a child
+ * plays (2–7 or 7–12). A grown-up's own profile opens them directly (Furkan,
+ * 2026-11-13). No profile yet: ask, to be safe.
+ */
+export function needsParentGate(profileType: ProfileType | null): boolean {
+  return profileType !== 'adult';
 }
