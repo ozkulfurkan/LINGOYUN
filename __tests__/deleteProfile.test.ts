@@ -3,9 +3,10 @@ import { completeSession, EMPTY_PROGRESS } from '@/features/progress';
 import { recordAnswer } from '@/features/srs';
 import { loadProgress, saveProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
+import { loadAlbum, saveAlbum } from '@/storage/stickers';
 
 describe('deleteProfile', () => {
-  it('removes the profile, its review decks and its progress', () => {
+  it('removes the profile, its review decks, its progress and its sticker album', () => {
     const result = profilesStore.update((s, d) =>
       addProfile(s, { nickname: 'Kerem', type: 'kid', courseId: 'tr-en' }, d),
     );
@@ -17,10 +18,13 @@ describe('deleteProfile', () => {
       completeSession(EMPTY_PROGRESS, { grades: ['good'], today: 1, wordsLearned: 0 }).progress,
     );
 
+    saveAlbum(id, { owned: { 'animal.cat': 1 } });
+
     deleteProfile(id);
 
     expect(profilesStore.getState().profiles.some((p) => p.id === id)).toBe(false);
     expect(loadDeck(id, 'tr-en')).toEqual({});
     expect(loadProgress(id)).toEqual(EMPTY_PROGRESS);
+    expect(loadAlbum(id)).toEqual({ owned: {} });
   });
 });

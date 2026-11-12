@@ -391,6 +391,14 @@
     "again": "Bir daha oyna",
     "home": "Ana ekran",
     "replay": "Tekrar dinle",
-    "progress": "{{current}} / {{total}}"
+    "progress": "{{current}} / {{total}}",
+    "newStickers_one": "Yeni çıkartma!",
+    "newStickers_other": "{{count}} yeni çıkartma!",
+    "album": "Çıkartma albümü",
+    "albumHello": "Çıkartmalarına bakalım!",
+    "emptySlot": "Boş yer",
+    "pageFull": "Sayfa doldu! Aferin!",
+    "pageLabel": "{{world}} sayfası, {{count}} çıkartma",
+    "back": "Geri"
   }
 }

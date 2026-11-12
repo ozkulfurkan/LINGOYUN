@@ -6,6 +6,7 @@ import { StyleSheet, useWindowDimensions, View } from 'react-native';
 import { CHARACTERS } from '@/components/art/characters';
 import { WordPicture } from '@/components/art/words/WordPicture';
 import { RiverHero, SettingsIcon } from '@/components/illustrations';
+import { AlbumIcon } from '@/components/mini/MiniParts';
 import { PressScale } from '@/components/PressScale';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { RiverMap } from '@/components/RiverMap';
@@ -112,6 +113,7 @@ function MiniHome({ profile }: { profile: Profile }) {
   return (
     <Screen>
       <View style={styles.header}>
+        <AlbumButton />
         <View style={styles.grow}>
           <NehirHello />
         </View>
@@ -134,6 +136,25 @@ function MiniHome({ profile }: { profile: Profile }) {
         ))}
       </View>
     </Screen>
+  );
+}
+
+/** Opens the sticker album (LNG-34); no gate: it only shows what the child earned. */
+function AlbumButton() {
+  const { t } = useTranslation();
+  const { colors, radii } = useTheme();
+  return (
+    <PressScale
+      accessibilityRole="button"
+      accessibilityLabel={t('mini.album')}
+      onPress={() => router.push('/album')}
+      style={[
+        styles.album,
+        { backgroundColor: colors.surface, borderColor: colors.border, borderRadius: radii.md },
+      ]}
+    >
+      <AlbumIcon size={touchTarget.mini * 0.7} />
+    </PressScale>
   );
 }
 
@@ -445,6 +466,13 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'center',
     gap: space.lg,
+  },
+  album: {
+    width: touchTarget.mini,
+    height: touchTarget.mini,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: stroke.thin,
   },
   world: {
     minWidth: touchTarget.mini,

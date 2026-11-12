@@ -250,7 +250,22 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     8. Deneme başlatılmamış yeni bir profille bir oturum bitir → tur sonunda "Ebeveyn: paketleri gör"; ana ekrana dönünce kilit ekranı. Butona basınca önce ebeveyn kapısı sorulmalı.
     9. VoiceOver/TalkBack açıkken resim kartları Türkçe adıyla, kapalı kartlar "Kapalı kart 1…6" diye okunmalı.
     10. Küçük ekranlı telefonda (iPhone SE) 2×2 resim ızgarası ve "Devam" butonu kaydırmadan sığıyor mu?
-- [ ] **LNG-34** CİHAZ — Çıkartma albümü (ödül). Önkoşul: LNG-33.
+- [~] **LNG-34** CİHAZ — Çıkartma albümü (ödül). Önkoşul: LNG-33.
+  - Not: LNG-33 cihazda onaylanmadan Furkan'ın isteğiyle başlandı (2026-11-12); `lng-33-mini-games` dalının üzerine `lng-34-sticker-album`.
+  - ✅ Her kelime resmi bir çıkartma: 6 dünya = 6 sayfa × 50 yer. Biten her oturum **2 çıkartma**, hiç yanlışsız oturum **3** verir; önce o turda oynanan kelimeler, sonra aynı dünyanın eksikleri. Aynı çıkartma iki kez gelmez, hiçbir şey geri alınmaz. Mantık `src/features/games/mini/stickers.ts`, kayıt `stickers.v1.<profil>` (profil silinince silinir).
+  - ✅ Tur sonu: yeni çıkartmalar zıplayarak görünür, "3 yeni çıkartma!" ve İngilizce kelimeleri seslendirilir.
+  - ✅ Albüm ekranı (`/album`): ana ekranın sol üstündeki albüm düğmesi (ebeveyn kapısı yok; yalnızca kazanılanı gösterir). Üstte 6 dünya sekmesi (kapak resmi), altta 4'lü ızgara: kazanılan çıkartma yuvarlak, beyaz kenarlı, hafif eğik; boş yer kesikli daire. Çıkartmaya dokununca İngilizce kelime söylenir. Sayfa dolunca Nehir sevinir: "Sayfa doldu! Aferin!".
+  - Kararlar (Furkan'a sorulmadan, değiştirilebilir): oturum başına 2 (+1) çıkartma → bir dünya yaklaşık 17–25 oturumda dolar; boş yerler gösteriliyor (koleksiyon hissi); çıkartmalar sürükleyip serbest yapıştırılmıyor, yerleri sabit.
+  - Derleme: yeni yerel paket yok.
+  - Cihazda nasıl test edilir:
+    1. 2–7 yaş profiliyle bir oturum bitir → tur sonunda 2 ya da 3 çıkartma zıplayarak çıkmalı, "… yeni çıkartma!" ve kelimeler duyulmalı.
+    2. Ana ekranda sol üstteki albüm düğmesine dokun → "Çıkartmalarına bakalım!" duyulmalı, oynadığın dünyanın sayfası açılmalı; kazandıkların yerinde, gerisi kesikli daire.
+    3. Bir çıkartmaya dokun → İngilizce kelimesi söylenmeli.
+    4. Üstteki dünya sekmelerine dokun → sayfa değişmeli, dünyanın adı söylenmeli; seçili sekme sarı ve kalın kenarlı.
+    5. Aynı dünyayı tekrar oyna → yeni çıkartmalar öncekilerle aynı olmamalı.
+    6. Uygulamayı kapatıp aç → çıkartmalar duruyor mu? Profili sil → yeni profilde albüm boş olmalı.
+    7. Çocuk gözüyle: çıkartmalar yeterince büyük ve "kazanılmış" hissi veriyor mu? 50 yerli sayfa kaydırması sorun mu?
+    8. Koyu ve açık sistem modunda çıkartmaların beyaz kenarı ve boş yerler görünüyor mu?
 
 ## Faz 7 — Yayın
 

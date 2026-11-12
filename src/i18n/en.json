@@ -391,6 +391,14 @@
     "again": "Play again",
     "home": "Home",
     "replay": "Listen again",
-    "progress": "{{current}} / {{total}}"
+    "progress": "{{current}} / {{total}}",
+    "newStickers_one": "A new sticker!",
+    "newStickers_other": "{{count}} new stickers!",
+    "album": "Sticker album",
+    "albumHello": "Let's look at your stickers!",
+    "emptySlot": "Empty spot",
+    "pageFull": "The page is full! Well done!",
+    "pageLabel": "{{world}} page, {{count}} stickers",
+    "back": "Back"
   }
 }

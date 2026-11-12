@@ -4,6 +4,7 @@ import { act, fireEvent, screen } from '@testing-library/react-native';
 import * as Speech from 'expo-speech';
 import { renderRouter } from 'expo-router/testing-library';
 
+import AlbumScreen from '@/app/album';
 import HomeScreen from '@/app/index';
 import MiniGameScreen from '@/app/play/mini';
 import { content } from '@/content/bundle';
@@ -11,6 +12,7 @@ import { addProfile, deleteProfile, profilesStore } from '@/features/profiles';
 import i18n from '@/i18n';
 import { loadProgress } from '@/storage/progress';
 import { loadDeck } from '@/storage/srs';
+import { loadAlbum, saveAlbum } from '@/storage/stickers';
 import { clearTestAccess, startTestTrial } from '../test-support/access';
 
 jest.mock('expo-speech', () => ({
@@ -21,6 +23,7 @@ jest.mock('expo-speech', () => ({
 const ROUTES = {
   index: HomeScreen,
   'play/mini': MiniGameScreen,
+  album: AlbumScreen,
   paywall: () => null,
   'parent-gate': () => null,
 };
@@ -195,5 +198,46 @@ describe('ages 2–7: picture worlds (LNG-33)', () => {
         i18n.t('mini.worldLabel', { world: i18n.t('mini.worlds.home') }),
       ),
     ).toBeTruthy();
+  });
+
+  it('a finished session sticks new stickers in the album and shows them', async () => {
+    startTestTrial();
+    const id = seedMini();
+    await renderRouter(ROUTES, { initialUrl: '/play/mini?world=food' });
+    for (let i = 0; i < 8; i++) await playActivity();
+    const owned = Object.keys(loadAlbum(id).owned);
+    // Every activity was answered right the first time: two stickers plus one.
+    expect(owned).toHaveLength(3);
+    expect(screen.getByText('3 yeni çıkartma!')).toBeTruthy();
+    const tr = content.languages.tr.words;
+    for (const concept of owned) expect(screen.getByLabelText(tr[concept].text)).toBeTruthy();
+    expect(spoken()).toContain('3 yeni çıkartma!');
+  });
+
+  it('the album opens from home on the first page with stickers; a sticker says its word', async () => {
+    startTestTrial();
+    const id = seedMini();
+    saveAlbum(id, { owned: { 'animal.cat': 1, 'animal.dog': 1 } });
+    await renderRouter(ROUTES, { initialUrl: '/' });
+    await press(i18n.t('mini.album'));
+    expect(spoken()).toContain(i18n.t('mini.albumHello'));
+    const tr = content.languages.tr.words;
+    expect(screen.getByLabelText(tr['animal.cat'].text)).toBeTruthy();
+    expect(screen.getAllByLabelText(i18n.t('mini.emptySlot'))).toHaveLength(48);
+    await press(tr['animal.dog'].text);
+    expect(lastSpoken()).toBe(content.languages.en.words['animal.dog'].text);
+
+    await press(i18n.t('mini.pageLabel', { world: i18n.t('mini.worlds.food'), count: 0 }));
+    expect(screen.getAllByLabelText(i18n.t('mini.emptySlot'))).toHaveLength(50);
+  });
+
+  it('a full page cheers', async () => {
+    startTestTrial();
+    const id = seedMini();
+    const unit = content.courses[0].units.find((u) => u.id === 'mini.nature')!;
+    saveAlbum(id, { owned: Object.fromEntries(unit.concepts.map((c) => [c, 1])) });
+    await renderRouter(ROUTES, { initialUrl: '/album?world=nature' });
+    expect(screen.getByText(i18n.t('mini.pageFull'))).toBeTruthy();
+    expect(screen.queryByLabelText(i18n.t('mini.emptySlot'))).toBeNull();
   });
 });

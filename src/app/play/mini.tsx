@@ -8,7 +8,13 @@ import { BlockProgress } from '@/components/BlockProgress';
 import { Confetti } from '@/components/Confetti';
 import { DraggableBlock, measureView, type Measurable } from '@/components/DraggableBlock';
 import { GemCount } from '@/components/GameChrome';
-import { Basket, HoldToExit, MemoryCardView, PictureCard } from '@/components/mini/MiniParts';
+import {
+  Basket,
+  HoldToExit,
+  MemoryCardView,
+  PictureCard,
+  Sticker,
+} from '@/components/mini/MiniParts';
 import { Bounce, Shake } from '@/components/Motion';
 import { PrimaryButton } from '@/components/PrimaryButton';
 import { Screen } from '@/components/Screen';
@@ -32,6 +38,8 @@ import {
   type ChoiceState,
   type MemoryState,
   type MiniActivity,
+  awardStickers,
+  sessionWords,
 } from '@/features/games/mini';
 import { findCourse, isLanguageCode, type CourseId, type LanguageCode } from '@/features/languages';
 import { useActiveProfile } from '@/features/profiles';
@@ -44,6 +52,7 @@ import { speakSequence, stopSpeaking } from '@/lib/speech';
 import { useAccess } from '@/lib/useAccess';
 import { loadProgress, saveProgress } from '@/storage/progress';
 import { loadDeck, saveDeck } from '@/storage/srs';
+import { loadAlbum, saveAlbum } from '@/storage/stickers';
 import { space, useTheme } from '@/theme';
 
 /** How long a non-matching memory pair stays face up before turning back. */
@@ -99,6 +108,7 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
   const [grades, setGrades] = useState<Grade[]>([]);
   const [gems, setGems] = useState(() => loadProgress(profileId).gems);
   const [reward, setReward] = useState<SessionReward | null>(null);
+  const [stickers, setStickers] = useState<string[]>([]);
   const [misses, setMisses] = useState(0);
   const access = useAccess();
 
@@ -139,6 +149,10 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
     return (
       <Summary
         reward={reward}
+        stickers={stickers}
+        sayWords={(ids) => ids.map((id) => ({ text: word(id), language: course.targetLang }))}
+        label={label}
+        image={image}
         needsAccess={!miniCanStart(access, sessions)}
         onPlayAgain={onPlayAgain}
         uiLang={uiLang}
@@ -205,6 +219,17 @@ function Session({ profileId, courseId, worldId, onPlayAgain }: SessionProps) {
       wordsLearned: learnedCount(deck),
     });
     saveProgress(profileId, result.progress);
+    // New stickers for the album (LNG-34): the words just played come first.
+    const award = awardStickers({
+      album: loadAlbum(profileId),
+      world: findWorld(content, courseId, worldId)!,
+      sessionWords: sessionWords(activities),
+      perfect: result.reward.perfect,
+      today,
+      rng: seededRng(Date.now()),
+    });
+    saveAlbum(profileId, award.album);
+    setStickers(award.added);
     setReward(result.reward);
   };
 
@@ -399,20 +424,43 @@ function Memory({ memory, label, image, onFlip }: MemoryProps) {
 
 type SummaryProps = {
   reward: SessionReward;
+  /** Stickers just earned (concept ids). */
+  stickers: string[];
+  sayWords: (ids: string[]) => { text: string; language: LanguageCode }[];
+  label: (id: string) => string;
+  image: (id: string) => string | undefined;
   needsAccess: boolean;
   uiLang: LanguageCode;
   onPlayAgain: () => void;
 };
 
 /** All three characters cheer; "see you tomorrow" without pushing (kids-ux). */
-function Summary({ reward, needsAccess, uiLang, onPlayAgain }: SummaryProps) {
+function Summary({
+  reward,
+  stickers,
+  sayWords,
+  label,
+  image,
+  needsAccess,
+  uiLang,
+  onPlayAgain,
+}: SummaryProps) {
   const { t } = useTranslation();
   const { colors } = useTheme();
+  const { width } = useWindowDimensions();
+  const [said] = useState(() => [
+    { text: t('mini.done'), language: uiLang },
+    ...(stickers.length > 0
+      ? [{ text: t('mini.newStickers', { count: stickers.length }), language: uiLang }]
+      : []),
+    ...sayWords(stickers),
+  ]);
   useEffect(() => {
     playFeedback('complete');
-    speakSequence([{ text: t('mini.done'), language: uiLang }]);
+    speakSequence(said);
     return stopSpeaking;
-  }, [t, uiLang]);
+  }, [said]);
+  const size = Math.min((width - space.xl * 2 - space.md * 2) / 3, 120);
   return (
     <>
       <Screen
@@ -437,6 +485,20 @@ function Summary({ reward, needsAccess, uiLang, onPlayAgain }: SummaryProps) {
         <ThemedText variant="title" accessibilityRole="header" style={styles.center}>
           {t('mini.done')}
         </ThemedText>
+        {stickers.length > 0 ? (
+          <View style={styles.stickers}>
+            <ThemedText color="textMuted" style={styles.center}>
+              {t('mini.newStickers', { count: stickers.length })}
+            </ThemedText>
+            <View style={styles.row}>
+              {stickers.map((id, i) => (
+                <Bounce key={id} trigger={i + 1}>
+                  <Sticker image={image(id)} label={label(id)} size={size} />
+                </Bounce>
+              ))}
+            </View>
+          </View>
+        ) : null}
         <View style={[styles.gems, { borderColor: colors.border }]}>
           <GemCount gems={reward.gems} />
         </View>
@@ -488,6 +550,9 @@ const styles = StyleSheet.create({
   },
   center: {
     textAlign: 'center',
+  },
+  stickers: {
+    gap: space.sm,
   },
   gems: {
     alignItems: 'center',

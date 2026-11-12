@@ -172,6 +172,100 @@ export function MemoryCardView({ image, faceUp, matched, label, size, onPress }:
   );
 }
 
+/** Stickers sit a little crooked, like real ones; the tilt comes from the word so it stays put. */
+const STICKER_TILTS = ['-6deg', '4deg', '-2deg', '7deg', '-4deg'] as const;
+
+function tiltOf(id: string): string {
+  let sum = 0;
+  for (const ch of id) sum += ch.charCodeAt(0);
+  return STICKER_TILTS[sum % STICKER_TILTS.length];
+}
+
+/** A round die-cut sticker: the word picture inside a thick white edge. */
+export function Sticker({
+  image,
+  label,
+  size,
+  onPress,
+}: {
+  image: string | undefined;
+  label: string;
+  size: number;
+  onPress?: () => void;
+}) {
+  const { colors, elevation } = useTheme();
+  const face = (
+    <View
+      style={[
+        styles.sticker,
+        {
+          width: size,
+          height: size,
+          borderRadius: size / 2,
+          borderWidth: size * 0.06,
+          borderColor: colors.surface,
+          backgroundColor: colors.backgroundAlt,
+          boxShadow: elevation.surface ?? undefined,
+          transform: [{ rotate: tiltOf(image ?? label) }],
+        },
+      ]}
+    >
+      <WordPicture image={image} size={size * 0.78} />
+    </View>
+  );
+  if (!onPress) {
+    return (
+      <View accessible accessibilityRole="image" accessibilityLabel={label}>
+        {face}
+      </View>
+    );
+  }
+  return (
+    <PressScale accessibilityRole="button" accessibilityLabel={label} onPress={onPress}>
+      {face}
+    </PressScale>
+  );
+}
+
+/** A sticker's place not filled yet: a dashed round outline. */
+export function StickerSlot({ size, label }: { size: number; label: string }) {
+  const { colors } = useTheme();
+  return (
+    <View
+      accessible
+      accessibilityLabel={label}
+      style={[
+        styles.sticker,
+        {
+          width: size,
+          height: size,
+          borderRadius: size / 2,
+          borderWidth: stroke.thick,
+          borderStyle: 'dashed',
+          borderColor: colors.border,
+        },
+      ]}
+    />
+  );
+}
+
+/** An open album with a star on it: the way to the sticker album from home. */
+export function AlbumIcon({ size }: { size: number }) {
+  const { colors } = useTheme();
+  return (
+    <Svg width={size} height={size} viewBox="0 0 48 48" accessible={false}>
+      <Path d="M6 12 C14 8 20 9 24 13 L24 40 C20 36 14 35 6 39 Z" fill={colors.reward} />
+      <Path d="M42 12 C34 8 28 9 24 13 L24 40 C28 36 34 35 42 39 Z" fill={colors.info} />
+      <Path d="M24 13 L24 40" stroke={colors.text} strokeWidth={2} strokeLinecap="round" />
+      <Path
+        d="M15 17 L16.8 21 L21 21.4 L17.8 24.2 L18.8 28.4 L15 26.2 L11.2 28.4 L12.2 24.2 L9 21.4 L13.2 21 Z"
+        fill={colors.surface}
+      />
+      <Ellipse cx={33} cy={23} rx={5} ry={5} fill={colors.surface} />
+    </Svg>
+  );
+}
+
 /** Leaves the game only when held: one tap does nothing (kids-ux: no accidental exits). */
 export function HoldToExit({ onExit }: { onExit: () => void }) {
   const { t } = useTranslation();
@@ -199,6 +293,11 @@ const styles = StyleSheet.create({
     minHeight: touchTarget.mini,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  sticker: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
   },
   inBasket: {
     position: 'absolute',

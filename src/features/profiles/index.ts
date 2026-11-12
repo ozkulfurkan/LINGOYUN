@@ -2,6 +2,7 @@ import { loadProfiles, saveProfiles } from '@/storage/profiles';
 import { removePaths } from '@/storage/path';
 import { removeProgress } from '@/storage/progress';
 import { removeDecks } from '@/storage/srs';
+import { removeAlbum } from '@/storage/stickers';
 
 import { getActiveProfile, removeProfile } from './profiles';
 import { createProfilesStore, useProfilesState } from './store';
@@ -29,4 +30,5 @@ export function deleteProfile(id: string): void {
   removeDecks(id);
   removeProgress(id);
   removePaths(id);
+  removeAlbum(id);
 }
