@@ -100,7 +100,7 @@ describe('onboarding', () => {
 
     expect(activeProfile()).toMatchObject({ nickname: 'Deniz', type: 'mini', courseId: 'tr-en' });
     expect(levelOf()).toBeNull();
-    expect(screen.getByText('Merhaba Deniz')).toBeTruthy();
+    expect(screen.getByText(/^Merhaba Deniz/)).toBeTruthy();
   });
 
   it.each([
@@ -132,7 +132,7 @@ describe('onboarding', () => {
   it('opens home directly once setup is done', async () => {
     seedProfile('mini');
     await renderRouter(ROUTES);
-    expect(screen.getByText('Merhaba Deniz')).toBeTruthy();
+    expect(screen.getByText(/^Merhaba Deniz/)).toBeTruthy();
   });
 
   it('uses the interface language', async () => {

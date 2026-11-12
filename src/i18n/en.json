@@ -365,5 +365,32 @@
     "manage": "Manage subscription",
     "ending_one": "Your free trial ends in {{count}} day",
     "ending_other": "Your free trial ends in {{count}} days"
+  },
+  "mini": {
+    "worlds": {
+      "animals": "Animals",
+      "food": "Food",
+      "colors": "Colours and shapes",
+      "body": "My body",
+      "home": "My home",
+      "nature": "Nature"
+    },
+    "homeHello": "Hello {{nickname}}! Which world shall we visit?",
+    "worldLabel": "{{world}} world",
+    "listen": "Which one?",
+    "basket": "Put it in the basket:",
+    "memory": "Find the pairs!",
+    "right": "Well done!",
+    "tryAgain": "Try again!",
+    "next": "Next",
+    "exit": "Leave the game",
+    "exitHint": "Hold to leave",
+    "basketLabel": "Basket",
+    "cardBack": "Hidden card {{n}}",
+    "done": "Great! See you tomorrow.",
+    "again": "Play again",
+    "home": "Home",
+    "replay": "Listen again",
+    "progress": "{{current}} / {{total}}"
   }
 }

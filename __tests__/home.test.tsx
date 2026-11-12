@@ -1,10 +1,16 @@
 import '@/i18n';
 
-import { render, screen } from '@testing-library/react-native';
+import { screen } from '@testing-library/react-native';
+import { renderRouter } from 'expo-router/testing-library';
 
 import HomeScreen from '@/app/index';
 import { addProfile, deleteProfile, profilesStore } from '@/features/profiles';
 import i18n from '@/i18n';
+
+jest.mock('expo-speech', () => ({
+  speak: jest.fn(),
+  stop: jest.fn(() => Promise.resolve()),
+}));
 
 describe('HomeScreen', () => {
   beforeEach(() => {
@@ -18,20 +24,15 @@ describe('HomeScreen', () => {
     profilesStore.getState().profiles.forEach((p) => deleteProfile(p.id));
   });
 
-  it('shows the app name and greets the profile', async () => {
+  it('greets a child of ages 2–7 in the active language', async () => {
     await i18n.changeLanguage('tr');
-    await render(<HomeScreen />);
-    expect(screen.getByText('LINGOYUN')).toBeTruthy();
-    expect(screen.getByText('Merhaba Deniz')).toBeTruthy();
-  });
-
-  it('shows UI text in the active language', async () => {
-    await i18n.changeLanguage('tr');
-    await render(<HomeScreen />);
-    expect(screen.getByText('Yakında')).toBeTruthy();
+    await renderRouter({ index: HomeScreen }, { initialUrl: '/' });
+    expect(screen.getByText('Merhaba Deniz! Hangi dünyaya gidelim?')).toBeTruthy();
+    screen.unmount();
 
     await i18n.changeLanguage('en');
-    await render(<HomeScreen />);
-    expect(screen.getByText('Coming soon')).toBeTruthy();
+    await renderRouter({ index: HomeScreen }, { initialUrl: '/' });
+    expect(screen.getByText('Hello Deniz! Which world shall we visit?')).toBeTruthy();
+    await i18n.changeLanguage('tr');
   });
 });

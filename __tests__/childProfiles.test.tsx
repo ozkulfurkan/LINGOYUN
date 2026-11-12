@@ -137,7 +137,7 @@ describe("who's playing", () => {
     expect(screen.getByText('Kim oynuyor?')).toBeTruthy();
     await press('Ece');
     expect(active()?.nickname).toBe('Ece');
-    expect(screen.getByText('Merhaba Ece')).toBeTruthy();
+    expect(screen.getByText(/^Merhaba Ece/)).toBeTruthy();
   });
 
   it('does not ask with a single profile', async () => {

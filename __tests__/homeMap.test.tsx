@@ -89,7 +89,7 @@ describe('learning path home', () => {
   it('keeps mini profiles off the path', async () => {
     seedProfile('mini', 'L1');
     await renderRouter(ROUTES, { initialUrl: '/play/step?theme=0&step=0' });
-    expect(screen.getByText('Yakında')).toBeTruthy();
+    expect(screen.getByText(/Hangi dünyaya gidelim\?/)).toBeTruthy();
   });
 
   it('does not open a step not reached yet', async () => {

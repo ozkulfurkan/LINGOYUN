@@ -365,5 +365,32 @@
     "manage": "Aboneliği yönet",
     "ending_one": "Ücretsiz denemenin bitmesine {{count}} gün kaldı",
     "ending_other": "Ücretsiz denemenin bitmesine {{count}} gün kaldı"
+  },
+  "mini": {
+    "worlds": {
+      "animals": "Hayvanlar",
+      "food": "Yiyecekler",
+      "colors": "Renkler ve şekiller",
+      "body": "Vücudum",
+      "home": "Evim",
+      "nature": "Doğa"
+    },
+    "homeHello": "Merhaba {{nickname}}! Hangi dünyaya gidelim?",
+    "worldLabel": "{{world}} dünyası",
+    "listen": "Hangisi?",
+    "basket": "Sepete koy:",
+    "memory": "Eşlerini bul!",
+    "right": "Aferin!",
+    "tryAgain": "Hadi bir daha!",
+    "next": "Devam",
+    "exit": "Oyundan çık",
+    "exitHint": "Çıkmak için basılı tut",
+    "basketLabel": "Sepet",
+    "cardBack": "Kapalı kart {{n}}",
+    "done": "Harika! Yarın görüşürüz.",
+    "again": "Bir daha oyna",
+    "home": "Ana ekran",
+    "replay": "Tekrar dinle",
+    "progress": "{{current}} / {{total}}"
   }
 }

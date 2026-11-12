@@ -1,8 +1,10 @@
 import { Redirect, router, useFocusEffect } from 'expo-router';
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, useWindowDimensions, View } from 'react-native';
 
+import { CHARACTERS } from '@/components/art/characters';
+import { WordPicture } from '@/components/art/words/WordPicture';
 import { RiverHero, SettingsIcon } from '@/components/illustrations';
 import { PressScale } from '@/components/PressScale';
 import { PrimaryButton } from '@/components/PrimaryButton';
@@ -12,7 +14,9 @@ import { SecondaryButton } from '@/components/SecondaryButton';
 import { ThemedText } from '@/components/ThemedText';
 import { pathOf } from '@/content';
 import { content } from '@/content/bundle';
+import { miniCanStart, miniWorlds } from '@/features/games/mini';
 import { dailyReviewConcepts } from '@/features/games/multiple-choice/round';
+import { findCourse, isLanguageCode } from '@/features/languages';
 import { themeNodes } from '@/features/map';
 import { onboardingStep } from '@/features/onboarding/flow';
 import {
@@ -24,6 +28,7 @@ import {
 import { visibleStreak } from '@/features/progress';
 import { localDay } from '@/features/srs';
 import { canPlay } from '@/features/subscription';
+import { speakSequence, stopSpeaking } from '@/lib/speech';
 import { themeName } from '@/lib/themeName';
 import { useAccess } from '@/lib/useAccess';
 import { loadPath } from '@/storage/path';
@@ -32,7 +37,7 @@ import { loadDeck } from '@/storage/srs';
 import { space, stroke, touchTarget, useTheme } from '@/theme';
 
 // Sends unfinished setups to onboarding. Leveled profiles get the river map;
-// mini profiles get their picture games later (LNG-33).
+// mini profiles (ages 2–7) get their picture worlds (LNG-33).
 export default function HomeScreen() {
   const state = useProfiles();
   const step = onboardingStep(state);
@@ -44,11 +49,13 @@ export default function HomeScreen() {
   if (!profile) return null;
 
   const level = profile.courses[profile.courseId]?.level;
-  if (profile.type === 'mini' || !level) return <MiniHome nickname={profile.nickname} />;
+  if (profile.type === 'mini') return <MiniHome profile={profile} />;
+  if (!level) return <ComingSoon nickname={profile.nickname} />;
   return <MapHome profile={profile} profileType={profile.type} level={level} />;
 }
 
-function MiniHome({ nickname }: { nickname: string }) {
+/** A kid or adult profile without a level yet: nothing to play. */
+function ComingSoon({ nickname }: { nickname: string }) {
   const { t } = useTranslation();
   const { colors } = useTheme();
   return (
@@ -62,6 +69,115 @@ function MiniHome({ nickname }: { nickname: string }) {
       <ThemedText>{t('home.hello', { nickname })}</ThemedText>
       <ThemedText color="textMuted">{t('home.comingSoon')}</ThemedText>
     </View>
+  );
+}
+
+/**
+ * Ages 2–7: six big world cards, no text to read. Nehir greets the child out
+ * loud; the first session is free, then a trial or subscription is needed.
+ */
+function MiniHome({ profile }: { profile: Profile }) {
+  const { t, i18n } = useTranslation();
+  const { width } = useWindowDimensions();
+  const access = useAccess();
+  const worlds = miniWorlds(content, profile.courseId);
+  const [sessions, setSessions] = useState(() => loadProgress(profile.id).stats.sessions);
+  const course = findCourse(profile.courseId);
+  const uiLang = isLanguageCode(i18n.language) ? i18n.language : course?.nativeLang;
+  const open = miniCanStart(access, sessions);
+
+  useFocusEffect(
+    useCallback(() => {
+      setSessions(loadProgress(profile.id).stats.sessions);
+      if (open && uiLang) {
+        speakSequence([
+          { text: t('mini.homeHello', { nickname: profile.nickname }), language: uiLang },
+        ]);
+      }
+      return stopSpeaking;
+    }, [profile, open, uiLang, t]),
+  );
+
+  if (!open) {
+    return (
+      <LockedHome
+        ended={access.kind === 'trialEnded'}
+        grownUp={false}
+        nickname={profile.nickname}
+      />
+    );
+  }
+
+  const size = Math.min((width - space.xl * 2 - space.lg) / 2, 220);
+  return (
+    <Screen>
+      <View style={styles.header}>
+        <View style={styles.grow}>
+          <NehirHello />
+        </View>
+        <SettingsButton />
+      </View>
+      <ThemedText variant="title" accessibilityRole="header" style={styles.center}>
+        {t('mini.homeHello', { nickname: profile.nickname })}
+      </ThemedText>
+      <View style={styles.worlds}>
+        {worlds.map((world) => (
+          <WorldCard
+            key={world.id}
+            cover={world.cover}
+            label={t('mini.worldLabel', {
+              world: t(`mini.worlds.${world.id}` as 'mini.worlds.animals'),
+            })}
+            size={size}
+            onPress={() => router.push({ pathname: '/play/mini', params: { world: world.id } })}
+          />
+        ))}
+      </View>
+    </Screen>
+  );
+}
+
+function NehirHello() {
+  const { Component } = CHARACTERS.nehir;
+  return (
+    <View style={styles.hello}>
+      <Component size={140} framing="portrait" expression="talking" />
+    </View>
+  );
+}
+
+/** A world: its first word's picture on a big clay card. */
+function WorldCard({
+  cover,
+  label,
+  size,
+  onPress,
+}: {
+  cover: string;
+  label: string;
+  size: number;
+  onPress: () => void;
+}) {
+  const { colors, radii, elevation } = useTheme();
+  return (
+    <PressScale
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      onPress={onPress}
+      style={[
+        styles.world,
+        {
+          width: size,
+          height: size,
+          backgroundColor: colors.surface,
+          borderColor: colors.border,
+          borderRadius: radii.lg,
+          boxShadow: elevation.surface ?? undefined,
+        },
+      ]}
+    >
+      <WordPicture image={cover} size={size * 0.8} />
+    </PressScale>
   );
 }
 
@@ -316,6 +432,25 @@ const styles = StyleSheet.create({
   review: {
     gap: space.sm,
     padding: space.lg,
+    borderWidth: stroke.thin,
+  },
+  center: {
+    textAlign: 'center',
+  },
+  hello: {
+    alignItems: 'center',
+  },
+  worlds: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    gap: space.lg,
+  },
+  world: {
+    minWidth: touchTarget.mini,
+    minHeight: touchTarget.mini,
+    alignItems: 'center',
+    justifyContent: 'center',
     borderWidth: stroke.thin,
   },
   cornerButton: {

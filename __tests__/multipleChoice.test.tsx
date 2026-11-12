@@ -92,7 +92,7 @@ describe('multiple choice game', () => {
   it('is offered to leveled profiles, not to mini', async () => {
     seedProfile('mini');
     await renderRouter(ROUTES, { initialUrl: '/play/multiple-choice' });
-    expect(screen.getByText('Yakında')).toBeTruthy();
+    expect(screen.getByText(/Hangi dünyaya gidelim\?/)).toBeTruthy();
   });
 
   it('praises a right answer and waits for the learner', async () => {

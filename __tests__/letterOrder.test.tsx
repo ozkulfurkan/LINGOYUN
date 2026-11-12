@@ -91,7 +91,7 @@ describe('letter order game', () => {
   it('is offered to leveled profiles, not to mini', async () => {
     seedProfile('mini');
     await renderRouter(ROUTES, { initialUrl: '/play/letter-order' });
-    expect(screen.getByText('Yakında')).toBeTruthy();
+    expect(screen.getByText(/Hangi dünyaya gidelim\?/)).toBeTruthy();
   });
 
   it('solves a word spelled in order and praises it', async () => {

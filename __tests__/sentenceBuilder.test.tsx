@@ -90,7 +90,7 @@ describe('sentence builder game', () => {
   it('is offered to leveled profiles, not to mini', async () => {
     seedProfile('mini');
     await renderRouter(ROUTES, { initialUrl: '/play/sentence-builder' });
-    expect(screen.getByText('Yakında')).toBeTruthy();
+    expect(screen.getByText(/Hangi dünyaya gidelim\?/)).toBeTruthy();
   });
 
   it('checks a kid’s sentence as soon as it is complete', async () => {

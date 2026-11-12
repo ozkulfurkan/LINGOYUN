@@ -231,7 +231,25 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - ✅ Furkan onayladı (2026-11-12): 9–11. partiler ve varsayılan küçük seçimler (biber, peynir, et, deve, ay, şapka, çanta, mayo) olduğu gibi; tekne değişmiyor.
 - [ ] **LNG-32** BULUT + FURKAN — Sesler: 300 kelime × EN + TR ve karakter yönergeleri. Furkan'ın kararı: kaliteli bir TTS servisiyle bir kez üretilip uygulamaya gömülür (internetsiz çalışır). Servis hesabını ve anahtarı Furkan açar; anahtar yalnızca `.env`'de durur, uygulamaya girmez.
   - Bekliyor (2026-11-12): Furkan Azure'a şimdilik giremedi, adım ertelendi. Önerilen servis Azure Speech (Free F0, West Europe); adımlar: Speech services → Create → Keys and Endpoint → `.env`'e `AZURE_SPEECH_KEY` ve `AZURE_SPEECH_REGION`.
-- [ ] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
+- [~] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
+  - ✅ 2–7 yaş ana ekranı: Nehir selam verir ve sesli sorar ("Merhaba …! Hangi dünyaya gidelim?"); 6 büyük dünya kartı (hayvanlar, yiyecekler, renkler ve şekiller, vücudum, evim, doğa), kapak = dünyanın ilk kelimesinin resmi. Okuma gerekmez.
+  - ✅ Oturum = 8 etkinlik (`src/features/games/mini/session.ts`): resmi bul ×5 (4 resim, 2×2), sepet ×2 (3 resim; sürükle-bırak ya da dokun), hafıza ×1 (3 çift, 6 kart; açılan kartın kelimesi seslendirilir). Kelimeler aralıklı tekrar destesinden seçilir (önce vadesi gelenler).
+  - ✅ Yönerge arayüz dilinde, ardından İngilizce kelime seslendirilir; "Tekrar dinle" butonu. Yanlışta ceza yok: kart sallanır ve solar, Kerem "Hadi bir daha!" der, kelime tekrar edilir; 2 yanlıştan sonra doğru resim limon rengiyle parlar. Doğruda "Aferin!" + kelime, zıplama, büyük "Devam" butonu (çocuk hızı belirler). Can, süre yok.
+  - ✅ Çıkış basılı tutarak (0,7 sn): tek dokunuş bir şey yapmaz. Tur sonu: üç karakter sevinir, "Harika! Yarın görüşürüz." seslendirilir, hatasız turda konfeti; ilerleme, taş ve deste kaydedilir (hafıza kartları desteye yazılmaz, yalnızca tekrar).
+  - ✅ İlk oturum ücretsiz (CLAUDE.md: mini'de paywall ilk oyundan sonra). Deneme/abonelik yoksa tur sonunda "Ebeveyn: paketleri gör" (ebeveyn kapısı arkasında), ana ekranda kilit ekranı.
+  - Kararlar: Seslendirme şimdilik cihazın TTS'i (`expo-speech`); kayıtlı sesler LNG-32 ile gelecek (Azure anahtarı bekleniyor). Karakterler sesli konuşmuyor, yalnızca ifadeleri değişiyor. Sepet ve hafıza kartı çizimleri kodla (SVG).
+  - Derleme: yeni yerel paket yok; mevcut geliştirici derlemesi yeterli (`npx expo start` ile JS güncellemesi).
+  - Cihazda nasıl test edilir:
+    1. 2–7 yaş profiliyle aç → Nehir görünür, selamı sesli duyulur; altında 6 resimli kart. Ses kapalıysa (iPhone sessiz modu) TTS duyulmayabilir: sessiz modu kapat.
+    2. Hayvanlar'a dokun → "Hangisi?" + İngilizce kelime duyulur; 4 resimden doğruya dokun → "Aferin!" + kelime, kart yeşil ve zıplar, "Devam" çıkar.
+    3. Yanlış resme dokun → kart sallanır ve solar, "Hadi bir daha!" duyulur; ikinci yanlıştan sonra doğru resim sarı parlar.
+    4. Sepet etkinliğinde resmi parmakla sepete sürükle → sepete girer; sepetin dışına bırakınca yerine döner; dokunmak da işe yarar.
+    5. Hafıza kartlarında iki farklı kart açınca ~1 sn sonra kapanır; eşleşen çift yeşil kalır; her açılışta kelime söylenir.
+    6. 2–3 yaşındaki bir çocukla dene: kartlar parmağa yetecek kadar büyük mü, sürükleme zor mu, oturum (~5 dk) uzun mu?
+    7. Çarpıya bir kez dokun → hiçbir şey olmamalı; basılı tut → ana ekrana döner.
+    8. Deneme başlatılmamış yeni bir profille bir oturum bitir → tur sonunda "Ebeveyn: paketleri gör"; ana ekrana dönünce kilit ekranı. Butona basınca önce ebeveyn kapısı sorulmalı.
+    9. VoiceOver/TalkBack açıkken resim kartları Türkçe adıyla, kapalı kartlar "Kapalı kart 1…6" diye okunmalı.
+    10. Küçük ekranlı telefonda (iPhone SE) 2×2 resim ızgarası ve "Devam" butonu kaydırmadan sığıyor mu?
 - [ ] **LNG-34** CİHAZ — Çıkartma albümü (ödül). Önkoşul: LNG-33.
 
 ## Faz 7 — Yayın
