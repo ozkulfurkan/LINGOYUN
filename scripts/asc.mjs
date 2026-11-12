@@ -31,11 +31,14 @@ function token() {
 
 /** Calls the API; throws with Apple's error details on failure. */
 export async function asc(method, url, body) {
-  const res = await fetch(url.startsWith('http') ? url : `https://api.appstoreconnect.apple.com${url}`, {
-    method,
-    headers: { Authorization: `Bearer ${token()}`, 'Content-Type': 'application/json' },
-    body: body ? JSON.stringify(body) : undefined,
-  });
+  const res = await fetch(
+    url.startsWith('http') ? url : `https://api.appstoreconnect.apple.com${url}`,
+    {
+      method,
+      headers: { Authorization: `Bearer ${token()}`, 'Content-Type': 'application/json' },
+      body: body ? JSON.stringify(body) : undefined,
+    },
+  );
   const text = await res.text();
   const json = text ? JSON.parse(text) : null;
   if (!res.ok) {
