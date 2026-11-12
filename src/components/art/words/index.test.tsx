@@ -39,6 +39,14 @@ describe('wordArt', () => {
     expect(WORD_ART_IDS.filter((id) => !miniImages.has(id))).toEqual([]);
   });
 
+  it('has a picture for every word of ages 2–7', () => {
+    const missing = content.concepts
+      .filter((c) => c.ageGroups.includes('mini') && c.image)
+      .map((c) => c.image!)
+      .filter((image) => wordArt(image) === null);
+    expect(missing).toEqual([]);
+  });
+
   it.each(WORD_ART_IDS)('renders %s', async (id) => {
     const Art = wordArt(id)!;
     const { toJSON } = await render(<Art size={64} />);
