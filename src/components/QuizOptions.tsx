@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
 import type { QuizOption } from '@/features/quiz/types';
+import { useSettled } from '@/lib/useSettled';
 import { dimmedOpacity, space, stroke, touchTarget, useTheme } from '@/theme';
 
 import { CardFace } from './CardFace';
@@ -9,6 +10,8 @@ import { AnswerMark } from './illustrations';
 import { Bounce, Shake } from './Motion';
 import { PressScale } from './PressScale';
 import { ThemedText } from './ThemedText';
+
+type ColorName = 'onCorrect' | 'onIncorrect' | 'text';
 
 // Short answers fit two columns.
 const SHORT_OPTION = 12;
@@ -82,13 +85,9 @@ export function QuizOptions({ options, questionKey, onPick, reveal }: Props) {
                   borderRadius={radii.md}
                   boxShadow={shadow ?? undefined}
                 />
-                <ThemedText
-                  variant="option"
-                  color={isCorrect ? 'onCorrect' : isWrongPick ? 'onIncorrect' : 'text'}
-                  style={styles.text}
-                >
+                <OptionText color={isCorrect ? 'onCorrect' : isWrongPick ? 'onIncorrect' : 'text'}>
                   {option.text}
-                </ThemedText>
+                </OptionText>
                 {isCorrect || isWrongPick ? (
                   <View style={styles.mark}>
                     <AnswerMark kind={isCorrect ? 'right' : 'wrong'} />
@@ -100,6 +99,21 @@ export function QuizOptions({ options, questionKey, onPick, reveal }: Props) {
         );
       })}
     </View>
+  );
+}
+
+/**
+ * An option's words. The colour for a right or wrong answer comes in once the
+ * card's press and bounce have ended: redrawn mid-motion, iOS left the text
+ * blurry (BUG-1).
+ */
+function OptionText({ color, children }: { color: ColorName; children: string }) {
+  const { motion } = useTheme();
+  const settled = useSettled(color, motion.celebrate);
+  return (
+    <ThemedText variant="option" color={settled} style={styles.text}>
+      {children}
+    </ThemedText>
   );
 }
 
