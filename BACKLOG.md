@@ -109,7 +109,8 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Kalan: Android ürünleri ve RevenueCat Android anahtarı (Android cihaz olunca). Fiyatlar App Store Connect'te.
 - [x] **LNG-24** BULUT — Deneme/entitlement mantığı (saf fonksiyon + test): deneme başlangıcı, kalan gün, süre doldu, abone. Önkoşul: LNG-1.
   - `src/features/subscription/access.ts`: `accessState` → `subscribed` / `trial` (kalan gün, bitmek üzere uyarısı ≤ 2 gün) / `trialEnded` / `notStarted`; `canPlay`. Deneme tam 7×24 saat; abonelik her durumda önce gelir. Saat geri alınarak deneme uzatılamaz (`lastSeenAt`). Deneme bir kez başlar. iOS'ta başlangıç App Store'daki 0 TL ürünün satın alma tarihi, Android'de yerel kayıt (`resolveTrialStart`). Kayıt: `src/storage/trial.ts` (`trial.v1`, cihaz geneli).
-- [~] **LNG-25** CİHAZ — RevenueCat entegrasyonu, paywall ekranı, satın al / geri yükle, kilit. Önkoşul: LNG-23, LNG-24.
+- [x] **LNG-25** CİHAZ — RevenueCat entegrasyonu, paywall ekranı, satın al / geri yükle, kilit. Önkoşul: LNG-23, LNG-24.
+  - ✅ Furkan cihazda onayladı (2026-11-13): sandbox ile deneme ve abonelik, paywall fiyatları. LNG-32, 33, 34 ve ebeveyn kapısı değişikliği de cihazda onaylandı; hepsi main'e alındı.
   - ✅ `react-native-purchases` (yerel paket: **yeni derleme gerekir**). Bağlantı `src/lib/purchases.ts` (iOS anahtarı kodda; Android anahtarı yok, Android'de deneme yerel tutulur). Mağazanın son cevabı cihazda saklanır (`subscription.v1`): internetsiz açılışta bilinen durum kullanılır, süresi geçmiş abonelik güvenilmez. Saf mantık `src/features/subscription/store.ts`.
   - ✅ Paywall (`/paywall`, ebeveyn kapısının arkasında): 7 gün ücretsiz deneme (iOS'ta 0 TL ürün satın alınır), yıllık / aylık paket (fiyat mağazadan, yıllıkta "%X tasarruf"), satın alımları geri yükle, yenileme metni (iOS ve Android ayrı), Kullanım Koşulları (Apple standart EULA) ve Gizlilik Politikası bağlantısı.
   - ✅ Seviye sonucundan sonra deneme/abonelik yoksa paywall açılır. Ana ekran kilitlenir: çocuğa "bir yetişkinden yardım iste", yetişkine "Paketleri gör". Denemenin son 2 gününde ana ekranda uyarı. Ayarlarda abonelik durumu, "Paketleri gör" / "Aboneliği yönet". 2–7 yaş ana ekranı henüz "yakında" olduğu için kilitlenmiyor.
@@ -231,7 +232,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
   - Kararlar: vücut = Nehir üzerinde ahududu vurgu halkası (yüz parçaları portre çerçevede); karakter üzerinde seçilemeyen ya da görünmeyen parmak, ayak parmağı, diş, dil ve sırt yakın plan ayrı çizildi (sırt: arkadan Nehir, çapraz tulum askıları). Kaşlar çizimde yalnızca üzgün ifadede olduğu için kaş resminde sakin kaşlar halka katmanında çiziliyor. Sayılar = kil rakam + o kadar boncuk (10'dan sonra onluk çubuk); zıt anlamlılar = ikisi yan yana, sorulan renkli, karşıtı soluk.
   - Önizleme aracı (geçici, repoda yok): `react-native-svg` düz SVG etiketlerine eşlenip `react-dom/server` ile SVG'ye çevrilir, Chromium ile resme dönüştürülür.
   - ✅ Furkan onayladı (2026-11-12): 9–11. partiler ve varsayılan küçük seçimler (biber, peynir, et, deve, ay, şapka, çanta, mayo) olduğu gibi; tekne değişmiyor.
-- [ ] **LNG-32** BULUT + FURKAN — Sesler: 300 kelime × EN + TR ve karakter yönergeleri. Furkan'ın kararı: kaliteli bir TTS servisiyle bir kez üretilip uygulamaya gömülür (internetsiz çalışır). Servis hesabını ve anahtarı Furkan açar; anahtar yalnızca `.env`'de durur, uygulamaya girmez.
+- [x] **LNG-32** BULUT + FURKAN — Sesler: 300 kelime × EN + TR ve karakter yönergeleri. Furkan'ın kararı: kaliteli bir TTS servisiyle bir kez üretilip uygulamaya gömülür (internetsiz çalışır). Servis hesabını ve anahtarı Furkan açar; anahtar yalnızca `.env`'de durur, uygulamaya girmez.
   - ✅ Azure Speech (Free F0, East US; West Europe yeni müşteri almıyor) Furkan'ın hesabında; anahtar yalnızca `.env`'de.
   - ✅ Sesler Furkan'ın seçimi (2026-11-13): Türkçe **Emel**, İngilizce **Jenny**, %10 yavaş. `npm run voices` eksik sesleri kaydeder (`--force` hepsini yeniden): 300 kelimenin İngilizcesi + 2–7 ekranlarının yönergeleri (TR ve EN: Hangisi?, Sepete koy:, Eşlerini bul!, Aferin!, Hadi bir daha!, Harika! Yarın görüşürüz., dünya adları, albüm, "2/3 yeni çıkartma!"). Dosyalar `assets/audio/voice/<dil>/`, dizin `src/lib/voiceClips.ts` (üretilir).
   - ✅ `speak` / `speakSequence` önce kayıtlı sesi çalar (expo-audio, sırayla), kaydı olmayan metni telefonun sesi okur. Karşılama sesli olarak adsız ("Merhaba! Hangi dünyaya gidelim?"); ad ekranda yazar.
@@ -243,7 +244,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     4. Hızlı hızlı farklı kartlara dokun → önceki ses kesilip yenisi başlamalı.
     5. Tur sonu ve albüm: "Harika! Yarın görüşürüz.", "3 yeni çıkartma!", dünya adları Emel'in sesiyle.
     6. Telefon dili İngilizce: yönergeler Jenny'nin sesiyle İngilizce.
-- [~] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
+- [x] **LNG-33** CİHAZ — Mini oyunlar: sesi duy → resmi bul, sürükle-bırak sepet, hafıza kartları. Önkoşul: LNG-13, LNG-31.
   - ✅ 2–7 yaş ana ekranı: Nehir selam verir ve sesli sorar ("Merhaba …! Hangi dünyaya gidelim?"); 6 büyük dünya kartı (hayvanlar, yiyecekler, renkler ve şekiller, vücudum, evim, doğa), kapak = dünyanın ilk kelimesinin resmi. Okuma gerekmez.
   - ✅ Oturum = 8 etkinlik (`src/features/games/mini/session.ts`): resmi bul ×3 (4 resim, 2×2), **kelimeyi bul ×2**, sepet ×2 (3 resim; sürükle-bırak ya da dokun), hafıza ×1 (3 çift, 6 kart; açılan kartın kelimesi seslendirilir). Kelimeler aralıklı tekrar destesinden seçilir (önce vadesi gelenler).
   - ✅ Furkan'ın cihaz geri bildirimi (2026-11-13):
@@ -268,7 +269,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
     8. Deneme başlatılmamış yeni bir profille bir oturum bitir → tur sonunda "Ebeveyn: paketleri gör"; ana ekrana dönünce kilit ekranı. Butona basınca önce ebeveyn kapısı sorulmalı.
     9. VoiceOver/TalkBack açıkken resim kartları Türkçe adıyla, kapalı kartlar "Kapalı kart 1…6" diye okunmalı.
     10. Küçük ekranlı telefonda (iPhone SE) 2×2 resim ızgarası ve "Devam" butonu kaydırmadan sığıyor mu?
-- [~] **LNG-34** CİHAZ — Çıkartma albümü (ödül). Önkoşul: LNG-33.
+- [x] **LNG-34** CİHAZ — Çıkartma albümü (ödül). Önkoşul: LNG-33.
   - Not: LNG-33 cihazda onaylanmadan Furkan'ın isteğiyle başlandı (2026-11-12); `lng-33-mini-games` dalının üzerine `lng-34-sticker-album`.
   - ✅ Her kelime resmi bir çıkartma: 6 dünya = 6 sayfa × 50 yer. Biten her oturum **2 çıkartma**, hiç yanlışsız oturum **3** verir; önce o turda oynanan kelimeler, sonra aynı dünyanın eksikleri. Aynı çıkartma iki kez gelmez, hiçbir şey geri alınmaz. Mantık `src/features/games/mini/stickers.ts`, kayıt `stickers.v1.<profil>` (profil silinince silinir).
   - ✅ Tur sonu: yeni çıkartmalar zıplayarak görünür, "3 yeni çıkartma!" ve İngilizce kelimeleri seslendirilir.
