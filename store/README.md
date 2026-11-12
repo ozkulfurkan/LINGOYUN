@@ -23,7 +23,7 @@ node scripts/generate-icons.mjs
 
    | No  | Ekran                                                       | İpucu                         |
    | --- | ----------------------------------------------------------- | ----------------------------- |
-   | 01  | Nehir haritası (7–12 profili, 2–3 seviye tamamlanmış)       | Taş ve seri sayısı dolu olsun |
+   | 01  | Nehir haritası: tema yolu (7–12 ya da yetişkin)              | Birkaç tema geçilmiş olsun    |
    | 02  | Çoktan seçmeli, doğru cevap anı ("Aferin!")                 |                               |
    | 03  | Harf dizme, kelime yarı dizilmiş                            |                               |
    | 04  | Cümle kurma, cümle yarı kurulmuş                            |                               |
