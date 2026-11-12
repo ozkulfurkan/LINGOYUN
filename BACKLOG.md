@@ -302,6 +302,7 @@ Etiketler: **BULUT** (bulutta doğrulanabilir) · **CİHAZ** (gerçek cihaz test
 
 ## Notlar / bulgular
 
+- BUG-1 (2026-11-13, ekran görüntülerinde görüldü): doğru cevaba dönen, dokunulmuş kartın yazısı iOS'ta pikselli (7–12 seçenek kartı, 2–7 kelime kartı). Olası sebep: kart basılıyken (küçülmüşken) gölgesi değişiyor ve iOS gölgeyi yazıyla birlikte düşük çözünürlükte yeniden çiziyor. Düzeltme denemesi: renk, kenar ve gölge yazının arkasında ayrı katmanda (`src/components/CardFace.tsx`; seçenek, resim ve kelime kartları). **Cihazda doğrulanacak:** doğru cevapta yeşil kartın yazısı net mi?
 - Commit öneki `LNG` olarak seçildi; değiştirmek istersen söyle.
 - Cihazda doğrulanacak (LNG-38): Hermes'te `\p{P}` düzenli ifadesi ve `String.normalize` çalışıyor mu? İlk cihaz derlemesinde, Türkçe ve İngilizce telefonda arayüz dilinin doğru seçildiği de kontrol edilecek.
 - Cihazda doğrulanacak (LNG-2): fontlar, kil gölgeleri ve koyu moda geçiş iPhone'da LNG-16 testiyle görüldü; Android'de bakılacak.

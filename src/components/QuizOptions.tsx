@@ -4,6 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import type { QuizOption } from '@/features/quiz/types';
 import { dimmedOpacity, space, stroke, touchTarget, useTheme } from '@/theme';
 
+import { CardFace } from './CardFace';
 import { AnswerMark } from './illustrations';
 import { Bounce, Shake } from './Motion';
 import { PressScale } from './PressScale';
@@ -69,14 +70,18 @@ export function QuizOptions({ options, questionKey, onPick, reveal }: Props) {
                 style={[
                   styles.option,
                   {
-                    backgroundColor: background,
-                    borderColor: colors.border,
                     borderRadius: radii.md,
-                    boxShadow: shadow ?? undefined,
                     opacity: reveal && !isCorrect && !isWrongPick ? dimmedOpacity : 1,
                   },
                 ]}
               >
+                <CardFace
+                  backgroundColor={background}
+                  borderColor={colors.border}
+                  borderWidth={stroke.thin}
+                  borderRadius={radii.md}
+                  boxShadow={shadow ?? undefined}
+                />
                 <ThemedText
                   variant="option"
                   color={isCorrect ? 'onCorrect' : isWrongPick ? 'onIncorrect' : 'text'}
@@ -108,7 +113,6 @@ const styles = StyleSheet.create({
     minHeight: touchTarget.mini,
     alignItems: 'center',
     justifyContent: 'center',
-    borderWidth: stroke.thin,
     padding: space.md,
   },
   // Slightly under half a row: the gap takes the rest, and flexGrow fills it.

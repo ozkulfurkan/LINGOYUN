@@ -5,6 +5,7 @@ import Svg, { Ellipse, G, Path, Rect } from 'react-native-svg';
 
 import { WordPicture } from '@/components/art/words/WordPicture';
 import { CloseIcon } from '@/components/illustrations';
+import { CardFace } from '@/components/CardFace';
 import { PressScale } from '@/components/PressScale';
 import { ThemedText } from '@/components/ThemedText';
 import { artPalette } from '@/theme/artPalette';
@@ -55,16 +56,20 @@ export function PictureCard({
         {
           width: size,
           height: size,
-          backgroundColor: background,
-          borderColor: state === 'idle' || state === 'wrong' ? colors.border : colors.accentText,
-          borderWidth: state === 'idle' || state === 'wrong' ? stroke.thin : stroke.thick,
           borderRadius: radii.lg,
-          boxShadow:
-            state === 'right' ? (elevation.correct ?? undefined) : (elevation.surface ?? undefined),
           opacity: state === 'wrong' ? dimmedOpacity : 1,
         },
       ]}
     >
+      <CardFace
+        backgroundColor={background}
+        borderColor={state === 'idle' || state === 'wrong' ? colors.border : colors.accentText}
+        borderWidth={state === 'idle' || state === 'wrong' ? stroke.thin : stroke.thick}
+        borderRadius={radii.lg}
+        boxShadow={
+          state === 'right' ? (elevation.correct ?? undefined) : (elevation.surface ?? undefined)
+        }
+      />
       <WordPicture image={image} size={size * 0.8} />
     </PressScale>
   );
@@ -108,17 +113,21 @@ export function WordCard({
         styles.wordCard,
         {
           width,
-          backgroundColor: background,
-          borderColor: marked ? colors.accentText : colors.border,
-          borderWidth: marked ? stroke.thick : stroke.thin,
           borderRadius: radii.lg,
-          boxShadow:
-            state === 'right' ? (elevation.correct ?? undefined) : (elevation.surface ?? undefined),
           opacity: state === 'wrong' ? dimmedOpacity : 1,
           transform: [{ scale: selected && state === 'idle' ? 1.05 : 1 }],
         },
       ]}
     >
+      <CardFace
+        backgroundColor={background}
+        borderColor={marked ? colors.accentText : colors.border}
+        borderWidth={marked ? stroke.thick : stroke.thin}
+        borderRadius={radii.lg}
+        boxShadow={
+          state === 'right' ? (elevation.correct ?? undefined) : (elevation.surface ?? undefined)
+        }
+      />
       <ThemedText variant="title" numberOfLines={2} adjustsFontSizeToFit style={styles.wordText}>
         {word}
       </ThemedText>
