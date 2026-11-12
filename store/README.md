@@ -23,16 +23,16 @@ node scripts/generate-icons.mjs
 
 1. Telefonda (geliştirici ya da önizleme derlemesi) **telefon dili Türkçe** iken 6 ekran görüntüsü al. Sıra `listings.json` → `screenshotCaptions` ile aynı:
 
-   | No  | Ekran                                                       | İpucu                      |
-   | --- | ----------------------------------------------------------- | -------------------------- |
-   | 01  | Nehir haritası: tema yolu (7–12 ya da yetişkin)             | Birkaç tema geçilmiş olsun |
-   | 02  | Çoktan seçmeli, doğru cevap anı ("Aferin!")                 |                            |
-   | 03  | Harf dizme, kelime yarı dizilmiş                            |                            |
-   | 04  | Cümle kurma, cümle yarı kurulmuş                            |                            |
-   | 05  | Deyimler ve tuzaklar (yetişkin, koyu mod), açıklamalı cevap | "magazine" sorusu ideal    |
-   | 06  | Tur özeti, hatasız tur (konfeti)                            | Konfeti ekrandayken çek    |
+   | No  | Ekran                                                 | İpucu                      |
+   | --- | ----------------------------------------------------- | -------------------------- |
+   | 01  | Nehir haritası: tema yolu (7–12 ya da yetişkin)       | Birkaç tema geçilmiş olsun |
+   | 02  | 2–7 yaş, resmi bul: Nehir üstte, 4 resim              | Doğru resim yeşilken       |
+   | 03  | 2–7 yaş, kelimeyi bul: resim + 4 kelime               | Bir kelime işaretliyken    |
+   | 04  | Basamak sorusu, doğru cevap anı (7–12)                | Kalpler görünsün           |
+   | 05  | Cümle kurma, cümle yarı kurulmuş (yetişkin, koyu mod) |                            |
+   | 06  | Çıkartma albümü, birkaç çıkartma kazanılmış           |                            |
 
-2. Dosyaları koy: `store/screenshots/raw/tr-TR/01.png … 06.png` ve `store/screenshots/raw/en-US/01.png … 06.png` (`.jpg` de olur; repoya girmez).
+2. Dosyaları koy: `store/screenshots/raw/tr-TR/01.png … 06.png` (`.jpg` de olur; repoya girmez).
 3. Çalıştır:
 
    ```bash
