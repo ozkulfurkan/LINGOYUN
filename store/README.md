@@ -19,16 +19,18 @@ node scripts/generate-icons.mjs
 
 ## Ekran görüntüleri
 
-1. Telefonda (geliştirici ya da önizleme derlemesi) **telefon dili Türkçe** iken 6 ekran görüntüsü al, sonra telefon dilini İngilizce yapıp aynı 6'sını tekrar al. Sıra `listings.json` → `screenshotCaptions` ile aynı:
+> Karar (Furkan, 2026-11-13): yalnızca **Türkçe** görüntüler yüklenir (`store/screenshots/tr-TR/`). İngilizce mağaza sayfasına ayrı görüntü yüklenmez; App Store ana dilin (Türkçe) görüntülerini kullanır. `listings.json`'daki İngilizce başlıklar ileride gerekirse diye duruyor.
 
-   | No  | Ekran                                                       | İpucu                         |
-   | --- | ----------------------------------------------------------- | ----------------------------- |
-   | 01  | Nehir haritası: tema yolu (7–12 ya da yetişkin)              | Birkaç tema geçilmiş olsun    |
-   | 02  | Çoktan seçmeli, doğru cevap anı ("Aferin!")                 |                               |
-   | 03  | Harf dizme, kelime yarı dizilmiş                            |                               |
-   | 04  | Cümle kurma, cümle yarı kurulmuş                            |                               |
-   | 05  | Deyimler ve tuzaklar (yetişkin, koyu mod), açıklamalı cevap | "magazine" sorusu ideal       |
-   | 06  | Tur özeti, hatasız tur (konfeti)                            | Konfeti ekrandayken çek       |
+1. Telefonda (geliştirici ya da önizleme derlemesi) **telefon dili Türkçe** iken 6 ekran görüntüsü al. Sıra `listings.json` → `screenshotCaptions` ile aynı:
+
+   | No  | Ekran                                                       | İpucu                      |
+   | --- | ----------------------------------------------------------- | -------------------------- |
+   | 01  | Nehir haritası: tema yolu (7–12 ya da yetişkin)             | Birkaç tema geçilmiş olsun |
+   | 02  | Çoktan seçmeli, doğru cevap anı ("Aferin!")                 |                            |
+   | 03  | Harf dizme, kelime yarı dizilmiş                            |                            |
+   | 04  | Cümle kurma, cümle yarı kurulmuş                            |                            |
+   | 05  | Deyimler ve tuzaklar (yetişkin, koyu mod), açıklamalı cevap | "magazine" sorusu ideal    |
+   | 06  | Tur özeti, hatasız tur (konfeti)                            | Konfeti ekrandayken çek    |
 
 2. Dosyaları koy: `store/screenshots/raw/tr-TR/01.png … 06.png` ve `store/screenshots/raw/en-US/01.png … 06.png` (`.jpg` de olur; repoya girmez).
 3. Çalıştır:
