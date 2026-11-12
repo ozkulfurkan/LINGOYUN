@@ -1,4 +1,13 @@
 import { animalArt } from './animals';
+import { animalSmallArt } from './animals-small';
+import { animalWildArt } from './animals-wild';
+import { produceArt } from './produce';
+import { mealArt } from './meals';
+import { wardrobeArt } from './wardrobe';
+import { householdArt } from './household';
+import { playthingArt } from './playthings';
+import { oppositeArt } from './opposites';
+import { outdoorArt } from './outdoors';
 import { clothesArt } from './clothes';
 import { foodArt } from './food';
 import { homeArt } from './home';
@@ -25,6 +34,15 @@ const WORD_ART: WordArtMap = {
   ...toyArt,
   ...natureArt,
   ...vehicleArt,
+  ...animalSmallArt,
+  ...animalWildArt,
+  ...produceArt,
+  ...mealArt,
+  ...wardrobeArt,
+  ...householdArt,
+  ...playthingArt,
+  ...oppositeArt,
+  ...outdoorArt,
 };
 
 /** Image ids that have a drawn picture. */
