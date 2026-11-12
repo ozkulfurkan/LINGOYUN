@@ -137,8 +137,11 @@ const styles = StyleSheet.create({
   optionWide: {
     flexBasis: '100%',
   },
+  // Room on both sides for the 24 pt answer mark in the corner: long words
+  // never run under it, and the text stays centred whether it shows or not.
   text: {
     textAlign: 'center',
+    paddingHorizontal: space.lg,
   },
   mark: {
     position: 'absolute',
